@@ -113,6 +113,11 @@
         "licencia": "CC BY-SA 2.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Sports_Festival_2025_-_4_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 1997,
+        "fin": null,
+        "fuente": "wikidata"
       }
     },
     {

@@ -233,6 +233,11 @@
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Iniesta_Argentina_v_Spain_19_July_2026-034_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 2000,
+        "fin": 2024,
+        "fuente": "wikidata"
       }
     },
     {
@@ -263,6 +268,11 @@
         "licencia": "CC BY-SA 2.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Sports_Festival_2025_-_4_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 1997,
+        "fin": null,
+        "fuente": "wikidata"
       }
     },
     {
@@ -522,6 +532,11 @@
         "licencia": "CC BY-SA 3.0 nl",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Johan_Cruyff_in_trainingspak_Nederlands_Elftal_,_kop.jpg"
+      },
+      "carrera": {
+        "inicio": 1964,
+        "fin": 1984,
+        "fuente": "wikidata"
       }
     },
     {
@@ -552,6 +567,11 @@
         "licencia": "Public domain",
         "url_licencia": "",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Franz_Beckenbauer_(1975).jpg"
+      },
+      "carrera": {
+        "inicio": 1964,
+        "fin": 1983,
+        "fuente": "wikidata"
       }
     },
     {
@@ -609,6 +629,11 @@
         "licencia": "Public domain",
         "url_licencia": "",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Eusebio_en_1973.jpg"
+      },
+      "carrera": {
+        "inicio": 1957,
+        "fin": 1979,
+        "fuente": "wikidata"
       }
     },
     {
@@ -921,6 +946,11 @@
         "licencia": "CC BY 2.0",
         "url_licencia": "https://creativecommons.org/licenses/by/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Gianluigi_Buffon_(31784615942)_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 1993,
+        "fin": 2023,
+        "fuente": "wikidata"
       }
     },
     {

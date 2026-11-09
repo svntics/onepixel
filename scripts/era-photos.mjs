@@ -2,7 +2,8 @@
 //  Fotos de la época: busca, para jugadores HISTÓRICOS, fotos de Commons tomadas
 //  mientras jugaban (la foto principal de Wikidata suele ser reciente).
 //
-//  Uso:   npm run era-photos                  → todos los históricos
+//  Uso:   npm run era-photos                  → históricos aún no revisados (retoma donde quedó)
+//         npm run era-photos -- --force       → todos los históricos de nuevo
 //         npm run era-photos -- --solo=id     → un jugador
 //
 //  1. Años de carrera: desde Wikidata (clubes P54 con fechas P580/P582). Se guardan en
@@ -167,7 +168,9 @@ let rows = {};
 try {
   rows = JSON.parse(readFileSync(rowsPath, "utf8"));
 } catch {}
-const todo = [...players.values()].filter((p) => (ONLY ? p.id === ONLY : p.era === "historico"));
+const FORCE = process.argv.includes("--force");
+// Retoma donde quedó: salta a los ya revisados (salvo --force o --solo)
+const todo = [...players.values()].filter((p) => (ONLY ? p.id === ONLY : p.era === "historico" && (FORCE || !rows[p.id] || rows[p.id].obs?.some((o) => o.startsWith("Error")))));
 console.log(`Jugadores a revisar: ${todo.length}\n`);
 let n = 0;
 for (const p of todo) {

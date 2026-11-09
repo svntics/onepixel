@@ -83,6 +83,11 @@
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Didier_Drogba_(2019)_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 1998,
+        "fin": 2018,
+        "fuente": "wikidata"
       }
     },
     {
@@ -344,6 +349,11 @@
         "licencia": "CC BY-SA 3.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Steven_Gerrard_2018.jpg"
+      },
+      "carrera": {
+        "inicio": 1998,
+        "fin": 2016,
+        "fuente": "wikidata"
       }
     },
     {
@@ -764,6 +774,11 @@
         "licencia": "CC BY 2.0",
         "url_licencia": "https://creativecommons.org/licenses/by/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Fernando_Torres_2017.jpg"
+      },
+      "carrera": {
+        "inicio": 1995,
+        "fin": 2019,
+        "fuente": "wikidata"
       }
     },
     {

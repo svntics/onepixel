@@ -94,5 +94,978 @@
       }
     ],
     "obs": []
+  },
+  "didier-drogba": {
+    "id": "didier-drogba",
+    "jugador": "Didier Drogba",
+    "carrera": {
+      "inicio": 1998,
+      "fin": 2018,
+      "fuente": "wikidata"
+    },
+    "categoria": "Didier Drogba",
+    "actual": {
+      "titulo": "File:Didier Drogba (2019) (cropped).jpg",
+      "año": 2019
+    },
+    "candidatas": [
+      {
+        "titulo": "File:Drogba Weimann Kolo Toure 9253.JPG",
+        "año": 2012,
+        "licencia": "CC BY-SA 3.0 at",
+        "autor": "Ailura",
+        "ancho": 2144,
+        "alto": 3216,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Drogba_Weimann_Kolo_Toure_9253.JPG/330px-Drogba_Weimann_Kolo_Toure_9253.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Drogba_Weimann_Kolo_Toure_9253.JPG",
+        "licOk": true,
+        "score": 14.9
+      },
+      {
+        "titulo": "File:Drogba Madrid.JPG",
+        "año": 2013,
+        "licencia": "CC BY-SA 3.0",
+        "autor": "Ultraslansi",
+        "ancho": 2175,
+        "alto": 2032,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Drogba_Madrid.JPG/330px-Drogba_Madrid.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Drogba_Madrid.JPG",
+        "licOk": true,
+        "score": 14.85
+      },
+      {
+        "titulo": "File:Sneijder & Drogba.JPG",
+        "año": 2013,
+        "licencia": "CC BY-SA 3.0",
+        "autor": "Ultraslansi",
+        "ancho": 2038,
+        "alto": 1956,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Sneijder_%26_Drogba.JPG/330px-Sneijder_%26_Drogba.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Sneijder_%26_Drogba.JPG",
+        "licOk": true,
+        "score": 14.81
+      },
+      {
+        "titulo": "File:Didier Drogba'13-14.JPG",
+        "año": 2014,
+        "licencia": "CC BY-SA 3.0",
+        "autor": "Ultraslansi",
+        "ancho": 2384,
+        "alto": 2467,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Didier_Drogba%2713-14.JPG/330px-Didier_Drogba%2713-14.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Didier_Drogba%2713-14.JPG",
+        "licOk": true,
+        "score": 14.8
+      },
+      {
+        "titulo": "File:John Terry Didier Drogba'14.JPG",
+        "año": 2014,
+        "licencia": "CC BY-SA 3.0",
+        "autor": "Ultraslansi",
+        "ancho": 2211,
+        "alto": 2592,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/John_Terry_Didier_Drogba%2714.JPG/330px-John_Terry_Didier_Drogba%2714.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:John_Terry_Didier_Drogba%2714.JPG",
+        "licOk": true,
+        "score": 14.8
+      },
+      {
+        "titulo": "File:Didier Drogba pose pour Airness.jpg",
+        "año": 2004,
+        "licencia": "CC BY-SA 4.0",
+        "autor": "Cdk92",
+        "ancho": 2336,
+        "alto": 3504,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Didier_Drogba_pose_pour_Airness.jpg/330px-Didier_Drogba_pose_pour_Airness.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Didier_Drogba_pose_pour_Airness.jpg",
+        "licOk": true,
+        "score": 14.7
+      },
+      {
+        "titulo": "File:Tomas Sivok & Drogba.JPG",
+        "año": 2014,
+        "licencia": "CC BY-SA 4.0",
+        "autor": "Ultraslansi",
+        "ancho": 1883,
+        "alto": 2281,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Tomas_Sivok_%26_Drogba.JPG/330px-Tomas_Sivok_%26_Drogba.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Tomas_Sivok_%26_Drogba.JPG",
+        "licOk": true,
+        "score": 14.68
+      },
+      {
+        "titulo": "File:Didier Drogba 9279.JPG",
+        "año": 2012,
+        "licencia": "CC BY-SA 3.0 at",
+        "autor": "Ailura",
+        "ancho": 1553,
+        "alto": 2360,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Didier_Drogba_9279.JPG/330px-Didier_Drogba_9279.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Didier_Drogba_9279.JPG",
+        "licOk": true,
+        "score": 14.45
+      }
+    ],
+    "obs": []
+  },
+  "paolo-maldini": {
+    "id": "paolo-maldini",
+    "jugador": "Paolo Maldini",
+    "carrera": {
+      "inicio": 1985,
+      "fin": null,
+      "fuente": "wikidata"
+    },
+    "categoria": "Paolo Maldini",
+    "actual": {
+      "titulo": "File:Paolo Maldini press conference in Tehran (cropped).jpg",
+      "año": 2013
+    },
+    "candidatas": [
+      {
+        "titulo": "File:Maglia di paolo maldini indossata in italia 90, 01.JPG",
+        "año": 2014,
+        "licencia": "CC BY 3.0",
+        "autor": "Sailko",
+        "ancho": 2538,
+        "alto": 3390,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Maglia_di_paolo_maldini_indossata_in_italia_90%2C_01.JPG/330px-Maglia_di_paolo_maldini_indossata_in_italia_90%2C_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Maglia_di_paolo_maldini_indossata_in_italia_90,_01.JPG",
+        "licOk": true,
+        "score": 14.89
+      },
+      {
+        "titulo": "File:Maglia di paolo maldini indossata in italia 90, 02.JPG",
+        "año": 2014,
+        "licencia": "CC BY 3.0",
+        "autor": "Sailko",
+        "ancho": 2418,
+        "alto": 3648,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Maglia_di_paolo_maldini_indossata_in_italia_90%2C_02.JPG/330px-Maglia_di_paolo_maldini_indossata_in_italia_90%2C_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Maglia_di_paolo_maldini_indossata_in_italia_90,_02.JPG",
+        "licOk": true,
+        "score": 14.89
+      },
+      {
+        "titulo": "File:Maldini Italia.jpg",
+        "año": 2021,
+        "licencia": "CC BY-SA 4.0",
+        "autor": "Vasil Evlogiev",
+        "ancho": 3120,
+        "alto": 4160,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Maldini_Italia.jpg/330px-Maldini_Italia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Maldini_Italia.jpg",
+        "licOk": true,
+        "score": 14.72
+      },
+      {
+        "titulo": "File:Football against poverty 2014 - Paolo Maldini.jpg",
+        "año": 2014,
+        "licencia": "CC BY-SA 3.0",
+        "autor": "Ludovic Péron",
+        "ancho": 1487,
+        "alto": 2230,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Football_against_poverty_2014_-_Paolo_Maldini.jpg/330px-Football_against_poverty_2014_-_Paolo_Maldini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Football_against_poverty_2014_-_Paolo_Maldini.jpg",
+        "licOk": true,
+        "score": 14.38
+      },
+      {
+        "titulo": "File:PaoloMaldini 2008.jpg",
+        "año": 2008,
+        "licencia": "CC BY-SA 3.0",
+        "autor": "Рыбакова Елена",
+        "ancho": 899,
+        "alto": 820,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/PaoloMaldini_2008.jpg/330px-PaoloMaldini_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:PaoloMaldini_2008.jpg",
+        "licOk": true,
+        "score": 13.78
+      },
+      {
+        "titulo": "File:Paolo Maldini AC Milan Technical director 2018.jpg",
+        "año": 2018,
+        "licencia": "CC BY 3.0",
+        "autor": "GOAL TV",
+        "ancho": 906,
+        "alto": 932,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Paolo_Maldini_AC_Milan_Technical_director_2018.jpg/330px-Paolo_Maldini_AC_Milan_Technical_director_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Paolo_Maldini_AC_Milan_Technical_director_2018.jpg",
+        "licOk": true,
+        "score": 13.7
+      },
+      {
+        "titulo": "File:Maldini2008.JPG",
+        "año": 2008,
+        "licencia": "CC BY-SA 1.0",
+        "autor": "Yelena Rybakova",
+        "ancho": 696,
+        "alto": 861,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Maldini2008.JPG/330px-Maldini2008.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Maldini2008.JPG",
+        "licOk": true,
+        "score": 13.66
+      },
+      {
+        "titulo": "File:Paolo Maldini 2009.jpg",
+        "año": 2009,
+        "licencia": "CC BY-SA 3.0",
+        "autor": "Christophe95",
+        "ancho": 454,
+        "alto": 566,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Paolo_Maldini_2009.jpg/330px-Paolo_Maldini_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Paolo_Maldini_2009.jpg",
+        "licOk": true,
+        "score": 13.44
+      }
+    ],
+    "obs": []
+  },
+  "andres-iniesta": {
+    "id": "andres-iniesta",
+    "jugador": "Andrés Iniesta",
+    "carrera": {
+      "inicio": 2000,
+      "fin": 2024,
+      "fuente": "wikidata"
+    },
+    "categoria": "Andrés Iniesta",
+    "actual": null,
+    "candidatas": [
+      {
+        "titulo": "File:Bodegas Iniesta, en Fuentealbilla. Wikitakes La Manchuela 03.jpg",
+        "año": 2017,
+        "licencia": "CC BY-SA 4.0",
+        "autor": "19Tarrestnom65",
+        "ancho": 2736,
+        "alto": 3648,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Bodegas_Iniesta%2C_en_Fuentealbilla._Wikitakes_La_Manchuela_03.jpg/330px-Bodegas_Iniesta%2C_en_Fuentealbilla._Wikitakes_La_Manchuela_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Bodegas_Iniesta,_en_Fuentealbilla._Wikitakes_La_Manchuela_03.jpg",
+        "licOk": true,
+        "score": 14.89
+      },
+      {
+        "titulo": "File:Bodegas Iniesta, en Fuentealbilla. Wikitakes La Manchuela 01.jpg",
+        "año": 2017,
+        "licencia": "CC BY-SA 4.0",
+        "autor": "19Tarrestnom65",
+        "ancho": 3648,
+        "alto": 2736,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Bodegas_Iniesta%2C_en_Fuentealbilla._Wikitakes_La_Manchuela_01.jpg/330px-Bodegas_Iniesta%2C_en_Fuentealbilla._Wikitakes_La_Manchuela_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Bodegas_Iniesta,_en_Fuentealbilla._Wikitakes_La_Manchuela_01.jpg",
+        "licOk": true,
+        "score": 11.89
+      },
+      {
+        "titulo": "File:Bodegas Iniesta, en Fuentealbilla. Wikitakes La Manchuela 02.jpg",
+        "año": 2017,
+        "licencia": "CC BY-SA 4.0",
+        "autor": "19Tarrestnom65",
+        "ancho": 3648,
+        "alto": 2736,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Bodegas_Iniesta%2C_en_Fuentealbilla._Wikitakes_La_Manchuela_02.jpg/330px-Bodegas_Iniesta%2C_en_Fuentealbilla._Wikitakes_La_Manchuela_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Bodegas_Iniesta,_en_Fuentealbilla._Wikitakes_La_Manchuela_02.jpg",
+        "licOk": true,
+        "score": 11.89
+      },
+      {
+        "titulo": "File:Bodegas Iniesta, en Fuentealbilla. Wikitakes La Manchuela 04.jpg",
+        "año": 2017,
+        "licencia": "CC BY-SA 4.0",
+        "autor": "19Tarrestnom65",
+        "ancho": 3648,
+        "alto": 2736,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Bodegas_Iniesta%2C_en_Fuentealbilla._Wikitakes_La_Manchuela_04.jpg/330px-Bodegas_Iniesta%2C_en_Fuentealbilla._Wikitakes_La_Manchuela_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Bodegas_Iniesta,_en_Fuentealbilla._Wikitakes_La_Manchuela_04.jpg",
+        "licOk": true,
+        "score": 11.89
+      },
+      {
+        "titulo": "File:Bodegas Iniesta, en Fuentealbilla. Wikitakes La Manchuela 05.jpg",
+        "año": 2017,
+        "licencia": "CC BY-SA 4.0",
+        "autor": "19Tarrestnom65",
+        "ancho": 3648,
+        "alto": 2736,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Bodegas_Iniesta%2C_en_Fuentealbilla._Wikitakes_La_Manchuela_05.jpg/330px-Bodegas_Iniesta%2C_en_Fuentealbilla._Wikitakes_La_Manchuela_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Bodegas_Iniesta,_en_Fuentealbilla._Wikitakes_La_Manchuela_05.jpg",
+        "licOk": true,
+        "score": 11.89
+      }
+    ],
+    "obs": []
+  },
+  "kaka": {
+    "id": "kaka",
+    "jugador": "Kaká",
+    "carrera": {
+      "inicio": 2000,
+      "fin": 2017,
+      "fuente": "wikidata"
+    },
+    "categoria": "Kaká (association football player)",
+    "actual": null,
+    "candidatas": [
+      {
+        "titulo": "File:Adidas Kaká Track Top front.JPG",
+        "año": 2010,
+        "licencia": "CC BY-SA 3.0",
+        "autor": "BrokenSphere",
+        "ancho": 4000,
+        "alto": 3000,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Adidas_Kak%C3%A1_Track_Top_front.JPG/330px-Adidas_Kak%C3%A1_Track_Top_front.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Adidas_Kak%C3%A1_Track_Top_front.JPG",
+        "licOk": true,
+        "score": 11.99
+      },
+      {
+        "titulo": "File:Adidas Kaká Track Top rear.JPG",
+        "año": 2010,
+        "licencia": "CC BY-SA 3.0",
+        "autor": "BrokenSphere",
+        "ancho": 4000,
+        "alto": 3000,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Adidas_Kak%C3%A1_Track_Top_rear.JPG/330px-Adidas_Kak%C3%A1_Track_Top_rear.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Adidas_Kak%C3%A1_Track_Top_rear.JPG",
+        "licOk": true,
+        "score": 11.99
+      },
+      {
+        "titulo": "File:Delgado and Kaka.png",
+        "año": 2017,
+        "licencia": "Public domain",
+        "autor": "Adam Roylance",
+        "ancho": 652,
+        "alto": 437,
+        "mime": "image/png",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Delgado_and_Kaka.png/330px-Delgado_and_Kaka.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Delgado_and_Kaka.png",
+        "licOk": true,
+        "score": 3.04
+      }
+    ],
+    "obs": []
+  },
+  "ronaldinho": {
+    "id": "ronaldinho",
+    "jugador": "Ronaldinho",
+    "carrera": {
+      "inicio": 1997,
+      "fin": null,
+      "fuente": "wikidata"
+    },
+    "categoria": "Ronaldinho Gaúcho",
+    "actual": null,
+    "candidatas": [
+      {
+        "titulo": "File:AlaimoRonaldinho.jpg",
+        "año": 2021,
+        "licencia": "CC BY-SA 4.0",
+        "autor": "Wikirenx90",
+        "ancho": 2316,
+        "alto": 3088,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/AlaimoRonaldinho.jpg/330px-AlaimoRonaldinho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:AlaimoRonaldinho.jpg",
+        "licOk": true,
+        "score": 14.77
+      },
+      {
+        "titulo": "File:Ronaldinho Gaúcho soccer star.jpg",
+        "año": 2014,
+        "licencia": "CC BY-SA 3.0",
+        "autor": "Pascal Kirchmair",
+        "ancho": 690,
+        "alto": 900,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Ronaldinho_Ga%C3%BAcho_soccer_star.jpg/330px-Ronaldinho_Ga%C3%BAcho_soccer_star.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Ronaldinho_Ga%C3%BAcho_soccer_star.jpg",
+        "licOk": true,
+        "score": 13.68
+      },
+      {
+        "titulo": "File:Rijkaard Ronaldinho.jpg",
+        "año": 2006,
+        "licencia": "Public domain",
+        "autor": "NASA",
+        "ancho": 922,
+        "alto": 654,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Rijkaard_Ronaldinho.jpg/330px-Rijkaard_Ronaldinho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Rijkaard_Ronaldinho.jpg",
+        "licOk": true,
+        "score": 10.36
+      },
+      {
+        "titulo": "File:Ronaldinho With Sivamani.jpg",
+        "año": 2013,
+        "licencia": "CC BY 3.0",
+        "autor": "Bollywood Hungama",
+        "ancho": 585,
+        "alto": 881,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Ronaldinho_With_Sivamani.jpg/330px-Ronaldinho_With_Sivamani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Ronaldinho_With_Sivamani.jpg",
+        "licOk": true,
+        "score": 9.54
+      },
+      {
+        "titulo": "File:Ronaldinho - Barcelona Sporting Club (24325445899).jpg",
+        "año": 2016,
+        "licencia": "CC BY-SA 2.0",
+        "autor": "César Muñoz/Andes",
+        "ancho": 3543,
+        "alto": 2342,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Ronaldinho_-_Barcelona_Sporting_Club_%2824325445899%29.jpg/330px-Ronaldinho_-_Barcelona_Sporting_Club_%2824325445899%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Ronaldinho_-_Barcelona_Sporting_Club_(24325445899).jpg",
+        "licOk": true,
+        "score": 8.94
+      },
+      {
+        "titulo": "File:Milan gaúcho.jpg",
+        "año": 2021,
+        "licencia": "CC BY-SA 4.0",
+        "autor": "Emerson Berger Correia",
+        "ancho": 2048,
+        "alto": 1363,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Milan_ga%C3%BAcho.jpg/330px-Milan_ga%C3%BAcho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Milan_ga%C3%BAcho.jpg",
+        "licOk": true,
+        "score": 8.14
+      },
+      {
+        "titulo": "File:Ronaldinho, Beckham, Kaka, Ancelotti.jpg",
+        "año": 2016,
+        "licencia": "CC BY-SA 4.0",
+        "autor": "Hanson K Joseph",
+        "ancho": 800,
+        "alto": 537,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Ronaldinho%2C_Beckham%2C_Kaka%2C_Ancelotti.jpg/330px-Ronaldinho%2C_Beckham%2C_Kaka%2C_Ancelotti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Ronaldinho,_Beckham,_Kaka,_Ancelotti.jpg",
+        "licOk": true,
+        "score": 7.48
+      },
+      {
+        "titulo": "File:Ronaldo versus Ronaldinho – Real Madrid versus F.C. Barcelona.jpg",
+        "año": 2007,
+        "licencia": "Public domain",
+        "autor": "No machine-readable author provided. Aguijarroo assumed (based on copyright claims).",
+        "ancho": 958,
+        "alto": 643,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Ronaldo_versus_Ronaldinho_%E2%80%93_Real_Madrid_versus_F.C._Barcelona.jpg/330px-Ronaldo_versus_Ronaldinho_%E2%80%93_Real_Madrid_versus_F.C._Barcelona.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Ronaldo_versus_Ronaldinho_%E2%80%93_Real_Madrid_versus_F.C._Barcelona.jpg",
+        "licOk": true,
+        "score": 3.39
+      }
+    ],
+    "obs": []
+  },
+  "johan-cruyff": {
+    "id": "johan-cruyff",
+    "jugador": "Johan Cruyff",
+    "carrera": {
+      "inicio": 1964,
+      "fin": 1984,
+      "fuente": "wikidata"
+    },
+    "categoria": "Johan Cruijff",
+    "actual": null,
+    "candidatas": [
+      {
+        "titulo": "File:Document Cruyff.jpg",
+        "año": 1981,
+        "licencia": "Public domain",
+        "autor": "Levante UD",
+        "ancho": 2064,
+        "alto": 2930,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Document_Cruyff.jpg/330px-Document_Cruyff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Document_Cruyff.jpg",
+        "licOk": true,
+        "score": 14.75
+      },
+      {
+        "titulo": "File:Levensgrote chocolade Johan Cruijff gemaakt door banketbakker in Sabat, Bestanddeelnr 927-1316.jpg",
+        "año": 1974,
+        "licencia": "CC0",
+        "autor": "Anefo",
+        "ancho": 1844,
+        "alto": 2385,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Levensgrote_chocolade_Johan_Cruijff_gemaakt_door_banketbakker_in_Sabat%2C_Bestanddeelnr_927-1316.jpg/330px-Levensgrote_chocolade_Johan_Cruijff_gemaakt_door_banketbakker_in_Sabat%2C_Bestanddeelnr_927-1316.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Levensgrote_chocolade_Johan_Cruijff_gemaakt_door_banketbakker_in_Sabat,_Bestanddeelnr_927-1316.jpg",
+        "licOk": true,
+        "score": 14.74
+      },
+      {
+        "titulo": "File:Johan Cruyff 1975.jpg",
+        "año": 1975,
+        "licencia": "CC BY 4.0",
+        "autor": "Micivek",
+        "ancho": 1042,
+        "alto": 1441,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Johan_Cruyff_1975.jpg/330px-Johan_Cruyff_1975.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Johan_Cruyff_1975.jpg",
+        "licOk": true,
+        "score": 13.99
+      },
+      {
+        "titulo": "File:Cruyff panini card 1974.jpg",
+        "año": 1974,
+        "licencia": "Public domain",
+        "autor": "Unknown author Unknown author",
+        "ancho": 1038,
+        "alto": 1491,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Cruyff_panini_card_1974.jpg/330px-Cruyff_panini_card_1974.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Cruyff_panini_card_1974.jpg",
+        "licOk": true,
+        "score": 13.94
+      },
+      {
+        "titulo": "File:Cruyff figurita argentina.jpg",
+        "año": 1974,
+        "licencia": "Public domain",
+        "autor": "Unknown author Unknown author",
+        "ancho": 886,
+        "alto": 1296,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Cruyff_figurita_argentina.jpg/330px-Cruyff_figurita_argentina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Cruyff_figurita_argentina.jpg",
+        "licOk": true,
+        "score": 13.79
+      },
+      {
+        "titulo": "File:Cruyff panini 1973.jpg",
+        "año": 1973,
+        "licencia": "Public domain",
+        "autor": "Unknown author Unknown author",
+        "ancho": 909,
+        "alto": 1341,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Cruyff_panini_1973.jpg/330px-Cruyff_panini_1973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Cruyff_panini_1973.jpg",
+        "licOk": true,
+        "score": 13.76
+      },
+      {
+        "titulo": "File:Cruyff panini 1976.jpg",
+        "año": 1976,
+        "licencia": "Public domain",
+        "autor": "Unknown author Unknown author",
+        "ancho": 720,
+        "alto": 1028,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Cruyff_panini_1976.jpg/330px-Cruyff_panini_1976.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Cruyff_panini_1976.jpg",
+        "licOk": true,
+        "score": 13.72
+      },
+      {
+        "titulo": "File:Cruyff barcelona card.jpg",
+        "año": 1975,
+        "licencia": "Public domain",
+        "autor": "Unknown author Unknown author",
+        "ancho": 492,
+        "alto": 761,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Cruyff_barcelona_card.jpg/330px-Cruyff_barcelona_card.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Cruyff_barcelona_card.jpg",
+        "licOk": true,
+        "score": 13.44
+      }
+    ],
+    "obs": []
+  },
+  "franz-beckenbauer": {
+    "id": "franz-beckenbauer",
+    "jugador": "Franz Beckenbauer",
+    "carrera": {
+      "inicio": 1964,
+      "fin": 1983,
+      "fuente": "wikidata"
+    },
+    "categoria": "Franz Beckenbauer",
+    "actual": null,
+    "candidatas": [
+      {
+        "titulo": "File:Franz Beckenbauer México 70.jpg",
+        "año": 1970,
+        "licencia": "Public domain",
+        "autor": "Panini",
+        "ancho": 412,
+        "alto": 588,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Franz_Beckenbauer_M%C3%A9xico_70.jpg/330px-Franz_Beckenbauer_M%C3%A9xico_70.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Franz_Beckenbauer_M%C3%A9xico_70.jpg",
+        "licOk": true,
+        "score": 13.13
+      },
+      {
+        "titulo": "File:Freiburg im Breisgau- SC Freiburg gegen Hamburger SV (u.a. mit Franz Beckenbauer) - LABW - Staatsarchiv Freiburg W 140 Nr. 00572.jpeg",
+        "año": 1981,
+        "licencia": "CC BY 4.0",
+        "autor": "Landesarchiv Baden-Württemberg, Staatsarchiv Freiburg W 140 Nr. 00572 / Fotograf: Marlis Decker",
+        "ancho": 1027,
+        "alto": 652,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Freiburg_im_Breisgau-_SC_Freiburg_gegen_Hamburger_SV_%28u.a._mit_Franz_Beckenbauer%29_-_LABW_-_Staatsarchiv_Freiburg_W_140_Nr._00572.jpeg/330px-Freiburg_im_Breisgau-_SC_Freiburg_gegen_Hamburger_SV_%28u.a._mit_Franz_Beckenbauer%29_-_LABW_-_Staatsarchiv_Freiburg_W_140_Nr._00572.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Freiburg_im_Breisgau-_SC_Freiburg_gegen_Hamburger_SV_(u.a._mit_Franz_Beckenbauer)_-_LABW_-_Staatsarchiv_Freiburg_W_140_Nr._00572.jpeg",
+        "licOk": true,
+        "score": 7.36
+      }
+    ],
+    "obs": []
+  },
+  "eusebio": {
+    "id": "eusebio",
+    "jugador": "Eusébio",
+    "carrera": {
+      "inicio": 1957,
+      "fin": 1979,
+      "fuente": "wikidata"
+    },
+    "categoria": "Eusébio",
+    "actual": {
+      "titulo": "File:Eusebio en 1973.jpg",
+      "año": 2018
+    },
+    "candidatas": [
+      {
+        "titulo": "File:Benfica logeert in hotel Wageningse Berg te Wageningen. Eusébio, Bestanddeelnr 922-0873.jpg",
+        "año": 1969,
+        "licencia": "CC0",
+        "autor": "Joost Evers / Anefo",
+        "ancho": 2443,
+        "alto": 3690,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Benfica_logeert_in_hotel_Wageningse_Berg_te_Wageningen._Eus%C3%A9bio%2C_Bestanddeelnr_922-0873.jpg/330px-Benfica_logeert_in_hotel_Wageningse_Berg_te_Wageningen._Eus%C3%A9bio%2C_Bestanddeelnr_922-0873.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Benfica_logeert_in_hotel_Wageningse_Berg_te_Wageningen._Eus%C3%A9bio,_Bestanddeelnr_922-0873.jpg",
+        "licOk": true,
+        "score": 14.95
+      },
+      {
+        "titulo": "File:Aankomst Benfica op Schiphol, Eusebio, Bestanddeelnr 925-5025.jpg",
+        "año": 1972,
+        "licencia": "CC0",
+        "autor": "W. Punt for Anefo",
+        "ancho": 2450,
+        "alto": 3691,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Aankomst_Benfica_op_Schiphol%2C_Eusebio%2C_Bestanddeelnr_925-5025.jpg/330px-Aankomst_Benfica_op_Schiphol%2C_Eusebio%2C_Bestanddeelnr_925-5025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Aankomst_Benfica_op_Schiphol,_Eusebio,_Bestanddeelnr_925-5025.jpg",
+        "licOk": true,
+        "score": 14.92
+      },
+      {
+        "titulo": "File:Eusébio 1972.jpg",
+        "año": 1972,
+        "licencia": "CC BY-SA 3.0 nl",
+        "autor": "W. Punt for Anefo",
+        "ancho": 2321,
+        "alto": 3135,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Eus%C3%A9bio_1972.jpg/330px-Eus%C3%A9bio_1972.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Eus%C3%A9bio_1972.jpg",
+        "licOk": true,
+        "score": 14.92
+      },
+      {
+        "titulo": "File:Ajax tegen Benfica 2-1, Eusébio in actie, Bestanddeelnr 917-7451.jpg",
+        "año": 1965,
+        "licencia": "CC0",
+        "autor": "Jack de Nijs for Anefo",
+        "ancho": 2558,
+        "alto": 2457,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Ajax_tegen_Benfica_2-1%2C_Eus%C3%A9bio_in_actie%2C_Bestanddeelnr_917-7451.jpg/330px-Ajax_tegen_Benfica_2-1%2C_Eus%C3%A9bio_in_actie%2C_Bestanddeelnr_917-7451.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Ajax_tegen_Benfica_2-1,_Eus%C3%A9bio_in_actie,_Bestanddeelnr_917-7451.jpg",
+        "licOk": true,
+        "score": 14.76
+      },
+      {
+        "titulo": "File:Ajax tegen Benfica 2-1, Schrijvers in duel met Eusebio, Bestanddeelnr 917-7453.jpg",
+        "año": 1965,
+        "licencia": "CC0",
+        "autor": "Jack de Nijs for Anefo",
+        "ancho": 2547,
+        "alto": 2481,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Ajax_tegen_Benfica_2-1%2C_Schrijvers_in_duel_met_Eusebio%2C_Bestanddeelnr_917-7453.jpg/330px-Ajax_tegen_Benfica_2-1%2C_Schrijvers_in_duel_met_Eusebio%2C_Bestanddeelnr_917-7453.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Ajax_tegen_Benfica_2-1,_Schrijvers_in_duel_met_Eusebio,_Bestanddeelnr_917-7453.jpg",
+        "licOk": true,
+        "score": 14.76
+      },
+      {
+        "titulo": "File:Eusebio1965.jpg",
+        "año": 1965,
+        "licencia": "CC0",
+        "autor": "Jack de Nijs for Anefo",
+        "ancho": 2558,
+        "alto": 2311,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Eusebio1965.jpg/330px-Eusebio1965.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Eusebio1965.jpg",
+        "licOk": true,
+        "score": 14.76
+      },
+      {
+        "titulo": "File:Benfica traint op bijvelden Feijenoord, Eusébio, Bestanddeelnr 915-0216.jpg",
+        "año": 1963,
+        "licencia": "CC0",
+        "autor": "Harry Pot for Anefo",
+        "ancho": 2370,
+        "alto": 3648,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Benfica_traint_op_bijvelden_Feijenoord%2C_Eus%C3%A9bio%2C_Bestanddeelnr_915-0216.jpg/330px-Benfica_traint_op_bijvelden_Feijenoord%2C_Eus%C3%A9bio%2C_Bestanddeelnr_915-0216.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Benfica_traint_op_bijvelden_Feijenoord,_Eus%C3%A9bio,_Bestanddeelnr_915-0216.jpg",
+        "licOk": true,
+        "score": 14.67
+      },
+      {
+        "titulo": "File:Benfica traint op bijvelden Feijenoord, Eusébio, Bestanddeelnr 915-0217.jpg",
+        "año": 1963,
+        "licencia": "CC0",
+        "autor": "Harry Pot for Anefo",
+        "ancho": 2406,
+        "alto": 3648,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Benfica_traint_op_bijvelden_Feijenoord%2C_Eus%C3%A9bio%2C_Bestanddeelnr_915-0217.jpg/330px-Benfica_traint_op_bijvelden_Feijenoord%2C_Eus%C3%A9bio%2C_Bestanddeelnr_915-0217.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Benfica_traint_op_bijvelden_Feijenoord,_Eus%C3%A9bio,_Bestanddeelnr_915-0217.jpg",
+        "licOk": true,
+        "score": 14.67
+      }
+    ],
+    "obs": []
+  },
+  "gianluigi-buffon": {
+    "id": "gianluigi-buffon",
+    "jugador": "Gianluigi Buffon",
+    "carrera": {
+      "inicio": 1993,
+      "fin": 2023,
+      "fuente": "wikidata"
+    },
+    "categoria": "Gianluigi Buffon",
+    "actual": null,
+    "candidatas": [
+      {
+        "titulo": "File:Juventus FC - 2010s - Buffon & BBC (Barzagli-Bonucci-Chiellini).jpg",
+        "año": 2016,
+        "licencia": "CC BY-SA 3.0",
+        "autor": "Football.ua",
+        "ancho": 1080,
+        "alto": 1080,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Juventus_FC_-_2010s_-_Buffon_%26_BBC_%28Barzagli-Bonucci-Chiellini%29.jpg/330px-Juventus_FC_-_2010s_-_Buffon_%26_BBC_%28Barzagli-Bonucci-Chiellini%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Juventus_FC_-_2010s_-_Buffon_%26_BBC_(Barzagli-Bonucci-Chiellini).jpg",
+        "licOk": true,
+        "score": 13.91
+      },
+      {
+        "titulo": "File:Cannavaro, Buffon, Italia-Paraguay 1998 (cropped).jpg",
+        "año": 1998,
+        "licencia": "Public domain",
+        "autor": "Unknown author Unknown author",
+        "ancho": 310,
+        "alto": 458,
+        "mime": "image/jpeg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Cannavaro%2C_Buffon%2C_Italia-Paraguay_1998_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "url": "https://commons.wikimedia.org/wiki/File:Cannavaro,_Buffon,_Italia-Paraguay_1998_(cropped).jpg",
+        "licOk": true,
+        "score": 12.88
+      },
+      {
+        "titulo": "File:Gianluigi-Buffon.jpg",
+        "año": 2010,
+        "licencia": "CC BY 3.0",
+        "autor": "Paulblank",
+        "ancho": 700,
+        "alto": 525,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Gianluigi-Buffon.jpg/330px-Gianluigi-Buffon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Gianluigi-Buffon.jpg",
+        "licOk": true,
+        "score": 10.49
+      },
+      {
+        "titulo": "File:Cannavaro, Buffon, Italia-Paraguay 1998.jpg",
+        "año": 1998,
+        "licencia": "Public domain",
+        "autor": "Unknown author Unknown author",
+        "ancho": 592,
+        "alto": 458,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Cannavaro%2C_Buffon%2C_Italia-Paraguay_1998.jpg/330px-Cannavaro%2C_Buffon%2C_Italia-Paraguay_1998.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Cannavaro,_Buffon,_Italia-Paraguay_1998.jpg",
+        "licOk": true,
+        "score": 10.02
+      }
+    ],
+    "obs": []
+  },
+  "steven-gerrard": {
+    "id": "steven-gerrard",
+    "jugador": "Steven Gerrard",
+    "carrera": {
+      "inicio": 1998,
+      "fin": 2016,
+      "fuente": "wikidata"
+    },
+    "categoria": "Steven Gerrard",
+    "actual": {
+      "titulo": "File:Steven Gerrard 2018.jpg",
+      "año": 2018
+    },
+    "candidatas": [
+      {
+        "titulo": "File:Steven Gerrard, 2014.jpg",
+        "año": 2014,
+        "licencia": "CC BY-SA 2.0",
+        "autor": "Eddie Janssens from Brussels, Belgium",
+        "ancho": 3441,
+        "alto": 3438,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Steven_Gerrard%2C_2014.jpg/330px-Steven_Gerrard%2C_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Steven_Gerrard,_2014.jpg",
+        "licOk": true,
+        "score": 14.71
+      },
+      {
+        "titulo": "File:Steven Gerrard, 2014 (cropped).jpg",
+        "año": 2014,
+        "licencia": "CC BY-SA 2.0",
+        "autor": "Eddie Janssens from Brussels, Belgium",
+        "ancho": 2657,
+        "alto": 3438,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Steven_Gerrard%2C_2014_%28cropped%29.jpg/330px-Steven_Gerrard%2C_2014_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Steven_Gerrard,_2014_(cropped).jpg",
+        "licOk": true,
+        "score": 14.71
+      },
+      {
+        "titulo": "File:Steven Gerrard 2015.jpg",
+        "año": 2015,
+        "licencia": "CC BY 2.0",
+        "autor": "Victor Araiza",
+        "ancho": 1723,
+        "alto": 2592,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Steven_Gerrard_2015.jpg/330px-Steven_Gerrard_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Steven_Gerrard_2015.jpg",
+        "licOk": true,
+        "score": 14.38
+      },
+      {
+        "titulo": "File:Steven Gerrard in 2014.jpg",
+        "año": 2014,
+        "licencia": "CC BY-SA 4.0",
+        "autor": "Biser Todorov",
+        "ancho": 1458,
+        "alto": 2106,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Steven_Gerrard_in_2014.jpg/330px-Steven_Gerrard_in_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Steven_Gerrard_in_2014.jpg",
+        "licOk": true,
+        "score": 14.17
+      },
+      {
+        "titulo": "File:Steven Gerrard on his testimonial.jpg",
+        "año": 2013,
+        "licencia": "CC BY 2.0",
+        "autor": "Steve Boulton",
+        "ancho": 1349,
+        "alto": 2073,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Steven_Gerrard_on_his_testimonial.jpg/330px-Steven_Gerrard_on_his_testimonial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Steven_Gerrard_on_his_testimonial.jpg",
+        "licOk": true,
+        "score": 14.12
+      },
+      {
+        "titulo": "File:Gerrard in Boston.jpg",
+        "año": 2012,
+        "licencia": "CC BY 2.0",
+        "autor": "md.faisalzaman",
+        "ancho": 1209,
+        "alto": 1697,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Gerrard_in_Boston.jpg/330px-Gerrard_in_Boston.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Gerrard_in_Boston.jpg",
+        "licOk": true,
+        "score": 14.03
+      },
+      {
+        "titulo": "File:Steven Gerrard 2010.jpg",
+        "año": 2010,
+        "licencia": "CC BY 2.0",
+        "autor": "Helen Bromley",
+        "ancho": 756,
+        "alto": 1017,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Steven_Gerrard_2010.jpg/330px-Steven_Gerrard_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Steven_Gerrard_2010.jpg",
+        "licOk": true,
+        "score": 13.69
+      },
+      {
+        "titulo": "File:Steven Gerrard in Thailand (12775079374).jpg",
+        "año": 2014,
+        "licencia": "CC BY-SA 2.0",
+        "autor": "PANNATHORN SUKMANONT",
+        "ancho": 900,
+        "alto": 1290,
+        "mime": "image/jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Steven_Gerrard_in_Thailand_%2812775079374%29.jpg/330px-Steven_Gerrard_in_Thailand_%2812775079374%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "url": "https://commons.wikimedia.org/wiki/File:Steven_Gerrard_in_Thailand_(12775079374).jpg",
+        "licOk": true,
+        "score": 13.61
+      }
+    ],
+    "obs": []
+  },
+  "fernando-torres": {
+    "id": "fernando-torres",
+    "jugador": "Fernando Torres",
+    "carrera": {
+      "inicio": 1995,
+      "fin": 2019,
+      "fuente": "wikidata"
+    },
+    "categoria": "Fernando Torres",
+    "actual": null,
+    "candidatas": [],
+    "obs": [
+      "No hay fotos libres fechadas dentro de su carrera"
+    ]
   }
 }
