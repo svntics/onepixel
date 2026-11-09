@@ -10,7 +10,8 @@ export const CONFIG = {
   // URL pública del sitio (cámbiala cuando tengas la definitiva en Vercel)
   SITE_URL: "https://onepixel-phi.vercel.app",
 
-  // Día del reto #1 (formato AAAA-MM-DD, hora de Chile)
+  // Día del reto #1 (formato AAAA-MM-DD, hora de Chile). Decidido: 1 de agosto de 2026.
+  // Cambiarlo cambia el número y el jugador de todos los retos.
   DAILY_EPOCH: "2026-08-01",
 
   // Zona horaria que define cuándo cambia el reto diario
@@ -43,13 +44,12 @@ export const CONFIG = {
   SUPPORT_LABEL: "☕ Apoya el proyecto",
 
   // Correo de contacto para privacidad y solicitudes de retiro de imágenes. Vacío = "pendiente".
-  CONTACT_EMAIL: "",
+  CONTACT_EMAIL: "santijavier64@gmail.com",
 
   // Cómo se muestra el crédito de la foto MIENTRAS se juega (al terminar siempre se muestra completo):
   //   "durante"            → autor, licencia y enlace a la fuente (el enlace puede revelar al jugador)
   //   "durante-sin-enlace" → autor y licencia; el enlace a la fuente aparece al terminar
   //   "al-final"           → solo un aviso; el crédito completo aparece al terminar
-  // PROVISORIO: elige tú la opción (ver el análisis de la Fase 5).
   CREDIT_MODE: "durante",
 
   // Categorías que aparecen en la pantalla inicial (sin logos oficiales)

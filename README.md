@@ -136,8 +136,8 @@ Todo se ajusta en **`public/js/config.js`**. Puedes editarlo directamente en Git
 | `ADS.SLOTS` | Altura reservada de los banners | 50/100 px celular, 90 px computador |
 | `CONSENT_BANNER` | Aviso de cookies simple (**no** es una plataforma certificada) | `false` |
 | `SUPPORT_URL` / `SUPPORT_LABEL` | Enlace de apoyo (Mercado Pago u otro). Vacío = no aparece | `""` |
-| `CONTACT_EMAIL` | Correo para privacidad y retiro de fotos | `""` (pendiente) |
-| `CREDIT_MODE` | Crédito de la foto durante la ronda: `"durante"`, `"durante-sin-enlace"` o `"al-final"` | `"durante"` (provisorio) |
+| `CONTACT_EMAIL` | Correo para privacidad y retiro de fotos | `"santijavier64@gmail.com"` |
+| `CREDIT_MODE` | Crédito de la foto durante la ronda: `"durante"`, `"durante-sin-enlace"` o `"al-final"` | `"durante"` |
 | `CATEGORIES` | Nombre, emoji y descripción de las 4 categorías | — |
 
 > Cambiar jugadores o `DAILY_EPOCH` **cambia el reto del día**. Hazlo de madrugada (hora de Chile) para no afectar a quien ya jugó.
@@ -205,12 +205,12 @@ npm run images -- --solo=marcelo-salas
 
 ## 11. Antes de lanzar: lista de control
 
-- [ ] Fotos descargadas y `reports/imagenes.md` revisado (≥ 30 jugadores con foto por categoría).
+- [x] Fotos descargadas: 97 de 98 (≥ 30 por categoría). Falta revisarlas a mano.
 - [ ] Pistas revisadas (pueden tener errores; las marcadas en las notas de desarrollo son prioritarias).
-- [ ] `SITE_URL` con la URL real de Vercel.
-- [ ] `DAILY_EPOCH` decidido (¿reto #1 = 1 de agosto de 2026 o el día de lanzamiento?).
-- [ ] `CREDIT_MODE` elegido.
-- [ ] `CONTACT_EMAIL` completado (lo exigen las páginas de privacidad y aviso legal).
+- [x] `SITE_URL` con la URL real de Vercel.
+- [x] `DAILY_EPOCH` decidido: reto #1 = 1 de agosto de 2026.
+- [x] `CREDIT_MODE` elegido: `"durante"`.
+- [x] `CONTACT_EMAIL` completado.
 - [ ] Nombre "onepixel" buscado en el registro de marcas (INAPI) y en Google.
 - [ ] Revisión legal de privacidad y aviso legal **(los textos incluidos son plantillas, no asesoría legal)**.
 
