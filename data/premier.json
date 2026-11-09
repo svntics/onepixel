@@ -890,6 +890,1099 @@
         "url_licencia": "https://creativecommons.org/licenses/by/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:2022_FIFA_World_Cup_United_States_1%E2%80%931_Wales_-_(32)_(cropped).jpg"
       }
+    },
+    {
+      "id": "yaya-toure",
+      "nombre": "Yaya Touré",
+      "alias": [
+        "Yaya",
+        "Toure"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Costa de Marfil",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en el Barcelona antes de llegar a Inglaterra.",
+        "Fue elegido cuatro veces mejor futbolista africano del año.",
+        "Marcó el gol de la final de la FA Cup 2011 para el Manchester City."
+      ],
+      "wikipedia_en": "Yaya Touré",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "edwin-van-der-sar",
+      "nombre": "Edwin van der Sar",
+      "alias": [
+        "Van der Sar",
+        "VDS"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Países Bajos",
+      "posicion": "Arquero",
+      "pistas": [
+        "Ganó la Champions con el Ajax en 1995.",
+        "Jugó en la Juventus y el Fulham.",
+        "Atajó el penal decisivo de la final de la Champions 2008 para el Manchester United."
+      ],
+      "wikipedia_en": "Edwin van der Sar",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "bruno-fernandes",
+      "nombre": "Bruno Fernandes",
+      "alias": [
+        "Bruno"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Portugal",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Jugó en Italia con el Udinese y la Sampdoria.",
+        "Brilló en el Sporting de Lisboa.",
+        "Fue nombrado capitán del Manchester United en 2023."
+      ],
+      "wikipedia_en": "Bruno Fernandes",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "john-terry",
+      "nombre": "John Terry",
+      "alias": [
+        "Terry",
+        "JT"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Inglaterra",
+      "posicion": "Defensa",
+      "pistas": [
+        "Fue capitán de la selección inglesa.",
+        "Pasó casi toda su carrera en un solo club de Londres.",
+        "Resbaló al patear un penal en la final de la Champions 2008 con el Chelsea."
+      ],
+      "wikipedia_en": "John Terry",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "vincent-kompany",
+      "nombre": "Vincent Kompany",
+      "alias": [
+        "Kompany",
+        "Vince"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Bélgica",
+      "posicion": "Defensa",
+      "pistas": [
+        "Comenzó su carrera en el Anderlecht.",
+        "Después fue entrenador del Burnley y del Bayern Múnich.",
+        "Fue capitán del Manchester City y marcó un golazo de larga distancia ante el Leicester en 2019."
+      ],
+      "wikipedia_en": "Vincent Kompany",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "dele-alli",
+      "nombre": "Dele Alli",
+      "alias": [
+        "Dele",
+        "Alli"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Inglaterra",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Comenzó su carrera en el MK Dons.",
+        "Jugó en el Everton y el Beşiktaş.",
+        "Brilló en el Tottenham de Mauricio Pochettino."
+      ],
+      "wikipedia_en": "Dele Alli",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "christian-eriksen",
+      "nombre": "Christian Eriksen",
+      "alias": [
+        "Eriksen"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Dinamarca",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Se formó en el Ajax.",
+        "Jugó en el Tottenham, el Inter y el Manchester United.",
+        "Sufrió un paro cardíaco en pleno partido de la Eurocopa 2021 y volvió a jugar."
+      ],
+      "wikipedia_en": "Christian Eriksen",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "jan-vertonghen",
+      "nombre": "Jan Vertonghen",
+      "alias": [
+        "Vertonghen"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Bélgica",
+      "posicion": "Defensa",
+      "pistas": [
+        "Se formó en el Ajax.",
+        "Jugó ocho temporadas en el Tottenham.",
+        "Es el jugador con más partidos en la historia de la selección belga."
+      ],
+      "wikipedia_en": "Jan Vertonghen",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "hugo-lloris",
+      "nombre": "Hugo Lloris",
+      "alias": [
+        "Lloris"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Francia",
+      "posicion": "Arquero",
+      "pistas": [
+        "Jugó en el Niza y el Olympique de Lyon.",
+        "Se fue a jugar a la MLS con Los Angeles FC.",
+        "Fue el capitán de Francia campeona del mundo en 2018."
+      ],
+      "wikipedia_en": "Hugo Lloris",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "kyle-walker",
+      "nombre": "Kyle Walker",
+      "alias": [
+        "Walker"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Inglaterra",
+      "posicion": "Defensa",
+      "pistas": [
+        "Se formó en el Sheffield United.",
+        "Jugó en el Tottenham antes de llegar a Mánchester.",
+        "Ganó la Champions 2023 con el Manchester City."
+      ],
+      "wikipedia_en": "Kyle Walker",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "eden-hazard",
+      "nombre": "Eden Hazard",
+      "alias": [
+        "Hazard"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Bélgica",
+      "posicion": "Extremo",
+      "pistas": [
+        "Debutó en el Lille de Francia.",
+        "Las lesiones frenaron su paso por el Real Madrid.",
+        "Fue la gran figura del Chelsea entre 2012 y 2019."
+      ],
+      "wikipedia_en": "Eden Hazard",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "diego-costa",
+      "nombre": "Diego Costa",
+      "alias": [
+        "Costa"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Delantero",
+      "pistas": [
+        "Nació en Brasil pero jugó para la selección española.",
+        "Fue figura del Atlético de Madrid campeón de liga en 2014.",
+        "Fue campeón de la Premier con el Chelsea en 2015 y 2017."
+      ],
+      "wikipedia_en": "Diego Costa",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "cesar-azpilicueta",
+      "nombre": "César Azpilicueta",
+      "alias": [
+        "Azpi",
+        "Dave"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Defensa",
+      "pistas": [
+        "Se formó en el Osasuna.",
+        "Jugó en el Olympique de Marsella.",
+        "Fue capitán del Chelsea campeón de la Champions 2021."
+      ],
+      "wikipedia_en": "César Azpilicueta",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "david-silva",
+      "nombre": "David Silva",
+      "alias": [
+        "El Mago"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Se formó en el Valencia.",
+        "Fue campeón del mundo en 2010.",
+        "Fue el cerebro del Manchester City durante diez temporadas."
+      ],
+      "wikipedia_en": "David Silva",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "mario-balotelli",
+      "nombre": "Mario Balotelli",
+      "alias": [
+        "Super Mario",
+        "Balo"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Italia",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Inter, el AC Milan y el Liverpool.",
+        "Celebró un gol mostrando una camiseta que decía «Why always me?».",
+        "Dio el pase del gol del título de Agüero en 2012."
+      ],
+      "wikipedia_en": "Mario Balotelli",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "raheem-sterling",
+      "nombre": "Raheem Sterling",
+      "alias": [
+        "Sterling"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Inglaterra",
+      "posicion": "Extremo",
+      "pistas": [
+        "Nació en Jamaica.",
+        "Jugó en el Liverpool, el Manchester City y el Chelsea.",
+        "Ganó cuatro Premier League con el Manchester City."
+      ],
+      "wikipedia_en": "Raheem Sterling",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "leroy-sane",
+      "nombre": "Leroy Sané",
+      "alias": [
+        "Sane"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Alemania",
+      "posicion": "Extremo",
+      "pistas": [
+        "Su madre fue medallista olímpica en gimnasia rítmica.",
+        "Se formó en el Schalke 04.",
+        "Fue elegido mejor jugador joven de la Premier 2017-18 con el Manchester City."
+      ],
+      "wikipedia_en": "Leroy Sané",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "paul-pogba",
+      "nombre": "Paul Pogba",
+      "alias": [
+        "Pogba",
+        "Pogboom"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Francia",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Brilló en la Juventus.",
+        "Volvió al Manchester United en 2016 en un fichaje récord.",
+        "Marcó en la final del Mundial 2018."
+      ],
+      "wikipedia_en": "Paul Pogba",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "riyad-mahrez",
+      "nombre": "Riyad Mahrez",
+      "alias": [
+        "Mahrez"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Argelia",
+      "posicion": "Extremo",
+      "pistas": [
+        "Nació en Francia.",
+        "Fue elegido mejor jugador de la Premier 2015-16.",
+        "Fue campeón con el Leicester y después con el Manchester City."
+      ],
+      "wikipedia_en": "Riyad Mahrez",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "wes-morgan",
+      "nombre": "Wes Morgan",
+      "alias": [
+        "Morgan"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Jamaica",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó muchos años en el Nottingham Forest.",
+        "Representó a Jamaica a nivel internacional.",
+        "Fue el capitán del Leicester campeón de la Premier 2015-16."
+      ],
+      "wikipedia_en": "Wes Morgan",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "kasper-schmeichel",
+      "nombre": "Kasper Schmeichel",
+      "alias": [
+        "Kasper"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Dinamarca",
+      "posicion": "Arquero",
+      "pistas": [
+        "Jugó en el Leeds y el Notts County.",
+        "Su padre fue un legendario arquero del Manchester United.",
+        "Fue campeón de la Premier 2015-16 con el Leicester."
+      ],
+      "wikipedia_en": "Kasper Schmeichel",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "aymeric-laporte",
+      "nombre": "Aymeric Laporte",
+      "alias": [
+        "Laporte"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Defensa",
+      "pistas": [
+        "Nació en Francia pero juega para España.",
+        "Se formó en el Athletic Club.",
+        "Fue campeón de la Eurocopa 2024."
+      ],
+      "wikipedia_en": "Aymeric Laporte",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "rodri",
+      "nombre": "Rodri",
+      "alias": [
+        "Rodrigo Hernández"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en el Villarreal y el Atlético de Madrid.",
+        "Marcó el gol de la final de la Champions 2023.",
+        "Ganó el Balón de Oro en 2024."
+      ],
+      "wikipedia_en": "Rodri (footballer, born 1996)",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "ilkay-gundogan",
+      "nombre": "İlkay Gündoğan",
+      "alias": [
+        "Gundogan"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Alemania",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Brilló en el Borussia Dortmund.",
+        "Jugó una temporada en el Barcelona.",
+        "Fue capitán del Manchester City del triplete 2023."
+      ],
+      "wikipedia_en": "İlkay Gündoğan",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "enzo-fernandez",
+      "nombre": "Enzo Fernández",
+      "alias": [
+        "Enzo"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Argentina",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Se formó en River Plate.",
+        "Fue elegido mejor jugador joven del Mundial 2022.",
+        "Llegó al Chelsea desde el Benfica en un fichaje récord."
+      ],
+      "wikipedia_en": "Enzo Fernández",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "moises-caicedo",
+      "nombre": "Moisés Caicedo",
+      "alias": [
+        "Caicedo"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Ecuador",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Debutó en el Independiente del Valle.",
+        "Brilló en el Brighton.",
+        "Llegó al Chelsea en uno de los fichajes más caros de la Premier."
+      ],
+      "wikipedia_en": "Moisés Caicedo",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "declan-rice",
+      "nombre": "Declan Rice",
+      "alias": [
+        "Rice",
+        "Dec"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Inglaterra",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Llegó a jugar para Irlanda antes de elegir a Inglaterra.",
+        "Fue capitán del West Ham campeón de la Conference League 2023.",
+        "Fichó por el Arsenal en 2023."
+      ],
+      "wikipedia_en": "Declan Rice",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "bukayo-saka",
+      "nombre": "Bukayo Saka",
+      "alias": [
+        "Saka"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Inglaterra",
+      "posicion": "Extremo",
+      "pistas": [
+        "Debutó muy joven en el mismo club donde se formó.",
+        "Falló un penal en la tanda de la final de la Eurocopa 2020.",
+        "Es la gran figura inglesa del Arsenal."
+      ],
+      "wikipedia_en": "Bukayo Saka",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "martin-odegaard",
+      "nombre": "Martin Ødegaard",
+      "alias": [
+        "Odegaard"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Noruega",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Debutó en Noruega con solo 15 años.",
+        "Fichó por el Real Madrid siendo adolescente.",
+        "Es el capitán del Arsenal."
+      ],
+      "wikipedia_en": "Martin Ødegaard",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "william-saliba",
+      "nombre": "William Saliba",
+      "alias": [
+        "Saliba"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Francia",
+      "posicion": "Defensa",
+      "pistas": [
+        "Se formó en el Saint-Étienne.",
+        "Estuvo a préstamo en el Olympique de Marsella.",
+        "Es uno de los centrales titulares del Arsenal."
+      ],
+      "wikipedia_en": "William Saliba",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "gabriel-magalhaes",
+      "nombre": "Gabriel Magalhães",
+      "alias": [
+        "Gabriel"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó en el Lille de Francia.",
+        "Es brasileño y zurdo.",
+        "Forma la defensa central del Arsenal junto a Saliba."
+      ],
+      "wikipedia_en": "Gabriel Magalhães",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "alisson-becker",
+      "nombre": "Alisson Becker",
+      "alias": [
+        "Alisson",
+        "Allison"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Arquero",
+      "pistas": [
+        "Jugó en el Internacional de Porto Alegre y en la Roma.",
+        "Marcó un gol de cabeza para el Liverpool.",
+        "Ganó la Champions 2019 con el Liverpool."
+      ],
+      "wikipedia_en": "Alisson Becker",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "sadio-mane",
+      "nombre": "Sadio Mané",
+      "alias": [
+        "Mane"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Senegal",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Southampton y el Bayern Múnich.",
+        "Marcó el hat-trick más rápido de la historia de la Premier.",
+        "Fue campeón de África con su selección en 2022."
+      ],
+      "wikipedia_en": "Sadio Mané",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "andrew-robertson",
+      "nombre": "Andrew Robertson",
+      "alias": [
+        "Robertson",
+        "Robbo",
+        "Andy Robertson"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Escocia",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó en el Hull City.",
+        "Es el capitán de la selección escocesa.",
+        "Es el lateral izquierdo del Liverpool campeón de la Champions 2019."
+      ],
+      "wikipedia_en": "Andrew Robertson",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "trent-alexander-arnold",
+      "nombre": "Trent Alexander-Arnold",
+      "alias": [
+        "Trent",
+        "TAA",
+        "Alexander Arnold"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Inglaterra",
+      "posicion": "Defensa",
+      "pistas": [
+        "Nació en la misma ciudad del club donde se formó.",
+        "Hizo un recordado córner rápido ante el Barcelona en 2019.",
+        "Dejó el Liverpool para fichar por el Real Madrid en 2025."
+      ],
+      "wikipedia_en": "Trent Alexander-Arnold",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "jordan-henderson",
+      "nombre": "Jordan Henderson",
+      "alias": [
+        "Hendo",
+        "Henderson"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Inglaterra",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Comenzó en el Sunderland.",
+        "Jugó en Arabia Saudita y en el Ajax.",
+        "Fue el capitán del Liverpool campeón de la Champions 2019 y de la Premier 2020."
+      ],
+      "wikipedia_en": "Jordan Henderson",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "ederson",
+      "nombre": "Ederson",
+      "alias": [
+        "Ederson Moraes"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Arquero",
+      "pistas": [
+        "Jugó en el Benfica de Portugal.",
+        "Es famoso por sus pases largos con el pie.",
+        "Fue el arquero del Manchester City del triplete 2023."
+      ],
+      "wikipedia_en": "Ederson (footballer, born 1993)",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "morgan-gibbs-white",
+      "nombre": "Morgan Gibbs-White",
+      "alias": [
+        "Gibbs White",
+        "Gibbs-White"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Inglaterra",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Se formó en el Wolverhampton.",
+        "Estuvo a préstamo en el Sheffield United.",
+        "Es una de las figuras del Nottingham Forest."
+      ],
+      "wikipedia_en": "Morgan Gibbs-White",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "jarrod-bowen",
+      "nombre": "Jarrod Bowen",
+      "alias": [
+        "Bowen"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Inglaterra",
+      "posicion": "Delantero",
+      "pistas": [
+        "Llegó a la Premier desde el Hull City.",
+        "Es capitán del West Ham.",
+        "Marcó el gol del título de la Conference League 2023."
+      ],
+      "wikipedia_en": "Jarrod Bowen",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "andy-carroll",
+      "nombre": "Andy Carroll",
+      "alias": [
+        "Carroll"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Inglaterra",
+      "posicion": "Delantero",
+      "pistas": [
+        "Se formó en el Newcastle.",
+        "Era un delantero alto, de pelo largo y muy fuerte de cabeza.",
+        "El Liverpool pagó 35 millones de libras por él en 2011."
+      ],
+      "wikipedia_en": "Andy Carroll",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "adel-taarabt",
+      "nombre": "Adel Taarabt",
+      "alias": [
+        "Taarabt",
+        "Taraabt"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Marruecos",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Nació en Marruecos y se crió en Francia.",
+        "Jugó en el Benfica de Portugal.",
+        "Fue la figura del Queens Park Rangers que ascendió a la Premier en 2011."
+      ],
+      "wikipedia_en": "Adel Taarabt",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "mesut-ozil",
+      "nombre": "Mesut Özil",
+      "alias": [
+        "Ozil"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Alemania",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Jugó en el Werder Bremen y el Real Madrid.",
+        "Fue campeón del mundo en 2014.",
+        "Fue el gran asistidor del Arsenal entre 2013 y 2021."
+      ],
+      "wikipedia_en": "Mesut Özil",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "harry-maguire",
+      "nombre": "Harry Maguire",
+      "alias": [
+        "Maguire",
+        "Maguirre"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Inglaterra",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó en el Sheffield United, el Hull City y el Leicester.",
+        "Marcó de cabeza en los cuartos de final del Mundial 2018.",
+        "Fue el defensa más caro de la historia al llegar al Manchester United."
+      ],
+      "wikipedia_en": "Harry Maguire",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "david-de-gea",
+      "nombre": "David de Gea",
+      "alias": [
+        "De Gea",
+        "DDG"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Arquero",
+      "pistas": [
+        "Se formó en el Atlético de Madrid.",
+        "Después jugó en la Fiorentina de Italia.",
+        "Fue el arquero del Manchester United durante doce temporadas."
+      ],
+      "wikipedia_en": "David de Gea",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "xherdan-shaqiri",
+      "nombre": "Xherdan Shaqiri",
+      "alias": [
+        "Shaqiri",
+        "Xhaqiri"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Suiza",
+      "posicion": "Extremo",
+      "pistas": [
+        "Nació en Kosovo.",
+        "Jugó en el Bayern Múnich y el Inter.",
+        "Marcó un golazo de chilena en la Eurocopa 2016."
+      ],
+      "wikipedia_en": "Xherdan Shaqiri",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "granit-xhaka",
+      "nombre": "Granit Xhaka",
+      "alias": [
+        "Xhaka"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Suiza",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en el Borussia Mönchengladbach.",
+        "Fue capitán del Arsenal.",
+        "Fue campeón invicto de la Bundesliga con el Bayer Leverkusen en 2024."
+      ],
+      "wikipedia_en": "Granit Xhaka",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "roberto-firmino",
+      "nombre": "Roberto Firmino",
+      "alias": [
+        "Bobby Firmino",
+        "Firmino"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Delantero",
+      "pistas": [
+        "Brilló en el Hoffenheim de Alemania.",
+        "Formó un famoso tridente de ataque junto a Salah y Mané.",
+        "Ganó la Champions 2019 con el Liverpool."
+      ],
+      "wikipedia_en": "Roberto Firmino",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "javier-hernandez",
+      "nombre": "Javier Hernández",
+      "alias": [
+        "Chicharito",
+        "Chicharo"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "México",
+      "posicion": "Delantero",
+      "pistas": [
+        "Debutó en Chivas de Guadalajara.",
+        "Jugó en el Manchester United y el Real Madrid.",
+        "Es el máximo goleador histórico de la selección mexicana."
+      ],
+      "wikipedia_en": "Javier Hernández",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "piero-hincapie",
+      "nombre": "Piero Hincapié",
+      "alias": [
+        "Hincapie"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Ecuador",
+      "posicion": "Defensa",
+      "pistas": [
+        "Se formó en el Independiente del Valle.",
+        "Jugó en Talleres de Córdoba.",
+        "Fue campeón invicto de la Bundesliga con el Bayer Leverkusen."
+      ],
+      "wikipedia_en": "Piero Hincapié",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "bernardo-silva",
+      "nombre": "Bernardo Silva",
+      "alias": [
+        "Bernardo"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Portugal",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Se formó en el Benfica.",
+        "Jugó en el Mónaco de Francia.",
+        "Es una de las figuras del Manchester City de Guardiola."
+      ],
+      "wikipedia_en": "Bernardo Silva",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "marcus-rashford",
+      "nombre": "Marcus Rashford",
+      "alias": [
+        "Rashford"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Inglaterra",
+      "posicion": "Delantero",
+      "pistas": [
+        "Debutó en el primer equipo con un doblete en la Europa League.",
+        "Hizo una campaña para dar comida a niños durante la pandemia.",
+        "Se formó en el Manchester United."
+      ],
+      "wikipedia_en": "Marcus Rashford",
+      "wikidata_id": null,
+      "imagen": null
     }
   ]
 }
