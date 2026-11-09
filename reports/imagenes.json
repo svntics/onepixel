@@ -1467,5 +1467,31 @@
     "obs": [],
     "wikidata_id": "Q182314",
     "descripcion": "Danish footballer (born 1963)"
+  },
+  "yaya-toure": {
+    "id": "yaya-toure",
+    "jugador": "Yaya Touré",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY 3.0",
+    "autor": "Puma",
+    "obs": [],
+    "wikidata_id": "Q184277",
+    "descripcion": "Ivorian association football player"
+  },
+  "edwin-van-der-sar": {
+    "id": "edwin-van-der-sar",
+    "jugador": "Edwin van der Sar",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.5",
+    "autor": "http://www.postproduktie.nl",
+    "obs": [],
+    "wikidata_id": "Q482955",
+    "descripcion": "Dutch association football player (born 1970)"
   }
 }

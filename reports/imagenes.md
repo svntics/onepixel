@@ -1,6 +1,6 @@
 # Reporte de imágenes
 
-Generado: 2026-11-09T22:46:05.819Z · 97 con imagen libre · 1 excluidos
+Generado: 2026-11-09T23:43:06.978Z · 99 con imagen libre · 1 excluidos
 
 Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se resuelva su caso.
 
@@ -28,6 +28,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Diego Forlán | mundiales, premier | Sí | CC BY-SA 3.0 at | Ailura | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Diego Lugano | libertadores | Sí | CC BY-SA 3.0 at | Ailura | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Diego Maradona | mundiales | Sí | Public domain | Desconocido Unknown author | Dominio público: verificar que lo sea también en Chile |
+| Edwin van der Sar | premier | Sí | CC BY 2.5 | http://www.postproduktie.nl | — |
 | Elías Figueroa | mundiales | Sí | CC BY 2.0 | Marco Nuñez from Santiago, Chile | — |
 | Enzo Francescoli | libertadores | Sí | CC BY-SA 3.0 | Christophe95 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Eric Cantona | premier | Sí | CC BY-SA 3.0 | Georges Biard | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
@@ -102,5 +103,6 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Virgil van Dijk | premier, champions | Sí | CC BY-SA 3.0 at | Ailura, CC BY-SA 3.0 AT | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Wayne Rooney | premier | Sí | CC BY-SA 3.0 | Дмитрий Голубович | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Xavi Hernández | champions | Sí | CC BY 4.0 | Fars Media Corporation | Identificado por búsqueda en Wikidata: Q17500 ("Spanish footballer and manager"). Verifica que sea la persona correcta |
+| Yaya Touré | premier | Sí | CC BY 3.0 | Puma | — |
 | Zico | libertadores | Sí | CC BY 2.0 | Doha Stadium Plus | — |
 | Zinedine Zidane | mundiales, champions | Sí | CC BY 4.0 | Tasnim News Agency | — |

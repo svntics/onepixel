@@ -910,8 +910,14 @@
         "Marcó el gol de la final de la FA Cup 2011 para el Manchester City."
       ],
       "wikipedia_en": "Yaya Touré",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q184277",
+      "imagen": {
+        "archivo_local": "img/p/e8147b663193cbec.webp",
+        "autor": "Puma",
+        "licencia": "CC BY 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Yaya_Tour%C3%A9_(cropped).jpg"
+      }
     },
     {
       "id": "edwin-van-der-sar",
@@ -932,8 +938,14 @@
         "Atajó el penal decisivo de la final de la Champions 2008 para el Manchester United."
       ],
       "wikipedia_en": "Edwin van der Sar",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q482955",
+      "imagen": {
+        "archivo_local": "img/p/5f2cc985f29596de.webp",
+        "autor": "http://www.postproduktie.nl",
+        "licencia": "CC BY 2.5",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.5",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Edwin_van_der_Sar_side.jpg"
+      }
     },
     {
       "id": "bruno-fernandes",
