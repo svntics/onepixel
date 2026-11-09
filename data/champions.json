@@ -732,8 +732,14 @@
         "Fue el cerebro del Barcelona de Guardiola."
       ],
       "wikipedia_en": "Xavi",
-      "wikidata_id": "Q127364958",
-      "imagen": null
+      "wikidata_id": "Q17500",
+      "imagen": {
+        "archivo_local": "img/p/830ff8238dc06c48.webp",
+        "autor": "Fars Media Corporation",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Xavi_13981129001173637176666027076571.jpg"
+      }
     },
     {
       "id": "clarence-seedorf",
@@ -809,8 +815,14 @@
         "Ganó tres Champions con el Real Madrid."
       ],
       "wikipedia_en": "Raúl (footballer)",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q11576",
+      "imagen": {
+        "archivo_local": "img/p/a631eeaae9bbae00.webp",
+        "autor": "Doha Stadium Plus Qatar",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Raul_Gonzalez_2012_2.jpg"
+      }
     },
     {
       "id": "robert-lewandowski",

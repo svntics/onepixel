@@ -1,16 +1,12 @@
 # Reporte de imágenes
 
-Generado: 2026-11-09T22:23:03.206Z · 93 con imagen libre · 5 excluidos
+Generado: 2026-11-09T22:46:05.819Z · 97 con imagen libre · 1 excluidos
 
 Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se resuelva su caso.
 
 | Jugador | Categoría | ¿Imagen libre? | Licencia | Autor | Observación |
 |---|---|---|---|---|---|
-| Gonzalo Martínez | libertadores | **No** |  |  | No se encontró en Wikidata (wikipedia_en="Gonzalo Martínez (footballer, born 1993)", wikidata_id=—) |
 | Karim Benzema | champions | **No** |  |  | Wikidata no tiene imagen (P18) |
-| Luis Suárez | mundiales, premier | **No** |  |  | Revisar: la descripción de Wikidata no menciona fútbol ("Wikimedia human name disambiguation page"); Wikidata no tiene imagen (P18) |
-| Raúl González | champions | **No** |  |  | No se encontró en Wikidata (wikipedia_en="Raúl (footballer)", wikidata_id=—) |
-| Xavi Hernández | champions | **No** |  |  | Revisar: la descripción de Wikidata no menciona fútbol (""); Wikidata no tiene imagen (P18) |
 | Alan Shearer | premier | Sí | CC BY-SA 2.0 | Originally carltonreid ; retouched by DFS454 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Alberto Spencer | libertadores | Sí | Public domain | Eduardo Forte | Dominio público: verificar que lo sea también en Chile |
 | Alexis Sánchez | premier, mundiales | Sí | CC BY 2.0 | joshjdss | — |
@@ -47,6 +43,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Germán Cano | libertadores | Sí | CC BY-SA 3.0 | Crismejia | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Gianluigi Buffon | mundiales, champions | Sí | CC BY 2.0 | Doha Stadium Plus Qatar from Doha, Qatar | — |
 | Giorgian de Arrascaeta | libertadores | Sí | CC BY-SA 3.0 at | Ailura, CC BY-SA 3.0 AT | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
+| Gonzalo Martínez | libertadores | Sí | CC BY-SA 2.0 | https://www.flickr.com/photos/agenciaandes_ec/with/40859860034/ | Identificado por búsqueda en Wikidata: Q5883075 ("Argentinean soccer player"). Verifica que sea la persona correcta; CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Harry Kane | premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Hernán Crespo | libertadores | Sí | CC0 | Omgosh30 | — |
 | Iker Casillas | champions | Sí | CC BY-SA 3.0 | Зайцев Антон | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
@@ -64,6 +61,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Leonel Sánchez | mundiales | Sí | Public domain | Revista Argentina "Mundo Deportivo" | Dominio público: verificar que lo sea también en Chile |
 | Lionel Messi | mundiales, champions | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Lucas Pratto | libertadores | Sí | CC BY-SA 4.0 | Carlos Figueroa Rojas | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Luis Suárez | mundiales, premier | Sí | CC BY-SA 4.0 | Bryan Berlin | Identificado por búsqueda en Wikidata: Q26517 ("Uruguayan association football player"). Verifica que sea la persona correcta; CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Luka Modrić | mundiales, champions | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Manuel Neuer | champions | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Marcelo | champions, libertadores | Sí | CC BY-SA 4.0 | Granada | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
@@ -84,6 +82,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Pelé | mundiales, libertadores | Sí | Public domain | Desconocido Unknown author | Dominio público: verificar que lo sea también en Chile |
 | Peter Schmeichel | premier | Sí | CC BY 3.0 | Carlsberg | — |
 | Petr Čech | premier | Sí | CC BY-SA 3.0 | Warrenfish | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Raúl González | champions | Sí | CC BY 2.0 | Doha Stadium Plus Qatar | Identificado por búsqueda en Wikidata: Q11576 ("Spanish association football player"). Verifica que sea la persona correcta |
 | René Higuita | libertadores, mundiales | Sí | Public domain | Isolinamajul | Dominio público: verificar que lo sea también en Chile |
 | Ricardo Bochini | libertadores | Sí | Public domain | Diablo del Oeste | Dominio público: verificar que lo sea también en Chile |
 | Robert Lewandowski | champions | Sí | CC BY-SA 3.0 | Светлана Бекетова | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
@@ -102,5 +101,6 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Thomas Müller | mundiales | Sí | CC BY-SA 4.0 | Werner100359 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Virgil van Dijk | premier, champions | Sí | CC BY-SA 3.0 at | Ailura, CC BY-SA 3.0 AT | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Wayne Rooney | premier | Sí | CC BY-SA 3.0 | Дмитрий Голубович | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Xavi Hernández | champions | Sí | CC BY 4.0 | Fars Media Corporation | Identificado por búsqueda en Wikidata: Q17500 ("Spanish footballer and manager"). Verifica que sea la persona correcta |
 | Zico | libertadores | Sí | CC BY 2.0 | Doha Stadium Plus | — |
 | Zinedine Zidane | mundiales, champions | Sí | CC BY 4.0 | Tasnim News Agency | — |

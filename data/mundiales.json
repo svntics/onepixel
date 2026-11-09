@@ -934,8 +934,14 @@
         "Fue sancionado por morder a un rival en el Mundial 2014."
       ],
       "wikipedia_en": "Luis Suárez",
-      "wikidata_id": "Q398140",
-      "imagen": null
+      "wikidata_id": "Q26517",
+      "imagen": {
+        "archivo_local": "img/p/60c540036d75e8b3.webp",
+        "autor": "Bryan Berlin",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Luis_Su%C3%A1rez_NE_Revolution_Inter_Miami_7.9.25-053_(cropped).jpg"
+      }
     },
     {
       "id": "neymar",

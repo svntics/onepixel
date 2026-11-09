@@ -400,15 +400,14 @@
     "categorias": [
       "champions"
     ],
-    "libre": false,
-    "licencia": "",
-    "autor": "",
+    "libre": true,
+    "licencia": "CC BY 4.0",
+    "autor": "Fars Media Corporation",
     "obs": [
-      "Revisar: la descripción de Wikidata no menciona fútbol (\"\")",
-      "Wikidata no tiene imagen (P18)"
+      "Identificado por búsqueda en Wikidata: Q17500 (\"Spanish footballer and manager\"). Verifica que sea la persona correcta"
     ],
-    "wikidata_id": "Q127364958",
-    "descripcion": ""
+    "wikidata_id": "Q17500",
+    "descripcion": "Spanish footballer and manager"
   },
   "clarence-seedorf": {
     "id": "clarence-seedorf",
@@ -444,12 +443,14 @@
     "categorias": [
       "champions"
     ],
-    "libre": false,
-    "licencia": "",
-    "autor": "",
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "Doha Stadium Plus Qatar",
     "obs": [
-      "No se encontró en Wikidata (wikipedia_en=\"Raúl (footballer)\", wikidata_id=—)"
-    ]
+      "Identificado por búsqueda en Wikidata: Q11576 (\"Spanish association football player\"). Verifica que sea la persona correcta"
+    ],
+    "wikidata_id": "Q11576",
+    "descripcion": "Spanish association football player"
   },
   "robert-lewandowski": {
     "id": "robert-lewandowski",
@@ -741,12 +742,15 @@
     "categorias": [
       "libertadores"
     ],
-    "libre": false,
-    "licencia": "",
-    "autor": "",
+    "libre": true,
+    "licencia": "CC BY-SA 2.0",
+    "autor": "https://www.flickr.com/photos/agenciaandes_ec/with/40859860034/",
     "obs": [
-      "No se encontró en Wikidata (wikipedia_en=\"Gonzalo Martínez (footballer, born 1993)\", wikidata_id=—)"
-    ]
+      "Identificado por búsqueda en Wikidata: Q5883075 (\"Argentinean soccer player\"). Verifica que sea la persona correcta",
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q5883075",
+    "descripcion": "Argentinean soccer player"
   },
   "fernando-morena": {
     "id": "fernando-morena",
@@ -1206,15 +1210,16 @@
       "mundiales",
       "premier"
     ],
-    "libre": false,
-    "licencia": "",
-    "autor": "",
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin",
     "obs": [
-      "Revisar: la descripción de Wikidata no menciona fútbol (\"Wikimedia human name disambiguation page\")",
-      "Wikidata no tiene imagen (P18)"
+      "Identificado por búsqueda en Wikidata: Q26517 (\"Uruguayan association football player\"). Verifica que sea la persona correcta",
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
     ],
-    "wikidata_id": "Q398140",
-    "descripcion": "Wikimedia human name disambiguation page"
+    "wikidata_id": "Q26517",
+    "descripcion": "Uruguayan association football player"
   },
   "alan-shearer": {
     "id": "alan-shearer",

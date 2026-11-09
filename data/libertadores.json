@@ -505,8 +505,14 @@
         "Marcó el último gol, con el arco vacío, en la final de 2018 en Madrid."
       ],
       "wikipedia_en": "Gonzalo Martínez (footballer, born 1993)",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q5883075",
+      "imagen": {
+        "archivo_local": "img/p/de161cf582cc0c93.webp",
+        "autor": "https://www.flickr.com/photos/agenciaandes_ec/with/40859860034/",
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Emelec_0_River_1_(Gonzalo_Nicol%C3%A1s_Mart%C3%ADnez).jpg"
+      }
     },
     {
       "id": "fernando-morena",
