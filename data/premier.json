@@ -1,0 +1,109 @@
+{
+  "categoria": "premier",
+  "jugadores": [
+    {
+      "id": "thierry-henry",
+      "nombre": "Thierry Henry",
+      "alias": [
+        "Titi",
+        "Henry"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Francia",
+      "posicion": "Delantero",
+      "pistas": [
+        "Fue campeón del mundo en 1998.",
+        "Fue parte del equipo que terminó invicto la Premier 2003-04.",
+        "Es el máximo goleador histórico del Arsenal."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "alan-shearer",
+      "nombre": "Alan Shearer",
+      "alias": [
+        "Shearer"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Inglaterra",
+      "posicion": "Delantero",
+      "pistas": [
+        "Ganó la Premier League con el Blackburn Rovers en 1995.",
+        "Fue capitán e ídolo del Newcastle.",
+        "Es el máximo goleador de la historia de la Premier League."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "didier-drogba",
+      "nombre": "Didier Drogba",
+      "alias": [
+        "Drogba"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Costa de Marfil",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Chelsea en dos etapas.",
+        "Es el máximo goleador histórico de su selección.",
+        "Marcó el penal decisivo en la final de la Champions 2012."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "sergio-aguero",
+      "nombre": "Sergio Agüero",
+      "alias": [
+        "Kun",
+        "Kun Agüero",
+        "Agüero"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Delantero",
+      "pistas": [
+        "Debutó muy joven en Independiente.",
+        "Es el máximo goleador histórico del Manchester City.",
+        "Marcó el gol del título en el último minuto de la Premier 2011-12."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "alexis-sanchez",
+      "nombre": "Alexis Sánchez",
+      "alias": [
+        "Alexis",
+        "Niño Maravilla"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Chile",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Barcelona antes de llegar a Inglaterra.",
+        "Ganó dos Copas América con su selección.",
+        "Es el máximo goleador histórico de la selección chilena."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    }
+  ]
+}

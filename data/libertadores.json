@@ -1,0 +1,109 @@
+{
+  "categoria": "libertadores",
+  "jugadores": [
+    {
+      "id": "juan-roman-riquelme",
+      "nombre": "Juan Román Riquelme",
+      "alias": [
+        "Román",
+        "Riquelme"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Jugó en el Villarreal de España.",
+        "Fue la gran figura de la Libertadores 2007.",
+        "Ganó tres Copas Libertadores con Boca Juniors."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "alberto-spencer",
+      "nombre": "Alberto Spencer",
+      "alias": [
+        "Spencer"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Ecuador",
+      "posicion": "Delantero",
+      "pistas": [
+        "Nació en Ecuador y brilló en Uruguay.",
+        "Ganó tres Libertadores con Peñarol.",
+        "Es el máximo goleador de la historia de la Copa Libertadores."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "ronaldinho",
+      "nombre": "Ronaldinho",
+      "alias": [
+        "Ronaldinho Gaúcho",
+        "Dinho"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Fue campeón del mundo en 2002.",
+        "Ganó el Balón de Oro en 2005.",
+        "Ganó la Libertadores 2013 con Atlético Mineiro."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "zico",
+      "nombre": "Zico",
+      "alias": [
+        "Galinho"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Fue figura en Japón con el Kashima Antlers.",
+        "Lo apodaban \"el Pelé blanco\".",
+        "Ganó la Libertadores de 1981 con Flamengo."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "carlos-tevez",
+      "nombre": "Carlos Tévez",
+      "alias": [
+        "Carlitos",
+        "Apache",
+        "Tévez"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en Brasil con el Corinthians.",
+        "Jugó en el Manchester United y en el Manchester City.",
+        "Ganó la Libertadores 2003 con Boca Juniors."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    }
+  ]
+}

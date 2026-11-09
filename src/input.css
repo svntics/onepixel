@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+/* Tailwind v4 detecta clases automáticamente; le indicamos además la carpeta pública. */
+@source "../public";
+
+/* Colores como variables: modo oscuro por defecto, claro opcional con data-theme="light". */
+@theme {
+  --color-bg: #0f1115;
+  --color-surface: #191c23;
+  --color-surface-2: #232733;
+  --color-border: #343a48;
+  --color-text: #f2f4f8;
+  --color-muted: #b4bccb;
+  --color-accent: #34d399;
+  --color-accent-ink: #062b1e;
+  --color-danger: #f87171;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+:root[data-theme="light"] {
+  --color-bg: #f6f7f9;
+  --color-surface: #ffffff;
+  --color-surface-2: #eceff3;
+  --color-border: #c9cfd8;
+  --color-text: #111318;
+  --color-muted: #4a5262;
+  --color-accent: #047857;
+  --color-accent-ink: #ffffff;
+  --color-danger: #b91c1c;
+}
+
+html {
+  color-scheme: dark;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* Foco visible y claro para navegación con teclado */
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* El blur se aplica en JS; el marco recorta el halo que genera filter: blur() en los bordes */
+.photo-frame {
+  overflow: hidden;
+  contain: paint;
+}
+.photo-frame img {
+  transform: scale(1.08);
+  transition: filter 400ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .photo-frame img {
+    transition: none;
+  }
+}

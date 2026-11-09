@@ -1,0 +1,5 @@
+node_modules/
+# Generados en cada build (Vercel los vuelve a crear)
+public/assets/styles.css
+public/data/
+.DS_Store

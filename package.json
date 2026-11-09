@@ -1,0 +1,21 @@
+{
+  "name": "onepixel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Adivina el futbolista en la foto difuminada",
+  "type": "module",
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/assets/styles.css --minify",
+    "build": "npm run build:data && npm run build:css",
+    "dev": "npm run build && node scripts/serve.mjs",
+    "test": "node --test tests/"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "tailwindcss": "^4.3.5"
+  }
+}

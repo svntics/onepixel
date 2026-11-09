@@ -1,0 +1,112 @@
+{
+  "categoria": "mundiales",
+  "jugadores": [
+    {
+      "id": "diego-maradona",
+      "nombre": "Diego Maradona",
+      "alias": [
+        "Diego Armando Maradona",
+        "Pelusa"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Fue ídolo del Napoli en Italia.",
+        "Ganó el Mundial de 1986 con su selección.",
+        "Contra Inglaterra marcó un gol con la mano y otro tras eludir a medio equipo."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "pele",
+      "nombre": "Pelé",
+      "alias": [
+        "Edson Arantes do Nascimento",
+        "O Rei"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó gran parte de su carrera en el Santos.",
+        "Terminó su carrera en el New York Cosmos.",
+        "Es el único jugador que ganó tres Mundiales (1958, 1962 y 1970)."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "zinedine-zidane",
+      "nombre": "Zinedine Zidane",
+      "alias": [
+        "Zizou",
+        "Zidane"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Francia",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Marcó dos goles de cabeza en la final de un Mundial.",
+        "Anotó un recordado gol de volea en la final de la Champions de 2002.",
+        "Fue expulsado en la final del Mundial de 2006."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "miroslav-klose",
+      "nombre": "Miroslav Klose",
+      "alias": [
+        "Miro",
+        "Klose"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Alemania",
+      "posicion": "Delantero",
+      "pistas": [
+        "Celebraba sus goles con una voltereta.",
+        "Fue campeón del mundo en 2014.",
+        "Es el máximo goleador en la historia de los Mundiales, con 16 goles."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "marcelo-salas",
+      "nombre": "Marcelo Salas",
+      "alias": [
+        "El Matador",
+        "Matador Salas",
+        "Salas"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Chile",
+      "posicion": "Delantero",
+      "pistas": [
+        "Fue ídolo de Universidad de Chile y de River Plate.",
+        "Formó una famosa dupla de ataque con Iván Zamorano.",
+        "Marcó 4 goles en el Mundial de Francia 1998."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    }
+  ]
+}

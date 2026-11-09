@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>onepixel · Adivina el futbolista</title>
+  <meta name="description" content="Juego diario: adivina qué futbolista aparece en una foto que empieza difuminada y se aclara con cada intento.">
+  <meta name="theme-color" content="#0f1115">
+  <script>
+    // Aplica el tema guardado antes de pintar (evita parpadeo). Oscuro por defecto.
+    try { if (localStorage.getItem("op-theme") === "light") document.documentElement.dataset.theme = "light"; } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body class="min-h-dvh font-sans antialiased">
+  <a href="#contenido" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded-lg focus:bg-surface focus:px-4 focus:py-2">Saltar al contenido</a>
+
+  <header class="border-b border-border">
+    <div class="mx-auto flex max-w-xl items-center justify-between px-4 py-3">
+      <a href="#/" class="min-h-11 inline-flex items-center text-xl font-extrabold tracking-tight" data-site-name>onepixel</a>
+      <button id="theme-toggle" type="button"
+        class="min-h-11 min-w-11 rounded-xl border border-border bg-surface px-3 text-sm font-semibold hover:bg-surface-2"
+        aria-label="Cambiar a modo claro">☀️</button>
+    </div>
+  </header>
+
+  <main id="contenido" class="mx-auto max-w-xl px-4 pb-10 outline-none" tabindex="-1">
+
+    <!-- ===== Vista: inicio ===== -->
+    <section id="view-home" aria-labelledby="home-title">
+      <h1 id="home-title" class="mt-6 text-2xl font-extrabold leading-tight sm:text-3xl">¿Quién es el futbolista?</h1>
+      <p class="mt-2 text-muted">La foto empieza difuminada y se aclara con cada fallo o pista. Tienes 6 intentos. Elige una categoría:</p>
+      <ul id="category-list" class="mt-6 grid gap-3 sm:grid-cols-2" role="list"></ul>
+    </section>
+
+    <!-- ===== Vista: juego ===== -->
+    <section id="view-game" hidden aria-labelledby="game-title">
+      <div class="mt-4 flex items-center gap-2">
+        <a href="#/" class="min-h-11 inline-flex items-center rounded-xl px-2 text-sm font-semibold text-muted hover:text-text">← Categorías</a>
+      </div>
+      <h1 id="game-title" class="mt-1 text-2xl font-extrabold"></h1>
+
+      <div class="mt-3 grid grid-cols-2 gap-2" role="group" aria-label="Modo de juego">
+        <button type="button" data-mode="daily" aria-pressed="true"
+          class="mode-btn min-h-11 rounded-xl border border-border px-3 text-sm font-semibold aria-pressed:bg-accent aria-pressed:text-accent-ink aria-pressed:border-accent">Reto diario</button>
+        <button type="button" data-mode="practice" aria-pressed="false"
+          class="mode-btn min-h-11 rounded-xl border border-border px-3 text-sm font-semibold aria-pressed:bg-accent aria-pressed:text-accent-ink aria-pressed:border-accent">Práctica</button>
+      </div>
+
+      <figure class="mt-4">
+        <div class="photo-frame mx-auto aspect-square w-full max-w-sm rounded-2xl border border-border bg-surface-2">
+          <img id="player-photo" src="img/placeholder.svg" alt="Foto del futbolista misterioso"
+            width="400" height="400" class="h-full w-full object-cover" decoding="async">
+        </div>
+      </figure>
+
+      <p id="attempts" class="mt-3 text-center text-sm text-muted" aria-live="polite"></p>
+
+      <form id="guess-form" class="mt-3 flex gap-2" autocomplete="off">
+        <label for="guess-input" class="sr-only">Nombre del futbolista</label>
+        <input id="guess-input" type="text" inputmode="text" placeholder="Escribe un nombre…"
+          class="min-h-12 w-full flex-1 rounded-xl border border-border bg-surface px-4 text-base placeholder:text-muted disabled:opacity-60" disabled>
+        <button type="submit" class="min-h-12 rounded-xl bg-accent px-4 font-bold text-accent-ink disabled:opacity-60" disabled>Adivinar</button>
+      </form>
+      <button id="hint-btn" type="button" class="mt-2 min-h-11 w-full rounded-xl border border-border bg-surface font-semibold disabled:opacity-60" disabled>Pedir pista (cuesta 1 intento)</button>
+
+      <p id="dev-note" class="mt-4 rounded-xl border border-dashed border-border p-3 text-sm text-muted">
+        Vista previa (Fase 1): imagen provisional y controles desactivados. La mecánica llega en la Fase 2.
+      </p>
+    </section>
+  </main>
+
+  <footer class="border-t border-border">
+    <p class="mx-auto max-w-xl px-4 py-6 text-xs text-muted">
+      Juego de aficionados sin afiliación con FIFA, UEFA, CONMEBOL ni la Premier League.
+    </p>
+  </footer>
+</body>
+</html>

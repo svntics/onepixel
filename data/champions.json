@@ -1,0 +1,109 @@
+{
+  "categoria": "champions",
+  "jugadores": [
+    {
+      "id": "cristiano-ronaldo",
+      "nombre": "Cristiano Ronaldo",
+      "alias": [
+        "Cristiano",
+        "CR7"
+      ],
+      "categorias": [
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Portugal",
+      "posicion": "Delantero",
+      "pistas": [
+        "Ganó la Eurocopa 2016 con su selección.",
+        "Ganó la Champions con dos clubes distintos.",
+        "Es el máximo goleador de la historia de la Champions League."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "paolo-maldini",
+      "nombre": "Paolo Maldini",
+      "alias": [
+        "Maldini"
+      ],
+      "categorias": [
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Italia",
+      "posicion": "Defensa",
+      "pistas": [
+        "Su padre también fue capitán del mismo club.",
+        "Ganó cinco veces la Copa de Europa / Champions League.",
+        "Jugó toda su carrera en el AC Milan."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "zinedine-zidane",
+      "nombre": "Zinedine Zidane",
+      "alias": [
+        "Zizou",
+        "Zidane"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Francia",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Marcó dos goles de cabeza en la final de un Mundial.",
+        "Anotó un recordado gol de volea en la final de la Champions de 2002.",
+        "Fue expulsado en la final del Mundial de 2006."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "andres-iniesta",
+      "nombre": "Andrés Iniesta",
+      "alias": [
+        "Iniesta"
+      ],
+      "categorias": [
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Se formó en La Masia.",
+        "Ganó cuatro Champions con el Barcelona.",
+        "Marcó el gol que le dio a España su primer Mundial, en 2010."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "kaka",
+      "nombre": "Kaká",
+      "alias": [
+        "Ricardo Kaká",
+        "Ricardo Izecson dos Santos Leite"
+      ],
+      "categorias": [
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Comenzó su carrera en el São Paulo.",
+        "Ganó la Champions 2007 con el AC Milan.",
+        "Ganó el Balón de Oro en 2007."
+      ],
+      "wikidata_id": null,
+      "imagen": null
+    }
+  ]
+}
