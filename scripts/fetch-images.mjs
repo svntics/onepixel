@@ -24,6 +24,7 @@ import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { CONFIG } from "../public/js/config.js";
+import { request, setUserAgent } from "./lib/http.mjs";
 import { classifyLicense, stripHtml, imageFileName, pickP18, looksLikeFootballer, pickSearchCandidate } from "./lib/wikimedia-utils.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -35,7 +36,6 @@ const REPORT_MD = join(ROOT, "reports", "imagenes.md");
 // Contacto para el User-Agent (lo exige Wikimedia). Puedes cambiarlo con la variable CONTACTO.
 const CONTACT = process.env.CONTACTO || CONFIG.SITE_URL;
 const UA = `${CONFIG.SITE_NAME}-image-fetch/1.0 (${CONTACT}) node/${process.versions.node}`;
-const PAUSE_MS = 1000; // ~60 solicitudes/minuto, bien bajo el límite publicado
 const THUMB_WIDTH = 500; // ancho estándar de miniatura en Wikimedia
 const OUT_WIDTH = 480;
 
@@ -43,42 +43,6 @@ const args = process.argv.slice(2);
 const FORCE = args.includes("--force");
 const ONLY = args.find((a) => a.startsWith("--solo="))?.slice(7);
 
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-let lastRequest = 0;
-
-// ---------- HTTP con pausas, User-Agent y reintentos ----------
-async function request(url, { binary = false } = {}) {
-  for (let attempt = 1; attempt <= 6; attempt++) {
-    const wait = lastRequest + PAUSE_MS - Date.now();
-    if (wait > 0) await sleep(wait);
-    lastRequest = Date.now();
-    let res;
-    try {
-      res = await fetch(url, { headers: { "User-Agent": UA, Accept: binary ? "image/*" : "application/json" } });
-    } catch (e) {
-      console.warn(`  ⚠ error de red (${e.message}); reintento ${attempt}/6`);
-      await sleep(5000 * attempt);
-      continue;
-    }
-    if (res.status === 429 || res.status === 503) {
-      const retry = Number(res.headers.get("retry-after"));
-      const ms = Number.isFinite(retry) && retry > 0 ? retry * 1000 : 5000 * 2 ** (attempt - 1);
-      console.warn(`  ⏳ Wikimedia pide esperar (${res.status}); espero ${Math.round(ms / 1000)} s… (${attempt}/6)`);
-      await sleep(ms);
-      continue;
-    }
-    if (!res.ok) throw new Error(`HTTP ${res.status} en ${url}`);
-    if (binary) return Buffer.from(await res.arrayBuffer());
-    const json = await res.json();
-    if (json.error?.code === "maxlag") {
-      await sleep(5000 * attempt);
-      continue;
-    }
-    if (json.error) throw new Error(`API: ${json.error.code} – ${json.error.info}`);
-    return json;
-  }
-  throw new Error(`Demasiados reintentos: ${url}`);
-}
 
 // ---------- Wikidata ----------
 const ENTITY_API = "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&maxlag=5&props=claims|descriptions&languages=en|es";
@@ -165,7 +129,9 @@ async function processPlayer(p) {
   if (!looksLikeFootballer(desc)) row.obs.push(`Revisar: la descripción de Wikidata no menciona fútbol ("${desc}")`);
   if (viaSearch) row.obs.push(`Identificado por búsqueda en Wikidata: ${entity.id} ("${desc}"). Verifica que sea la persona correcta`);
 
-  const file = pickP18(entity.claims);
+  // Foto elegida a mano (p. ej. de la época en que jugaba) tiene prioridad sobre la principal de Wikidata
+  const file = p.imagen_commons || pickP18(entity.claims);
+  if (p.imagen_commons) row.obs.push(`Foto elegida: ${p.imagen_commons}`);
   if (!file) {
     row.obs.push("Wikidata no tiene imagen (P18)");
     return { row, imagen: null, wikidata_id: okId };
@@ -243,6 +209,7 @@ function writeReport(rows) {
 
 // ---------- Principal ----------
 async function main() {
+  setUserAgent(UA);
   console.log(`User-Agent: ${UA}\n`);
   if (/futblur\.vercel\.app/.test(CONTACT) && !process.env.CONTACTO)
     console.warn("⚠ El contacto del User-Agent es la URL provisoria. Si ya tienes otra (p. ej. tu repositorio de GitHub), usa: CONTACTO=https://... npm run images\n");
