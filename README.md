@@ -135,7 +135,7 @@ Todo se ajusta en **`public/js/config.js`**. Puedes editarlo directamente en Git
 | `ADS.SHOW_PLACEHOLDERS` | Mostrar recuadros de prueba en el sitio publicado | `false` |
 | `ADS.SLOTS` | Altura reservada de los banners | 50/100 px celular, 90 px computador |
 | `CONSENT_BANNER` | Aviso de cookies simple (**no** es una plataforma certificada) | `false` |
-| `SUPPORT_URL` / `SUPPORT_LABEL` | Enlace de apoyo (Mercado Pago u otro). Vacío = no aparece | `""` |
+| `SUPPORT_URL` / `SUPPORT_LABEL` | Enlace de apoyo (Mercado Pago u otro). Vacío = no aparece | `"https://link.mercadopago.cl/apoyoonepixel"` |
 | `CONTACT_EMAIL` | Correo para privacidad y retiro de fotos | `"santijavier64@gmail.com"` |
 | `CREDIT_MODE` | Crédito de la foto durante la ronda: `"durante"`, `"durante-sin-enlace"` o `"al-final"` | `"durante"` |
 | `CATEGORIES` | Nombre, emoji y descripción de las 4 categorías | — |

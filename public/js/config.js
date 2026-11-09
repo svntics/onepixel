@@ -40,7 +40,7 @@ export const CONFIG = {
   CONSENT_BANNER: false,
 
   // Enlace de apoyo voluntario (Mercado Pago u otro). Vacío = el botón no aparece.
-  SUPPORT_URL: "",
+  SUPPORT_URL: "https://link.mercadopago.cl/apoyoonepixel",
   SUPPORT_LABEL: "☕ Apoya el proyecto",
 
   // Correo de contacto para privacidad y solicitudes de retiro de imágenes. Vacío = "pendiente".
