@@ -21,8 +21,14 @@
         "Es el único jugador que ganó tres Mundiales (1958, 1962 y 1970)."
       ],
       "wikipedia_en": "Pelé",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q12897",
+      "imagen": {
+        "archivo_local": "img/p/e63c4055bb8a5398.webp",
+        "autor": "Desconocido Unknown author",
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Pele_con_brasil_(cropped).jpg"
+      }
     },
     {
       "id": "juan-roman-riquelme",
@@ -43,8 +49,14 @@
         "Ganó tres Copas Libertadores con Boca Juniors."
       ],
       "wikipedia_en": "Juan Román Riquelme",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q192965",
+      "imagen": {
+        "archivo_local": "img/p/e2cf765536632e6d.webp",
+        "autor": "Todo Noticias",
+        "licencia": "CC BY 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Juan_Rom%C3%A1n_Riquelme_-_2019.jpg"
+      }
     },
     {
       "id": "alberto-spencer",
@@ -64,8 +76,14 @@
         "Es el máximo goleador de la historia de la Copa Libertadores."
       ],
       "wikipedia_en": "Alberto Spencer",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q918388",
+      "imagen": {
+        "archivo_local": "img/p/62b4f9c8c7270e40.webp",
+        "autor": "Eduardo Forte",
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Spencer_el_grafico.jpg"
+      }
     },
     {
       "id": "ronaldinho",
@@ -88,8 +106,14 @@
         "Ganó la Libertadores 2013 con Atlético Mineiro."
       ],
       "wikipedia_en": "Ronaldinho",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q39444",
+      "imagen": {
+        "archivo_local": "img/p/71905b0722d83a4f.webp",
+        "autor": "Nuță Lucian",
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Sports_Festival_2025_-_4_(cropped).jpg"
+      }
     },
     {
       "id": "zico",
@@ -109,8 +133,14 @@
         "Ganó la Libertadores de 1981 con Flamengo."
       ],
       "wikipedia_en": "Zico (footballer)",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q47526",
+      "imagen": {
+        "archivo_local": "img/p/3e000c402c6075bd.webp",
+        "autor": "Doha Stadium Plus",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Zico_2012.jpg"
+      }
     },
     {
       "id": "carlos-tevez",
@@ -133,8 +163,14 @@
         "Ganó la Libertadores 2003 con Boca Juniors."
       ],
       "wikipedia_en": "Carlos Tevez",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q50600",
+      "imagen": {
+        "archivo_local": "img/p/0e370afc2f4175f3.webp",
+        "autor": "Egghead06",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Carlos_Tevez_with_Argentina_November_2014_(cropped).jpg"
+      }
     },
     {
       "id": "carlos-caszely",
@@ -156,8 +192,14 @@
         "Falló un penal ante Austria en el Mundial de 1982."
       ],
       "wikipedia_en": "Carlos Caszely",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q472401",
+      "imagen": {
+        "archivo_local": "img/p/e0a437b213a04596.webp",
+        "autor": "Carlos_Caszely_2013.jpg : Michelle Bachelet derivative work: Warko",
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Carlos_Caszely_2013_cropped.jpg"
+      }
     },
     {
       "id": "neymar",
@@ -180,8 +222,14 @@
         "Ganó la Libertadores 2011 con el Santos."
       ],
       "wikipedia_en": "Neymar",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q142794",
+      "imagen": {
+        "archivo_local": "img/p/cf4d470313acbf3b.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg"
+      }
     },
     {
       "id": "cafu",
@@ -202,8 +250,14 @@
         "Fue el capitán de Brasil campeón del mundo en 2002."
       ],
       "wikipedia_en": "Cafu",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q178683",
+      "imagen": {
+        "archivo_local": "img/p/2bd3073784f0fd06.webp",
+        "autor": "Lula Oficial",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Cafu_-_26.02.2026_-_Cerim%C3%B4nia_de_apresenta%C3%A7%C3%A3o_das_ta%C3%A7as_da_Copa_do_Mundo_de_2026.jpg"
+      }
     },
     {
       "id": "rene-higuita",
@@ -225,8 +279,14 @@
         "Hizo la famosa atajada del \"escorpión\" en Wembley."
       ],
       "wikipedia_en": "René Higuita",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q237494",
+      "imagen": {
+        "archivo_local": "img/p/00eb5947ea93a452.webp",
+        "autor": "Isolinamajul",
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Ren%C3%A9_Higuita,_2007.jpg"
+      }
     },
     {
       "id": "paolo-guerrero",
@@ -248,8 +308,14 @@
         "Es el máximo goleador histórico de la selección peruana."
       ],
       "wikipedia_en": "Paolo Guerrero",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q156802",
+      "imagen": {
+        "archivo_local": "img/p/06e648790e4a8a57.webp",
+        "autor": "Agência Brasília",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Campeonato_Carioca_-_Flamengo_-_Guerrero_(cropped).jpg"
+      }
     },
     {
       "id": "marcelo-vieira",
@@ -270,8 +336,14 @@
         "Volvió a su club formador y ganó la Libertadores 2023."
       ],
       "wikipedia_en": "Marcelo (footballer, born 1988)",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q38136",
+      "imagen": {
+        "archivo_local": "img/p/25f998539c338a1f.webp",
+        "autor": "Granada",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Marcelo_850_1622.jpg"
+      }
     },
     {
       "id": "martin-palermo",
@@ -293,8 +365,14 @@
         "Es el máximo goleador histórico de Boca Juniors."
       ],
       "wikipedia_en": "Martín Palermo",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q208436",
+      "imagen": {
+        "archivo_local": "img/p/7684fb8512b74588.webp",
+        "autor": "Parkerjones",
+        "licencia": "CC BY 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Martin_palermo_fkm08.jpg"
+      }
     },
     {
       "id": "enzo-francescoli",
@@ -315,8 +393,14 @@
         "Ganó la Libertadores 1996 con River Plate."
       ],
       "wikipedia_en": "Enzo Francescoli",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q210083",
+      "imagen": {
+        "archivo_local": "img/p/b28a8ec88ee381d3.webp",
+        "autor": "Christophe95",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Enzo_Francescoli_2011.jpg"
+      }
     },
     {
       "id": "rogerio-ceni",
@@ -336,8 +420,14 @@
         "Es el arquero que más goles marcó en la historia."
       ],
       "wikipedia_en": "Rogério Ceni",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q1249859",
+      "imagen": {
+        "archivo_local": "img/p/6e2774bc9411e7b6.webp",
+        "autor": "Ricardo Stuckert/PR (cropped by Paris )",
+        "licencia": "CC BY 3.0 br",
+        "url_licencia": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Rog%C3%A9rio_Ceni.jpg"
+      }
     },
     {
       "id": "juan-sebastian-veron",
@@ -359,8 +449,14 @@
         "Ganó la Libertadores 2009 con Estudiantes de La Plata."
       ],
       "wikipedia_en": "Juan Sebastián Verón",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q46502",
+      "imagen": {
+        "archivo_local": "img/p/0ea146cdee5c2a73.webp",
+        "autor": "Agencia de Noticias ANDES",
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Sebasti%C3%A1n_Ver%C3%B3n.png"
+      }
     },
     {
       "id": "gabriel-barbosa",
@@ -381,8 +477,14 @@
         "Marcó dos goles en los últimos minutos de la final de 2019 ante River."
       ],
       "wikipedia_en": "Gabriel Barbosa",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q13646572",
+      "imagen": {
+        "archivo_local": "img/p/e10ce163536793c3.webp",
+        "autor": "Palácio do Planalto",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Gabriel_2020.jpg"
+      }
     },
     {
       "id": "gonzalo-martinez",
@@ -424,8 +526,14 @@
         "Marcó el gol del título de la Libertadores 1982 ante Cobreloa."
       ],
       "wikipedia_en": "Fernando Morena",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q543368",
+      "imagen": {
+        "archivo_local": "img/p/16c23fda813f78f0.webp",
+        "autor": "Andrea Mazza",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Fernando_Morena_2011.jpg"
+      }
     },
     {
       "id": "hernan-crespo",
@@ -446,8 +554,14 @@
         "Ganó la Libertadores 1996 con River Plate."
       ],
       "wikipedia_en": "Hernán Crespo",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q160206",
+      "imagen": {
+        "archivo_local": "img/p/1199ba8f4f59fddc.webp",
+        "autor": "Omgosh30",
+        "licencia": "CC0",
+        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Hern%C3%A1n_Crespo.png"
+      }
     },
     {
       "id": "ariel-ortega",
@@ -468,8 +582,14 @@
         "Ganó la Libertadores 1996 con River Plate."
       ],
       "wikipedia_en": "Ariel Ortega",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q296965",
+      "imagen": {
+        "archivo_local": "img/p/3306e810218d3a9a.webp",
+        "autor": "Gobierno de la Ciudad de Buenos Aires from Ciudad Autónoma de Buenos Aires, Argentina",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Ariel_Ortega_(cropped).jpg"
+      }
     },
     {
       "id": "marcelo-gallardo",
@@ -490,8 +610,14 @@
         "Es uno de los máximos ídolos de River Plate, como jugador y como técnico."
       ],
       "wikipedia_en": "Marcelo Gallardo",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q266507",
+      "imagen": {
+        "archivo_local": "img/p/a1a05877e2c42cde.webp",
+        "autor": "Carlos Figueroa Rojas",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Palestino_-_River_Plate_20190424_32.jpg"
+      }
     },
     {
       "id": "diego-lugano",
@@ -511,8 +637,14 @@
         "Ganó la Libertadores 2005 con el São Paulo."
       ],
       "wikipedia_en": "Diego Lugano",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q373547",
+      "imagen": {
+        "archivo_local": "img/p/18624c4eb383b320.webp",
+        "autor": "Ailura",
+        "licencia": "CC BY-SA 3.0 at",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:U02_Diego_Lugano_7557.jpg"
+      }
     },
     {
       "id": "jaime-pizarro",
@@ -532,8 +664,14 @@
         "Fue el capitán de Colo-Colo campeón de la Libertadores 1991."
       ],
       "wikipedia_en": "Jaime Pizarro",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q547441",
+      "imagen": {
+        "archivo_local": "img/p/04c3c107472dfe2f.webp",
+        "autor": "Estado de Chile",
+        "licencia": "CC BY 3.0 cl",
+        "url_licencia": "https://creativecommons.org/licenses/by/3.0/cl/deed.en",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Ministro_Jaime_Pizarro.jpg"
+      }
     },
     {
       "id": "juan-fernando-quintero",
@@ -554,8 +692,14 @@
         "Anotó un golazo en el alargue de la final de 2018 en Madrid."
       ],
       "wikipedia_en": "Juan Fernando Quintero",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q2092409",
+      "imagen": {
+        "archivo_local": "img/p/56d2e2dd52209e1c.webp",
+        "autor": "RamosFils2Chèvre",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Juan_Quintero_(cropped).jpg"
+      }
     },
     {
       "id": "giorgian-de-arrascaeta",
@@ -575,8 +719,14 @@
         "Ganó la Libertadores 2019 y 2022 con el Flamengo."
       ],
       "wikipedia_en": "Giorgian de Arrascaeta",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q13578003",
+      "imagen": {
+        "archivo_local": "img/p/0a5ae9537bab0fd6.webp",
+        "autor": "Ailura, CC BY-SA 3.0 AT",
+        "licencia": "CC BY-SA 3.0 at",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Giorgian_De_Arrascaeta_20171114_AUT_URU_4546_(cropped).jpg"
+      }
     },
     {
       "id": "miguel-borja",
@@ -596,8 +746,14 @@
         "Marcó cuatro goles en las semifinales de la Libertadores 2016 ante São Paulo."
       ],
       "wikipedia_en": "Miguel Borja",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q4094820",
+      "imagen": {
+        "archivo_local": "img/p/7b386c70fb95cb93.webp",
+        "autor": "Adrianinis11",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Miguel_Borja_2016.jpg"
+      }
     },
     {
       "id": "german-cano",
@@ -617,8 +773,14 @@
         "Marcó en la final de la Libertadores 2023 con el Fluminense."
       ],
       "wikipedia_en": "Germán Cano",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q3761170",
+      "imagen": {
+        "archivo_local": "img/p/5667743bf06d153a.webp",
+        "autor": "Crismejia",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:GECano.jpg"
+      }
     },
     {
       "id": "lucas-pratto",
@@ -640,8 +802,14 @@
         "Marcó en la ida y en la vuelta de la final de 2018 ante Boca."
       ],
       "wikipedia_en": "Lucas Pratto",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q1845684",
+      "imagen": {
+        "archivo_local": "img/p/62fd18f932619055.webp",
+        "autor": "Carlos Figueroa Rojas",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Palestino_-_River_Plate_20190424_24.jpg"
+      }
     },
     {
       "id": "ricardo-bochini",
@@ -662,8 +830,14 @@
         "Ganó cuatro Copas Libertadores con Independiente."
       ],
       "wikipedia_en": "Ricardo Bochini",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q318304",
+      "imagen": {
+        "archivo_local": "img/p/33f76a03e0b37520.webp",
+        "autor": "Diablo del Oeste",
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Bocho.JPG"
+      }
     }
   ]
 }

@@ -1,0 +1,1466 @@
+{
+  "zinedine-zidane": {
+    "id": "zinedine-zidane",
+    "jugador": "Zinedine Zidane",
+    "categorias": [
+      "mundiales",
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY 4.0",
+    "autor": "Tasnim News Agency",
+    "obs": [],
+    "wikidata_id": "Q1835",
+    "descripcion": "French association football player and coach"
+  },
+  "didier-drogba": {
+    "id": "didier-drogba",
+    "jugador": "Didier Drogba",
+    "categorias": [
+      "premier",
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Y.Leclercq©",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q48892",
+    "descripcion": "Ivorian and French association football player"
+  },
+  "cristiano-ronaldo": {
+    "id": "cristiano-ronaldo",
+    "jugador": "Cristiano Ronaldo",
+    "categorias": [
+      "champions",
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q11571",
+    "descripcion": "Portuguese association football player (born 1985)"
+  },
+  "paolo-maldini": {
+    "id": "paolo-maldini",
+    "jugador": "Paolo Maldini",
+    "categorias": [
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY 4.0",
+    "autor": "Tasnim News Agency",
+    "obs": [],
+    "wikidata_id": "Q483027",
+    "descripcion": "Italian association football player (born 1968)"
+  },
+  "andres-iniesta": {
+    "id": "andres-iniesta",
+    "jugador": "Andrés Iniesta",
+    "categorias": [
+      "champions",
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q43729",
+    "descripcion": "Spanish footballer and manager"
+  },
+  "kaka": {
+    "id": "kaka",
+    "jugador": "Kaká",
+    "categorias": [
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY 3.0 br",
+    "autor": "José Cruz/ABr (cropped by tales.ebner )",
+    "obs": [
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q531814",
+    "descripcion": "Brazilian association football player (born 1982)"
+  },
+  "ronaldinho": {
+    "id": "ronaldinho",
+    "jugador": "Ronaldinho",
+    "categorias": [
+      "libertadores",
+      "mundiales",
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 2.0",
+    "autor": "Nuță Lucian",
+    "obs": [
+      "Revisar: la descripción de Wikidata no menciona fútbol (\"Brazilian associaton fooball player (born 1980)\")",
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q39444",
+    "descripcion": "Brazilian associaton fooball player (born 1980)"
+  },
+  "lionel-messi": {
+    "id": "lionel-messi",
+    "jugador": "Lionel Messi",
+    "categorias": [
+      "mundiales",
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q615",
+    "descripcion": "Argentine association football player (born 1987)"
+  },
+  "arturo-vidal": {
+    "id": "arturo-vidal",
+    "jugador": "Arturo Vidal",
+    "categorias": [
+      "mundiales",
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Дмитрий Садовников",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q192671",
+    "descripcion": "Chilean association football player"
+  },
+  "johan-cruyff": {
+    "id": "johan-cruyff",
+    "jugador": "Johan Cruyff",
+    "categorias": [
+      "mundiales",
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0 nl",
+    "autor": "Nationaal Archief",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q17163",
+    "descripcion": "Dutch footballer and manager (1947–2016)"
+  },
+  "franz-beckenbauer": {
+    "id": "franz-beckenbauer",
+    "jugador": "Franz Beckenbauer",
+    "categorias": [
+      "mundiales",
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "Editorial Panini",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q4457",
+    "descripcion": "German sports official and association football player (1945–2024)"
+  },
+  "eusebio": {
+    "id": "eusebio",
+    "jugador": "Eusébio",
+    "categorias": [
+      "mundiales",
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "Panini",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q162043",
+    "descripcion": "Portuguese footballer (1942–2014)"
+  },
+  "kylian-mbappe": {
+    "id": "kylian-mbappe",
+    "jugador": "Kylian Mbappé",
+    "categorias": [
+      "mundiales",
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q21621995",
+    "descripcion": "French footballer (born 1998)"
+  },
+  "luka-modric": {
+    "id": "luka-modric",
+    "jugador": "Luka Modrić",
+    "categorias": [
+      "mundiales",
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q483837",
+    "descripcion": "Croatian footballer (born 1985)"
+  },
+  "gianluigi-buffon": {
+    "id": "gianluigi-buffon",
+    "jugador": "Gianluigi Buffon",
+    "categorias": [
+      "mundiales",
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "Doha Stadium Plus Qatar from Doha, Qatar",
+    "obs": [],
+    "wikidata_id": "Q68060",
+    "descripcion": "former Italian footballer (born 1978)"
+  },
+  "neymar": {
+    "id": "neymar",
+    "jugador": "Neymar",
+    "categorias": [
+      "libertadores",
+      "mundiales",
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q142794",
+    "descripcion": "Brazilian footballer (born 1992)"
+  },
+  "steven-gerrard": {
+    "id": "steven-gerrard",
+    "jugador": "Steven Gerrard",
+    "categorias": [
+      "premier",
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Эдгар Брещанов",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q459830",
+    "descripcion": "English association football player and manager (born 1980)"
+  },
+  "mohamed-salah": {
+    "id": "mohamed-salah",
+    "jugador": "Mohamed Salah",
+    "categorias": [
+      "premier",
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q1354960",
+    "descripcion": "Egyptian association football player (born 1992)"
+  },
+  "erling-haaland": {
+    "id": "erling-haaland",
+    "jugador": "Erling Haaland",
+    "categorias": [
+      "premier",
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q28967995",
+    "descripcion": "Norwegian footballer (born 2000)"
+  },
+  "virgil-van-dijk": {
+    "id": "virgil-van-dijk",
+    "jugador": "Virgil van Dijk",
+    "categorias": [
+      "premier",
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0 at",
+    "autor": "Ailura, CC BY-SA 3.0 AT",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q133903",
+    "descripcion": "Dutch association football player (born 1991)"
+  },
+  "fernando-torres": {
+    "id": "fernando-torres",
+    "jugador": "Fernando Torres",
+    "categorias": [
+      "premier",
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "cristina cifuentes",
+    "obs": [],
+    "wikidata_id": "Q42731",
+    "descripcion": "Spanish footballer and manager (born 1984)"
+  },
+  "gareth-bale": {
+    "id": "gareth-bale",
+    "jugador": "Gareth Bale",
+    "categorias": [
+      "champions",
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY 4.0",
+    "autor": "Tasnim News Agency",
+    "obs": [],
+    "wikidata_id": "Q184586",
+    "descripcion": "Welsh association football player"
+  },
+  "karim-benzema": {
+    "id": "karim-benzema",
+    "jugador": "Karim Benzema",
+    "categorias": [
+      "champions"
+    ],
+    "libre": false,
+    "licencia": "",
+    "autor": "",
+    "obs": [
+      "Wikidata no tiene imagen (P18)"
+    ],
+    "wikidata_id": "Q1912",
+    "descripcion": "French footballer (born 1987)"
+  },
+  "sergio-ramos": {
+    "id": "sergio-ramos",
+    "jugador": "Sergio Ramos",
+    "categorias": [
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY 3.0",
+    "autor": "Real Madrid",
+    "obs": [],
+    "wikidata_id": "Q483309",
+    "descripcion": "Spanish association football player (born 1986)"
+  },
+  "iker-casillas": {
+    "id": "iker-casillas",
+    "jugador": "Iker Casillas",
+    "categorias": [
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Зайцев Антон",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q11584",
+    "descripcion": "Spanish association football player"
+  },
+  "xavi-hernandez": {
+    "id": "xavi-hernandez",
+    "jugador": "Xavi Hernández",
+    "categorias": [
+      "champions"
+    ],
+    "libre": false,
+    "licencia": "",
+    "autor": "",
+    "obs": [
+      "Revisar: la descripción de Wikidata no menciona fútbol (\"\")",
+      "Wikidata no tiene imagen (P18)"
+    ],
+    "wikidata_id": "Q127364958",
+    "descripcion": ""
+  },
+  "clarence-seedorf": {
+    "id": "clarence-seedorf",
+    "jugador": "Clarence Seedorf",
+    "categorias": [
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Кирилл Венедиктов",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q484909",
+    "descripcion": "Dutch professional football manager and former player"
+  },
+  "andriy-shevchenko": {
+    "id": "andriy-shevchenko",
+    "jugador": "Andriy Shevchenko",
+    "categorias": [
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY 4.0",
+    "autor": "Mms.gov.ua",
+    "obs": [],
+    "wikidata_id": "Q41244",
+    "descripcion": "Ukrainian association football player"
+  },
+  "raul-gonzalez": {
+    "id": "raul-gonzalez",
+    "jugador": "Raúl González",
+    "categorias": [
+      "champions"
+    ],
+    "libre": false,
+    "licencia": "",
+    "autor": "",
+    "obs": [
+      "No se encontró en Wikidata (wikipedia_en=\"Raúl (footballer)\", wikidata_id=—)"
+    ]
+  },
+  "robert-lewandowski": {
+    "id": "robert-lewandowski",
+    "jugador": "Robert Lewandowski",
+    "categorias": [
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Светлана Бекетова",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q151269",
+    "descripcion": "Polish association football player (born 1988)"
+  },
+  "manuel-neuer": {
+    "id": "manuel-neuer",
+    "jugador": "Manuel Neuer",
+    "categorias": [
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q107365",
+    "descripcion": "German association football player (born 1986)"
+  },
+  "arjen-robben": {
+    "id": "arjen-robben",
+    "jugador": "Arjen Robben",
+    "categorias": [
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Дмитрий Садовников",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q43913",
+    "descripcion": "Dutch association football player (born 1984)"
+  },
+  "samuel-etoo": {
+    "id": "samuel-etoo",
+    "jugador": "Samuel Eto'o",
+    "categorias": [
+      "champions"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "BACHELOR45",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q1255625",
+    "descripcion": "Cameroonian association football player"
+  },
+  "marcelo-vieira": {
+    "id": "marcelo-vieira",
+    "jugador": "Marcelo",
+    "categorias": [
+      "champions",
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Granada",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q38136",
+    "descripcion": "Brazilian association football player"
+  },
+  "pele": {
+    "id": "pele",
+    "jugador": "Pelé",
+    "categorias": [
+      "mundiales",
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "Desconocido Unknown author",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q12897",
+    "descripcion": "Brazilian footballer (1940–2022)"
+  },
+  "juan-roman-riquelme": {
+    "id": "juan-roman-riquelme",
+    "jugador": "Juan Román Riquelme",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY 3.0",
+    "autor": "Todo Noticias",
+    "obs": [],
+    "wikidata_id": "Q192965",
+    "descripcion": "Argentine association football player"
+  },
+  "alberto-spencer": {
+    "id": "alberto-spencer",
+    "jugador": "Alberto Spencer",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "Eduardo Forte",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q918388",
+    "descripcion": "Ecuadorian footballer (1937-2025)"
+  },
+  "zico": {
+    "id": "zico",
+    "jugador": "Zico",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "Doha Stadium Plus",
+    "obs": [],
+    "wikidata_id": "Q47526",
+    "descripcion": "Brazilian association football player and manager"
+  },
+  "carlos-tevez": {
+    "id": "carlos-tevez",
+    "jugador": "Carlos Tévez",
+    "categorias": [
+      "libertadores",
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Egghead06",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q50600",
+    "descripcion": "Argentine footballer (born 1984)"
+  },
+  "carlos-caszely": {
+    "id": "carlos-caszely",
+    "jugador": "Carlos Caszely",
+    "categorias": [
+      "mundiales",
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 2.0",
+    "autor": "Carlos_Caszely_2013.jpg : Michelle Bachelet derivative work: Warko",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q472401",
+    "descripcion": "Chilean footballer"
+  },
+  "cafu": {
+    "id": "cafu",
+    "jugador": "Cafu",
+    "categorias": [
+      "libertadores",
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Lula Oficial",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q178683",
+    "descripcion": "Brazilian association football player"
+  },
+  "rene-higuita": {
+    "id": "rene-higuita",
+    "jugador": "René Higuita",
+    "categorias": [
+      "libertadores",
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "Isolinamajul",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q237494",
+    "descripcion": "Colombian footballer and manager (born 1966)"
+  },
+  "paolo-guerrero": {
+    "id": "paolo-guerrero",
+    "jugador": "Paolo Guerrero",
+    "categorias": [
+      "libertadores",
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "Agência Brasília",
+    "obs": [],
+    "wikidata_id": "Q156802",
+    "descripcion": "Peruvian association football player"
+  },
+  "martin-palermo": {
+    "id": "martin-palermo",
+    "jugador": "Martín Palermo",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY 3.0",
+    "autor": "Parkerjones",
+    "obs": [],
+    "wikidata_id": "Q208436",
+    "descripcion": "Argentine footballer and manager"
+  },
+  "enzo-francescoli": {
+    "id": "enzo-francescoli",
+    "jugador": "Enzo Francescoli",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Christophe95",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q210083",
+    "descripcion": "Uruguayan footballer"
+  },
+  "rogerio-ceni": {
+    "id": "rogerio-ceni",
+    "jugador": "Rogério Ceni",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY 3.0 br",
+    "autor": "Ricardo Stuckert/PR (cropped by Paris )",
+    "obs": [
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q1249859",
+    "descripcion": "Brazilian professional football manager and former player"
+  },
+  "juan-sebastian-veron": {
+    "id": "juan-sebastian-veron",
+    "jugador": "Juan Sebastián Verón",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 2.0",
+    "autor": "Agencia de Noticias ANDES",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q46502",
+    "descripcion": "Argentine footballer"
+  },
+  "gabriel-barbosa": {
+    "id": "gabriel-barbosa",
+    "jugador": "Gabriel Barbosa",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "Palácio do Planalto",
+    "obs": [],
+    "wikidata_id": "Q13646572",
+    "descripcion": "Brazilian association football player (born 1996)"
+  },
+  "gonzalo-martinez": {
+    "id": "gonzalo-martinez",
+    "jugador": "Gonzalo Martínez",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": false,
+    "licencia": "",
+    "autor": "",
+    "obs": [
+      "No se encontró en Wikidata (wikipedia_en=\"Gonzalo Martínez (footballer, born 1993)\", wikidata_id=—)"
+    ]
+  },
+  "fernando-morena": {
+    "id": "fernando-morena",
+    "jugador": "Fernando Morena",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Andrea Mazza",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q543368",
+    "descripcion": "Uruguayan footballer"
+  },
+  "hernan-crespo": {
+    "id": "hernan-crespo",
+    "jugador": "Hernán Crespo",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC0",
+    "autor": "Omgosh30",
+    "obs": [],
+    "wikidata_id": "Q160206",
+    "descripcion": "Argentine footballer"
+  },
+  "ariel-ortega": {
+    "id": "ariel-ortega",
+    "jugador": "Ariel Ortega",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "Gobierno de la Ciudad de Buenos Aires from Ciudad Autónoma de Buenos Aires, Argentina",
+    "obs": [],
+    "wikidata_id": "Q296965",
+    "descripcion": "Argentine footballer"
+  },
+  "marcelo-gallardo": {
+    "id": "marcelo-gallardo",
+    "jugador": "Marcelo Gallardo",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Carlos Figueroa Rojas",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q266507",
+    "descripcion": "Argentine footballer and manager"
+  },
+  "diego-lugano": {
+    "id": "diego-lugano",
+    "jugador": "Diego Lugano",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0 at",
+    "autor": "Ailura",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q373547",
+    "descripcion": "Uruguayan footballer"
+  },
+  "jaime-pizarro": {
+    "id": "jaime-pizarro",
+    "jugador": "Jaime Pizarro",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY 3.0 cl",
+    "autor": "Estado de Chile",
+    "obs": [],
+    "wikidata_id": "Q547441",
+    "descripcion": "Chilean footballer"
+  },
+  "juan-fernando-quintero": {
+    "id": "juan-fernando-quintero",
+    "jugador": "Juan Fernando Quintero",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "RamosFils2Chèvre",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q2092409",
+    "descripcion": "Colombian association football player"
+  },
+  "giorgian-de-arrascaeta": {
+    "id": "giorgian-de-arrascaeta",
+    "jugador": "Giorgian de Arrascaeta",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0 at",
+    "autor": "Ailura, CC BY-SA 3.0 AT",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q13578003",
+    "descripcion": "Uruguayan footballer"
+  },
+  "miguel-borja": {
+    "id": "miguel-borja",
+    "jugador": "Miguel Borja",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Adrianinis11",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q4094820",
+    "descripcion": "Colombian association football player"
+  },
+  "german-cano": {
+    "id": "german-cano",
+    "jugador": "Germán Cano",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Crismejia",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q3761170",
+    "descripcion": "Argentine footballer"
+  },
+  "lucas-pratto": {
+    "id": "lucas-pratto",
+    "jugador": "Lucas Pratto",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Carlos Figueroa Rojas",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q1845684",
+    "descripcion": "Argentine association football player"
+  },
+  "ricardo-bochini": {
+    "id": "ricardo-bochini",
+    "jugador": "Ricardo Bochini",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "Diablo del Oeste",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q318304",
+    "descripcion": "Argentine footballer"
+  },
+  "diego-maradona": {
+    "id": "diego-maradona",
+    "jugador": "Diego Maradona",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "Desconocido Unknown author",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q17515",
+    "descripcion": "Argentine football player and manager (1960–2020)"
+  },
+  "miroslav-klose": {
+    "id": "miroslav-klose",
+    "jugador": "Miroslav Klose",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Sven Mandel",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q80471",
+    "descripcion": "German professional football manager and former player"
+  },
+  "marcelo-salas": {
+    "id": "marcelo-salas",
+    "jugador": "Marcelo Salas",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Alechuncho",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q295438",
+    "descripcion": "Chilean footballer"
+  },
+  "thierry-henry": {
+    "id": "thierry-henry",
+    "jugador": "Thierry Henry",
+    "categorias": [
+      "premier",
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "Web Summit",
+    "obs": [],
+    "wikidata_id": "Q45901",
+    "descripcion": "French association football player and manager"
+  },
+  "alexis-sanchez": {
+    "id": "alexis-sanchez",
+    "jugador": "Alexis Sánchez",
+    "categorias": [
+      "premier",
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "joshjdss",
+    "obs": [],
+    "wikidata_id": "Q180553",
+    "descripcion": "Chilean footballer (born 1988)"
+  },
+  "ronaldo-nazario": {
+    "id": "ronaldo-nazario",
+    "jugador": "Ronaldo Nazário",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "Web Summit",
+    "obs": [],
+    "wikidata_id": "Q529207",
+    "descripcion": "Brazilian association football player (born 1976)"
+  },
+  "ivan-zamorano": {
+    "id": "ivan-zamorano",
+    "jugador": "Iván Zamorano",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "11-06-2013_Partido_Chile-Bolivia.jpg : tu Foto con el Presidente derivative work: Rec79",
+    "obs": [],
+    "wikidata_id": "Q192035",
+    "descripcion": "Chilean footballer"
+  },
+  "claudio-bravo": {
+    "id": "claudio-bravo",
+    "jugador": "Claudio Bravo",
+    "categorias": [
+      "mundiales",
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Дмитрий Садовников",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q313161",
+    "descripcion": "Chilean association football player"
+  },
+  "elias-figueroa": {
+    "id": "elias-figueroa",
+    "jugador": "Elías Figueroa",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "Marco Nuñez from Santiago, Chile",
+    "obs": [],
+    "wikidata_id": "Q310981",
+    "descripcion": "Chilean footballer"
+  },
+  "leonel-sanchez": {
+    "id": "leonel-sanchez",
+    "jugador": "Leonel Sánchez",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "Revista Argentina \"Mundo Deportivo\"",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q314630",
+    "descripcion": "Chilean footballer"
+  },
+  "gerd-muller": {
+    "id": "gerd-muller",
+    "jugador": "Gerd Müller",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "Desconocido Unknown author",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q43744",
+    "descripcion": "German footballer (1945–2021)"
+  },
+  "mario-kempes": {
+    "id": "mario-kempes",
+    "jugador": "Mario Kempes",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q180649",
+    "descripcion": "Argentine footballer (born 1954)"
+  },
+  "paolo-rossi": {
+    "id": "paolo-rossi",
+    "jugador": "Paolo Rossi",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "The original uploader was Snake90 de Wikipedia en italiano .",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q178628",
+    "descripcion": "Italian footballer (1956–2020)"
+  },
+  "roberto-baggio": {
+    "id": "roberto-baggio",
+    "jugador": "Roberto Baggio",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "AbolfaZl0990",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q67964",
+    "descripcion": "Italian association football player (born 1967)"
+  },
+  "diego-forlan": {
+    "id": "diego-forlan",
+    "jugador": "Diego Forlán",
+    "categorias": [
+      "mundiales",
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0 at",
+    "autor": "Ailura",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q261534",
+    "descripcion": "Uruguayan association football player and manager (born 1979)"
+  },
+  "james-rodriguez": {
+    "id": "james-rodriguez",
+    "jugador": "James Rodríguez",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY 3.0",
+    "autor": "Canal 10 Gold",
+    "obs": [],
+    "wikidata_id": "Q368441",
+    "descripcion": "Colombian association football player"
+  },
+  "carlos-valderrama": {
+    "id": "carlos-valderrama",
+    "jugador": "Carlos Valderrama",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY 3.0",
+    "autor": "Maritza Ariza Periodista",
+    "obs": [],
+    "wikidata_id": "Q204089",
+    "descripcion": "Colombian footballer"
+  },
+  "teofilo-cubillas": {
+    "id": "teofilo-cubillas",
+    "jugador": "Teófilo Cubillas",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "Desconocido Unknown author",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q311403",
+    "descripcion": "Peruvian footballer"
+  },
+  "thomas-muller": {
+    "id": "thomas-muller",
+    "jugador": "Thomas Müller",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Werner100359",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q43666",
+    "descripcion": "German association football player"
+  },
+  "luis-suarez": {
+    "id": "luis-suarez",
+    "jugador": "Luis Suárez",
+    "categorias": [
+      "mundiales",
+      "premier"
+    ],
+    "libre": false,
+    "licencia": "",
+    "autor": "",
+    "obs": [
+      "Revisar: la descripción de Wikidata no menciona fútbol (\"Wikimedia human name disambiguation page\")",
+      "Wikidata no tiene imagen (P18)"
+    ],
+    "wikidata_id": "Q398140",
+    "descripcion": "Wikimedia human name disambiguation page"
+  },
+  "alan-shearer": {
+    "id": "alan-shearer",
+    "jugador": "Alan Shearer",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 2.0",
+    "autor": "Originally carltonreid ; retouched by DFS454",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q483583",
+    "descripcion": "English footballer"
+  },
+  "sergio-aguero": {
+    "id": "sergio-aguero",
+    "jugador": "Sergio Agüero",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Кирилл Венедиктов",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q119562",
+    "descripcion": "Argentine association football player"
+  },
+  "wayne-rooney": {
+    "id": "wayne-rooney",
+    "jugador": "Wayne Rooney",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Дмитрий Голубович",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q266613",
+    "descripcion": "English footballer and manager"
+  },
+  "frank-lampard": {
+    "id": "frank-lampard",
+    "jugador": "Frank Lampard",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY 4.0",
+    "autor": "Fars Media Corporation",
+    "obs": [],
+    "wikidata_id": "Q41533",
+    "descripcion": "English association football player and manager"
+  },
+  "ryan-giggs": {
+    "id": "ryan-giggs",
+    "jugador": "Ryan Giggs",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "James Adams",
+    "obs": [],
+    "wikidata_id": "Q10524",
+    "descripcion": "Welsh association football player and coach"
+  },
+  "eric-cantona": {
+    "id": "eric-cantona",
+    "jugador": "Eric Cantona",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Georges Biard",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q170328",
+    "descripcion": "French footballer and actor (born 1966)"
+  },
+  "kevin-de-bruyne": {
+    "id": "kevin-de-bruyne",
+    "jugador": "Kevin De Bruyne",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q357984",
+    "descripcion": "Belgian association football player (born 1991)"
+  },
+  "petr-cech": {
+    "id": "petr-cech",
+    "jugador": "Petr Čech",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Warrenfish",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q483137",
+    "descripcion": "Czech footballer (born 1982)"
+  },
+  "cesc-fabregas": {
+    "id": "cesc-fabregas",
+    "jugador": "Cesc Fàbregas",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "Web Summit",
+    "obs": [],
+    "wikidata_id": "Q17499",
+    "descripcion": "Spanish professional footballer player and manager"
+  },
+  "patrick-vieira": {
+    "id": "patrick-vieira",
+    "jugador": "Patrick Vieira",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Simon Heseltine",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q46347",
+    "descripcion": "French association football player and coach"
+  },
+  "dennis-bergkamp": {
+    "id": "dennis-bergkamp",
+    "jugador": "Dennis Bergkamp",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "Kieran Clarke",
+    "obs": [],
+    "wikidata_id": "Q185389",
+    "descripcion": "Dutch association football player (born 1969)"
+  },
+  "paul-scholes": {
+    "id": "paul-scholes",
+    "jugador": "Paul Scholes",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "James Adams",
+    "obs": [],
+    "wikidata_id": "Q45613",
+    "descripcion": "English footballer (born 1974)"
+  },
+  "harry-kane": {
+    "id": "harry-kane",
+    "jugador": "Harry Kane",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q969725",
+    "descripcion": "English association football player (born 1993)"
+  },
+  "son-heung-min": {
+    "id": "son-heung-min",
+    "jugador": "Son Heung-min",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Ujishadow",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q439722",
+    "descripcion": "South Korean association football player (born 1992)"
+  },
+  "jamie-vardy": {
+    "id": "jamie-vardy",
+    "jugador": "Jamie Vardy",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Кирилл Венедиктов",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q6147586",
+    "descripcion": "English association football player (born 1987)"
+  },
+  "ngolo-kante": {
+    "id": "ngolo-kante",
+    "jugador": "N'Golo Kanté",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q16665941",
+    "descripcion": "French footballer (born 1991)"
+  },
+  "peter-schmeichel": {
+    "id": "peter-schmeichel",
+    "jugador": "Peter Schmeichel",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY 3.0",
+    "autor": "Carlsberg",
+    "obs": [],
+    "wikidata_id": "Q182314",
+    "descripcion": "Danish footballer (born 1963)"
+  }
+}

@@ -21,8 +21,14 @@
         "Fue expulsado en la final del Mundial de 2006."
       ],
       "wikipedia_en": "Zinedine Zidane",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q1835",
+      "imagen": {
+        "archivo_local": "img/p/f836c3e8da2e98fb.webp",
+        "autor": "Tasnim News Agency",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Zinedine_Zidane_by_Tasnim_03.jpg"
+      }
     },
     {
       "id": "didier-drogba",
@@ -43,8 +49,14 @@
         "Marcó el penal decisivo en la final de la Champions 2012."
       ],
       "wikipedia_en": "Didier Drogba",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q48892",
+      "imagen": {
+        "archivo_local": "img/p/3b009ca81ff7ed4c.webp",
+        "autor": "Y.Leclercq©",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Didier_Drogba_(2019)_(cropped).jpg"
+      }
     },
     {
       "id": "cristiano-ronaldo",
@@ -66,8 +78,14 @@
         "Es el máximo goleador de la historia de la Champions League."
       ],
       "wikipedia_en": "Cristiano Ronaldo",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q11571",
+      "imagen": {
+        "archivo_local": "img/p/9f90848c076edd52.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg"
+      }
     },
     {
       "id": "paolo-maldini",
@@ -87,8 +105,14 @@
         "Jugó toda su carrera en el AC Milan."
       ],
       "wikipedia_en": "Paolo Maldini",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q483027",
+      "imagen": {
+        "archivo_local": "img/p/763f003f04c1e8aa.webp",
+        "autor": "Tasnim News Agency",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Paolo_Maldini_press_conference_in_Tehran_(cropped).jpg"
+      }
     },
     {
       "id": "andres-iniesta",
@@ -109,8 +133,14 @@
         "Marcó el gol que le dio a España su primer Mundial, en 2010."
       ],
       "wikipedia_en": "Andrés Iniesta",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q43729",
+      "imagen": {
+        "archivo_local": "img/p/10beeb169d21f07d.webp",
+        "autor": "Bryan Berlin",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Iniesta_Argentina_v_Spain_19_July_2026-034_(cropped).jpg"
+      }
     },
     {
       "id": "kaka",
@@ -131,8 +161,14 @@
         "Ganó el Balón de Oro en 2007."
       ],
       "wikipedia_en": "Kaká",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q531814",
+      "imagen": {
+        "archivo_local": "img/p/f407f048ea5d4b3a.webp",
+        "autor": "José Cruz/ABr (cropped by tales.ebner )",
+        "licencia": "CC BY 3.0 br",
+        "url_licencia": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Ricardo_Izecson_dos_Santos_Leite_(Kak%C3%A1)_01.jpg"
+      }
     },
     {
       "id": "ronaldinho",
@@ -155,8 +191,14 @@
         "Ganó la Libertadores 2013 con Atlético Mineiro."
       ],
       "wikipedia_en": "Ronaldinho",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q39444",
+      "imagen": {
+        "archivo_local": "img/p/71905b0722d83a4f.webp",
+        "autor": "Nuță Lucian",
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Sports_Festival_2025_-_4_(cropped).jpg"
+      }
     },
     {
       "id": "lionel-messi",
@@ -179,8 +221,14 @@
         "Fue campeón del mundo en Catar 2022."
       ],
       "wikipedia_en": "Lionel Messi",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q615",
+      "imagen": {
+        "archivo_local": "img/p/f33991d52740cf4f.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg"
+      }
     },
     {
       "id": "arturo-vidal",
@@ -203,8 +251,14 @@
         "Surgió en Colo-Colo y es conocido como \"el Rey\"."
       ],
       "wikipedia_en": "Arturo Vidal",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q192671",
+      "imagen": {
+        "archivo_local": "img/p/00e1d9c845417a69.webp",
+        "autor": "Дмитрий Садовников",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Chile_VS._Australia_(13)_2017-6-25_Arturo_Vidal.jpg"
+      }
     },
     {
       "id": "johan-cruyff",
@@ -227,8 +281,14 @@
         "Fue subcampeón del mundo en 1974 con la \"Naranja Mecánica\"."
       ],
       "wikipedia_en": "Johan Cruyff",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q17163",
+      "imagen": {
+        "archivo_local": "img/p/a4db692629d779fc.webp",
+        "autor": "Nationaal Archief",
+        "licencia": "CC BY-SA 3.0 nl",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Johan_Cruyff_in_trainingspak_Nederlands_Elftal_,_kop.jpg"
+      }
     },
     {
       "id": "franz-beckenbauer",
@@ -251,8 +311,14 @@
         "Ganó el Mundial como jugador (1974) y como entrenador (1990)."
       ],
       "wikipedia_en": "Franz Beckenbauer",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q4457",
+      "imagen": {
+        "archivo_local": "img/p/222bc8380ad31911.webp",
+        "autor": "Editorial Panini",
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Franz_Beckenbauer_(1975).jpg"
+      }
     },
     {
       "id": "eusebio",
@@ -274,8 +340,14 @@
         "Fue el goleador del Mundial de 1966, con 9 goles."
       ],
       "wikipedia_en": "Eusébio",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q162043",
+      "imagen": {
+        "archivo_local": "img/p/51e660dfc8474ba7.webp",
+        "autor": "Panini",
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Eusebio_en_1973.jpg"
+      }
     },
     {
       "id": "kylian-mbappe",
@@ -296,8 +368,14 @@
         "Marcó tres goles en la final del Mundial 2022."
       ],
       "wikipedia_en": "Kylian Mbappé",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q21621995",
+      "imagen": {
+        "archivo_local": "img/p/75d16dc17cd32227.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Kylian_Mbappe_France_v_Senegal_16_June_2026-391_(cropped).jpg"
+      }
     },
     {
       "id": "luka-modric",
@@ -318,8 +396,14 @@
         "Ganó el Balón de Oro en 2018."
       ],
       "wikipedia_en": "Luka Modrić",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q483837",
+      "imagen": {
+        "archivo_local": "img/p/01b64f47c4134828.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Luka_Modric_Croatia_v_Portugal_2_July_2026-055.jpg"
+      }
     },
     {
       "id": "gianluigi-buffon",
@@ -342,8 +426,14 @@
         "Fue el arquero de Italia campeón del mundo en 2006."
       ],
       "wikipedia_en": "Gianluigi Buffon",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q68060",
+      "imagen": {
+        "archivo_local": "img/p/1e8623e2d6bb21d1.webp",
+        "autor": "Doha Stadium Plus Qatar from Doha, Qatar",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Gianluigi_Buffon_(31784615942)_(cropped).jpg"
+      }
     },
     {
       "id": "neymar",
@@ -366,8 +456,14 @@
         "Ganó la Libertadores 2011 con el Santos."
       ],
       "wikipedia_en": "Neymar",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q142794",
+      "imagen": {
+        "archivo_local": "img/p/cf4d470313acbf3b.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg"
+      }
     },
     {
       "id": "steven-gerrard",
@@ -389,8 +485,14 @@
         "Levantó la Champions 2005 tras remontar un 0-3 en Estambul."
       ],
       "wikipedia_en": "Steven Gerrard",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q459830",
+      "imagen": {
+        "archivo_local": "img/p/c85d26ff7db9fb94.webp",
+        "autor": "Эдгар Брещанов",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Steven_Gerrard_2018.jpg"
+      }
     },
     {
       "id": "mohamed-salah",
@@ -413,8 +515,14 @@
         "Es la gran estrella egipcia del Liverpool."
       ],
       "wikipedia_en": "Mohamed Salah",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q1354960",
+      "imagen": {
+        "archivo_local": "img/p/df47369f328af1bc.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_(cropped).jpg"
+      }
     },
     {
       "id": "erling-haaland",
@@ -435,8 +543,14 @@
         "Marcó 36 goles en su primera Premier con el Manchester City."
       ],
       "wikipedia_en": "Erling Haaland",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q28967995",
+      "imagen": {
+        "archivo_local": "img/p/28982c5a7fec5557.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Erling_Haaland_France_v_Norway_26_June_26-008.jpg"
+      }
     },
     {
       "id": "virgil-van-dijk",
@@ -458,8 +572,14 @@
         "Es el capitán neerlandés de la defensa del Liverpool."
       ],
       "wikipedia_en": "Virgil van Dijk",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q133903",
+      "imagen": {
+        "archivo_local": "img/p/b037d4a61bcfdb11.webp",
+        "autor": "Ailura, CC BY-SA 3.0 AT",
+        "licencia": "CC BY-SA 3.0 at",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:20160604_AUT_NED_8876_(cropped).jpg"
+      }
     },
     {
       "id": "fernando-torres",
@@ -481,8 +601,14 @@
         "Jugó en Liverpool y Chelsea."
       ],
       "wikipedia_en": "Fernando Torres",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q42731",
+      "imagen": {
+        "archivo_local": "img/p/8af1c923af76ba0a.webp",
+        "autor": "cristina cifuentes",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Fernando_Torres_2017.jpg"
+      }
     },
     {
       "id": "gareth-bale",
@@ -503,8 +629,14 @@
         "Marcó un gol de chilena en la final de la Champions 2018."
       ],
       "wikipedia_en": "Gareth Bale",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q184586",
+      "imagen": {
+        "archivo_local": "img/p/81121dc161d84de0.webp",
+        "autor": "Tasnim News Agency",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:2022_FIFA_World_Cup_United_States_1%E2%80%931_Wales_-_(32)_(cropped).jpg"
+      }
     },
     {
       "id": "karim-benzema",
@@ -524,7 +656,7 @@
         "Ganó cinco Champions con el Real Madrid."
       ],
       "wikipedia_en": "Karim Benzema",
-      "wikidata_id": null,
+      "wikidata_id": "Q1912",
       "imagen": null
     },
     {
@@ -545,8 +677,14 @@
         "Marcó el empate en el minuto 93 de la final de la Champions 2014."
       ],
       "wikipedia_en": "Sergio Ramos",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q483309",
+      "imagen": {
+        "archivo_local": "img/p/c529217a03d5eb69.webp",
+        "autor": "Real Madrid",
+        "licencia": "CC BY 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Sergio_Ramos_Interview_2021_(cropped).jpg"
+      }
     },
     {
       "id": "iker-casillas",
@@ -567,8 +705,14 @@
         "Fue el capitán de España campeón del mundo en 2010."
       ],
       "wikipedia_en": "Iker Casillas",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q11584",
+      "imagen": {
+        "archivo_local": "img/p/8e971baf5f6ce029.webp",
+        "autor": "Зайцев Антон",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Iker_Casillas_2.jpg"
+      }
     },
     {
       "id": "xavi-hernandez",
@@ -588,7 +732,7 @@
         "Fue el cerebro del Barcelona de Guardiola."
       ],
       "wikipedia_en": "Xavi",
-      "wikidata_id": null,
+      "wikidata_id": "Q127364958",
       "imagen": null
     },
     {
@@ -609,8 +753,14 @@
         "Es el único que ganó la Champions con tres clubes distintos."
       ],
       "wikipedia_en": "Clarence Seedorf",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q484909",
+      "imagen": {
+        "archivo_local": "img/p/63e82fbdfe153e57.webp",
+        "autor": "Кирилл Венедиктов",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Clarence_Seedorf_2021.jpg"
+      }
     },
     {
       "id": "andriy-shevchenko",
@@ -631,8 +781,14 @@
         "Marcó el penal decisivo de la final de la Champions 2003."
       ],
       "wikipedia_en": "Andriy Shevchenko",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q41244",
+      "imagen": {
+        "archivo_local": "img/p/034daec46d193e62.webp",
+        "autor": "Mms.gov.ua",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9_%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_2024_(cropped).png"
+      }
     },
     {
       "id": "raul-gonzalez",
@@ -675,8 +831,14 @@
         "Ganó la Champions 2020 con el Bayern Múnich."
       ],
       "wikipedia_en": "Robert Lewandowski",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q151269",
+      "imagen": {
+        "archivo_local": "img/p/704d7cb9a37b89ce.webp",
+        "autor": "Светлана Бекетова",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Robert_Lewandowski_2018,_JAP-POL_(cropped).jpg"
+      }
     },
     {
       "id": "manuel-neuer",
@@ -696,8 +858,14 @@
         "Fue el arquero de Alemania campeón del mundo en 2014."
       ],
       "wikipedia_en": "Manuel Neuer",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q107365",
+      "imagen": {
+        "archivo_local": "img/p/c63c68bd39a7c972.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Manuel_Neuer_Ecuador_v_Germany_25_June_2026-148.jpg"
+      }
     },
     {
       "id": "arjen-robben",
@@ -717,8 +885,14 @@
         "Marcó el gol del título en la final de la Champions 2013."
       ],
       "wikipedia_en": "Arjen Robben",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q43913",
+      "imagen": {
+        "archivo_local": "img/p/baaa95bdfb495982.webp",
+        "autor": "Дмитрий Садовников",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Arjen_Robben_2013.jpg"
+      }
     },
     {
       "id": "samuel-etoo",
@@ -739,8 +913,14 @@
         "Ganó dos tripletes seguidos: con el Barcelona en 2009 y con el Inter en 2010."
       ],
       "wikipedia_en": "Samuel Eto'o",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q1255625",
+      "imagen": {
+        "archivo_local": "img/p/00fef78892184423.webp",
+        "autor": "BACHELOR45",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Sammuel_Eto%27o_Fils_02.jpg"
+      }
     },
     {
       "id": "marcelo-vieira",
@@ -761,8 +941,14 @@
         "Volvió a su club formador y ganó la Libertadores 2023."
       ],
       "wikipedia_en": "Marcelo (footballer, born 1988)",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q38136",
+      "imagen": {
+        "archivo_local": "img/p/25f998539c338a1f.webp",
+        "autor": "Granada",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Marcelo_850_1622.jpg"
+      }
     }
   ]
 }

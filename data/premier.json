@@ -21,8 +21,14 @@
         "Es el máximo goleador histórico del Arsenal."
       ],
       "wikipedia_en": "Thierry Henry",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q45901",
+      "imagen": {
+        "archivo_local": "img/p/0b623aa212223328.webp",
+        "autor": "Web Summit",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Thierry_Henry_(51649035951)_(cropped).jpg"
+      }
     },
     {
       "id": "alan-shearer",
@@ -42,8 +48,14 @@
         "Es el máximo goleador de la historia de la Premier League."
       ],
       "wikipedia_en": "Alan Shearer",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q483583",
+      "imagen": {
+        "archivo_local": "img/p/e53df34faa665230.webp",
+        "autor": "Originally carltonreid ; retouched by DFS454",
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Alan_Shearer_2008.jpg"
+      }
     },
     {
       "id": "didier-drogba",
@@ -64,8 +76,14 @@
         "Marcó el penal decisivo en la final de la Champions 2012."
       ],
       "wikipedia_en": "Didier Drogba",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q48892",
+      "imagen": {
+        "archivo_local": "img/p/3b009ca81ff7ed4c.webp",
+        "autor": "Y.Leclercq©",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Didier_Drogba_(2019)_(cropped).jpg"
+      }
     },
     {
       "id": "sergio-aguero",
@@ -87,8 +105,14 @@
         "Marcó el gol del título en el último minuto de la Premier 2011-12."
       ],
       "wikipedia_en": "Sergio Agüero",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q119562",
+      "imagen": {
+        "archivo_local": "img/p/3b6ffeb43514130d.webp",
+        "autor": "Кирилл Венедиктов",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Ag%C3%BCero_in_2018.jpg"
+      }
     },
     {
       "id": "alexis-sanchez",
@@ -110,8 +134,14 @@
         "Es el máximo goleador histórico de la selección chilena."
       ],
       "wikipedia_en": "Alexis Sánchez",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q180553",
+      "imagen": {
+        "archivo_local": "img/p/6daf8cfaf3c03b4a.webp",
+        "autor": "joshjdss",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Alexis_Sanchez_Arsenal_Vs_Burnley_(24736448805)_(cropped)_(cropped).jpg"
+      }
     },
     {
       "id": "cristiano-ronaldo",
@@ -133,8 +163,14 @@
         "Es el máximo goleador de la historia de la Champions League."
       ],
       "wikipedia_en": "Cristiano Ronaldo",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q11571",
+      "imagen": {
+        "archivo_local": "img/p/9f90848c076edd52.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg"
+      }
     },
     {
       "id": "carlos-tevez",
@@ -157,8 +193,14 @@
         "Ganó la Libertadores 2003 con Boca Juniors."
       ],
       "wikipedia_en": "Carlos Tevez",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q50600",
+      "imagen": {
+        "archivo_local": "img/p/0e370afc2f4175f3.webp",
+        "autor": "Egghead06",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Carlos_Tevez_with_Argentina_November_2014_(cropped).jpg"
+      }
     },
     {
       "id": "claudio-bravo",
@@ -179,8 +221,14 @@
         "Es el arquero con más partidos en la historia de la selección chilena."
       ],
       "wikipedia_en": "Claudio Bravo",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q313161",
+      "imagen": {
+        "archivo_local": "img/p/df739eed53c4d6c2.webp",
+        "autor": "Дмитрий Садовников",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Chile_VS._Australia_(1cropped).jpg"
+      }
     },
     {
       "id": "diego-forlan",
@@ -202,8 +250,14 @@
         "Fue elegido mejor jugador del Mundial 2010."
       ],
       "wikipedia_en": "Diego Forlán",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q261534",
+      "imagen": {
+        "archivo_local": "img/p/5960851dfede24cf.webp",
+        "autor": "Ailura",
+        "licencia": "CC BY-SA 3.0 at",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:U10_Diego_Forl%C3%A1n_7524.jpg"
+      }
     },
     {
       "id": "luis-suarez",
@@ -226,7 +280,7 @@
         "Fue sancionado por morder a un rival en el Mundial 2014."
       ],
       "wikipedia_en": "Luis Suárez",
-      "wikidata_id": null,
+      "wikidata_id": "Q398140",
       "imagen": null
     },
     {
@@ -248,8 +302,14 @@
         "Es el máximo goleador histórico del Manchester United."
       ],
       "wikipedia_en": "Wayne Rooney",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q266613",
+      "imagen": {
+        "archivo_local": "img/p/e05b5fc0fcdd2fda.webp",
+        "autor": "Дмитрий Голубович",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Wayne-Rooney-2015-10-21.jpg"
+      }
     },
     {
       "id": "steven-gerrard",
@@ -271,8 +331,14 @@
         "Levantó la Champions 2005 tras remontar un 0-3 en Estambul."
       ],
       "wikipedia_en": "Steven Gerrard",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q459830",
+      "imagen": {
+        "archivo_local": "img/p/c85d26ff7db9fb94.webp",
+        "autor": "Эдгар Брещанов",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Steven_Gerrard_2018.jpg"
+      }
     },
     {
       "id": "frank-lampard",
@@ -293,8 +359,14 @@
         "Es el máximo goleador histórico del Chelsea."
       ],
       "wikipedia_en": "Frank Lampard",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q41533",
+      "imagen": {
+        "archivo_local": "img/p/cc3e9e3d09eb4bc4.webp",
+        "autor": "Fars Media Corporation",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Frank_Lampard_2019.jpg"
+      }
     },
     {
       "id": "ryan-giggs",
@@ -314,8 +386,14 @@
         "Es el jugador con más títulos de Premier League."
       ],
       "wikipedia_en": "Ryan Giggs",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q10524",
+      "imagen": {
+        "archivo_local": "img/p/0546c64ff603709c.webp",
+        "autor": "James Adams",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Ryan_Giggs_in_2008.jpg"
+      }
     },
     {
       "id": "eric-cantona",
@@ -336,8 +414,14 @@
         "Fue ídolo del Manchester United en los años 90."
       ],
       "wikipedia_en": "Eric Cantona",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q170328",
+      "imagen": {
+        "archivo_local": "img/p/55bc4d74ac9e0978.webp",
+        "autor": "Georges Biard",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Eric_Cantona_Cannes_2009.jpg"
+      }
     },
     {
       "id": "mohamed-salah",
@@ -360,8 +444,14 @@
         "Es la gran estrella egipcia del Liverpool."
       ],
       "wikipedia_en": "Mohamed Salah",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q1354960",
+      "imagen": {
+        "archivo_local": "img/p/df47369f328af1bc.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_(cropped).jpg"
+      }
     },
     {
       "id": "erling-haaland",
@@ -382,8 +472,14 @@
         "Marcó 36 goles en su primera Premier con el Manchester City."
       ],
       "wikipedia_en": "Erling Haaland",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q28967995",
+      "imagen": {
+        "archivo_local": "img/p/28982c5a7fec5557.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Erling_Haaland_France_v_Norway_26_June_26-008.jpg"
+      }
     },
     {
       "id": "kevin-de-bruyne",
@@ -404,8 +500,14 @@
         "Fue el cerebro del Manchester City de Guardiola."
       ],
       "wikipedia_en": "Kevin De Bruyne",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q357984",
+      "imagen": {
+        "archivo_local": "img/p/47f90933031adb0e.webp",
+        "autor": "Bryan Berlin",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_(cropped).jpg"
+      }
     },
     {
       "id": "petr-cech",
@@ -425,8 +527,14 @@
         "Fue arquero del Chelsea durante más de diez años."
       ],
       "wikipedia_en": "Petr Čech",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q483137",
+      "imagen": {
+        "archivo_local": "img/p/4537de8bb387085c.webp",
+        "autor": "Warrenfish",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Petr_%C4%8Cech_Chelsea_2013.jpg"
+      }
     },
     {
       "id": "cesc-fabregas",
@@ -447,8 +555,14 @@
         "Fue capitán del Arsenal siendo muy joven."
       ],
       "wikipedia_en": "Cesc Fàbregas",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q17499",
+      "imagen": {
+        "archivo_local": "img/p/f9f46e7a01d7687f.webp",
+        "autor": "Web Summit",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:2023_-_Cesc_Fabregas_(cropped).jpg"
+      }
     },
     {
       "id": "patrick-vieira",
@@ -468,8 +582,14 @@
         "Fue capitán del Arsenal invicto de 2003-04."
       ],
       "wikipedia_en": "Patrick Vieira",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q46347",
+      "imagen": {
+        "archivo_local": "img/p/de79f50bdc9ddd45.webp",
+        "autor": "Simon Heseltine",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Patrick_Vieira_NYCFC.JPG"
+      }
     },
     {
       "id": "dennis-bergkamp",
@@ -490,8 +610,14 @@
         "Fue una figura del Arsenal de Arsène Wenger."
       ],
       "wikipedia_en": "Dennis Bergkamp",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q185389",
+      "imagen": {
+        "archivo_local": "img/p/d2571f1774c1ff62.webp",
+        "autor": "Kieran Clarke",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Dennis_Bergkamp_2014_(cropped).jpg"
+      }
     },
     {
       "id": "paul-scholes",
@@ -511,8 +637,14 @@
         "Formó parte de la \"Clase del 92\" del Manchester United."
       ],
       "wikipedia_en": "Paul Scholes",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q45613",
+      "imagen": {
+        "archivo_local": "img/p/f480e4974631741a.webp",
+        "autor": "James Adams",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:P_Scholes.jpg"
+      }
     },
     {
       "id": "harry-kane",
@@ -533,8 +665,14 @@
         "Es el máximo goleador histórico del Tottenham."
       ],
       "wikipedia_en": "Harry Kane",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q969725",
+      "imagen": {
+        "archivo_local": "img/p/b18134072805c414.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Harry_Kane_England_v_Ghana_23_June_2026-219_(cropped).jpg"
+      }
     },
     {
       "id": "son-heung-min",
@@ -555,8 +693,14 @@
         "Es el gran ídolo surcoreano del Tottenham."
       ],
       "wikipedia_en": "Son Heung-min",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q439722",
+      "imagen": {
+        "archivo_local": "img/p/fb66db5e351d2ec9.webp",
+        "autor": "Ujishadow",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:BFA_2023_-2_Heung-Min_Son_(cropped).jpg"
+      }
     },
     {
       "id": "virgil-van-dijk",
@@ -578,8 +722,14 @@
         "Es el capitán neerlandés de la defensa del Liverpool."
       ],
       "wikipedia_en": "Virgil van Dijk",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q133903",
+      "imagen": {
+        "archivo_local": "img/p/b037d4a61bcfdb11.webp",
+        "autor": "Ailura, CC BY-SA 3.0 AT",
+        "licencia": "CC BY-SA 3.0 at",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:20160604_AUT_NED_8876_(cropped).jpg"
+      }
     },
     {
       "id": "fernando-torres",
@@ -601,8 +751,14 @@
         "Jugó en Liverpool y Chelsea."
       ],
       "wikipedia_en": "Fernando Torres",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q42731",
+      "imagen": {
+        "archivo_local": "img/p/8af1c923af76ba0a.webp",
+        "autor": "cristina cifuentes",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Fernando_Torres_2017.jpg"
+      }
     },
     {
       "id": "jamie-vardy",
@@ -622,8 +778,14 @@
         "Fue campeón de la Premier 2015-16 con el Leicester."
       ],
       "wikipedia_en": "Jamie Vardy",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q6147586",
+      "imagen": {
+        "archivo_local": "img/p/a1bf7d79feec747c.webp",
+        "autor": "Кирилл Венедиктов",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Jamie_Vardy_2018.jpg"
+      }
     },
     {
       "id": "ngolo-kante",
@@ -644,8 +806,14 @@
         "Ganó la Premier con el Leicester y luego con el Chelsea."
       ],
       "wikipedia_en": "N'Golo Kanté",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q16665941",
+      "imagen": {
+        "archivo_local": "img/p/dddf767a501586d8.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:N%27Golo_Kante_France_v_Senegal_16_June_2026-397.jpg"
+      }
     },
     {
       "id": "peter-schmeichel",
@@ -665,8 +833,14 @@
         "Fue el arquero del Manchester United del triplete de 1999."
       ],
       "wikipedia_en": "Peter Schmeichel",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q182314",
+      "imagen": {
+        "archivo_local": "img/p/c30e7fa57447e268.webp",
+        "autor": "Carlsberg",
+        "licencia": "CC BY 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Peter_Schmeichel_2012-01-25_001.jpg"
+      }
     },
     {
       "id": "gareth-bale",
@@ -687,8 +861,14 @@
         "Marcó un gol de chilena en la final de la Champions 2018."
       ],
       "wikipedia_en": "Gareth Bale",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q184586",
+      "imagen": {
+        "archivo_local": "img/p/81121dc161d84de0.webp",
+        "autor": "Tasnim News Agency",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:2022_FIFA_World_Cup_United_States_1%E2%80%931_Wales_-_(32)_(cropped).jpg"
+      }
     }
   ]
 }
