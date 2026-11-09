@@ -8,7 +8,7 @@ export const CONFIG = {
   SITE_NAME: "onepixel",
 
   // URL pública del sitio (cámbiala cuando tengas la definitiva en Vercel)
-  SITE_URL: "https://futblur.vercel.app",
+  SITE_URL: "https://onepixel-phi.vercel.app",
 
   // Día del reto #1 (formato AAAA-MM-DD, hora de Chile)
   DAILY_EPOCH: "2026-08-01",

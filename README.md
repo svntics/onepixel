@@ -127,7 +127,7 @@ Todo se ajusta en **`public/js/config.js`**. Puedes editarlo directamente en Git
 | Opción | Qué hace | Valor actual |
 |---|---|---|
 | `SITE_NAME` | Nombre del juego | `"onepixel"` |
-| `SITE_URL` | URL pública (va en el texto para compartir) | `"https://futblur.vercel.app"` (provisoria) |
+| `SITE_URL` | URL pública (va en el texto para compartir) | `"https://onepixel-phi.vercel.app"` |
 | `DAILY_EPOCH` | Día del reto **#1** (formato AAAA-MM-DD) | `"2026-08-01"` |
 | `TIMEZONE` | Zona horaria del cambio de reto | `"America/Santiago"` |
 | `BLUR_LEVELS` | Blur de cada intento (px sobre 400 px de ancho) | `[25, 18, 10, 5, 2, 0]` |
