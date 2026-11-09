@@ -1,10 +1,15 @@
 // Valida los datos fuente de /data y genera /public/data/<categoria>.json.
 // Uso: npm run build:data
 //
-// Fase 1: los JSON públicos NO incluyen nombres; solo lo necesario para mostrar la UI.
-// En la Fase 2 se agregan los datos de juego (respuesta codificada, pistas, alias).
+// Los JSON públicos contienen:
+//   - "nombres": lista alfabética de nombres y alias (para el autocompletado)
+//   - "rondas": imagen + respuesta y pistas codificadas, en un orden distinto al de "nombres"
+// Así, mirar los datos no revela qué nombre corresponde a qué imagen (ofuscación, no seguridad).
 
 import { readFileSync, writeFileSync, mkdirSync, readdirSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { encode } from "../public/js/codec.js";
+import { normalize } from "../public/js/normalize.js";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -29,6 +34,15 @@ function validate(p, cat, file) {
   if (p.era && !ERAS.has(p.era)) errors.push(`${where}: era debe ser "historico" o "actual"`);
   if (Array.isArray(p.categorias) && !p.categorias.includes(cat))
     errors.push(`${where}: está en ${file} pero "categorias" no incluye "${cat}"`);
+  // Las pistas no deben contener el nombre ni los alias
+  if (Array.isArray(p.pistas) && p.nombre) {
+    const words = [p.nombre, ...(p.alias ?? [])].flatMap((t) => normalize(t).split(" ")).filter((w) => w.length >= 4);
+    p.pistas.forEach((h, j) => {
+      const hn = ` ${normalize(h)} `;
+      const hit = words.find((w) => hn.includes(` ${w} `));
+      if (hit) errors.push(`${where}: la pista ${j + 1} contiene "${hit}" (revelaría al jugador)`);
+    });
+  }
   const json = JSON.stringify(p);
   if (seen.has(p.id) && seen.get(p.id) !== json)
     errors.push(`${where}: aparece en varios archivos con datos distintos`);
@@ -44,15 +58,16 @@ for (const file of files) {
   const ids = jugadores.map((p) => p.id);
   if (new Set(ids).size !== ids.length) errors.push(`${file}: hay ids repetidos`);
 
-  const publico = {
-    categoria,
-    total: jugadores.length,
-    jugadores: jugadores.map((p, i) => ({
-      n: i,
+  const ordenados = [...jugadores].sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
+  const nombres = ordenados.map((p) => ({ nombre: p.nombre, alias: p.alias }));
+  const hash = (id) => createHash("sha256").update(`${categoria}:${id}`).digest("hex");
+  const rondas = [...jugadores]
+    .sort((a, b) => hash(a.id).localeCompare(hash(b.id)))
+    .map((p) => ({
       img: p.imagen?.archivo_local ?? PLACEHOLDER,
-      provisional: !p.imagen,
-    })),
-  };
+      d: encode({ i: ordenados.indexOf(p), pistas: p.pistas, pais: p.pais, posicion: p.posicion, era: p.era }),
+    }));
+  const publico = { categoria, total: jugadores.length, nombres, rondas };
   writeFileSync(join(OUT, file), JSON.stringify(publico));
   console.log(`✔ ${file}: ${jugadores.length} jugadores`);
 }

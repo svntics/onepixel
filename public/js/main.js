@@ -1,5 +1,6 @@
 // Punto de entrada: navegación entre vistas (#/ y #/categoria) y tema.
 import { CONFIG } from "./config.js";
+import { startRound } from "./game.js";
 
 const $ = (sel) => document.querySelector(sel);
 const views = { home: $("#view-home"), game: $("#view-game") };
@@ -45,7 +46,7 @@ function renderHome() {
   );
 }
 
-// ---------- Juego (Fase 1: solo carga y muestra la categoría) ----------
+// ---------- Juego ----------
 async function loadCategory(id) {
   if (!dataCache.has(id)) {
     const res = await fetch(`data/${id}.json`);
@@ -55,24 +56,48 @@ async function loadCategory(id) {
   return dataCache.get(id);
 }
 
+// Práctica: "bolsa" mezclada por categoría; no repite hasta agotar la lista.
+// (En la Fase 4 se guardará en localStorage; por ahora dura mientras la pestaña esté abierta.)
+const bags = new Map();
+function nextPracticeRound(catId, total) {
+  let bag = bags.get(catId);
+  if (!bag || !bag.length) {
+    bag = Array.from({ length: total }, (_, i) => i);
+    for (let i = bag.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [bag[i], bag[j]] = [bag[j], bag[i]];
+    }
+    bags.set(catId, bag);
+  }
+  return bag.pop();
+}
+
+function playPractice(cat, data) {
+  const r = nextPracticeRound(cat.id, data.rondas.length);
+  startRound(data, data.rondas[r], {
+    onEnd: ({ el }) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "mt-4 min-h-12 w-full rounded-xl bg-accent px-4 font-bold text-accent-ink";
+      btn.textContent = "Otro jugador";
+      btn.addEventListener("click", () => {
+        playPractice(cat, data);
+        $("#guess-input").focus();
+      });
+      el.append(btn);
+    },
+  });
+}
+
 async function showGame(cat) {
   $("#game-title").textContent = `${cat.emoji} ${cat.nombre}`;
   document.title = `${cat.nombre} · ${CONFIG.SITE_NAME}`;
   try {
-    const data = await loadCategory(cat.id);
-    const first = data.jugadores[0];
-    $("#player-photo").src = first.img;
-    $("#attempts").textContent = `${data.total} jugadores en esta categoría · 6 intentos`;
+    playPractice(cat, await loadCategory(cat.id));
   } catch (e) {
     $("#attempts").textContent = "No se pudieron cargar los datos. Revisa tu conexión e inténtalo de nuevo.";
   }
 }
-
-document.querySelectorAll(".mode-btn").forEach((btn) =>
-  btn.addEventListener("click", () => {
-    document.querySelectorAll(".mode-btn").forEach((b) => b.setAttribute("aria-pressed", String(b === btn)));
-  }),
-);
 
 // ---------- Router por hash ----------
 function route(e) {

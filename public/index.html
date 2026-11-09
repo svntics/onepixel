@@ -42,9 +42,9 @@
       <h1 id="game-title" class="mt-1 text-2xl font-extrabold"></h1>
 
       <div class="mt-3 grid grid-cols-2 gap-2" role="group" aria-label="Modo de juego">
-        <button type="button" data-mode="daily" aria-pressed="true"
-          class="mode-btn min-h-11 rounded-xl border border-border px-3 text-sm font-semibold aria-pressed:bg-accent aria-pressed:text-accent-ink aria-pressed:border-accent">Reto diario</button>
-        <button type="button" data-mode="practice" aria-pressed="false"
+        <button type="button" data-mode="daily" aria-pressed="false" disabled title="Disponible en la Fase 4"
+          class="mode-btn min-h-11 rounded-xl border border-border px-3 text-sm font-semibold disabled:opacity-60 aria-pressed:bg-accent aria-pressed:text-accent-ink aria-pressed:border-accent">Reto diario <span class="font-normal">(pronto)</span></button>
+        <button type="button" data-mode="practice" aria-pressed="true"
           class="mode-btn min-h-11 rounded-xl border border-border px-3 text-sm font-semibold aria-pressed:bg-accent aria-pressed:text-accent-ink aria-pressed:border-accent">Práctica</button>
       </div>
 
@@ -55,19 +55,24 @@
         </div>
       </figure>
 
-      <p id="attempts" class="mt-3 text-center text-sm text-muted" aria-live="polite"></p>
+      <div id="attempt-boxes" class="mx-auto mt-3 flex max-w-sm gap-1.5" aria-hidden="true"></div>
+      <p id="attempts" class="mt-2 text-center text-sm text-muted"></p>
 
-      <form id="guess-form" class="mt-3 flex gap-2" autocomplete="off">
+      <form id="guess-form" class="relative mt-3 flex gap-2" autocomplete="off">
         <label for="guess-input" class="sr-only">Nombre del futbolista</label>
-        <input id="guess-input" type="text" inputmode="text" placeholder="Escribe un nombre…"
-          class="min-h-12 w-full flex-1 rounded-xl border border-border bg-surface px-4 text-base placeholder:text-muted disabled:opacity-60" disabled>
-        <button type="submit" class="min-h-12 rounded-xl bg-accent px-4 font-bold text-accent-ink disabled:opacity-60" disabled>Adivinar</button>
+        <input id="guess-input" type="text" placeholder="Escribe un nombre…" spellcheck="false" autocapitalize="off"
+          role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="suggestions"
+          class="min-h-12 w-full flex-1 rounded-xl border border-border bg-surface px-4 text-base placeholder:text-muted disabled:opacity-60">
+        <button id="guess-submit" type="submit" class="min-h-12 rounded-xl bg-accent px-4 font-bold text-accent-ink disabled:opacity-60">Adivinar</button>
+        <ul id="suggestions" role="listbox" aria-label="Sugerencias" hidden
+          class="absolute top-full right-0 left-0 z-20 mt-1 max-h-64 overflow-auto rounded-xl border border-border bg-surface shadow-xl"></ul>
       </form>
-      <button id="hint-btn" type="button" class="mt-2 min-h-11 w-full rounded-xl border border-border bg-surface font-semibold disabled:opacity-60" disabled>Pedir pista (cuesta 1 intento)</button>
+      <p id="round-msg" class="mt-2 min-h-6 text-sm" role="status" aria-live="polite"></p>
+      <button id="hint-btn" type="button" class="min-h-11 w-full rounded-xl border border-border bg-surface px-3 font-semibold disabled:opacity-60"></button>
 
-      <p id="dev-note" class="mt-4 rounded-xl border border-dashed border-border p-3 text-sm text-muted">
-        Vista previa (Fase 1): imagen provisional y controles desactivados. La mecánica llega en la Fase 2.
-      </p>
+      <ul id="round-log" class="mt-3 grid gap-2" aria-label="Intentos y pistas"></ul>
+
+      <div id="round-result" hidden tabindex="-1" class="mt-4 rounded-2xl border border-border bg-surface p-4 outline-none"></div>
     </section>
   </main>
 
