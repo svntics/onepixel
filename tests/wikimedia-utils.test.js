@@ -27,3 +27,17 @@ test("detecta descripción futbolística", () => {
   assert.ok(looksLikeFootballer("Argentine association football player"));
   assert.ok(!looksLikeFootballer("American basketball player"));
 });
+
+import { pickSearchCandidate } from "../scripts/lib/wikimedia-utils.mjs";
+test("búsqueda: elige al futbolista y desempata por nacionalidad", () => {
+  const r = [
+    { term: "Luis Suárez", items: [
+      { id: "Q1", description: "Spanish footballer (1935–2023)" },
+      { id: "Q2", description: "Uruguayan footballer (born 1987)" },
+      { id: "Q3", description: "Wikimedia human name disambiguation page" },
+    ] },
+    { term: "El Pistolero", items: [{ id: "Q2", description: "Uruguayan footballer (born 1987)" }] },
+  ];
+  assert.equal(pickSearchCandidate(r, "Uruguay").id, "Q2");
+  assert.equal(pickSearchCandidate([{ term: "x", items: [{ id: "Q9", description: "American actor" }] }], "Chile"), null);
+});

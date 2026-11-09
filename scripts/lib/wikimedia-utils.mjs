@@ -55,3 +55,30 @@ export function classifyLicense({ licencia, autor, attributionRequired, copyrigh
   if (!isBy && attributionRequired) notes.push("Commons indica que requiere atribución");
   return { ok: true, notes };
 }
+
+// Pistas de nacionalidad (en inglés, como las descripciones de Wikidata) para desempatar homónimos.
+const NATIONALITY = {
+  Argentina: "argentin", Brasil: "brazil", Chile: "chile", Uruguay: "urugua", Colombia: "colombia",
+  "Perú": "peru", Ecuador: "ecuador", "España": "spain|spanish", Francia: "france|french", Alemania: "german",
+  Italia: "ital", Portugal: "portug", Inglaterra: "english|england", Gales: "welsh|wales",
+  "Países Bajos": "dutch|netherlands", "Bélgica": "belgi", Croacia: "croat", Polonia: "polish|poland",
+  Noruega: "norweg", Egipto: "egypt", "Corea del Sur": "south korea|korean", "Costa de Marfil": "ivor",
+  "Camerún": "cameroon", Ucrania: "ukrain", Dinamarca: "danish|denmark", "República Checa": "czech",
+};
+
+// Elige el mejor candidato de búsquedas en Wikidata.
+// results: [{ term, items: [{ id, description }] }]. Devuelve { id, description, score } o null.
+export function pickSearchCandidate(results, pais) {
+  const nat = NATIONALITY[pais] ? new RegExp(NATIONALITY[pais], "i") : null;
+  const scores = new Map();
+  for (const { items } of results) {
+    items.forEach((it, rank) => {
+      if (!looksLikeFootballer(it.description)) return;
+      const prev = scores.get(it.id) ?? { id: it.id, description: it.description, score: 0 };
+      prev.score += 1 + (rank === 0 ? 0.5 : 0) + (nat?.test(it.description) ? 2 : 0);
+      scores.set(it.id, prev);
+    });
+  }
+  const best = [...scores.values()].sort((a, b) => b.score - a.score)[0];
+  return best ?? null;
+}

@@ -24,7 +24,7 @@ import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { CONFIG } from "../public/js/config.js";
-import { classifyLicense, stripHtml, imageFileName, pickP18, looksLikeFootballer } from "./lib/wikimedia-utils.mjs";
+import { classifyLicense, stripHtml, imageFileName, pickP18, looksLikeFootballer, pickSearchCandidate } from "./lib/wikimedia-utils.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DATA = join(ROOT, "data");
@@ -81,15 +81,43 @@ async function request(url, { binary = false } = {}) {
 }
 
 // ---------- Wikidata ----------
-async function getEntity(p) {
-  const base = "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&maxlag=5&props=claims|descriptions&languages=en|es";
-  const url = p.wikidata_id
-    ? `${base}&ids=${encodeURIComponent(p.wikidata_id)}`
-    : `${base}&sites=enwiki&titles=${encodeURIComponent(p.wikipedia_en)}`;
-  const json = await request(url);
+const ENTITY_API = "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&maxlag=5&props=claims|descriptions&languages=en|es";
+
+async function getEntityBy(query) {
+  const json = await request(`${ENTITY_API}&${query}`);
   const entities = Object.values(json.entities ?? {}).filter((e) => !("missing" in e));
-  if (entities.length !== 1) return null;
-  return entities[0];
+  return entities.length === 1 ? entities[0] : null;
+}
+
+// Plan B: buscar por nombre y alias en Wikidata y elegir al futbolista (desempata por nacionalidad).
+async function searchEntity(p) {
+  const terms = [p.nombre, ...(p.alias ?? []).filter((a) => a.includes(" "))].slice(0, 3);
+  const results = [];
+  for (const term of terms) {
+    try {
+      const json = await request(
+        `https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&maxlag=5&type=item&limit=10&language=en&uselang=en&search=${encodeURIComponent(term)}`,
+      );
+      results.push({ term, items: (json.search ?? []).map((r) => ({ id: r.id, description: r.description ?? "" })) });
+    } catch (e) {
+      console.warn(`  ⚠ búsqueda "${term}" falló: ${e.message}`);
+    }
+  }
+  const best = pickSearchCandidate(results, p.pais);
+  return best ? getEntityBy(`ids=${encodeURIComponent(best.id)}`) : null;
+}
+
+async function getEntity(p) {
+  let entity = p.wikidata_id
+    ? await getEntityBy(`ids=${encodeURIComponent(p.wikidata_id)}`)
+    : await getEntityBy(`sites=enwiki&titles=${encodeURIComponent(p.wikipedia_en)}`);
+  if (p.wikidata_id) return { entity, viaSearch: false };
+  const desc = entity?.descriptions?.en?.value ?? "";
+  if (!entity || !looksLikeFootballer(desc)) {
+    const found = await searchEntity(p);
+    if (found) return { entity: found, viaSearch: true };
+  }
+  return { entity, viaSearch: false };
 }
 
 // ---------- Commons ----------
@@ -125,7 +153,7 @@ function saveData(docs, players) {
 async function processPlayer(p) {
   const row = { id: p.id, jugador: p.nombre, categorias: p.categorias, libre: false, licencia: "", autor: "", obs: [] };
 
-  const entity = await getEntity(p);
+  const { entity, viaSearch } = await getEntity(p);
   if (!entity) {
     row.obs.push(`No se encontró en Wikidata (wikipedia_en="${p.wikipedia_en}", wikidata_id=${p.wikidata_id ?? "—"})`);
     return { row, imagen: null };
@@ -134,6 +162,7 @@ async function processPlayer(p) {
   row.wikidata_id = entity.id;
   row.descripcion = desc;
   if (!looksLikeFootballer(desc)) row.obs.push(`Revisar: la descripción de Wikidata no menciona fútbol ("${desc}")`);
+  if (viaSearch) row.obs.push(`Identificado por búsqueda en Wikidata: ${entity.id} ("${desc}"). Verifica que sea la persona correcta`);
 
   const file = pickP18(entity.claims);
   if (!file) {
