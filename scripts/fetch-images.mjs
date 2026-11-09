@@ -108,11 +108,11 @@ async function searchEntity(p) {
 }
 
 async function getEntity(p) {
-  let entity = p.wikidata_id
+  const entity = p.wikidata_id
     ? await getEntityBy(`ids=${encodeURIComponent(p.wikidata_id)}`)
     : await getEntityBy(`sites=enwiki&titles=${encodeURIComponent(p.wikipedia_en)}`);
-  if (p.wikidata_id) return { entity, viaSearch: false };
-  const desc = entity?.descriptions?.en?.value ?? "";
+  const desc = entity?.descriptions?.en?.value ?? entity?.descriptions?.es?.value ?? "";
+  // Si el elemento no es un futbolista (p. ej. una página de desambiguación guardada antes), buscar por nombre
   if (!entity || !looksLikeFootballer(desc)) {
     const found = await searchEntity(p);
     if (found) return { entity: found, viaSearch: true };
@@ -160,6 +160,7 @@ async function processPlayer(p) {
   }
   const desc = entity.descriptions?.en?.value ?? entity.descriptions?.es?.value ?? "";
   row.wikidata_id = entity.id;
+  const okId = looksLikeFootballer(desc) ? entity.id : null; // no se guarda un elemento equivocado
   row.descripcion = desc;
   if (!looksLikeFootballer(desc)) row.obs.push(`Revisar: la descripción de Wikidata no menciona fútbol ("${desc}")`);
   if (viaSearch) row.obs.push(`Identificado por búsqueda en Wikidata: ${entity.id} ("${desc}"). Verifica que sea la persona correcta`);
@@ -167,13 +168,13 @@ async function processPlayer(p) {
   const file = pickP18(entity.claims);
   if (!file) {
     row.obs.push("Wikidata no tiene imagen (P18)");
-    return { row, imagen: null, wikidata_id: entity.id };
+    return { row, imagen: null, wikidata_id: okId };
   }
 
   const info = await getImageInfo(file);
   if (!info) {
     row.obs.push(`Commons no devolvió información para "${file}"`);
-    return { row, imagen: null, wikidata_id: entity.id };
+    return { row, imagen: null, wikidata_id: okId };
   }
   const meta = info.extmetadata ?? {};
   const licencia = stripHtml(meta.LicenseShortName?.value);
@@ -194,7 +195,7 @@ async function processPlayer(p) {
   if (restrictions.includes("trademark")) row.obs.push("Commons advierte que aparecen marcas registradas");
   if (restrictions && !/personality|trademark/.test(restrictions)) row.obs.push(`Otras restricciones en Commons: ${restrictions}`);
 
-  if (!verdict.ok) return { row, imagen: null, wikidata_id: entity.id };
+  if (!verdict.ok) return { row, imagen: null, wikidata_id: okId };
 
   const thumb = info.thumburl || info.url;
   const buffer = await request(thumb, { binary: true });
@@ -205,7 +206,7 @@ async function processPlayer(p) {
 
   return {
     row,
-    wikidata_id: entity.id,
+    wikidata_id: okId,
     imagen: {
       archivo_local: `img/p/${name}`,
       autor,
@@ -257,7 +258,7 @@ async function main() {
     process.stdout.write(`[${n}/${todo.length}] ${p.nombre}… `);
     try {
       const r = await processPlayer(p);
-      players.set(p.id, { ...p, wikidata_id: r.wikidata_id ?? p.wikidata_id ?? null, imagen: r.imagen });
+      players.set(p.id, { ...p, wikidata_id: r.wikidata_id ?? null, imagen: r.imagen });
       rows[p.id] = r.row;
       console.log(r.imagen ? `✔ ${r.row.licencia}` : `✖ excluido (${r.row.obs[0] ?? "sin imagen libre"})`);
     } catch (e) {
