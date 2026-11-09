@@ -1,0 +1,27 @@
+# Opcional: ejecuta el script de imágenes en GitHub (pestaña "Actions" → "Imágenes" → "Run workflow")
+# y guarda el resultado en el repositorio. Puede fallar si Wikimedia limita las IP de GitHub;
+# en ese caso, ejecútalo en tu computador con "npm run images".
+name: Imágenes
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  imagenes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm run images
+        env:
+          CONTACTO: https://github.com/${{ github.repository }}
+      - name: Guardar imágenes y datos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/img/p data reports
+          git diff --cached --quiet || git commit -m "Imágenes de Wikimedia Commons"
+          git push

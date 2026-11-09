@@ -2,6 +2,29 @@
   "categoria": "libertadores",
   "jugadores": [
     {
+      "id": "pele",
+      "nombre": "Pelé",
+      "alias": [
+        "Edson Arantes do Nascimento",
+        "O Rei"
+      ],
+      "categorias": [
+        "mundiales",
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Delantero",
+      "pistas": [
+        "Terminó su carrera en el New York Cosmos.",
+        "Ganó la Copa Libertadores con el Santos.",
+        "Es el único jugador que ganó tres Mundiales (1958, 1962 y 1970)."
+      ],
+      "wikipedia_en": "Pelé",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
       "id": "juan-roman-riquelme",
       "nombre": "Juan Román Riquelme",
       "alias": [
@@ -19,6 +42,7 @@
         "Fue la gran figura de la Libertadores 2007.",
         "Ganó tres Copas Libertadores con Boca Juniors."
       ],
+      "wikipedia_en": "Juan Román Riquelme",
       "wikidata_id": null,
       "imagen": null
     },
@@ -39,6 +63,7 @@
         "Ganó tres Libertadores con Peñarol.",
         "Es el máximo goleador de la historia de la Copa Libertadores."
       ],
+      "wikipedia_en": "Alberto Spencer",
       "wikidata_id": null,
       "imagen": null
     },
@@ -50,7 +75,9 @@
         "Dinho"
       ],
       "categorias": [
-        "libertadores"
+        "libertadores",
+        "mundiales",
+        "champions"
       ],
       "era": "historico",
       "pais": "Brasil",
@@ -60,6 +87,7 @@
         "Ganó el Balón de Oro en 2005.",
         "Ganó la Libertadores 2013 con Atlético Mineiro."
       ],
+      "wikipedia_en": "Ronaldinho",
       "wikidata_id": null,
       "imagen": null
     },
@@ -80,6 +108,7 @@
         "Lo apodaban \"el Pelé blanco\".",
         "Ganó la Libertadores de 1981 con Flamengo."
       ],
+      "wikipedia_en": "Zico (footballer)",
       "wikidata_id": null,
       "imagen": null
     },
@@ -92,7 +121,8 @@
         "Tévez"
       ],
       "categorias": [
-        "libertadores"
+        "libertadores",
+        "premier"
       ],
       "era": "historico",
       "pais": "Argentina",
@@ -102,6 +132,536 @@
         "Jugó en el Manchester United y en el Manchester City.",
         "Ganó la Libertadores 2003 con Boca Juniors."
       ],
+      "wikipedia_en": "Carlos Tevez",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "carlos-caszely",
+      "nombre": "Carlos Caszely",
+      "alias": [
+        "Chino Caszely",
+        "Caszely"
+      ],
+      "categorias": [
+        "mundiales",
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Chile",
+      "posicion": "Delantero",
+      "pistas": [
+        "Fue finalista de la Libertadores 1973 con Colo-Colo.",
+        "Jugó en el Levante y el Espanyol de España.",
+        "Falló un penal ante Austria en el Mundial de 1982."
+      ],
+      "wikipedia_en": "Carlos Caszely",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "neymar",
+      "nombre": "Neymar",
+      "alias": [
+        "Neymar Jr",
+        "Ney"
+      ],
+      "categorias": [
+        "libertadores",
+        "mundiales",
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Delantero",
+      "pistas": [
+        "Fue el fichaje más caro de la historia al pasar al PSG.",
+        "Ganó la Champions 2015 con el Barcelona.",
+        "Ganó la Libertadores 2011 con el Santos."
+      ],
+      "wikipedia_en": "Neymar",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "cafu",
+      "nombre": "Cafu",
+      "alias": [
+        "Marcos Evangelista de Morais"
+      ],
+      "categorias": [
+        "libertadores",
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Defensa",
+      "pistas": [
+        "Ganó la Libertadores con el São Paulo.",
+        "Jugó en la Roma y el AC Milan.",
+        "Fue el capitán de Brasil campeón del mundo en 2002."
+      ],
+      "wikipedia_en": "Cafu",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "rene-higuita",
+      "nombre": "René Higuita",
+      "alias": [
+        "El Loco",
+        "Loco Higuita"
+      ],
+      "categorias": [
+        "libertadores",
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Colombia",
+      "posicion": "Arquero",
+      "pistas": [
+        "Era un arquero que salía jugando e incluso marcaba goles.",
+        "Ganó la Libertadores 1989 con Atlético Nacional.",
+        "Hizo la famosa atajada del \"escorpión\" en Wembley."
+      ],
+      "wikipedia_en": "René Higuita",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "paolo-guerrero",
+      "nombre": "Paolo Guerrero",
+      "alias": [
+        "Depredador",
+        "Guerrero"
+      ],
+      "categorias": [
+        "libertadores",
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Perú",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Bayern Múnich y el Hamburgo.",
+        "Marcó el gol del título del Mundial de Clubes 2012 ante el Chelsea.",
+        "Es el máximo goleador histórico de la selección peruana."
+      ],
+      "wikipedia_en": "Paolo Guerrero",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "marcelo-vieira",
+      "nombre": "Marcelo",
+      "alias": [
+        "Marcelo Vieira"
+      ],
+      "categorias": [
+        "champions",
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Defensa",
+      "pistas": [
+        "Se formó en el Fluminense.",
+        "Ganó cinco Champions con el Real Madrid.",
+        "Volvió a su club formador y ganó la Libertadores 2023."
+      ],
+      "wikipedia_en": "Marcelo (footballer, born 1988)",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "martin-palermo",
+      "nombre": "Martín Palermo",
+      "alias": [
+        "Titán",
+        "El Titán",
+        "Palermo"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Delantero",
+      "pistas": [
+        "Falló tres penales en un mismo partido de la Copa América 1999.",
+        "Ganó la Libertadores 2000 y 2001 con Boca Juniors.",
+        "Es el máximo goleador histórico de Boca Juniors."
+      ],
+      "wikipedia_en": "Martín Palermo",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "enzo-francescoli",
+      "nombre": "Enzo Francescoli",
+      "alias": [
+        "El Príncipe",
+        "Francescoli"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Uruguay",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Olympique de Marsella.",
+        "Zinedine Zidane le puso su nombre a uno de sus hijos.",
+        "Ganó la Libertadores 1996 con River Plate."
+      ],
+      "wikipedia_en": "Enzo Francescoli",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "rogerio-ceni",
+      "nombre": "Rogério Ceni",
+      "alias": [
+        "Ceni"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Arquero",
+      "pistas": [
+        "Jugó toda su carrera en un solo club.",
+        "Ganó la Libertadores 2005.",
+        "Es el arquero que más goles marcó en la historia."
+      ],
+      "wikipedia_en": "Rogério Ceni",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "juan-sebastian-veron",
+      "nombre": "Juan Sebastián Verón",
+      "alias": [
+        "La Brujita",
+        "Brujita Verón",
+        "Verón"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en Lazio, Manchester United y Chelsea.",
+        "Su padre también fue ídolo del mismo club.",
+        "Ganó la Libertadores 2009 con Estudiantes de La Plata."
+      ],
+      "wikipedia_en": "Juan Sebastián Verón",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "gabriel-barbosa",
+      "nombre": "Gabriel Barbosa",
+      "alias": [
+        "Gabigol",
+        "Gabi"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Delantero",
+      "pistas": [
+        "Pasó por el Inter de Italia.",
+        "Ganó dos Libertadores con el Flamengo.",
+        "Marcó dos goles en los últimos minutos de la final de 2019 ante River."
+      ],
+      "wikipedia_en": "Gabriel Barbosa",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "gonzalo-martinez",
+      "nombre": "Gonzalo Martínez",
+      "alias": [
+        "Pity",
+        "Pity Martínez"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "actual",
+      "pais": "Argentina",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Fue elegido mejor jugador de América en 2018.",
+        "Jugó en la MLS con el Atlanta United.",
+        "Marcó el último gol, con el arco vacío, en la final de 2018 en Madrid."
+      ],
+      "wikipedia_en": "Gonzalo Martínez (footballer, born 1993)",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "fernando-morena",
+      "nombre": "Fernando Morena",
+      "alias": [
+        "Morena"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Uruguay",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Rayo Vallecano y el Valencia.",
+        "Es uno de los máximos goleadores de la historia de Peñarol.",
+        "Marcó el gol del título de la Libertadores 1982 ante Cobreloa."
+      ],
+      "wikipedia_en": "Fernando Morena",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "hernan-crespo",
+      "nombre": "Hernán Crespo",
+      "alias": [
+        "Valdanito",
+        "Crespo"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en Parma, Lazio, Inter, AC Milan y Chelsea.",
+        "Fue el fichaje más caro del mundo en 2000.",
+        "Ganó la Libertadores 1996 con River Plate."
+      ],
+      "wikipedia_en": "Hernán Crespo",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "ariel-ortega",
+      "nombre": "Ariel Ortega",
+      "alias": [
+        "El Burrito",
+        "Burrito Ortega"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Nació en Jujuy.",
+        "Jugó en Valencia, Sampdoria y Parma.",
+        "Ganó la Libertadores 1996 con River Plate."
+      ],
+      "wikipedia_en": "Ariel Ortega",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "marcelo-gallardo",
+      "nombre": "Marcelo Gallardo",
+      "alias": [
+        "Muñeco",
+        "El Muñeco"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en el Mónaco y el PSG.",
+        "Como entrenador ganó la Libertadores en 2015 y 2018.",
+        "Es uno de los máximos ídolos de River Plate, como jugador y como técnico."
+      ],
+      "wikipedia_en": "Marcelo Gallardo",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "diego-lugano",
+      "nombre": "Diego Lugano",
+      "alias": [
+        "Lugano"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Uruguay",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó en el Fenerbahçe de Turquía.",
+        "Fue capitán de su selección campeona de América 2011.",
+        "Ganó la Libertadores 2005 con el São Paulo."
+      ],
+      "wikipedia_en": "Diego Lugano",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "jaime-pizarro",
+      "nombre": "Jaime Pizarro",
+      "alias": [
+        "Pizarro"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Chile",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Más tarde fue Ministro del Deporte de Chile.",
+        "Fue capitán de la selección chilena.",
+        "Fue el capitán de Colo-Colo campeón de la Libertadores 1991."
+      ],
+      "wikipedia_en": "Jaime Pizarro",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "juan-fernando-quintero",
+      "nombre": "Juan Fernando Quintero",
+      "alias": [
+        "Juanfer",
+        "Quintero"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "actual",
+      "pais": "Colombia",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Jugó en el Porto de Portugal.",
+        "Marcó un gol en el Mundial 2014.",
+        "Anotó un golazo en el alargue de la final de 2018 en Madrid."
+      ],
+      "wikipedia_en": "Juan Fernando Quintero",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "giorgian-de-arrascaeta",
+      "nombre": "Giorgian de Arrascaeta",
+      "alias": [
+        "Arrascaeta"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "actual",
+      "pais": "Uruguay",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Jugó en el Cruzeiro de Brasil.",
+        "Es seleccionado uruguayo.",
+        "Ganó la Libertadores 2019 y 2022 con el Flamengo."
+      ],
+      "wikipedia_en": "Giorgian de Arrascaeta",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "miguel-borja",
+      "nombre": "Miguel Borja",
+      "alias": [
+        "Borja"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "actual",
+      "pais": "Colombia",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Palmeiras y en River Plate.",
+        "Llegó a Atlético Nacional a mitad de 2016.",
+        "Marcó cuatro goles en las semifinales de la Libertadores 2016 ante São Paulo."
+      ],
+      "wikipedia_en": "Miguel Borja",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "german-cano",
+      "nombre": "Germán Cano",
+      "alias": [
+        "Cano"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "actual",
+      "pais": "Argentina",
+      "posicion": "Delantero",
+      "pistas": [
+        "Hizo gran parte de su carrera en México y Colombia.",
+        "Brilló después de los 30 años en Brasil.",
+        "Marcó en la final de la Libertadores 2023 con el Fluminense."
+      ],
+      "wikipedia_en": "Germán Cano",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "lucas-pratto",
+      "nombre": "Lucas Pratto",
+      "alias": [
+        "Oso",
+        "El Oso",
+        "Pratto"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Atlético Mineiro y el São Paulo.",
+        "Le dicen \"el Oso\".",
+        "Marcó en la ida y en la vuelta de la final de 2018 ante Boca."
+      ],
+      "wikipedia_en": "Lucas Pratto",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "ricardo-bochini",
+      "nombre": "Ricardo Bochini",
+      "alias": [
+        "Bocha",
+        "El Bocha"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Jugó toda su carrera en un solo club.",
+        "Fue el ídolo de infancia de Diego Maradona.",
+        "Ganó cuatro Copas Libertadores con Independiente."
+      ],
+      "wikipedia_en": "Ricardo Bochini",
       "wikidata_id": null,
       "imagen": null
     }

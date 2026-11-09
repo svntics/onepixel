@@ -19,6 +19,7 @@
         "Ganó el Mundial de 1986 con su selección.",
         "Contra Inglaterra marcó un gol con la mano y otro tras eludir a medio equipo."
       ],
+      "wikipedia_en": "Diego Maradona",
       "wikidata_id": null,
       "imagen": null
     },
@@ -30,16 +31,18 @@
         "O Rei"
       ],
       "categorias": [
-        "mundiales"
+        "mundiales",
+        "libertadores"
       ],
       "era": "historico",
       "pais": "Brasil",
       "posicion": "Delantero",
       "pistas": [
-        "Jugó gran parte de su carrera en el Santos.",
         "Terminó su carrera en el New York Cosmos.",
+        "Ganó la Copa Libertadores con el Santos.",
         "Es el único jugador que ganó tres Mundiales (1958, 1962 y 1970)."
       ],
+      "wikipedia_en": "Pelé",
       "wikidata_id": null,
       "imagen": null
     },
@@ -58,10 +61,11 @@
       "pais": "Francia",
       "posicion": "Mediocampista",
       "pistas": [
-        "Marcó dos goles de cabeza en la final de un Mundial.",
         "Anotó un recordado gol de volea en la final de la Champions de 2002.",
+        "Marcó dos goles de cabeza en la final de un Mundial.",
         "Fue expulsado en la final del Mundial de 2006."
       ],
+      "wikipedia_en": "Zinedine Zidane",
       "wikidata_id": null,
       "imagen": null
     },
@@ -83,6 +87,7 @@
         "Fue campeón del mundo en 2014.",
         "Es el máximo goleador en la historia de los Mundiales, con 16 goles."
       ],
+      "wikipedia_en": "Miroslav Klose",
       "wikidata_id": null,
       "imagen": null
     },
@@ -105,6 +110,730 @@
         "Formó una famosa dupla de ataque con Iván Zamorano.",
         "Marcó 4 goles en el Mundial de Francia 1998."
       ],
+      "wikipedia_en": "Marcelo Salas",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "thierry-henry",
+      "nombre": "Thierry Henry",
+      "alias": [
+        "Titi",
+        "Henry"
+      ],
+      "categorias": [
+        "premier",
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Francia",
+      "posicion": "Delantero",
+      "pistas": [
+        "Fue campeón del mundo en 1998.",
+        "Fue parte del equipo que terminó invicto la Premier 2003-04.",
+        "Es el máximo goleador histórico del Arsenal."
+      ],
+      "wikipedia_en": "Thierry Henry",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "alexis-sanchez",
+      "nombre": "Alexis Sánchez",
+      "alias": [
+        "Alexis",
+        "Niño Maravilla"
+      ],
+      "categorias": [
+        "premier",
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Chile",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Barcelona antes de llegar a Inglaterra.",
+        "Ganó dos Copas América con su selección.",
+        "Es el máximo goleador histórico de la selección chilena."
+      ],
+      "wikipedia_en": "Alexis Sánchez",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "andres-iniesta",
+      "nombre": "Andrés Iniesta",
+      "alias": [
+        "Iniesta"
+      ],
+      "categorias": [
+        "champions",
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Se formó en La Masia.",
+        "Ganó cuatro Champions con el Barcelona.",
+        "Marcó el gol que le dio a España su primer Mundial, en 2010."
+      ],
+      "wikipedia_en": "Andrés Iniesta",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "ronaldinho",
+      "nombre": "Ronaldinho",
+      "alias": [
+        "Ronaldinho Gaúcho",
+        "Dinho"
+      ],
+      "categorias": [
+        "libertadores",
+        "mundiales",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Fue campeón del mundo en 2002.",
+        "Ganó el Balón de Oro en 2005.",
+        "Ganó la Libertadores 2013 con Atlético Mineiro."
+      ],
+      "wikipedia_en": "Ronaldinho",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "lionel-messi",
+      "nombre": "Lionel Messi",
+      "alias": [
+        "Leo Messi",
+        "Messi",
+        "La Pulga"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Argentina",
+      "posicion": "Delantero",
+      "pistas": [
+        "Llegó a Europa siendo un niño para formarse en un gran club.",
+        "Tiene el récord de Balones de Oro ganados.",
+        "Fue campeón del mundo en Catar 2022."
+      ],
+      "wikipedia_en": "Lionel Messi",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "ronaldo-nazario",
+      "nombre": "Ronaldo Nazário",
+      "alias": [
+        "Ronaldo",
+        "El Fenómeno",
+        "Ronaldo Luís Nazário de Lima"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en Barcelona, Inter, Real Madrid y AC Milan.",
+        "Ganó el Balón de Oro en 1997 y 2002.",
+        "Fue campeón y goleador del Mundial 2002, con 8 goles."
+      ],
+      "wikipedia_en": "Ronaldo (Brazilian footballer)",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "ivan-zamorano",
+      "nombre": "Iván Zamorano",
+      "alias": [
+        "Bam Bam",
+        "Zamorano"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Chile",
+      "posicion": "Delantero",
+      "pistas": [
+        "Fue goleador de la liga española con el Real Madrid.",
+        "En el Inter usó la camiseta \"1+8\".",
+        "Formó una famosa dupla con Marcelo Salas en Francia 1998."
+      ],
+      "wikipedia_en": "Iván Zamorano",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "arturo-vidal",
+      "nombre": "Arturo Vidal",
+      "alias": [
+        "Rey Arturo",
+        "King Arturo",
+        "Vidal"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Chile",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en Juventus, Bayern Múnich, Barcelona e Inter.",
+        "Ganó dos Copas América con su selección.",
+        "Surgió en Colo-Colo y es conocido como \"el Rey\"."
+      ],
+      "wikipedia_en": "Arturo Vidal",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "claudio-bravo",
+      "nombre": "Claudio Bravo",
+      "alias": [
+        "Bravo"
+      ],
+      "categorias": [
+        "mundiales",
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Chile",
+      "posicion": "Arquero",
+      "pistas": [
+        "Jugó en Real Sociedad, Barcelona y Manchester City.",
+        "Fue el capitán de Chile campeón de América en 2015 y 2016.",
+        "Es el arquero con más partidos en la historia de la selección chilena."
+      ],
+      "wikipedia_en": "Claudio Bravo",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "elias-figueroa",
+      "nombre": "Elías Figueroa",
+      "alias": [
+        "Don Elías",
+        "Figueroa"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Chile",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó tres Mundiales: 1966, 1974 y 1982.",
+        "Fue ídolo del Internacional de Porto Alegre.",
+        "Está considerado uno de los mejores defensas de la historia de Sudamérica."
+      ],
+      "wikipedia_en": "Elías Figueroa",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "carlos-caszely",
+      "nombre": "Carlos Caszely",
+      "alias": [
+        "Chino Caszely",
+        "Caszely"
+      ],
+      "categorias": [
+        "mundiales",
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Chile",
+      "posicion": "Delantero",
+      "pistas": [
+        "Fue finalista de la Libertadores 1973 con Colo-Colo.",
+        "Jugó en el Levante y el Espanyol de España.",
+        "Falló un penal ante Austria en el Mundial de 1982."
+      ],
+      "wikipedia_en": "Carlos Caszely",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "leonel-sanchez",
+      "nombre": "Leonel Sánchez",
+      "alias": [
+        "Leonel"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Chile",
+      "posicion": "Delantero",
+      "pistas": [
+        "Fue figura del \"Ballet Azul\" de Universidad de Chile.",
+        "Jugó el Mundial que se disputó en su país.",
+        "Fue uno de los goleadores del Mundial de 1962."
+      ],
+      "wikipedia_en": "Leonel Sánchez",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "johan-cruyff",
+      "nombre": "Johan Cruyff",
+      "alias": [
+        "Cruyff",
+        "Cruijff",
+        "Johan Cruijff"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Países Bajos",
+      "posicion": "Delantero",
+      "pistas": [
+        "Una finta lleva su nombre.",
+        "Ganó tres Copas de Europa seguidas con el Ajax.",
+        "Fue subcampeón del mundo en 1974 con la \"Naranja Mecánica\"."
+      ],
+      "wikipedia_en": "Johan Cruyff",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "franz-beckenbauer",
+      "nombre": "Franz Beckenbauer",
+      "alias": [
+        "Káiser",
+        "El Káiser",
+        "Der Kaiser"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Alemania",
+      "posicion": "Defensa",
+      "pistas": [
+        "Ganó tres Copas de Europa seguidas con el Bayern Múnich.",
+        "Jugaba como líbero.",
+        "Ganó el Mundial como jugador (1974) y como entrenador (1990)."
+      ],
+      "wikipedia_en": "Franz Beckenbauer",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "gerd-muller",
+      "nombre": "Gerd Müller",
+      "alias": [
+        "Der Bomber",
+        "Torpedo Müller"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Alemania",
+      "posicion": "Delantero",
+      "pistas": [
+        "Fue goleador histórico del Bayern Múnich.",
+        "Marcó 14 goles en Mundiales.",
+        "Anotó el gol del triunfo en la final del Mundial de 1974."
+      ],
+      "wikipedia_en": "Gerd Müller",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "eusebio",
+      "nombre": "Eusébio",
+      "alias": [
+        "La Pantera Negra",
+        "Eusebio da Silva Ferreira"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Portugal",
+      "posicion": "Delantero",
+      "pistas": [
+        "Nació en Mozambique.",
+        "Ganó la Copa de Europa de 1962 con el Benfica.",
+        "Fue el goleador del Mundial de 1966, con 9 goles."
+      ],
+      "wikipedia_en": "Eusébio",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "mario-kempes",
+      "nombre": "Mario Kempes",
+      "alias": [
+        "Kempes"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Delantero",
+      "pistas": [
+        "Fue goleador e ídolo del Valencia.",
+        "Marcó dos goles en una final del Mundial.",
+        "Fue campeón y goleador del Mundial de 1978."
+      ],
+      "wikipedia_en": "Mario Kempes",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "paolo-rossi",
+      "nombre": "Paolo Rossi",
+      "alias": [
+        "Pablito"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Italia",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en la Juventus.",
+        "Ganó el Balón de Oro en 1982.",
+        "Le marcó tres goles a Brasil y fue campeón y goleador del Mundial 1982."
+      ],
+      "wikipedia_en": "Paolo Rossi",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "roberto-baggio",
+      "nombre": "Roberto Baggio",
+      "alias": [
+        "Il Divin Codino",
+        "Baggio"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Italia",
+      "posicion": "Delantero",
+      "pistas": [
+        "Era budista y llevaba una coleta.",
+        "Ganó el Balón de Oro en 1993.",
+        "Falló el último penal en la final del Mundial de 1994."
+      ],
+      "wikipedia_en": "Roberto Baggio",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "kylian-mbappe",
+      "nombre": "Kylian Mbappé",
+      "alias": [
+        "Mbappe"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Francia",
+      "posicion": "Delantero",
+      "pistas": [
+        "Debutó como profesional en el Mónaco.",
+        "Fue campeón del mundo con 19 años.",
+        "Marcó tres goles en la final del Mundial 2022."
+      ],
+      "wikipedia_en": "Kylian Mbappé",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "luka-modric",
+      "nombre": "Luka Modrić",
+      "alias": [
+        "Modric"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Croacia",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en el Tottenham antes de llegar a España.",
+        "Llevó a su selección a la final del Mundial 2018.",
+        "Ganó el Balón de Oro en 2018."
+      ],
+      "wikipedia_en": "Luka Modrić",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "diego-forlan",
+      "nombre": "Diego Forlán",
+      "alias": [
+        "Cachavacha",
+        "Forlán"
+      ],
+      "categorias": [
+        "mundiales",
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Uruguay",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Manchester United y el Atlético de Madrid.",
+        "Fue Bota de Oro europea en dos ocasiones.",
+        "Fue elegido mejor jugador del Mundial 2010."
+      ],
+      "wikipedia_en": "Diego Forlán",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "james-rodriguez",
+      "nombre": "James Rodríguez",
+      "alias": [
+        "James"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Colombia",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Jugó en el Real Madrid y el Bayern Múnich.",
+        "Ganó el premio Puskás por un gol de volea ante Uruguay.",
+        "Fue el goleador del Mundial 2014, con 6 goles."
+      ],
+      "wikipedia_en": "James Rodríguez",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "carlos-valderrama",
+      "nombre": "Carlos Valderrama",
+      "alias": [
+        "El Pibe",
+        "Pibe Valderrama"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Colombia",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en la MLS de Estados Unidos.",
+        "Disputó tres Mundiales: 1990, 1994 y 1998.",
+        "Es famoso por su melena rubia y rizada."
+      ],
+      "wikipedia_en": "Carlos Valderrama",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "teofilo-cubillas",
+      "nombre": "Teófilo Cubillas",
+      "alias": [
+        "El Nene",
+        "Nene Cubillas"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Perú",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Fue ídolo del Alianza Lima.",
+        "Jugó los Mundiales de 1970, 1978 y 1982.",
+        "Marcó 10 goles en Mundiales."
+      ],
+      "wikipedia_en": "Teófilo Cubillas",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "thomas-muller",
+      "nombre": "Thomas Müller",
+      "alias": [
+        "Raumdeuter"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Alemania",
+      "posicion": "Delantero",
+      "pistas": [
+        "Pasó casi toda su carrera en el Bayern Múnich.",
+        "Fue el goleador del Mundial 2010.",
+        "Fue campeón del mundo en 2014."
+      ],
+      "wikipedia_en": "Thomas Müller",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "gianluigi-buffon",
+      "nombre": "Gianluigi Buffon",
+      "alias": [
+        "Gigi Buffon",
+        "Buffon",
+        "Gigi"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Italia",
+      "posicion": "Arquero",
+      "pistas": [
+        "Jugó más de veinte años en la Juventus.",
+        "Perdió tres finales de Champions League.",
+        "Fue el arquero de Italia campeón del mundo en 2006."
+      ],
+      "wikipedia_en": "Gianluigi Buffon",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "luis-suarez",
+      "nombre": "Luis Suárez",
+      "alias": [
+        "Lucho Suárez",
+        "Pistolero",
+        "El Pistolero"
+      ],
+      "categorias": [
+        "mundiales",
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Uruguay",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en Ajax, Liverpool, Barcelona y Atlético de Madrid.",
+        "Es el máximo goleador histórico de su selección.",
+        "Fue sancionado por morder a un rival en el Mundial 2014."
+      ],
+      "wikipedia_en": "Luis Suárez",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "neymar",
+      "nombre": "Neymar",
+      "alias": [
+        "Neymar Jr",
+        "Ney"
+      ],
+      "categorias": [
+        "libertadores",
+        "mundiales",
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Delantero",
+      "pistas": [
+        "Fue el fichaje más caro de la historia al pasar al PSG.",
+        "Ganó la Champions 2015 con el Barcelona.",
+        "Ganó la Libertadores 2011 con el Santos."
+      ],
+      "wikipedia_en": "Neymar",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "cafu",
+      "nombre": "Cafu",
+      "alias": [
+        "Marcos Evangelista de Morais"
+      ],
+      "categorias": [
+        "libertadores",
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Defensa",
+      "pistas": [
+        "Ganó la Libertadores con el São Paulo.",
+        "Jugó en la Roma y el AC Milan.",
+        "Fue el capitán de Brasil campeón del mundo en 2002."
+      ],
+      "wikipedia_en": "Cafu",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "rene-higuita",
+      "nombre": "René Higuita",
+      "alias": [
+        "El Loco",
+        "Loco Higuita"
+      ],
+      "categorias": [
+        "libertadores",
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Colombia",
+      "posicion": "Arquero",
+      "pistas": [
+        "Era un arquero que salía jugando e incluso marcaba goles.",
+        "Ganó la Libertadores 1989 con Atlético Nacional.",
+        "Hizo la famosa atajada del \"escorpión\" en Wembley."
+      ],
+      "wikipedia_en": "René Higuita",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "paolo-guerrero",
+      "nombre": "Paolo Guerrero",
+      "alias": [
+        "Depredador",
+        "Guerrero"
+      ],
+      "categorias": [
+        "libertadores",
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Perú",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Bayern Múnich y el Hamburgo.",
+        "Marcó el gol del título del Mundial de Clubes 2012 ante el Chelsea.",
+        "Es el máximo goleador histórico de la selección peruana."
+      ],
+      "wikipedia_en": "Paolo Guerrero",
       "wikidata_id": null,
       "imagen": null
     }

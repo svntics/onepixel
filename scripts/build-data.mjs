@@ -6,7 +6,7 @@
 //   - "rondas": imagen + respuesta y pistas codificadas, en un orden distinto al de "nombres"
 // Así, mirar los datos no revela qué nombre corresponde a qué imagen (ofuscación, no seguridad).
 
-import { readFileSync, writeFileSync, mkdirSync, readdirSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { encode } from "../public/js/codec.js";
 import { normalize } from "../public/js/normalize.js";
@@ -19,7 +19,13 @@ const OUT = join(ROOT, "public", "data");
 const PLACEHOLDER = "img/placeholder.svg";
 
 const ERAS = new Set(["historico", "actual"]);
-const REQUIRED = ["id", "nombre", "alias", "categorias", "era", "pais", "posicion", "pistas"];
+const REQUIRED = ["id", "nombre", "alias", "categorias", "era", "pais", "posicion", "pistas", "wikipedia_en"];
+const MIN_POR_CATEGORIA = 30;
+
+// --placeholders: incluye jugadores SIN imagen libre usando la silueta provisoria.
+// Solo para probar en local (npm run dev). En producción (npm run build) se excluyen.
+const PLACEHOLDERS = process.argv.includes("--placeholders");
+const warnings = [];
 
 const errors = [];
 const seen = new Map(); // id -> JSON (para verificar que un jugador repetido sea idéntico)
@@ -43,6 +49,12 @@ function validate(p, cat, file) {
       if (hit) errors.push(`${where}: la pista ${j + 1} contiene "${hit}" (revelaría al jugador)`);
     });
   }
+  if (p.imagen) {
+    for (const k of ["archivo_local", "autor", "licencia", "url_fuente"])
+      if (!p.imagen[k]) errors.push(`${where}: imagen sin "${k}" (necesario para la atribución)`);
+    if (p.imagen.archivo_local && !existsSync(join(ROOT, "public", p.imagen.archivo_local)))
+      errors.push(`${where}: no existe el archivo ${p.imagen.archivo_local}`);
+  }
   const json = JSON.stringify(p);
   if (seen.has(p.id) && seen.get(p.id) !== json)
     errors.push(`${where}: aparece en varios archivos con datos distintos`);
@@ -53,10 +65,17 @@ mkdirSync(OUT, { recursive: true });
 const files = readdirSync(SRC).filter((f) => f.endsWith(".json"));
 
 for (const file of files) {
-  const { categoria, jugadores } = JSON.parse(readFileSync(join(SRC, file), "utf8"));
+  let { categoria, jugadores } = JSON.parse(readFileSync(join(SRC, file), "utf8"));
   jugadores.forEach((p) => validate(p, categoria, file));
   const ids = jugadores.map((p) => p.id);
   if (new Set(ids).size !== ids.length) errors.push(`${file}: hay ids repetidos`);
+
+  const jugables = PLACEHOLDERS ? jugadores : jugadores.filter((p) => p.imagen?.archivo_local);
+  const excluidos = jugadores.length - jugables.length;
+  if (jugables.length < MIN_POR_CATEGORIA)
+    warnings.push(`${file}: solo ${jugables.length} jugadores jugables (mínimo recomendado ${MIN_POR_CATEGORIA})`);
+  if (jugables.length === 0) errors.push(`${file}: ningún jugador tiene imagen. Ejecuta "npm run images" o usa "npm run dev" para probar con siluetas.`);
+  jugadores = jugables;
 
   const ordenados = [...jugadores].sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
   const nombres = ordenados.map((p) => ({ nombre: p.nombre, alias: p.alias }));
@@ -69,9 +88,11 @@ for (const file of files) {
     }));
   const publico = { categoria, total: jugadores.length, nombres, rondas };
   writeFileSync(join(OUT, file), JSON.stringify(publico));
-  console.log(`✔ ${file}: ${jugadores.length} jugadores`);
+  console.log(`✔ ${file}: ${jugadores.length} jugadores en el juego${excluidos ? ` (${excluidos} excluidos por no tener imagen libre)` : ""}`);
 }
 
+if (PLACEHOLDERS) console.warn("\n⚠ Modo prueba: los jugadores sin imagen usan una silueta provisoria. No publiques así.");
+if (warnings.length) console.warn("\n⚠ Avisos:\n  " + warnings.join("\n  "));
 if (errors.length) {
   console.error("\n✖ Errores en los datos:\n  " + errors.join("\n  "));
   process.exit(1);

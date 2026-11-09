@@ -9,7 +9,8 @@
         "Henry"
       ],
       "categorias": [
-        "premier"
+        "premier",
+        "mundiales"
       ],
       "era": "historico",
       "pais": "Francia",
@@ -19,6 +20,7 @@
         "Fue parte del equipo que terminó invicto la Premier 2003-04.",
         "Es el máximo goleador histórico del Arsenal."
       ],
+      "wikipedia_en": "Thierry Henry",
       "wikidata_id": null,
       "imagen": null
     },
@@ -39,6 +41,7 @@
         "Fue capitán e ídolo del Newcastle.",
         "Es el máximo goleador de la historia de la Premier League."
       ],
+      "wikipedia_en": "Alan Shearer",
       "wikidata_id": null,
       "imagen": null
     },
@@ -49,7 +52,8 @@
         "Drogba"
       ],
       "categorias": [
-        "premier"
+        "premier",
+        "champions"
       ],
       "era": "historico",
       "pais": "Costa de Marfil",
@@ -59,6 +63,7 @@
         "Es el máximo goleador histórico de su selección.",
         "Marcó el penal decisivo en la final de la Champions 2012."
       ],
+      "wikipedia_en": "Didier Drogba",
       "wikidata_id": null,
       "imagen": null
     },
@@ -81,6 +86,7 @@
         "Es el máximo goleador histórico del Manchester City.",
         "Marcó el gol del título en el último minuto de la Premier 2011-12."
       ],
+      "wikipedia_en": "Sergio Agüero",
       "wikidata_id": null,
       "imagen": null
     },
@@ -92,7 +98,8 @@
         "Niño Maravilla"
       ],
       "categorias": [
-        "premier"
+        "premier",
+        "mundiales"
       ],
       "era": "actual",
       "pais": "Chile",
@@ -102,6 +109,584 @@
         "Ganó dos Copas América con su selección.",
         "Es el máximo goleador histórico de la selección chilena."
       ],
+      "wikipedia_en": "Alexis Sánchez",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "cristiano-ronaldo",
+      "nombre": "Cristiano Ronaldo",
+      "alias": [
+        "Cristiano",
+        "CR7"
+      ],
+      "categorias": [
+        "champions",
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Portugal",
+      "posicion": "Delantero",
+      "pistas": [
+        "Ganó la Eurocopa 2016 con su selección.",
+        "Ganó la Champions con dos clubes distintos.",
+        "Es el máximo goleador de la historia de la Champions League."
+      ],
+      "wikipedia_en": "Cristiano Ronaldo",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "carlos-tevez",
+      "nombre": "Carlos Tévez",
+      "alias": [
+        "Carlitos",
+        "Apache",
+        "Tévez"
+      ],
+      "categorias": [
+        "libertadores",
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en Brasil con el Corinthians.",
+        "Jugó en el Manchester United y en el Manchester City.",
+        "Ganó la Libertadores 2003 con Boca Juniors."
+      ],
+      "wikipedia_en": "Carlos Tevez",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "claudio-bravo",
+      "nombre": "Claudio Bravo",
+      "alias": [
+        "Bravo"
+      ],
+      "categorias": [
+        "mundiales",
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Chile",
+      "posicion": "Arquero",
+      "pistas": [
+        "Jugó en Real Sociedad, Barcelona y Manchester City.",
+        "Fue el capitán de Chile campeón de América en 2015 y 2016.",
+        "Es el arquero con más partidos en la historia de la selección chilena."
+      ],
+      "wikipedia_en": "Claudio Bravo",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "diego-forlan",
+      "nombre": "Diego Forlán",
+      "alias": [
+        "Cachavacha",
+        "Forlán"
+      ],
+      "categorias": [
+        "mundiales",
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Uruguay",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Manchester United y el Atlético de Madrid.",
+        "Fue Bota de Oro europea en dos ocasiones.",
+        "Fue elegido mejor jugador del Mundial 2010."
+      ],
+      "wikipedia_en": "Diego Forlán",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "luis-suarez",
+      "nombre": "Luis Suárez",
+      "alias": [
+        "Lucho Suárez",
+        "Pistolero",
+        "El Pistolero"
+      ],
+      "categorias": [
+        "mundiales",
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Uruguay",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en Ajax, Liverpool, Barcelona y Atlético de Madrid.",
+        "Es el máximo goleador histórico de su selección.",
+        "Fue sancionado por morder a un rival en el Mundial 2014."
+      ],
+      "wikipedia_en": "Luis Suárez",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "wayne-rooney",
+      "nombre": "Wayne Rooney",
+      "alias": [
+        "Rooney",
+        "Wazza"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Inglaterra",
+      "posicion": "Delantero",
+      "pistas": [
+        "Debutó en el Everton siendo adolescente.",
+        "Marcó un recordado gol de chilena en un clásico de Mánchester.",
+        "Es el máximo goleador histórico del Manchester United."
+      ],
+      "wikipedia_en": "Wayne Rooney",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "steven-gerrard",
+      "nombre": "Steven Gerrard",
+      "alias": [
+        "Stevie G",
+        "Gerrard"
+      ],
+      "categorias": [
+        "premier",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Inglaterra",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Nunca ganó la Premier League como jugador.",
+        "Fue capitán de su club durante más de una década.",
+        "Levantó la Champions 2005 tras remontar un 0-3 en Estambul."
+      ],
+      "wikipedia_en": "Steven Gerrard",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "frank-lampard",
+      "nombre": "Frank Lampard",
+      "alias": [
+        "Lampard",
+        "Lamps"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Inglaterra",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Comenzó su carrera en el West Ham.",
+        "Es el mediocampista con más goles en la historia de la Premier.",
+        "Es el máximo goleador histórico del Chelsea."
+      ],
+      "wikipedia_en": "Frank Lampard",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "ryan-giggs",
+      "nombre": "Ryan Giggs",
+      "alias": [
+        "Giggs"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Gales",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó toda su carrera en un solo club.",
+        "Representó a Gales a nivel internacional.",
+        "Es el jugador con más títulos de Premier League."
+      ],
+      "wikipedia_en": "Ryan Giggs",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "eric-cantona",
+      "nombre": "Eric Cantona",
+      "alias": [
+        "King Eric",
+        "Cantona"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Francia",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugaba con el cuello de la camiseta levantado.",
+        "Fue sancionado por una patada a un hincha en 1995.",
+        "Fue ídolo del Manchester United en los años 90."
+      ],
+      "wikipedia_en": "Eric Cantona",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "mohamed-salah",
+      "nombre": "Mohamed Salah",
+      "alias": [
+        "Mo Salah",
+        "Salah",
+        "El Faraón"
+      ],
+      "categorias": [
+        "premier",
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Egipto",
+      "posicion": "Delantero",
+      "pistas": [
+        "Pasó por Chelsea, Fiorentina y Roma.",
+        "Ganó la Champions 2019.",
+        "Es la gran estrella egipcia del Liverpool."
+      ],
+      "wikipedia_en": "Mohamed Salah",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "erling-haaland",
+      "nombre": "Erling Haaland",
+      "alias": [
+        "Haaland"
+      ],
+      "categorias": [
+        "premier",
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Noruega",
+      "posicion": "Delantero",
+      "pistas": [
+        "Su padre también jugó en la Premier League.",
+        "Brilló en el Salzburgo y el Borussia Dortmund.",
+        "Marcó 36 goles en su primera Premier con el Manchester City."
+      ],
+      "wikipedia_en": "Erling Haaland",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "kevin-de-bruyne",
+      "nombre": "Kevin De Bruyne",
+      "alias": [
+        "KDB",
+        "De Bruyne"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Bélgica",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Pasó sin éxito por el Chelsea en su juventud.",
+        "Brilló en el Wolfsburgo de Alemania.",
+        "Fue el cerebro del Manchester City de Guardiola."
+      ],
+      "wikipedia_en": "Kevin De Bruyne",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "petr-cech",
+      "nombre": "Petr Čech",
+      "alias": [
+        "Cech"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "República Checa",
+      "posicion": "Arquero",
+      "pistas": [
+        "Usaba un casco protector tras una grave lesión en la cabeza.",
+        "Terminó su carrera en el Arsenal.",
+        "Fue arquero del Chelsea durante más de diez años."
+      ],
+      "wikipedia_en": "Petr Čech",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "cesc-fabregas",
+      "nombre": "Cesc Fàbregas",
+      "alias": [
+        "Cesc",
+        "Fabregas"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Se formó en La Masia.",
+        "Fue campeón del mundo en 2010.",
+        "Fue capitán del Arsenal siendo muy joven."
+      ],
+      "wikipedia_en": "Cesc Fàbregas",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "patrick-vieira",
+      "nombre": "Patrick Vieira",
+      "alias": [
+        "Vieira"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Francia",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Nació en Senegal.",
+        "Fue campeón del mundo en 1998.",
+        "Fue capitán del Arsenal invicto de 2003-04."
+      ],
+      "wikipedia_en": "Patrick Vieira",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "dennis-bergkamp",
+      "nombre": "Dennis Bergkamp",
+      "alias": [
+        "Bergkamp",
+        "Iceman"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Países Bajos",
+      "posicion": "Delantero",
+      "pistas": [
+        "Se formó en el Ajax.",
+        "Tenía miedo a volar y evitaba los viajes en avión.",
+        "Fue una figura del Arsenal de Arsène Wenger."
+      ],
+      "wikipedia_en": "Dennis Bergkamp",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "paul-scholes",
+      "nombre": "Paul Scholes",
+      "alias": [
+        "Scholes"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Inglaterra",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó toda su carrera en un solo club.",
+        "Era pelirrojo.",
+        "Formó parte de la \"Clase del 92\" del Manchester United."
+      ],
+      "wikipedia_en": "Paul Scholes",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "harry-kane",
+      "nombre": "Harry Kane",
+      "alias": [
+        "Kane",
+        "Hurricane"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Inglaterra",
+      "posicion": "Delantero",
+      "pistas": [
+        "Se fue al Bayern Múnich en 2023.",
+        "Es el máximo goleador histórico de la selección inglesa.",
+        "Es el máximo goleador histórico del Tottenham."
+      ],
+      "wikipedia_en": "Harry Kane",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "son-heung-min",
+      "nombre": "Son Heung-min",
+      "alias": [
+        "Son",
+        "Sonny"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Corea del Sur",
+      "posicion": "Delantero",
+      "pistas": [
+        "Comenzó su carrera profesional en Alemania.",
+        "Ganó el premio Puskás 2020 con un gol tras recorrer toda la cancha.",
+        "Es el gran ídolo surcoreano del Tottenham."
+      ],
+      "wikipedia_en": "Son Heung-min",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "virgil-van-dijk",
+      "nombre": "Virgil van Dijk",
+      "alias": [
+        "Van Dijk",
+        "VVD"
+      ],
+      "categorias": [
+        "premier",
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Países Bajos",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó en el Celtic y el Southampton.",
+        "Ganó la Champions 2019.",
+        "Es el capitán neerlandés de la defensa del Liverpool."
+      ],
+      "wikipedia_en": "Virgil van Dijk",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "fernando-torres",
+      "nombre": "Fernando Torres",
+      "alias": [
+        "El Niño",
+        "Niño Torres"
+      ],
+      "categorias": [
+        "premier",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Delantero",
+      "pistas": [
+        "Es ídolo del Atlético de Madrid.",
+        "Marcó el gol de la final de la Eurocopa 2008.",
+        "Jugó en Liverpool y Chelsea."
+      ],
+      "wikipedia_en": "Fernando Torres",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "jamie-vardy",
+      "nombre": "Jamie Vardy",
+      "alias": [
+        "Vardy"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Inglaterra",
+      "posicion": "Delantero",
+      "pistas": [
+        "Trabajó en una fábrica mientras jugaba en categorías amateur.",
+        "Marcó en 11 partidos seguidos de Premier League.",
+        "Fue campeón de la Premier 2015-16 con el Leicester."
+      ],
+      "wikipedia_en": "Jamie Vardy",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "ngolo-kante",
+      "nombre": "N'Golo Kanté",
+      "alias": [
+        "Kanté",
+        "Kante"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "actual",
+      "pais": "Francia",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Fue campeón del mundo en 2018.",
+        "Ganó la Champions 2021 con el Chelsea.",
+        "Ganó la Premier con el Leicester y luego con el Chelsea."
+      ],
+      "wikipedia_en": "N'Golo Kanté",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "peter-schmeichel",
+      "nombre": "Peter Schmeichel",
+      "alias": [
+        "Schmeichel"
+      ],
+      "categorias": [
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Dinamarca",
+      "posicion": "Arquero",
+      "pistas": [
+        "Su hijo también es arquero profesional.",
+        "Fue campeón de la Eurocopa 1992 con su selección.",
+        "Fue el arquero del Manchester United del triplete de 1999."
+      ],
+      "wikipedia_en": "Peter Schmeichel",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "gareth-bale",
+      "nombre": "Gareth Bale",
+      "alias": [
+        "Bale"
+      ],
+      "categorias": [
+        "champions",
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Gales",
+      "posicion": "Delantero",
+      "pistas": [
+        "Comenzó como lateral izquierdo en el Southampton.",
+        "Brilló en el Tottenham antes de un fichaje récord.",
+        "Marcó un gol de chilena en la final de la Champions 2018."
+      ],
+      "wikipedia_en": "Gareth Bale",
       "wikidata_id": null,
       "imagen": null
     }

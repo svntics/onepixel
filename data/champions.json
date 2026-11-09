@@ -2,6 +2,51 @@
   "categoria": "champions",
   "jugadores": [
     {
+      "id": "zinedine-zidane",
+      "nombre": "Zinedine Zidane",
+      "alias": [
+        "Zizou",
+        "Zidane"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Francia",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Anotó un recordado gol de volea en la final de la Champions de 2002.",
+        "Marcó dos goles de cabeza en la final de un Mundial.",
+        "Fue expulsado en la final del Mundial de 2006."
+      ],
+      "wikipedia_en": "Zinedine Zidane",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "didier-drogba",
+      "nombre": "Didier Drogba",
+      "alias": [
+        "Drogba"
+      ],
+      "categorias": [
+        "premier",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Costa de Marfil",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Chelsea en dos etapas.",
+        "Es el máximo goleador histórico de su selección.",
+        "Marcó el penal decisivo en la final de la Champions 2012."
+      ],
+      "wikipedia_en": "Didier Drogba",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
       "id": "cristiano-ronaldo",
       "nombre": "Cristiano Ronaldo",
       "alias": [
@@ -9,7 +54,8 @@
         "CR7"
       ],
       "categorias": [
-        "champions"
+        "champions",
+        "premier"
       ],
       "era": "actual",
       "pais": "Portugal",
@@ -19,6 +65,7 @@
         "Ganó la Champions con dos clubes distintos.",
         "Es el máximo goleador de la historia de la Champions League."
       ],
+      "wikipedia_en": "Cristiano Ronaldo",
       "wikidata_id": null,
       "imagen": null
     },
@@ -39,28 +86,7 @@
         "Ganó cinco veces la Copa de Europa / Champions League.",
         "Jugó toda su carrera en el AC Milan."
       ],
-      "wikidata_id": null,
-      "imagen": null
-    },
-    {
-      "id": "zinedine-zidane",
-      "nombre": "Zinedine Zidane",
-      "alias": [
-        "Zizou",
-        "Zidane"
-      ],
-      "categorias": [
-        "mundiales",
-        "champions"
-      ],
-      "era": "historico",
-      "pais": "Francia",
-      "posicion": "Mediocampista",
-      "pistas": [
-        "Marcó dos goles de cabeza en la final de un Mundial.",
-        "Anotó un recordado gol de volea en la final de la Champions de 2002.",
-        "Fue expulsado en la final del Mundial de 2006."
-      ],
+      "wikipedia_en": "Paolo Maldini",
       "wikidata_id": null,
       "imagen": null
     },
@@ -71,7 +97,8 @@
         "Iniesta"
       ],
       "categorias": [
-        "champions"
+        "champions",
+        "mundiales"
       ],
       "era": "historico",
       "pais": "España",
@@ -81,6 +108,7 @@
         "Ganó cuatro Champions con el Barcelona.",
         "Marcó el gol que le dio a España su primer Mundial, en 2010."
       ],
+      "wikipedia_en": "Andrés Iniesta",
       "wikidata_id": null,
       "imagen": null
     },
@@ -102,6 +130,637 @@
         "Ganó la Champions 2007 con el AC Milan.",
         "Ganó el Balón de Oro en 2007."
       ],
+      "wikipedia_en": "Kaká",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "ronaldinho",
+      "nombre": "Ronaldinho",
+      "alias": [
+        "Ronaldinho Gaúcho",
+        "Dinho"
+      ],
+      "categorias": [
+        "libertadores",
+        "mundiales",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Fue campeón del mundo en 2002.",
+        "Ganó el Balón de Oro en 2005.",
+        "Ganó la Libertadores 2013 con Atlético Mineiro."
+      ],
+      "wikipedia_en": "Ronaldinho",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "lionel-messi",
+      "nombre": "Lionel Messi",
+      "alias": [
+        "Leo Messi",
+        "Messi",
+        "La Pulga"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Argentina",
+      "posicion": "Delantero",
+      "pistas": [
+        "Llegó a Europa siendo un niño para formarse en un gran club.",
+        "Tiene el récord de Balones de Oro ganados.",
+        "Fue campeón del mundo en Catar 2022."
+      ],
+      "wikipedia_en": "Lionel Messi",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "arturo-vidal",
+      "nombre": "Arturo Vidal",
+      "alias": [
+        "Rey Arturo",
+        "King Arturo",
+        "Vidal"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Chile",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en Juventus, Bayern Múnich, Barcelona e Inter.",
+        "Ganó dos Copas América con su selección.",
+        "Surgió en Colo-Colo y es conocido como \"el Rey\"."
+      ],
+      "wikipedia_en": "Arturo Vidal",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "johan-cruyff",
+      "nombre": "Johan Cruyff",
+      "alias": [
+        "Cruyff",
+        "Cruijff",
+        "Johan Cruijff"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Países Bajos",
+      "posicion": "Delantero",
+      "pistas": [
+        "Una finta lleva su nombre.",
+        "Ganó tres Copas de Europa seguidas con el Ajax.",
+        "Fue subcampeón del mundo en 1974 con la \"Naranja Mecánica\"."
+      ],
+      "wikipedia_en": "Johan Cruyff",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "franz-beckenbauer",
+      "nombre": "Franz Beckenbauer",
+      "alias": [
+        "Káiser",
+        "El Káiser",
+        "Der Kaiser"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Alemania",
+      "posicion": "Defensa",
+      "pistas": [
+        "Ganó tres Copas de Europa seguidas con el Bayern Múnich.",
+        "Jugaba como líbero.",
+        "Ganó el Mundial como jugador (1974) y como entrenador (1990)."
+      ],
+      "wikipedia_en": "Franz Beckenbauer",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "eusebio",
+      "nombre": "Eusébio",
+      "alias": [
+        "La Pantera Negra",
+        "Eusebio da Silva Ferreira"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Portugal",
+      "posicion": "Delantero",
+      "pistas": [
+        "Nació en Mozambique.",
+        "Ganó la Copa de Europa de 1962 con el Benfica.",
+        "Fue el goleador del Mundial de 1966, con 9 goles."
+      ],
+      "wikipedia_en": "Eusébio",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "kylian-mbappe",
+      "nombre": "Kylian Mbappé",
+      "alias": [
+        "Mbappe"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Francia",
+      "posicion": "Delantero",
+      "pistas": [
+        "Debutó como profesional en el Mónaco.",
+        "Fue campeón del mundo con 19 años.",
+        "Marcó tres goles en la final del Mundial 2022."
+      ],
+      "wikipedia_en": "Kylian Mbappé",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "luka-modric",
+      "nombre": "Luka Modrić",
+      "alias": [
+        "Modric"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Croacia",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en el Tottenham antes de llegar a España.",
+        "Llevó a su selección a la final del Mundial 2018.",
+        "Ganó el Balón de Oro en 2018."
+      ],
+      "wikipedia_en": "Luka Modrić",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "gianluigi-buffon",
+      "nombre": "Gianluigi Buffon",
+      "alias": [
+        "Gigi Buffon",
+        "Buffon",
+        "Gigi"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Italia",
+      "posicion": "Arquero",
+      "pistas": [
+        "Jugó más de veinte años en la Juventus.",
+        "Perdió tres finales de Champions League.",
+        "Fue el arquero de Italia campeón del mundo en 2006."
+      ],
+      "wikipedia_en": "Gianluigi Buffon",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "neymar",
+      "nombre": "Neymar",
+      "alias": [
+        "Neymar Jr",
+        "Ney"
+      ],
+      "categorias": [
+        "libertadores",
+        "mundiales",
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Delantero",
+      "pistas": [
+        "Fue el fichaje más caro de la historia al pasar al PSG.",
+        "Ganó la Champions 2015 con el Barcelona.",
+        "Ganó la Libertadores 2011 con el Santos."
+      ],
+      "wikipedia_en": "Neymar",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "steven-gerrard",
+      "nombre": "Steven Gerrard",
+      "alias": [
+        "Stevie G",
+        "Gerrard"
+      ],
+      "categorias": [
+        "premier",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Inglaterra",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Nunca ganó la Premier League como jugador.",
+        "Fue capitán de su club durante más de una década.",
+        "Levantó la Champions 2005 tras remontar un 0-3 en Estambul."
+      ],
+      "wikipedia_en": "Steven Gerrard",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "mohamed-salah",
+      "nombre": "Mohamed Salah",
+      "alias": [
+        "Mo Salah",
+        "Salah",
+        "El Faraón"
+      ],
+      "categorias": [
+        "premier",
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Egipto",
+      "posicion": "Delantero",
+      "pistas": [
+        "Pasó por Chelsea, Fiorentina y Roma.",
+        "Ganó la Champions 2019.",
+        "Es la gran estrella egipcia del Liverpool."
+      ],
+      "wikipedia_en": "Mohamed Salah",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "erling-haaland",
+      "nombre": "Erling Haaland",
+      "alias": [
+        "Haaland"
+      ],
+      "categorias": [
+        "premier",
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Noruega",
+      "posicion": "Delantero",
+      "pistas": [
+        "Su padre también jugó en la Premier League.",
+        "Brilló en el Salzburgo y el Borussia Dortmund.",
+        "Marcó 36 goles en su primera Premier con el Manchester City."
+      ],
+      "wikipedia_en": "Erling Haaland",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "virgil-van-dijk",
+      "nombre": "Virgil van Dijk",
+      "alias": [
+        "Van Dijk",
+        "VVD"
+      ],
+      "categorias": [
+        "premier",
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Países Bajos",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó en el Celtic y el Southampton.",
+        "Ganó la Champions 2019.",
+        "Es el capitán neerlandés de la defensa del Liverpool."
+      ],
+      "wikipedia_en": "Virgil van Dijk",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "fernando-torres",
+      "nombre": "Fernando Torres",
+      "alias": [
+        "El Niño",
+        "Niño Torres"
+      ],
+      "categorias": [
+        "premier",
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Delantero",
+      "pistas": [
+        "Es ídolo del Atlético de Madrid.",
+        "Marcó el gol de la final de la Eurocopa 2008.",
+        "Jugó en Liverpool y Chelsea."
+      ],
+      "wikipedia_en": "Fernando Torres",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "gareth-bale",
+      "nombre": "Gareth Bale",
+      "alias": [
+        "Bale"
+      ],
+      "categorias": [
+        "champions",
+        "premier"
+      ],
+      "era": "historico",
+      "pais": "Gales",
+      "posicion": "Delantero",
+      "pistas": [
+        "Comenzó como lateral izquierdo en el Southampton.",
+        "Brilló en el Tottenham antes de un fichaje récord.",
+        "Marcó un gol de chilena en la final de la Champions 2018."
+      ],
+      "wikipedia_en": "Gareth Bale",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "karim-benzema",
+      "nombre": "Karim Benzema",
+      "alias": [
+        "Benzema"
+      ],
+      "categorias": [
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Francia",
+      "posicion": "Delantero",
+      "pistas": [
+        "Comenzó su carrera en el Olympique de Lyon.",
+        "Ganó el Balón de Oro en 2022.",
+        "Ganó cinco Champions con el Real Madrid."
+      ],
+      "wikipedia_en": "Karim Benzema",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "sergio-ramos",
+      "nombre": "Sergio Ramos",
+      "alias": [
+        "Ramos"
+      ],
+      "categorias": [
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Defensa",
+      "pistas": [
+        "Se formó en el Sevilla.",
+        "Fue campeón del mundo en 2010.",
+        "Marcó el empate en el minuto 93 de la final de la Champions 2014."
+      ],
+      "wikipedia_en": "Sergio Ramos",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "iker-casillas",
+      "nombre": "Iker Casillas",
+      "alias": [
+        "San Iker",
+        "Casillas"
+      ],
+      "categorias": [
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Arquero",
+      "pistas": [
+        "Terminó su carrera en el Porto.",
+        "Entró desde la banca en la final de la Champions 2002.",
+        "Fue el capitán de España campeón del mundo en 2010."
+      ],
+      "wikipedia_en": "Iker Casillas",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "xavi-hernandez",
+      "nombre": "Xavi Hernández",
+      "alias": [
+        "Xavi"
+      ],
+      "categorias": [
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Luego fue entrenador del mismo club donde brilló.",
+        "Fue campeón del mundo en 2010.",
+        "Fue el cerebro del Barcelona de Guardiola."
+      ],
+      "wikipedia_en": "Xavi",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "clarence-seedorf",
+      "nombre": "Clarence Seedorf",
+      "alias": [
+        "Seedorf"
+      ],
+      "categorias": [
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Países Bajos",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Nació en Surinam.",
+        "Jugó en Ajax, Real Madrid, Inter y AC Milan.",
+        "Es el único que ganó la Champions con tres clubes distintos."
+      ],
+      "wikipedia_en": "Clarence Seedorf",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "andriy-shevchenko",
+      "nombre": "Andriy Shevchenko",
+      "alias": [
+        "Sheva",
+        "Shevchenko"
+      ],
+      "categorias": [
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Ucrania",
+      "posicion": "Delantero",
+      "pistas": [
+        "Se hizo conocido en el Dinamo de Kiev.",
+        "Ganó el Balón de Oro en 2004.",
+        "Marcó el penal decisivo de la final de la Champions 2003."
+      ],
+      "wikipedia_en": "Andriy Shevchenko",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "raul-gonzalez",
+      "nombre": "Raúl González",
+      "alias": [
+        "Raúl",
+        "Raúl González Blanco"
+      ],
+      "categorias": [
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Delantero",
+      "pistas": [
+        "Después jugó en el Schalke 04 de Alemania.",
+        "Celebraba sus goles besando su anillo.",
+        "Ganó tres Champions con el Real Madrid."
+      ],
+      "wikipedia_en": "Raúl (footballer)",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "robert-lewandowski",
+      "nombre": "Robert Lewandowski",
+      "alias": [
+        "Lewy",
+        "Lewandowski"
+      ],
+      "categorias": [
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Polonia",
+      "posicion": "Delantero",
+      "pistas": [
+        "Brilló en el Borussia Dortmund.",
+        "Marcó cinco goles en nueve minutos en un partido de Bundesliga.",
+        "Ganó la Champions 2020 con el Bayern Múnich."
+      ],
+      "wikipedia_en": "Robert Lewandowski",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "manuel-neuer",
+      "nombre": "Manuel Neuer",
+      "alias": [
+        "Neuer"
+      ],
+      "categorias": [
+        "champions"
+      ],
+      "era": "actual",
+      "pais": "Alemania",
+      "posicion": "Arquero",
+      "pistas": [
+        "Comenzó su carrera en el Schalke 04.",
+        "Es famoso por salir de su área como un \"arquero líbero\".",
+        "Fue el arquero de Alemania campeón del mundo en 2014."
+      ],
+      "wikipedia_en": "Manuel Neuer",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "arjen-robben",
+      "nombre": "Arjen Robben",
+      "alias": [
+        "Robben"
+      ],
+      "categorias": [
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Países Bajos",
+      "posicion": "Extremo",
+      "pistas": [
+        "Jugó en Chelsea y Real Madrid.",
+        "Era zurdo y le gustaba recortar hacia adentro desde la derecha.",
+        "Marcó el gol del título en la final de la Champions 2013."
+      ],
+      "wikipedia_en": "Arjen Robben",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "samuel-etoo",
+      "nombre": "Samuel Eto'o",
+      "alias": [
+        "Eto'o",
+        "Etoo"
+      ],
+      "categorias": [
+        "champions"
+      ],
+      "era": "historico",
+      "pais": "Camerún",
+      "posicion": "Delantero",
+      "pistas": [
+        "Se formó en las inferiores del Real Madrid.",
+        "Es el máximo goleador histórico de su selección.",
+        "Ganó dos tripletes seguidos: con el Barcelona en 2009 y con el Inter en 2010."
+      ],
+      "wikipedia_en": "Samuel Eto'o",
+      "wikidata_id": null,
+      "imagen": null
+    },
+    {
+      "id": "marcelo-vieira",
+      "nombre": "Marcelo",
+      "alias": [
+        "Marcelo Vieira"
+      ],
+      "categorias": [
+        "champions",
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Defensa",
+      "pistas": [
+        "Se formó en el Fluminense.",
+        "Ganó cinco Champions con el Real Madrid.",
+        "Volvió a su club formador y ganó la Libertadores 2023."
+      ],
+      "wikipedia_en": "Marcelo (footballer, born 1988)",
       "wikidata_id": null,
       "imagen": null
     }

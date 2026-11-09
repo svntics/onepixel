@@ -5,17 +5,19 @@
   "description": "Adivina el futbolista en la foto difuminada",
   "type": "module",
   "scripts": {
+    "images": "node scripts/fetch-images.mjs",
     "build:data": "node scripts/build-data.mjs",
     "build:css": "tailwindcss -i ./src/input.css -o ./public/assets/styles.css --minify",
     "build": "npm run build:data && npm run build:css",
-    "dev": "npm run build && node scripts/serve.mjs",
-    "test": "node --test tests/"
+    "dev": "node scripts/build-data.mjs --placeholders && npm run build:css && node scripts/serve.mjs",
+    "test": "node --test \"tests/**/*.test.js\""
   },
   "engines": {
     "node": ">=20"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.3.5",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4.3.5"
   }
 }
