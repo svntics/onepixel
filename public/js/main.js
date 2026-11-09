@@ -38,30 +38,14 @@ function today() {
 }
 
 // ---------- Inicio ----------
+// La lista de categorías viene escrita en index.html (la genera scripts/build-pages.mjs);
+// aquí solo se marca cuáles ya se jugaron hoy.
 function renderHome() {
   const { n } = today();
-  $("#category-list").replaceChildren(
-    ...CONFIG.CATEGORIES.map((c) => {
-      const saved = load(`daily:${c.id}`);
-      const done = saved?.n === n && saved?.over;
-      const li = document.createElement("li");
-      li.innerHTML = `
-        <a class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
-          <span class="text-3xl" aria-hidden="true"></span>
-          <span class="flex flex-1 flex-col">
-            <span class="text-lg font-bold"></span>
-            <span class="text-sm text-muted"></span>
-          </span>
-          <span class="status text-sm font-semibold text-accent"></span>
-        </a>`;
-      li.querySelector("a").href = `#/${c.id}`;
-      li.querySelector("[aria-hidden]").textContent = c.emoji;
-      li.querySelector(".text-lg").textContent = c.nombre;
-      li.querySelector(".text-sm.text-muted").textContent = c.descripcion;
-      li.querySelector(".status").textContent = done ? "✓ Hoy" : "";
-      return li;
-    }),
-  );
+  document.querySelectorAll("#category-list [data-cat]").forEach((a) => {
+    const saved = load(`daily:${a.dataset.cat}`);
+    a.querySelector(".status").textContent = saved?.n === n && saved?.over ? "✓ Hoy" : "";
+  });
 }
 
 // ---------- Datos ----------
@@ -284,6 +268,7 @@ dialog.addEventListener("click", (e) => e.target === dialog && dialog.close());
 function route(e) {
   const id = location.hash.replace(/^#\/?/, "");
   const cat = CONFIG.CATEGORIES.find((c) => c.id === id);
+  document.documentElement.dataset.view = cat ? "game" : "home";
   views.home.hidden = !!cat;
   views.game.hidden = !cat;
   clearInterval(countdownTimer);

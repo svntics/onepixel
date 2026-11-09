@@ -6,9 +6,12 @@
   <title>onepixel · Adivina el futbolista</title>
   <meta name="description" content="Juego diario: adivina qué futbolista aparece en una foto que empieza difuminada y se aclara con cada intento.">
   <meta name="theme-color" content="#0f1115">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <script>
     // Aplica el tema guardado antes de pintar (evita parpadeo). Oscuro por defecto.
     try { if (localStorage.getItem("op-theme") === "light") document.documentElement.dataset.theme = "light"; } catch (e) {}
+    // Muestra la vista correcta (inicio o juego) antes de pintar, para que la página no salte
+    document.documentElement.dataset.view = /^#\/[a-z]/.test(location.hash) ? "game" : "home";
   </script>
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="stylesheet" href="assets/ads.css">
@@ -39,7 +42,34 @@
     <section id="view-home" aria-labelledby="home-title">
       <h1 id="home-title" class="mt-6 text-2xl font-extrabold leading-tight sm:text-3xl">¿Quién es el futbolista?</h1>
       <p class="mt-2 text-muted">La foto empieza difuminada y se aclara con cada fallo o pista. Tienes 6 intentos. Elige una categoría:</p>
-      <ul id="category-list" class="mt-6 grid gap-3 sm:grid-cols-2" role="list"></ul>
+      <ul id="category-list" class="mt-6 grid gap-3 sm:grid-cols-2" role="list">
+<!-- categorias:inicio (generado por scripts/build-pages.mjs desde config.js) -->
+        <li><a href="#/mundiales" data-cat="mundiales"
+          class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
+          <span class="text-3xl" aria-hidden="true">🌎</span>
+          <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Mundiales</span><span class="text-sm text-muted">Leyendas y figuras de las Copas del Mundo</span></span>
+          <span class="status text-sm font-semibold text-accent"></span>
+        </a></li>
+        <li><a href="#/premier" data-cat="premier"
+          class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
+          <span class="text-3xl" aria-hidden="true">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
+          <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Premier League</span><span class="text-sm text-muted">Jugadores de la liga inglesa</span></span>
+          <span class="status text-sm font-semibold text-accent"></span>
+        </a></li>
+        <li><a href="#/champions" data-cat="champions"
+          class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
+          <span class="text-3xl" aria-hidden="true">⭐</span>
+          <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Champions League</span><span class="text-sm text-muted">Protagonistas del torneo europeo de clubes</span></span>
+          <span class="status text-sm font-semibold text-accent"></span>
+        </a></li>
+        <li><a href="#/libertadores" data-cat="libertadores"
+          class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
+          <span class="text-3xl" aria-hidden="true">🏆</span>
+          <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Copa Libertadores</span><span class="text-sm text-muted">Ídolos del torneo sudamericano de clubes</span></span>
+          <span class="status text-sm font-semibold text-accent"></span>
+        </a></li>
+<!-- categorias:fin -->
+      </ul>
     </section>
 
     <!-- ===== Vista: juego ===== -->
@@ -47,7 +77,7 @@
       <div class="mt-4 flex items-center gap-2">
         <a href="#/" class="min-h-11 inline-flex items-center rounded-xl px-2 text-sm font-semibold text-muted hover:text-text">← Categorías</a>
       </div>
-      <h1 id="game-title" class="mt-1 text-2xl font-extrabold"></h1>
+      <h1 id="game-title" class="mt-1 min-h-8 text-2xl font-extrabold"></h1>
 
       <div class="mt-3 grid grid-cols-2 gap-2" role="group" aria-label="Modo de juego">
         <button type="button" data-mode="daily" aria-pressed="true"
@@ -56,18 +86,18 @@
           class="mode-btn min-h-11 rounded-xl border border-border px-3 text-sm font-semibold aria-pressed:bg-accent aria-pressed:text-accent-ink aria-pressed:border-accent">Práctica</button>
       </div>
 
-      <p id="challenge-label" class="mt-3 text-center text-sm font-semibold text-muted"></p>
+      <p id="challenge-label" class="mt-3 min-h-5 text-center text-sm font-semibold text-muted"></p>
 
       <figure class="mt-2">
         <div class="photo-frame mx-auto aspect-square w-full max-w-sm rounded-2xl border border-border bg-surface-2">
           <img id="player-photo" src="img/placeholder.svg" alt="Foto del futbolista misterioso"
             width="400" height="400" class="h-full w-full object-cover" decoding="async" fetchpriority="high">
         </div>
-        <figcaption id="photo-credit" class="mx-auto mt-1 min-h-5 max-w-sm text-center text-xs text-muted"></figcaption>
+        <figcaption id="photo-credit" class="mx-auto mt-1 min-h-8 max-w-sm text-center text-xs text-muted"></figcaption>
       </figure>
 
-      <div id="attempt-boxes" class="mx-auto mt-3 flex max-w-sm gap-1.5" aria-hidden="true"></div>
-      <p id="attempts" class="mt-2 text-center text-sm text-muted"></p>
+      <div id="attempt-boxes" class="mx-auto mt-3 flex h-2.5 max-w-sm gap-1.5" aria-hidden="true"></div>
+      <p id="attempts" class="mt-2 min-h-5 text-center text-sm text-muted"></p>
 
       <form id="guess-form" class="relative mt-3 flex gap-2" autocomplete="off">
         <label for="guess-input" class="sr-only">Nombre del futbolista</label>
@@ -119,7 +149,7 @@
   <div id="consent-banner" hidden role="region" aria-label="Aviso de cookies"
     class="fixed inset-x-0 bottom-0 z-40 border-t border-border bg-surface p-4 shadow-2xl">
     <div class="mx-auto flex max-w-xl flex-col gap-3 sm:flex-row sm:items-center">
-      <p class="flex-1 text-sm">Usamos cookies de terceros para mostrar publicidad. <a class="underline" href="privacidad.html">Más información</a></p>
+      <p class="flex-1 text-sm">Usamos cookies de terceros para mostrar publicidad. <a class="underline" href="privacidad.html">Política de privacidad</a></p>
       <div class="flex gap-2">
         <button type="button" data-consent="no" class="min-h-11 flex-1 rounded-xl border border-border px-4 text-sm font-semibold">Rechazar</button>
         <button type="button" data-consent="yes" class="min-h-11 flex-1 rounded-xl bg-accent px-4 text-sm font-bold text-accent-ink">Aceptar</button>

@@ -30,6 +30,24 @@ mkdirSync(join(ROOT, "public", "assets"), { recursive: true });
 writeFileSync(join(ROOT, "public", "assets", "ads.css"), css);
 console.log(`✔ ads.css: espacios publicitarios ${showSlots ? "visibles" : "ocultos"}`);
 
+// ---------- Lista de categorías en index.html (HTML estático: sin saltos al cargar) ----------
+const indexPath = join(ROOT, "public", "index.html");
+const indexHtml = readFileSync(indexPath, "utf8");
+const catsHtml = CONFIG.CATEGORIES.map(
+  (c) => `        <li><a href="#/${esc(c.id)}" data-cat="${esc(c.id)}"
+          class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
+          <span class="text-3xl" aria-hidden="true">${esc(c.emoji)}</span>
+          <span class="flex flex-1 flex-col"><span class="text-lg font-bold">${esc(c.nombre)}</span><span class="text-sm text-muted">${esc(c.descripcion)}</span></span>
+          <span class="status text-sm font-semibold text-accent"></span>
+        </a></li>`,
+).join("\n");
+const newIndex = indexHtml.replace(
+  /(<!-- categorias:inicio[^>]*-->)[\s\S]*?(<!-- categorias:fin -->)/,
+  `$1\n${catsHtml}\n$2`,
+);
+if (newIndex !== indexHtml) writeFileSync(indexPath, newIndex);
+console.log(`✔ index.html: ${CONFIG.CATEGORIES.length} categorías`);
+
 // ---------- creditos.html ----------
 const players = new Map();
 for (const f of readdirSync(join(ROOT, "data")).filter((f) => f.endsWith(".json"))) {

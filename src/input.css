@@ -85,3 +85,15 @@ body {
 #round-result:focus-visible {
   outline: none;
 }
+
+/* Vista inicial decidida en <head> (ver index.html).
+   Va en @layer base: con !important, las reglas de una capa ganan a las de fuera de ella,
+   y la regla [hidden] de Tailwind vive en esa capa. */
+@layer base {
+  html[data-view="game"] #view-home {
+    display: none !important;
+  }
+  html[data-view="game"] #view-game {
+    display: block !important;
+  }
+}
