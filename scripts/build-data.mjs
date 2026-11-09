@@ -83,6 +83,8 @@ for (const file of files) {
   const rondas = [...jugadores]
     .sort((a, b) => hash(a.id).localeCompare(hash(b.id)))
     .map((p) => ({
+      // k: clave neutra del jugador (igual en todas las categorías) para no repetirlo el mismo día
+      k: createHash("sha256").update(`onepixel-k:${p.id}`).digest("hex").slice(0, 10),
       img: p.imagen?.archivo_local ?? PLACEHOLDER,
       d: encode({ i: ordenados.indexOf(p), pistas: p.pistas, pais: p.pais, posicion: p.posicion, era: p.era }),
     }));

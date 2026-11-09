@@ -19,9 +19,14 @@
   <header class="border-b border-border">
     <div class="mx-auto flex max-w-xl items-center justify-between px-4 py-3">
       <a href="#/" class="min-h-11 inline-flex items-center text-xl font-extrabold tracking-tight" data-site-name>onepixel</a>
+      <div class="flex gap-2">
+      <button id="stats-btn" type="button"
+        class="min-h-11 min-w-11 rounded-xl border border-border bg-surface px-3 text-sm font-semibold hover:bg-surface-2"
+        aria-label="Ver estadísticas">📊</button>
       <button id="theme-toggle" type="button"
         class="min-h-11 min-w-11 rounded-xl border border-border bg-surface px-3 text-sm font-semibold hover:bg-surface-2"
         aria-label="Cambiar a modo claro">☀️</button>
+      </div>
     </div>
   </header>
 
@@ -42,13 +47,15 @@
       <h1 id="game-title" class="mt-1 text-2xl font-extrabold"></h1>
 
       <div class="mt-3 grid grid-cols-2 gap-2" role="group" aria-label="Modo de juego">
-        <button type="button" data-mode="daily" aria-pressed="false" disabled title="Disponible en la Fase 4"
-          class="mode-btn min-h-11 rounded-xl border border-border px-3 text-sm font-semibold disabled:opacity-60 aria-pressed:bg-accent aria-pressed:text-accent-ink aria-pressed:border-accent">Reto diario <span class="font-normal">(pronto)</span></button>
-        <button type="button" data-mode="practice" aria-pressed="true"
+        <button type="button" data-mode="daily" aria-pressed="true"
+          class="mode-btn min-h-11 rounded-xl border border-border px-3 text-sm font-semibold disabled:opacity-60 aria-pressed:bg-accent aria-pressed:text-accent-ink aria-pressed:border-accent">Reto diario</button>
+        <button type="button" data-mode="practice" aria-pressed="false"
           class="mode-btn min-h-11 rounded-xl border border-border px-3 text-sm font-semibold aria-pressed:bg-accent aria-pressed:text-accent-ink aria-pressed:border-accent">Práctica</button>
       </div>
 
-      <figure class="mt-4">
+      <p id="challenge-label" class="mt-3 text-center text-sm font-semibold text-muted"></p>
+
+      <figure class="mt-2">
         <div class="photo-frame mx-auto aspect-square w-full max-w-sm rounded-2xl border border-border bg-surface-2">
           <img id="player-photo" src="img/placeholder.svg" alt="Foto del futbolista misterioso"
             width="400" height="400" class="h-full w-full object-cover" decoding="async">
@@ -75,6 +82,18 @@
       <div id="round-result" hidden tabindex="-1" class="mt-4 rounded-2xl border border-border bg-surface p-4 outline-none"></div>
     </section>
   </main>
+
+  <dialog id="stats-dialog" aria-labelledby="stats-title"
+    class="m-auto max-h-[85dvh] w-[min(26rem,calc(100%-2rem))] overflow-y-auto rounded-2xl border border-border bg-surface p-0 text-text backdrop:bg-black/60">
+    <div class="p-5">
+      <div class="flex items-center justify-between gap-2">
+        <h2 id="stats-title" class="text-xl font-extrabold">Estadísticas</h2>
+        <button type="button" data-close class="min-h-11 min-w-11 rounded-xl text-xl hover:bg-surface-2" aria-label="Cerrar">✕</button>
+      </div>
+      <p class="text-sm text-muted">Solo del reto diario. Se guardan en este navegador.</p>
+      <div id="stats-body" class="mt-4 grid gap-5"></div>
+    </div>
+  </dialog>
 
   <footer class="border-t border-border">
     <p class="mx-auto max-w-xl px-4 py-6 text-xs text-muted">

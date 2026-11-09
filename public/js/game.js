@@ -30,7 +30,7 @@ let active = -1; // opción resaltada del autocompletado
 let options = [];
 
 // ---------- Inicio de ronda ----------
-export function startRound(category, ronda, { onEnd } = {}) {
+export function startRound(category, ronda, { onEnd, onChange, restore } = {}) {
   const data = decode(ronda.d);
   state = {
     index: buildIndex(category.nombres),
@@ -44,6 +44,9 @@ export function startRound(category, ronda, { onEnd } = {}) {
     over: false,
     won: false,
     onEnd,
+    onChange,
+    actions: [], // historial para guardar/restaurar la ronda: { t: "g", i } | { t: "h" }
+    restoring: false,
   };
   el.photo.alt = "Foto del futbolista misterioso";
   el.photo.src = ronda.img;
@@ -51,11 +54,23 @@ export function startRound(category, ronda, { onEnd } = {}) {
   el.msg.textContent = "";
   el.result.hidden = true;
   el.result.replaceChildren();
+  el.form.hidden = false;
+  el.hintBtn.hidden = false;
   el.input.value = "";
   el.input.disabled = false;
   el.submit.disabled = false;
   closeList();
   render();
+  // Restaurar una ronda guardada (p. ej. al recargar la página en el reto diario)
+  if (restore?.length) {
+    state.restoring = true;
+    for (const a of restore) a.t === "h" ? useHint() : guess(a.i);
+    state.restoring = false;
+  }
+}
+
+function changed() {
+  if (!state.restoring) state.onChange?.({ actions: [...state.actions], over: state.over });
 }
 
 // ---------- Acciones ----------
@@ -66,6 +81,7 @@ function guess(i) {
     return;
   }
   state.tried.add(i);
+  state.actions.push({ t: "g", i });
   el.input.value = "";
   closeList();
   if (i === state.answer) {
@@ -81,6 +97,7 @@ function useHint() {
   if (!canHint()) return;
   const text = state.data.pistas[state.hintsUsed++];
   state.marks.push("hint");
+  state.actions.push({ t: "h" });
   addLog("💡", text, "hint");
   advance("Pista revelada. La foto se aclara un poco.");
 }
@@ -90,7 +107,8 @@ function advance(message) {
   if (state.stage >= MAX) return finish(false);
   el.msg.textContent = `${message} ${MAX - state.stage === 1 ? "Último intento: foto nítida." : ""}`.trim();
   render();
-  el.input.focus();
+  changed();
+  if (!state.restoring) el.input.focus();
 }
 
 function finish(won) {
@@ -104,6 +122,8 @@ function finish(won) {
   el.submit.disabled = true;
   el.hintBtn.disabled = true;
   el.hintBtn.textContent = "Ronda terminada";
+  el.form.hidden = true;
+  el.hintBtn.hidden = true;
   el.msg.textContent = "";
   renderBoxes();
 
@@ -118,8 +138,9 @@ function finish(won) {
   el.result.append(h, p);
   el.result.hidden = false;
   el.status.textContent = won ? "Ronda ganada" : "Ronda perdida";
-  state.onEnd?.({ won, points, stage: state.stage, marks: [...state.marks], name, el: el.result });
-  el.result.focus();
+  changed();
+  state.onEnd?.({ won, points, stage: state.stage, marks: [...state.marks], name, el: el.result, restored: state.restoring });
+  if (!state.restoring) el.result.focus();
 }
 
 const canHint = () =>
