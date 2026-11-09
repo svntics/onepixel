@@ -1493,5 +1493,36 @@
     "obs": [],
     "wikidata_id": "Q482955",
     "descripcion": "Dutch association football player (born 1970)"
+  },
+  "bruno-fernandes": {
+    "id": "bruno-fernandes",
+    "jugador": "Bruno Fernandes",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q4979316",
+    "descripcion": "Portuguese association football player (born 1994)"
+  },
+  "john-terry": {
+    "id": "john-terry",
+    "jugador": "John Terry",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "ChristopherJClarke",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q83456",
+    "descripcion": "English association football player (born 1980)"
   }
 }

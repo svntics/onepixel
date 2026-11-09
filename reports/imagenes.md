@@ -1,6 +1,6 @@
 # Reporte de imágenes
 
-Generado: 2026-11-09T23:43:06.978Z · 99 con imagen libre · 1 excluidos
+Generado: 2026-11-09T23:44:05.861Z · 101 con imagen libre · 1 excluidos
 
 Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se resuelva su caso.
 
@@ -15,6 +15,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Ariel Ortega | libertadores | Sí | CC BY 2.0 | Gobierno de la Ciudad de Buenos Aires from Ciudad Autónoma de Buenos Aires, Argentina | — |
 | Arjen Robben | champions | Sí | CC BY-SA 3.0 | Дмитрий Садовников | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Arturo Vidal | mundiales, champions | Sí | CC BY-SA 3.0 | Дмитрий Садовников | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Bruno Fernandes | premier | Sí | CC BY-SA 4.0 | Bryan Berlin | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Cafu | libertadores, mundiales | Sí | CC BY-SA 4.0 | Lula Oficial | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Carlos Caszely | mundiales, libertadores | Sí | CC BY-SA 2.0 | Carlos_Caszely_2013.jpg : Michelle Bachelet derivative work: Warko | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Carlos Tévez | libertadores, premier | Sí | CC BY-SA 4.0 | Egghead06 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
@@ -53,6 +54,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | James Rodríguez | mundiales | Sí | CC BY 3.0 | Canal 10 Gold | — |
 | Jamie Vardy | premier | Sí | CC BY-SA 3.0 | Кирилл Венедиктов | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Johan Cruyff | mundiales, champions | Sí | CC BY-SA 3.0 nl | Nationaal Archief | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| John Terry | premier | Sí | CC BY-SA 4.0 | ChristopherJClarke | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Juan Fernando Quintero | libertadores | Sí | CC BY-SA 4.0 | RamosFils2Chèvre | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Juan Román Riquelme | libertadores | Sí | CC BY 3.0 | Todo Noticias | — |
 | Juan Sebastián Verón | libertadores | Sí | CC BY-SA 2.0 | Agencia de Noticias ANDES | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |

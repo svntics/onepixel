@@ -965,8 +965,14 @@
         "Fue nombrado capitán del Manchester United en 2023."
       ],
       "wikipedia_en": "Bruno Fernandes",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q4979316",
+      "imagen": {
+        "archivo_local": "img/p/9c7855d6123e400b.webp",
+        "autor": "Bryan Berlin",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Bruno_Fernandes_USMNT_v_Portugal_Mar_31_2026-27_(cropped).jpg"
+      }
     },
     {
       "id": "john-terry",
@@ -987,8 +993,14 @@
         "Resbaló al patear un penal en la final de la Champions 2008 con el Chelsea."
       ],
       "wikipedia_en": "John Terry",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q83456",
+      "imagen": {
+        "archivo_local": "img/p/0dd6c3310139c0ac.webp",
+        "autor": "ChristopherJClarke",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:John_Terry_at_pro-am_Wentworth_golf_course_September_2023_(cropped).jpg"
+      }
     },
     {
       "id": "vincent-kompany",
