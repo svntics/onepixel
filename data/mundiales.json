@@ -85,6 +85,11 @@
         "licencia": "CC BY 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Zinedine_Zidane_by_Tasnim_03.jpg"
+      },
+      "carrera": {
+        "inicio": 1987,
+        "fin": 2006,
+        "fuente": "wikidata"
       }
     },
     {
@@ -686,6 +691,11 @@
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:%D8%B1%D9%88%D8%A8%D8%B1%D8%AA%D9%88_%D8%A8%D8%A7%D8%AC%D9%88_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 1982,
+        "fin": 2004,
+        "fuente": "wikidata"
       }
     },
     {

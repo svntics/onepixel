@@ -28,6 +28,11 @@
         "licencia": "CC BY 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Zinedine_Zidane_by_Tasnim_03.jpg"
+      },
+      "carrera": {
+        "inicio": 1987,
+        "fin": 2006,
+        "fuente": "wikidata"
       }
     },
     {
