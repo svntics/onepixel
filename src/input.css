@@ -62,3 +62,26 @@ body {
     transition: none;
   }
 }
+
+/* Páginas legales: tipografía legible */
+.legal h2 {
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+.legal p {
+  margin-top: 0.75rem;
+  line-height: 1.6;
+}
+.legal a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* El foco programático del contenido (al cambiar de vista) no necesita contorno visible */
+#contenido:focus,
+#contenido:focus-visible,
+#round-result:focus,
+#round-result:focus-visible {
+  outline: none;
+}

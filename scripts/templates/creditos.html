@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Créditos de imágenes · onepixel</title>
+  <meta name="description" content="Autores y licencias de las fotos usadas en el juego.">
+  <meta name="theme-color" content="#0f1115">
+  <script>try { if (localStorage.getItem("op-theme") === "light") document.documentElement.dataset.theme = "light"; } catch (e) {}</script>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script type="module" src="js/pages.js"></script>
+</head>
+<body class="min-h-dvh font-sans antialiased">
+  <header class="border-b border-border">
+    <div class="mx-auto flex max-w-xl items-center justify-between px-4 py-3">
+      <a href="./" class="min-h-11 inline-flex items-center text-xl font-extrabold tracking-tight" data-cfg="SITE_NAME">onepixel</a>
+      <a href="./" class="min-h-11 inline-flex items-center rounded-xl px-2 text-sm font-semibold text-muted hover:text-text">← Volver al juego</a>
+    </div>
+  </header>
+  <main class="legal mx-auto max-w-xl px-4 pb-12">
+    <h1 class="mt-6 text-2xl font-extrabold">Créditos de imágenes</h1>
+    <p>Todas las fotos provienen de <a href="https://commons.wikimedia.org/" rel="noopener" target="_blank">Wikimedia Commons</a> y se usan bajo licencias libres (dominio público, CC0, CC BY o CC BY-SA). En el juego se muestran <strong>redimensionadas, convertidas a formato WebP y difuminadas temporalmente</strong>; la imagen original se puede ver en la fuente.</p>
+    <p>Las licencias cubren los derechos de autor de quien tomó la foto. Su uso aquí no implica que las personas fotografiadas, sus clubes o los fotógrafos respalden este sitio. Si eres autor o aparece tu imagen y quieres que la retiremos, escríbenos a <span data-cfg="CONTACT_EMAIL"></span>.</p>
+    <h2 class="mt-6 text-lg font-bold">{{CANTIDAD}} imágenes</h2>
+    <ul class="mt-3 grid gap-2">
+{{LISTA}}
+    </ul>
+  </main>
+  <footer class="border-t border-border">
+    <nav class="mx-auto flex max-w-xl flex-wrap gap-x-4 px-4 py-4 text-sm" aria-label="Información legal">
+      <a class="min-h-11 inline-flex items-center underline" href="creditos.html">Créditos de imágenes</a>
+      <a class="min-h-11 inline-flex items-center underline" href="privacidad.html">Privacidad</a>
+      <a class="min-h-11 inline-flex items-center underline" href="aviso-legal.html">Aviso legal</a>
+    </nav>
+  </footer>
+</body>
+</html>

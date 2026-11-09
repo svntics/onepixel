@@ -20,6 +20,38 @@ export const CONFIG = {
   BLUR_LEVELS: [25, 18, 10, 5, 2, 0],
   BLUR_REFERENCE_WIDTH: 400,
 
+  // ---------- Publicidad ----------
+  // Sin código real de anuncios. Cuando tengas un proveedor aprobado, pon ENABLED en true
+  // y pega su código donde lo indica public/js/ads.js.
+  ADS: {
+    ENABLED: false,
+    // Mostrar recuadros "Publicidad" de prueba en producción (en "npm run dev" siempre se muestran)
+    SHOW_PLACEHOLDERS: false,
+    // Altura reservada en px (evita que la página "salte" al cargar el anuncio).
+    // Celular: 320×50 arriba y 320×100 abajo. Computador (≥768 px de ancho): 728×90.
+    SLOTS: {
+      top: { mobile: 50, desktop: 90 },
+      bottom: { mobile: 100, desktop: 90 },
+    },
+  },
+
+  // Aviso de cookies propio (simple, NO es una plataforma certificada por Google). Desactivado.
+  CONSENT_BANNER: false,
+
+  // Enlace de apoyo voluntario (Mercado Pago u otro). Vacío = el botón no aparece.
+  SUPPORT_URL: "",
+  SUPPORT_LABEL: "☕ Apoya el proyecto",
+
+  // Correo de contacto para privacidad y solicitudes de retiro de imágenes. Vacío = "pendiente".
+  CONTACT_EMAIL: "",
+
+  // Cómo se muestra el crédito de la foto MIENTRAS se juega (al terminar siempre se muestra completo):
+  //   "durante"            → autor, licencia y enlace a la fuente (el enlace puede revelar al jugador)
+  //   "durante-sin-enlace" → autor y licencia; el enlace a la fuente aparece al terminar
+  //   "al-final"           → solo un aviso; el crédito completo aparece al terminar
+  // PROVISORIO: elige tú la opción (ver el análisis de la Fase 5).
+  CREDIT_MODE: "durante",
+
   // Categorías que aparecen en la pantalla inicial (sin logos oficiales)
   CATEGORIES: [
     { id: "mundiales", nombre: "Mundiales", emoji: "🌎", descripcion: "Leyendas y figuras de las Copas del Mundo" },

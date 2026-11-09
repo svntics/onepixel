@@ -4,6 +4,7 @@ import { startRound } from "./game.js";
 import { dateInTimeZone, challengeNumber, dailyPicks, msUntilNextDay } from "./daily.js";
 import { load, save, getStats, recordDaily, currentStreak } from "./storage.js";
 import { shareText, shareResult } from "./share.js";
+import { initAds, initConsent, initSupport } from "./ads.js";
 
 const $ = (sel) => document.querySelector(sel);
 const views = { home: $("#view-home"), game: $("#view-game") };
@@ -297,5 +298,8 @@ function route(e) {
 
 document.querySelectorAll("[data-site-name]").forEach((el) => (el.textContent = CONFIG.SITE_NAME));
 applyThemeButton();
+initAds();
+initConsent();
+initSupport();
 window.addEventListener("hashchange", route);
 route();

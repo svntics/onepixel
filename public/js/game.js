@@ -11,6 +11,7 @@ const MAX = LEVELS.length; // 6 intentos
 
 const el = {
   photo: $("#player-photo"),
+  credit: $("#photo-credit"),
   boxes: $("#attempt-boxes"),
   status: $("#attempts"),
   form: $("#guess-form"),
@@ -50,6 +51,7 @@ export function startRound(category, ronda, { onEnd, onChange, restore } = {}) {
   };
   el.photo.alt = "Foto del futbolista misterioso";
   el.photo.src = ronda.img;
+  renderCredit(data.cr, false);
   el.log.replaceChildren();
   el.msg.textContent = "";
   el.result.hidden = true;
@@ -118,6 +120,7 @@ function finish(won) {
   const name = state.nombres[state.answer].nombre;
   blur.set(0);
   el.photo.alt = `Foto de ${name}`;
+  renderCredit(state.data.cr, true);
   el.input.disabled = true;
   el.submit.disabled = true;
   el.hintBtn.disabled = true;
@@ -145,6 +148,40 @@ function finish(won) {
 
 const canHint = () =>
   !state.over && state.hintsUsed < state.data.pistas.length && state.stage < MAX - 1; // no en el último intento
+
+// ---------- Crédito de la foto (licencias Creative Commons) ----------
+function link(href, text, title) {
+  const a = document.createElement("a");
+  a.href = href;
+  a.textContent = text;
+  a.className = "underline";
+  a.target = "_blank";
+  a.rel = "noopener";
+  if (title) a.title = title;
+  return a;
+}
+
+function renderCredit(cr, final) {
+  const c = el.credit;
+  c.replaceChildren();
+  if (!cr) {
+    c.textContent = "Imagen provisional (todavía sin foto real)";
+    return;
+  }
+  const mode = CONFIG.CREDIT_MODE;
+  if (!final && mode === "al-final") {
+    c.append("El crédito de la foto se muestra al terminar · ", link("creditos.html", "Créditos"));
+    return;
+  }
+  const lic = cr.url_licencia ? link(cr.url_licencia, cr.licencia) : cr.licencia;
+  c.append(`Foto: ${cr.autor} · `, lic, " · ");
+  if (final || mode === "durante") {
+    c.append(link(cr.url_fuente, "Wikimedia Commons", "Ver la foto original (puede revelar al jugador)"));
+  } else {
+    c.append("Wikimedia Commons (enlace al terminar)");
+  }
+  c.append(" · Redimensionada y difuminada");
+}
 
 // ---------- Pintar ----------
 function render() {

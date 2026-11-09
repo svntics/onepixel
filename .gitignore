@@ -2,4 +2,6 @@ node_modules/
 # Generados en cada build (Vercel los vuelve a crear)
 public/assets/styles.css
 public/data/
+public/assets/ads.css
+public/creditos.html
 .DS_Store

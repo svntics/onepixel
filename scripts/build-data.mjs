@@ -86,7 +86,16 @@ for (const file of files) {
       // k: clave neutra del jugador (igual en todas las categorías) para no repetirlo el mismo día
       k: createHash("sha256").update(`onepixel-k:${p.id}`).digest("hex").slice(0, 10),
       img: p.imagen?.archivo_local ?? PLACEHOLDER,
-      d: encode({ i: ordenados.indexOf(p), pistas: p.pistas, pais: p.pais, posicion: p.posicion, era: p.era }),
+      d: encode({
+        i: ordenados.indexOf(p),
+        pistas: p.pistas,
+        pais: p.pais,
+        posicion: p.posicion,
+        era: p.era,
+        cr: p.imagen
+          ? { autor: p.imagen.autor, licencia: p.imagen.licencia, url_licencia: p.imagen.url_licencia, url_fuente: p.imagen.url_fuente }
+          : null,
+      }),
     }));
   const publico = { categoria, total: jugadores.length, nombres, rondas };
   writeFileSync(join(OUT, file), JSON.stringify(publico));
