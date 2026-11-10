@@ -70,7 +70,9 @@ for (const file of files) {
   const ids = jugadores.map((p) => p.id);
   if (new Set(ids).size !== ids.length) errors.push(`${file}: hay ids repetidos`);
 
-  const jugables = PLACEHOLDERS ? jugadores : jugadores.filter((p) => p.imagen?.archivo_local);
+  // "aprobado": false = jugador nuevo pendiente de revisión: no entra al juego publicado
+  const pendientes = jugadores.filter((p) => p.aprobado === false).length;
+  const jugables = (PLACEHOLDERS ? jugadores : jugadores.filter((p) => p.imagen?.archivo_local)).filter((p) => p.aprobado !== false);
   const excluidos = jugadores.length - jugables.length;
   if (jugables.length < MIN_POR_CATEGORIA)
     warnings.push(`${file}: solo ${jugables.length} jugadores jugables (mínimo recomendado ${MIN_POR_CATEGORIA})`);
@@ -99,7 +101,7 @@ for (const file of files) {
     }));
   const publico = { categoria, total: jugadores.length, nombres, rondas };
   writeFileSync(join(OUT, file), JSON.stringify(publico));
-  console.log(`✔ ${file}: ${jugadores.length} jugadores en el juego${excluidos ? ` (${excluidos} excluidos por no tener imagen libre)` : ""}`);
+  console.log(`✔ ${file}: ${jugadores.length} jugadores en el juego${excluidos - pendientes > 0 ? ` (${excluidos - pendientes} sin imagen libre)` : ""}${pendientes ? ` · ${pendientes} pendientes de revisión` : ""}`);
 }
 
 if (PLACEHOLDERS) console.warn("\n⚠ Modo prueba: los jugadores sin imagen usan una silueta provisoria. No publiques así.");
