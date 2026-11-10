@@ -1659,8 +1659,14 @@
         "Fue figura de la Costa Rica que llegó a cuartos de final del Mundial 2014."
       ],
       "wikipedia_en": "Keylor Navas",
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q969423",
+      "imagen": {
+        "archivo_local": "img/p/4659fdd12bfb8905.webp",
+        "autor": "Антон Зайцев",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Keylor_Navas_2018_(cropped).jpg"
+      },
       "aprobado": false,
       "revisado": true
     },

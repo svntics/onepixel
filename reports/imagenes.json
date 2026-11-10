@@ -355,7 +355,8 @@
     "id": "karim-benzema",
     "jugador": "Karim Benzema",
     "categorias": [
-      "champions"
+      "champions",
+      "espanola"
     ],
     "libre": false,
     "licencia": "",
@@ -2478,14 +2479,17 @@
     "id": "keylor-navas",
     "jugador": "Keylor Navas",
     "categorias": [
-      "mundiales"
+      "mundiales",
+      "espanola"
     ],
-    "libre": false,
-    "licencia": "",
-    "autor": "",
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Антон Зайцев",
     "obs": [
-      "Error: Demasiados reintentos: https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&maxlag=5&titles=File%3AKeylor%20Navas%202018%20(cropped).jpg&prop=imageinfo&iiprop=url|extmetadata|mime&iiurlwidth=500&iiextmetadatafilter=Artist|LicenseShortName|LicenseUrl|AttributionRequired|Copyrighted|Restrictions|UsageTerms|Attribution&iiextmetadatalanguage=es"
-    ]
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q969423",
+    "descripcion": "Costa Rican association football player"
   },
   "luis-figo": {
     "id": "luis-figo",
@@ -2749,5 +2753,33 @@
     ],
     "wikidata_id": "Q458101",
     "descripcion": "Italian association football player"
+  },
+  "antoine-griezmann": {
+    "id": "antoine-griezmann",
+    "jugador": "Antoine Griezmann",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 2.0",
+    "autor": "Biser Todorov ( User:Biso ) from Sofia, Bulgaria",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q455462",
+    "descripcion": "French footballer (born 1991)"
+  },
+  "aritz-aduriz": {
+    "id": "aritz-aduriz",
+    "jugador": "Aritz Aduriz",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "Carlos_RM",
+    "obs": [],
+    "wikidata_id": "Q54105",
+    "descripcion": "Spanish footballer (born 1981)"
   }
 }

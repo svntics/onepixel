@@ -308,8 +308,14 @@
         "Fue figura de la Costa Rica que llegó a cuartos de final del Mundial 2014."
       ],
       "wikipedia_en": "Keylor Navas",
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q969423",
+      "imagen": {
+        "archivo_local": "img/p/4659fdd12bfb8905.webp",
+        "autor": "Антон Зайцев",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Keylor_Navas_2018_(cropped).jpg"
+      },
       "aprobado": false,
       "revisado": true
     },
@@ -790,8 +796,14 @@
       ],
       "wikipedia_en": "Antoine Griezmann",
       "nacimiento": 1991,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q455462",
+      "imagen": {
+        "archivo_local": "img/p/89114322c3ba396d.webp",
+        "autor": "Biser Todorov ( User:Biso ) from Sofia, Bulgaria",
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Antoine_Griezmann_(51100409504)_(cropped).jpg"
+      },
       "aprobado": false
     },
     {
@@ -813,8 +825,14 @@
       ],
       "wikipedia_en": "Aritz Aduriz",
       "nacimiento": 1981,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q54105",
+      "imagen": {
+        "archivo_local": "img/p/388aae8a8c4e125c.webp",
+        "autor": "Carlos_RM",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Aduriz_Val%C3%A8ncia_CF.jpg"
+      },
       "aprobado": false
     },
     {

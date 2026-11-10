@@ -1,13 +1,12 @@
 # Reporte de imágenes
 
-Generado: 2026-11-10T14:00:04.351Z · 180 con imagen libre · 3 excluidos
+Generado: 2026-11-10T14:08:05.916Z · 183 con imagen libre · 2 excluidos
 
 Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se resuelva su caso.
 
 | Jugador | Categoría | ¿Imagen libre? | Licencia | Autor | Observación |
 |---|---|---|---|---|---|
-| Karim Benzema | champions | **No** |  |  | Wikidata no tiene imagen (P18) |
-| Keylor Navas | mundiales | **No** |  |  | Error: Demasiados reintentos: https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&maxlag=5&titles=File%3AKeylor%20Navas%202018%20(cropped).jpg&prop=imageinfo&iiprop=url\|extmetadata\|mime&iiurlwidth=500&iiextmetadatafilter=Artist\|LicenseShortName\|LicenseUrl\|AttributionRequired\|Copyrighted\|Restrictions\|UsageTerms\|Attribution&iiextmetadatalanguage=es |
+| Karim Benzema | champions, espanola | **No** |  |  | Wikidata no tiene imagen (P18) |
 | Sidny Lopes Cabral | mundiales | **No** |  |  | Wikidata no tiene imagen (P18) |
 | Adel Taarabt | premier | Sí | CC BY-SA 3.0 | Anton Zaitsev | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Alan Shearer | premier | Sí | CC BY-SA 2.0 | Originally carltonreid ; retouched by DFS454 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
@@ -24,8 +23,10 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Andrew Robertson | premier | Sí | CC BY-SA 4.0 | Bryan Berlin | Identificado por búsqueda en Wikidata: Q15915040 ("Scottish association football player (born 1994)"). Verifica que sea la persona correcta; CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Andriy Shevchenko | champions | Sí | CC BY 4.0 | Mms.gov.ua | — |
 | Andy Carroll | premier | Sí | CC BY-SA 4.0 | Egghead06 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Antoine Griezmann | espanola | Sí | CC BY-SA 2.0 | Biser Todorov ( User:Biso ) from Sofia, Bulgaria | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Antonio Di Natale | italiana | Sí | CC BY-SA 3.0 | Roberto Vicario | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Ariel Ortega | libertadores | Sí | CC BY 2.0 | Gobierno de la Ciudad de Buenos Aires from Ciudad Autónoma de Buenos Aires, Argentina | — |
+| Aritz Aduriz | espanola | Sí | CC BY 2.0 | Carlos_RM | — |
 | Arjen Robben | champions | Sí | CC BY-SA 3.0 | Дмитрий Садовников | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Arthur Melo | libertadores | Sí | CC BY-SA 3.0 | Kirill Venediktov | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Arturo Vidal | mundiales, champions | Sí | CC BY-SA 3.0 | Дмитрий Садовников | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
@@ -113,6 +114,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Kaká | champions | Sí | CC BY 3.0 br | José Cruz/ABr (cropped by tales.ebner ) | Commons advierte derechos de imagen de la persona (personality rights) |
 | Kasper Schmeichel | premier | Sí | CC BY-SA 4.0 | Hameltion | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Kevin De Bruyne | premier | Sí | CC BY-SA 4.0 | Bryan Berlin | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
+| Keylor Navas | mundiales, espanola | Sí | CC BY-SA 3.0 | Антон Зайцев | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Kyle Walker | premier | Sí | CC BY-SA 3.0 | Кирилл Венедиктов | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Kylian Mbappé | mundiales, champions | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Leonel Sánchez | mundiales | Sí | Public domain | Revista Argentina "Mundo Deportivo" | Dominio público: verificar que lo sea también en Chile |
