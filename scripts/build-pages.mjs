@@ -7,6 +7,7 @@ import { readFileSync, writeFileSync, readdirSync, mkdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { CONFIG } from "../public/js/config.js";
+import { pixelLogoSvg } from "./lib/logo.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DEV = process.argv.includes("--placeholders");
@@ -79,6 +80,15 @@ const replaceBetween = (html, name, content) =>
 let newIndex = replaceBetween(indexHtml, "deportes-grid", sportsHtml);
 newIndex = replaceBetween(newIndex, "categorias", listsHtml);
 newIndex = newIndex.replace(/\/\*deportes:inicio\*\/.*?\/\*deportes:fin\*\//, `/*deportes:inicio*/${JSON.stringify(SPORTS.map((d) => d.id))}/*deportes:fin*/`);
+// Logo pixel art en el encabezado de todas las páginas
+const LOGO = pixelLogoSvg(CONFIG.SITE_NAME.toLowerCase());
+const withLogo = (html) => html.replace(/(<!-- logo:inicio -->)[\s\S]*?(<!-- logo:fin -->)/, `$1${LOGO}$2`);
+newIndex = withLogo(newIndex);
+for (const f of ["privacidad.html", "aviso-legal.html"]) {
+  const path = join(ROOT, "public", f);
+  const html = readFileSync(path, "utf8");
+  if (withLogo(html) !== html) writeFileSync(path, withLogo(html));
+}
 if (newIndex !== indexHtml) writeFileSync(indexPath, newIndex);
 console.log(`✔ index.html: ${SPORTS.length} categorías generales, ${ACTIVE.length} subcategorías activas`);
 
@@ -98,7 +108,7 @@ const items = list
   .join("\n");
 
 const template = readFileSync(join(ROOT, "scripts", "templates", "creditos.html"), "utf8");
-const html = template
+const html = withLogo(template)
   .replace("{{CANTIDAD}}", String(list.length))
   .replace("{{LISTA}}", items || '<li class="text-muted">Aún no hay imágenes. Ejecuta <code>npm run images</code>.</li>');
 writeFileSync(join(ROOT, "public", "creditos.html"), html);

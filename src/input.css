@@ -130,22 +130,12 @@ body {
   opacity: 0.55;
 }
 
-/* Logo "fuera de foco": letras levemente difuminadas con halo; se enfoca al pasar el mouse o con el teclado */
-.logo-blur {
-  --logo-blur: 0.7px;
-  filter: blur(var(--logo-blur));
-  text-shadow:
-    0 0 6px color-mix(in srgb, var(--color-text) 65%, transparent),
-    0 0 16px color-mix(in srgb, var(--color-accent) 55%, transparent);
-  transition: filter 300ms ease, text-shadow 300ms ease;
-}
-.logo-blur:hover,
-.logo-blur:focus-visible {
-  filter: none;
-  text-shadow: 0 0 10px color-mix(in srgb, var(--color-accent) 35%, transparent);
-}
-@media (prefers-reduced-motion: reduce) {
-  .logo-blur {
-    transition: none;
-  }
-}
+/* Logo pixel art: tonos por tema (modo oscuro = blancos y grises claros; modo claro = negros y grises oscuros) */
+.pixel-logo .px-t0 { fill: #fafafa; }
+.pixel-logo .px-t1 { fill: #e5e5e5; }
+.pixel-logo .px-t2 { fill: #c4c4c4; }
+.pixel-logo .px-t3 { fill: #9ca3af; }
+:root[data-theme="light"] .pixel-logo .px-t0 { fill: #000000; }
+:root[data-theme="light"] .pixel-logo .px-t1 { fill: #141414; }
+:root[data-theme="light"] .pixel-logo .px-t2 { fill: #2b2b2b; }
+:root[data-theme="light"] .pixel-logo .px-t3 { fill: #454545; }
