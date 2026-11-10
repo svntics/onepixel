@@ -31,14 +31,17 @@ let active = -1; // opción resaltada del autocompletado
 let options = [];
 
 // ---------- Inicio de ronda ----------
-export function startRound(category, ronda, { onEnd, onChange, restore } = {}) {
+// Opciones extra (modo 1v1): startStage = intento en que empieza (con su difuminado);
+// singleAttempt = un solo intento, sin pistas (foto pasada por el rival).
+export function startRound(category, ronda, { onEnd, onChange, restore, startStage = 0, singleAttempt = false } = {}) {
   const data = decode(ronda.d);
   state = {
     index: buildIndex(category.nombres),
     nombres: category.nombres,
     answer: data.i,
     data,
-    stage: 0,
+    stage: startStage,
+    singleAttempt,
     tried: new Set(),
     marks: [], // "miss" | "hint" | "win" por cada intento consumido
     hintsUsed: 0,
@@ -72,7 +75,7 @@ export function startRound(category, ronda, { onEnd, onChange, restore } = {}) {
 }
 
 function changed() {
-  if (!state.restoring) state.onChange?.({ actions: [...state.actions], over: state.over });
+  if (!state.restoring) state.onChange?.({ actions: [...state.actions], over: state.over, stage: state.stage });
 }
 
 // ---------- Acciones ----------
@@ -106,7 +109,7 @@ function useHint() {
 
 function advance(message) {
   state.stage++;
-  if (state.stage >= MAX) return finish(false);
+  if (state.stage >= MAX || state.singleAttempt) return finish(false);
   el.msg.textContent = `${message} ${MAX - state.stage === 1 ? "Último intento: foto nítida." : ""}`.trim();
   render();
   changed();
@@ -135,9 +138,13 @@ function finish(won) {
   h.textContent = won ? `¡Correcto! Era ${name}` : `Era ${name}`;
   const p = document.createElement("p");
   p.className = "mt-1 text-muted";
-  p.textContent = won
-    ? `Acertaste en el intento ${state.stage + 1} de ${MAX} · ${points} puntos`
-    : "Se acabaron los intentos · 0 puntos";
+  p.textContent = state.singleAttempt
+    ? won
+      ? `Acertaste la foto extra · ${points} puntos`
+      : "Fallaste la foto extra · 0 puntos"
+    : won
+      ? `Acertaste en el intento ${state.stage + 1} de ${MAX} · ${points} puntos`
+      : "Se acabaron los intentos · 0 puntos";
   el.result.append(h, p);
   el.result.hidden = false;
   el.status.textContent = won ? "Ronda ganada" : "Ronda perdida";
@@ -147,7 +154,7 @@ function finish(won) {
 }
 
 const canHint = () =>
-  !state.over && state.hintsUsed < state.data.pistas.length && state.stage < MAX - 1; // no en el último intento
+  !state.over && !state.singleAttempt && state.hintsUsed < state.data.pistas.length && state.stage < MAX - 1; // no en el último intento
 
 // ---------- Crédito de la foto (licencias Creative Commons) ----------
 function link(href, text, title) {
@@ -187,11 +194,11 @@ function renderCredit(cr, final) {
 function render() {
   blur.set(LEVELS[state.stage]);
   renderBoxes();
-  el.status.textContent = `Intento ${state.stage + 1} de ${MAX}`;
+  el.status.textContent = state.singleAttempt ? "Foto extra · 1 solo intento" : `Intento ${state.stage + 1} de ${MAX}`;
   const left = state.data.pistas.length - state.hintsUsed;
   el.hintBtn.disabled = !canHint();
   el.hintBtn.textContent =
-    left === 0 ? "No quedan pistas" : state.stage >= MAX - 1 ? "Sin pistas en el último intento" : `Pedir pista (${left} disponible${left > 1 ? "s" : ""}, cuesta 1 intento)`;
+    state.singleAttempt ? "Sin pistas en la foto extra" : left === 0 ? "No quedan pistas" : state.stage >= MAX - 1 ? "Sin pistas en el último intento" : `Pedir pista (${left} disponible${left > 1 ? "s" : ""}, cuesta 1 intento)`;
 }
 
 function renderBoxes() {
@@ -312,3 +319,8 @@ el.form.addEventListener("submit", (e) => {
 });
 
 el.hintBtn.addEventListener("click", useHint);
+
+// Estado actual de la ronda (lo usa el modo 1v1 para saber en qué intento va el jugador)
+export function roundState() {
+  return state ? { stage: state.stage, over: state.over } : null;
+}
