@@ -123,17 +123,10 @@
           "buscar": "Stamford Bridge stadium",
           "commons": null,
           "explicacion": "Un rincón de Stamford Bridge, el estadio del club desde su fundación en 1905.",
-          "imagen": {
-            "archivo_local": "img/t/a4482a2e94eb16ef.webp",
-            "archivo_commons": "Stamford Bridge stadium - geograph.org.uk - 4219997.jpg",
-            "titulo": "Stamford Bridge stadium - geograph.org.uk - 4219997",
-            "autor": "Stamford Bridge stadium by Thomas Nugent",
-            "licencia": "CC BY-SA 2.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Stamford_Bridge_stadium_-_geograph.org.uk_-_4219997.jpg"
-          },
+          "imagen": null,
           "excluir": [
-            "London Stamford Bridge.jpg"
+            "London Stamford Bridge.jpg",
+            "Stamford Bridge stadium - geograph.org.uk - 4219997.jpg"
           ]
         }
       ],
@@ -247,20 +240,13 @@
         },
         {
           "tipo": "apodo",
-          "buscar": "trident sculpture",
-          "commons": "Neptu (\"Neptune\") with Trident Sculpture in the Jardin del Turia, Valencia, Spain.jpg",
+          "buscar": "trident",
+          "commons": null,
           "explicacion": "Un tridente, atributo del diablo del escudo: el apodo es «Red Devils».",
-          "imagen": {
-            "archivo_local": "img/t/5e579bac165eaecf.webp",
-            "archivo_commons": "Neptu (\"Neptune\") with Trident Sculpture in the Jardin del Turia, Valencia, Spain.jpg",
-            "titulo": "Neptu (\"Neptune\") with Trident Sculpture in the Jardin del Turia, Valencia, Spain",
-            "autor": "MCAE Consulting",
-            "licencia": "CC0",
-            "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Neptu_(%22Neptune%22)_with_Trident_Sculpture_in_the_Jardin_del_Turia,_Valencia,_Spain.jpg"
-          },
+          "imagen": null,
           "excluir": [
-            "11th century Trishul with Shaivism Ardhanarishvara, Cleveland Museum of Art.jpg"
+            "11th century Trishul with Shaivism Ardhanarishvara, Cleveland Museum of Art.jpg",
+            "Neptu (\"Neptune\") with Trident Sculpture in the Jardin del Turia, Valencia, Spain.jpg"
           ]
         },
         {
@@ -526,19 +512,12 @@
         {
           "tipo": "apodo",
           "buscar": "toffee sweets",
-          "commons": "Walters Palm Toffee tin, pic3.JPG",
+          "commons": null,
           "explicacion": "Una lata de caramelos toffee: el apodo «The Toffees» se atribuye a tiendas de caramelos del barrio.",
-          "imagen": {
-            "archivo_local": "img/t/5fe793a21d8d4c99.webp",
-            "archivo_commons": "Walters Palm Toffee tin, pic3.JPG",
-            "titulo": "Walters Palm Toffee tin, pic3",
-            "autor": "Alf van Beem",
-            "licencia": "CC0",
-            "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Walters_Palm_Toffee_tin,_pic3.JPG"
-          },
+          "imagen": null,
           "excluir": [
-            "Confiserie Roodthooft Lange Leemstraat 374 (7164) Antwerpen 29-07-2019.jpg"
+            "Confiserie Roodthooft Lange Leemstraat 374 (7164) Antwerpen 29-07-2019.jpg",
+            "Walters Palm Toffee tin, pic3.JPG"
           ]
         },
         {
@@ -622,17 +601,10 @@
           "buscar": "Holte End Villa Park",
           "commons": null,
           "explicacion": "La tribuna Holte End, una de las más grandes del fútbol inglés.",
-          "imagen": {
-            "archivo_local": "img/t/67dd2042f2bffb97.webp",
-            "archivo_commons": "Villa Park, Entrance to the Holte End - geograph.org.uk - 7877293.jpg",
-            "titulo": "Villa Park, Entrance to the Holte End - geograph.org.uk - 7877293",
-            "autor": "Villa Park: Entrance to the Holte End by Anthony Foster",
-            "licencia": "CC BY-SA 2.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Villa_Park,_Entrance_to_the_Holte_End_-_geograph.org.uk_-_7877293.jpg"
-          },
+          "imagen": null,
           "excluir": [
-            "Villa Park-Holte End - geograph.org.uk - 1849209.jpg"
+            "Villa Park-Holte End - geograph.org.uk - 1849209.jpg",
+            "Villa Park, Entrance to the Holte End - geograph.org.uk - 7877293.jpg"
           ]
         }
       ],
@@ -906,17 +878,10 @@
           "buscar": "Molineux Stadium",
           "commons": null,
           "explicacion": "El estadio Molineux toma su nombre de Benjamin Molineux, comerciante local del siglo XVIII.",
-          "imagen": {
-            "archivo_local": "img/t/b0350da0c3664386.webp",
-            "archivo_commons": "Molineux Stadium - geograph.org.uk - 5718903.jpg",
-            "titulo": "Molineux Stadium - geograph.org.uk - 5718903",
-            "autor": "Molineux Stadium by Philip Halling",
-            "licencia": "CC BY-SA 2.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Molineux_Stadium_-_geograph.org.uk_-_5718903.jpg"
-          },
+          "imagen": null,
           "excluir": [
-            "Molineux Stadium - geograph.org.uk - 5718889.jpg"
+            "Molineux Stadium - geograph.org.uk - 5718889.jpg",
+            "Molineux Stadium - geograph.org.uk - 5718903.jpg"
           ]
         }
       ],
@@ -1231,20 +1196,13 @@
         },
         {
           "tipo": "apodo",
-          "buscar": "black cat sitting",
+          "buscar": "black cat",
           "commons": null,
           "explicacion": "El gato negro: el apodo «The Black Cats» viene de una antigua batería de cañones junto al río Wear.",
-          "imagen": {
-            "archivo_local": "img/t/b61e4deb1881c8bc.webp",
-            "archivo_commons": "Black and white cat sitting on lawn.jpg",
-            "titulo": "Black and white cat sitting on lawn",
-            "autor": "Grendelkhan",
-            "licencia": "CC BY-SA 4.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Black_and_white_cat_sitting_on_lawn.jpg"
-          },
+          "imagen": null,
           "excluir": [
-            "Cat November 2010-1a.jpg"
+            "Cat November 2010-1a.jpg",
+            "Black and white cat sitting on lawn.jpg"
           ]
         },
         {
