@@ -50,3 +50,12 @@ test("búsqueda: el año de nacimiento distingue homónimos", () => {
   assert.equal(pickSearchCandidate(r, "Brasil").id, "Q1");
   assert.equal(pickSearchCandidate(r, "Brasil", 1993).id, "Q2");
 });
+
+import { looksLikeAthlete } from "../scripts/lib/wikimedia-utils.mjs";
+test("reconoce el deporte en la descripción de Wikidata", () => {
+  assert.ok(looksLikeAthlete("American basketball player (born 1963)", "basquetbol"));
+  assert.ok(!looksLikeAthlete("American basketball player (born 1963)", "futbol"));
+  assert.ok(looksLikeAthlete("Argentine footballer", "futbol"));
+  const r = [{ term: "Michael Jordan", items: [{ id: "Q1", description: "American actor" }, { id: "Q2", description: "American basketball player (born 1963)" }] }];
+  assert.equal(pickSearchCandidate(r, "Estados Unidos", 1963, "basquetbol").id, "Q2");
+});

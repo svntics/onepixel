@@ -26,6 +26,14 @@ const el = {
 
 const blur = attachBlur(el.photo, CONFIG.BLUR_REFERENCE_WIDTH);
 
+// Cómo se llama a la persona de la foto (futbolista, basquetbolista…), según la categoría
+let subject = "futbolista";
+export function setSubject(s) {
+  subject = s;
+  const label = document.querySelector('label[for="guess-input"]');
+  if (label) label.textContent = `Nombre del ${s}`;
+}
+
 let state = null; // { index, answer, data, stage, tried:Set, marks:[], hintsUsed, over, won, onEnd }
 let active = -1; // opción resaltada del autocompletado
 let options = [];
@@ -52,7 +60,7 @@ export function startRound(category, ronda, { onEnd, onChange, restore, startSta
     actions: [], // historial para guardar/restaurar la ronda: { t: "g", i } | { t: "h" }
     restoring: false,
   };
-  el.photo.alt = "Foto del futbolista misterioso";
+  el.photo.alt = `Foto del ${subject} misterioso`;
   el.photo.src = ronda.img;
   renderCredit(data.cr, false);
   el.log.replaceChildren();

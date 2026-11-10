@@ -6,7 +6,7 @@
 //         #/<categoria>/practica  → modo práctica (ilimitado, de a una foto)
 //         #/<categoria>/1v1       → duelo 1v1 local (dos jugadores por turnos)
 import { CONFIG } from "./config.js";
-import { startRound } from "./game.js";
+import { startRound, setSubject } from "./game.js";
 import { dateInTimeZone, challengeNumber, dailyPicksMulti, msUntilNextDay } from "./daily.js";
 import { load, save, getStats, recordDailyDay, currentStreak } from "./storage.js";
 import { shareText, dailyShareText, shareResult } from "./share.js";
@@ -16,7 +16,8 @@ import { validateApodo, getApodo, setApodo, submitScore, getTop, RANKING_COMPART
 import { playDuel } from "./duel.js";
 
 const $ = (sel) => document.querySelector(sel);
-const views = { home: $("#view-home"), mode: $("#view-mode"), game: $("#view-game") };
+const views = { landing: $("#view-landing"), sport: $("#view-sport"), mode: $("#view-mode"), game: $("#view-game") };
+const sportOf = (cat) => CONFIG.SPORTS.find((d) => d.id === cat.deporte) ?? CONFIG.SPORTS[0];
 const MAX = CONFIG.BLUR_LEVELS.length;
 const FOTOS_DIARIAS = 3;
 const MAX_PUNTOS = pointsForBlur(CONFIG.BLUR_LEVELS[0]); // puntos máximos por foto
@@ -69,13 +70,28 @@ const saveDaily = (catId, d) => save(`daily3:${catId}`, d);
 const doneFotos = (d) => d.fotos.filter((f) => f?.over).length;
 const totalPuntos = (d) => d.fotos.reduce((a, f) => a + (f?.over ? f.points : 0), 0);
 
-// ---------- Inicio ----------
-// La lista de categorías viene escrita en index.html (la genera scripts/build-pages.mjs);
-// aquí se muestran las que tienen fecha de inicio y se marca el avance de hoy.
-function renderHome() {
+// ---------- Aviso flotante ----------
+let toastTimer = null;
+function toast(text) {
+  const t = $("#toast");
+  t.textContent = text;
+  t.classList.remove("opacity-0");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.add("opacity-0"), 2200);
+}
+document.querySelectorAll("#sport-grid [data-locked]").forEach((b) => b.addEventListener("click", () => toast("¡Muy pronto disponible! 🔒")));
+
+// ---------- Página de una categoría general (deporte) ----------
+// Las listas vienen escritas en index.html (las genera scripts/build-pages.mjs); aquí se muestra
+// la del deporte elegido, las subcategorías con fecha de inicio y el avance de hoy.
+function showSport(d) {
   const { n, date } = today();
-  document.querySelectorAll("#category-list li[data-desde]").forEach((li) => (li.hidden = li.dataset.desde > date));
-  document.querySelectorAll("#category-list [data-cat]").forEach((a) => {
+  $("#sport-title").textContent = `${d.emoji} ${d.nombre}`;
+  $("#sport-intro").textContent = `La foto del ${d.sujeto} empieza difuminada y se aclara con cada fallo o pista. Tienes 6 intentos por foto. Elige una categoría:`;
+  document.title = `${d.nombre} · ${CONFIG.SITE_NAME}`;
+  document.querySelectorAll("#category-lists .category-list").forEach((ul) => (ul.hidden = ul.dataset.sport !== d.id));
+  document.querySelectorAll("#category-lists li[data-desde]").forEach((li) => (li.hidden = li.dataset.desde > date));
+  document.querySelectorAll("#category-lists [data-cat]").forEach((a) => {
     const d = loadDaily(a.dataset.cat, n);
     const k = doneFotos(d);
     a.querySelector(".status").textContent = k >= FOTOS_DIARIAS ? `✓ ${totalPuntos(d)} pts` : k ? `${k}/${FOTOS_DIARIAS}` : "";
@@ -85,7 +101,10 @@ function renderHome() {
 // ---------- Elegir modo ----------
 function showMode(cat) {
   const { n } = today();
+  const sport = sportOf(cat);
   $("#mode-title").textContent = `${cat.emoji} ${cat.nombre}`;
+  $("#back-to-sport").href = `#/${sport.id}`;
+  $("#back-to-sport").textContent = `← ${sport.nombre}`;
   document.title = `${cat.nombre} · ${CONFIG.SITE_NAME}`;
   $("#mode-daily").href = `#/${cat.id}/diario`;
   $("#mode-practice").href = `#/${cat.id}/practica`;
@@ -420,7 +439,7 @@ function showSummary(cat, count) {
   actions.className = "mt-3 grid gap-2";
   actions.append(
     linkButton("Jugar en modo práctica", `#/${cat.id}/practica`, "border border-border bg-surface"),
-    linkButton("Otras categorías", "#/", "border border-border bg-surface"),
+    linkButton("Otras categorías", `#/${cat.deporte ?? ""}`, "border border-border bg-surface"),
   );
   box.append(card, rank, next, actions);
   box.focus({ preventScroll: true });
@@ -511,16 +530,18 @@ dialog.addEventListener("click", (e) => e.target === dialog && dialog.close());
 function route(e) {
   const [, id, mode] = location.hash.match(/^#\/([a-z]+)(?:\/(diario|practica|1v1))?$/) ?? [];
   const cat = CATEGORIES.find((c) => c.id === id);
-  const view = cat ? (mode ? "game" : "mode") : "home";
+  const sport = !mode && CONFIG.SPORTS.find((d) => d.id === id && d.estado === "activo");
+  const view = cat ? (mode ? "game" : "mode") : sport ? "sport" : "landing";
   document.documentElement.dataset.view = view;
   for (const [k, el] of Object.entries(views)) el.hidden = k !== view;
   clearInterval(countdownTimer);
+  if (cat) setSubject(sportOf(cat).sujeto);
   if (view === "game") showGame(cat, mode);
   else if (view === "mode") showMode(cat);
+  else if (view === "sport") showSport(sport);
   else {
     if (location.hash && location.hash !== "#/") history.replaceState(null, "", "#/");
-    document.title = `${CONFIG.SITE_NAME} · Adivina el futbolista`;
-    renderHome();
+    document.title = `${CONFIG.SITE_NAME} · ¿Quién es?`;
   }
   if (e) $("#contenido").focus({ preventScroll: true });
 }

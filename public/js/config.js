@@ -63,15 +63,26 @@ export const CONFIG = {
   //   "al-final"           → solo un aviso; el crédito completo aparece al terminar
   CREDIT_MODE: "durante",
 
-  // Categorías de la pantalla inicial (sin logos oficiales). El orden importa para el reto diario:
-  // agrega las nuevas siempre al final.
+  // ---------- Categorías generales (página principal) ----------
+  //   estado "activo" = se puede jugar · "pronto" = visible pero bloqueada ("Próximamente")
+  //   sujeto = cómo se llama a la persona de la foto en los textos del juego
+  SPORTS: [
+    { id: "futbol", nombre: "Fútbol", emoji: "⚽", descripcion: "Mundiales, ligas y copas", estado: "activo", sujeto: "futbolista" },
+    { id: "basquetbol", nombre: "Básquetbol", emoji: "🏀", descripcion: "Leyendas y estrellas de la NBA", estado: "activo", sujeto: "basquetbolista" },
+    { id: "ufc", nombre: "UFC / Artes marciales mixtas", emoji: "🥊", descripcion: "Peleadores de MMA", estado: "pronto", sujeto: "peleador" },
+    { id: "series", nombre: "Series y actores", emoji: "🎬", descripcion: "Personajes y actores de series", estado: "pronto", sujeto: "actor" },
+  ],
+
+  // Subcategorías de cada categoría general (sin logos oficiales). El orden importa para el reto
+  // diario: agrega las nuevas SIEMPRE al final.
+  //   activa: false = en preparación (oculta) · "AAAA-MM-DD" = visible desde esa fecha
   CATEGORIES: [
-    { id: "mundiales", nombre: "Mundiales", emoji: "🌎", descripcion: "Leyendas y figuras de las Copas del Mundo" },
-    { id: "premier", nombre: "Premier League", emoji: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", descripcion: "Jugadores de la liga inglesa" },
-    { id: "champions", nombre: "Champions League", emoji: "⭐", descripcion: "Protagonistas del torneo europeo de clubes" },
-    { id: "libertadores", nombre: "Copa Libertadores", emoji: "🏆", descripcion: "Ídolos del torneo sudamericano de clubes" },
-    // "activa: false" = categoría en preparación: no aparece en el sitio hasta aprobarla
-    { id: "italiana", nombre: "Liga italiana", emoji: "🇮🇹", descripcion: "Figuras del fútbol de Italia", activa: "2026-11-12" },
-    { id: "espanola", nombre: "Liga española", emoji: "🇪🇸", descripcion: "Figuras del fútbol de España", activa: false },
+    { id: "mundiales", deporte: "futbol", nombre: "Mundiales", emoji: "🌎", descripcion: "Leyendas y figuras de las Copas del Mundo" },
+    { id: "premier", deporte: "futbol", nombre: "Premier League", emoji: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", descripcion: "Jugadores de la liga inglesa" },
+    { id: "champions", deporte: "futbol", nombre: "Champions League", emoji: "⭐", descripcion: "Protagonistas del torneo europeo de clubes" },
+    { id: "libertadores", deporte: "futbol", nombre: "Copa Libertadores", emoji: "🏆", descripcion: "Ídolos del torneo sudamericano de clubes" },
+    { id: "italiana", deporte: "futbol", nombre: "Liga italiana", emoji: "🇮🇹", descripcion: "Figuras del fútbol de Italia", activa: "2026-11-12" },
+    { id: "espanola", deporte: "futbol", nombre: "Liga española", emoji: "🇪🇸", descripcion: "Figuras del fútbol de España", activa: false },
+    { id: "nba", deporte: "basquetbol", nombre: "NBA", emoji: "🏀", descripcion: "Leyendas y estrellas de la liga de básquetbol de EE. UU.", activa: false },
   ],
 };

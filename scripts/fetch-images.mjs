@@ -26,7 +26,10 @@ import { fileURLToPath } from "node:url";
 import { CONFIG } from "../public/js/config.js";
 import { request, setUserAgent } from "./lib/http.mjs";
 import { updatePlayerOnDisk } from "./lib/data.mjs";
-import { classifyLicense, stripHtml, imageFileName, pickP18, looksLikeFootballer, pickSearchCandidate } from "./lib/wikimedia-utils.mjs";
+import { classifyLicense, stripHtml, imageFileName, pickP18, looksLikeAthlete, pickSearchCandidate } from "./lib/wikimedia-utils.mjs";
+
+// Deporte de un jugador (según su primera categoría), para reconocerlo en Wikidata
+const sportOfPlayer = (p) => CONFIG.CATEGORIES.find((c) => c.id === p.categorias?.[0])?.deporte ?? "futbol";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DATA = join(ROOT, "data");
@@ -68,7 +71,7 @@ async function searchEntity(p) {
       console.warn(`  ⚠ búsqueda "${term}" falló: ${e.message}`);
     }
   }
-  const best = pickSearchCandidate(results, p.pais, p.nacimiento ?? null);
+  const best = pickSearchCandidate(results, p.pais, p.nacimiento ?? null, sportOfPlayer(p));
   return best ? getEntityBy(`ids=${encodeURIComponent(best.id)}`) : null;
 }
 
@@ -80,7 +83,7 @@ async function getEntity(p) {
   // Si el elemento no es un futbolista (p. ej. una página de desambiguación guardada antes)
   // o su año de nacimiento no coincide con "nacimiento", buscar por nombre
   const bornMismatch = p.nacimiento && /born (\d{4})/.test(desc) && !desc.includes(`born ${p.nacimiento}`);
-  if (!entity || !looksLikeFootballer(desc) || bornMismatch) {
+  if (!entity || !looksLikeAthlete(desc, sportOfPlayer(p)) || bornMismatch) {
     const found = await searchEntity(p);
     if (found) return { entity: found, viaSearch: true };
   }
@@ -127,9 +130,9 @@ async function processPlayer(p) {
   }
   const desc = entity.descriptions?.en?.value ?? entity.descriptions?.es?.value ?? "";
   row.wikidata_id = entity.id;
-  const okId = looksLikeFootballer(desc) ? entity.id : null; // no se guarda un elemento equivocado
+  const okId = looksLikeAthlete(desc, sportOfPlayer(p)) ? entity.id : null; // no se guarda un elemento equivocado
   row.descripcion = desc;
-  if (!looksLikeFootballer(desc)) row.obs.push(`Revisar: la descripción de Wikidata no menciona fútbol ("${desc}")`);
+  if (!looksLikeAthlete(desc, sportOfPlayer(p))) row.obs.push(`Revisar: la descripción de Wikidata no menciona su deporte ("${desc}")`);
   if (viaSearch) row.obs.push(`Identificado por búsqueda en Wikidata: ${entity.id} ("${desc}"). Verifica que sea la persona correcta`);
 
   // Foto elegida a mano (p. ej. de la época en que jugaba) tiene prioridad sobre la principal de Wikidata

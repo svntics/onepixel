@@ -29,9 +29,15 @@ export function pickP18(claims) {
   return chosen?.mainsnak.datavalue.value ?? null;
 }
 
-export function looksLikeFootballer(description) {
-  return /football|soccer|futbol|fútbol/i.test(String(description ?? ""));
+// ¿La descripción de Wikidata corresponde a un deportista del deporte indicado?
+const SPORT_WORDS = {
+  futbol: /football|soccer|futbol|fútbol/i,
+  basquetbol: /basketball|baloncesto|básquetbol|basquetbol/i,
+};
+export function looksLikeAthlete(description, deporte = "futbol") {
+  return (SPORT_WORDS[deporte] ?? SPORT_WORDS.futbol).test(String(description ?? ""));
 }
+export const looksLikeFootballer = (description) => looksLikeAthlete(description, "futbol");
 
 // Decide si la licencia es aceptable para un sitio con publicidad.
 // Aceptadas: dominio público, CC0, CC BY y CC BY-SA. Excluidas: NC (no comercial), ND (sin derivados),
@@ -62,19 +68,20 @@ const NATIONALITY = {
   "Perú": "peru", Ecuador: "ecuador", "España": "spain|spanish", Francia: "france|french", Alemania: "german",
   Italia: "ital", Portugal: "portug", Inglaterra: "english|england", Gales: "welsh|wales",
   "Países Bajos": "dutch|netherlands", "Bélgica": "belgi", Croacia: "croat", Polonia: "polish|poland",
-  Noruega: "norweg", Egipto: "egypt", "Corea del Sur": "south korea|korean", "Costa de Marfil": "ivor",
+  Noruega: "norweg", "Estados Unidos": "american", Grecia: "greek", Eslovenia: "sloven", Canadá: "canad",
+  Lituania: "lithuan", Nigeria: "nigeria", China: "chinese", Australia: "austral", Serbia: "serbian", Egipto: "egypt", "Corea del Sur": "south korea|korean", "Costa de Marfil": "ivor",
   "Camerún": "cameroon", Ucrania: "ukrain", Dinamarca: "danish|denmark", "República Checa": "czech",
 };
 
 // Elige el mejor candidato de búsquedas en Wikidata.
 // results: [{ term, items: [{ id, description }] }]. Devuelve { id, description, score } o null.
 // nacimiento (opcional): año de nacimiento conocido, para distinguir homónimos ("born 1993").
-export function pickSearchCandidate(results, pais, nacimiento = null) {
+export function pickSearchCandidate(results, pais, nacimiento = null, deporte = "futbol") {
   const nat = NATIONALITY[pais] ? new RegExp(NATIONALITY[pais], "i") : null;
   const scores = new Map();
   for (const { items } of results) {
     items.forEach((it, rank) => {
-      if (!looksLikeFootballer(it.description)) return;
+      if (!looksLikeAthlete(it.description, deporte)) return;
       const prev = scores.get(it.id) ?? { id: it.id, description: it.description, score: 0 };
       const born = it.description.match(/born (\d{4})|\((\d{4})[–-]/);
       const year = born ? Number(born[1] ?? born[2]) : null;

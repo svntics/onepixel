@@ -11,8 +11,12 @@
     // Aplica el tema guardado antes de pintar (evita parpadeo). Oscuro por defecto.
     try { if (localStorage.getItem("op-theme") === "light") document.documentElement.dataset.theme = "light"; } catch (e) {}
     // Muestra la vista correcta antes de pintar, para que la página no salte:
-    // #/categoria = elegir modo · #/categoria/diario o /practica = juego · resto = inicio
-    document.documentElement.dataset.view = /^#\/[a-z]+\/(diario|practica|1v1)/.test(location.hash) ? "game" : /^#\/[a-z]+$/.test(location.hash) ? "mode" : "home";
+    // #/ = inicio · #/<deporte> = sus categorías · #/<categoria> = elegir modo · #/<categoria>/<modo> = juego
+    (function () {
+      var deportes = /*deportes:inicio*/["futbol","basquetbol","ufc","series"]/*deportes:fin*/;
+      var h = location.hash, m = h.match(/^#\/([a-z]+)$/);
+      document.documentElement.dataset.view = /^#\/[a-z]+\/(diario|practica|1v1)/.test(h) ? "game" : m ? (deportes.indexOf(m[1]) >= 0 ? "sport" : "mode") : "landing";
+    })();
   </script>
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="stylesheet" href="assets/ads.css">
@@ -25,6 +29,9 @@
     <div class="mx-auto flex max-w-xl items-center justify-between px-4 py-3">
       <a href="#/" class="min-h-11 inline-flex items-center text-xl font-extrabold tracking-tight" data-site-name>onepixel</a>
       <div class="flex gap-2">
+      <a href="#/" id="home-btn"
+        class="min-h-11 inline-flex items-center gap-1 rounded-xl border border-border bg-surface px-3 text-sm font-semibold hover:bg-surface-2"
+        aria-label="Volver al inicio"><span aria-hidden="true">🏠</span><span class="hidden sm:inline">Inicio</span></a>
       <button id="stats-btn" type="button"
         class="min-h-11 min-w-11 rounded-xl border border-border bg-surface px-3 text-sm font-semibold hover:bg-surface-2"
         aria-label="Ver estadísticas">📊</button>
@@ -39,50 +46,92 @@
 
   <main id="contenido" class="mx-auto max-w-xl px-4 pb-10 outline-none" tabindex="-1">
 
-    <!-- ===== Vista: inicio ===== -->
-    <section id="view-home" aria-labelledby="home-title">
-      <h1 id="home-title" class="mt-6 text-2xl font-extrabold leading-tight sm:text-3xl">¿Quién es el futbolista?</h1>
-      <p class="mt-2 text-muted">La foto empieza difuminada y se aclara con cada fallo o pista. Tienes 6 intentos por foto. Elige una categoría:</p>
-      <ul id="category-list" class="mt-6 grid gap-3 sm:grid-cols-2" role="list">
-<!-- categorias:inicio (generado por scripts/build-pages.mjs desde config.js) -->
-        <li><a href="#/mundiales" data-cat="mundiales"
-          class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
-          <span class="text-3xl" aria-hidden="true">🌎</span>
-          <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Mundiales</span><span class="text-sm text-muted">Leyendas y figuras de las Copas del Mundo</span></span>
-          <span class="status text-sm font-semibold text-accent"></span>
+    <!-- ===== Vista: página principal (categorías generales) ===== -->
+    <section id="view-landing" aria-labelledby="landing-title">
+      <h1 id="landing-title" class="mt-6 text-2xl font-extrabold leading-tight sm:text-3xl">¿Quién es?</h1>
+      <p class="mt-2 text-muted">Adivina quién aparece en una foto que empieza difuminada y se aclara con cada fallo o pista. Elige una categoría:</p>
+      <ul id="sport-grid" class="mt-6 grid grid-cols-2 gap-3" role="list">
+<!-- deportes-grid:inicio (generado por scripts/build-pages.mjs desde config.js) -->
+        <li><a href="#/futbol" data-sport="futbol" class="flex h-full min-h-40 flex-col items-center justify-center gap-1 rounded-2xl border border-border bg-surface p-4 text-center hover:border-accent hover:bg-surface-2">
+          <span class="text-4xl" aria-hidden="true">⚽</span>
+          <span class="text-lg font-extrabold leading-tight">Fútbol</span>
+          <span class="text-xs text-muted">Mundiales, ligas y copas</span>
+          
         </a></li>
-        <li><a href="#/premier" data-cat="premier"
-          class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
-          <span class="text-3xl" aria-hidden="true">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
-          <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Premier League</span><span class="text-sm text-muted">Jugadores de la liga inglesa</span></span>
-          <span class="status text-sm font-semibold text-accent"></span>
+        <li><a href="#/basquetbol" data-sport="basquetbol" class="flex h-full min-h-40 flex-col items-center justify-center gap-1 rounded-2xl border border-border bg-surface p-4 text-center hover:border-accent hover:bg-surface-2">
+          <span class="text-4xl" aria-hidden="true">🏀</span>
+          <span class="text-lg font-extrabold leading-tight">Básquetbol</span>
+          <span class="text-xs text-muted">Leyendas y estrellas de la NBA</span>
+          
         </a></li>
-        <li><a href="#/champions" data-cat="champions"
-          class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
-          <span class="text-3xl" aria-hidden="true">⭐</span>
-          <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Champions League</span><span class="text-sm text-muted">Protagonistas del torneo europeo de clubes</span></span>
-          <span class="status text-sm font-semibold text-accent"></span>
-        </a></li>
-        <li><a href="#/libertadores" data-cat="libertadores"
-          class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
-          <span class="text-3xl" aria-hidden="true">🏆</span>
-          <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Copa Libertadores</span><span class="text-sm text-muted">Ídolos del torneo sudamericano de clubes</span></span>
-          <span class="status text-sm font-semibold text-accent"></span>
-        </a></li>
-        <li hidden data-desde="2026-11-12"><a href="#/italiana" data-cat="italiana"
-          class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
-          <span class="text-3xl" aria-hidden="true">🇮🇹</span>
-          <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Liga italiana</span><span class="text-sm text-muted">Figuras del fútbol de Italia</span></span>
-          <span class="status text-sm font-semibold text-accent"></span>
-        </a></li>
-<!-- categorias:fin -->
+        <li><button type="button" data-locked="ufc" aria-disabled="true" class="sport-locked w-full flex h-full min-h-40 flex-col items-center justify-center gap-1 rounded-2xl border border-border bg-surface p-4 text-center">
+          <span class="text-4xl" aria-hidden="true">🥊</span>
+          <span class="text-lg font-extrabold leading-tight">UFC / Artes marciales mixtas</span>
+          <span class="text-xs text-muted">Peleadores de MMA</span>
+          <span class="mt-1 inline-flex items-center gap-1 rounded-full bg-surface-2 px-2 py-0.5 text-xs font-bold">🔒 Próximamente</span>
+        </button></li>
+        <li><button type="button" data-locked="series" aria-disabled="true" class="sport-locked w-full flex h-full min-h-40 flex-col items-center justify-center gap-1 rounded-2xl border border-border bg-surface p-4 text-center">
+          <span class="text-4xl" aria-hidden="true">🎬</span>
+          <span class="text-lg font-extrabold leading-tight">Series y actores</span>
+          <span class="text-xs text-muted">Personajes y actores de series</span>
+          <span class="mt-1 inline-flex items-center gap-1 rounded-full bg-surface-2 px-2 py-0.5 text-xs font-bold">🔒 Próximamente</span>
+        </button></li>
+<!-- deportes-grid:fin -->
       </ul>
+    </section>
+
+    <!-- ===== Vista: subcategorías de una categoría general ===== -->
+    <section id="view-sport" hidden aria-labelledby="sport-title">
+      <div class="mt-4 flex items-center gap-2">
+        <a href="#/" class="min-h-11 inline-flex items-center rounded-xl px-2 text-sm font-semibold text-muted hover:text-text">← Inicio</a>
+      </div>
+      <h1 id="sport-title" class="mt-1 min-h-8 text-2xl font-extrabold"></h1>
+      <p id="sport-intro" class="mt-1 text-muted"></p>
+      <div id="category-lists">
+<!-- categorias:inicio (generado por scripts/build-pages.mjs desde config.js) -->
+        <ul class="category-list mt-6 grid gap-3 sm:grid-cols-2" data-sport="futbol" hidden role="list">
+          <li><a href="#/mundiales" data-cat="mundiales"
+            class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
+            <span class="text-3xl" aria-hidden="true">🌎</span>
+            <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Mundiales</span><span class="text-sm text-muted">Leyendas y figuras de las Copas del Mundo</span></span>
+            <span class="status text-sm font-semibold text-accent"></span>
+          </a></li>
+          <li><a href="#/premier" data-cat="premier"
+            class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
+            <span class="text-3xl" aria-hidden="true">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
+            <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Premier League</span><span class="text-sm text-muted">Jugadores de la liga inglesa</span></span>
+            <span class="status text-sm font-semibold text-accent"></span>
+          </a></li>
+          <li><a href="#/champions" data-cat="champions"
+            class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
+            <span class="text-3xl" aria-hidden="true">⭐</span>
+            <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Champions League</span><span class="text-sm text-muted">Protagonistas del torneo europeo de clubes</span></span>
+            <span class="status text-sm font-semibold text-accent"></span>
+          </a></li>
+          <li><a href="#/libertadores" data-cat="libertadores"
+            class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
+            <span class="text-3xl" aria-hidden="true">🏆</span>
+            <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Copa Libertadores</span><span class="text-sm text-muted">Ídolos del torneo sudamericano de clubes</span></span>
+            <span class="status text-sm font-semibold text-accent"></span>
+          </a></li>
+          <li hidden data-desde="2026-11-12"><a href="#/italiana" data-cat="italiana"
+            class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
+            <span class="text-3xl" aria-hidden="true">🇮🇹</span>
+            <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Liga italiana</span><span class="text-sm text-muted">Figuras del fútbol de Italia</span></span>
+            <span class="status text-sm font-semibold text-accent"></span>
+          </a></li>
+        </ul>
+        <ul class="category-list mt-6 grid gap-3 sm:grid-cols-2" data-sport="basquetbol" hidden role="list">
+          <li class="rounded-2xl border border-dashed border-border p-4 text-center text-muted">⏳ En preparación: NBA. ¡Vuelve pronto!</li>
+        </ul>
+<!-- categorias:fin -->
+      </div>
     </section>
 
     <!-- ===== Vista: elegir modo ===== -->
     <section id="view-mode" hidden aria-labelledby="mode-title">
       <div class="mt-4 flex items-center gap-2">
-        <a href="#/" class="min-h-11 inline-flex items-center rounded-xl px-2 text-sm font-semibold text-muted hover:text-text">← Categorías</a>
+        <a id="back-to-sport" href="#/" class="min-h-11 inline-flex items-center rounded-xl px-2 text-sm font-semibold text-muted hover:text-text">← Categorías</a>
       </div>
       <h1 id="mode-title" class="mt-1 min-h-8 text-2xl font-extrabold"></h1>
       <p class="mt-1 text-muted">¿Cómo quieres jugar?</p>
@@ -161,6 +210,9 @@
     </section>
   </main>
 
+  <div id="toast" role="status" aria-live="polite"
+    class="pointer-events-none fixed inset-x-0 bottom-6 z-50 mx-auto w-fit max-w-[90%] rounded-xl border border-border bg-surface-2 px-4 py-3 text-center font-semibold shadow-2xl transition-opacity duration-300 opacity-0"></div>
+
   <dialog id="stats-dialog" aria-labelledby="stats-title"
     class="m-auto max-h-[85dvh] w-[min(26rem,calc(100%-2rem))] overflow-y-auto rounded-2xl border border-border bg-surface p-0 text-text backdrop:bg-black/60">
     <div class="p-5">
@@ -185,7 +237,7 @@
         <a class="min-h-11 inline-flex items-center underline" href="aviso-legal.html">Aviso legal</a>
       </nav>
       <p class="mt-2 text-xs text-muted">
-        Juego de aficionados sin afiliación con FIFA, UEFA, CONMEBOL ni la Premier League. Fotos de Wikimedia Commons bajo licencias libres.
+        Juego de aficionados sin afiliación con FIFA, UEFA, CONMEBOL, la Premier League ni la NBA. Fotos de Wikimedia Commons bajo licencias libres.
       </p>
     </div>
   </footer>

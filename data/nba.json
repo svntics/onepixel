@@ -1,0 +1,776 @@
+{
+  "categoria": "nba",
+  "jugadores": [
+    {
+      "id": "michael-jordan",
+      "nombre": "Michael Jordan",
+      "alias": [
+        "Jordan",
+        "MJ",
+        "Air Jordan"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Estados Unidos",
+      "posicion": "Escolta",
+      "pistas": [
+        "Jugó béisbol profesional durante una pausa de su carrera.",
+        "Ganó seis títulos de la NBA en dos tandas de tres seguidos.",
+        "Es la gran leyenda de los Chicago Bulls con el número 23."
+      ],
+      "wikipedia_en": "Michael Jordan",
+      "nacimiento": 1963,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "lebron-james",
+      "nombre": "LeBron James",
+      "alias": [
+        "LeBron",
+        "King James"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "actual",
+      "pais": "Estados Unidos",
+      "posicion": "Alero",
+      "pistas": [
+        "Llegó a la NBA directamente desde la secundaria en 2003.",
+        "Ganó títulos con Miami, Cleveland y Los Angeles Lakers.",
+        "Es el máximo anotador de la historia de la NBA."
+      ],
+      "wikipedia_en": "LeBron James",
+      "nacimiento": 1984,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "kobe-bryant",
+      "nombre": "Kobe Bryant",
+      "alias": [
+        "Kobe",
+        "Black Mamba"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Estados Unidos",
+      "posicion": "Escolta",
+      "pistas": [
+        "Pasó parte de su infancia en Italia.",
+        "Anotó 81 puntos en un partido en 2006.",
+        "Jugó 20 temporadas en Los Angeles Lakers y ganó cinco títulos."
+      ],
+      "wikipedia_en": "Kobe Bryant",
+      "nacimiento": 1978,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "stephen-curry",
+      "nombre": "Stephen Curry",
+      "alias": [
+        "Steph Curry",
+        "Curry",
+        "Chef Curry"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "actual",
+      "pais": "Estados Unidos",
+      "posicion": "Base",
+      "pistas": [
+        "Su padre también jugó en la NBA.",
+        "Es el máximo triplista de la historia de la NBA.",
+        "Ganó cuatro títulos con los Golden State Warriors."
+      ],
+      "wikipedia_en": "Stephen Curry",
+      "nacimiento": 1988,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "kareem-abdul-jabbar",
+      "nombre": "Kareem Abdul-Jabbar",
+      "alias": [
+        "Kareem",
+        "Lew Alcindor"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Estados Unidos",
+      "posicion": "Pívot",
+      "pistas": [
+        "Su tiro característico era un gancho imposible de bloquear.",
+        "Ganó seis títulos con Milwaukee y Los Angeles Lakers.",
+        "Fue el máximo anotador de la NBA durante casi 40 años."
+      ],
+      "wikipedia_en": "Kareem Abdul-Jabbar",
+      "nacimiento": 1947,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "magic-johnson",
+      "nombre": "Magic Johnson",
+      "alias": [
+        "Magic",
+        "Earvin Johnson"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Estados Unidos",
+      "posicion": "Base",
+      "pistas": [
+        "Era un base de más de dos metros.",
+        "Fue parte del Dream Team de Barcelona 1992.",
+        "Ganó cinco títulos con los Lakers en los años 80."
+      ],
+      "wikipedia_en": "Magic Johnson",
+      "nacimiento": 1959,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "larry-bird",
+      "nombre": "Larry Bird",
+      "alias": [
+        "Bird"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Estados Unidos",
+      "posicion": "Alero",
+      "pistas": [
+        "Ganó tres concursos de triples seguidos.",
+        "Fue elegido MVP tres años seguidos.",
+        "Es la leyenda de los Boston Celtics de los años 80."
+      ],
+      "wikipedia_en": "Larry Bird",
+      "nacimiento": 1956,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "shaquille-oneal",
+      "nombre": "Shaquille O'Neal",
+      "alias": [
+        "Shaq",
+        "Shaquille"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Estados Unidos",
+      "posicion": "Pívot",
+      "pistas": [
+        "Grabó discos de rap y actuó en películas.",
+        "Ganó un título con el Miami Heat en 2006.",
+        "Ganó tres títulos seguidos con los Lakers junto a Kobe Bryant."
+      ],
+      "wikipedia_en": "Shaquille O'Neal",
+      "nacimiento": 1972,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "tim-duncan",
+      "nombre": "Tim Duncan",
+      "alias": [
+        "Duncan",
+        "Big Fundamental"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Estados Unidos",
+      "posicion": "Ala-pívot",
+      "pistas": [
+        "Nació en las Islas Vírgenes y empezó como nadador.",
+        "Era famoso por su juego sobrio y sin lujos.",
+        "Ganó cinco títulos con los San Antonio Spurs."
+      ],
+      "wikipedia_en": "Tim Duncan",
+      "nacimiento": 1976,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "dirk-nowitzki",
+      "nombre": "Dirk Nowitzki",
+      "alias": [
+        "Dirk",
+        "Nowitzki"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Alemania",
+      "posicion": "Ala-pívot",
+      "pistas": [
+        "Su tiro sobre una pierna era casi imposible de defender.",
+        "Ganó el título de 2011.",
+        "Jugó 21 temporadas en los Dallas Mavericks."
+      ],
+      "wikipedia_en": "Dirk Nowitzki",
+      "nacimiento": 1978,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "manu-ginobili",
+      "nombre": "Manu Ginóbili",
+      "alias": [
+        "Manu",
+        "Ginobili",
+        "Emanuel Ginóbili"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Escolta",
+      "pistas": [
+        "Ganó la Euroliga con el Kinder Bologna.",
+        "Fue campeón olímpico en Atenas 2004.",
+        "Ganó cuatro títulos con los San Antonio Spurs."
+      ],
+      "wikipedia_en": "Manu Ginóbili",
+      "nacimiento": 1977,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "pau-gasol",
+      "nombre": "Pau Gasol",
+      "alias": [
+        "Pau",
+        "Gasol"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Ala-pívot",
+      "pistas": [
+        "Su hermano menor también jugó en la NBA.",
+        "Fue campeón del mundo con España en 2006.",
+        "Ganó dos títulos con Los Angeles Lakers junto a Kobe Bryant."
+      ],
+      "wikipedia_en": "Pau Gasol",
+      "nacimiento": 1980,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "giannis-antetokounmpo",
+      "nombre": "Giannis Antetokounmpo",
+      "alias": [
+        "Giannis",
+        "Greek Freak"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "actual",
+      "pais": "Grecia",
+      "posicion": "Ala-pívot",
+      "pistas": [
+        "De niño vendía artículos en las calles de Atenas.",
+        "Fue MVP de la temporada dos años seguidos.",
+        "Ganó el título 2021 con los Milwaukee Bucks."
+      ],
+      "wikipedia_en": "Giannis Antetokounmpo",
+      "nacimiento": 1994,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "nikola-jokic",
+      "nombre": "Nikola Jokić",
+      "alias": [
+        "Jokic",
+        "El Joker"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "actual",
+      "pais": "Serbia",
+      "posicion": "Pívot",
+      "pistas": [
+        "Fue elegido en el puesto 41 del Draft mientras la TV pasaba un comercial.",
+        "Ganó tres premios MVP.",
+        "Llevó a los Denver Nuggets a su primer título en 2023."
+      ],
+      "wikipedia_en": "Nikola Jokić",
+      "nacimiento": 1995,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "luka-doncic",
+      "nombre": "Luka Dončić",
+      "alias": [
+        "Luka",
+        "Doncic"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "actual",
+      "pais": "Eslovenia",
+      "posicion": "Base",
+      "pistas": [
+        "Fue campeón de la Euroliga con el Real Madrid.",
+        "Fue traspasado por sorpresa de Dallas a los Lakers en 2025.",
+        "Es la gran estrella eslovena de la NBA."
+      ],
+      "wikipedia_en": "Luka Dončić",
+      "nacimiento": 1999,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "kevin-durant",
+      "nombre": "Kevin Durant",
+      "alias": [
+        "KD",
+        "Durant"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "actual",
+      "pais": "Estados Unidos",
+      "posicion": "Alero",
+      "pistas": [
+        "Ganó cuatro medallas de oro olímpicas.",
+        "Fue MVP con Oklahoma City en 2014.",
+        "Ganó dos títulos con los Golden State Warriors."
+      ],
+      "wikipedia_en": "Kevin Durant",
+      "nacimiento": 1988,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "victor-wembanyama",
+      "nombre": "Victor Wembanyama",
+      "alias": [
+        "Wemby",
+        "Wembanyama"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "actual",
+      "pais": "Francia",
+      "posicion": "Pívot",
+      "pistas": [
+        "Mide más de 2,20 metros.",
+        "Fue la primera selección del Draft 2023.",
+        "Es la joven estrella francesa de los San Antonio Spurs."
+      ],
+      "wikipedia_en": "Victor Wembanyama",
+      "nacimiento": 2004,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "allen-iverson",
+      "nombre": "Allen Iverson",
+      "alias": [
+        "Iverson",
+        "The Answer",
+        "AI"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Estados Unidos",
+      "posicion": "Base",
+      "pistas": [
+        "Era bajo para la NBA y famoso por su crossover.",
+        "Fue MVP de la temporada 2001.",
+        "Es ídolo de los Philadelphia 76ers."
+      ],
+      "wikipedia_en": "Allen Iverson",
+      "nacimiento": 1975,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "dwyane-wade",
+      "nombre": "Dwyane Wade",
+      "alias": [
+        "D-Wade",
+        "Wade",
+        "Flash"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Estados Unidos",
+      "posicion": "Escolta",
+      "pistas": [
+        "Fue MVP de las Finales en 2006.",
+        "Formó un famoso trío de estrellas junto a LeBron James y Chris Bosh.",
+        "Ganó tres títulos con el Miami Heat."
+      ],
+      "wikipedia_en": "Dwyane Wade",
+      "nacimiento": 1982,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "kevin-garnett",
+      "nombre": "Kevin Garnett",
+      "alias": [
+        "KG",
+        "Garnett"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Estados Unidos",
+      "posicion": "Ala-pívot",
+      "pistas": [
+        "Pasó directo de la secundaria a la NBA en 1995.",
+        "Fue la estrella de los Minnesota Timberwolves.",
+        "Gritó «Anything is possible!» tras ganar el título 2008 con Boston."
+      ],
+      "wikipedia_en": "Kevin Garnett",
+      "nacimiento": 1976,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "hakeem-olajuwon",
+      "nombre": "Hakeem Olajuwon",
+      "alias": [
+        "Hakeem",
+        "The Dream",
+        "Olajuwon"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Nigeria",
+      "posicion": "Pívot",
+      "pistas": [
+        "Nació en Nigeria.",
+        "Jugó de arquero de fútbol en su juventud.",
+        "Ganó dos títulos seguidos con los Houston Rockets."
+      ],
+      "wikipedia_en": "Hakeem Olajuwon",
+      "nacimiento": 1963,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "scottie-pippen",
+      "nombre": "Scottie Pippen",
+      "alias": [
+        "Pippen"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Estados Unidos",
+      "posicion": "Alero",
+      "pistas": [
+        "Fue parte del Dream Team de 1992.",
+        "Fue el gran compañero de Michael Jordan.",
+        "Ganó seis títulos con los Chicago Bulls."
+      ],
+      "wikipedia_en": "Scottie Pippen",
+      "nacimiento": 1965,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "dennis-rodman",
+      "nombre": "Dennis Rodman",
+      "alias": [
+        "Rodman",
+        "The Worm",
+        "El Gusano"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Estados Unidos",
+      "posicion": "Ala-pívot",
+      "pistas": [
+        "Se teñía el pelo de colores llamativos.",
+        "Fue siete veces máximo reboteador de la NBA.",
+        "Ganó títulos con Detroit y con Chicago."
+      ],
+      "wikipedia_en": "Dennis Rodman",
+      "nacimiento": 1961,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "yao-ming",
+      "nombre": "Yao Ming",
+      "alias": [
+        "Yao"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "China",
+      "posicion": "Pívot",
+      "pistas": [
+        "Mide 2,29 metros.",
+        "Fue la primera selección del Draft 2002.",
+        "Es la gran leyenda china de los Houston Rockets."
+      ],
+      "wikipedia_en": "Yao Ming",
+      "nacimiento": 1980,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "tony-parker",
+      "nombre": "Tony Parker",
+      "alias": [
+        "TP",
+        "Parker"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Francia",
+      "posicion": "Base",
+      "pistas": [
+        "Nació en Bélgica.",
+        "Fue MVP de las Finales 2007.",
+        "Ganó cuatro títulos con los San Antonio Spurs."
+      ],
+      "wikipedia_en": "Tony Parker",
+      "nacimiento": 1982,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "russell-westbrook",
+      "nombre": "Russell Westbrook",
+      "alias": [
+        "Westbrook",
+        "Russ"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "actual",
+      "pais": "Estados Unidos",
+      "posicion": "Base",
+      "pistas": [
+        "Promedió un triple-doble en varias temporadas.",
+        "Fue MVP de la temporada 2017.",
+        "Fue la estrella de los Oklahoma City Thunder."
+      ],
+      "wikipedia_en": "Russell Westbrook",
+      "nacimiento": 1988,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "james-harden",
+      "nombre": "James Harden",
+      "alias": [
+        "Harden",
+        "The Beard"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "actual",
+      "pais": "Estados Unidos",
+      "posicion": "Escolta",
+      "pistas": [
+        "Es famoso por su larga barba.",
+        "Fue MVP de la temporada 2018 con Houston.",
+        "Es famoso por su tiro con paso hacia atrás."
+      ],
+      "wikipedia_en": "James Harden",
+      "nacimiento": 1989,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "jayson-tatum",
+      "nombre": "Jayson Tatum",
+      "alias": [
+        "Tatum",
+        "JT"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "actual",
+      "pais": "Estados Unidos",
+      "posicion": "Alero",
+      "pistas": [
+        "Fue campeón olímpico en 2021 y 2024.",
+        "Fue elegido en el Draft 2017.",
+        "Ganó el título 2024 con los Boston Celtics."
+      ],
+      "wikipedia_en": "Jayson Tatum",
+      "nacimiento": 1998,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "shai-gilgeous-alexander",
+      "nombre": "Shai Gilgeous-Alexander",
+      "alias": [
+        "SGA",
+        "Shai"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "actual",
+      "pais": "Canadá",
+      "posicion": "Base",
+      "pistas": [
+        "Es canadiense.",
+        "Fue MVP de la temporada 2024-25.",
+        "Ganó el título 2025 con los Oklahoma City Thunder."
+      ],
+      "wikipedia_en": "Shai Gilgeous-Alexander",
+      "nacimiento": 1998,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "wilt-chamberlain",
+      "nombre": "Wilt Chamberlain",
+      "alias": [
+        "Wilt",
+        "Chamberlain"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Estados Unidos",
+      "posicion": "Pívot",
+      "pistas": [
+        "Jugó en los Harlem Globetrotters.",
+        "Ganó títulos con Philadelphia y los Lakers.",
+        "Anotó 100 puntos en un partido en 1962."
+      ],
+      "wikipedia_en": "Wilt Chamberlain",
+      "nacimiento": 1936,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "bill-russell",
+      "nombre": "Bill Russell",
+      "alias": [
+        "Russell"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Estados Unidos",
+      "posicion": "Pívot",
+      "pistas": [
+        "Fue el primer entrenador negro de la NBA.",
+        "Fue una leyenda defensiva de los Boston Celtics.",
+        "Ganó 11 títulos como jugador."
+      ],
+      "wikipedia_en": "Bill Russell",
+      "nacimiento": 1934,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "luis-scola",
+      "nombre": "Luis Scola",
+      "alias": [
+        "Scola",
+        "Luifa"
+      ],
+      "categorias": [
+        "nba"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Ala-pívot",
+      "pistas": [
+        "Jugó en el Baskonia de España.",
+        "Fue campeón olímpico en 2004.",
+        "Es el máximo anotador histórico de la selección argentina."
+      ],
+      "wikipedia_en": "Luis Scola",
+      "nacimiento": 1980,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    }
+  ]
+}

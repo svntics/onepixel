@@ -30,25 +30,57 @@ mkdirSync(join(ROOT, "public", "assets"), { recursive: true });
 writeFileSync(join(ROOT, "public", "assets", "ads.css"), css);
 console.log(`✔ ads.css: espacios publicitarios ${showSlots ? "visibles" : "ocultos"}`);
 
-// ---------- Lista de categorías en index.html (HTML estático: sin saltos al cargar) ----------
+// ---------- Página principal e índices de categorías en index.html (HTML estático: sin saltos) ----------
 const indexPath = join(ROOT, "public", "index.html");
 const indexHtml = readFileSync(indexPath, "utf8");
 const ACTIVE = CONFIG.CATEGORIES.filter((c) => c.activa !== false);
-const catsHtml = ACTIVE.map(
-  // Categoría con fecha de inicio (activa: "AAAA-MM-DD"): queda oculta y el juego la muestra desde ese día
-  (c) => `        <li${typeof c.activa === "string" ? ` hidden data-desde="${esc(c.activa)}"` : ""}><a href="#/${esc(c.id)}" data-cat="${esc(c.id)}"
-          class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
-          <span class="text-3xl" aria-hidden="true">${esc(c.emoji)}</span>
-          <span class="flex flex-1 flex-col"><span class="text-lg font-bold">${esc(c.nombre)}</span><span class="text-sm text-muted">${esc(c.descripcion)}</span></span>
-          <span class="status text-sm font-semibold text-accent"></span>
-        </a></li>`,
-).join("\n");
-const newIndex = indexHtml.replace(
-  /(<!-- categorias:inicio[^>]*-->)[\s\S]*?(<!-- categorias:fin -->)/,
-  `$1\n${catsHtml}\n$2`,
-);
+const SPORTS = CONFIG.SPORTS;
+
+// Cuadrícula de categorías generales: activas (enlace) y bloqueadas ("Próximamente")
+const sportsHtml = SPORTS.map((d) => {
+  const locked = d.estado !== "activo";
+  const inner = `<span class="text-4xl" aria-hidden="true">${esc(d.emoji)}</span>
+          <span class="text-lg font-extrabold leading-tight">${esc(d.nombre)}</span>
+          <span class="text-xs text-muted">${esc(d.descripcion)}</span>
+          ${locked ? '<span class="mt-1 inline-flex items-center gap-1 rounded-full bg-surface-2 px-2 py-0.5 text-xs font-bold">🔒 Próximamente</span>' : ""}`;
+  const cls = "flex h-full min-h-40 flex-col items-center justify-center gap-1 rounded-2xl border border-border bg-surface p-4 text-center";
+  return locked
+    ? `        <li><button type="button" data-locked="${esc(d.id)}" aria-disabled="true" class="sport-locked w-full ${cls}">
+          ${inner}
+        </button></li>`
+    : `        <li><a href="#/${esc(d.id)}" data-sport="${esc(d.id)}" class="${cls} hover:border-accent hover:bg-surface-2">
+          ${inner}
+        </a></li>`;
+}).join("\n");
+
+// Listas de subcategorías por categoría general (se muestra la del deporte elegido)
+const catItem = (c) => `          <li${typeof c.activa === "string" ? ` hidden data-desde="${esc(c.activa)}"` : ""}><a href="#/${esc(c.id)}" data-cat="${esc(c.id)}"
+            class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
+            <span class="text-3xl" aria-hidden="true">${esc(c.emoji)}</span>
+            <span class="flex flex-1 flex-col"><span class="text-lg font-bold">${esc(c.nombre)}</span><span class="text-sm text-muted">${esc(c.descripcion)}</span></span>
+            <span class="status text-sm font-semibold text-accent"></span>
+          </a></li>`;
+const listsHtml = SPORTS.filter((d) => d.estado === "activo")
+  .map((d) => {
+    const cats = ACTIVE.filter((c) => c.deporte === d.id);
+    const prep = CONFIG.CATEGORIES.filter((c) => c.deporte === d.id && c.activa === false);
+    const items = cats.map(catItem).join("\n");
+    const empty = !cats.length
+      ? `          <li class="rounded-2xl border border-dashed border-border p-4 text-center text-muted">⏳ En preparación: ${esc(prep.map((c) => c.nombre).join(", ") || "pronto")}. ¡Vuelve pronto!</li>`
+      : "";
+    return `        <ul class="category-list mt-6 grid gap-3 sm:grid-cols-2" data-sport="${esc(d.id)}" hidden role="list">
+${items}${empty}
+        </ul>`;
+  })
+  .join("\n");
+
+const replaceBetween = (html, name, content) =>
+  html.replace(new RegExp(`(<!-- ${name}:inicio[^>]*-->)[\\s\\S]*?(<!-- ${name}:fin -->)`), `$1\n${content}\n$2`);
+let newIndex = replaceBetween(indexHtml, "deportes-grid", sportsHtml);
+newIndex = replaceBetween(newIndex, "categorias", listsHtml);
+newIndex = newIndex.replace(/\/\*deportes:inicio\*\/.*?\/\*deportes:fin\*\//, `/*deportes:inicio*/${JSON.stringify(SPORTS.map((d) => d.id))}/*deportes:fin*/`);
 if (newIndex !== indexHtml) writeFileSync(indexPath, newIndex);
-console.log(`✔ index.html: ${ACTIVE.length} categorías activas`);
+console.log(`✔ index.html: ${SPORTS.length} categorías generales, ${ACTIVE.length} subcategorías activas`);
 
 // ---------- creditos.html ----------
 const players = new Map();

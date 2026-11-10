@@ -90,16 +90,14 @@ body {
    Va en @layer base: con !important, las reglas de una capa ganan a las de fuera de ella,
    y la regla [hidden] de Tailwind vive en esa capa. */
 @layer base {
-  html[data-view="game"] #view-home {
+  html[data-view="sport"] #view-landing,
+  html[data-view="mode"] #view-landing,
+  html[data-view="game"] #view-landing {
     display: none !important;
   }
+  html[data-view="sport"] #view-sport,
+  html[data-view="mode"] #view-mode,
   html[data-view="game"] #view-game {
-    display: block !important;
-  }
-  html[data-view="mode"] #view-home {
-    display: none !important;
-  }
-  html[data-view="mode"] #view-mode {
     display: block !important;
   }
 }
@@ -124,4 +122,10 @@ body {
 }
 @media (prefers-reduced-motion: reduce) {
   .duel-trophy { animation: none; }
+}
+
+/* Categoría bloqueada ("Próximamente") */
+.sport-locked {
+  filter: grayscale(0.9);
+  opacity: 0.55;
 }
