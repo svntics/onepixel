@@ -41,3 +41,12 @@ test("búsqueda: elige al futbolista y desempata por nacionalidad", () => {
   assert.equal(pickSearchCandidate(r, "Uruguay").id, "Q2");
   assert.equal(pickSearchCandidate([{ term: "x", items: [{ id: "Q9", description: "American actor" }] }], "Chile"), null);
 });
+
+test("búsqueda: el año de nacimiento distingue homónimos", () => {
+  const r = [{ term: "Ederson Moraes", items: [
+    { id: "Q1", description: "Brazilian footballer (born 1999)" },
+    { id: "Q2", description: "Brazilian association football goalkeeper (born 1993)" },
+  ] }];
+  assert.equal(pickSearchCandidate(r, "Brasil").id, "Q1");
+  assert.equal(pickSearchCandidate(r, "Brasil", 1993).id, "Q2");
+});

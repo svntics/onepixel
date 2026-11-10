@@ -67,7 +67,7 @@ async function searchEntity(p) {
       console.warn(`  ⚠ búsqueda "${term}" falló: ${e.message}`);
     }
   }
-  const best = pickSearchCandidate(results, p.pais);
+  const best = pickSearchCandidate(results, p.pais, p.nacimiento ?? null);
   return best ? getEntityBy(`ids=${encodeURIComponent(best.id)}`) : null;
 }
 
@@ -76,8 +76,10 @@ async function getEntity(p) {
     ? await getEntityBy(`ids=${encodeURIComponent(p.wikidata_id)}`)
     : await getEntityBy(`sites=enwiki&titles=${encodeURIComponent(p.wikipedia_en)}`);
   const desc = entity?.descriptions?.en?.value ?? entity?.descriptions?.es?.value ?? "";
-  // Si el elemento no es un futbolista (p. ej. una página de desambiguación guardada antes), buscar por nombre
-  if (!entity || !looksLikeFootballer(desc)) {
+  // Si el elemento no es un futbolista (p. ej. una página de desambiguación guardada antes)
+  // o su año de nacimiento no coincide con "nacimiento", buscar por nombre
+  const bornMismatch = p.nacimiento && /born (\d{4})/.test(desc) && !desc.includes(`born ${p.nacimiento}`);
+  if (!entity || !looksLikeFootballer(desc) || bornMismatch) {
     const found = await searchEntity(p);
     if (found) return { entity: found, viaSearch: true };
   }

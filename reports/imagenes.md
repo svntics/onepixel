@@ -1,13 +1,14 @@
 # Reporte de imágenes
 
-Generado: 2026-11-10T13:44:09.479Z · 150 con imagen libre · 2 excluidos
+Generado: 2026-11-10T13:51:08.173Z · 171 con imagen libre · 3 excluidos
 
 Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se resuelva su caso.
 
 | Jugador | Categoría | ¿Imagen libre? | Licencia | Autor | Observación |
 |---|---|---|---|---|---|
-| Ederson | premier | **No** | CC BY-SA 4.0 | YantsImages | Identificado mal por búsqueda (Ederson nacido en 1999, no el arquero de 1993). Excluido hasta corregir |
 | Karim Benzema | champions | **No** |  |  | Wikidata no tiene imagen (P18) |
+| Keylor Navas | mundiales | **No** |  |  | Error: Demasiados reintentos: https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&maxlag=5&titles=File%3AKeylor%20Navas%202018%20(cropped).jpg&prop=imageinfo&iiprop=url\|extmetadata\|mime&iiurlwidth=500&iiextmetadatafilter=Artist\|LicenseShortName\|LicenseUrl\|AttributionRequired\|Copyrighted\|Restrictions\|UsageTerms\|Attribution&iiextmetadatalanguage=es |
+| Sidny Lopes Cabral | mundiales | **No** |  |  | Wikidata no tiene imagen (P18) |
 | Adel Taarabt | premier | Sí | CC BY-SA 3.0 | Anton Zaitsev | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Alan Shearer | premier | Sí | CC BY-SA 2.0 | Originally carltonreid ; retouched by DFS454 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Alberto Spencer | libertadores | Sí | Public domain | Eduardo Forte | Dominio público: verificar que lo sea también en Chile |
@@ -28,6 +29,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Bruno Fernandes | premier | Sí | CC BY-SA 4.0 | Bryan Berlin | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Bukayo Saka | premier | Sí | CC BY-SA 4.0 | Bryan Berlin | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Cafu | libertadores, mundiales | Sí | CC BY-SA 4.0 | Lula Oficial | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Carlos Alberto Torres | mundiales | Sí | Public domain | Desconocido Unknown author | Dominio público: verificar que lo sea también en Chile |
 | Carlos Caszely | mundiales, libertadores | Sí | CC BY-SA 2.0 | Carlos_Caszely_2013.jpg : Michelle Bachelet derivative work: Warko | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Carlos Tévez | libertadores, premier | Sí | CC BY-SA 4.0 | Egghead06 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Carlos Valderrama | mundiales | Sí | CC BY 3.0 | Maritza Ariza Periodista | — |
@@ -39,7 +41,9 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Cristiano Ronaldo | champions, premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | David de Gea | premier | Sí | CC BY-SA 3.0 | Кирилл Венедиктов | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | David Silva | premier | Sí | CC BY-SA 3.0 | Кирилл Венедиктов | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Davor Šuker | mundiales | Sí | CC BY-SA 3.0 | Ludovic Péron | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Declan Rice | premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
+| Deco | mundiales | Sí | CC BY-SA 2.5 es | Darz Mol | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Dele Alli | premier | Sí | CC BY-SA 4.0 | Steffen Prößdorf | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Dennis Bergkamp | premier | Sí | CC BY 2.0 | Kieran Clarke | — |
 | Didier Drogba | premier, champions | Sí | CC BY-SA 4.0 | Y.Leclercq© | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
@@ -47,14 +51,20 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Diego Forlán | mundiales, premier | Sí | CC BY-SA 3.0 at | Ailura | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Diego Lugano | libertadores | Sí | CC BY-SA 3.0 at | Ailura | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Diego Maradona | mundiales | Sí | Public domain | Desconocido Unknown author | Dominio público: verificar que lo sea también en Chile |
+| Dino Zoff | mundiales | Sí | Public domain | Original: Desconocido Unknown author / Obra derivada: Heiko Gerber | Dominio público: verificar que lo sea también en Chile |
+| Domagoj Vida | mundiales | Sí | CC BY-SA 4.0 | ТОВ "Динамоманія" | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Dominik Livaković | mundiales | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Eden Hazard | premier | Sí | CC BY 4.0 | Fars Media Corporation | — |
+| Ederson | premier | Sí | CC BY-SA 4.0 | YantsImages | Identificado por búsqueda en Wikidata: Q59150057 ("Brazilian footballer (born 1999)"). Verifica que sea la persona correcta; CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Edwin van der Sar | premier | Sí | CC BY 2.5 | http://www.postproduktie.nl | — |
 | Elías Figueroa | mundiales | Sí | CC BY 2.0 | Marco Nuñez from Santiago, Chile | — |
+| Emiliano Martínez | mundiales | Sí | CC BY-SA 4.0 | Bryan Berlin | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Enzo Fernández | premier | Sí | CC BY-SA 4.0 | Bryan Berlin | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Enzo Francescoli | libertadores | Sí | CC BY-SA 3.0 | Christophe95 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Eric Cantona | premier | Sí | CC BY-SA 3.0 | Georges Biard | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Erling Haaland | premier, champions | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Eusébio | mundiales, champions | Sí | Public domain | Panini | Dominio público: verificar que lo sea también en Chile |
+| Ferenc Puskás | mundiales | Sí | Public domain | Desconocido Unknown | Dominio público: verificar que lo sea también en Chile |
 | Fernando Morena | libertadores | Sí | CC BY-SA 3.0 | Andrea Mazza | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Fernando Torres | premier, champions | Sí | CC BY 2.0 | cristina cifuentes | — |
 | Frank Lampard | premier | Sí | CC BY 4.0 | Fars Media Corporation | — |
@@ -62,6 +72,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Gabriel Barbosa | libertadores | Sí | CC BY 2.0 | Palácio do Planalto | — |
 | Gabriel Magalhães | premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Gareth Bale | champions, premier | Sí | CC BY 4.0 | Tasnim News Agency | — |
+| Garrincha | mundiales | Sí | Public domain | El Gráfico, n° 2233 | Dominio público: verificar que lo sea también en Chile |
 | Gerd Müller | mundiales | Sí | Public domain | Desconocido Unknown author | Dominio público: verificar que lo sea también en Chile |
 | Germán Cano | libertadores | Sí | CC BY-SA 3.0 | Crismejia | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Gianluigi Buffon | mundiales, champions | Sí | CC BY 2.0 | Doha Stadium Plus Qatar from Doha, Qatar | — |
@@ -74,8 +85,10 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Hugo Lloris | premier | Sí | CC BY-SA 3.0 | Кирилл Венедиктов | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Iker Casillas | champions | Sí | CC BY-SA 3.0 | Зайцев Антон | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | İlkay Gündoğan | premier | Sí | CC BY-SA 4.0 | Granada | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
+| Ivan Rakitić | mundiales | Sí | CC BY-SA 3.0 | Дмитрий Пукалик | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Iván Zamorano | mundiales | Sí | CC BY 2.0 | 11-06-2013_Partido_Chile-Bolivia.jpg : tu Foto con el Presidente derivative work: Rec79 | — |
 | Jaime Pizarro | libertadores | Sí | CC BY 3.0 cl | Estado de Chile | — |
+| Jairzinho | mundiales | Sí | Public domain | Desconocido Unknown author | Dominio público: verificar que lo sea también en Chile |
 | James Rodríguez | mundiales | Sí | CC BY 3.0 | Canal 10 Gold | — |
 | Jamie Vardy | premier | Sí | CC BY-SA 3.0 | Кирилл Венедиктов | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Jan Vertonghen | premier | Sí | CC BY-SA 3.0 | Кирилл Венедиктов | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
@@ -87,6 +100,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Juan Fernando Quintero | libertadores | Sí | CC BY-SA 4.0 | RamosFils2Chèvre | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Juan Román Riquelme | libertadores | Sí | CC BY 3.0 | Todo Noticias | — |
 | Juan Sebastián Verón | libertadores | Sí | CC BY-SA 2.0 | Agencia de Noticias ANDES | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Julián Álvarez | mundiales | Sí | CC BY-SA 4.0 | Bryan Berlin | Identificado por búsqueda en Wikidata: Q59381180 ("Argentine footballer (born 2000)"). Verifica que sea la persona correcta; CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Kaká | champions | Sí | CC BY 3.0 br | José Cruz/ABr (cropped by tales.ebner ) | Commons advierte derechos de imagen de la persona (personality rights) |
 | Kasper Schmeichel | premier | Sí | CC BY-SA 4.0 | Hameltion | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Kevin De Bruyne | premier | Sí | CC BY-SA 4.0 | Bryan Berlin | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
@@ -96,6 +110,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Leroy Sané | premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Lionel Messi | mundiales, champions | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Lucas Pratto | libertadores | Sí | CC BY-SA 4.0 | Carlos Figueroa Rojas | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Luís Figo | mundiales | Sí | CC BY 4.0 | Biser Todorov | — |
 | Luis Suárez | mundiales, premier | Sí | CC BY-SA 4.0 | Bryan Berlin | Identificado por búsqueda en Wikidata: Q26517 ("Uruguayan association football player"). Verifica que sea la persona correcta; CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Luka Modrić | mundiales, champions | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Manuel Neuer | champions | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
@@ -104,6 +119,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Marcelo Salas | mundiales | Sí | CC BY-SA 3.0 | Alechuncho | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Marcus Rashford | premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Mario Balotelli | premier | Sí | CC BY-SA 2.0 | Kamran Hussain | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Mario Götze | mundiales | Sí | CC BY-SA 3.0 | Steindy ( talk ) 19:34, 27 June 2011 (UTC) | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Mario Kempes | mundiales | Sí | CC BY-SA 4.0 | Bryan Berlin | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Martin Ødegaard | premier | Sí | CC BY-SA 4.0 | Bryan Berlin | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Martín Palermo | libertadores | Sí | CC BY 3.0 | Parkerjones | — |
@@ -115,6 +131,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Morgan Gibbs-White | premier | Sí | CC0 | Sebalston | Commons advierte derechos de imagen de la persona (personality rights) |
 | N'Golo Kanté | premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Neymar | libertadores, mundiales, champions | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
+| Oscar Ruggeri | mundiales | Sí | Public domain | Desconocido Unknown author | Dominio público: verificar que lo sea también en Chile |
 | Paolo Guerrero | libertadores, mundiales | Sí | CC BY 2.0 | Agência Brasília | — |
 | Paolo Maldini | champions | Sí | CC BY 4.0 | Tasnim News Agency | — |
 | Paolo Rossi | mundiales | Sí | Public domain | The original uploader was Snake90 de Wikipedia en italiano . | Dominio público: verificar que lo sea también en Chile |
@@ -125,6 +142,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Peter Schmeichel | premier | Sí | CC BY 3.0 | Carlsberg | — |
 | Petr Čech | premier | Sí | CC BY-SA 3.0 | Warrenfish | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Piero Hincapié | premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
+| Radamel Falcao | mundiales | Sí | CC BY-SA 4.0 | Gil Zetbase | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Raheem Sterling | premier | Sí | CC BY-SA 3.0 | Антон Зайцев | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Raúl González | champions | Sí | CC BY 2.0 | Doha Stadium Plus Qatar | Identificado por búsqueda en Wikidata: Q11576 ("Spanish association football player"). Verifica que sea la persona correcta |
 | René Higuita | libertadores, mundiales | Sí | Public domain | Isolinamajul | Dominio público: verificar que lo sea también en Chile |
@@ -142,6 +160,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Samuel Eto'o | champions | Sí | CC BY-SA 4.0 | BACHELOR45 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Sergio Agüero | premier | Sí | CC BY-SA 3.0 | Кирилл Венедиктов | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Sergio Ramos | champions | Sí | CC BY 3.0 | Real Madrid | — |
+| Sofyan Amrabat | mundiales | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Son Heung-min | premier | Sí | CC BY-SA 4.0 | Ujishadow | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Steven Gerrard | premier, champions | Sí | CC BY-SA 3.0 | Эдгар Брещанов | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Teófilo Cubillas | mundiales | Sí | Public domain | Desconocido Unknown author | Dominio público: verificar que lo sea también en Chile |
@@ -150,11 +169,14 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Trent Alexander-Arnold | premier | Sí | CC BY-SA 3.0 | Антон Зайцев | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Vincent Kompany | premier | Sí | CC BY-SA 4.0 | ManuluxWiki | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Virgil van Dijk | premier, champions | Sí | CC BY-SA 3.0 at | Ailura, CC BY-SA 3.0 AT | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
+| Vozinha | mundiales | Sí | CC BY 4.0 | Petsbikes | — |
 | Wayne Rooney | premier | Sí | CC BY-SA 3.0 | Дмитрий Голубович | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Wes Morgan | premier | Sí | CC BY-SA 4.0 | paul langley | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Wesley Sneijder | mundiales | Sí | CC BY-SA 2.0 | Nuță Lucian | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | William Saliba | premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Xavi Hernández | champions | Sí | CC BY 4.0 | Fars Media Corporation | Identificado por búsqueda en Wikidata: Q17500 ("Spanish footballer and manager"). Verifica que sea la persona correcta |
 | Xherdan Shaqiri | premier | Sí | CC BY-SA 3.0 | Антон Зайцев | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Yassine Bounou | mundiales | Sí | CC BY 4.0 | Laloumance | — |
 | Yaya Touré | premier | Sí | CC BY 3.0 | Puma | — |
 | Zico | libertadores | Sí | CC BY 2.0 | Doha Stadium Plus | — |
 | Zinedine Zidane | mundiales, champions | Sí | CC BY 4.0 | Tasnim News Agency | — |

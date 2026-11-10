@@ -2024,11 +2024,13 @@
     "categorias": [
       "premier"
     ],
-    "libre": false,
+    "libre": true,
     "licencia": "CC BY-SA 4.0",
     "autor": "YantsImages",
     "obs": [
-      "Identificado mal por búsqueda (Ederson nacido en 1999, no el arquero de 1993). Excluido hasta corregir"
+      "Identificado por búsqueda en Wikidata: Q59150057 (\"Brazilian footballer (born 1999)\"). Verifica que sea la persona correcta",
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
     ],
     "wikidata_id": "Q59150057",
     "descripcion": "Brazilian footballer (born 1999)"
@@ -2287,5 +2289,332 @@
     ],
     "wikidata_id": "Q19599124",
     "descripcion": "French footballer (born 1996)"
+  },
+  "carlos-alberto-torres": {
+    "id": "carlos-alberto-torres",
+    "jugador": "Carlos Alberto Torres",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "Desconocido Unknown author",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q295262",
+    "descripcion": "Brazilian association football player and manager (1944-2016)"
+  },
+  "davor-suker": {
+    "id": "davor-suker",
+    "jugador": "Davor Šuker",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Ludovic Péron",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q189217",
+    "descripcion": "Croatian footballer"
+  },
+  "deco": {
+    "id": "deco",
+    "jugador": "Deco",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 2.5 es",
+    "autor": "Darz Mol",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q659634",
+    "descripcion": "Portuguese footballer (born 1977)"
+  },
+  "dino-zoff": {
+    "id": "dino-zoff",
+    "jugador": "Dino Zoff",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "Original: Desconocido Unknown author / Obra derivada: Heiko Gerber",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q180661",
+    "descripcion": "Italian association football player and manager"
+  },
+  "domagoj-vida": {
+    "id": "domagoj-vida",
+    "jugador": "Domagoj Vida",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "ТОВ \"Динамоманія\"",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q314227",
+    "descripcion": "Croatian footballer (born 1989)"
+  },
+  "dominik-livakovic": {
+    "id": "dominik-livakovic",
+    "jugador": "Dominik Livaković",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q18207229",
+    "descripcion": "Croatian association football player (born 1995)"
+  },
+  "emiliano-martinez": {
+    "id": "emiliano-martinez",
+    "jugador": "Emiliano Martínez",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q3275904",
+    "descripcion": "Argentine footballer (born 1992)"
+  },
+  "ferenc-puskas": {
+    "id": "ferenc-puskas",
+    "jugador": "Ferenc Puskás",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "Desconocido Unknown",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q482931",
+    "descripcion": "Hungarian association football player (1927–2006)"
+  },
+  "garrincha": {
+    "id": "garrincha",
+    "jugador": "Garrincha",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "El Gráfico, n° 2233",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q180642",
+    "descripcion": "Brazilian association football player (1933–1983)"
+  },
+  "ivan-rakitic": {
+    "id": "ivan-rakitic",
+    "jugador": "Ivan Rakitić",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Дмитрий Пукалик",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q115453",
+    "descripcion": "Croatian footballer"
+  },
+  "jairzinho": {
+    "id": "jairzinho",
+    "jugador": "Jairzinho",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "Desconocido Unknown author",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q210102",
+    "descripcion": "Brazilian footballer and manager"
+  },
+  "julian-alvarez": {
+    "id": "julian-alvarez",
+    "jugador": "Julián Álvarez",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin",
+    "obs": [
+      "Identificado por búsqueda en Wikidata: Q59381180 (\"Argentine footballer (born 2000)\"). Verifica que sea la persona correcta",
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q59381180",
+    "descripcion": "Argentine footballer (born 2000)"
+  },
+  "keylor-navas": {
+    "id": "keylor-navas",
+    "jugador": "Keylor Navas",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": false,
+    "licencia": "",
+    "autor": "",
+    "obs": [
+      "Error: Demasiados reintentos: https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&maxlag=5&titles=File%3AKeylor%20Navas%202018%20(cropped).jpg&prop=imageinfo&iiprop=url|extmetadata|mime&iiurlwidth=500&iiextmetadatafilter=Artist|LicenseShortName|LicenseUrl|AttributionRequired|Copyrighted|Restrictions|UsageTerms|Attribution&iiextmetadatalanguage=es"
+    ]
+  },
+  "luis-figo": {
+    "id": "luis-figo",
+    "jugador": "Luís Figo",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY 4.0",
+    "autor": "Biser Todorov",
+    "obs": [],
+    "wikidata_id": "Q483145",
+    "descripcion": "Portuguese football player and philatelist (born 1972)"
+  },
+  "mario-gotze": {
+    "id": "mario-gotze",
+    "jugador": "Mario Götze",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Steindy ( talk ) 19:34, 27 June 2011 (UTC)",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q104454",
+    "descripcion": "German association football player"
+  },
+  "oscar-ruggeri": {
+    "id": "oscar-ruggeri",
+    "jugador": "Oscar Ruggeri",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "Desconocido Unknown author",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q346942",
+    "descripcion": "Argentine footballer and manager"
+  },
+  "radamel-falcao": {
+    "id": "radamel-falcao",
+    "jugador": "Radamel Falcao",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Gil Zetbase",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q138172",
+    "descripcion": "Colombian association football player"
+  },
+  "sidny-lopes-cabral": {
+    "id": "sidny-lopes-cabral",
+    "jugador": "Sidny Lopes Cabral",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": false,
+    "licencia": "",
+    "autor": "",
+    "obs": [
+      "Wikidata no tiene imagen (P18)"
+    ],
+    "wikidata_id": "Q124382289",
+    "descripcion": "Cape Verdean footballer (born 2002)"
+  },
+  "sofyan-amrabat": {
+    "id": "sofyan-amrabat",
+    "jugador": "Sofyan Amrabat",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q18428483",
+    "descripcion": "Moroccan-Dutch association football player (born 1996)"
+  },
+  "vozinha": {
+    "id": "vozinha",
+    "jugador": "Vozinha",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY 4.0",
+    "autor": "Petsbikes",
+    "obs": [],
+    "wikidata_id": "Q3018091",
+    "descripcion": "Cape Verdean association football player (born 1986)"
+  },
+  "wesley-sneijder": {
+    "id": "wesley-sneijder",
+    "jugador": "Wesley Sneijder",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 2.0",
+    "autor": "Nuță Lucian",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q124086",
+    "descripcion": "Dutch association football player (born 1984)"
+  },
+  "yassine-bounou": {
+    "id": "yassine-bounou",
+    "jugador": "Yassine Bounou",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY 4.0",
+    "autor": "Laloumance",
+    "obs": [],
+    "wikidata_id": "Q3571952",
+    "descripcion": "Moroccan association football player"
   }
 }

@@ -68,14 +68,18 @@ const NATIONALITY = {
 
 // Elige el mejor candidato de búsquedas en Wikidata.
 // results: [{ term, items: [{ id, description }] }]. Devuelve { id, description, score } o null.
-export function pickSearchCandidate(results, pais) {
+// nacimiento (opcional): año de nacimiento conocido, para distinguir homónimos ("born 1993").
+export function pickSearchCandidate(results, pais, nacimiento = null) {
   const nat = NATIONALITY[pais] ? new RegExp(NATIONALITY[pais], "i") : null;
   const scores = new Map();
   for (const { items } of results) {
     items.forEach((it, rank) => {
       if (!looksLikeFootballer(it.description)) return;
       const prev = scores.get(it.id) ?? { id: it.id, description: it.description, score: 0 };
-      prev.score += 1 + (rank === 0 ? 0.5 : 0) + (nat?.test(it.description) ? 2 : 0);
+      const born = it.description.match(/born (\d{4})|\((\d{4})[–-]/);
+      const year = born ? Number(born[1] ?? born[2]) : null;
+      const birthScore = nacimiento && year ? (year === nacimiento ? 5 : -10) : 0;
+      prev.score += 1 + (rank === 0 ? 0.5 : 0) + (nat?.test(it.description) ? 2 : 0) + birthScore;
       scores.set(it.id, prev);
     });
   }

@@ -954,6 +954,263 @@
         "fin": 1991,
         "fuente": "wikidata"
       }
+    },
+    {
+      "id": "alexandre-pato",
+      "nombre": "Alexandre Pato",
+      "alias": [
+        "Pato"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Corinthians y el São Paulo.",
+        "Brilló muy joven en el AC Milan.",
+        "Debutó como profesional en el Internacional de Porto Alegre."
+      ],
+      "wikipedia_en": "Alexandre Pato",
+      "nacimiento": 1989,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "arthur-melo",
+      "nombre": "Arthur Melo",
+      "alias": [
+        "Arthur"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Pasó a préstamo por el Liverpool.",
+        "Jugó en el Barcelona y la Juventus.",
+        "Fue figura del Grêmio campeón de la Libertadores 2017."
+      ],
+      "wikipedia_en": "Arthur Melo",
+      "nacimiento": 1996,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "erick-pulgar",
+      "nombre": "Erick Pulgar",
+      "alias": [
+        "Pulgar"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "actual",
+      "pais": "Chile",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Surgió en Deportes Antofagasta.",
+        "Jugó en el Bologna y la Fiorentina.",
+        "Ganó la Libertadores 2022 con el Flamengo."
+      ],
+      "wikipedia_en": "Erick Pulgar",
+      "nacimiento": 1994,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "felipe-melo",
+      "nombre": "Felipe Melo",
+      "alias": [
+        "Melo"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en la Juventus, el Inter y el Galatasaray.",
+        "Fue expulsado ante Países Bajos en los cuartos de final del Mundial 2010.",
+        "Ganó la Libertadores con el Palmeiras y con el Fluminense."
+      ],
+      "wikipedia_en": "Felipe Melo",
+      "nacimiento": 1983,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "gustavo-gomez",
+      "nombre": "Gustavo Gómez",
+      "alias": [
+        "Gustavo Gomez"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "actual",
+      "pais": "Paraguay",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó en Lanús y en el AC Milan.",
+        "Es uno de los referentes de la selección paraguaya.",
+        "Fue el capitán del Palmeiras campeón de la Libertadores 2020 y 2021."
+      ],
+      "wikipedia_en": "Gustavo Gómez",
+      "nacimiento": 1993,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "hugo-ibarra",
+      "nombre": "Hugo Ibarra",
+      "alias": [
+        "El Negro Ibarra",
+        "Negro Ibarra",
+        "Hugo Benjamín Ibarra"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó en el Porto, el Mónaco y el Espanyol.",
+        "Después fue entrenador de Boca Juniors.",
+        "Ganó cuatro Copas Libertadores con Boca Juniors."
+      ],
+      "wikipedia_en": "Hugo Ibarra",
+      "nacimiento": 1974,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "hulk",
+      "nombre": "Hulk",
+      "alias": [
+        "Givanildo Vieira de Sousa"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en Japón y en China.",
+        "Brilló en el Porto y el Zenit.",
+        "Es ídolo del Atlético Mineiro, finalista de la Libertadores 2024."
+      ],
+      "wikipedia_en": "Hulk (footballer)",
+      "nacimiento": 1986,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "leandro-paredes",
+      "nombre": "Leandro Paredes",
+      "alias": [
+        "Paredes"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "actual",
+      "pais": "Argentina",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en la Roma, el Zenit y el PSG.",
+        "Fue campeón del mundo en 2022.",
+        "Se formó en Boca Juniors y volvió al club en 2025."
+      ],
+      "wikipedia_en": "Leandro Paredes",
+      "nacimiento": 1994,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "luan",
+      "nombre": "Luan",
+      "alias": [
+        "Luan Vieira",
+        "Luan Guilherme de Jesus Vieira"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Delantero",
+      "pistas": [
+        "Fue elegido mejor jugador de América en 2017.",
+        "Marcó un golazo en la final de la Libertadores 2017 ante Lanús.",
+        "Fue ídolo del Grêmio campeón de la Libertadores 2017."
+      ],
+      "wikipedia_en": "Luan (footballer, born 1993)",
+      "nacimiento": 1993,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "miguel-merentiel",
+      "nombre": "Miguel Merentiel",
+      "alias": [
+        "Merentiel",
+        "La Bestia"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "actual",
+      "pais": "Uruguay",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Godoy Cruz de Argentina.",
+        "Pasó por el Palmeiras.",
+        "Juega en Boca Juniors desde 2023."
+      ],
+      "wikipedia_en": "Miguel Merentiel",
+      "nacimiento": 1996,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "pedro-guilherme",
+      "nombre": "Pedro",
+      "alias": [
+        "Pedro Guilherme"
+      ],
+      "categorias": [
+        "libertadores"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Delantero",
+      "pistas": [
+        "Se formó en el Fluminense.",
+        "Pasó por la Fiorentina.",
+        "Fue goleador y campeón de la Libertadores 2022 con el Flamengo."
+      ],
+      "wikipedia_en": "Pedro (footballer, born 1997)",
+      "nacimiento": 1997,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
     }
   ]
 }
