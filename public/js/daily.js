@@ -77,3 +77,30 @@ export function msUntilNextDay(date, timeZone) {
   const elapsed = (get("hour") * 3600 + get("minute") * 60 + get("second")) * 1000 + date.getMilliseconds();
   return 86400000 - elapsed;
 }
+
+// Reto diario de varias fotos: `count` jugadores distintos por categoría y día, iguales para todos.
+// Recorre la mezcla de cada categoría en orden (no repite hasta agotar la lista) y evita que un
+// jugador salga el mismo día en dos categorías. Devuelve { categoria: [índices de ronda] }.
+export function dailyPicksMulti(n, categories, count = 3) {
+  const used = new Set();
+  const picks = {};
+  for (const { id, keys } of categories) {
+    const total = keys.length;
+    picks[id] = [];
+    if (!total) continue;
+    const want = Math.min(count, total);
+    let slot = (n - 1) * want; // posición en la secuencia infinita de mezclas
+    let tries = 0;
+    while (picks[id].length < want && tries < total * 3) {
+      const cycle = Math.floor(slot / total);
+      const pos = ((slot % total) + total) % total;
+      const idx = cycleOrder(id, cycle, total)[pos];
+      slot++;
+      tries++;
+      if (used.has(keys[idx]) || picks[id].includes(idx)) continue;
+      picks[id].push(idx);
+      used.add(keys[idx]);
+    }
+  }
+  return picks;
+}

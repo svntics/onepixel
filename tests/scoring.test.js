@@ -20,3 +20,16 @@ test("los puntos nunca suben al avanzar (pista = fallo)", () => {
   const pts = levels.map(pointsForBlur);
   for (let k = 1; k < pts.length; k++) assert.ok(pts[k] < pts[k - 1]);
 });
+
+import { dailyShareText } from "../public/js/share.js";
+test("texto para compartir del reto de 3 fotos (sin nombres)", () => {
+  const t = dailyShareText({
+    siteName: "onepixel", siteUrl: "https://x.app", categoria: "Mundiales", numero: 103, max: 6, maxPoints: 600,
+    fotos: [
+      { marks: ["miss", "hint", "win"], won: true, points: 300 },
+      { marks: ["win"], won: true, points: 600 },
+      { marks: ["miss", "miss", "miss", "miss", "miss", "miss"], won: false, points: 0 },
+    ],
+  });
+  assert.equal(t, "onepixel ⚽ Mundiales #103\n1️⃣ 🟥🟨🟩⬛⬛⬛ 300\n2️⃣ 🟩⬛⬛⬛⬛⬛ 600\n3️⃣ 🟥🟥🟥🟥🟥🟥 0\nTotal: 900/1800 pts · 2/3 aciertos\nhttps://x.app");
+});

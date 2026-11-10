@@ -96,4 +96,10 @@ body {
   html[data-view="game"] #view-game {
     display: block !important;
   }
+  html[data-view="mode"] #view-home {
+    display: none !important;
+  }
+  html[data-view="mode"] #view-mode {
+    display: block !important;
+  }
 }

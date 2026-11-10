@@ -52,3 +52,28 @@ test("cuenta regresiva: entre 0 y 24 h", () => {
   const ms = msUntilNextDay(new Date("2026-11-10T02:00:00Z"), TZ); // 23:00 en Chile
   assert.equal(ms, 3600000);
 });
+
+import { dailyPicksMulti } from "../public/js/daily.js";
+
+test("reto de 3 fotos: 3 jugadores distintos, iguales para todos ese día", () => {
+  const a = dailyPicksMulti(103, cats(30));
+  assert.deepEqual(a, dailyPicksMulti(103, cats(30)));
+  for (const ids of Object.values(a)) assert.equal(new Set(ids).size, 3);
+});
+
+test("reto de 3 fotos: nunca el mismo jugador el mismo día en dos categorías", () => {
+  for (let n = 1; n <= 300; n++) {
+    const all = Object.values(dailyPicksMulti(n, cats(30))).flat();
+    assert.equal(new Set(all).size, all.length, `día ${n}`);
+  }
+});
+
+test("reto de 3 fotos: no repite hasta recorrer la lista (30 jugadores = 10 días)", () => {
+  const seen = [];
+  for (let n = 1; n <= 10; n++) seen.push(...dailyPicksMulti(n, [cats(30)[0]]).mundiales);
+  assert.equal(new Set(seen).size, 30);
+});
+
+test("reto de 3 fotos: categoría con menos de 3 jugadores", () => {
+  assert.equal(dailyPicksMulti(5, [{ id: "x", keys: ["a", "b"] }]).x.length, 2);
+});

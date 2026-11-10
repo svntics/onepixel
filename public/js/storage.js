@@ -19,26 +19,40 @@ export function save(key, value) {
 }
 
 // ---------- Estadísticas del reto diario (por categoría) ----------
-const emptyStats = () => ({ jugados: 0, ganados: 0, racha: 0, mejorRacha: 0, ultimoGanado: null, puntos: 0, distribucion: [0, 0, 0, 0, 0, 0] });
+// jugados = retos (días) completados · fotos/aciertos = fotos jugadas/acertadas
+// distribucion = fotos acertadas en el intento 1..6 · racha = días seguidos con al menos 1 acierto
+const emptyStats = () => ({
+  jugados: 0, fotos: 0, aciertos: 0, puntos: 0, mejorPuntaje: 0,
+  racha: 0, mejorRacha: 0, ultimoGanado: null, distribucion: [0, 0, 0, 0, 0, 0],
+});
 
 export function getStats(cat) {
-  return { ...emptyStats(), ...load(`stats:${cat}`, {}) };
+  const s = { ...emptyStats(), ...load(`stats:${cat}`, {}) };
+  // Estadísticas guardadas con el reto de 1 foto: cada día era 1 foto
+  if (s.fotos === 0 && s.jugados > 0) {
+    s.fotos = s.jugados;
+    s.aciertos = s.ganados ?? 0;
+  }
+  return s;
 }
 
-// Registra el resultado del reto n. Racha = retos diarios ganados en días consecutivos.
-export function recordDaily(cat, n, { won, points, stage }) {
+// Registra el reto del día n: fotos = [{ won, points, stage }]
+export function recordDailyDay(cat, n, fotos) {
   const s = getStats(cat);
+  const total = fotos.reduce((a, f) => a + f.points, 0);
+  const wins = fotos.filter((f) => f.won);
   s.jugados++;
-  s.puntos += points;
-  if (won) {
-    s.ganados++;
-    s.distribucion[stage]++;
+  s.fotos += fotos.length;
+  s.aciertos += wins.length;
+  s.puntos += total;
+  s.mejorPuntaje = Math.max(s.mejorPuntaje, total);
+  wins.forEach((f) => s.distribucion[f.stage]++);
+  if (wins.length) {
     s.racha = s.ultimoGanado === n - 1 ? s.racha + 1 : 1;
     s.ultimoGanado = n;
     s.mejorRacha = Math.max(s.mejorRacha, s.racha);
-  } else {
-    s.racha = 0;
-  }
+  } else s.racha = 0;
+  delete s.ganados;
   save(`stats:${cat}`, s);
   return s;
 }
