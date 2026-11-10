@@ -1,6 +1,6 @@
 # Reporte de imágenes
 
-Generado: 2026-11-10T15:11:05.215Z · 190 con imagen libre · 2 excluidos
+Generado: 2026-11-10T15:12:07.337Z · 192 con imagen libre · 2 excluidos
 
 Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se resuelva su caso.
 
@@ -55,6 +55,8 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Claudio Bravo | mundiales, premier | Sí | CC BY-SA 3.0 | Дмитрий Садовников | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Cristiano Ronaldo | champions, premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Dani Alves | espanola | Sí | CC BY 2.0 | Palácio do Planalto from Brasilia, Brasil | — |
+| Dani Carvajal | espanola | Sí | CC BY-SA 4.0 | Rolandhino1 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| David Beckham | espanola | Sí | CC BY 3.0 | Soccer Aid for Unicef | — |
 | David de Gea | premier | Sí | CC BY-SA 3.0 | Кирилл Венедиктов | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | David Silva | premier | Sí | CC BY-SA 3.0 | Кирилл Венедиктов | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Davor Šuker | mundiales | Sí | CC BY-SA 3.0 | Ludovic Péron | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |

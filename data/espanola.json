@@ -1060,8 +1060,14 @@
       ],
       "wikipedia_en": "Dani Carvajal",
       "nacimiento": 1992,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q127452",
+      "imagen": {
+        "archivo_local": "img/p/4afe9256d1eae023.webp",
+        "autor": "Rolandhino1",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_Dani_Carvajal_10_(cropped).jpg"
+      },
       "aprobado": false
     },
     {
@@ -1084,8 +1090,14 @@
       ],
       "wikipedia_en": "David Beckham",
       "nacimiento": 1975,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q10520",
+      "imagen": {
+        "archivo_local": "img/p/19433f98bd40bed4.webp",
+        "autor": "Soccer Aid for Unicef",
+        "licencia": "CC BY 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:David_Beckham_UNICEF_(cropped).jpg"
+      },
       "aprobado": false
     },
     {
