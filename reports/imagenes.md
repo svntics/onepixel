@@ -1,6 +1,6 @@
 # Reporte de imágenes
 
-Generado: 2026-11-10T14:08:05.916Z · 183 con imagen libre · 2 excluidos
+Generado: 2026-11-10T14:09:05.482Z · 184 con imagen libre · 2 excluidos
 
 Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se resuelva su caso.
 
@@ -25,6 +25,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Andy Carroll | premier | Sí | CC BY-SA 4.0 | Egghead06 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Antoine Griezmann | espanola | Sí | CC BY-SA 2.0 | Biser Todorov ( User:Biso ) from Sofia, Bulgaria | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Antonio Di Natale | italiana | Sí | CC BY-SA 3.0 | Roberto Vicario | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Arda Turan | espanola | Sí | CC BY 4.0 | fckarpaty.org.ua | — |
 | Ariel Ortega | libertadores | Sí | CC BY 2.0 | Gobierno de la Ciudad de Buenos Aires from Ciudad Autónoma de Buenos Aires, Argentina | — |
 | Aritz Aduriz | espanola | Sí | CC BY 2.0 | Carlos_RM | — |
 | Arjen Robben | champions | Sí | CC BY-SA 3.0 | Дмитрий Садовников | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |

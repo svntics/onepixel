@@ -2781,5 +2781,18 @@
     "obs": [],
     "wikidata_id": "Q54105",
     "descripcion": "Spanish footballer (born 1981)"
+  },
+  "arda-turan": {
+    "id": "arda-turan",
+    "jugador": "Arda Turan",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY 4.0",
+    "autor": "fckarpaty.org.ua",
+    "obs": [],
+    "wikidata_id": "Q487459",
+    "descripcion": "Turkish association football player (born 1987)"
   }
 }

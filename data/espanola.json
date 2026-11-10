@@ -854,8 +854,14 @@
       ],
       "wikipedia_en": "Arda Turan",
       "nacimiento": 1987,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q487459",
+      "imagen": {
+        "archivo_local": "img/p/6037fa7c1c95d95f.webp",
+        "autor": "fckarpaty.org.ua",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:%D0%90%D1%80%D0%B4%D0%B0_%D0%A2%D1%83%D1%80%D0%B0%D0%BD.webp"
+      },
       "aprobado": false
     },
     {
