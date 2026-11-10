@@ -103,3 +103,25 @@ body {
     display: block !important;
   }
 }
+
+/* Modo 1v1: pantalla final estilo arcade */
+.duel-final {
+  background-image: radial-gradient(circle at 50% 0%, color-mix(in srgb, var(--color-accent) 22%, transparent), transparent 60%);
+}
+.duel-title {
+  background: linear-gradient(90deg, #fbbf24, var(--color-accent), #60a5fa);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.duel-trophy {
+  display: inline-block;
+  animation: duel-bounce 1.2s ease-in-out infinite;
+}
+@keyframes duel-bounce {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-8px) scale(1.08); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .duel-trophy { animation: none; }
+}

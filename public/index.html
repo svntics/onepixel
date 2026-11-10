@@ -12,7 +12,7 @@
     try { if (localStorage.getItem("op-theme") === "light") document.documentElement.dataset.theme = "light"; } catch (e) {}
     // Muestra la vista correcta antes de pintar, para que la página no salte:
     // #/categoria = elegir modo · #/categoria/diario o /practica = juego · resto = inicio
-    document.documentElement.dataset.view = /^#\/[a-z]+\/(diario|practica)/.test(location.hash) ? "game" : /^#\/[a-z]+$/.test(location.hash) ? "mode" : "home";
+    document.documentElement.dataset.view = /^#\/[a-z]+\/(diario|practica|1v1)/.test(location.hash) ? "game" : /^#\/[a-z]+$/.test(location.hash) ? "mode" : "home";
   </script>
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="stylesheet" href="assets/ads.css">
@@ -102,6 +102,13 @@
             <span class="text-sm text-muted">Ilimitado, de a una foto. No cuenta para las estadísticas.</span>
           </span>
         </a>
+        <a id="mode-duel" class="flex min-h-24 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
+          <span class="text-3xl" aria-hidden="true">⚔️</span>
+          <span class="flex flex-1 flex-col">
+            <span class="text-lg font-bold">Modo 1v1 <span class="font-normal text-muted">(Juega con un amigo)</span></span>
+            <span class="text-sm text-muted">Dos jugadores en el mismo dispositivo, por turnos. Con 2 pases cada uno.</span>
+          </span>
+        </a>
       </div>
     </section>
 
@@ -111,6 +118,11 @@
         <a id="back-to-mode" href="#/" class="min-h-11 inline-flex items-center rounded-xl px-2 text-sm font-semibold text-muted hover:text-text">← Elegir modo</a>
       </div>
       <h1 id="game-title" class="mt-1 min-h-8 text-2xl font-extrabold"></h1>
+
+      <!-- Modo 1v1: configuración, pantallas de transición y resultado final -->
+      <div id="duel-screen" hidden tabindex="-1" class="mt-4 outline-none"></div>
+      <!-- Modo 1v1: marcador en vivo durante el turno -->
+      <div id="duel-bar" hidden class="mt-3 rounded-2xl border border-border bg-surface p-3"></div>
 
       <!-- Resultados del reto diario (al terminar las 3 fotos) -->
       <div id="daily-summary" hidden tabindex="-1" class="mt-4 outline-none"></div>
@@ -140,6 +152,7 @@
       </form>
       <p id="round-msg" class="mt-2 min-h-6 text-sm" role="status" aria-live="polite"></p>
       <button id="hint-btn" type="button" class="min-h-11 w-full rounded-xl border border-border bg-surface px-3 font-semibold disabled:opacity-60"></button>
+      <button id="pass-btn" type="button" hidden class="mt-2 min-h-11 w-full rounded-xl border-2 border-amber-400 bg-surface px-3 font-semibold disabled:border-border disabled:opacity-60"></button>
 
       <ul id="round-log" class="mt-3 grid gap-2" aria-label="Intentos y pistas"></ul>
 

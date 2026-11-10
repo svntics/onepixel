@@ -4,6 +4,7 @@
 //         #/<categoria>           → elegir modo (Reto diario / Modo práctica)
 //         #/<categoria>/diario    → reto diario (3 fotos) y, al terminar, sus resultados
 //         #/<categoria>/practica  → modo práctica (ilimitado, de a una foto)
+//         #/<categoria>/1v1       → duelo 1v1 local (dos jugadores por turnos)
 import { CONFIG } from "./config.js";
 import { startRound } from "./game.js";
 import { dateInTimeZone, challengeNumber, dailyPicksMulti, msUntilNextDay } from "./daily.js";
@@ -12,6 +13,7 @@ import { shareText, dailyShareText, shareResult } from "./share.js";
 import { pointsForBlur } from "./scoring.js";
 import { initAds, initConsent, initSupport } from "./ads.js";
 import { validateApodo, getApodo, setApodo, submitScore, getTop, RANKING_COMPARTIDO } from "./ranking.js";
+import { playDuel } from "./duel.js";
 
 const $ = (sel) => document.querySelector(sel);
 const views = { home: $("#view-home"), mode: $("#view-mode"), game: $("#view-game") };
@@ -87,6 +89,7 @@ function showMode(cat) {
   document.title = `${cat.nombre} · ${CONFIG.SITE_NAME}`;
   $("#mode-daily").href = `#/${cat.id}/diario`;
   $("#mode-practice").href = `#/${cat.id}/practica`;
+  $("#mode-duel").href = `#/${cat.id}/1v1`;
   const d = loadDaily(cat.id, n);
   const k = doneFotos(d);
   $("#mode-daily-status").textContent =
@@ -190,6 +193,10 @@ function countdown(el, onNewDay) {
 function setGameMode(summary) {
   $("#game-ui").hidden = summary;
   $("#daily-summary").hidden = !summary;
+  // Elementos exclusivos del modo 1v1
+  $("#duel-screen").hidden = true;
+  $("#duel-bar").hidden = true;
+  $("#pass-btn").hidden = true;
 }
 
 // ---------- Modo práctica (una foto por ronda, ilimitado) ----------
@@ -422,13 +429,14 @@ function showSummary(cat, count) {
 
 async function showGame(cat, mode) {
   clearInterval(countdownTimer);
-  $("#game-title").textContent = `${cat.emoji} ${cat.nombre} · ${mode === "diario" ? "Reto diario" : "Práctica"}`;
+  $("#game-title").textContent = `${cat.emoji} ${cat.nombre} · ${{ diario: "Reto diario", practica: "Práctica", "1v1": "Duelo 1v1" }[mode]}`;
   $("#back-to-mode").href = `#/${cat.id}`;
   document.title = `${cat.nombre} · ${CONFIG.SITE_NAME}`;
   try {
     const data = await loadCategory(cat.id);
     if (!data.rondas.length) throw new Error("sin rondas");
     if (mode === "diario") await playDaily(cat, data);
+    else if (mode === "1v1") playDuel(cat, data);
     else playPractice(cat, data);
   } catch (e) {
     console.error(e);
@@ -501,7 +509,7 @@ dialog.addEventListener("click", (e) => e.target === dialog && dialog.close());
 
 // ---------- Router por hash ----------
 function route(e) {
-  const [, id, mode] = location.hash.match(/^#\/([a-z]+)(?:\/(diario|practica))?$/) ?? [];
+  const [, id, mode] = location.hash.match(/^#\/([a-z]+)(?:\/(diario|practica|1v1))?$/) ?? [];
   const cat = CATEGORIES.find((c) => c.id === id);
   const view = cat ? (mode ? "game" : "mode") : "home";
   document.documentElement.dataset.view = view;
