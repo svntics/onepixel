@@ -176,6 +176,17 @@ function link(href, text, title) {
   return a;
 }
 
+// Título de la obra en Commons (lo piden las licencias CC 2.0/3.0), sacado de la URL de la fuente.
+// Solo se usa al terminar la ronda: suele contener el nombre del jugador.
+function workTitle(url) {
+  try {
+    const t = decodeURIComponent(String(url).split("/wiki/").pop()).replace(/^File:/, "").replace(/_/g, " ");
+    return t.replace(/\.(jpe?g|png|webp|gif|tiff?)$/i, "");
+  } catch {
+    return "";
+  }
+}
+
 function renderCredit(cr, final) {
   const c = el.credit;
   c.replaceChildren();
@@ -184,16 +195,18 @@ function renderCredit(cr, final) {
     return;
   }
   const mode = CONFIG.CREDIT_MODE;
+  // Durante la ronda (modo "al-final"): texto neutral, sin enlaces ni datos que permitan buscar la foto
   if (!final && mode === "al-final") {
-    c.append("El crédito de la foto se muestra al terminar · ", link("creditos.html", "Créditos"));
+    c.textContent = "📷 Imagen con licencia libre · el crédito se muestra al terminar";
     return;
   }
   const lic = cr.url_licencia ? link(cr.url_licencia, cr.licencia) : cr.licencia;
-  c.append(`Foto: ${cr.autor} · `, lic, " · ");
-  if (final || mode === "durante") {
-    c.append(link(cr.url_fuente, "Wikimedia Commons", "Ver la foto original (puede revelar al jugador)"));
+  if (final) {
+    const titulo = workTitle(cr.url_fuente);
+    c.append(titulo ? `«${titulo}», foto de ${cr.autor} · ` : `Foto: ${cr.autor} · `, lic, " · ", link(cr.url_fuente, "Wikimedia Commons"));
   } else {
-    c.append("Wikimedia Commons (enlace al terminar)");
+    c.append(`Foto: ${cr.autor} · `, lic, " · ");
+    c.append(mode === "durante" ? link(cr.url_fuente, "Wikimedia Commons", "Ver la foto original (puede revelar al jugador)") : "Wikimedia Commons (enlace al terminar)");
   }
   c.append(" · Redimensionada y difuminada");
 }

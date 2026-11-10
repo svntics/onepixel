@@ -57,11 +57,13 @@ export const CONFIG = {
   // Correo de contacto para privacidad y solicitudes de retiro de imágenes. Vacío = "pendiente".
   CONTACT_EMAIL: "santijavier64@gmail.com",
 
-  // Cómo se muestra el crédito de la foto MIENTRAS se juega (al terminar siempre se muestra completo):
-  //   "durante"            → autor, licencia y enlace a la fuente (el enlace puede revelar al jugador)
+  // Cómo se muestra el crédito de la foto MIENTRAS se juega (al terminar cada foto siempre se muestra completo):
+  //   "al-final"           → solo un texto neutral sin enlaces ni datos del autor (anti-spoiler)
   //   "durante-sin-enlace" → autor y licencia; el enlace a la fuente aparece al terminar
-  //   "al-final"           → solo un aviso; el crédito completo aparece al terminar
-  CREDIT_MODE: "durante",
+  //   "durante"            → autor, licencia y enlace a la fuente (el enlace puede revelar al jugador)
+  // Elegido: "al-final". Ojo: dar el crédito recién al terminar es lo que más arriesga no cumplir
+  // las licencias CC 2.0/3.0 (ver README). No es asesoría legal.
+  CREDIT_MODE: "al-final",
 
   // ---------- Categorías generales (página principal) ----------
   //   estado "activo" = se puede jugar · "pronto" = visible pero bloqueada ("Próximamente")

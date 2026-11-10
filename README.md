@@ -137,7 +137,7 @@ Todo se ajusta en **`public/js/config.js`**. Puedes editarlo directamente en Git
 | `CONSENT_BANNER` | Aviso de cookies simple (**no** es una plataforma certificada) | `false` |
 | `SUPPORT_URL` / `SUPPORT_LABEL` | Enlace de apoyo (Mercado Pago u otro). Vacío = no aparece | `"https://link.mercadopago.cl/apoyoonepixel"` |
 | `CONTACT_EMAIL` | Correo para privacidad y retiro de fotos | `"santijavier64@gmail.com"` |
-| `CREDIT_MODE` | Crédito de la foto durante la ronda: `"durante"`, `"durante-sin-enlace"` o `"al-final"` | `"durante"` |
+| `CREDIT_MODE` | Crédito de la foto durante la ronda: `"al-final"` (texto neutral; crédito completo al terminar cada foto), `"durante-sin-enlace"` o `"durante"` | `"al-final"` |
 | `CATEGORIES` | Nombre, emoji y descripción de las 4 categorías | — |
 
 > Cambiar jugadores o `DAILY_EPOCH` **cambia el reto del día**. Hazlo de madrugada (hora de Chile) para no afectar a quien ya jugó.
@@ -223,7 +223,7 @@ npm run images -- --solo=marcelo-salas
 - [ ] Pistas revisadas (pueden tener errores; las marcadas en las notas de desarrollo son prioritarias).
 - [x] `SITE_URL` con la URL real de Vercel.
 - [x] `DAILY_EPOCH` decidido: reto #1 = 1 de agosto de 2026.
-- [x] `CREDIT_MODE` elegido: `"durante"`.
+- [x] `CREDIT_MODE` elegido: `"al-final"` (anti-spoiler). Riesgo: dar el crédito recién al terminar podría no ser suficiente para licencias CC 2.0/3.0; no es asesoría legal.
 - [x] `CONTACT_EMAIL` completado.
 - [ ] Nombre "onepixel" buscado en el registro de marcas (INAPI) y en Google.
 - [ ] Revisión legal de privacidad y aviso legal **(los textos incluidos son plantillas, no asesoría legal)**.
