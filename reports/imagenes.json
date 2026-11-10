@@ -1524,5 +1524,722 @@
     ],
     "wikidata_id": "Q83456",
     "descripcion": "English association football player (born 1980)"
+  },
+  "vincent-kompany": {
+    "id": "vincent-kompany",
+    "jugador": "Vincent Kompany",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "ManuluxWiki",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q201381",
+    "descripcion": "Belgian association football player and manager"
+  },
+  "dele-alli": {
+    "id": "dele-alli",
+    "jugador": "Dele Alli",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Steffen Prößdorf",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q10553748",
+    "descripcion": "English association football player"
+  },
+  "christian-eriksen": {
+    "id": "christian-eriksen",
+    "jugador": "Christian Eriksen",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 2.0",
+    "autor": "Chris 0023 from Lyngby, Denmark",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q294951",
+    "descripcion": "Danish association football player"
+  },
+  "jan-vertonghen": {
+    "id": "jan-vertonghen",
+    "jugador": "Jan Vertonghen",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Кирилл Венедиктов",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q313170",
+    "descripcion": "Belgian association football player (born 1987)"
+  },
+  "hugo-lloris": {
+    "id": "hugo-lloris",
+    "jugador": "Hugo Lloris",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Кирилл Венедиктов",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q1907",
+    "descripcion": "French footballer (born 1986)"
+  },
+  "kyle-walker": {
+    "id": "kyle-walker",
+    "jugador": "Kyle Walker",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Кирилл Венедиктов",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q59108",
+    "descripcion": "English association football player (born 1990)"
+  },
+  "eden-hazard": {
+    "id": "eden-hazard",
+    "jugador": "Eden Hazard",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY 4.0",
+    "autor": "Fars Media Corporation",
+    "obs": [],
+    "wikidata_id": "Q214204",
+    "descripcion": "Belgian footballer (born 1991)"
+  },
+  "diego-costa": {
+    "id": "diego-costa",
+    "jugador": "Diego Costa",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY 4.0",
+    "autor": "Fars Media Corporation",
+    "obs": [],
+    "wikidata_id": "Q459707",
+    "descripcion": "Brazilian association football player"
+  },
+  "cesar-azpilicueta": {
+    "id": "cesar-azpilicueta",
+    "jugador": "César Azpilicueta",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY 4.0",
+    "autor": "Fars Media Corporation",
+    "obs": [],
+    "wikidata_id": "Q294806",
+    "descripcion": "Spanish association football player"
+  },
+  "david-silva": {
+    "id": "david-silva",
+    "jugador": "David Silva",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Кирилл Венедиктов",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q161069",
+    "descripcion": "Spanish association football player"
+  },
+  "mario-balotelli": {
+    "id": "mario-balotelli",
+    "jugador": "Mario Balotelli",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 2.0",
+    "autor": "Kamran Hussain",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q129700",
+    "descripcion": "Italian association football player"
+  },
+  "raheem-sterling": {
+    "id": "raheem-sterling",
+    "jugador": "Raheem Sterling",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Антон Зайцев",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q312157",
+    "descripcion": "English association football player (born 1994)"
+  },
+  "leroy-sane": {
+    "id": "leroy-sane",
+    "jugador": "Leroy Sané",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q16499882",
+    "descripcion": "German association football player"
+  },
+  "paul-pogba": {
+    "id": "paul-pogba",
+    "jugador": "Paul Pogba",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Gabriel Hutchinson / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q129027",
+    "descripcion": "French footballer (born 1993)"
+  },
+  "riyad-mahrez": {
+    "id": "riyad-mahrez",
+    "jugador": "Riyad Mahrez",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Jeanpierrekepseu",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q8338725",
+    "descripcion": "Algerian footballer (born 1991)"
+  },
+  "wes-morgan": {
+    "id": "wes-morgan",
+    "jugador": "Wes Morgan",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "paul langley",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q1392500",
+    "descripcion": "Jamaican association football player (born 1984)"
+  },
+  "kasper-schmeichel": {
+    "id": "kasper-schmeichel",
+    "jugador": "Kasper Schmeichel",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Hameltion",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q295797",
+    "descripcion": "Danish association football player"
+  },
+  "aymeric-laporte": {
+    "id": "aymeric-laporte",
+    "jugador": "Aymeric Laporte",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q3855340",
+    "descripcion": "Spanish-French footballer (born 1994)"
+  },
+  "rodri": {
+    "id": "rodri",
+    "jugador": "Rodri",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "Identificado por búsqueda en Wikidata: Q20994118 (\"Spanish association football player (born 1996)\"). Verifica que sea la persona correcta",
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q20994118",
+    "descripcion": "Spanish association football player (born 1996)"
+  },
+  "ilkay-gundogan": {
+    "id": "ilkay-gundogan",
+    "jugador": "İlkay Gündoğan",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Granada",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q161089",
+    "descripcion": "German footballer (born 1990)"
+  },
+  "enzo-fernandez": {
+    "id": "enzo-fernandez",
+    "jugador": "Enzo Fernández",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q96105248",
+    "descripcion": "Argentine footballer (born 2001)"
+  },
+  "moises-caicedo": {
+    "id": "moises-caicedo",
+    "jugador": "Moisés Caicedo",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q87715532",
+    "descripcion": "Ecuatorian association football player (born 2001)"
+  },
+  "declan-rice": {
+    "id": "declan-rice",
+    "jugador": "Declan Rice",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q30007142",
+    "descripcion": "English footballer (born 1999)"
+  },
+  "bukayo-saka": {
+    "id": "bukayo-saka",
+    "jugador": "Bukayo Saka",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q59306386",
+    "descripcion": "English footballer (born 2001)"
+  },
+  "martin-odegaard": {
+    "id": "martin-odegaard",
+    "jugador": "Martin Ødegaard",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q16902219",
+    "descripcion": "Norwegian footballer (born 1998)"
+  },
+  "william-saliba": {
+    "id": "william-saliba",
+    "jugador": "William Saliba",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q56868118",
+    "descripcion": "French footballer (born 2001)"
+  },
+  "gabriel-magalhaes": {
+    "id": "gabriel-magalhaes",
+    "jugador": "Gabriel Magalhães",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q25175970",
+    "descripcion": "Brazilian footballer (born 1997)"
+  },
+  "alisson-becker": {
+    "id": "alisson-becker",
+    "jugador": "Alisson Becker",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q18237361",
+    "descripcion": "Brazilian association football player"
+  },
+  "sadio-mane": {
+    "id": "sadio-mane",
+    "jugador": "Sadio Mané",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q209942",
+    "descripcion": "Senegalese footballer (born 1992)"
+  },
+  "andrew-robertson": {
+    "id": "andrew-robertson",
+    "jugador": "Andrew Robertson",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin",
+    "obs": [
+      "Identificado por búsqueda en Wikidata: Q15915040 (\"Scottish association football player (born 1994)\"). Verifica que sea la persona correcta",
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q15915040",
+    "descripcion": "Scottish association football player (born 1994)"
+  },
+  "trent-alexander-arnold": {
+    "id": "trent-alexander-arnold",
+    "jugador": "Trent Alexander-Arnold",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Антон Зайцев",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q27569376",
+    "descripcion": "English association football player (born 1998)"
+  },
+  "jordan-henderson": {
+    "id": "jordan-henderson",
+    "jugador": "Jordan Henderson",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q273715",
+    "descripcion": "English association football player (born 1990)"
+  },
+  "ederson": {
+    "id": "ederson",
+    "jugador": "Ederson",
+    "categorias": [
+      "premier"
+    ],
+    "libre": false,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "YantsImages",
+    "obs": [
+      "Identificado mal por búsqueda (Ederson nacido en 1999, no el arquero de 1993). Excluido hasta corregir"
+    ],
+    "wikidata_id": "Q59150057",
+    "descripcion": "Brazilian footballer (born 1999)"
+  },
+  "morgan-gibbs-white": {
+    "id": "morgan-gibbs-white",
+    "jugador": "Morgan Gibbs-White",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC0",
+    "autor": "Sebalston",
+    "obs": [
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q28147578",
+    "descripcion": "English association football player (born 2000)"
+  },
+  "jarrod-bowen": {
+    "id": "jarrod-bowen",
+    "jugador": "Jarrod Bowen",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY 4.0",
+    "autor": "Egghead06",
+    "obs": [],
+    "wikidata_id": "Q26704890",
+    "descripcion": "English association football player (born 1996)"
+  },
+  "andy-carroll": {
+    "id": "andy-carroll",
+    "jugador": "Andy Carroll",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Egghead06",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q159159",
+    "descripcion": "English association football player (born 1989)"
+  },
+  "adel-taarabt": {
+    "id": "adel-taarabt",
+    "jugador": "Adel Taarabt",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Anton Zaitsev",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q350616",
+    "descripcion": "Moroccan footballer (born 1989)"
+  },
+  "mesut-ozil": {
+    "id": "mesut-ozil",
+    "jugador": "Mesut Özil",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY 4.0",
+    "autor": "Fars Media Corporation",
+    "obs": [],
+    "wikidata_id": "Q83488",
+    "descripcion": "Turkish-German association football player"
+  },
+  "harry-maguire": {
+    "id": "harry-maguire",
+    "jugador": "Harry Maguire",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "UK Prime Minister",
+    "obs": [],
+    "wikidata_id": "Q165772",
+    "descripcion": "English association football player (born 1993)"
+  },
+  "david-de-gea": {
+    "id": "david-de-gea",
+    "jugador": "David de Gea",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Кирилл Венедиктов",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q150268",
+    "descripcion": "Spanish association football player"
+  },
+  "xherdan-shaqiri": {
+    "id": "xherdan-shaqiri",
+    "jugador": "Xherdan Shaqiri",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Антон Зайцев",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q252190",
+    "descripcion": "Swiss association football player"
+  },
+  "granit-xhaka": {
+    "id": "granit-xhaka",
+    "jugador": "Granit Xhaka",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 2.0",
+    "autor": "@cfcunofficial (Chelsea Debs) London from London, UK",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q514427",
+    "descripcion": "Swiss footballer (born 1975)"
+  },
+  "roberto-firmino": {
+    "id": "roberto-firmino",
+    "jugador": "Roberto Firmino",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Granada",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q602525",
+    "descripcion": "Brazilian association football player"
+  },
+  "javier-hernandez": {
+    "id": "javier-hernandez",
+    "jugador": "Javier Hernández",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q165125",
+    "descripcion": "Mexican association football player (b. 1988)"
+  },
+  "piero-hincapie": {
+    "id": "piero-hincapie",
+    "jugador": "Piero Hincapié",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q101053044",
+    "descripcion": "Ecuadorian footballer (born 2002)"
+  },
+  "bernardo-silva": {
+    "id": "bernardo-silva",
+    "jugador": "Bernardo Silva",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q15521306",
+    "descripcion": "Portuguese association football player (born 1994)"
+  },
+  "marcus-rashford": {
+    "id": "marcus-rashford",
+    "jugador": "Marcus Rashford",
+    "categorias": [
+      "premier"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q22951255",
+    "descripcion": "English footballer (born 1997)"
   }
 }

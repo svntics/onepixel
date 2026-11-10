@@ -28,6 +28,11 @@
         "licencia": "Public domain",
         "url_licencia": "",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Pele_con_brasil_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 1953,
+        "fin": 1977,
+        "fuente": "wikidata"
       }
     },
     {
@@ -56,6 +61,11 @@
         "licencia": "CC BY 3.0",
         "url_licencia": "https://creativecommons.org/licenses/by/3.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Juan_Rom%C3%A1n_Riquelme_-_2019.jpg"
+      },
+      "carrera": {
+        "inicio": 1996,
+        "fin": 2015,
+        "fuente": "wikidata"
       }
     },
     {
@@ -83,6 +93,11 @@
         "licencia": "Public domain",
         "url_licencia": "",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Spencer_el_grafico.jpg"
+      },
+      "carrera": {
+        "inicio": 1953,
+        "fin": 1972,
+        "fuente": "wikidata"
       }
     },
     {
@@ -145,6 +160,11 @@
         "licencia": "CC BY 2.0",
         "url_licencia": "https://creativecommons.org/licenses/by/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Zico_2012.jpg"
+      },
+      "carrera": {
+        "inicio": 1971,
+        "fin": 1994,
+        "fuente": "wikidata"
       }
     },
     {
@@ -175,6 +195,11 @@
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Carlos_Tevez_with_Argentina_November_2014_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 2001,
+        "fin": 2021,
+        "fuente": "wikidata"
       }
     },
     {
@@ -204,6 +229,11 @@
         "licencia": "CC BY-SA 2.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Carlos_Caszely_2013_cropped.jpg"
+      },
+      "carrera": {
+        "inicio": 1967,
+        "fin": 1986,
+        "fuente": "wikidata"
       }
     },
     {
@@ -262,6 +292,11 @@
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Cafu_-_26.02.2026_-_Cerim%C3%B4nia_de_apresenta%C3%A7%C3%A3o_das_ta%C3%A7as_da_Copa_do_Mundo_de_2026.jpg"
+      },
+      "carrera": {
+        "inicio": 1990,
+        "fin": 2008,
+        "fuente": "wikidata"
       }
     },
     {
@@ -291,6 +326,11 @@
         "licencia": "Public domain",
         "url_licencia": "",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Ren%C3%A9_Higuita,_2007.jpg"
+      },
+      "carrera": {
+        "inicio": 1985,
+        "fin": 2010,
+        "fuente": "wikidata"
       }
     },
     {
@@ -348,6 +388,11 @@
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Marcelo_850_1622.jpg"
+      },
+      "carrera": {
+        "inicio": 2005,
+        "fin": 2025,
+        "fuente": "wikidata"
       }
     },
     {
@@ -377,6 +422,11 @@
         "licencia": "CC BY 3.0",
         "url_licencia": "https://creativecommons.org/licenses/by/3.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Martin_palermo_fkm08.jpg"
+      },
+      "carrera": {
+        "inicio": 1992,
+        "fin": 2011,
+        "fuente": "wikidata"
       }
     },
     {
@@ -405,6 +455,11 @@
         "licencia": "CC BY-SA 3.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Enzo_Francescoli_2011.jpg"
+      },
+      "carrera": {
+        "inicio": 1980,
+        "fin": 1997,
+        "fuente": "wikidata"
       }
     },
     {
@@ -432,6 +487,11 @@
         "licencia": "CC BY 3.0 br",
         "url_licencia": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Rog%C3%A9rio_Ceni.jpg"
+      },
+      "carrera": {
+        "inicio": 1990,
+        "fin": 2015,
+        "fuente": "wikidata"
       }
     },
     {
@@ -461,6 +521,11 @@
         "licencia": "CC BY-SA 2.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Sebasti%C3%A1n_Ver%C3%B3n.png"
+      },
+      "carrera": {
+        "inicio": 1994,
+        "fin": 2014,
+        "fuente": "wikidata"
       }
     },
     {
@@ -544,6 +609,11 @@
         "licencia": "CC BY-SA 3.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Fernando_Morena_2011.jpg"
+      },
+      "carrera": {
+        "inicio": 1968,
+        "fin": 1985,
+        "fuente": "wikidata"
       }
     },
     {
@@ -572,6 +642,11 @@
         "licencia": "CC0",
         "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Hern%C3%A1n_Crespo.png"
+      },
+      "carrera": {
+        "inicio": 1993,
+        "fin": 2012,
+        "fuente": "wikidata"
       }
     },
     {
@@ -600,6 +675,11 @@
         "licencia": "CC BY 2.0",
         "url_licencia": "https://creativecommons.org/licenses/by/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Ariel_Ortega_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 1991,
+        "fin": 2012,
+        "fuente": "wikidata"
       }
     },
     {
@@ -628,6 +708,11 @@
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Palestino_-_River_Plate_20190424_32.jpg"
+      },
+      "carrera": {
+        "inicio": 1993,
+        "fin": 2011,
+        "fuente": "wikidata"
       }
     },
     {
@@ -655,6 +740,11 @@
         "licencia": "CC BY-SA 3.0 at",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:U02_Diego_Lugano_7557.jpg"
+      },
+      "carrera": {
+        "inicio": 1996,
+        "fin": 2017,
+        "fuente": "wikidata"
       }
     },
     {
@@ -682,6 +772,11 @@
         "licencia": "CC BY 3.0 cl",
         "url_licencia": "https://creativecommons.org/licenses/by/3.0/cl/deed.en",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Ministro_Jaime_Pizarro.jpg"
+      },
+      "carrera": {
+        "inicio": 1983,
+        "fin": 1999,
+        "fuente": "wikidata"
       }
     },
     {
@@ -820,6 +915,11 @@
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Palestino_-_River_Plate_20190424_24.jpg"
+      },
+      "carrera": {
+        "inicio": 2007,
+        "fin": null,
+        "fuente": "wikidata"
       }
     },
     {
@@ -848,6 +948,11 @@
         "licencia": "Public domain",
         "url_licencia": "",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Bocho.JPG"
+      },
+      "carrera": {
+        "inicio": 1973,
+        "fin": 1991,
+        "fuente": "wikidata"
       }
     }
   ]

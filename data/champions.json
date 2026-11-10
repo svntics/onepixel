@@ -696,6 +696,11 @@
         "licencia": "CC BY 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:2022_FIFA_World_Cup_United_States_1%E2%80%931_Wales_-_(32)_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 2005,
+        "fin": 2022,
+        "fuente": "wikidata"
       }
     },
     {
@@ -772,6 +777,11 @@
         "licencia": "CC BY-SA 3.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Iker_Casillas_2.jpg"
+      },
+      "carrera": {
+        "inicio": 1996,
+        "fin": 2020,
+        "fuente": "wikidata"
       }
     },
     {
@@ -799,6 +809,11 @@
         "licencia": "CC BY 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Xavi_13981129001173637176666027076571.jpg"
+      },
+      "carrera": {
+        "inicio": 1997,
+        "fin": 2019,
+        "fuente": "wikidata"
       }
     },
     {
@@ -826,6 +841,11 @@
         "licencia": "CC BY-SA 3.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Clarence_Seedorf_2021.jpg"
+      },
+      "carrera": {
+        "inicio": 1992,
+        "fin": 2014,
+        "fuente": "wikidata"
       }
     },
     {
@@ -854,6 +874,11 @@
         "licencia": "CC BY 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9_%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_2024_(cropped).png"
+      },
+      "carrera": {
+        "inicio": 1994,
+        "fin": 2012,
+        "fuente": "wikidata"
       }
     },
     {
@@ -882,6 +907,11 @@
         "licencia": "CC BY 2.0",
         "url_licencia": "https://creativecommons.org/licenses/by/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Raul_Gonzalez_2012_2.jpg"
+      },
+      "carrera": {
+        "inicio": 1994,
+        "fin": 2015,
+        "fuente": "wikidata"
       }
     },
     {
@@ -964,6 +994,11 @@
         "licencia": "CC BY-SA 3.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Arjen_Robben_2013.jpg"
+      },
+      "carrera": {
+        "inicio": 1989,
+        "fin": 2021,
+        "fuente": "wikidata"
       }
     },
     {
@@ -992,6 +1027,11 @@
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Sammuel_Eto%27o_Fils_02.jpg"
+      },
+      "carrera": {
+        "inicio": 1996,
+        "fin": 2019,
+        "fuente": "wikidata"
       }
     },
     {
@@ -1020,6 +1060,11 @@
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Marcelo_850_1622.jpg"
+      },
+      "carrera": {
+        "inicio": 2005,
+        "fin": 2025,
+        "fuente": "wikidata"
       }
     }
   ]

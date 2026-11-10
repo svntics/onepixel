@@ -28,6 +28,11 @@
         "licencia": "CC BY 2.0",
         "url_licencia": "https://creativecommons.org/licenses/by/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Thierry_Henry_(51649035951)_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 1993,
+        "fin": 2014,
+        "fuente": "wikidata"
       }
     },
     {
@@ -55,6 +60,11 @@
         "licencia": "CC BY-SA 2.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Alan_Shearer_2008.jpg"
+      },
+      "carrera": {
+        "inicio": 1988,
+        "fin": 2006,
+        "fuente": "wikidata"
       }
     },
     {
@@ -117,6 +127,11 @@
         "licencia": "CC BY-SA 3.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Ag%C3%BCero_in_2018.jpg"
+      },
+      "carrera": {
+        "inicio": 2003,
+        "fin": 2021,
+        "fuente": "wikidata"
       }
     },
     {
@@ -205,6 +220,11 @@
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Carlos_Tevez_with_Argentina_November_2014_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 2001,
+        "fin": 2021,
+        "fuente": "wikidata"
       }
     },
     {
@@ -233,6 +253,11 @@
         "licencia": "CC BY-SA 3.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Chile_VS._Australia_(1cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 2001,
+        "fin": 2024,
+        "fuente": "wikidata"
       }
     },
     {
@@ -262,6 +287,11 @@
         "licencia": "CC BY-SA 3.0 at",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:U10_Diego_Forl%C3%A1n_7524.jpg"
+      },
+      "carrera": {
+        "inicio": 1997,
+        "fin": 2018,
+        "fuente": "wikidata"
       }
     },
     {
@@ -320,6 +350,11 @@
         "licencia": "CC BY-SA 3.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Wayne-Rooney-2015-10-21.jpg"
+      },
+      "carrera": {
+        "inicio": 1996,
+        "fin": 2021,
+        "fuente": "wikidata"
       }
     },
     {
@@ -382,6 +417,11 @@
         "licencia": "CC BY 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Frank_Lampard_2019.jpg"
+      },
+      "carrera": {
+        "inicio": 1995,
+        "fin": 2016,
+        "fuente": "wikidata"
       }
     },
     {
@@ -409,6 +449,11 @@
         "licencia": "CC BY 2.0",
         "url_licencia": "https://creativecommons.org/licenses/by/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Ryan_Giggs_in_2008.jpg"
+      },
+      "carrera": {
+        "inicio": 1989,
+        "fin": 2014,
+        "fuente": "wikidata"
       }
     },
     {
@@ -437,6 +482,11 @@
         "licencia": "CC BY-SA 3.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Eric_Cantona_Cannes_2009.jpg"
+      },
+      "carrera": {
+        "inicio": 1983,
+        "fin": 2005,
+        "fuente": "wikidata"
       }
     },
     {
@@ -550,6 +600,11 @@
         "licencia": "CC BY-SA 3.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Petr_%C4%8Cech_Chelsea_2013.jpg"
+      },
+      "carrera": {
+        "inicio": 1999,
+        "fin": 2019,
+        "fuente": "wikidata"
       }
     },
     {
@@ -578,6 +633,11 @@
         "licencia": "CC BY 2.0",
         "url_licencia": "https://creativecommons.org/licenses/by/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:2023_-_Cesc_Fabregas_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 1995,
+        "fin": null,
+        "fuente": "wikidata"
       }
     },
     {
@@ -605,6 +665,11 @@
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Patrick_Vieira_NYCFC.JPG"
+      },
+      "carrera": {
+        "inicio": 1993,
+        "fin": 2011,
+        "fuente": "wikidata"
       }
     },
     {
@@ -633,6 +698,11 @@
         "licencia": "CC BY 2.0",
         "url_licencia": "https://creativecommons.org/licenses/by/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Dennis_Bergkamp_2014_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 1986,
+        "fin": 2006,
+        "fuente": "wikidata"
       }
     },
     {
@@ -660,6 +730,11 @@
         "licencia": "CC BY 2.0",
         "url_licencia": "https://creativecommons.org/licenses/by/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:P_Scholes.jpg"
+      },
+      "carrera": {
+        "inicio": 1993,
+        "fin": 2013,
+        "fuente": "wikidata"
       }
     },
     {
@@ -861,6 +936,11 @@
         "licencia": "CC BY 3.0",
         "url_licencia": "https://creativecommons.org/licenses/by/3.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Peter_Schmeichel_2012-01-25_001.jpg"
+      },
+      "carrera": {
+        "inicio": 1981,
+        "fin": 2003,
+        "fuente": "wikidata"
       }
     },
     {
@@ -889,6 +969,11 @@
         "licencia": "CC BY 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:2022_FIFA_World_Cup_United_States_1%E2%80%931_Wales_-_(32)_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 2005,
+        "fin": 2022,
+        "fuente": "wikidata"
       }
     },
     {
@@ -917,6 +1002,11 @@
         "licencia": "CC BY 3.0",
         "url_licencia": "https://creativecommons.org/licenses/by/3.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Yaya_Tour%C3%A9_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 2001,
+        "fin": 2019,
+        "fuente": "wikidata"
       }
     },
     {
@@ -945,6 +1035,11 @@
         "licencia": "CC BY 2.5",
         "url_licencia": "https://creativecommons.org/licenses/by/2.5",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Edwin_van_der_Sar_side.jpg"
+      },
+      "carrera": {
+        "inicio": 1990,
+        "fin": 2016,
+        "fuente": "wikidata"
       }
     },
     {
@@ -1000,6 +1095,11 @@
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:John_Terry_at_pro-am_Wentworth_golf_course_September_2023_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 1998,
+        "fin": 2018,
+        "fuente": "wikidata"
       }
     },
     {
@@ -1021,8 +1121,19 @@
         "Fue capitán del Manchester City y marcó un golazo de larga distancia ante el Leicester en 2019."
       ],
       "wikipedia_en": "Vincent Kompany",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q201381",
+      "imagen": {
+        "archivo_local": "img/p/8e75d7d75f10c147.webp",
+        "autor": "ManuluxWiki",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Vincent_Kompany_Bayern_Munich.jpg"
+      },
+      "carrera": {
+        "inicio": 2002,
+        "fin": 2020,
+        "fuente": "wikidata"
+      }
     },
     {
       "id": "dele-alli",
@@ -1043,8 +1154,14 @@
         "Brilló en el Tottenham de Mauricio Pochettino."
       ],
       "wikipedia_en": "Dele Alli",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q10553748",
+      "imagen": {
+        "archivo_local": "img/p/6b78aa55e9e0a6d6.webp",
+        "autor": "Steffen Prößdorf",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:2020-03-10_Dele_Alli_(cropped).jpg"
+      }
     },
     {
       "id": "christian-eriksen",
@@ -1064,8 +1181,14 @@
         "Sufrió un paro cardíaco en pleno partido de la Eurocopa 2021 y volvió a jugar."
       ],
       "wikipedia_en": "Christian Eriksen",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q294951",
+      "imagen": {
+        "archivo_local": "img/p/bfcde1f122c57954.webp",
+        "autor": "Chris 0023 from Lyngby, Denmark",
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:20140904_-_Christian_Eriksen_(cropped).jpg"
+      }
     },
     {
       "id": "jan-vertonghen",
@@ -1085,8 +1208,19 @@
         "Es el jugador con más partidos en la historia de la selección belga."
       ],
       "wikipedia_en": "Jan Vertonghen",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q313170",
+      "imagen": {
+        "archivo_local": "img/p/8888f5095b46f89a.webp",
+        "autor": "Кирилл Венедиктов",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Jan_Vertonghen_Belgium.jpg"
+      },
+      "carrera": {
+        "inicio": 2002,
+        "fin": 2025,
+        "fuente": "wikidata"
+      }
     },
     {
       "id": "hugo-lloris",
@@ -1106,8 +1240,14 @@
         "Fue el capitán de Francia campeona del mundo en 2018."
       ],
       "wikipedia_en": "Hugo Lloris",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q1907",
+      "imagen": {
+        "archivo_local": "img/p/31997774a6711470.webp",
+        "autor": "Кирилл Венедиктов",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Lloris_2018_(cropped).jpg"
+      }
     },
     {
       "id": "kyle-walker",
@@ -1127,8 +1267,14 @@
         "Ganó la Champions 2023 con el Manchester City."
       ],
       "wikipedia_en": "Kyle Walker",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q59108",
+      "imagen": {
+        "archivo_local": "img/p/46171d0e7d88fd22.webp",
+        "autor": "Кирилл Венедиктов",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Kyle_Walker.jpg"
+      }
     },
     {
       "id": "eden-hazard",
@@ -1148,8 +1294,19 @@
         "Fue la gran figura del Chelsea entre 2012 y 2019."
       ],
       "wikipedia_en": "Eden Hazard",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q214204",
+      "imagen": {
+        "archivo_local": "img/p/06c985a8c90cc3c0.webp",
+        "autor": "Fars Media Corporation",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Eden_Hazard_at_Baku_before_2019_UEFA_Europe_League_Final.jpg"
+      },
+      "carrera": {
+        "inicio": 2007,
+        "fin": 2023,
+        "fuente": "wikidata"
+      }
     },
     {
       "id": "diego-costa",
@@ -1169,8 +1326,19 @@
         "Fue campeón de la Premier con el Chelsea en 2015 y 2017."
       ],
       "wikipedia_en": "Diego Costa",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q459707",
+      "imagen": {
+        "archivo_local": "img/p/3a43695e2641989c.webp",
+        "autor": "Fars Media Corporation",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Iran_and_Spain_match_at_the_FIFA_World_Cup_23.jpg"
+      },
+      "carrera": {
+        "inicio": 2006,
+        "fin": 2024,
+        "fuente": "wikidata"
+      }
     },
     {
       "id": "cesar-azpilicueta",
@@ -1191,8 +1359,14 @@
         "Fue capitán del Chelsea campeón de la Champions 2021."
       ],
       "wikipedia_en": "César Azpilicueta",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q294806",
+      "imagen": {
+        "archivo_local": "img/p/e4164b17bc5f3ef2.webp",
+        "autor": "Fars Media Corporation",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:C%C3%A9sar_Azpilicueta,_Al_Hilal_SFC_vs_Chelsea_F.C.,_9_February_2022.jpg"
+      }
     },
     {
       "id": "david-silva",
@@ -1212,8 +1386,19 @@
         "Fue el cerebro del Manchester City durante diez temporadas."
       ],
       "wikipedia_en": "David Silva",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q161069",
+      "imagen": {
+        "archivo_local": "img/p/b1ad59a422ba7921.webp",
+        "autor": "Кирилл Венедиктов",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:David_Silva_2017.jpg"
+      },
+      "carrera": {
+        "inicio": 2003,
+        "fin": 2023,
+        "fuente": "wikidata"
+      }
     },
     {
       "id": "mario-balotelli",
@@ -1234,8 +1419,19 @@
         "Dio el pase del gol del título de Agüero en 2012."
       ],
       "wikipedia_en": "Mario Balotelli",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q129700",
+      "imagen": {
+        "archivo_local": "img/p/42662fd7f8b1e63a.webp",
+        "autor": "Kamran Hussain",
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Mario_Balotelli_(15440231808)_(cropped)_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 2006,
+        "fin": null,
+        "fuente": "wikidata"
+      }
     },
     {
       "id": "raheem-sterling",
@@ -1255,8 +1451,14 @@
         "Ganó cuatro Premier League con el Manchester City."
       ],
       "wikipedia_en": "Raheem Sterling",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q312157",
+      "imagen": {
+        "archivo_local": "img/p/e5fbb14c34f01068.webp",
+        "autor": "Антон Зайцев",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Raheem_Sterling_2018.jpg"
+      }
     },
     {
       "id": "leroy-sane",
@@ -1276,8 +1478,14 @@
         "Fue elegido mejor jugador joven de la Premier 2017-18 con el Manchester City."
       ],
       "wikipedia_en": "Leroy Sané",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q16499882",
+      "imagen": {
+        "archivo_local": "img/p/e7adbf46c04492eb.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg"
+      }
     },
     {
       "id": "paul-pogba",
@@ -1298,8 +1506,14 @@
         "Marcó en la final del Mundial 2018."
       ],
       "wikipedia_en": "Paul Pogba",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q129027",
+      "imagen": {
+        "archivo_local": "img/p/811be932a612179e.webp",
+        "autor": "Gabriel Hutchinson / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Paul_Pogba_at_the_2025_Cannes_Film_Festival_02.jpg"
+      }
     },
     {
       "id": "riyad-mahrez",
@@ -1319,8 +1533,14 @@
         "Fue campeón con el Leicester y después con el Manchester City."
       ],
       "wikipedia_en": "Riyad Mahrez",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q8338725",
+      "imagen": {
+        "archivo_local": "img/p/25b78d599c9d3a6d.webp",
+        "autor": "Jeanpierrekepseu",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Mahrez_2021.jpg"
+      }
     },
     {
       "id": "wes-morgan",
@@ -1340,8 +1560,19 @@
         "Fue el capitán del Leicester campeón de la Premier 2015-16."
       ],
       "wikipedia_en": "Wes Morgan",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q1392500",
+      "imagen": {
+        "archivo_local": "img/p/640ee027fb0317ed.webp",
+        "autor": "paul langley",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Wes_Morgan_Warming_up_vs_Leamington_Spa.jpg"
+      },
+      "carrera": {
+        "inicio": 2002,
+        "fin": null,
+        "fuente": "wikidata"
+      }
     },
     {
       "id": "kasper-schmeichel",
@@ -1361,8 +1592,14 @@
         "Fue campeón de la Premier 2015-16 con el Leicester."
       ],
       "wikipedia_en": "Kasper Schmeichel",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q295797",
+      "imagen": {
+        "archivo_local": "img/p/f014bff36d842246.webp",
+        "autor": "Hameltion",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Kasper_Schmeichel_Celtic-20240722_(cropped).jpg"
+      }
     },
     {
       "id": "aymeric-laporte",
@@ -1382,8 +1619,14 @@
         "Fue campeón de la Eurocopa 2024."
       ],
       "wikipedia_en": "Aymeric Laporte",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q3855340",
+      "imagen": {
+        "archivo_local": "img/p/1df1a569081cd7b1.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Aymeric_Laporte_France_v_Spain_7.24.26-033_(cropped).jpg"
+      }
     },
     {
       "id": "rodri",
@@ -1403,8 +1646,14 @@
         "Ganó el Balón de Oro en 2024."
       ],
       "wikipedia_en": "Rodri (footballer, born 1996)",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q20994118",
+      "imagen": {
+        "archivo_local": "img/p/a1021284469e90d1.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Rodri_France_v_Spain_7.24.26-096.jpg"
+      }
     },
     {
       "id": "ilkay-gundogan",
@@ -1424,8 +1673,14 @@
         "Fue capitán del Manchester City del triplete 2023."
       ],
       "wikipedia_en": "İlkay Gündoğan",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q161089",
+      "imagen": {
+        "archivo_local": "img/p/44571932ec1d0869.webp",
+        "autor": "Granada",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:20180602_FIFA_Friendly_Match_Austria_vs._Germany_%C4%B0lkay_G%C3%BCndo%C4%9Fan_850_0728.jpg"
+      }
     },
     {
       "id": "enzo-fernandez",
@@ -1445,8 +1700,14 @@
         "Llegó al Chelsea desde el Benfica en un fichaje récord."
       ],
       "wikipedia_en": "Enzo Fernández",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q96105248",
+      "imagen": {
+        "archivo_local": "img/p/5800097c931f7c17.webp",
+        "autor": "Bryan Berlin",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Enzo_Fernandez_Argentina_v_Spain_19_July_2026-050_(cropped).jpg"
+      }
     },
     {
       "id": "moises-caicedo",
@@ -1466,8 +1727,14 @@
         "Llegó al Chelsea en uno de los fichajes más caros de la Premier."
       ],
       "wikipedia_en": "Moisés Caicedo",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q87715532",
+      "imagen": {
+        "archivo_local": "img/p/5cd3ae2d60735694.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Moises_Caicedo_Ecuador_v_Germany_25_June_2026-051_(cropped).jpg"
+      }
     },
     {
       "id": "declan-rice",
@@ -1488,8 +1755,14 @@
         "Fichó por el Arsenal en 2023."
       ],
       "wikipedia_en": "Declan Rice",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q30007142",
+      "imagen": {
+        "archivo_local": "img/p/5f9f1ac7b076e68e.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Declan_Rice_England_v_Ghana_23_June_2026-150_(cropped).jpg"
+      }
     },
     {
       "id": "bukayo-saka",
@@ -1509,8 +1782,14 @@
         "Es la gran figura inglesa del Arsenal."
       ],
       "wikipedia_en": "Bukayo Saka",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q59306386",
+      "imagen": {
+        "archivo_local": "img/p/5ad1bff0ec4e02a2.webp",
+        "autor": "Bryan Berlin",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Bukayo_Saka_England_v_Ghana_23_June_2026-057_(cropped).jpg"
+      }
     },
     {
       "id": "martin-odegaard",
@@ -1530,8 +1809,14 @@
         "Es el capitán del Arsenal."
       ],
       "wikipedia_en": "Martin Ødegaard",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q16902219",
+      "imagen": {
+        "archivo_local": "img/p/8bdf48b442175f12.webp",
+        "autor": "Bryan Berlin",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Martin_Odegaard_Morocco_v_Norway_7_June_2026-56_(cropped).jpg"
+      }
     },
     {
       "id": "william-saliba",
@@ -1551,8 +1836,14 @@
         "Es uno de los centrales titulares del Arsenal."
       ],
       "wikipedia_en": "William Saliba",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q56868118",
+      "imagen": {
+        "archivo_local": "img/p/ac37a000db535d2f.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:William_Saliba_France_v_Senegal_16_June_2026-336_(cropped).jpg"
+      }
     },
     {
       "id": "gabriel-magalhaes",
@@ -1572,8 +1863,14 @@
         "Forma la defensa central del Arsenal junto a Saliba."
       ],
       "wikipedia_en": "Gabriel Magalhães",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q25175970",
+      "imagen": {
+        "archivo_local": "img/p/a34b7a71cdc55174.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Gabriel_Magalhaes_Brazil_V_Morocco_13_June_2026-132_(cropped).jpg"
+      }
     },
     {
       "id": "alisson-becker",
@@ -1594,8 +1891,14 @@
         "Ganó la Champions 2019 con el Liverpool."
       ],
       "wikipedia_en": "Alisson Becker",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q18237361",
+      "imagen": {
+        "archivo_local": "img/p/8392b5bc3da22cd8.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Alisson_Becker_Brazil_V_Morocco_13_June_2026-117_(cropped).jpg"
+      }
     },
     {
       "id": "sadio-mane",
@@ -1615,8 +1918,14 @@
         "Fue campeón de África con su selección en 2022."
       ],
       "wikipedia_en": "Sadio Mané",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q209942",
+      "imagen": {
+        "archivo_local": "img/p/294bfcca063f6180.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Sadio_Mane_France_v_Senegal_16_June_2026-450.jpg"
+      }
     },
     {
       "id": "andrew-robertson",
@@ -1638,8 +1947,14 @@
         "Es el lateral izquierdo del Liverpool campeón de la Champions 2019."
       ],
       "wikipedia_en": "Andrew Robertson",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q15915040",
+      "imagen": {
+        "archivo_local": "img/p/09ab9ac47f4ddad2.webp",
+        "autor": "Bryan Berlin",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Andy_Robertson_Scotland_v_Bolivia_6_June_2026-43.jpg"
+      }
     },
     {
       "id": "trent-alexander-arnold",
@@ -1661,8 +1976,14 @@
         "Dejó el Liverpool para fichar por el Real Madrid en 2025."
       ],
       "wikipedia_en": "Trent Alexander-Arnold",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q27569376",
+      "imagen": {
+        "archivo_local": "img/p/9e60bd7311f687ee.webp",
+        "autor": "Антон Зайцев",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Trent_Alexander-Arnold_2018_(cropped).jpg"
+      }
     },
     {
       "id": "jordan-henderson",
@@ -1683,8 +2004,14 @@
         "Fue el capitán del Liverpool campeón de la Champions 2019 y de la Premier 2020."
       ],
       "wikipedia_en": "Jordan Henderson",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q273715",
+      "imagen": {
+        "archivo_local": "img/p/ee5dd481466fced8.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Jordan_Henderson_England_v_Ghana_23_June_2026-029_(cropped).jpg"
+      }
     },
     {
       "id": "ederson",
@@ -1703,7 +2030,7 @@
         "Es famoso por sus pases largos con el pie.",
         "Fue el arquero del Manchester City del triplete 2023."
       ],
-      "wikipedia_en": "Ederson (footballer, born 1993)",
+      "wikipedia_en": "Ederson Moraes",
       "wikidata_id": null,
       "imagen": null
     },
@@ -1726,8 +2053,14 @@
         "Es una de las figuras del Nottingham Forest."
       ],
       "wikipedia_en": "Morgan Gibbs-White",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q28147578",
+      "imagen": {
+        "archivo_local": "img/p/21a21cfe9c7292d1.webp",
+        "autor": "Sebalston",
+        "licencia": "CC0",
+        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Morgan_Gibbs-White_-_Nottingham_Forest_-_2025.jpg"
+      }
     },
     {
       "id": "jarrod-bowen",
@@ -1747,8 +2080,14 @@
         "Marcó el gol del título de la Conference League 2023."
       ],
       "wikipedia_en": "Jarrod Bowen",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q26704890",
+      "imagen": {
+        "archivo_local": "img/p/58808f5c95b84f43.webp",
+        "autor": "Egghead06",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:JarrodBowen2023_(cropped).jpeg"
+      }
     },
     {
       "id": "andy-carroll",
@@ -1768,8 +2107,19 @@
         "El Liverpool pagó 35 millones de libras por él en 2011."
       ],
       "wikipedia_en": "Andy Carroll",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q159159",
+      "imagen": {
+        "archivo_local": "img/p/0f59ebee4d31ff38.webp",
+        "autor": "Egghead06",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:AndyCarrollSeptember2015.JPG"
+      },
+      "carrera": {
+        "inicio": 2006,
+        "fin": null,
+        "fuente": "wikidata"
+      }
     },
     {
       "id": "adel-taarabt",
@@ -1790,8 +2140,19 @@
         "Fue la figura del Queens Park Rangers que ascendió a la Premier en 2011."
       ],
       "wikipedia_en": "Adel Taarabt",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q350616",
+      "imagen": {
+        "archivo_local": "img/p/6db7daf3bc2109f5.webp",
+        "autor": "Anton Zaitsev",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Taarabt_Benfica-Zenit_UCL201920_8.jpg"
+      },
+      "carrera": {
+        "inicio": 2006,
+        "fin": null,
+        "fuente": "wikidata"
+      }
     },
     {
       "id": "mesut-ozil",
@@ -1811,8 +2172,19 @@
         "Fue el gran asistidor del Arsenal entre 2013 y 2021."
       ],
       "wikipedia_en": "Mesut Özil",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q83488",
+      "imagen": {
+        "archivo_local": "img/p/2ab6147a7e9d9f66.webp",
+        "autor": "Fars Media Corporation",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Mesut_%C3%96zil_at_Baku_before_2019_UEFA_Europe_League_Final.jpg"
+      },
+      "carrera": {
+        "inicio": 2006,
+        "fin": 2023,
+        "fuente": "wikidata"
+      }
     },
     {
       "id": "harry-maguire",
@@ -1833,8 +2205,14 @@
         "Fue el defensa más caro de la historia al llegar al Manchester United."
       ],
       "wikipedia_en": "Harry Maguire",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q165772",
+      "imagen": {
+        "archivo_local": "img/p/d36b09000c11b305.webp",
+        "autor": "UK Prime Minister",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Harry_Maguire_2023_(cropped).jpg"
+      }
     },
     {
       "id": "david-de-gea",
@@ -1855,8 +2233,14 @@
         "Fue el arquero del Manchester United durante doce temporadas."
       ],
       "wikipedia_en": "David de Gea",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q150268",
+      "imagen": {
+        "archivo_local": "img/p/c73ec6e8ffc3719d.webp",
+        "autor": "Кирилл Венедиктов",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:David_de_Gea_2017.jpg"
+      }
     },
     {
       "id": "xherdan-shaqiri",
@@ -1877,8 +2261,14 @@
         "Marcó un golazo de chilena en la Eurocopa 2016."
       ],
       "wikipedia_en": "Xherdan Shaqiri",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q252190",
+      "imagen": {
+        "archivo_local": "img/p/12bda88809ea1ca1.webp",
+        "autor": "Антон Зайцев",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Xherdan_Shaqiri_2018.jpg"
+      }
     },
     {
       "id": "granit-xhaka",
@@ -1898,8 +2288,14 @@
         "Fue campeón invicto de la Bundesliga con el Bayer Leverkusen en 2024."
       ],
       "wikipedia_en": "Granit Xhaka",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q514427",
+      "imagen": {
+        "archivo_local": "img/p/127f0e185c156184.webp",
+        "autor": "@cfcunofficial (Chelsea Debs) London from London, UK",
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Granit_Xhaka_(cropped).jpg"
+      }
     },
     {
       "id": "roberto-firmino",
@@ -1920,8 +2316,14 @@
         "Ganó la Champions 2019 con el Liverpool."
       ],
       "wikipedia_en": "Roberto Firmino",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q602525",
+      "imagen": {
+        "archivo_local": "img/p/e731d791fdd7f188.webp",
+        "autor": "Granada",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Roberto_Firmino_850_1557.jpg"
+      }
     },
     {
       "id": "javier-hernandez",
@@ -1942,8 +2344,14 @@
         "Es el máximo goleador histórico de la selección mexicana."
       ],
       "wikipedia_en": "Javier Hernández",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q165125",
+      "imagen": {
+        "archivo_local": "img/p/a20cc2de59cdfb09.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Javier_Hern%C3%A1ndez_Paley_Center_Fox_Sports_Soccer-12.jpg"
+      }
     },
     {
       "id": "piero-hincapie",
@@ -1963,8 +2371,14 @@
         "Fue campeón invicto de la Bundesliga con el Bayer Leverkusen."
       ],
       "wikipedia_en": "Piero Hincapié",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q101053044",
+      "imagen": {
+        "archivo_local": "img/p/2a940a36663feec1.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Piero_Hincapie_Cote_D%27Ivoire_v_Ecuador_14_June_2026-247_(cropped).jpg"
+      }
     },
     {
       "id": "bernardo-silva",
@@ -1984,8 +2398,14 @@
         "Es una de las figuras del Manchester City de Guardiola."
       ],
       "wikipedia_en": "Bernardo Silva",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q15521306",
+      "imagen": {
+        "archivo_local": "img/p/659a0c15f66fe9f9.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Bernardo_Silva_Croatia_v_Portugal_2_July_2026-238.jpg"
+      }
     },
     {
       "id": "marcus-rashford",
@@ -2005,8 +2425,14 @@
         "Se formó en el Manchester United."
       ],
       "wikipedia_en": "Marcus Rashford",
-      "wikidata_id": null,
-      "imagen": null
+      "wikidata_id": "Q22951255",
+      "imagen": {
+        "archivo_local": "img/p/7e3045ce20b67c7a.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Marcus_Rashford_England_v_Panama_27_June_26-047.jpg"
+      }
     }
   ]
 }
