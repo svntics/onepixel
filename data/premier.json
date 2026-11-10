@@ -109,7 +109,8 @@
         "Agüero"
       ],
       "categorias": [
-        "premier"
+        "premier",
+        "espanola"
       ],
       "era": "historico",
       "pais": "Argentina",
@@ -174,7 +175,8 @@
       "categorias": [
         "champions",
         "premier",
-        "italiana"
+        "italiana",
+        "espanola"
       ],
       "era": "actual",
       "pais": "Portugal",
@@ -271,7 +273,8 @@
       ],
       "categorias": [
         "mundiales",
-        "premier"
+        "premier",
+        "espanola"
       ],
       "era": "historico",
       "pais": "Uruguay",
@@ -306,7 +309,8 @@
       ],
       "categorias": [
         "mundiales",
-        "premier"
+        "premier",
+        "espanola"
       ],
       "era": "actual",
       "pais": "Uruguay",
@@ -833,7 +837,8 @@
       ],
       "categorias": [
         "premier",
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "historico",
       "pais": "España",
@@ -1328,7 +1333,8 @@
         "Costa"
       ],
       "categorias": [
-        "premier"
+        "premier",
+        "espanola"
       ],
       "era": "historico",
       "pais": "España",
@@ -1390,7 +1396,8 @@
         "El Mago"
       ],
       "categorias": [
-        "premier"
+        "premier",
+        "espanola"
       ],
       "era": "historico",
       "pais": "España",

@@ -1,0 +1,2065 @@
+{
+  "categoria": "espanola",
+  "jugadores": [
+    {
+      "id": "andres-iniesta",
+      "nombre": "Andrés Iniesta",
+      "alias": [
+        "Iniesta"
+      ],
+      "categorias": [
+        "champions",
+        "mundiales",
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Se formó en La Masia.",
+        "Ganó cuatro Champions con el Barcelona.",
+        "Marcó el gol que le dio a España su primer Mundial, en 2010."
+      ],
+      "wikipedia_en": "Andrés Iniesta",
+      "wikidata_id": "Q43729",
+      "imagen": {
+        "archivo_local": "img/p/10beeb169d21f07d.webp",
+        "autor": "Bryan Berlin",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Iniesta_Argentina_v_Spain_19_July_2026-034_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 2000,
+        "fin": 2024,
+        "fuente": "wikidata"
+      }
+    },
+    {
+      "id": "cristiano-ronaldo",
+      "nombre": "Cristiano Ronaldo",
+      "alias": [
+        "Cristiano",
+        "CR7"
+      ],
+      "categorias": [
+        "champions",
+        "premier",
+        "italiana",
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "Portugal",
+      "posicion": "Delantero",
+      "pistas": [
+        "Ganó la Eurocopa 2016 con su selección.",
+        "Ganó la Champions con dos clubes distintos.",
+        "Es el máximo goleador de la historia de la Champions League."
+      ],
+      "wikipedia_en": "Cristiano Ronaldo",
+      "wikidata_id": "Q11571",
+      "imagen": {
+        "archivo_local": "img/p/9f90848c076edd52.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg"
+      }
+    },
+    {
+      "id": "david-silva",
+      "nombre": "David Silva",
+      "alias": [
+        "El Mago"
+      ],
+      "categorias": [
+        "premier",
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Se formó en el Valencia.",
+        "Fue campeón del mundo en 2010.",
+        "Fue el cerebro del Manchester City durante diez temporadas."
+      ],
+      "wikipedia_en": "David Silva",
+      "wikidata_id": "Q161069",
+      "imagen": {
+        "archivo_local": "img/p/b1ad59a422ba7921.webp",
+        "autor": "Кирилл Венедиктов",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:David_Silva_2017.jpg"
+      },
+      "carrera": {
+        "inicio": 2003,
+        "fin": 2023,
+        "fuente": "wikidata"
+      },
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "deco",
+      "nombre": "Deco",
+      "alias": [
+        "Anderson Luís de Souza"
+      ],
+      "categorias": [
+        "mundiales",
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Portugal",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Nació en Brasil pero jugó para Portugal.",
+        "Ganó la Champions con el Porto y con el Barcelona.",
+        "Jugó con Portugal los Mundiales de 2006 y 2010."
+      ],
+      "wikipedia_en": "Deco",
+      "wikidata_id": "Q659634",
+      "imagen": {
+        "archivo_local": "img/p/c2c6eed8a290d7fe.webp",
+        "autor": "Darz Mol",
+        "licencia": "CC BY-SA 2.5 es",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.5/es/deed.en",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Deco_21dec2006.jpg"
+      },
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "diego-costa",
+      "nombre": "Diego Costa",
+      "alias": [
+        "Costa"
+      ],
+      "categorias": [
+        "premier",
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Delantero",
+      "pistas": [
+        "Nació en Brasil pero jugó para la selección española.",
+        "Fue figura del Atlético de Madrid campeón de liga en 2014.",
+        "Fue campeón de la Premier con el Chelsea en 2015 y 2017."
+      ],
+      "wikipedia_en": "Diego Costa",
+      "wikidata_id": "Q459707",
+      "imagen": {
+        "archivo_local": "img/p/3a43695e2641989c.webp",
+        "autor": "Fars Media Corporation",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Iran_and_Spain_match_at_the_FIFA_World_Cup_23.jpg"
+      },
+      "carrera": {
+        "inicio": 2006,
+        "fin": 2024,
+        "fuente": "wikidata"
+      },
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "diego-forlan",
+      "nombre": "Diego Forlán",
+      "alias": [
+        "Cachavacha",
+        "Forlán"
+      ],
+      "categorias": [
+        "mundiales",
+        "premier",
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Uruguay",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Manchester United y el Atlético de Madrid.",
+        "Fue Bota de Oro europea en dos ocasiones.",
+        "Fue elegido mejor jugador del Mundial 2010."
+      ],
+      "wikipedia_en": "Diego Forlán",
+      "wikidata_id": "Q261534",
+      "imagen": {
+        "archivo_local": "img/p/5960851dfede24cf.webp",
+        "autor": "Ailura",
+        "licencia": "CC BY-SA 3.0 at",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:U10_Diego_Forl%C3%A1n_7524.jpg"
+      },
+      "carrera": {
+        "inicio": 1997,
+        "fin": 2018,
+        "fuente": "wikidata"
+      }
+    },
+    {
+      "id": "fernando-torres",
+      "nombre": "Fernando Torres",
+      "alias": [
+        "El Niño",
+        "Niño Torres"
+      ],
+      "categorias": [
+        "premier",
+        "champions",
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Delantero",
+      "pistas": [
+        "Es ídolo del Atlético de Madrid.",
+        "Marcó el gol de la final de la Eurocopa 2008.",
+        "Jugó en Liverpool y Chelsea."
+      ],
+      "wikipedia_en": "Fernando Torres",
+      "wikidata_id": "Q42731",
+      "imagen": {
+        "archivo_local": "img/p/8af1c923af76ba0a.webp",
+        "autor": "cristina cifuentes",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Fernando_Torres_2017.jpg"
+      },
+      "carrera": {
+        "inicio": 1995,
+        "fin": 2019,
+        "fuente": "wikidata"
+      }
+    },
+    {
+      "id": "iker-casillas",
+      "nombre": "Iker Casillas",
+      "alias": [
+        "San Iker",
+        "Casillas"
+      ],
+      "categorias": [
+        "champions",
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Arquero",
+      "pistas": [
+        "Terminó su carrera en el Porto.",
+        "Entró desde la banca en la final de la Champions 2002.",
+        "Fue el capitán de España campeón del mundo en 2010."
+      ],
+      "wikipedia_en": "Iker Casillas",
+      "wikidata_id": "Q11584",
+      "imagen": {
+        "archivo_local": "img/p/8e971baf5f6ce029.webp",
+        "autor": "Зайцев Антон",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Iker_Casillas_2.jpg"
+      },
+      "carrera": {
+        "inicio": 1996,
+        "fin": 2020,
+        "fuente": "wikidata"
+      }
+    },
+    {
+      "id": "karim-benzema",
+      "nombre": "Karim Benzema",
+      "alias": [
+        "Benzema"
+      ],
+      "categorias": [
+        "champions",
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "Francia",
+      "posicion": "Delantero",
+      "pistas": [
+        "Comenzó su carrera en el Olympique de Lyon.",
+        "Ganó el Balón de Oro en 2022.",
+        "Ganó cinco Champions con el Real Madrid."
+      ],
+      "wikipedia_en": "Karim Benzema",
+      "wikidata_id": "Q1912",
+      "imagen": null
+    },
+    {
+      "id": "keylor-navas",
+      "nombre": "Keylor Navas",
+      "alias": [
+        "Keylor"
+      ],
+      "categorias": [
+        "mundiales",
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "Costa Rica",
+      "posicion": "Arquero",
+      "pistas": [
+        "Jugó en el Levante de España.",
+        "Ganó tres Champions con el Real Madrid.",
+        "Fue figura de la Costa Rica que llegó a cuartos de final del Mundial 2014."
+      ],
+      "wikipedia_en": "Keylor Navas",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false,
+      "revisado": true
+    },
+    {
+      "id": "kylian-mbappe",
+      "nombre": "Kylian Mbappé",
+      "alias": [
+        "Mbappe"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions",
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "Francia",
+      "posicion": "Delantero",
+      "pistas": [
+        "Debutó como profesional en el Mónaco.",
+        "Fue campeón del mundo con 19 años.",
+        "Marcó tres goles en la final del Mundial 2022."
+      ],
+      "wikipedia_en": "Kylian Mbappé",
+      "wikidata_id": "Q21621995",
+      "imagen": {
+        "archivo_local": "img/p/75d16dc17cd32227.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Kylian_Mbappe_France_v_Senegal_16_June_2026-391_(cropped).jpg"
+      }
+    },
+    {
+      "id": "lionel-messi",
+      "nombre": "Lionel Messi",
+      "alias": [
+        "Leo Messi",
+        "Messi",
+        "La Pulga"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions",
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "Argentina",
+      "posicion": "Delantero",
+      "pistas": [
+        "Llegó a Europa siendo un niño para formarse en un gran club.",
+        "Tiene el récord de Balones de Oro ganados.",
+        "Fue campeón del mundo en Catar 2022."
+      ],
+      "wikipedia_en": "Lionel Messi",
+      "wikidata_id": "Q615",
+      "imagen": {
+        "archivo_local": "img/p/f33991d52740cf4f.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg"
+      }
+    },
+    {
+      "id": "luis-suarez",
+      "nombre": "Luis Suárez",
+      "alias": [
+        "Lucho Suárez",
+        "Pistolero",
+        "El Pistolero"
+      ],
+      "categorias": [
+        "mundiales",
+        "premier",
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "Uruguay",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en Ajax, Liverpool, Barcelona y Atlético de Madrid.",
+        "Es el máximo goleador histórico de su selección.",
+        "Fue sancionado por morder a un rival en el Mundial 2014."
+      ],
+      "wikipedia_en": "Luis Suárez",
+      "wikidata_id": "Q26517",
+      "imagen": {
+        "archivo_local": "img/p/60c540036d75e8b3.webp",
+        "autor": "Bryan Berlin",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Luis_Su%C3%A1rez_NE_Revolution_Inter_Miami_7.9.25-053_(cropped).jpg"
+      }
+    },
+    {
+      "id": "luka-modric",
+      "nombre": "Luka Modrić",
+      "alias": [
+        "Modric"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions",
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "Croacia",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en el Tottenham antes de llegar a España.",
+        "Llevó a su selección a la final del Mundial 2018.",
+        "Ganó el Balón de Oro en 2018."
+      ],
+      "wikipedia_en": "Luka Modrić",
+      "wikidata_id": "Q483837",
+      "imagen": {
+        "archivo_local": "img/p/01b64f47c4134828.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Luka_Modric_Croatia_v_Portugal_2_July_2026-055.jpg"
+      }
+    },
+    {
+      "id": "marcelo-vieira",
+      "nombre": "Marcelo",
+      "alias": [
+        "Marcelo Vieira"
+      ],
+      "categorias": [
+        "champions",
+        "libertadores",
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Defensa",
+      "pistas": [
+        "Se formó en el Fluminense.",
+        "Ganó cinco Champions con el Real Madrid.",
+        "Volvió a su club formador y ganó la Libertadores 2023."
+      ],
+      "wikipedia_en": "Marcelo (footballer, born 1988)",
+      "wikidata_id": "Q38136",
+      "imagen": {
+        "archivo_local": "img/p/25f998539c338a1f.webp",
+        "autor": "Granada",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Marcelo_850_1622.jpg"
+      },
+      "carrera": {
+        "inicio": 2005,
+        "fin": 2025,
+        "fuente": "wikidata"
+      }
+    },
+    {
+      "id": "neymar",
+      "nombre": "Neymar",
+      "alias": [
+        "Neymar Jr",
+        "Ney"
+      ],
+      "categorias": [
+        "libertadores",
+        "mundiales",
+        "champions",
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Delantero",
+      "pistas": [
+        "Fue el fichaje más caro de la historia al pasar al PSG.",
+        "Ganó la Champions 2015 con el Barcelona.",
+        "Ganó la Libertadores 2011 con el Santos."
+      ],
+      "wikipedia_en": "Neymar",
+      "wikidata_id": "Q142794",
+      "imagen": {
+        "archivo_local": "img/p/cf4d470313acbf3b.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg"
+      }
+    },
+    {
+      "id": "raul-gonzalez",
+      "nombre": "Raúl González",
+      "alias": [
+        "Raúl",
+        "Raúl González Blanco"
+      ],
+      "categorias": [
+        "champions",
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Delantero",
+      "pistas": [
+        "Después jugó en el Schalke 04 de Alemania.",
+        "Celebraba sus goles besando su anillo.",
+        "Ganó tres Champions con el Real Madrid."
+      ],
+      "wikipedia_en": "Raúl (footballer)",
+      "wikidata_id": "Q11576",
+      "imagen": {
+        "archivo_local": "img/p/a631eeaae9bbae00.webp",
+        "autor": "Doha Stadium Plus Qatar",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Raul_Gonzalez_2012_2.jpg"
+      },
+      "carrera": {
+        "inicio": 1994,
+        "fin": 2015,
+        "fuente": "wikidata"
+      }
+    },
+    {
+      "id": "ronaldinho",
+      "nombre": "Ronaldinho",
+      "alias": [
+        "Ronaldinho Gaúcho",
+        "Dinho"
+      ],
+      "categorias": [
+        "libertadores",
+        "mundiales",
+        "champions",
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Fue campeón del mundo en 2002.",
+        "Ganó el Balón de Oro en 2005.",
+        "Ganó la Libertadores 2013 con Atlético Mineiro."
+      ],
+      "wikipedia_en": "Ronaldinho",
+      "wikidata_id": "Q39444",
+      "imagen": {
+        "archivo_local": "img/p/71905b0722d83a4f.webp",
+        "autor": "Nuță Lucian",
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Sports_Festival_2025_-_4_(cropped).jpg"
+      },
+      "carrera": {
+        "inicio": 1997,
+        "fin": null,
+        "fuente": "wikidata"
+      }
+    },
+    {
+      "id": "ronaldo-nazario",
+      "nombre": "Ronaldo Nazário",
+      "alias": [
+        "Ronaldo",
+        "El Fenómeno",
+        "Ronaldo Luís Nazário de Lima"
+      ],
+      "categorias": [
+        "mundiales",
+        "italiana",
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en Barcelona, Inter, Real Madrid y AC Milan.",
+        "Ganó el Balón de Oro en 1997 y 2002.",
+        "Fue campeón y goleador del Mundial 2002, con 8 goles."
+      ],
+      "wikipedia_en": "Ronaldo (Brazilian footballer)",
+      "wikidata_id": "Q529207",
+      "imagen": {
+        "archivo_local": "img/p/0402145cfcc0937e.webp",
+        "autor": "Web Summit",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:051119SMcC0014.jpg"
+      },
+      "carrera": {
+        "inicio": 1993,
+        "fin": 2011,
+        "fuente": "wikidata"
+      }
+    },
+    {
+      "id": "samuel-etoo",
+      "nombre": "Samuel Eto'o",
+      "alias": [
+        "Eto'o",
+        "Etoo"
+      ],
+      "categorias": [
+        "champions",
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Camerún",
+      "posicion": "Delantero",
+      "pistas": [
+        "Se formó en las inferiores del Real Madrid.",
+        "Es el máximo goleador histórico de su selección.",
+        "Ganó dos tripletes seguidos: con el Barcelona en 2009 y con el Inter en 2010."
+      ],
+      "wikipedia_en": "Samuel Eto'o",
+      "wikidata_id": "Q1255625",
+      "imagen": {
+        "archivo_local": "img/p/00fef78892184423.webp",
+        "autor": "BACHELOR45",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Sammuel_Eto%27o_Fils_02.jpg"
+      },
+      "carrera": {
+        "inicio": 1996,
+        "fin": 2019,
+        "fuente": "wikidata"
+      }
+    },
+    {
+      "id": "sergio-aguero",
+      "nombre": "Sergio Agüero",
+      "alias": [
+        "Kun",
+        "Kun Agüero",
+        "Agüero"
+      ],
+      "categorias": [
+        "premier",
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Delantero",
+      "pistas": [
+        "Debutó muy joven en Independiente.",
+        "Es el máximo goleador histórico del Manchester City.",
+        "Marcó el gol del título en el último minuto de la Premier 2011-12."
+      ],
+      "wikipedia_en": "Sergio Agüero",
+      "wikidata_id": "Q119562",
+      "imagen": {
+        "archivo_local": "img/p/3b6ffeb43514130d.webp",
+        "autor": "Кирилл Венедиктов",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Ag%C3%BCero_in_2018.jpg"
+      },
+      "carrera": {
+        "inicio": 2003,
+        "fin": 2021,
+        "fuente": "wikidata"
+      }
+    },
+    {
+      "id": "sergio-ramos",
+      "nombre": "Sergio Ramos",
+      "alias": [
+        "Ramos"
+      ],
+      "categorias": [
+        "champions",
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Defensa",
+      "pistas": [
+        "Se formó en el Sevilla.",
+        "Fue campeón del mundo en 2010.",
+        "Marcó el empate en el minuto 93 de la final de la Champions 2014."
+      ],
+      "wikipedia_en": "Sergio Ramos",
+      "wikidata_id": "Q483309",
+      "imagen": {
+        "archivo_local": "img/p/c529217a03d5eb69.webp",
+        "autor": "Real Madrid",
+        "licencia": "CC BY 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Sergio_Ramos_Interview_2021_(cropped).jpg"
+      }
+    },
+    {
+      "id": "xavi-hernandez",
+      "nombre": "Xavi Hernández",
+      "alias": [
+        "Xavi"
+      ],
+      "categorias": [
+        "champions",
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Luego fue entrenador del mismo club donde brilló.",
+        "Fue campeón del mundo en 2010.",
+        "Fue el cerebro del Barcelona de Guardiola."
+      ],
+      "wikipedia_en": "Xavi",
+      "wikidata_id": "Q17500",
+      "imagen": {
+        "archivo_local": "img/p/830ff8238dc06c48.webp",
+        "autor": "Fars Media Corporation",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Xavi_13981129001173637176666027076571.jpg"
+      },
+      "carrera": {
+        "inicio": 1997,
+        "fin": 2019,
+        "fuente": "wikidata"
+      }
+    },
+    {
+      "id": "zinedine-zidane",
+      "nombre": "Zinedine Zidane",
+      "alias": [
+        "Zizou",
+        "Zidane"
+      ],
+      "categorias": [
+        "mundiales",
+        "champions",
+        "italiana",
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Francia",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Anotó un recordado gol de volea en la final de la Champions de 2002.",
+        "Marcó dos goles de cabeza en la final de un Mundial.",
+        "Fue expulsado en la final del Mundial de 2006."
+      ],
+      "wikipedia_en": "Zinedine Zidane",
+      "wikidata_id": "Q1835",
+      "imagen": {
+        "archivo_local": "img/p/f836c3e8da2e98fb.webp",
+        "autor": "Tasnim News Agency",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Zinedine_Zidane_by_Tasnim_03.jpg"
+      },
+      "carrera": {
+        "inicio": 1987,
+        "fin": 2006,
+        "fuente": "wikidata"
+      }
+    },
+    {
+      "id": "antoine-griezmann",
+      "nombre": "Antoine Griezmann",
+      "alias": [
+        "Griezmann",
+        "Grizi"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "Francia",
+      "posicion": "Delantero",
+      "pistas": [
+        "Se formó en la Real Sociedad.",
+        "Pasó dos temporadas en el Barcelona.",
+        "Fue campeón del mundo en 2018 y es ídolo del Atlético de Madrid."
+      ],
+      "wikipedia_en": "Antoine Griezmann",
+      "nacimiento": 1991,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "aritz-aduriz",
+      "nombre": "Aritz Aduriz",
+      "alias": [
+        "Aduriz"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Mallorca y el Valencia.",
+        "Marcó cinco goles en un partido de Europa League a los 35 años.",
+        "Es un ídolo goleador del Athletic Club."
+      ],
+      "wikipedia_en": "Aritz Aduriz",
+      "nacimiento": 1981,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "arda-turan",
+      "nombre": "Arda Turan",
+      "alias": [
+        "Arda"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Turquía",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Fue capitán de la selección turca.",
+        "Jugó en el Barcelona.",
+        "Brilló en el Galatasaray y en el Atlético de Madrid campeón de liga 2014."
+      ],
+      "wikipedia_en": "Arda Turan",
+      "nacimiento": 1987,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "benat-etxebarria",
+      "nombre": "Beñat Etxebarria",
+      "alias": [
+        "Beñat",
+        "Benat"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Fue internacional con la selección española.",
+        "Jugó en el Real Betis.",
+        "Fue mediocampista del Athletic Club durante varias temporadas."
+      ],
+      "wikipedia_en": "Beñat Etxebarria",
+      "nacimiento": 1987,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "bernd-schuster",
+      "nombre": "Bernd Schuster",
+      "alias": [
+        "Schuster"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Alemania",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Fue campeón de Europa con Alemania en 1980.",
+        "Fue entrenador del Real Madrid campeón de liga en 2008.",
+        "Jugó en el Barcelona, el Real Madrid y el Atlético de Madrid."
+      ],
+      "wikipedia_en": "Bernd Schuster",
+      "nacimiento": 1959,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "sergio-canales",
+      "nombre": "Sergio Canales",
+      "alias": [
+        "Canales"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Se fue a jugar a México con el Monterrey.",
+        "Se formó en el Racing de Santander.",
+        "Ganó la Copa del Rey 2022 con el Real Betis."
+      ],
+      "wikipedia_en": "Sergio Canales",
+      "nacimiento": 1991,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "carles-puyol",
+      "nombre": "Carles Puyol",
+      "alias": [
+        "Puyol",
+        "Puyi"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Defensa",
+      "pistas": [
+        "Llevaba una larga melena rizada.",
+        "Marcó de cabeza el gol a Alemania en la semifinal del Mundial 2010.",
+        "Fue el capitán del Barcelona de Guardiola."
+      ],
+      "wikipedia_en": "Carles Puyol",
+      "nacimiento": 1978,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "casemiro",
+      "nombre": "Casemiro",
+      "alias": [
+        "Carlos Henrique Casimiro"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Se formó en el São Paulo.",
+        "Jugó en el Manchester United.",
+        "Ganó cinco Champions con el Real Madrid."
+      ],
+      "wikipedia_en": "Casemiro",
+      "nacimiento": 1992,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "dani-alves",
+      "nombre": "Dani Alves",
+      "alias": [
+        "Daniel Alves",
+        "Alves"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó en la Juventus y el PSG.",
+        "Brilló en el Sevilla, donde ganó dos Copas de la UEFA.",
+        "Fue el lateral derecho del Barcelona de Guardiola."
+      ],
+      "wikipedia_en": "Dani Alves",
+      "nacimiento": 1983,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "dani-carvajal",
+      "nombre": "Dani Carvajal",
+      "alias": [
+        "Carvajal"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó una temporada en el Bayer Leverkusen.",
+        "Fue campeón de la Eurocopa 2024.",
+        "Ganó seis Champions con el Real Madrid."
+      ],
+      "wikipedia_en": "Dani Carvajal",
+      "nacimiento": 1992,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "david-beckham",
+      "nombre": "David Beckham",
+      "alias": [
+        "Beckham",
+        "Becks"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Inglaterra",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Terminó su carrera en el PSG.",
+        "Jugó en el Real Madrid y en Los Angeles Galaxy.",
+        "Era famoso por sus centros y tiros libres con el Manchester United."
+      ],
+      "wikipedia_en": "David Beckham",
+      "nacimiento": 1975,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "diego-tristan",
+      "nombre": "Diego Tristán",
+      "alias": [
+        "Tristán",
+        "Tristan"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Mallorca.",
+        "Fue el goleador de la liga española en 2002.",
+        "Fue figura del Deportivo La Coruña de comienzos de los 2000."
+      ],
+      "wikipedia_en": "Diego Tristán",
+      "nacimiento": 1976,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "djalminha",
+      "nombre": "Djalminha",
+      "alias": [
+        "Djalma Feitosa Dias"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Jugó en el Palmeiras.",
+        "Un cabezazo a su entrenador le costó ir al Mundial 2002.",
+        "Fue figura del Deportivo La Coruña campeón de liga en 2000."
+      ],
+      "wikipedia_en": "Djalminha",
+      "nacimiento": 1970,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "emilio-butragueno",
+      "nombre": "Emilio Butragueño",
+      "alias": [
+        "Butragueño",
+        "Butragueno",
+        "El Buitre"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Delantero",
+      "pistas": [
+        "Marcó cuatro goles a Dinamarca en el Mundial 1986.",
+        "Su apodo dio nombre a una famosa generación de canteranos.",
+        "Fue figura del Real Madrid de los años 80."
+      ],
+      "wikipedia_en": "Emilio Butragueño",
+      "nacimiento": 1963,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "fernando-hierro",
+      "nombre": "Fernando Hierro",
+      "alias": [
+        "Hierro"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Defensa",
+      "pistas": [
+        "Terminó su carrera en el Bolton de Inglaterra.",
+        "Fue un defensa con mucho gol.",
+        "Fue capitán del Real Madrid campeón de tres Champions."
+      ],
+      "wikipedia_en": "Fernando Hierro",
+      "nacimiento": 1968,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "fernando-llorente",
+      "nombre": "Fernando Llorente",
+      "alias": [
+        "Llorente"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Delantero",
+      "pistas": [
+        "Fue campeón del mundo en 2010.",
+        "Jugó en la Juventus y el Tottenham.",
+        "Fue goleador del Athletic Club."
+      ],
+      "wikipedia_en": "Fernando Llorente",
+      "nacimiento": 1985,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "fernando-morientes",
+      "nombre": "Fernando Morientes",
+      "alias": [
+        "Morientes",
+        "El Moro"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Mónaco y el Liverpool.",
+        "Fue finalista de la Champions 2004 con el Mónaco.",
+        "Ganó tres Champions con el Real Madrid."
+      ],
+      "wikipedia_en": "Fernando Morientes",
+      "nacimiento": 1976,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "francisco-yeste",
+      "nombre": "Francisco Yeste",
+      "alias": [
+        "Yeste"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Fue un mediocampista ofensivo de la cantera vasca.",
+        "Jugó más de diez temporadas en el Athletic Club."
+      ],
+      "wikipedia_en": "Francisco Yeste",
+      "nacimiento": 1979,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "frenkie-de-jong",
+      "nombre": "Frenkie de Jong",
+      "alias": [
+        "De Jong",
+        "Frenkie"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "Países Bajos",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en el Willem II.",
+        "Brilló en el Ajax semifinalista de la Champions 2019.",
+        "Es mediocampista del Barcelona."
+      ],
+      "wikipedia_en": "Frenkie de Jong",
+      "nacimiento": 1997,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "gaizka-mendieta",
+      "nombre": "Gaizka Mendieta",
+      "alias": [
+        "Mendieta"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en la Lazio y el Middlesbrough.",
+        "Fue uno de los fichajes más caros del mundo en 2001.",
+        "Fue capitán del Valencia finalista de la Champions 2000 y 2001."
+      ],
+      "wikipedia_en": "Gaizka Mendieta",
+      "nacimiento": 1974,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "gavi",
+      "nombre": "Gavi",
+      "alias": [
+        "Pablo Gavi",
+        "Pablo Páez Gavira"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Ganó el premio Golden Boy en 2022.",
+        "Debutó con la selección española a los 17 años.",
+        "Se formó en La Masia y juega en el Barcelona."
+      ],
+      "wikipedia_en": "Gavi (footballer)",
+      "nacimiento": 2004,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "gerard-pique",
+      "nombre": "Gerard Piqué",
+      "alias": [
+        "Piqué",
+        "Pique"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Defensa",
+      "pistas": [
+        "Pasó por el Manchester United en su juventud.",
+        "Fue campeón del mundo en 2010.",
+        "Ganó tres Champions con el Barcelona."
+      ],
+      "wikipedia_en": "Gerard Piqué",
+      "nacimiento": 1987,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "guti",
+      "nombre": "Guti",
+      "alias": [
+        "José María Gutiérrez",
+        "Guti Hernández"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Terminó su carrera en el Beşiktaş.",
+        "Era rubio y famoso por sus pases de taco.",
+        "Hizo casi toda su carrera en el Real Madrid."
+      ],
+      "wikipedia_en": "Guti (footballer, born 1976)",
+      "nacimiento": 1976,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "iago-aspas",
+      "nombre": "Iago Aspas",
+      "alias": [
+        "Aspas"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Delantero",
+      "pistas": [
+        "Pasó por el Liverpool y el Sevilla.",
+        "Ganó varias veces el Trofeo Zarra al máximo goleador español.",
+        "Es el gran ídolo del Celta de Vigo."
+      ],
+      "wikipedia_en": "Iago Aspas",
+      "nacimiento": 1987,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "isco",
+      "nombre": "Isco",
+      "alias": [
+        "Isco Alarcón",
+        "Francisco Alarcón"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Brilló en el Málaga.",
+        "Juega en el Real Betis.",
+        "Ganó cinco Champions con el Real Madrid."
+      ],
+      "wikipedia_en": "Isco",
+      "nacimiento": 1992,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "jan-oblak",
+      "nombre": "Jan Oblak",
+      "alias": [
+        "Oblak"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "Eslovenia",
+      "posicion": "Arquero",
+      "pistas": [
+        "Jugó en el Benfica.",
+        "Ganó varias veces el Trofeo Zamora.",
+        "Es el arquero del Atlético de Madrid."
+      ],
+      "wikipedia_en": "Jan Oblak",
+      "nacimiento": 1993,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "javi-fuego",
+      "nombre": "Javi Fuego",
+      "alias": [
+        "Fuego"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Fue un mediocentro defensivo.",
+        "Jugó en el Rayo Vallecano y el Espanyol.",
+        "Se formó en el Sporting de Gijón."
+      ],
+      "wikipedia_en": "Javi Fuego",
+      "nacimiento": 1984,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "javier-mascherano",
+      "nombre": "Javier Mascherano",
+      "alias": [
+        "Mascherano",
+        "Jefecito"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en el West Ham y el Liverpool.",
+        "Ganó dos oros olímpicos con Argentina.",
+        "Jugó de central en el Barcelona y ganó dos Champions."
+      ],
+      "wikipedia_en": "Javier Mascherano",
+      "nacimiento": 1984,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "jesus-navas",
+      "nombre": "Jesús Navas",
+      "alias": [
+        "Jesus Navas"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Extremo",
+      "pistas": [
+        "Jugó en el Manchester City.",
+        "Fue campeón del mundo en 2010 y de la Eurocopa 2024.",
+        "Es el gran capitán e ídolo del Sevilla."
+      ],
+      "wikipedia_en": "Jesús Navas",
+      "nacimiento": 1985,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "joao-felix",
+      "nombre": "João Félix",
+      "alias": [
+        "Joao Felix",
+        "Félix"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "Portugal",
+      "posicion": "Delantero",
+      "pistas": [
+        "Se formó en el Benfica.",
+        "El Atlético de Madrid pagó más de 120 millones de euros por él.",
+        "Pasó a préstamo por el Chelsea y el Barcelona."
+      ],
+      "wikipedia_en": "João Félix",
+      "nacimiento": 1999,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "joaquin-sanchez",
+      "nombre": "Joaquín",
+      "alias": [
+        "Joaquín Sánchez",
+        "Joaquin"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Extremo",
+      "pistas": [
+        "Jugó en el Valencia y la Fiorentina.",
+        "Es famoso por su humor y sus apariciones en televisión.",
+        "Es ídolo del Real Betis, donde se retiró."
+      ],
+      "wikipedia_en": "Joaquín (footballer, born 1981)",
+      "nacimiento": 1981,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "jordi-alba",
+      "nombre": "Jordi Alba",
+      "alias": [
+        "Alba"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó en el Valencia.",
+        "Fue campeón de la Eurocopa 2012 y marcó en la final.",
+        "Fue el lateral izquierdo del Barcelona durante once temporadas."
+      ],
+      "wikipedia_en": "Jordi Alba",
+      "nacimiento": 1989,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "jude-bellingham",
+      "nombre": "Jude Bellingham",
+      "alias": [
+        "Bellingham",
+        "Jude"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "Inglaterra",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Debutó en el Birmingham City a los 16 años.",
+        "Brilló en el Borussia Dortmund.",
+        "Juega en el Real Madrid."
+      ],
+      "wikipedia_en": "Jude Bellingham",
+      "nacimiento": 2003,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "juan-carlos-valeron",
+      "nombre": "Juan Carlos Valerón",
+      "alias": [
+        "Valerón",
+        "Valeron"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Jugó en el Mallorca y el Atlético de Madrid.",
+        "Terminó su carrera en Las Palmas, el club de su isla.",
+        "Fue el cerebro del Deportivo La Coruña de los 2000."
+      ],
+      "wikipedia_en": "Juan Carlos Valerón",
+      "nacimiento": 1975,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "koke",
+      "nombre": "Koke",
+      "alias": [
+        "Koke Resurrección",
+        "Jorge Resurrección"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Fue campeón de la Eurocopa 2024.",
+        "Se formó en la cantera de su club.",
+        "Es el capitán y jugador con más partidos del Atlético de Madrid."
+      ],
+      "wikipedia_en": "Koke",
+      "nacimiento": 1992,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "lamine-yamal",
+      "nombre": "Lamine Yamal",
+      "alias": [
+        "Lamine",
+        "Yamal"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Extremo",
+      "pistas": [
+        "Su padre es marroquí y su madre ecuatoguineana.",
+        "Fue campeón de la Eurocopa 2024 con 17 años.",
+        "Es la joven estrella del Barcelona."
+      ],
+      "wikipedia_en": "Lamine Yamal",
+      "nacimiento": 2007,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "marc-andre-ter-stegen",
+      "nombre": "Marc-André ter Stegen",
+      "alias": [
+        "Ter Stegen"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "Alemania",
+      "posicion": "Arquero",
+      "pistas": [
+        "Se formó en el Borussia Mönchengladbach.",
+        "Ganó la Champions 2015.",
+        "Es el arquero alemán del Barcelona."
+      ],
+      "wikipedia_en": "Marc-André ter Stegen",
+      "nacimiento": 1992,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "mauricio-pellegrino",
+      "nombre": "Mauricio Pellegrino",
+      "alias": [
+        "Pellegrino"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó en Vélez Sarsfield y el Barcelona.",
+        "Falló un penal en la definición de la final de la Champions 2001.",
+        "Fue central del Valencia campeón de liga en 2002."
+      ],
+      "wikipedia_en": "Mauricio Pellegrino",
+      "nacimiento": 1971,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "michael-laudrup",
+      "nombre": "Michael Laudrup",
+      "alias": [
+        "Laudrup"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Dinamarca",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Su hermano también fue futbolista internacional.",
+        "Jugó en la Juventus.",
+        "Brilló en el Barcelona y luego en el Real Madrid."
+      ],
+      "wikipedia_en": "Michael Laudrup",
+      "nacimiento": 1964,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "miroslav-djukic",
+      "nombre": "Miroslav Đukić",
+      "alias": [
+        "Djukic",
+        "Dukic"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Serbia",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó en el Valencia.",
+        "Después fue entrenador en España.",
+        "Falló un penal en el último minuto de la liga 1994 que le costó el título al Deportivo."
+      ],
+      "wikipedia_en": "Miroslav Đukić",
+      "nacimiento": 1966,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "pablo-alfaro",
+      "nombre": "Pablo Alfaro",
+      "alias": [
+        "Alfaro"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Defensa",
+      "pistas": [
+        "Era un defensa conocido por su dureza.",
+        "Fue defensa del Sevilla en los años 2000."
+      ],
+      "wikipedia_en": "Pablo Alfaro",
+      "nacimiento": 1969,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "pedri",
+      "nombre": "Pedri",
+      "alias": [
+        "Pedro González"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Nació en Canarias y se formó en Las Palmas.",
+        "Ganó el Golden Boy en 2021.",
+        "Es uno de los mediocampistas del Barcelona."
+      ],
+      "wikipedia_en": "Pedri",
+      "nacimiento": 2002,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "pepe",
+      "nombre": "Pepe",
+      "alias": [
+        "Pepe Ferreira",
+        "Képler Laveran Lima Ferreira"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Portugal",
+      "posicion": "Defensa",
+      "pistas": [
+        "Nació en Brasil.",
+        "Ganó la Eurocopa 2016 con Portugal.",
+        "Ganó tres Champions con el Real Madrid."
+      ],
+      "wikipedia_en": "Pepe (footballer, born 1983)",
+      "nacimiento": 1983,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "rivaldo",
+      "nombre": "Rivaldo",
+      "alias": [
+        "Vítor Borba Ferreira"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Jugó en el Deportivo La Coruña y el AC Milan.",
+        "Ganó el Balón de Oro en 1999.",
+        "Fue campeón del mundo en 2002."
+      ],
+      "wikipedia_en": "Rivaldo",
+      "nacimiento": 1972,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "roberto-carlos",
+      "nombre": "Roberto Carlos",
+      "alias": [
+        "Roberto Carlos da Silva"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó en el Inter y el Fenerbahçe.",
+        "Marcó un tiro libre imposible ante Francia en 1997.",
+        "Fue el lateral izquierdo del Real Madrid y campeón del mundo en 2002."
+      ],
+      "wikipedia_en": "Roberto Carlos",
+      "nacimiento": 1973,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "roque-santa-cruz",
+      "nombre": "Roque Santa Cruz",
+      "alias": [
+        "Santa Cruz"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Paraguay",
+      "posicion": "Delantero",
+      "pistas": [
+        "Debutó en el Olimpia de Asunción.",
+        "Jugó ocho temporadas en el Bayern Múnich.",
+        "Jugó en el Málaga y el Real Betis."
+      ],
+      "wikipedia_en": "Roque Santa Cruz",
+      "nacimiento": 1981,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "ruben-baraja",
+      "nombre": "Rubén Baraja",
+      "alias": [
+        "Baraja",
+        "El Pipo"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en el Atlético de Madrid.",
+        "Después fue entrenador del Valencia.",
+        "Ganó dos ligas con el Valencia."
+      ],
+      "wikipedia_en": "Rubén Baraja",
+      "nacimiento": 1975,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "salva-ballesta",
+      "nombre": "Salva Ballesta",
+      "alias": [
+        "Salva"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Valencia, el Atlético de Madrid y el Málaga.",
+        "Fue internacional con España.",
+        "Fue el goleador de la liga española en 2000 con el Racing de Santander."
+      ],
+      "wikipedia_en": "Salva Ballesta",
+      "nacimiento": 1975,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "sergio-busquets",
+      "nombre": "Sergio Busquets",
+      "alias": [
+        "Busquets",
+        "Busi"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Su padre fue arquero del mismo club.",
+        "Fue campeón del mundo en 2010.",
+        "Fue el mediocentro del Barcelona de Guardiola."
+      ],
+      "wikipedia_en": "Sergio Busquets",
+      "nacimiento": 1988,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "thibaut-courtois",
+      "nombre": "Thibaut Courtois",
+      "alias": [
+        "Courtois"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "Bélgica",
+      "posicion": "Arquero",
+      "pistas": [
+        "Jugó en el Atlético de Madrid y el Chelsea.",
+        "Fue elegido mejor arquero del Mundial 2018.",
+        "Atajó todo en la final de la Champions 2022 con el Real Madrid."
+      ],
+      "wikipedia_en": "Thibaut Courtois",
+      "nacimiento": 1992,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "toni-kroos",
+      "nombre": "Toni Kroos",
+      "alias": [
+        "Kroos"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Alemania",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Fue campeón del mundo en 2014.",
+        "Jugó en el Bayern Múnich.",
+        "Ganó cinco Champions con el Real Madrid y se retiró en 2024."
+      ],
+      "wikipedia_en": "Toni Kroos",
+      "nacimiento": 1990,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "vicente-rodriguez",
+      "nombre": "Vicente",
+      "alias": [
+        "Vicente Rodríguez"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Extremo",
+      "pistas": [
+        "Jugó en el Levante.",
+        "Pasó por el Brighton de Inglaterra.",
+        "Fue el extremo del Valencia campeón de liga en 2002 y 2004."
+      ],
+      "wikipedia_en": "Vicente Rodríguez",
+      "nacimiento": 1981,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "vinicius-junior",
+      "nombre": "Vinícius Júnior",
+      "alias": [
+        "Vinícius",
+        "Vini Jr",
+        "Vinicius"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Extremo",
+      "pistas": [
+        "Se formó en el Flamengo.",
+        "Marcó en las finales de la Champions 2022 y 2024.",
+        "Es la gran estrella brasileña del Real Madrid."
+      ],
+      "wikipedia_en": "Vinícius Júnior",
+      "nacimiento": 2000,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "walter-pandiani",
+      "nombre": "Walter Pandiani",
+      "alias": [
+        "Pandiani",
+        "El Rifle"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "Uruguay",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Peñarol.",
+        "Pasó por el Birmingham City.",
+        "Fue goleador en el Deportivo La Coruña, el Espanyol y Osasuna."
+      ],
+      "wikipedia_en": "Walter Pandiani",
+      "nacimiento": 1976,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "xabi-alonso",
+      "nombre": "Xabi Alonso",
+      "alias": [
+        "Xabi"
+      ],
+      "categorias": [
+        "espanola"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Se formó en la Real Sociedad.",
+        "Jugó en el Liverpool y el Bayern Múnich.",
+        "Fue campeón del mundo en 2010 y luego entrenador del Bayer Leverkusen campeón invicto."
+      ],
+      "wikipedia_en": "Xabi Alonso",
+      "nacimiento": 1981,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    }
+  ]
+}

@@ -78,7 +78,8 @@
       "categorias": [
         "mundiales",
         "champions",
-        "italiana"
+        "italiana",
+        "espanola"
       ],
       "era": "historico",
       "pais": "Francia",
@@ -242,7 +243,8 @@
       ],
       "categorias": [
         "champions",
-        "mundiales"
+        "mundiales",
+        "espanola"
       ],
       "era": "historico",
       "pais": "España",
@@ -277,7 +279,8 @@
       "categorias": [
         "libertadores",
         "mundiales",
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "historico",
       "pais": "Brasil",
@@ -312,7 +315,8 @@
       ],
       "categorias": [
         "mundiales",
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "actual",
       "pais": "Argentina",
@@ -342,7 +346,8 @@
       ],
       "categorias": [
         "mundiales",
-        "italiana"
+        "italiana",
+        "espanola"
       ],
       "era": "historico",
       "pais": "Brasil",
@@ -805,7 +810,8 @@
       ],
       "categorias": [
         "mundiales",
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "actual",
       "pais": "Francia",
@@ -833,7 +839,8 @@
       ],
       "categorias": [
         "mundiales",
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "actual",
       "pais": "Croacia",
@@ -862,7 +869,8 @@
       ],
       "categorias": [
         "mundiales",
-        "premier"
+        "premier",
+        "espanola"
       ],
       "era": "historico",
       "pais": "Uruguay",
@@ -1053,7 +1061,8 @@
       ],
       "categorias": [
         "mundiales",
-        "premier"
+        "premier",
+        "espanola"
       ],
       "era": "actual",
       "pais": "Uruguay",
@@ -1083,7 +1092,8 @@
       "categorias": [
         "libertadores",
         "mundiales",
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "actual",
       "pais": "Brasil",
@@ -1350,7 +1360,8 @@
         "Anderson Luís de Souza"
       ],
       "categorias": [
-        "mundiales"
+        "mundiales",
+        "espanola"
       ],
       "era": "historico",
       "pais": "Portugal",
@@ -1636,7 +1647,8 @@
         "Keylor"
       ],
       "categorias": [
-        "mundiales"
+        "mundiales",
+        "espanola"
       ],
       "era": "actual",
       "pais": "Costa Rica",

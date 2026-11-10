@@ -11,7 +11,8 @@
       "categorias": [
         "mundiales",
         "champions",
-        "italiana"
+        "italiana",
+        "espanola"
       ],
       "era": "historico",
       "pais": "Francia",
@@ -79,7 +80,8 @@
       "categorias": [
         "champions",
         "premier",
-        "italiana"
+        "italiana",
+        "espanola"
       ],
       "era": "actual",
       "pais": "Portugal",
@@ -140,7 +142,8 @@
       ],
       "categorias": [
         "champions",
-        "mundiales"
+        "mundiales",
+        "espanola"
       ],
       "era": "historico",
       "pais": "España",
@@ -209,7 +212,8 @@
       "categorias": [
         "libertadores",
         "mundiales",
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "historico",
       "pais": "Brasil",
@@ -244,7 +248,8 @@
       ],
       "categorias": [
         "mundiales",
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "actual",
       "pais": "Argentina",
@@ -406,7 +411,8 @@
       ],
       "categorias": [
         "mundiales",
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "actual",
       "pais": "Francia",
@@ -434,7 +440,8 @@
       ],
       "categorias": [
         "mundiales",
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "actual",
       "pais": "Croacia",
@@ -500,7 +507,8 @@
       "categorias": [
         "libertadores",
         "mundiales",
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "actual",
       "pais": "Brasil",
@@ -650,7 +658,8 @@
       ],
       "categorias": [
         "premier",
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "historico",
       "pais": "España",
@@ -715,7 +724,8 @@
         "Benzema"
       ],
       "categorias": [
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "actual",
       "pais": "Francia",
@@ -736,7 +746,8 @@
         "Ramos"
       ],
       "categorias": [
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "actual",
       "pais": "España",
@@ -764,7 +775,8 @@
         "Casillas"
       ],
       "categorias": [
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "historico",
       "pais": "España",
@@ -796,7 +808,8 @@
         "Xavi"
       ],
       "categorias": [
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "historico",
       "pais": "España",
@@ -896,7 +909,8 @@
         "Raúl González Blanco"
       ],
       "categorias": [
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "historico",
       "pais": "España",
@@ -1016,7 +1030,8 @@
         "Etoo"
       ],
       "categorias": [
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "historico",
       "pais": "Camerún",
@@ -1049,7 +1064,8 @@
       ],
       "categorias": [
         "champions",
-        "libertadores"
+        "libertadores",
+        "espanola"
       ],
       "era": "historico",
       "pais": "Brasil",

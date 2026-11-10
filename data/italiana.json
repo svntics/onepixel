@@ -142,7 +142,8 @@
       "categorias": [
         "champions",
         "premier",
-        "italiana"
+        "italiana",
+        "espanola"
       ],
       "era": "actual",
       "pais": "Portugal",
@@ -373,7 +374,8 @@
       ],
       "categorias": [
         "mundiales",
-        "italiana"
+        "italiana",
+        "espanola"
       ],
       "era": "historico",
       "pais": "Brasil",
@@ -408,7 +410,8 @@
       "categorias": [
         "mundiales",
         "champions",
-        "italiana"
+        "italiana",
+        "espanola"
       ],
       "era": "historico",
       "pais": "Francia",

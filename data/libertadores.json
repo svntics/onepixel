@@ -110,7 +110,8 @@
       "categorias": [
         "libertadores",
         "mundiales",
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "historico",
       "pais": "Brasil",
@@ -246,7 +247,8 @@
       "categorias": [
         "libertadores",
         "mundiales",
-        "champions"
+        "champions",
+        "espanola"
       ],
       "era": "actual",
       "pais": "Brasil",
@@ -371,7 +373,8 @@
       ],
       "categorias": [
         "champions",
-        "libertadores"
+        "libertadores",
+        "espanola"
       ],
       "era": "historico",
       "pais": "Brasil",

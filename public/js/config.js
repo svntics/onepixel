@@ -61,5 +61,6 @@ export const CONFIG = {
     { id: "libertadores", nombre: "Copa Libertadores", emoji: "🏆", descripcion: "Ídolos del torneo sudamericano de clubes" },
     // "activa: false" = categoría en preparación: no aparece en el sitio hasta aprobarla
     { id: "italiana", nombre: "Liga italiana", emoji: "🇮🇹", descripcion: "Figuras del fútbol de Italia", activa: "2026-11-12" },
+    { id: "espanola", nombre: "Liga española", emoji: "🇪🇸", descripcion: "Figuras del fútbol de España", activa: false },
   ],
 };
