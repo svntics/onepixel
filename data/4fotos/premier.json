@@ -52,9 +52,9 @@
         },
         {
           "tipo": "cultura",
-          "buscar": "Highbury East Stand art deco",
+          "buscar": "Highbury Square",
           "commons": null,
-          "explicacion": "La fachada art déco de Highbury, su estadio entre 1913 y 2006; hoy el edificio es de departamentos.",
+          "explicacion": "Highbury, su estadio entre 1913 y 2006: hoy es un conjunto de departamentos que conserva la fachada art déco.",
           "imagen": null
         }
       ],
@@ -115,15 +115,10 @@
           "buscar": "Stamford Bridge stadium",
           "commons": null,
           "explicacion": "Un rincón de Stamford Bridge, el estadio del club desde su fundación en 1905.",
-          "imagen": {
-            "archivo_local": "img/t/b5c5716dc5e73c92.webp",
-            "archivo_commons": "London Stamford Bridge.jpg",
-            "titulo": "London Stamford Bridge",
-            "autor": "Arne Müseler / www.arne-mueseler.com",
-            "licencia": "CC BY-SA 3.0 de",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:London_Stamford_Bridge.jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "London Stamford Bridge.jpg"
+          ]
         }
       ],
       "revisar": [],
@@ -180,18 +175,13 @@
         },
         {
           "tipo": "cultura",
-          "buscar": "Spion Kop Anfield",
+          "buscar": "Bill Shankly statue",
           "commons": null,
-          "explicacion": "La tribuna Kop de Anfield, famosa por su hinchada.",
-          "imagen": {
-            "archivo_local": "img/t/49837516e2f02362.webp",
-            "archivo_commons": "Hillsborough Memorial Bench, Spion Kop, South Africa.jpg",
-            "titulo": "Hillsborough Memorial Bench, Spion Kop, South Africa",
-            "autor": "Jim Abraham",
-            "licencia": "CC BY-SA 4.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Hillsborough_Memorial_Bench,_Spion_Kop,_South_Africa.jpg"
-          }
+          "explicacion": "La estatua de Bill Shankly frente a Anfield: el entrenador que transformó al club en los años 60.",
+          "imagen": null,
+          "excluir": [
+            "Hillsborough Memorial Bench, Spion Kop, South Africa.jpg"
+          ]
         }
       ],
       "revisar": [],
@@ -234,17 +224,12 @@
         {
           "tipo": "apodo",
           "buscar": "trident sculpture",
-          "commons": null,
+          "commons": "Neptu (\"Neptune\") with Trident Sculpture in the Jardin del Turia, Valencia, Spain.jpg",
           "explicacion": "Un tridente, atributo del diablo del escudo: el apodo es «Red Devils».",
-          "imagen": {
-            "archivo_local": "img/t/2c8de38ef0f6540a.webp",
-            "archivo_commons": "11th century Trishul with Shaivism Ardhanarishvara, Cleveland Museum of Art.jpg",
-            "titulo": "Trident with Shiva as Half-Woman (Ardhanarishvara)",
-            "autor": "Gary Kirchenbauer (photographer)",
-            "licencia": "CC0",
-            "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:11th_century_Trishul_with_Shaivism_Ardhanarishvara,_Cleveland_Museum_of_Art.jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "11th century Trishul with Shaivism Ardhanarishvara, Cleveland Museum of Art.jpg"
+          ]
         },
         {
           "tipo": "cultura",
@@ -286,9 +271,9 @@
         },
         {
           "tipo": "origen",
-          "buscar": "St Mark's Church West Gorton",
+          "buscar": "West Gorton",
           "commons": null,
-          "explicacion": "El club nació en 1880 como el equipo de la iglesia de St. Mark's, en West Gorton (Mánchester).",
+          "explicacion": "El club nació en 1880 en West Gorton (Mánchester), como el equipo de la iglesia de St. Mark's.",
           "imagen": null
         },
         {
@@ -483,47 +468,32 @@
         {
           "tipo": "origen",
           "buscar": "Prince Rupert's Tower Everton",
-          "commons": null,
+          "commons": "Everton Lockup 2019-1.jpg",
           "explicacion": "La torre del Príncipe Rupert, antigua cárcel del barrio de Everton (siglo XVIII), aparece en el escudo.",
-          "imagen": {
-            "archivo_local": "img/t/168d0385f682588c.webp",
-            "archivo_commons": "(1)Former Lock-Up Randwick-6.jpg",
-            "titulo": "(1)Former Lock-Up Randwick-6",
-            "autor": "Sardaka",
-            "licencia": "CC BY-SA 4.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:(1)Former_Lock-Up_Randwick-6.jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "(1)Former Lock-Up Randwick-6.jpg"
+          ]
         },
         {
           "tipo": "apodo",
           "buscar": "toffee sweets",
-          "commons": null,
-          "explicacion": "Caramelos toffee: el apodo «The Toffees» se atribuye a tiendas de caramelos del barrio.",
-          "imagen": {
-            "archivo_local": "img/t/4bcb9fc7f83eace4.webp",
-            "archivo_commons": "Confiserie Roodthooft Lange Leemstraat 374 (7164) Antwerpen 29-07-2019.jpg",
-            "titulo": "Confiserie Roodthooft Lange Leemstraat 374 (7164) Antwerpen 29-07-2019",
-            "autor": "Paul Hermans",
-            "licencia": "CC BY-SA 4.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Confiserie_Roodthooft_Lange_Leemstraat_374_(7164)_Antwerpen_29-07-2019.jpg"
-          }
+          "commons": "Walters Palm Toffee tin, pic3.JPG",
+          "explicacion": "Una lata de caramelos toffee: el apodo «The Toffees» se atribuye a tiendas de caramelos del barrio.",
+          "imagen": null,
+          "excluir": [
+            "Confiserie Roodthooft Lange Leemstraat 374 (7164) Antwerpen 29-07-2019.jpg"
+          ]
         },
         {
           "tipo": "cultura",
           "buscar": "Goodison Park",
           "commons": null,
           "explicacion": "Goodison Park, la casa histórica del club desde 1892.",
-          "imagen": {
-            "archivo_local": "img/t/d3eaaa14848675c2.webp",
-            "archivo_commons": "Goodison Park - geograph.org.uk - 4957773.jpg",
-            "titulo": "Goodison Park - geograph.org.uk - 4957773",
-            "autor": "Goodison Park by Eirian Evans",
-            "licencia": "CC BY-SA 2.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Goodison_Park_-_geograph.org.uk_-_4957773.jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "Goodison Park - geograph.org.uk - 4957773.jpg"
+          ]
         }
       ],
       "revisar": [
@@ -568,32 +538,22 @@
         {
           "tipo": "apodo",
           "buscar": "lion rampant",
-          "commons": null,
+          "commons": "Plate with Heraldic Shield of a Rampant Lion MET sf41-100-309s1.jpg",
           "explicacion": "El león rampante, símbolo del escudo del club.",
-          "imagen": {
-            "archivo_local": "img/t/7ef8b0a631ecf514.webp",
-            "archivo_commons": "Rampant Lion, Rusholme.jpg",
-            "titulo": "Rampant Lion, Rusholme",
-            "autor": "David Dixon",
-            "licencia": "CC BY-SA 2.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Rampant_Lion,_Rusholme.jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "Rampant Lion, Rusholme.jpg"
+          ]
         },
         {
           "tipo": "cultura",
           "buscar": "Holte End Villa Park",
           "commons": null,
           "explicacion": "La tribuna Holte End, una de las más grandes del fútbol inglés.",
-          "imagen": {
-            "archivo_local": "img/t/e0830177218c4c4b.webp",
-            "archivo_commons": "Villa Park-Holte End - geograph.org.uk - 1849209.jpg",
-            "titulo": "Villa Park-Holte End - geograph.org.uk - 1849209",
-            "autor": "Villa Park-Holte End by Ian Rob",
-            "licencia": "CC BY-SA 2.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Villa_Park-Holte_End_-_geograph.org.uk_-_1849209.jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "Villa Park-Holte End - geograph.org.uk - 1849209.jpg"
+          ]
         }
       ],
       "revisar": [],
@@ -651,17 +611,12 @@
         {
           "tipo": "cultura",
           "buscar": "soap bubbles",
-          "commons": null,
+          "commons": "Soap bubbles, Prague, 20190816 1848 5458.jpg",
           "explicacion": "Burbujas: el himno de la hinchada es «I'm Forever Blowing Bubbles».",
-          "imagen": {
-            "archivo_local": "img/t/fe289c53a17de616.webp",
-            "archivo_commons": "Lipid Islands on Soap Bubble.jpg",
-            "titulo": "Lipid Islands on Soap Bubble",
-            "autor": "KarlGaff",
-            "licencia": "CC BY 4.0",
-            "url_licencia": "https://creativecommons.org/licenses/by/4.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Lipid_Islands_on_Soap_Bubble.jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "Lipid Islands on Soap Bubble.jpg"
+          ]
         }
       ],
       "revisar": [],
@@ -757,17 +712,12 @@
         {
           "tipo": "origen",
           "buscar": "Southampton docks ocean liner",
-          "commons": null,
-          "explicacion": "Southampton es un gran puerto: de aquí zarpó el Titanic en 1912.",
-          "imagen": {
-            "archivo_local": "img/t/297a31a9adab7499.webp",
-            "archivo_commons": "Hook Ocean Liner express geograph-2967269-by-Ben-Brooksbank.jpg",
-            "titulo": "Hook Ocean Liner express geograph-2967269-by-Ben-Brooksbank",
-            "autor": "Ben Brooksbank",
-            "licencia": "CC BY-SA 2.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Hook_Ocean_Liner_express_geograph-2967269-by-Ben-Brooksbank.jpg"
-          }
+          "commons": "Southampton Western Docks - geograph.org.uk - 1191331.jpg",
+          "explicacion": "Los muelles de Southampton, gran puerto inglés: de aquí zarpó el Titanic en 1912.",
+          "imagen": null,
+          "excluir": [
+            "Hook Ocean Liner express geograph-2967269-by-Ben-Brooksbank.jpg"
+          ]
         },
         {
           "tipo": "apodo",
@@ -789,15 +739,10 @@
           "buscar": "St Mary's Stadium Southampton",
           "commons": null,
           "explicacion": "Su estadio, St Mary's, se inauguró en 2001.",
-          "imagen": {
-            "archivo_local": "img/t/2536cdb6599a30c1.webp",
-            "archivo_commons": "St Mary's Stadium 2022.jpg",
-            "titulo": "St Mary's Stadium 2022",
-            "autor": "Dan Kerins",
-            "licencia": "CC BY-SA 4.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:St_Mary%27s_Stadium_2022.jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "St Mary's Stadium 2022.jpg"
+          ]
         }
       ],
       "revisar": [],
@@ -857,15 +802,10 @@
           "buscar": "Molineux Stadium",
           "commons": null,
           "explicacion": "El estadio Molineux toma su nombre de Benjamin Molineux, comerciante local del siglo XVIII.",
-          "imagen": {
-            "archivo_local": "img/t/b603218359c63906.webp",
-            "archivo_commons": "Molineux Stadium - geograph.org.uk - 5718889.jpg",
-            "titulo": "Molineux Stadium - geograph.org.uk - 5718889",
-            "autor": "Molineux Stadium by Philip Halling",
-            "licencia": "CC BY-SA 2.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Molineux_Stadium_-_geograph.org.uk_-_5718889.jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "Molineux Stadium - geograph.org.uk - 5718889.jpg"
+          ]
         }
       ],
       "revisar": [],
@@ -1030,7 +970,7 @@
           "tipo": "origen",
           "buscar": "Forest Recreation Ground Nottingham",
           "commons": null,
-          "explicacion": "El club se fundó en 1865 y jugaba en el Forest Recreation Ground, de donde viene su nombre.",
+          "explicacion": "La Goose Fair, feria centenaria que se celebra en el Forest Recreation Ground: el terreno donde jugaba el club en sus inicios y que le dio su nombre.",
           "imagen": {
             "archivo_local": "img/t/4520b607ba9fd754.webp",
             "archivo_commons": "Nottingham MMB 82 Goose Fair.jpg",
@@ -1164,25 +1104,20 @@
         },
         {
           "tipo": "origen",
-          "buscar": "Davy lamp monument Sunderland",
+          "buscar": "Davy lamp",
           "commons": null,
-          "explicacion": "La lámpara de minero junto al estadio, construido sobre la antigua mina de carbón de Wearmouth.",
+          "explicacion": "Una lámpara de minero: el estadio se construyó sobre la antigua mina de carbón de Wearmouth y tiene una lámpara gigante en la entrada.",
           "imagen": null
         },
         {
           "tipo": "apodo",
-          "buscar": "black cat",
+          "buscar": "black cat sitting",
           "commons": null,
           "explicacion": "El gato negro: el apodo «The Black Cats» viene de una antigua batería de cañones junto al río Wear.",
-          "imagen": {
-            "archivo_local": "img/t/2cd135e73e5c3627.webp",
-            "archivo_commons": "Cat November 2010-1a.jpg",
-            "titulo": "Cat November 2010-1a",
-            "autor": "Alvesgaspar",
-            "licencia": "CC BY-SA 3.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Cat_November_2010-1a.jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "Cat November 2010-1a.jpg"
+          ]
         },
         {
           "tipo": "cultura",
@@ -1257,15 +1192,10 @@
           "buscar": "Johnny Haynes Stand Craven Cottage",
           "commons": null,
           "explicacion": "La tribuna de ladrillo de Craven Cottage, de comienzos del siglo XX, protegida como patrimonio.",
-          "imagen": {
-            "archivo_local": "img/t/c8fb804e5d396ad3.webp",
-            "archivo_commons": "Johnny Haynes Stand triangular roof gable (Craven Cottage).jpg",
-            "titulo": "Johnny Haynes Stand triangular roof gable (Craven Cottage)",
-            "autor": "Quintin Soloviev",
-            "licencia": "CC BY 4.0",
-            "url_licencia": "https://creativecommons.org/licenses/by/4.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Johnny_Haynes_Stand_triangular_roof_gable_(Craven_Cottage).jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "Johnny Haynes Stand triangular roof gable (Craven Cottage).jpg"
+          ]
         }
       ],
       "revisar": [],
@@ -1323,17 +1253,12 @@
         {
           "tipo": "cultura",
           "buscar": "Griffin Park pub",
-          "commons": null,
-          "explicacion": "Su antiguo estadio, Griffin Park, era famoso por tener un pub en cada esquina.",
-          "imagen": {
-            "archivo_local": "img/t/6e99534bfd8fac1c.webp",
-            "archivo_commons": "Crossways Pub, Crossways Retail Park, Caerphilly - geograph.org.uk - 372632.jpg",
-            "titulo": "Crossways Pub, Crossways Retail Park, Caerphilly - geograph.org.uk - 372632",
-            "autor": "Kev Griffin",
-            "licencia": "CC BY-SA 2.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Crossways_Pub,_Crossways_Retail_Park,_Caerphilly_-_geograph.org.uk_-_372632.jpg"
-          }
+          "commons": "The Griffin pub, Brentford, October 2018.jpg",
+          "explicacion": "The Griffin, uno de los pubs de las esquinas de Griffin Park, su antiguo estadio, famoso por tener un pub en cada esquina.",
+          "imagen": null,
+          "excluir": [
+            "Crossways Pub, Crossways Retail Park, Caerphilly - geograph.org.uk - 372632.jpg"
+          ]
         }
       ],
       "revisar": [],

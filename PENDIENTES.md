@@ -10,7 +10,7 @@ Lista de cosas por hacer. Se actualiza cada vez que algo se completa o se agrega
   - `set "CONTACTO=https://github.com/svntics/onepixel"`
   - `npm run images`
 - [ ] **4 Fotos 1 Equipo · Premier (20 equipos):** revisar en el documento editable las explicaciones de cada foto y escribir «apruebo 4 fotos premier». Ojo con Everton (se mudó de estadio en 2025).
-- [ ] **4 Fotos 1 Equipo: descargar fotos** desde tu computador: `npm run team-images` (con el mismo `set "CONTACTO=..."` de arriba). Después abre `reports/4fotos.html` con doble clic y dime qué fotos cambiar (ej. «Arsenal foto 2 → opción 3»), sobre todo si alguna muestra el escudo o el nombre del club.
+- [ ] **4 Fotos 1 Equipo: volver a correr** `npm run team-images` (Fetch + Pull antes; Commit + Push después). Faltan 18 fotos: 3 sin resultados y 15 que Claude descartó al revisar (mostraban el nombre del club o no calzaban). Después Claude las revisa de nuevo.
 - [ ] **4 Fotos 1 Equipo: responder** si las ligas usan clubes clásicos fijos (lo que hice) o los de la temporada actual, y si quieres además Reto diario o 1v1 (hoy solo hay modo práctica).
 - [ ] **Liga española (79):** revisar y escribir «apruebo la Liga española».
 - [ ] **NBA (32):** revisar y escribir «apruebo la NBA».

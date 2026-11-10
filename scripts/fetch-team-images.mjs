@@ -6,6 +6,7 @@
 //         npm run team-images -- --force        → vuelve a elegir todas
 //
 //  Por cada foto de data/4fotos/<liga>.json que no sea una ilustración generada:
+//    ("excluir" = lista de archivos de Commons ya descartados al revisar: nunca se vuelven a elegir)
 //    1. Si tiene "commons" (un archivo elegido a mano), usa ese archivo.
 //       Si no, busca en Wikimedia Commons con el texto de "buscar".
 //    2. Pide a Commons autor y licencia de cada candidata y descarta las no libres
@@ -148,7 +149,8 @@ async function main() {
       infos.sort((a, b) => names.indexOf(a.file) - names.indexOf(b.file));
       const clubWords = answerWords(t.respuesta).map(fold).filter((w) => w.length >= 4);
       const mentionsClub = (c) => clubWords.some((w) => fold(c.file).includes(w));
-      const libres = infos.filter((c) => c.ok && (!used.has(c.file) || c.file === f.imagen?.archivo_commons));
+      const excluded = new Set(f.excluir ?? []); // archivos descartados al revisar
+      const libres = infos.filter((c) => c.ok && !excluded.has(c.file) && (!used.has(c.file) || c.file === f.imagen?.archivo_commons));
       const ranked = [...libres.filter((c) => !mentionsClub(c)), ...libres.filter(mentionsClub)];
       const pick = ranked[0];
       const row = {
