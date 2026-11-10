@@ -984,7 +984,7 @@
         "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Alexandre_Pato.jpg"
       },
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "arthur-melo",
@@ -1013,7 +1013,7 @@
         "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:FC_Zenit_Saint_Petersburg_vs._Juventus,_20_October_2021_52_(Arthur_Melo).jpg"
       },
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "erick-pulgar",
@@ -1036,7 +1036,8 @@
       "nacimiento": 1994,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "felipe-melo",
@@ -1059,7 +1060,8 @@
       "nacimiento": 1983,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "gustavo-gomez",
@@ -1082,7 +1084,8 @@
       "nacimiento": 1993,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "hugo-ibarra",
@@ -1107,7 +1110,8 @@
       "nacimiento": 1974,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "hulk",
@@ -1130,7 +1134,8 @@
       "nacimiento": 1986,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "leandro-paredes",
@@ -1153,7 +1158,8 @@
       "nacimiento": 1994,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "luan",
@@ -1177,7 +1183,8 @@
       "nacimiento": 1993,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "miguel-merentiel",
@@ -1201,7 +1208,8 @@
       "nacimiento": 1996,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "pedro-guilherme",
@@ -1224,7 +1232,8 @@
       "nacimiento": 1997,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     }
   ]
 }

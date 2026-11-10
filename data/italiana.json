@@ -327,7 +327,7 @@
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Paul_Pogba_at_the_2025_Cannes_Film_Festival_02.jpg"
       },
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "roberto-baggio",
@@ -460,7 +460,7 @@
         "url_licencia": "https://creativecommons.org/licenses/by/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Norway_Italy_-_June_2025_A_36_(cropped).jpg"
       },
-      "aprobado": false
+      "aprobado": "2026-11-12"
     },
     {
       "id": "alessandro-del-piero",
@@ -491,7 +491,7 @@
         "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Alessandro_Del_Piero,_New_York_NY_2015.jpg"
       },
-      "aprobado": false
+      "aprobado": "2026-11-12"
     },
     {
       "id": "alessandro-nesta",
@@ -520,7 +520,7 @@
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Alessandro_Nesta_as_Miami_FC_Manager.jpg"
       },
-      "aprobado": false
+      "aprobado": "2026-11-12"
     },
     {
       "id": "andrea-pirlo",
@@ -541,9 +541,15 @@
       ],
       "wikipedia_en": "Andrea Pirlo",
       "nacimiento": 1979,
-      "wikidata_id": null,
-      "imagen": null,
-      "aprobado": false
+      "wikidata_id": "Q43926",
+      "imagen": {
+        "archivo_local": "img/p/d7e2bb23185d4a12.webp",
+        "autor": "Clément Bucco-Lechat",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Andrea_Pirlo_(cropped).jpg"
+      },
+      "aprobado": "2026-11-12"
     },
     {
       "id": "antonio-di-natale",
@@ -565,9 +571,15 @@
       ],
       "wikipedia_en": "Antonio Di Natale",
       "nacimiento": 1977,
-      "wikidata_id": null,
-      "imagen": null,
-      "aprobado": false
+      "wikidata_id": "Q167281",
+      "imagen": {
+        "archivo_local": "img/p/34c3b1195b5171e4.webp",
+        "autor": "Roberto Vicario",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Antonio_di_natale.JPG"
+      },
+      "aprobado": "2026-11-12"
     },
     {
       "id": "christian-vieri",
@@ -589,9 +601,15 @@
       ],
       "wikipedia_en": "Christian Vieri",
       "nacimiento": 1973,
-      "wikidata_id": null,
-      "imagen": null,
-      "aprobado": false
+      "wikidata_id": "Q188696",
+      "imagen": {
+        "archivo_local": "img/p/1f8ec95c91c36fba.webp",
+        "autor": "Nehme1499",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Christian_Vieri,_2025_(cropped).jpg"
+      },
+      "aprobado": "2026-11-12"
     },
     {
       "id": "ciro-immobile",
@@ -612,9 +630,15 @@
       ],
       "wikipedia_en": "Ciro Immobile",
       "nacimiento": 1990,
-      "wikidata_id": null,
-      "imagen": null,
-      "aprobado": false
+      "wikidata_id": "Q458101",
+      "imagen": {
+        "archivo_local": "img/p/b95874a322c412b3.webp",
+        "autor": "Clément Bucco-Lechat",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Ciro_Immobile_1.jpg"
+      },
+      "aprobado": "2026-11-12"
     },
     {
       "id": "claudio-marchisio",
@@ -638,7 +662,8 @@
       "nacimiento": 1986,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "david-trezeguet",
@@ -662,7 +687,8 @@
       "nacimiento": 1977,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "dejan-stankovic",
@@ -685,7 +711,8 @@
       "nacimiento": 1978,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "dida",
@@ -708,7 +735,8 @@
       "nacimiento": 1973,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "edgar-davids",
@@ -732,7 +760,8 @@
       "nacimiento": 1973,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "edinson-cavani",
@@ -755,7 +784,8 @@
       "nacimiento": 1987,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "stephan-el-shaarawy",
@@ -778,7 +808,8 @@
       "nacimiento": 1992,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "fabio-cannavaro",
@@ -801,7 +832,8 @@
       "nacimiento": 1973,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "filippo-inzaghi",
@@ -826,7 +858,8 @@
       "nacimiento": 1973,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "franco-baresi",
@@ -849,7 +882,8 @@
       "nacimiento": 1960,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "francesco-totti",
@@ -873,7 +907,8 @@
       "nacimiento": 1976,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "gabriel-batistuta",
@@ -898,7 +933,8 @@
       "nacimiento": 1969,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "gennaro-gattuso",
@@ -923,7 +959,8 @@
       "nacimiento": 1978,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "giorgio-chiellini",
@@ -947,7 +984,8 @@
       "nacimiento": 1984,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "gonzalo-higuain",
@@ -971,7 +1009,8 @@
       "nacimiento": 1987,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "ruud-gullit",
@@ -994,7 +1033,8 @@
       "nacimiento": 1962,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "hakan-calhanoglu",
@@ -1017,7 +1057,8 @@
       "nacimiento": 1994,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "javier-zanetti",
@@ -1041,7 +1082,8 @@
       "nacimiento": 1973,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "juan-cuadrado",
@@ -1065,7 +1107,8 @@
       "nacimiento": 1988,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "julio-cesar",
@@ -1088,7 +1131,8 @@
       "nacimiento": 1979,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "khvicha-kvaratskhelia",
@@ -1112,7 +1156,8 @@
       "nacimiento": 2001,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "lautaro-martinez",
@@ -1137,7 +1182,8 @@
       "nacimiento": 1997,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "leonardo-bonucci",
@@ -1160,7 +1206,8 @@
       "nacimiento": 1987,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "lilian-thuram",
@@ -1183,7 +1230,8 @@
       "nacimiento": 1972,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "marek-hamsik",
@@ -1207,7 +1255,8 @@
       "nacimiento": 1987,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "mike-maignan",
@@ -1231,7 +1280,8 @@
       "nacimiento": 1995,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "nicolo-barella",
@@ -1254,7 +1304,8 @@
       "nacimiento": 1997,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "paulo-dybala",
@@ -1278,7 +1329,8 @@
       "nacimiento": 1993,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "pavel-nedved",
@@ -1301,7 +1353,8 @@
       "nacimiento": 1972,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "rafael-leao",
@@ -1325,7 +1378,8 @@
       "nacimiento": 1999,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "romelu-lukaku",
@@ -1349,7 +1403,8 @@
       "nacimiento": 1993,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "samir-handanovic",
@@ -1372,7 +1427,8 @@
       "nacimiento": 1984,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "theo-hernandez",
@@ -1395,7 +1451,8 @@
       "nacimiento": 1997,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "thiago-silva",
@@ -1418,7 +1475,8 @@
       "nacimiento": 1984,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "victor-osimhen",
@@ -1441,7 +1499,8 @@
       "nacimiento": 1998,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "andrea-barzagli",
@@ -1464,7 +1523,8 @@
       "nacimiento": 1981,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     },
     {
       "id": "zlatan-ibrahimovic",
@@ -1489,7 +1549,8 @@
       "nacimiento": 1981,
       "wikidata_id": null,
       "imagen": null,
-      "aprobado": false
+      "aprobado": false,
+      "revisado": true
     }
   ]
 }

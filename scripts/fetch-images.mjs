@@ -25,6 +25,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { CONFIG } from "../public/js/config.js";
 import { request, setUserAgent } from "./lib/http.mjs";
+import { updatePlayerOnDisk } from "./lib/data.mjs";
 import { classifyLicense, stripHtml, imageFileName, pickP18, looksLikeFootballer, pickSearchCandidate } from "./lib/wikimedia-utils.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -228,15 +229,16 @@ async function main() {
     try {
       const r = await processPlayer(p);
       players.set(p.id, { ...p, wikidata_id: r.wikidata_id ?? null, imagen: r.imagen });
+      updatePlayerOnDisk(DATA, p.id, { wikidata_id: r.wikidata_id ?? null, imagen: r.imagen });
       rows[p.id] = r.row;
       console.log(r.imagen ? `✔ ${r.row.licencia}` : `✖ excluido (${r.row.obs[0] ?? "sin imagen libre"})`);
     } catch (e) {
       rows[p.id] = { id: p.id, jugador: p.nombre, categorias: p.categorias, libre: false, licencia: "", autor: "", obs: [`Error: ${e.message}`] };
       players.set(p.id, { ...p, imagen: null });
+      updatePlayerOnDisk(DATA, p.id, { imagen: null });
       console.log(`✖ error: ${e.message}`);
     }
-    // Guardar tras cada jugador: si se corta, no se pierde lo avanzado
-    saveData(docs, players);
+    // Se guarda tras cada jugador (solo ese jugador): si se corta, no se pierde lo avanzado
     writeReport(rows);
   }
 

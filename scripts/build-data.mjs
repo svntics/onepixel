@@ -38,6 +38,7 @@ function validate(p, cat, file) {
   if (!Array.isArray(p.alias)) errors.push(`${where}: "alias" debe ser una lista`);
   if (!Array.isArray(p.pistas) || p.pistas.length < 2 || p.pistas.length > 3)
     errors.push(`${where}: debe tener 2 o 3 pistas`);
+  if (typeof p.aprobado === "string" && !/^\d{4}-\d{2}-\d{2}$/.test(p.aprobado)) errors.push(`${where}: "aprobado" debe ser true, false o "AAAA-MM-DD"`);
   if (p.era && !ERAS.has(p.era)) errors.push(`${where}: era debe ser "historico" o "actual"`);
   if (Array.isArray(p.categorias) && !p.categorias.includes(cat))
     errors.push(`${where}: está en ${file} pero "categorias" no incluye "${cat}"`);
@@ -71,11 +72,13 @@ for (const file of files) {
   const ids = jugadores.map((p) => p.id);
   if (new Set(ids).size !== ids.length) errors.push(`${file}: hay ids repetidos`);
 
-  // "aprobado": false = jugador nuevo pendiente de revisión: no entra al juego publicado
+  // "aprobado": false = jugador nuevo pendiente de revisión: no entra al juego publicado.
+  // "aprobado": "AAAA-MM-DD" = aprobado; el juego lo incluye desde ese día (hora de Chile),
+  // para no cambiar el reto de un día ya empezado.
   const pendientes = jugadores.filter((p) => p.aprobado === false).length;
   const jugables = (PLACEHOLDERS ? jugadores : jugadores.filter((p) => p.imagen?.archivo_local)).filter((p) => p.aprobado !== false);
   const excluidos = jugadores.length - jugables.length;
-  const activa = CONFIG.CATEGORIES.find((c) => c.id === categoria)?.activa !== false;
+  const activa = CONFIG.CATEGORIES.find((c) => c.id === categoria)?.activa !== false; // true o "AAAA-MM-DD"
   if (!CONFIG.CATEGORIES.some((c) => c.id === categoria)) warnings.push(`${file}: la categoría "${categoria}" no está en config.js`);
   if (!activa) console.log(`  (${categoria}: categoría en preparación, oculta en el sitio)`);
   else if (jugables.length < MIN_POR_CATEGORIA)
@@ -91,6 +94,7 @@ for (const file of files) {
     .map((p) => ({
       // k: clave neutra del jugador (igual en todas las categorías) para no repetirlo el mismo día
       k: createHash("sha256").update(`onepixel-k:${p.id}`).digest("hex").slice(0, 10),
+      ...(typeof p.aprobado === "string" ? { desde: p.aprobado } : {}),
       img: p.imagen?.archivo_local ?? PLACEHOLDER,
       d: encode({
         i: ordenados.indexOf(p),

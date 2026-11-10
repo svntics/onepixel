@@ -1,6 +1,6 @@
 # Reporte de imágenes
 
-Generado: 2026-11-10T13:58:12.105Z · 176 con imagen libre · 3 excluidos
+Generado: 2026-11-10T14:00:04.351Z · 180 con imagen libre · 3 excluidos
 
 Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se resuelva su caso.
 
@@ -19,10 +19,12 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Alexis Sánchez | premier, mundiales | Sí | CC BY 2.0 | joshjdss | — |
 | Alisson Becker | premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | André Ayew | mundiales | Sí | CC BY-SA 4.0 | Pierre-Yves Beaudouin / Wikimedia Commons | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Andrea Pirlo | italiana | Sí | CC BY-SA 3.0 | Clément Bucco-Lechat | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Andrés Iniesta | champions, mundiales | Sí | CC BY-SA 4.0 | Bryan Berlin | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Andrew Robertson | premier | Sí | CC BY-SA 4.0 | Bryan Berlin | Identificado por búsqueda en Wikidata: Q15915040 ("Scottish association football player (born 1994)"). Verifica que sea la persona correcta; CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Andriy Shevchenko | champions | Sí | CC BY 4.0 | Mms.gov.ua | — |
 | Andy Carroll | premier | Sí | CC BY-SA 4.0 | Egghead06 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Antonio Di Natale | italiana | Sí | CC BY-SA 3.0 | Roberto Vicario | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Ariel Ortega | libertadores | Sí | CC BY 2.0 | Gobierno de la Ciudad de Buenos Aires from Ciudad Autónoma de Buenos Aires, Argentina | — |
 | Arjen Robben | champions | Sí | CC BY-SA 3.0 | Дмитрий Садовников | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Arthur Melo | libertadores | Sí | CC BY-SA 3.0 | Kirill Venediktov | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
@@ -41,6 +43,8 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | César Azpilicueta | premier | Sí | CC BY 4.0 | Fars Media Corporation | — |
 | Cesc Fàbregas | premier | Sí | CC BY 2.0 | Web Summit | — |
 | Christian Eriksen | premier | Sí | CC BY-SA 2.0 | Chris 0023 from Lyngby, Denmark | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Christian Vieri | italiana | Sí | CC BY-SA 4.0 | Nehme1499 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Ciro Immobile | italiana | Sí | CC BY-SA 3.0 | Clément Bucco-Lechat | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Clarence Seedorf | champions | Sí | CC BY-SA 3.0 | Кирилл Венедиктов | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Claudio Bravo | mundiales, premier | Sí | CC BY-SA 3.0 | Дмитрий Садовников | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Cristiano Ronaldo | champions, premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |

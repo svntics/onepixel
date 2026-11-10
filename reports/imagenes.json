@@ -2689,5 +2689,65 @@
     ],
     "wikidata_id": "Q227892",
     "descripcion": "Italian association football player and manager (born 1976)"
+  },
+  "andrea-pirlo": {
+    "id": "andrea-pirlo",
+    "jugador": "Andrea Pirlo",
+    "categorias": [
+      "italiana"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Clément Bucco-Lechat",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q43926",
+    "descripcion": "Italian association football player and manager"
+  },
+  "antonio-di-natale": {
+    "id": "antonio-di-natale",
+    "jugador": "Antonio Di Natale",
+    "categorias": [
+      "italiana"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Roberto Vicario",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q167281",
+    "descripcion": "Italian association football player"
+  },
+  "christian-vieri": {
+    "id": "christian-vieri",
+    "jugador": "Christian Vieri",
+    "categorias": [
+      "italiana"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Nehme1499",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q188696",
+    "descripcion": "Italian footballer (born 1973)"
+  },
+  "ciro-immobile": {
+    "id": "ciro-immobile",
+    "jugador": "Ciro Immobile",
+    "categorias": [
+      "italiana"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Clément Bucco-Lechat",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q458101",
+    "descripcion": "Italian association football player"
   }
 }

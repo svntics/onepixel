@@ -19,6 +19,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { CONFIG } from "../public/js/config.js";
 import { request, setUserAgent } from "./lib/http.mjs";
+import { updatePlayerOnDisk } from "./lib/data.mjs";
 import { classifyLicense, stripHtml } from "./lib/wikimedia-utils.mjs";
 import { careerYears, yearOf, scoreEraCandidate } from "./lib/era-utils.mjs";
 import { normalize } from "../public/js/normalize.js";
@@ -85,7 +86,10 @@ async function processPlayer(p) {
 
   // Años de carrera
   let carrera = p.carrera?.fuente === "manual" ? p.carrera : careerYears(claims);
-  if (carrera && p.carrera?.fuente !== "manual") players.set(p.id, { ...players.get(p.id), carrera });
+  if (carrera && p.carrera?.fuente !== "manual") {
+    players.set(p.id, { ...players.get(p.id), carrera });
+    updatePlayerOnDisk(DATA, p.id, { carrera });
+  }
   res.carrera = carrera;
   if (!carrera) res.obs.push("Wikidata no tiene fechas de clubes: escribe \"carrera\" a mano");
 
@@ -185,7 +189,6 @@ for (const p of todo) {
     rows[p.id] = { id: p.id, jugador: p.nombre, candidatas: [], obs: [`Error: ${e.message}`] };
     console.log(`✖ ${e.message}`);
   }
-  saveData();
   writeReport(rows);
 }
 console.log("\nReporte: reports/fotos-epoca.html");

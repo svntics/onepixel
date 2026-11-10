@@ -35,7 +35,8 @@ const indexPath = join(ROOT, "public", "index.html");
 const indexHtml = readFileSync(indexPath, "utf8");
 const ACTIVE = CONFIG.CATEGORIES.filter((c) => c.activa !== false);
 const catsHtml = ACTIVE.map(
-  (c) => `        <li><a href="#/${esc(c.id)}" data-cat="${esc(c.id)}"
+  // Categoría con fecha de inicio (activa: "AAAA-MM-DD"): queda oculta y el juego la muestra desde ese día
+  (c) => `        <li${typeof c.activa === "string" ? ` hidden data-desde="${esc(c.activa)}"` : ""}><a href="#/${esc(c.id)}" data-cat="${esc(c.id)}"
           class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
           <span class="text-3xl" aria-hidden="true">${esc(c.emoji)}</span>
           <span class="flex flex-1 flex-col"><span class="text-lg font-bold">${esc(c.nombre)}</span><span class="text-sm text-muted">${esc(c.descripcion)}</span></span>

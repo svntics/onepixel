@@ -9,8 +9,22 @@ import { initAds, initConsent, initSupport } from "./ads.js";
 const $ = (sel) => document.querySelector(sel);
 const views = { home: $("#view-home"), game: $("#view-game") };
 const MAX = CONFIG.BLUR_LEVELS.length;
-// Solo las categorías activas (las "activa: false" están en preparación)
-const CATEGORIES = CONFIG.CATEGORIES.filter((c) => c.activa !== false);
+// ---------- Fecha del reto ----------
+function today() {
+  const date = dateInTimeZone(new Date(), CONFIG.TIMEZONE);
+  return { date, n: challengeNumber(date, CONFIG.DAILY_EPOCH) };
+}
+
+// Solo las categorías activas: "activa: false" = en preparación; "activa: AAAA-MM-DD" = desde ese día
+const CATEGORIES = CONFIG.CATEGORIES.filter(
+  (c) => c.activa !== false && !(typeof c.activa === "string" && c.activa > today().date),
+);
+
+// Rondas disponibles hoy (un jugador aprobado con fecha entra desde ese día)
+function available(data) {
+  const d = today().date;
+  return { ...data, rondas: data.rondas.filter((r) => !r.desde || r.desde <= d) };
+}
 const dataCache = new Map();
 let current = { cat: null, mode: load("mode", "daily") };
 let countdownTimer = null;
@@ -33,17 +47,13 @@ $("#theme-toggle").addEventListener("click", () => {
   applyThemeButton();
 });
 
-// ---------- Fecha del reto ----------
-function today() {
-  const date = dateInTimeZone(new Date(), CONFIG.TIMEZONE);
-  return { date, n: challengeNumber(date, CONFIG.DAILY_EPOCH) };
-}
-
 // ---------- Inicio ----------
 // La lista de categorías viene escrita en index.html (la genera scripts/build-pages.mjs);
 // aquí solo se marca cuáles ya se jugaron hoy.
 function renderHome() {
   const { n } = today();
+  // Mostrar las categorías con fecha de inicio que ya llegaron
+  document.querySelectorAll("#category-list li[data-desde]").forEach((li) => (li.hidden = li.dataset.desde > today().date));
   document.querySelectorAll("#category-list [data-cat]").forEach((a) => {
     const saved = load(`daily:${a.dataset.cat}`);
     a.querySelector(".status").textContent = saved?.n === n && saved?.over ? "✓ Hoy" : "";
@@ -55,7 +65,7 @@ async function loadCategory(id) {
   if (!dataCache.has(id)) {
     const res = await fetch(`data/${id}.json`);
     if (!res.ok) throw new Error(`No se pudo cargar ${id}`);
-    dataCache.set(id, await res.json());
+    dataCache.set(id, available(await res.json()));
   }
   return dataCache.get(id);
 }
