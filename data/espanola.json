@@ -942,8 +942,14 @@
       ],
       "wikipedia_en": "Sergio Canales",
       "nacimiento": 1991,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q19422",
+      "imagen": {
+        "archivo_local": "img/p/65b85a12a116613b.webp",
+        "autor": "Giovanni Batista Rodriguez from San Sebastian-Donostia, España",
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Real_Sociedad_-_Red_Bull_Salzburgo_52_(39408621605)_(cropped)_2.jpg"
+      },
       "aprobado": false
     },
     {
@@ -966,8 +972,14 @@
       ],
       "wikipedia_en": "Carles Puyol",
       "nacimiento": 1978,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q17158",
+      "imagen": {
+        "archivo_local": "img/p/4eaf993186e3e5db.webp",
+        "autor": "Pedro J Pacheco",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Premios_Goya_2020_-_Carles_Pujol.jpg"
+      },
       "aprobado": false
     },
     {
@@ -989,8 +1001,14 @@
       ],
       "wikipedia_en": "Casemiro",
       "nacimiento": 1992,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q616664",
+      "imagen": {
+        "archivo_local": "img/p/899d9bad09d2276f.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Casemiro_Brazil_V_Morocco_13_June_2026-76_(cropped).jpg"
+      },
       "aprobado": false
     },
     {
@@ -1013,8 +1031,14 @@
       ],
       "wikipedia_en": "Dani Alves",
       "nacimiento": 1983,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q172720",
+      "imagen": {
+        "archivo_local": "img/p/9ee51a5912c76bb9.webp",
+        "autor": "Palácio do Planalto from Brasilia, Brasil",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:07_07_2019_Final_da_Copa_Am%C3%A9rica_2019_(48226649586)_(cropped).jpg"
+      },
       "aprobado": false
     },
     {

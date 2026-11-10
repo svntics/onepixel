@@ -2822,5 +2822,64 @@
     "obs": [],
     "wikidata_id": "Q44389",
     "descripcion": "German association football manager and former player"
+  },
+  "sergio-canales": {
+    "id": "sergio-canales",
+    "jugador": "Sergio Canales",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 2.0",
+    "autor": "Giovanni Batista Rodriguez from San Sebastian-Donostia, España",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q19422",
+    "descripcion": "Spanish footballer"
+  },
+  "carles-puyol": {
+    "id": "carles-puyol",
+    "jugador": "Carles Puyol",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Pedro J Pacheco",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q17158",
+    "descripcion": "Spanish footballer (born 1978)"
+  },
+  "casemiro": {
+    "id": "casemiro",
+    "jugador": "Casemiro",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q616664",
+    "descripcion": "Brazilian association football player"
+  },
+  "dani-alves": {
+    "id": "dani-alves",
+    "jugador": "Dani Alves",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "Palácio do Planalto from Brasilia, Brasil",
+    "obs": [],
+    "wikidata_id": "Q172720",
+    "descripcion": "Brazilian footballer"
   }
 }

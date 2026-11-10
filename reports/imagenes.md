@@ -1,6 +1,6 @@
 # Reporte de imágenes
 
-Generado: 2026-11-10T14:50:09.148Z · 186 con imagen libre · 2 excluidos
+Generado: 2026-11-10T15:11:05.215Z · 190 con imagen libre · 2 excluidos
 
 Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se resuelva su caso.
 
@@ -40,10 +40,12 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Bruno Fernandes | premier | Sí | CC BY-SA 4.0 | Bryan Berlin | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Bukayo Saka | premier | Sí | CC BY-SA 4.0 | Bryan Berlin | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Cafu | libertadores, mundiales | Sí | CC BY-SA 4.0 | Lula Oficial | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Carles Puyol | espanola | Sí | CC BY-SA 4.0 | Pedro J Pacheco | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Carlos Alberto Torres | mundiales | Sí | Public domain | Desconocido Unknown author | Dominio público: verificar que lo sea también en Chile |
 | Carlos Caszely | mundiales, libertadores | Sí | CC BY-SA 2.0 | Carlos_Caszely_2013.jpg : Michelle Bachelet derivative work: Warko | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Carlos Tévez | libertadores, premier | Sí | CC BY-SA 4.0 | Egghead06 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Carlos Valderrama | mundiales | Sí | CC BY 3.0 | Maritza Ariza Periodista | — |
+| Casemiro | espanola | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | César Azpilicueta | premier | Sí | CC BY 4.0 | Fars Media Corporation | — |
 | Cesc Fàbregas | premier | Sí | CC BY 2.0 | Web Summit | — |
 | Christian Eriksen | premier | Sí | CC BY-SA 2.0 | Chris 0023 from Lyngby, Denmark | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
@@ -52,6 +54,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Clarence Seedorf | champions | Sí | CC BY-SA 3.0 | Кирилл Венедиктов | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Claudio Bravo | mundiales, premier | Sí | CC BY-SA 3.0 | Дмитрий Садовников | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Cristiano Ronaldo | champions, premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
+| Dani Alves | espanola | Sí | CC BY 2.0 | Palácio do Planalto from Brasilia, Brasil | — |
 | David de Gea | premier | Sí | CC BY-SA 3.0 | Кирилл Венедиктов | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | David Silva | premier | Sí | CC BY-SA 3.0 | Кирилл Венедиктов | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Davor Šuker | mundiales | Sí | CC BY-SA 3.0 | Ludovic Péron | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
@@ -173,6 +176,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Sadio Mané | premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Samuel Eto'o | champions | Sí | CC BY-SA 4.0 | BACHELOR45 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Sergio Agüero | premier | Sí | CC BY-SA 3.0 | Кирилл Венедиктов | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Sergio Canales | espanola | Sí | CC BY-SA 2.0 | Giovanni Batista Rodriguez from San Sebastian-Donostia, España | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Sergio Ramos | champions | Sí | CC BY 3.0 | Real Madrid | — |
 | Sofyan Amrabat | mundiales | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Son Heung-min | premier | Sí | CC BY-SA 4.0 | Ujishadow | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
