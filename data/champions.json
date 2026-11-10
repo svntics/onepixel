@@ -10,7 +10,8 @@
       ],
       "categorias": [
         "mundiales",
-        "champions"
+        "champions",
+        "italiana"
       ],
       "era": "historico",
       "pais": "Francia",
@@ -77,7 +78,8 @@
       ],
       "categorias": [
         "champions",
-        "premier"
+        "premier",
+        "italiana"
       ],
       "era": "actual",
       "pais": "Portugal",
@@ -104,7 +106,8 @@
         "Maldini"
       ],
       "categorias": [
-        "champions"
+        "champions",
+        "italiana"
       ],
       "era": "historico",
       "pais": "Italia",
@@ -170,7 +173,8 @@
         "Ricardo Izecson dos Santos Leite"
       ],
       "categorias": [
-        "champions"
+        "champions",
+        "italiana"
       ],
       "era": "historico",
       "pais": "Brasil",
@@ -460,7 +464,8 @@
       ],
       "categorias": [
         "mundiales",
-        "champions"
+        "champions",
+        "italiana"
       ],
       "era": "historico",
       "pais": "Italia",
@@ -823,7 +828,8 @@
         "Seedorf"
       ],
       "categorias": [
-        "champions"
+        "champions",
+        "italiana"
       ],
       "era": "historico",
       "pais": "Países Bajos",
@@ -856,7 +862,8 @@
         "Shevchenko"
       ],
       "categorias": [
-        "champions"
+        "champions",
+        "italiana"
       ],
       "era": "historico",
       "pais": "Ucrania",

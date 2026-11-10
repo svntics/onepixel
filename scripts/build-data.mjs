@@ -10,6 +10,7 @@ import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 
 import { createHash } from "node:crypto";
 import { encode } from "../public/js/codec.js";
 import { normalize } from "../public/js/normalize.js";
+import { CONFIG } from "../public/js/config.js";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -74,9 +75,12 @@ for (const file of files) {
   const pendientes = jugadores.filter((p) => p.aprobado === false).length;
   const jugables = (PLACEHOLDERS ? jugadores : jugadores.filter((p) => p.imagen?.archivo_local)).filter((p) => p.aprobado !== false);
   const excluidos = jugadores.length - jugables.length;
-  if (jugables.length < MIN_POR_CATEGORIA)
+  const activa = CONFIG.CATEGORIES.find((c) => c.id === categoria)?.activa !== false;
+  if (!CONFIG.CATEGORIES.some((c) => c.id === categoria)) warnings.push(`${file}: la categoría "${categoria}" no está en config.js`);
+  if (!activa) console.log(`  (${categoria}: categoría en preparación, oculta en el sitio)`);
+  else if (jugables.length < MIN_POR_CATEGORIA)
     warnings.push(`${file}: solo ${jugables.length} jugadores jugables (mínimo recomendado ${MIN_POR_CATEGORIA})`);
-  if (jugables.length === 0) errors.push(`${file}: ningún jugador tiene imagen. Ejecuta "npm run images" o usa "npm run dev" para probar con siluetas.`);
+  if (activa && jugables.length === 0) errors.push(`${file}: ningún jugador tiene imagen. Ejecuta "npm run images" o usa "npm run dev" para probar con siluetas.`);
   jugadores = jugables;
 
   const ordenados = [...jugadores].sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));

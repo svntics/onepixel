@@ -1,6 +1,6 @@
 # Reporte de imágenes
 
-Generado: 2026-11-10T13:51:08.173Z · 171 con imagen libre · 3 excluidos
+Generado: 2026-11-10T13:53:06.901Z · 173 con imagen libre · 3 excluidos
 
 Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se resuelva su caso.
 
@@ -12,6 +12,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Adel Taarabt | premier | Sí | CC BY-SA 3.0 | Anton Zaitsev | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Alan Shearer | premier | Sí | CC BY-SA 2.0 | Originally carltonreid ; retouched by DFS454 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Alberto Spencer | libertadores | Sí | Public domain | Eduardo Forte | Dominio público: verificar que lo sea también en Chile |
+| Alexandre Pato | libertadores | Sí | CC BY-SA 2.0 | @cfcunofficial (Chelsea Debs) London | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Alexis Sánchez | premier, mundiales | Sí | CC BY 2.0 | joshjdss | — |
 | Alisson Becker | premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | André Ayew | mundiales | Sí | CC BY-SA 4.0 | Pierre-Yves Beaudouin / Wikimedia Commons | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
@@ -21,6 +22,7 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Andy Carroll | premier | Sí | CC BY-SA 4.0 | Egghead06 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Ariel Ortega | libertadores | Sí | CC BY 2.0 | Gobierno de la Ciudad de Buenos Aires from Ciudad Autónoma de Buenos Aires, Argentina | — |
 | Arjen Robben | champions | Sí | CC BY-SA 3.0 | Дмитрий Садовников | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Arthur Melo | libertadores | Sí | CC BY-SA 3.0 | Kirill Venediktov | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Arturo Vidal | mundiales, champions | Sí | CC BY-SA 3.0 | Дмитрий Садовников | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Aymeric Laporte | premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Azzedine Ounahi | mundiales | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |

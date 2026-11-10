@@ -33,7 +33,8 @@ console.log(`✔ ads.css: espacios publicitarios ${showSlots ? "visibles" : "ocu
 // ---------- Lista de categorías en index.html (HTML estático: sin saltos al cargar) ----------
 const indexPath = join(ROOT, "public", "index.html");
 const indexHtml = readFileSync(indexPath, "utf8");
-const catsHtml = CONFIG.CATEGORIES.map(
+const ACTIVE = CONFIG.CATEGORIES.filter((c) => c.activa !== false);
+const catsHtml = ACTIVE.map(
   (c) => `        <li><a href="#/${esc(c.id)}" data-cat="${esc(c.id)}"
           class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
           <span class="text-3xl" aria-hidden="true">${esc(c.emoji)}</span>
@@ -46,7 +47,7 @@ const newIndex = indexHtml.replace(
   `$1\n${catsHtml}\n$2`,
 );
 if (newIndex !== indexHtml) writeFileSync(indexPath, newIndex);
-console.log(`✔ index.html: ${CONFIG.CATEGORIES.length} categorías`);
+console.log(`✔ index.html: ${ACTIVE.length} categorías activas`);
 
 // ---------- creditos.html ----------
 const players = new Map();

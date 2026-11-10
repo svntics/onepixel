@@ -52,11 +52,14 @@ export const CONFIG = {
   //   "al-final"           → solo un aviso; el crédito completo aparece al terminar
   CREDIT_MODE: "durante",
 
-  // Categorías que aparecen en la pantalla inicial (sin logos oficiales)
+  // Categorías de la pantalla inicial (sin logos oficiales). El orden importa para el reto diario:
+  // agrega las nuevas siempre al final.
   CATEGORIES: [
     { id: "mundiales", nombre: "Mundiales", emoji: "🌎", descripcion: "Leyendas y figuras de las Copas del Mundo" },
     { id: "premier", nombre: "Premier League", emoji: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", descripcion: "Jugadores de la liga inglesa" },
     { id: "champions", nombre: "Champions League", emoji: "⭐", descripcion: "Protagonistas del torneo europeo de clubes" },
     { id: "libertadores", nombre: "Copa Libertadores", emoji: "🏆", descripcion: "Ídolos del torneo sudamericano de clubes" },
+    // "activa: false" = categoría en preparación: no aparece en el sitio hasta aprobarla
+    { id: "italiana", nombre: "Liga italiana", emoji: "🇮🇹", descripcion: "Figuras del fútbol de Italia", activa: false },
   ],
 };

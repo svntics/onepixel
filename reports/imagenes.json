@@ -2616,5 +2616,35 @@
     "obs": [],
     "wikidata_id": "Q3571952",
     "descripcion": "Moroccan association football player"
+  },
+  "alexandre-pato": {
+    "id": "alexandre-pato",
+    "jugador": "Alexandre Pato",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 2.0",
+    "autor": "@cfcunofficial (Chelsea Debs) London",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q138075",
+    "descripcion": "Brazilian football player (born 1989)"
+  },
+  "arthur-melo": {
+    "id": "arthur-melo",
+    "jugador": "Arthur Melo",
+    "categorias": [
+      "libertadores"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Kirill Venediktov",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q39667548",
+    "descripcion": "Brazilian association football player"
   }
 }

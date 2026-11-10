@@ -274,7 +274,8 @@
       ],
       "categorias": [
         "libertadores",
-        "mundiales"
+        "mundiales",
+        "italiana"
       ],
       "era": "historico",
       "pais": "Brasil",
@@ -624,7 +625,8 @@
         "Crespo"
       ],
       "categorias": [
-        "libertadores"
+        "libertadores",
+        "italiana"
       ],
       "era": "historico",
       "pais": "Argentina",
@@ -974,8 +976,14 @@
       ],
       "wikipedia_en": "Alexandre Pato",
       "nacimiento": 1989,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q138075",
+      "imagen": {
+        "archivo_local": "img/p/74af0bf22da57675.webp",
+        "autor": "@cfcunofficial (Chelsea Debs) London",
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Alexandre_Pato.jpg"
+      },
       "aprobado": false
     },
     {
@@ -997,8 +1005,14 @@
       ],
       "wikipedia_en": "Arthur Melo",
       "nacimiento": 1996,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q39667548",
+      "imagen": {
+        "archivo_local": "img/p/1796f9d4d908832b.webp",
+        "autor": "Kirill Venediktov",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:FC_Zenit_Saint_Petersburg_vs._Juventus,_20_October_2021_52_(Arthur_Melo).jpg"
+      },
       "aprobado": false
     },
     {

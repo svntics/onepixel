@@ -9,6 +9,8 @@ import { initAds, initConsent, initSupport } from "./ads.js";
 const $ = (sel) => document.querySelector(sel);
 const views = { home: $("#view-home"), game: $("#view-game") };
 const MAX = CONFIG.BLUR_LEVELS.length;
+// Solo las categorías activas (las "activa: false" están en preparación)
+const CATEGORIES = CONFIG.CATEGORIES.filter((c) => c.activa !== false);
 const dataCache = new Map();
 let current = { cat: null, mode: load("mode", "daily") };
 let countdownTimer = null;
@@ -61,8 +63,8 @@ async function loadCategory(id) {
 // El reto de cada categoría depende de las otras (para no repetir jugador el mismo día),
 // así que se cargan las 4 (son archivos pequeños).
 async function dailyRoundIndex(catId, n) {
-  const all = await Promise.all(CONFIG.CATEGORIES.map((c) => loadCategory(c.id)));
-  const cats = CONFIG.CATEGORIES.map((c, k) => ({ id: c.id, keys: all[k].rondas.map((r) => r.k) }));
+  const all = await Promise.all(CATEGORIES.map((c) => loadCategory(c.id)));
+  const cats = CATEGORIES.map((c, k) => ({ id: c.id, keys: all[k].rondas.map((r) => r.k) }));
   return dailyPicks(n, cats)[catId];
 }
 
@@ -214,7 +216,7 @@ async function showGame(cat) {
 function renderStats() {
   const { n } = today();
   $("#stats-body").replaceChildren(
-    ...CONFIG.CATEGORIES.map((c) => {
+    ...CATEGORIES.map((c) => {
       const s = getStats(c.id);
       const sec = document.createElement("section");
       const h = document.createElement("h3");
@@ -267,7 +269,7 @@ dialog.addEventListener("click", (e) => e.target === dialog && dialog.close());
 // ---------- Router por hash ----------
 function route(e) {
   const id = location.hash.replace(/^#\/?/, "");
-  const cat = CONFIG.CATEGORIES.find((c) => c.id === id);
+  const cat = CATEGORIES.find((c) => c.id === id);
   document.documentElement.dataset.view = cat ? "game" : "home";
   views.home.hidden = !!cat;
   views.game.hidden = !cat;
