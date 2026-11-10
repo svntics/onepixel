@@ -2241,5 +2241,51 @@
     ],
     "wikidata_id": "Q22951255",
     "descripcion": "English footballer (born 1997)"
+  },
+  "andre-ayew": {
+    "id": "andre-ayew",
+    "jugador": "André Ayew",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Pierre-Yves Beaudouin / Wikimedia Commons",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q516921",
+    "descripcion": "Ghanaian footballer (born 1989)"
+  },
+  "azzedine-ounahi": {
+    "id": "azzedine-ounahi",
+    "jugador": "Azzedine Ounahi",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q108109586",
+    "descripcion": "Moroccan association football player"
+  },
+  "benjamin-pavard": {
+    "id": "benjamin-pavard",
+    "jugador": "Benjamin Pavard",
+    "categorias": [
+      "mundiales"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Кирилл Венедиктов",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q19599124",
+    "descripcion": "French footballer (born 1996)"
   }
 }

@@ -1214,8 +1214,14 @@
         "Jugó con Ghana los Mundiales de 2010, 2014 y 2022."
       ],
       "wikipedia_en": "André Ayew",
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q516921",
+      "imagen": {
+        "archivo_local": "img/p/0bd44f90cea632c0.webp",
+        "autor": "Pierre-Yves Beaudouin / Wikimedia Commons",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:20150331_Mali_vs_Ghana_170.jpg"
+      },
       "aprobado": false
     },
     {
@@ -1236,8 +1242,14 @@
         "Fue una de las revelaciones del Marruecos semifinalista del Mundial 2022."
       ],
       "wikipedia_en": "Azzedine Ounahi",
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q108109586",
+      "imagen": {
+        "archivo_local": "img/p/42a787f6368f7aba.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Azzedine_Ounahi_Brazil_V_Morocco_13_June_2026-159_(cropped).jpg"
+      },
       "aprobado": false
     },
     {
@@ -1258,8 +1270,14 @@
         "Marcó un golazo de volea ante Argentina en el Mundial 2018."
       ],
       "wikipedia_en": "Benjamin Pavard",
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q19599124",
+      "imagen": {
+        "archivo_local": "img/p/3d1fcca7e48dbbec.webp",
+        "autor": "Кирилл Венедиктов",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Benjamin_Pavard_20180709.jpg"
+      },
       "aprobado": false
     },
     {
