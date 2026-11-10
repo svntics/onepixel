@@ -884,8 +884,14 @@
       ],
       "wikipedia_en": "Beñat Etxebarria",
       "nacimiento": 1987,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q454950",
+      "imagen": {
+        "archivo_local": "img/p/418fc65f090df623.webp",
+        "autor": "Football.ua",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:%D0%A2%D1%80%D0%B5%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0_%D0%90%D1%82%D0%BB%D0%B5%D1%82%D0%B8%D0%BA%D0%B0_(5).jpg"
+      },
       "aprobado": false
     },
     {
@@ -907,8 +913,14 @@
       ],
       "wikipedia_en": "Bernd Schuster",
       "nacimiento": 1959,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q44389",
+      "imagen": {
+        "archivo_local": "img/p/0b56827b30f0ec53.webp",
+        "autor": "mustapha ennaimi from casablanca, maroc",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Bernd_Schuster_2013_(cropped).jpg"
+      },
       "aprobado": false
     },
     {

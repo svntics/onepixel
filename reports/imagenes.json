@@ -2794,5 +2794,33 @@
     "obs": [],
     "wikidata_id": "Q487459",
     "descripcion": "Turkish association football player (born 1987)"
+  },
+  "benat-etxebarria": {
+    "id": "benat-etxebarria",
+    "jugador": "Beñat Etxebarria",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Football.ua",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q454950",
+    "descripcion": "Spanish footballer"
+  },
+  "bernd-schuster": {
+    "id": "bernd-schuster",
+    "jugador": "Bernd Schuster",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "mustapha ennaimi from casablanca, maroc",
+    "obs": [],
+    "wikidata_id": "Q44389",
+    "descripcion": "German association football manager and former player"
   }
 }

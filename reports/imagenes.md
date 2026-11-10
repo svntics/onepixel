@@ -1,6 +1,6 @@
 # Reporte de imágenes
 
-Generado: 2026-11-10T14:09:05.482Z · 184 con imagen libre · 2 excluidos
+Generado: 2026-11-10T14:50:09.148Z · 186 con imagen libre · 2 excluidos
 
 Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se resuelva su caso.
 
@@ -34,7 +34,9 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Aymeric Laporte | premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Azzedine Ounahi | mundiales | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Benjamin Pavard | mundiales | Sí | CC BY-SA 3.0 | Кирилл Венедиктов | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Beñat Etxebarria | espanola | Sí | CC BY-SA 3.0 | Football.ua | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Bernardo Silva | premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
+| Bernd Schuster | espanola | Sí | CC BY 2.0 | mustapha ennaimi from casablanca, maroc | — |
 | Bruno Fernandes | premier | Sí | CC BY-SA 4.0 | Bryan Berlin | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Bukayo Saka | premier | Sí | CC BY-SA 4.0 | Bryan Berlin | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |
 | Cafu | libertadores, mundiales | Sí | CC BY-SA 4.0 | Lula Oficial | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
