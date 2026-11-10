@@ -41,7 +41,7 @@ const SPORTS = CONFIG.SPORTS;
 const sportsHtml = SPORTS.map((d) => {
   const locked = d.estado !== "activo";
   const inner = `<span class="text-4xl" aria-hidden="true">${esc(d.emoji)}</span>
-          <span class="text-lg font-extrabold leading-tight">${esc(d.nombre)}</span>
+          <span class="pix text-lg font-extrabold leading-tight">${esc(d.nombre)}</span>
           <span class="text-xs text-muted">${esc(d.descripcion)}</span>
           ${locked ? '<span class="mt-1 inline-flex items-center gap-1 rounded-full bg-surface-2 px-2 py-0.5 text-xs font-bold">🔒 Próximamente</span>' : ""}`;
   const cls = "flex h-full min-h-40 flex-col items-center justify-center gap-1 rounded-2xl border border-border bg-surface p-4 text-center";
@@ -58,7 +58,7 @@ const sportsHtml = SPORTS.map((d) => {
 const catItem = (c) => `          <li${typeof c.activa === "string" ? ` hidden data-desde="${esc(c.activa)}"` : ""}><a href="#/${esc(c.id)}" data-cat="${esc(c.id)}"
             class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
             <span class="text-3xl" aria-hidden="true">${esc(c.emoji)}</span>
-            <span class="flex flex-1 flex-col"><span class="text-lg font-bold">${esc(c.nombre)}</span><span class="text-sm text-muted">${esc(c.descripcion)}</span></span>
+            <span class="flex flex-1 flex-col"><span class="pix text-lg font-bold">${esc(c.nombre)}</span><span class="text-sm text-muted">${esc(c.descripcion)}</span></span>
             <span class="status text-sm font-semibold text-accent"></span>
           </a></li>`;
 const listsHtml = SPORTS.filter((d) => d.estado === "activo")

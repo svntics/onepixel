@@ -16,21 +16,24 @@ const GLYPHS = {
 // Tono fijo por píxel (no cambia entre cargas): pseudoaleatorio a partir de su posición
 const tone = (x, y) => (((x * 73856093) ^ (y * 19349663)) >>> 0) % 4;
 
-export function pixelLogoSvg(text = "onepixel", px = 3, gap = 1) {
+// px = tamaño de cada píxel · gapPx = espacio entre letras (en píxeles de pantalla)
+export function pixelLogoSvg(text = "onepixel", px = 3, gapPx = 2) {
   const rects = [];
-  let col = 0;
+  let xPx = 0;
+  let col = 0; // columna lógica (solo para elegir el tono)
   for (const ch of text) {
     const g = GLYPHS[ch];
     if (!g) continue;
     const w = Math.max(...g.map((r) => r.length));
     g.forEach((row, y) =>
       [...row].forEach((c, x) => {
-        if (c === "#") rects.push(`<rect x="${(col + x) * px}" y="${y * px}" width="${px}" height="${px}" class="px-t${tone(col + x, y)}"/>`);
+        if (c === "#") rects.push(`<rect x="${xPx + x * px}" y="${y * px}" width="${px}" height="${px}" class="px-t${tone(col + x, y)}"/>`);
       }),
     );
-    col += w + gap;
+    xPx += w * px + gapPx;
+    col += w + 1;
   }
-  const W = (col - gap) * px;
+  const W = xPx - gapPx;
   const H = 9 * px;
   return `<svg class="pixel-logo" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="${text}" shape-rendering="crispEdges"><title>${text}</title>${rects.join("")}</svg>`;
 }

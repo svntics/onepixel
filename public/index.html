@@ -18,6 +18,7 @@
       document.documentElement.dataset.view = /^#\/[a-z]+\/(diario|practica|1v1)/.test(h) ? "game" : m ? (deportes.indexOf(m[1]) >= 0 ? "sport" : "mode") : "landing";
     })();
   </script>
+  <link rel="preload" href="/fonts/pixelify-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="stylesheet" href="assets/ads.css">
   <script type="module" src="js/main.js"></script>
@@ -27,7 +28,7 @@
 
   <header class="border-b border-border">
     <div class="mx-auto flex max-w-xl items-center justify-between px-4 py-3">
-      <a href="#/" class="min-h-11 inline-flex items-center" aria-label="onepixel, ir al inicio"><!-- logo:inicio --><svg class="pixel-logo" viewBox="0 0 129 27" width="129" height="27" role="img" aria-label="onepixel" shape-rendering="crispEdges"><title>onepixel</title><rect x="3" y="6" width="3" height="3" class="px-t3"/><rect x="6" y="6" width="3" height="3" class="px-t0"/><rect x="9" y="6" width="3" height="3" class="px-t1"/><rect x="0" y="9" width="3" height="3" class="px-t1"/><rect x="12" y="9" width="3" height="3" class="px-t1"/><rect x="0" y="12" width="3" height="3" class="px-t0"/><rect x="12" y="12" width="3" height="3" class="px-t0"/><rect x="0" y="15" width="3" height="3" class="px-t3"/><rect x="12" y="15" width="3" height="3" class="px-t3"/><rect x="3" y="18" width="3" height="3" class="px-t3"/><rect x="6" y="18" width="3" height="3" class="px-t0"/><rect x="9" y="18" width="3" height="3" class="px-t1"/><rect x="18" y="6" width="3" height="3" class="px-t0"/><rect x="21" y="6" width="3" height="3" class="px-t1"/><rect x="24" y="6" width="3" height="3" class="px-t2"/><rect x="27" y="6" width="3" height="3" class="px-t3"/><rect x="18" y="9" width="3" height="3" class="px-t3"/><rect x="30" y="9" width="3" height="3" class="px-t3"/><rect x="18" y="12" width="3" height="3" class="px-t2"/><rect x="30" y="12" width="3" height="3" class="px-t2"/><rect x="18" y="15" width="3" height="3" class="px-t1"/><rect x="30" y="15" width="3" height="3" class="px-t1"/><rect x="18" y="18" width="3" height="3" class="px-t0"/><rect x="30" y="18" width="3" height="3" class="px-t0"/><rect x="39" y="6" width="3" height="3" class="px-t3"/><rect x="42" y="6" width="3" height="3" class="px-t0"/><rect x="45" y="6" width="3" height="3" class="px-t1"/><rect x="36" y="9" width="3" height="3" class="px-t1"/><rect x="48" y="9" width="3" height="3" class="px-t1"/><rect x="36" y="12" width="3" height="3" class="px-t0"/><rect x="39" y="12" width="3" height="3" class="px-t1"/><rect x="42" y="12" width="3" height="3" class="px-t2"/><rect x="45" y="12" width="3" height="3" class="px-t3"/><rect x="48" y="12" width="3" height="3" class="px-t0"/><rect x="36" y="15" width="3" height="3" class="px-t3"/><rect x="39" y="18" width="3" height="3" class="px-t3"/><rect x="42" y="18" width="3" height="3" class="px-t0"/><rect x="45" y="18" width="3" height="3" class="px-t1"/><rect x="48" y="18" width="3" height="3" class="px-t2"/><rect x="54" y="6" width="3" height="3" class="px-t0"/><rect x="57" y="6" width="3" height="3" class="px-t1"/><rect x="60" y="6" width="3" height="3" class="px-t2"/><rect x="63" y="6" width="3" height="3" class="px-t3"/><rect x="54" y="9" width="3" height="3" class="px-t3"/><rect x="66" y="9" width="3" height="3" class="px-t3"/><rect x="54" y="12" width="3" height="3" class="px-t2"/><rect x="66" y="12" width="3" height="3" class="px-t2"/><rect x="54" y="15" width="3" height="3" class="px-t1"/><rect x="57" y="15" width="3" height="3" class="px-t0"/><rect x="60" y="15" width="3" height="3" class="px-t3"/><rect x="63" y="15" width="3" height="3" class="px-t2"/><rect x="54" y="18" width="3" height="3" class="px-t0"/><rect x="54" y="21" width="3" height="3" class="px-t3"/><rect x="54" y="24" width="3" height="3" class="px-t2"/><rect x="75" y="0" width="3" height="3" class="px-t1"/><rect x="72" y="6" width="3" height="3" class="px-t2"/><rect x="75" y="6" width="3" height="3" class="px-t3"/><rect x="75" y="9" width="3" height="3" class="px-t0"/><rect x="75" y="12" width="3" height="3" class="px-t1"/><rect x="75" y="15" width="3" height="3" class="px-t2"/><rect x="72" y="18" width="3" height="3" class="px-t2"/><rect x="75" y="18" width="3" height="3" class="px-t3"/><rect x="78" y="18" width="3" height="3" class="px-t0"/><rect x="84" y="6" width="3" height="3" class="px-t2"/><rect x="96" y="6" width="3" height="3" class="px-t2"/><rect x="87" y="9" width="3" height="3" class="px-t0"/><rect x="93" y="9" width="3" height="3" class="px-t2"/><rect x="90" y="12" width="3" height="3" class="px-t2"/><rect x="87" y="15" width="3" height="3" class="px-t2"/><rect x="93" y="15" width="3" height="3" class="px-t0"/><rect x="84" y="18" width="3" height="3" class="px-t2"/><rect x="96" y="18" width="3" height="3" class="px-t2"/><rect x="105" y="6" width="3" height="3" class="px-t1"/><rect x="108" y="6" width="3" height="3" class="px-t2"/><rect x="111" y="6" width="3" height="3" class="px-t3"/><rect x="102" y="9" width="3" height="3" class="px-t3"/><rect x="114" y="9" width="3" height="3" class="px-t3"/><rect x="102" y="12" width="3" height="3" class="px-t2"/><rect x="105" y="12" width="3" height="3" class="px-t3"/><rect x="108" y="12" width="3" height="3" class="px-t0"/><rect x="111" y="12" width="3" height="3" class="px-t1"/><rect x="114" y="12" width="3" height="3" class="px-t2"/><rect x="102" y="15" width="3" height="3" class="px-t1"/><rect x="105" y="18" width="3" height="3" class="px-t1"/><rect x="108" y="18" width="3" height="3" class="px-t2"/><rect x="111" y="18" width="3" height="3" class="px-t3"/><rect x="114" y="18" width="3" height="3" class="px-t0"/><rect x="120" y="0" width="3" height="3" class="px-t0"/><rect x="123" y="0" width="3" height="3" class="px-t1"/><rect x="123" y="3" width="3" height="3" class="px-t2"/><rect x="123" y="6" width="3" height="3" class="px-t3"/><rect x="123" y="9" width="3" height="3" class="px-t0"/><rect x="123" y="12" width="3" height="3" class="px-t1"/><rect x="123" y="15" width="3" height="3" class="px-t2"/><rect x="120" y="18" width="3" height="3" class="px-t2"/><rect x="123" y="18" width="3" height="3" class="px-t3"/><rect x="126" y="18" width="3" height="3" class="px-t0"/></svg><!-- logo:fin --></a>
+      <a href="#/" class="min-h-11 inline-flex items-center" aria-label="onepixel, ir al inicio"><!-- logo:inicio --><svg class="pixel-logo" viewBox="0 0 122 27" width="122" height="27" role="img" aria-label="onepixel" shape-rendering="crispEdges"><title>onepixel</title><rect x="3" y="6" width="3" height="3" class="px-t3"/><rect x="6" y="6" width="3" height="3" class="px-t0"/><rect x="9" y="6" width="3" height="3" class="px-t1"/><rect x="0" y="9" width="3" height="3" class="px-t1"/><rect x="12" y="9" width="3" height="3" class="px-t1"/><rect x="0" y="12" width="3" height="3" class="px-t0"/><rect x="12" y="12" width="3" height="3" class="px-t0"/><rect x="0" y="15" width="3" height="3" class="px-t3"/><rect x="12" y="15" width="3" height="3" class="px-t3"/><rect x="3" y="18" width="3" height="3" class="px-t3"/><rect x="6" y="18" width="3" height="3" class="px-t0"/><rect x="9" y="18" width="3" height="3" class="px-t1"/><rect x="17" y="6" width="3" height="3" class="px-t0"/><rect x="20" y="6" width="3" height="3" class="px-t1"/><rect x="23" y="6" width="3" height="3" class="px-t2"/><rect x="26" y="6" width="3" height="3" class="px-t3"/><rect x="17" y="9" width="3" height="3" class="px-t3"/><rect x="29" y="9" width="3" height="3" class="px-t3"/><rect x="17" y="12" width="3" height="3" class="px-t2"/><rect x="29" y="12" width="3" height="3" class="px-t2"/><rect x="17" y="15" width="3" height="3" class="px-t1"/><rect x="29" y="15" width="3" height="3" class="px-t1"/><rect x="17" y="18" width="3" height="3" class="px-t0"/><rect x="29" y="18" width="3" height="3" class="px-t0"/><rect x="37" y="6" width="3" height="3" class="px-t3"/><rect x="40" y="6" width="3" height="3" class="px-t0"/><rect x="43" y="6" width="3" height="3" class="px-t1"/><rect x="34" y="9" width="3" height="3" class="px-t1"/><rect x="46" y="9" width="3" height="3" class="px-t1"/><rect x="34" y="12" width="3" height="3" class="px-t0"/><rect x="37" y="12" width="3" height="3" class="px-t1"/><rect x="40" y="12" width="3" height="3" class="px-t2"/><rect x="43" y="12" width="3" height="3" class="px-t3"/><rect x="46" y="12" width="3" height="3" class="px-t0"/><rect x="34" y="15" width="3" height="3" class="px-t3"/><rect x="37" y="18" width="3" height="3" class="px-t3"/><rect x="40" y="18" width="3" height="3" class="px-t0"/><rect x="43" y="18" width="3" height="3" class="px-t1"/><rect x="46" y="18" width="3" height="3" class="px-t2"/><rect x="51" y="6" width="3" height="3" class="px-t0"/><rect x="54" y="6" width="3" height="3" class="px-t1"/><rect x="57" y="6" width="3" height="3" class="px-t2"/><rect x="60" y="6" width="3" height="3" class="px-t3"/><rect x="51" y="9" width="3" height="3" class="px-t3"/><rect x="63" y="9" width="3" height="3" class="px-t3"/><rect x="51" y="12" width="3" height="3" class="px-t2"/><rect x="63" y="12" width="3" height="3" class="px-t2"/><rect x="51" y="15" width="3" height="3" class="px-t1"/><rect x="54" y="15" width="3" height="3" class="px-t0"/><rect x="57" y="15" width="3" height="3" class="px-t3"/><rect x="60" y="15" width="3" height="3" class="px-t2"/><rect x="51" y="18" width="3" height="3" class="px-t0"/><rect x="51" y="21" width="3" height="3" class="px-t3"/><rect x="51" y="24" width="3" height="3" class="px-t2"/><rect x="71" y="0" width="3" height="3" class="px-t1"/><rect x="68" y="6" width="3" height="3" class="px-t2"/><rect x="71" y="6" width="3" height="3" class="px-t3"/><rect x="71" y="9" width="3" height="3" class="px-t0"/><rect x="71" y="12" width="3" height="3" class="px-t1"/><rect x="71" y="15" width="3" height="3" class="px-t2"/><rect x="68" y="18" width="3" height="3" class="px-t2"/><rect x="71" y="18" width="3" height="3" class="px-t3"/><rect x="74" y="18" width="3" height="3" class="px-t0"/><rect x="79" y="6" width="3" height="3" class="px-t2"/><rect x="91" y="6" width="3" height="3" class="px-t2"/><rect x="82" y="9" width="3" height="3" class="px-t0"/><rect x="88" y="9" width="3" height="3" class="px-t2"/><rect x="85" y="12" width="3" height="3" class="px-t2"/><rect x="82" y="15" width="3" height="3" class="px-t2"/><rect x="88" y="15" width="3" height="3" class="px-t0"/><rect x="79" y="18" width="3" height="3" class="px-t2"/><rect x="91" y="18" width="3" height="3" class="px-t2"/><rect x="99" y="6" width="3" height="3" class="px-t1"/><rect x="102" y="6" width="3" height="3" class="px-t2"/><rect x="105" y="6" width="3" height="3" class="px-t3"/><rect x="96" y="9" width="3" height="3" class="px-t3"/><rect x="108" y="9" width="3" height="3" class="px-t3"/><rect x="96" y="12" width="3" height="3" class="px-t2"/><rect x="99" y="12" width="3" height="3" class="px-t3"/><rect x="102" y="12" width="3" height="3" class="px-t0"/><rect x="105" y="12" width="3" height="3" class="px-t1"/><rect x="108" y="12" width="3" height="3" class="px-t2"/><rect x="96" y="15" width="3" height="3" class="px-t1"/><rect x="99" y="18" width="3" height="3" class="px-t1"/><rect x="102" y="18" width="3" height="3" class="px-t2"/><rect x="105" y="18" width="3" height="3" class="px-t3"/><rect x="108" y="18" width="3" height="3" class="px-t0"/><rect x="113" y="0" width="3" height="3" class="px-t0"/><rect x="116" y="0" width="3" height="3" class="px-t1"/><rect x="116" y="3" width="3" height="3" class="px-t2"/><rect x="116" y="6" width="3" height="3" class="px-t3"/><rect x="116" y="9" width="3" height="3" class="px-t0"/><rect x="116" y="12" width="3" height="3" class="px-t1"/><rect x="116" y="15" width="3" height="3" class="px-t2"/><rect x="113" y="18" width="3" height="3" class="px-t2"/><rect x="116" y="18" width="3" height="3" class="px-t3"/><rect x="119" y="18" width="3" height="3" class="px-t0"/></svg><!-- logo:fin --></a>
       <div class="flex gap-2">
       <a href="#/" id="home-btn"
         class="min-h-11 inline-flex items-center gap-1 rounded-xl border border-border bg-surface px-3 text-sm font-semibold hover:bg-surface-2"
@@ -54,25 +55,25 @@
 <!-- deportes-grid:inicio (generado por scripts/build-pages.mjs desde config.js) -->
         <li><a href="#/futbol" data-sport="futbol" class="flex h-full min-h-40 flex-col items-center justify-center gap-1 rounded-2xl border border-border bg-surface p-4 text-center hover:border-accent hover:bg-surface-2">
           <span class="text-4xl" aria-hidden="true">⚽</span>
-          <span class="text-lg font-extrabold leading-tight">Fútbol</span>
+          <span class="pix text-lg font-extrabold leading-tight">Fútbol</span>
           <span class="text-xs text-muted">Mundiales, ligas y copas</span>
           
         </a></li>
         <li><a href="#/basquetbol" data-sport="basquetbol" class="flex h-full min-h-40 flex-col items-center justify-center gap-1 rounded-2xl border border-border bg-surface p-4 text-center hover:border-accent hover:bg-surface-2">
           <span class="text-4xl" aria-hidden="true">🏀</span>
-          <span class="text-lg font-extrabold leading-tight">Básquetbol</span>
+          <span class="pix text-lg font-extrabold leading-tight">Básquetbol</span>
           <span class="text-xs text-muted">Leyendas y estrellas de la NBA</span>
           
         </a></li>
         <li><button type="button" data-locked="ufc" aria-disabled="true" class="sport-locked w-full flex h-full min-h-40 flex-col items-center justify-center gap-1 rounded-2xl border border-border bg-surface p-4 text-center">
           <span class="text-4xl" aria-hidden="true">🥊</span>
-          <span class="text-lg font-extrabold leading-tight">UFC / Artes marciales mixtas</span>
+          <span class="pix text-lg font-extrabold leading-tight">UFC / Artes marciales mixtas</span>
           <span class="text-xs text-muted">Peleadores de MMA</span>
           <span class="mt-1 inline-flex items-center gap-1 rounded-full bg-surface-2 px-2 py-0.5 text-xs font-bold">🔒 Próximamente</span>
         </button></li>
         <li><button type="button" data-locked="series" aria-disabled="true" class="sport-locked w-full flex h-full min-h-40 flex-col items-center justify-center gap-1 rounded-2xl border border-border bg-surface p-4 text-center">
           <span class="text-4xl" aria-hidden="true">🎬</span>
-          <span class="text-lg font-extrabold leading-tight">Series y actores</span>
+          <span class="pix text-lg font-extrabold leading-tight">Series y actores</span>
           <span class="text-xs text-muted">Personajes y actores de series</span>
           <span class="mt-1 inline-flex items-center gap-1 rounded-full bg-surface-2 px-2 py-0.5 text-xs font-bold">🔒 Próximamente</span>
         </button></li>
@@ -93,31 +94,31 @@
           <li><a href="#/mundiales" data-cat="mundiales"
             class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
             <span class="text-3xl" aria-hidden="true">🌎</span>
-            <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Mundiales</span><span class="text-sm text-muted">Leyendas y figuras de las Copas del Mundo</span></span>
+            <span class="flex flex-1 flex-col"><span class="pix text-lg font-bold">Mundiales</span><span class="text-sm text-muted">Leyendas y figuras de las Copas del Mundo</span></span>
             <span class="status text-sm font-semibold text-accent"></span>
           </a></li>
           <li><a href="#/premier" data-cat="premier"
             class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
             <span class="text-3xl" aria-hidden="true">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
-            <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Premier League</span><span class="text-sm text-muted">Jugadores de la liga inglesa</span></span>
+            <span class="flex flex-1 flex-col"><span class="pix text-lg font-bold">Premier League</span><span class="text-sm text-muted">Jugadores de la liga inglesa</span></span>
             <span class="status text-sm font-semibold text-accent"></span>
           </a></li>
           <li><a href="#/champions" data-cat="champions"
             class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
             <span class="text-3xl" aria-hidden="true">⭐</span>
-            <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Champions League</span><span class="text-sm text-muted">Protagonistas del torneo europeo de clubes</span></span>
+            <span class="flex flex-1 flex-col"><span class="pix text-lg font-bold">Champions League</span><span class="text-sm text-muted">Protagonistas del torneo europeo de clubes</span></span>
             <span class="status text-sm font-semibold text-accent"></span>
           </a></li>
           <li><a href="#/libertadores" data-cat="libertadores"
             class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
             <span class="text-3xl" aria-hidden="true">🏆</span>
-            <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Copa Libertadores</span><span class="text-sm text-muted">Ídolos del torneo sudamericano de clubes</span></span>
+            <span class="flex flex-1 flex-col"><span class="pix text-lg font-bold">Copa Libertadores</span><span class="text-sm text-muted">Ídolos del torneo sudamericano de clubes</span></span>
             <span class="status text-sm font-semibold text-accent"></span>
           </a></li>
           <li hidden data-desde="2026-11-12"><a href="#/italiana" data-cat="italiana"
             class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
             <span class="text-3xl" aria-hidden="true">🇮🇹</span>
-            <span class="flex flex-1 flex-col"><span class="text-lg font-bold">Liga italiana</span><span class="text-sm text-muted">Figuras del fútbol de Italia</span></span>
+            <span class="flex flex-1 flex-col"><span class="pix text-lg font-bold">Liga italiana</span><span class="text-sm text-muted">Figuras del fútbol de Italia</span></span>
             <span class="status text-sm font-semibold text-accent"></span>
           </a></li>
         </ul>
@@ -139,7 +140,7 @@
         <a id="mode-daily" class="flex min-h-24 items-center gap-4 rounded-2xl border-2 border-accent bg-surface p-4 hover:bg-surface-2">
           <span class="text-3xl" aria-hidden="true">🗓️</span>
           <span class="flex flex-1 flex-col">
-            <span class="text-lg font-bold">Reto diario</span>
+            <span class="pix text-lg font-bold">Reto diario</span>
             <span class="text-sm text-muted">3 fotos, las mismas para todos hoy. Se suman los puntos.</span>
             <span id="mode-daily-status" class="mt-1 min-h-5 text-sm font-semibold text-accent"></span>
           </span>
@@ -147,14 +148,14 @@
         <a id="mode-practice" class="flex min-h-24 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
           <span class="text-3xl" aria-hidden="true">🎯</span>
           <span class="flex flex-1 flex-col">
-            <span class="text-lg font-bold">Modo práctica</span>
+            <span class="pix text-lg font-bold">Modo práctica</span>
             <span class="text-sm text-muted">Ilimitado, de a una foto. No cuenta para las estadísticas.</span>
           </span>
         </a>
         <a id="mode-duel" class="flex min-h-24 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
           <span class="text-3xl" aria-hidden="true">⚔️</span>
           <span class="flex flex-1 flex-col">
-            <span class="text-lg font-bold">Modo 1v1 <span class="font-normal text-muted">(Juega con un amigo)</span></span>
+            <span class="pix text-lg font-bold">Modo 1v1 <span class="font-normal text-muted">(Juega con un amigo)</span></span>
             <span class="text-sm text-muted">Dos jugadores en el mismo dispositivo, por turnos. Con 2 pases cada uno.</span>
           </span>
         </a>
@@ -230,7 +231,7 @@
   <footer class="border-t border-border">
     <div class="mx-auto max-w-xl px-4 py-4">
       <a id="support-link" hidden rel="noopener" target="_blank"
-        class="mb-3 min-h-11 inline-flex items-center rounded-xl border border-border bg-surface px-4 text-sm font-semibold hover:bg-surface-2"></a>
+        class="pix mb-3 min-h-11 inline-flex items-center rounded-xl border border-border bg-surface px-4 text-sm font-semibold hover:bg-surface-2"></a>
       <nav class="flex flex-wrap gap-x-4 text-sm" aria-label="Información legal">
         <a class="min-h-11 inline-flex items-center underline" href="creditos.html">Créditos de imágenes</a>
         <a class="min-h-11 inline-flex items-center underline" href="privacidad.html">Privacidad</a>
