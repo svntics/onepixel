@@ -49,7 +49,7 @@ const sportsHtml = SPORTS.map((d) => {
     ? `        <li><button type="button" data-locked="${esc(d.id)}" aria-disabled="true" class="sport-locked w-full ${cls}">
           ${inner}
         </button></li>`
-    : `        <li><a href="#/${esc(d.id)}" data-sport="${esc(d.id)}" class="${cls} hover:border-accent hover:bg-surface-2">
+    : `        <li><a href="${d.enlace ? esc(d.enlace) : `#/${esc(d.id)}`}" data-sport="${esc(d.id)}" class="${cls} hover:border-accent hover:bg-surface-2">
           ${inner}
         </a></li>`;
 }).join("\n");
@@ -84,7 +84,7 @@ newIndex = newIndex.replace(/\/\*deportes:inicio\*\/.*?\/\*deportes:fin\*\//, `/
 const LOGO = pixelLogoSvg(CONFIG.SITE_NAME.toLowerCase());
 const withLogo = (html) => html.replace(/(<!-- logo:inicio -->)[\s\S]*?(<!-- logo:fin -->)/, `$1${LOGO}$2`);
 newIndex = withLogo(newIndex);
-for (const f of ["privacidad.html", "aviso-legal.html"]) {
+for (const f of ["privacidad.html", "aviso-legal.html", "4fotos.html"]) {
   const path = join(ROOT, "public", f);
   const html = readFileSync(path, "utf8");
   if (withLogo(html) !== html) writeFileSync(path, withLogo(html));
@@ -107,9 +107,26 @@ const items = list
   })
   .join("\n");
 
+// Fotos del modo "4 Fotos 1 Equipo" (solo equipos aprobados)
+const teamDir = join(ROOT, "data", "4fotos");
+const teamPhotos = [];
+for (const f of readdirSync(teamDir).filter((f) => f.endsWith(".json"))) {
+  for (const t of JSON.parse(readFileSync(join(teamDir, f), "utf8")).equipos) {
+    if (t.aprobado === false) continue;
+    t.fotos.forEach((ft, i) => ft.imagen && teamPhotos.push({ t, i, im: ft.imagen }));
+  }
+}
+const teamItems = teamPhotos
+  .map(({ t, i, im }) => {
+    const lic = im.url_licencia ? `<a href="${esc(im.url_licencia)}" rel="license noopener" target="_blank">${esc(im.licencia)}</a>` : esc(im.licencia);
+    return `<li class="rounded-xl border border-border bg-surface p-3"><strong>4 Fotos 1 Equipo · ${esc(t.nombre)} (foto ${i + 1})</strong><br>
+<span class="text-sm text-muted">«${esc(im.titulo)}» · ${esc(im.autor)} · ${lic} · <a href="${esc(im.url_fuente)}" rel="noopener" target="_blank">Wikimedia Commons</a></span></li>`;
+  })
+  .join("\n");
+
 const template = readFileSync(join(ROOT, "scripts", "templates", "creditos.html"), "utf8");
 const html = withLogo(template)
-  .replace("{{CANTIDAD}}", String(list.length))
-  .replace("{{LISTA}}", items || '<li class="text-muted">Aún no hay imágenes. Ejecuta <code>npm run images</code>.</li>');
+  .replace("{{CANTIDAD}}", String(list.length + teamPhotos.length))
+  .replace("{{LISTA}}", [items, teamItems].filter(Boolean).join("\n") || '<li class="text-muted">Aún no hay imágenes. Ejecuta <code>npm run images</code>.</li>');
 writeFileSync(join(ROOT, "public", "creditos.html"), html);
-console.log(`✔ creditos.html: ${list.length} imágenes con crédito`);
+console.log(`✔ creditos.html: ${list.length + teamPhotos.length} imágenes con crédito`);

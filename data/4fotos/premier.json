@@ -1,0 +1,887 @@
+{
+  "liga": "premier",
+  "equipos": [
+    {
+      "id": "arsenal",
+      "nombre": "Arsenal",
+      "respuesta": "ARSENAL",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "mangas",
+            "colores": [
+              "#EF0107",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Camiseta roja con mangas blancas, sello del club desde los años 30."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "Royal Arsenal Woolwich",
+          "commons": null,
+          "explicacion": "El club nació en 1886 entre los trabajadores de la fábrica de armamento Royal Arsenal, en Woolwich (sureste de Londres).",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "cannon artillery",
+          "commons": null,
+          "explicacion": "Un cañón: el apodo «The Gunners» (los artilleros) viene de ese origen en una fábrica de armas.",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "Highbury East Stand art deco",
+          "commons": null,
+          "explicacion": "La fachada art déco de Highbury, su estadio entre 1913 y 2006; hoy el edificio es de departamentos.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "chelsea",
+      "nombre": "Chelsea",
+      "respuesta": "CHELSEA",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#034694",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Camiseta completamente azul: de ahí el apodo «The Blues»."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "Albert Bridge London",
+          "commons": null,
+          "explicacion": "El club tomó el nombre del barrio de Chelsea, junto al Támesis en el oeste de Londres; aquí, el puente Albert.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "Chelsea pensioners",
+          "commons": null,
+          "explicacion": "Los pensionados del Royal Hospital Chelsea, veteranos de abrigo rojo, inspiraron el primer apodo del club: «The Pensioners».",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "Stamford Bridge stadium",
+          "commons": null,
+          "explicacion": "Un rincón de Stamford Bridge, el estadio del club desde su fundación en 1905.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "liverpool",
+      "nombre": "Liverpool",
+      "respuesta": "LIVERPOOL",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#C8102E",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Todo rojo: el apodo es «The Reds»."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "Albert Dock Liverpool",
+          "commons": null,
+          "explicacion": "Los muelles del puerto de Liverpool, sobre el río Mersey.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "Liver bird",
+          "commons": null,
+          "explicacion": "El Liver Bird, ave mítica símbolo de la ciudad, está en el escudo del club.",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "Spion Kop Anfield",
+          "commons": null,
+          "explicacion": "La tribuna Kop de Anfield, famosa por su hinchada.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "manchester-united",
+      "nombre": "Manchester United",
+      "respuesta": "MANCHESTER UNITED",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#DA291C",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Rojo con detalles blancos: el uniforme de los «Red Devils»."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "Lancashire and Yorkshire Railway locomotive",
+          "commons": null,
+          "explicacion": "El club nació en 1878 como Newton Heath, equipo de trabajadores del ferrocarril Lancashire and Yorkshire Railway.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "trident sculpture",
+          "commons": null,
+          "explicacion": "Un tridente, atributo del diablo del escudo: el apodo es «Red Devils».",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "Munich clock Old Trafford",
+          "commons": null,
+          "explicacion": "El reloj de Múnich en Old Trafford recuerda la tragedia aérea del 6 de febrero de 1958.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "manchester-city",
+      "nombre": "Manchester City",
+      "respuesta": "MANCHESTER CITY",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#6CABDD",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "El celeste (sky blue), color inconfundible del club."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "St Mark's Church West Gorton",
+          "commons": null,
+          "explicacion": "El club nació en 1880 como el equipo de la iglesia de St. Mark's, en West Gorton (Mánchester).",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "Manchester bee",
+          "commons": null,
+          "explicacion": "La abeja obrera, símbolo de Mánchester; el apodo del club es «The Citizens».",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "Manchester Ship Canal",
+          "commons": null,
+          "explicacion": "El barco del escudo representa el Canal Marítimo de Mánchester, símbolo industrial de la ciudad.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "tottenham",
+      "nombre": "Tottenham",
+      "respuesta": "TOTTENHAM",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#FFFFFF",
+              "#132257"
+            ]
+          },
+          "explicacion": "Camiseta blanca con azul marino."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "Harry Hotspur statue Alnwick",
+          "commons": null,
+          "explicacion": "El nombre «Hotspur» viene de Sir Harry Percy, noble del siglo XIV apodado Hotspur.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "fighting cockerel",
+          "commons": null,
+          "explicacion": "El gallo con espuelas (spurs) es el símbolo del club, apodado «Spurs».",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "Tottenham High Road",
+          "commons": null,
+          "explicacion": "Tottenham High Road, la calle del norte de Londres donde está el estadio del club.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "newcastle",
+      "nombre": "Newcastle",
+      "respuesta": "NEWCASTLE",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#000000",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Rayas verticales blancas y negras."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "Tyne Bridge",
+          "commons": null,
+          "explicacion": "El puente Tyne sobre el río Tyne, ícono de la ciudad.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "Eurasian magpie",
+          "commons": null,
+          "explicacion": "La urraca, blanca y negra como la camiseta: el apodo es «The Magpies».",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "St James' Park Newcastle",
+          "commons": null,
+          "explicacion": "St James' Park, en pleno centro de la ciudad.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "everton",
+      "nombre": "Everton",
+      "respuesta": "EVERTON",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#003399",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Camiseta azul real."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "Prince Rupert's Tower Everton",
+          "commons": null,
+          "explicacion": "La torre del Príncipe Rupert, antigua cárcel del barrio de Everton (siglo XVIII), aparece en el escudo.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "toffee sweets",
+          "commons": null,
+          "explicacion": "Caramelos toffee: el apodo «The Toffees» se atribuye a tiendas de caramelos del barrio.",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "Goodison Park",
+          "commons": null,
+          "explicacion": "Goodison Park, la casa histórica del club desde 1892.",
+          "imagen": null
+        }
+      ],
+      "revisar": [
+        "Everton se mudó a un estadio nuevo en 2025: confirmar que la explicación de Goodison siga correcta."
+      ],
+      "aprobado": false
+    },
+    {
+      "id": "aston-villa",
+      "nombre": "Aston Villa",
+      "respuesta": "ASTON VILLA",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "mangas",
+            "colores": [
+              "#670E36",
+              "#95BFE5"
+            ]
+          },
+          "explicacion": "Granate con mangas celestes (claret and blue)."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "Aston Hall Birmingham",
+          "commons": null,
+          "explicacion": "Aston Hall, mansión del siglo XVII en el barrio de Aston (Birmingham), vecina del estadio.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "lion rampant",
+          "commons": null,
+          "explicacion": "El león rampante, símbolo del escudo del club.",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "Holte End Villa Park",
+          "commons": null,
+          "explicacion": "La tribuna Holte End, una de las más grandes del fútbol inglés.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "west-ham",
+      "nombre": "West Ham",
+      "respuesta": "WEST HAM",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "mangas",
+            "colores": [
+              "#7A263A",
+              "#1BB1E7"
+            ]
+          },
+          "explicacion": "Granate con mangas celestes."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "Thames Ironworks",
+          "commons": null,
+          "explicacion": "El club nació en 1895 como Thames Ironworks, el equipo de un astillero junto al Támesis.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "riveting hammer",
+          "commons": null,
+          "explicacion": "Los martillos de los obreros navales: apodos «The Hammers» y «The Irons».",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "soap bubbles",
+          "commons": null,
+          "explicacion": "Burbujas: el himno de la hinchada es «I'm Forever Blowing Bubbles».",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "leeds",
+      "nombre": "Leeds",
+      "respuesta": "LEEDS",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#FFFFFF",
+              "#1D428A"
+            ]
+          },
+          "explicacion": "Todo blanco desde los años 60, por decisión de Don Revie inspirado en el Real Madrid."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "White Rose of York",
+          "commons": null,
+          "explicacion": "La rosa blanca, símbolo del condado de Yorkshire.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "peacock",
+          "commons": null,
+          "explicacion": "El pavo real: el viejo apodo «The Peacocks» viene del pub Old Peacock, frente al estadio.",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "Elland Road",
+          "commons": null,
+          "explicacion": "Elland Road, el estadio del club desde su fundación en 1919.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "southampton",
+      "nombre": "Southampton",
+      "respuesta": "SOUTHAMPTON",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#D71920",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Rayas verticales rojas y blancas."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "Southampton docks ocean liner",
+          "commons": null,
+          "explicacion": "Southampton es un gran puerto: de aquí zarpó el Titanic en 1912.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "St Mary's Church Southampton",
+          "commons": null,
+          "explicacion": "El club se fundó en 1885 por miembros de la iglesia de St. Mary: de ahí el apodo «The Saints».",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "St Mary's Stadium Southampton",
+          "commons": null,
+          "explicacion": "Su estadio, St Mary's, se inauguró en 2001.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "wolverhampton",
+      "nombre": "Wolverhampton",
+      "respuesta": "WOLVERHAMPTON",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#FDB913",
+              "#231F20"
+            ]
+          },
+          "explicacion": "Dorado (old gold) con negro."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "St Peter's Collegiate Church Wolverhampton",
+          "commons": null,
+          "explicacion": "La iglesia colegiata de San Pedro, emblema del centro de Wolverhampton.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "grey wolf",
+          "commons": null,
+          "explicacion": "El lobo: «Wolves» es la forma corta del nombre de la ciudad.",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "Molineux Stadium",
+          "commons": null,
+          "explicacion": "El estadio Molineux toma su nombre de Benjamin Molineux, comerciante local del siglo XVIII.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "crystal-palace",
+      "nombre": "Crystal Palace",
+      "respuesta": "CRYSTAL PALACE",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#1B458F",
+              "#C4122E"
+            ]
+          },
+          "explicacion": "Rayas rojas y azules."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "Crystal Palace 1851",
+          "commons": null,
+          "explicacion": "El Palacio de Cristal, edificio de la Gran Exposición de 1851 trasladado al sur de Londres; el club tomó su nombre.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "eagle",
+          "commons": null,
+          "explicacion": "El águila: el apodo «The Eagles» se usa desde los años 70.",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "Crystal Palace dinosaurs",
+          "commons": null,
+          "explicacion": "Las esculturas victorianas de dinosaurios del parque Crystal Palace, en la zona del club.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "brighton",
+      "nombre": "Brighton",
+      "respuesta": "BRIGHTON",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#0057B8",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Rayas verticales azules y blancas."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "Royal Pavilion Brighton",
+          "commons": null,
+          "explicacion": "El Pabellón Real, palacio de estilo oriental, símbolo de Brighton.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "herring gull",
+          "commons": null,
+          "explicacion": "La gaviota: el apodo es «The Seagulls», por ser una ciudad costera.",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "Brighton Palace Pier",
+          "commons": null,
+          "explicacion": "El muelle Palace Pier, en la costa de la ciudad.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "nottingham-forest",
+      "nombre": "Nottingham Forest",
+      "respuesta": "NOTTINGHAM FOREST",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#DD0000",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Rojo con blanco."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "Forest Recreation Ground Nottingham",
+          "commons": null,
+          "explicacion": "El club se fundó en 1865 y jugaba en el Forest Recreation Ground, de donde viene su nombre.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "Robin Hood statue Nottingham",
+          "commons": null,
+          "explicacion": "Robin Hood, leyenda de Nottingham y del bosque de Sherwood; el escudo del club muestra un árbol.",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "Giuseppe Garibaldi portrait",
+          "commons": null,
+          "explicacion": "Giuseppe Garibaldi: el rojo del club se inspiró en las camisas rojas de sus seguidores.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "leicester",
+      "nombre": "Leicester",
+      "respuesta": "LEICESTER",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#003090",
+              "#FDBE11"
+            ]
+          },
+          "explicacion": "Azul con detalles dorados."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "Fosse Way Roman road",
+          "commons": null,
+          "explicacion": "El club se fundó en 1884 como Leicester Fosse, por la calzada romana Fosse Way.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "red fox",
+          "commons": null,
+          "explicacion": "El zorro: el apodo es «The Foxes», por la tradición de caza del condado.",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "Richard III statue Leicester",
+          "commons": null,
+          "explicacion": "Ricardo III: sus restos se hallaron en Leicester en 2012 y se volvieron a enterrar en 2015, un año antes del título de liga de 2016.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "sunderland",
+      "nombre": "Sunderland",
+      "respuesta": "SUNDERLAND",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#EB172B",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Rayas verticales rojas y blancas."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "Davy lamp monument Sunderland",
+          "commons": null,
+          "explicacion": "La lámpara de minero junto al estadio, construido sobre la antigua mina de carbón de Wearmouth.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "black cat",
+          "commons": null,
+          "explicacion": "El gato negro: el apodo «The Black Cats» viene de una antigua batería de cañones junto al río Wear.",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "Penshaw Monument",
+          "commons": null,
+          "explicacion": "El monumento de Penshaw, templo griego en una colina cercana, aparece en el escudo.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "fulham",
+      "nombre": "Fulham",
+      "respuesta": "FULHAM",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#FFFFFF",
+              "#000000"
+            ]
+          },
+          "explicacion": "Camiseta blanca con negro."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "Putney Bridge Thames",
+          "commons": null,
+          "explicacion": "El club juega a orillas del Támesis, en el oeste de Londres, cerca del puente de Putney.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "English thatched cottage",
+          "commons": null,
+          "explicacion": "Una casa de campo (cottage): el estadio es Craven Cottage y el apodo «The Cottagers».",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "Johnny Haynes Stand Craven Cottage",
+          "commons": null,
+          "explicacion": "La tribuna de ladrillo de Craven Cottage, de comienzos del siglo XX, protegida como patrimonio.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    },
+    {
+      "id": "brentford",
+      "nombre": "Brentford",
+      "respuesta": "BRENTFORD",
+      "ligas": [
+        "premier"
+      ],
+      "fotos": [
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#E30613",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Rayas verticales rojas y blancas."
+        },
+        {
+          "tipo": "origen",
+          "buscar": "Brentford Grand Union Canal",
+          "commons": null,
+          "explicacion": "Brentford está donde el canal Grand Union llega al Támesis, en el oeste de Londres.",
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "buscar": "honey bee",
+          "commons": null,
+          "explicacion": "La abeja: el apodo es «The Bees» (su origen exacto se discute).",
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "buscar": "Griffin Park pub",
+          "commons": null,
+          "explicacion": "Su antiguo estadio, Griffin Park, era famoso por tener un pub en cada esquina.",
+          "imagen": null
+        }
+      ],
+      "revisar": [],
+      "aprobado": false
+    }
+  ]
+}

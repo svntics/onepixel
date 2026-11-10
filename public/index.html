@@ -13,7 +13,7 @@
     // Muestra la vista correcta antes de pintar, para que la página no salte:
     // #/ = inicio · #/<deporte> = sus categorías · #/<categoria> = elegir modo · #/<categoria>/<modo> = juego
     (function () {
-      var deportes = /*deportes:inicio*/["futbol","basquetbol","ufc","series"]/*deportes:fin*/;
+      var deportes = /*deportes:inicio*/["futbol","basquetbol","ufc","series","cuatrofotos"]/*deportes:fin*/;
       var h = location.hash, m = h.match(/^#\/([a-z]+)$/);
       document.documentElement.dataset.view = /^#\/[a-z]+\/(diario|practica|1v1)/.test(h) ? "game" : m ? (deportes.indexOf(m[1]) >= 0 ? "sport" : "mode") : "landing";
     })();
@@ -75,6 +75,12 @@
           <span class="text-4xl" aria-hidden="true">🎬</span>
           <span class="pix text-lg font-extrabold leading-tight">Series y actores</span>
           <span class="text-xs text-muted">Personajes y actores de series</span>
+          <span class="mt-1 inline-flex items-center gap-1 rounded-full bg-surface-2 px-2 py-0.5 text-xs font-bold">🔒 Próximamente</span>
+        </button></li>
+        <li><button type="button" data-locked="cuatrofotos" aria-disabled="true" class="sport-locked w-full flex h-full min-h-40 flex-col items-center justify-center gap-1 rounded-2xl border border-border bg-surface p-4 text-center">
+          <span class="text-4xl" aria-hidden="true">🧩</span>
+          <span class="pix text-lg font-extrabold leading-tight">4 Fotos 1 Equipo</span>
+          <span class="text-xs text-muted">Adivina el club con 4 pistas visuales</span>
           <span class="mt-1 inline-flex items-center gap-1 rounded-full bg-surface-2 px-2 py-0.5 text-xs font-bold">🔒 Próximamente</span>
         </button></li>
 <!-- deportes-grid:fin -->

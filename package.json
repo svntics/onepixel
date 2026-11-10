@@ -8,12 +8,14 @@
     "images": "node scripts/fetch-images.mjs",
     "build:data": "node scripts/build-data.mjs",
     "build:css": "tailwindcss -i ./src/input.css -o ./public/assets/styles.css --minify",
-    "build": "npm run build:data && npm run build:blur && npm run build:pages && npm run build:css",
-    "dev": "node scripts/build-data.mjs --placeholders && node scripts/build-blur.mjs && node scripts/build-pages.mjs --placeholders && npm run build:css && node scripts/serve.mjs",
+    "build": "npm run build:data && npm run build:teams && npm run build:blur && npm run build:pages && npm run build:css",
+    "dev": "node scripts/build-data.mjs --placeholders && node scripts/build-teams.mjs --placeholders && node scripts/build-blur.mjs && node scripts/build-pages.mjs --placeholders && npm run build:css && node scripts/serve.mjs",
     "test": "node --test \"tests/**/*.test.js\"",
     "build:pages": "node scripts/build-pages.mjs",
     "era-photos": "node scripts/era-photos.mjs",
-    "build:blur": "node scripts/build-blur.mjs"
+    "build:blur": "node scripts/build-blur.mjs",
+    "build:teams": "node scripts/build-teams.mjs",
+    "team-images": "node scripts/fetch-team-images.mjs"
   },
   "engines": {
     "node": ">=20"

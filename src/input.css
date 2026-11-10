@@ -150,7 +150,9 @@ body {
 #contenido:focus,
 #contenido:focus-visible,
 #round-result:focus,
-#round-result:focus-visible {
+#round-result:focus-visible,
+#fp-result:focus,
+#fp-result:focus-visible {
   outline: none;
 }
 
@@ -214,4 +216,28 @@ body {
     font-family: var(--font-pixel);
     letter-spacing: 0.01em;
   }
+}
+
+/* Modo "4 Fotos 1 Equipo": vista inicial decidida en <head> (ver 4fotos.html) */
+@layer base {
+  html[data-fp="game"] #fp-leagues,
+  html[data-fp="leagues"] #fp-game {
+    display: none !important;
+  }
+}
+#fp-photos img {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+.fp-shake {
+  animation: fp-shake 0.35s ease-in-out;
+}
+@keyframes fp-shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-6px); }
+  75% { transform: translateX(6px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .fp-shake { animation: none; }
 }
