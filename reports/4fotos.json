@@ -179,11 +179,88 @@
     "equipo": "Arsenal",
     "foto": 4,
     "tipo": "cultura",
-    "explicacion": "La fachada art déco de Highbury, su estadio entre 1913 y 2006; hoy el edificio es de departamentos.",
-    "buscar": "Highbury East Stand art deco",
-    "elegida": null,
-    "candidatas": [],
-    "obs": "Sin resultados con licencia libre: hay que cambiar la búsqueda"
+    "explicacion": "Highbury, su estadio entre 1913 y 2006: hoy es un conjunto de departamentos que conserva la fachada art déco.",
+    "buscar": "Highbury Square",
+    "elegida": "Highbury Square interior.jpg",
+    "candidatas": [
+      {
+        "file": "Highbury Square interior.jpg",
+        "ok": true,
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "autor": "nicksarebi",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Highbury_Square_interior.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Highbury_Square_interior.jpg/960px-Highbury_Square_interior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Highbury Square interior",
+        "notes": []
+      },
+      {
+        "file": "Highbury directors left.jpg",
+        "ok": true,
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "autor": "siarach ( talk )",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Highbury_directors_left.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/43/Highbury_directors_left.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Highbury directors left",
+        "notes": [
+          "Dominio público: verificar que lo sea también en Chile"
+        ]
+      },
+      {
+        "file": "Highbury directors front.jpg",
+        "ok": true,
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "autor": "siarach ( talk )",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Highbury_directors_front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Highbury_directors_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Highbury directors front",
+        "notes": [
+          "Dominio público: verificar que lo sea también en Chile"
+        ]
+      },
+      {
+        "file": "Highbury West Stand.JPG",
+        "ok": true,
+        "licencia": "CC BY-SA 2.5",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.5",
+        "autor": "Mr. Alexander Ottesen",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Highbury_West_Stand.JPG",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Highbury_West_Stand.JPG/960px-Highbury_West_Stand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Highbury West Stand",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Highbury 2007.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "R Sones",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Highbury_2007.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/44/Highbury_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Highbury 2007",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Old Highbury - 2.jpeg",
+        "ok": true,
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "autor": "Coentor",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Old_Highbury_-_2.jpeg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Old_Highbury_-_2.jpeg/960px-Old_Highbury_-_2.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Old Highbury - 2",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      }
+    ],
+    "obs": ""
   },
   "chelsea:2": {
     "equipo": "Chelsea",
@@ -359,21 +436,8 @@
     "tipo": "cultura",
     "explicacion": "Un rincón de Stamford Bridge, el estadio del club desde su fundación en 1905.",
     "buscar": "Stamford Bridge stadium",
-    "elegida": "London Stamford Bridge.jpg",
+    "elegida": "Stamford Bridge stadium - geograph.org.uk - 4219997.jpg",
     "candidatas": [
-      {
-        "file": "London Stamford Bridge.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 3.0 de",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
-        "autor": "Arne Müseler / www.arne-mueseler.com",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:London_Stamford_Bridge.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/London_Stamford_Bridge.jpg/960px-London_Stamford_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "London Stamford Bridge",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
       {
         "file": "Stamford Bridge stadium - geograph.org.uk - 4219997.jpg",
         "ok": true,
@@ -435,6 +499,19 @@
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Fulham,_Stamford_Bridge_stadium_-_geograph.org.uk_-_864514.jpg",
         "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Fulham%2C_Stamford_Bridge_stadium_-_geograph.org.uk_-_864514.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "titulo": "Fulham, Stamford Bridge stadium - geograph.org.uk - 864514",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Stamford Bridge Stadium - view from The Shed End - geograph.org.uk - 3610589.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Stamford Bridge Stadium - view from The Shed End by Neil Theasby",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Stamford_Bridge_Stadium_-_view_from_The_Shed_End_-_geograph.org.uk_-_3610589.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Stamford_Bridge_Stadium_-_view_from_The_Shed_End_-_geograph.org.uk_-_3610589.jpg/960px-Stamford_Bridge_Stadium_-_view_from_The_Shed_End_-_geograph.org.uk_-_3610589.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Stamford Bridge Stadium - view from The Shed End - geograph.org.uk - 3610589",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
@@ -622,19 +699,78 @@
     "equipo": "Liverpool",
     "foto": 4,
     "tipo": "cultura",
-    "explicacion": "La tribuna Kop de Anfield, famosa por su hinchada.",
-    "buscar": "Spion Kop Anfield",
-    "elegida": "Hillsborough Memorial Bench, Spion Kop, South Africa.jpg",
+    "explicacion": "La estatua de Bill Shankly frente a Anfield: el entrenador que transformó al club en los años 60.",
+    "buscar": "Bill Shankly statue",
+    "elegida": "Bill Shankly statue, Anfield 2018.jpg",
     "candidatas": [
       {
-        "file": "Hillsborough Memorial Bench, Spion Kop, South Africa.jpg",
+        "file": "Bill Shankly statue, Anfield 2018.jpg",
         "ok": true,
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Jim Abraham",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Hillsborough_Memorial_Bench,_Spion_Kop,_South_Africa.jpg",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Hillsborough_Memorial_Bench%2C_Spion_Kop%2C_South_Africa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "titulo": "Hillsborough Memorial Bench, Spion Kop, South Africa",
+        "autor": "Rodhullandemu",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Bill_Shankly_statue,_Anfield_2018.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Bill_Shankly_statue%2C_Anfield_2018.jpg/960px-Bill_Shankly_statue%2C_Anfield_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Bill Shankly statue, Anfield 2018",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Bill Shankly statue outside the Kop, Anfield (geograph 4705705).jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Mike Pennington",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Bill_Shankly_statue_outside_the_Kop,_Anfield_(geograph_4705705).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Bill_Shankly_statue_outside_the_Kop%2C_Anfield_%28geograph_4705705%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Bill Shankly statue outside the Kop, Anfield (geograph 4705705)",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Bill Shankly statue, Anfield.jpg",
+        "ok": true,
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "autor": "Ben Sutherland",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Bill_Shankly_statue,_Anfield.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Bill_Shankly_statue%2C_Anfield.jpg/960px-Bill_Shankly_statue%2C_Anfield.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Bill Shankly statue, Anfield",
+        "notes": []
+      },
+      {
+        "file": "Bill Shankly statue from the Kop.jpg",
+        "ok": true,
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "autor": "cchana from London, UK",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Bill_Shankly_statue_from_the_Kop.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Bill_Shankly_statue_from_the_Kop.jpg/960px-Bill_Shankly_statue_from_the_Kop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Bill Shankly statue from the Kop",
+        "notes": []
+      },
+      {
+        "file": "Bill Shankly trophy in front of Anfield stadium.jpg",
+        "ok": true,
+        "licencia": "CC0",
+        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "autor": "FYI2023",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Bill_Shankly_trophy_in_front_of_Anfield_stadium.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Bill_Shankly_trophy_in_front_of_Anfield_stadium.jpg/960px-Bill_Shankly_trophy_in_front_of_Anfield_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Bill Shankly trophy in front of Anfield stadium",
+        "notes": []
+      },
+      {
+        "file": "Bill Shankly - geograph.org.uk - 1004679.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Peter Barr",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Bill_Shankly_-_geograph.org.uk_-_1004679.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/61/Bill_Shankly_-_geograph.org.uk_-_1004679.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Bill Shankly - geograph.org.uk - 1004679",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
@@ -736,44 +872,9 @@
     "foto": 3,
     "tipo": "apodo",
     "explicacion": "Un tridente, atributo del diablo del escudo: el apodo es «Red Devils».",
-    "buscar": "trident sculpture",
-    "elegida": "11th century Trishul with Shaivism Ardhanarishvara, Cleveland Museum of Art.jpg",
+    "buscar": null,
+    "elegida": "Neptu (\"Neptune\") with Trident Sculpture in the Jardin del Turia, Valencia, Spain.jpg",
     "candidatas": [
-      {
-        "file": "11th century Trishul with Shaivism Ardhanarishvara, Cleveland Museum of Art.jpg",
-        "ok": true,
-        "licencia": "CC0",
-        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "autor": "Gary Kirchenbauer (photographer)",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:11th_century_Trishul_with_Shaivism_Ardhanarishvara,_Cleveland_Museum_of_Art.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/11th_century_Trishul_with_Shaivism_Ardhanarishvara%2C_Cleveland_Museum_of_Art.jpg/960px-11th_century_Trishul_with_Shaivism_Ardhanarishvara%2C_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Trident with Shiva as Half-Woman (Ardhanarishvara)",
-        "notes": []
-      },
-      {
-        "file": "South India, Tamil Nadu, Chola period - Trident with Shiva as Half-Woman (Ardhanarishvara) - 1969.117 - Cleveland Museum of Art.tif",
-        "ok": true,
-        "licencia": "CC0",
-        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "autor": "(sin dato)",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:South_India,_Tamil_Nadu,_Chola_period_-_Trident_with_Shiva_as_Half-Woman_(Ardhanarishvara)_-_1969.117_-_Cleveland_Museum_of_Art.tif",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/South_India%2C_Tamil_Nadu%2C_Chola_period_-_Trident_with_Shiva_as_Half-Woman_%28Ardhanarishvara%29_-_1969.117_-_Cleveland_Museum_of_Art.tif/lossy-page1-960px-South_India%2C_Tamil_Nadu%2C_Chola_period_-_Trident_with_Shiva_as_Half-Woman_%28Ardhanarishvara%29_-_1969.117_-_Cleveland_Museum_of_Art.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Trident with Shiva as Half-Woman (Ardhanarishvara)",
-        "notes": []
-      },
-      {
-        "file": "House of the Trident 04.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 3.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
-        "autor": "Bernard Gagnon",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:House_of_the_Trident_04.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/House_of_the_Trident_04.jpg/960px-House_of_the_Trident_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "House of the Trident 04",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
       {
         "file": "Neptu (\"Neptune\") with Trident Sculpture in the Jardin del Turia, Valencia, Spain.jpg",
         "ok": true,
@@ -784,32 +885,6 @@
         "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Neptu_%28%22Neptune%22%29_with_Trident_Sculpture_in_the_Jardin_del_Turia%2C_Valencia%2C_Spain.jpg/960px-Neptu_%28%22Neptune%22%29_with_Trident_Sculpture_in_the_Jardin_del_Turia%2C_Valencia%2C_Spain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "titulo": "Neptu (\"Neptune\") with Trident Sculpture in the Jardin del Turia, Valencia, Spain",
         "notes": []
-      },
-      {
-        "file": "Trident Shopping - High Street, Dudley - sculpture (30210250210).jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 2.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-        "autor": "Elliott Brown from Birmingham, United Kingdom",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Trident_Shopping_-_High_Street,_Dudley_-_sculpture_(30210250210).jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Trident_Shopping_-_High_Street%2C_Dudley_-_sculpture_%2830210250210%29.jpg/960px-Trident_Shopping_-_High_Street%2C_Dudley_-_sculpture_%2830210250210%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Trident Shopping - High Street, Dudley - sculpture (30210250210)",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
-      {
-        "file": "Trident Shopping - High Street, Dudley - sculpture (29876538403).jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 2.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-        "autor": "Elliott Brown from Birmingham, United Kingdom",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Trident_Shopping_-_High_Street,_Dudley_-_sculpture_(29876538403).jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Trident_Shopping_-_High_Street%2C_Dudley_-_sculpture_%2829876538403%29.jpg/960px-Trident_Shopping_-_High_Street%2C_Dudley_-_sculpture_%2829876538403%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Trident Shopping - High Street, Dudley - sculpture (29876538403)",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
       }
     ],
     "obs": ""
@@ -907,11 +982,90 @@
     "equipo": "Manchester City",
     "foto": 2,
     "tipo": "origen",
-    "explicacion": "El club nació en 1880 como el equipo de la iglesia de St. Mark's, en West Gorton (Mánchester).",
-    "buscar": "St Mark's Church West Gorton",
-    "elegida": null,
-    "candidatas": [],
-    "obs": "Sin resultados con licencia libre: hay que cambiar la búsqueda"
+    "explicacion": "El club nació en 1880 en West Gorton (Mánchester), como el equipo de la iglesia de St. Mark's.",
+    "buscar": "West Gorton",
+    "elegida": "West Gorton - geograph.org.uk - 1339849.jpg",
+    "candidatas": [
+      {
+        "file": "West Gorton - geograph.org.uk - 1339849.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Gerald England",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:West_Gorton_-_geograph.org.uk_-_1339849.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/15/West_Gorton_-_geograph.org.uk_-_1339849.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "West Gorton - geograph.org.uk - 1339849",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Gorton Road, West Gorton - geograph.org.uk - 3379372.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Gorton Road, West Gorton by John Topping",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Gorton_Road,_West_Gorton_-_geograph.org.uk_-_3379372.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/61/Gorton_Road%2C_West_Gorton_-_geograph.org.uk_-_3379372.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Gorton Road, West Gorton - geograph.org.uk - 3379372",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Gorton Lane, West Gorton - geograph.org.uk - 3379567.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Gorton Lane, West Gorton by John Topping",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Gorton_Lane,_West_Gorton_-_geograph.org.uk_-_3379567.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Gorton_Lane%2C_West_Gorton_-_geograph.org.uk_-_3379567.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Gorton Lane, West Gorton - geograph.org.uk - 3379567",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Wenlock Court, West Gorton - geograph.org.uk - 3379769.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Wenlock Court, West Gorton by John Topping",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Wenlock_Court,_West_Gorton_-_geograph.org.uk_-_3379769.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/07/Wenlock_Court%2C_West_Gorton_-_geograph.org.uk_-_3379769.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Wenlock Court, West Gorton - geograph.org.uk - 3379769",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Wenlock Way, West Gorton - geograph.org.uk - 3379623.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Wenlock Way, West Gorton by John Topping",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Wenlock_Way,_West_Gorton_-_geograph.org.uk_-_3379623.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/86/Wenlock_Way%2C_West_Gorton_-_geograph.org.uk_-_3379623.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Wenlock Way, West Gorton - geograph.org.uk - 3379623",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Kniveton Road, West Gorton - geograph.org.uk - 3379784.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Kniveton Road, West Gorton by John Topping",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Kniveton_Road,_West_Gorton_-_geograph.org.uk_-_3379784.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/32/Kniveton_Road%2C_West_Gorton_-_geograph.org.uk_-_3379784.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Kniveton Road, West Gorton - geograph.org.uk - 3379784",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      }
+    ],
+    "obs": ""
   },
   "manchester-city:3": {
     "equipo": "Manchester City",
@@ -1620,48 +1774,9 @@
     "foto": 2,
     "tipo": "origen",
     "explicacion": "La torre del Príncipe Rupert, antigua cárcel del barrio de Everton (siglo XVIII), aparece en el escudo.",
-    "buscar": "Prince Rupert's Tower Everton",
-    "elegida": "(1)Former Lock-Up Randwick-6.jpg",
+    "buscar": null,
+    "elegida": "Everton Lockup 2019-1.jpg",
     "candidatas": [
-      {
-        "file": "(1)Former Lock-Up Randwick-6.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 4.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Sardaka",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:(1)Former_Lock-Up_Randwick-6.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/%281%29Former_Lock-Up_Randwick-6.jpg/960px-%281%29Former_Lock-Up_Randwick-6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "(1)Former Lock-Up Randwick-6",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
-      {
-        "file": "(1)Former Lock-Up Randwick-5.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 4.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Sardaka",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:(1)Former_Lock-Up_Randwick-5.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/%281%29Former_Lock-Up_Randwick-5.jpg/960px-%281%29Former_Lock-Up_Randwick-5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "(1)Former Lock-Up Randwick-5",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
-      {
-        "file": "(1)Former Lock-Up Randwick-2.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 4.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Sardaka",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:(1)Former_Lock-Up_Randwick-2.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/%281%29Former_Lock-Up_Randwick-2.jpg/960px-%281%29Former_Lock-Up_Randwick-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "(1)Former Lock-Up Randwick-2",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
       {
         "file": "Everton Lockup 2019-1.jpg",
         "ok": true,
@@ -1674,111 +1789,18 @@
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
-      },
-      {
-        "file": "Prince Rupert's Tower, Everton FC's Symbol - geograph.org.uk - 72858.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 2.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-        "autor": "Sue Adair",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Prince_Rupert%27s_Tower,_Everton_FC%27s_Symbol_-_geograph.org.uk_-_72858.jpg",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/82/Prince_Rupert%27s_Tower%2C_Everton_FC%27s_Symbol_-_geograph.org.uk_-_72858.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "titulo": "Prince Rupert's Tower, Everton FC's Symbol - geograph.org.uk - 72858",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
-      {
-        "file": "Everton Lock Up 2.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 3.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
-        "autor": "John Bradley",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Everton_Lock_Up_2.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Everton_Lock_Up_2.jpg/960px-Everton_Lock_Up_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Everton Lock Up 2",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
       }
     ],
-    "obs": ""
+    "obs": "El nombre del archivo menciona al club (solo se ve al final, pero revisa que la imagen no lo muestre)"
   },
   "everton:3": {
     "equipo": "Everton",
     "foto": 3,
     "tipo": "apodo",
-    "explicacion": "Caramelos toffee: el apodo «The Toffees» se atribuye a tiendas de caramelos del barrio.",
-    "buscar": "toffee sweets",
-    "elegida": "Confiserie Roodthooft Lange Leemstraat 374 (7164) Antwerpen 29-07-2019.jpg",
+    "explicacion": "Una lata de caramelos toffee: el apodo «The Toffees» se atribuye a tiendas de caramelos del barrio.",
+    "buscar": null,
+    "elegida": "Walters Palm Toffee tin, pic3.JPG",
     "candidatas": [
-      {
-        "file": "Confiserie Roodthooft Lange Leemstraat 374 (7164) Antwerpen 29-07-2019.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 4.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Paul Hermans",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Confiserie_Roodthooft_Lange_Leemstraat_374_(7164)_Antwerpen_29-07-2019.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Confiserie_Roodthooft_Lange_Leemstraat_374_%287164%29_Antwerpen_29-07-2019.jpg/960px-Confiserie_Roodthooft_Lange_Leemstraat_374_%287164%29_Antwerpen_29-07-2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Confiserie Roodthooft Lange Leemstraat 374 (7164) Antwerpen 29-07-2019",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
-      {
-        "file": "Verkade's Toffee blik, pic1.JPG",
-        "ok": true,
-        "licencia": "CC0",
-        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "autor": "Alf van Beem",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Verkade%27s_Toffee_blik,_pic1.JPG",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Verkade%27s_Toffee_blik%2C_pic1.JPG/960px-Verkade%27s_Toffee_blik%2C_pic1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Verkade's Toffee blik, pic1",
-        "notes": [
-          "Commons advierte marcas registradas en la imagen"
-        ]
-      },
-      {
-        "file": "Verkade's Toffee blik, pic2.JPG",
-        "ok": true,
-        "licencia": "CC0",
-        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "autor": "Alf van Beem",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Verkade%27s_Toffee_blik,_pic2.JPG",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Verkade%27s_Toffee_blik%2C_pic2.JPG/960px-Verkade%27s_Toffee_blik%2C_pic2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Verkade's Toffee blik, pic2",
-        "notes": [
-          "Commons advierte marcas registradas en la imagen"
-        ]
-      },
-      {
-        "file": "Verkade's Oto toffee blik pic2.JPG",
-        "ok": true,
-        "licencia": "Public domain",
-        "url_licencia": "",
-        "autor": "Alf van Beem",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Verkade%27s_Oto_toffee_blik_pic2.JPG",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Verkade%27s_Oto_toffee_blik_pic2.JPG/960px-Verkade%27s_Oto_toffee_blik_pic2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Verkade's Oto toffee blik pic2",
-        "notes": [
-          "Dominio público: verificar que lo sea también en Chile",
-          "Commons advierte marcas registradas en la imagen"
-        ]
-      },
-      {
-        "file": "Verkade's Oto toffee blik pic1.JPG",
-        "ok": true,
-        "licencia": "Public domain",
-        "url_licencia": "",
-        "autor": "Alf van Beem",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Verkade%27s_Oto_toffee_blik_pic1.JPG",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Verkade%27s_Oto_toffee_blik_pic1.JPG/960px-Verkade%27s_Oto_toffee_blik_pic1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Verkade's Oto toffee blik pic1",
-        "notes": [
-          "Dominio público: verificar que lo sea también en Chile",
-          "Commons advierte marcas registradas en la imagen"
-        ]
-      },
       {
         "file": "Walters Palm Toffee tin, pic3.JPG",
         "ok": true,
@@ -1801,21 +1823,8 @@
     "tipo": "cultura",
     "explicacion": "Goodison Park, la casa histórica del club desde 1892.",
     "buscar": "Goodison Park",
-    "elegida": "Goodison Park - geograph.org.uk - 4957773.jpg",
+    "elegida": "Goodison Park - geograph.org.uk - 2921866.jpg",
     "candidatas": [
-      {
-        "file": "Goodison Park - geograph.org.uk - 4957773.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 2.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-        "autor": "Goodison Park by Eirian Evans",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Goodison_Park_-_geograph.org.uk_-_4957773.jpg",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/85/Goodison_Park_-_geograph.org.uk_-_4957773.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "titulo": "Goodison Park - geograph.org.uk - 4957773",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
       {
         "file": "Goodison Park - geograph.org.uk - 2921866.jpg",
         "ok": true,
@@ -1877,6 +1886,19 @@
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Goodison_Park_-_geograph.org.uk_-_7559121.jpg",
         "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/75/Goodison_Park_-_geograph.org.uk_-_7559121.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "titulo": "Goodison Park - geograph.org.uk - 7559121",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Goodison Park - geograph.org.uk - 4959242.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Goodison Park by Eirian Evans",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Goodison_Park_-_geograph.org.uk_-_4959242.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Goodison_Park_-_geograph.org.uk_-_4959242.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Goodison Park - geograph.org.uk - 4959242",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
@@ -1974,59 +1996,9 @@
     "foto": 3,
     "tipo": "apodo",
     "explicacion": "El león rampante, símbolo del escudo del club.",
-    "buscar": "lion rampant",
-    "elegida": "Rampant Lion, Rusholme.jpg",
+    "buscar": null,
+    "elegida": "Plate with Heraldic Shield of a Rampant Lion MET sf41-100-309s1.jpg",
     "candidatas": [
-      {
-        "file": "Rampant Lion, Rusholme.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 2.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-        "autor": "David Dixon",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Rampant_Lion,_Rusholme.jpg",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/50/Rampant_Lion%2C_Rusholme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "titulo": "Rampant Lion, Rusholme",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
-      {
-        "file": "Rampant Lion Manchester.jpg",
-        "ok": true,
-        "licencia": "CC BY 3.0",
-        "url_licencia": "https://creativecommons.org/licenses/by/3.0",
-        "autor": "Kelly",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Rampant_Lion_Manchester.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Rampant_Lion_Manchester.jpg/960px-Rampant_Lion_Manchester.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Rampant Lion Manchester",
-        "notes": []
-      },
-      {
-        "file": "Rampant Lion, Manchester.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 3.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
-        "autor": "Pit-yacker",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Rampant_Lion,_Manchester.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Rampant_Lion%2C_Manchester.jpg/960px-Rampant_Lion%2C_Manchester.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Rampant Lion, Manchester",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
-      {
-        "file": "Ceiling panel with rampant lion - Google Art Project.jpg",
-        "ok": true,
-        "licencia": "Public domain",
-        "url_licencia": "",
-        "autor": "Desconocido Unknown author",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Ceiling_panel_with_rampant_lion_-_Google_Art_Project.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Ceiling_panel_with_rampant_lion_-_Google_Art_Project.jpg/960px-Ceiling_panel_with_rampant_lion_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "inglés: Ceiling panel with rampant lion Tablilla de artesonado con león rampante title QS:P1476,en:\"Ceiling panel with rampant lion\" label QS:Len,\"Ceiling panel with rampant lion\"",
-        "notes": [
-          "Dominio público: verificar que lo sea también en Chile"
-        ]
-      },
       {
         "file": "Plate with Heraldic Shield of a Rampant Lion MET sf41-100-309s1.jpg",
         "ok": true,
@@ -2036,17 +2008,6 @@
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Plate_with_Heraldic_Shield_of_a_Rampant_Lion_MET_sf41-100-309s1.jpg",
         "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Plate_with_Heraldic_Shield_of_a_Rampant_Lion_MET_sf41-100-309s1.jpg/960px-Plate_with_Heraldic_Shield_of_a_Rampant_Lion_MET_sf41-100-309s1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "titulo": "Plate with Heraldic Shield of a Rampant Lion",
-        "notes": []
-      },
-      {
-        "file": "Lion rampant crowned.png",
-        "ok": true,
-        "licencia": "CC0",
-        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "autor": "ImperialHerald",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Lion_rampant_crowned.png",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Lion_rampant_crowned.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "titulo": "Lion rampant crowned",
         "notes": []
       }
     ],
@@ -2058,21 +2019,8 @@
     "tipo": "cultura",
     "explicacion": "La tribuna Holte End, una de las más grandes del fútbol inglés.",
     "buscar": "Holte End Villa Park",
-    "elegida": "Villa Park-Holte End - geograph.org.uk - 1849209.jpg",
+    "elegida": "Villa Park, Entrance to the Holte End - geograph.org.uk - 7877293.jpg",
     "candidatas": [
-      {
-        "file": "Villa Park-Holte End - geograph.org.uk - 1849209.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 2.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-        "autor": "Villa Park-Holte End by Ian Rob",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Villa_Park-Holte_End_-_geograph.org.uk_-_1849209.jpg",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Villa_Park-Holte_End_-_geograph.org.uk_-_1849209.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "titulo": "Villa Park-Holte End - geograph.org.uk - 1849209",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
       {
         "file": "Villa Park, Entrance to the Holte End - geograph.org.uk - 7877293.jpg",
         "ok": true,
@@ -2135,6 +2083,19 @@
         "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Facade_of_the_Holte_End_stand%2C_Villa_Park_%28cropped%29.jpg/960px-Facade_of_the_Holte_End_stand%2C_Villa_Park_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "titulo": "Facade of the Holte End stand, Villa Park (cropped)",
         "notes": []
+      },
+      {
+        "file": "Villa Park (Holte End Higher).jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "autor": "en:User:T3rotm (en.wiki user)",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Villa_Park_(Holte_End_Higher).jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Villa_Park_%28Holte_End_Higher%29.jpg/960px-Villa_Park_%28Holte_End_Higher%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Villa Park (Holte End Higher)",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
       }
     ],
     "obs": "El nombre del archivo menciona al club (solo se ve al final, pero revisa que la imagen no lo muestre)"
@@ -2320,57 +2281,9 @@
     "foto": 4,
     "tipo": "cultura",
     "explicacion": "Burbujas: el himno de la hinchada es «I'm Forever Blowing Bubbles».",
-    "buscar": "soap bubbles",
-    "elegida": "Lipid Islands on Soap Bubble.jpg",
+    "buscar": null,
+    "elegida": "Soap bubbles, Prague, 20190816 1848 5458.jpg",
     "candidatas": [
-      {
-        "file": "Lipid Islands on Soap Bubble.jpg",
-        "ok": true,
-        "licencia": "CC BY 4.0",
-        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
-        "autor": "KarlGaff",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Lipid_Islands_on_Soap_Bubble.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Lipid_Islands_on_Soap_Bubble.jpg/960px-Lipid_Islands_on_Soap_Bubble.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Lipid Islands on Soap Bubble",
-        "notes": []
-      },
-      {
-        "file": "Reflection in a soap bubble edit.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 3.0",
-        "url_licencia": "http://creativecommons.org/licenses/by-sa/3.0/",
-        "autor": "Brocken Inaglory . The image was edited by user:Alvesgaspar",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Reflection_in_a_soap_bubble_edit.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Reflection_in_a_soap_bubble_edit.jpg/960px-Reflection_in_a_soap_bubble_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Reflection in a soap bubble edit",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
-      {
-        "file": "Frostedbubble2.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 4.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Daniela Rapavá",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Frostedbubble2.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Frostedbubble2.jpg/960px-Frostedbubble2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Frostedbubble2",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
-      {
-        "file": "Frozen soap bubble behind fir twigs (Unsplash BojuZpqw4zM).jpg",
-        "ok": true,
-        "licencia": "CC0",
-        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "autor": "aaronburden Aaron Burden from Baltimore, Maryland, USA.",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Frozen_soap_bubble_behind_fir_twigs_(Unsplash_BojuZpqw4zM).jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Frozen_soap_bubble_behind_fir_twigs_%28Unsplash_BojuZpqw4zM%29.jpg/960px-Frozen_soap_bubble_behind_fir_twigs_%28Unsplash_BojuZpqw4zM%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Frozen soap bubble behind fir twigs (Unsplash BojuZpqw4zM)",
-        "notes": []
-      },
       {
         "file": "Soap bubbles, Prague, 20190816 1848 5458.jpg",
         "ok": true,
@@ -2383,19 +2296,6 @@
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
           "Commons advierte derechos de imagen de personas"
-        ]
-      },
-      {
-        "file": "Soap bubbles in Algerian grassland.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 4.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Moh tch",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Soap_bubbles_in_Algerian_grassland.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Soap_bubbles_in_Algerian_grassland.jpg/960px-Soap_bubbles_in_Algerian_grassland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Soap bubbles in Algerian grassland",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
       }
     ],
@@ -2673,75 +2573,10 @@
     "equipo": "Southampton",
     "foto": 2,
     "tipo": "origen",
-    "explicacion": "Southampton es un gran puerto: de aquí zarpó el Titanic en 1912.",
-    "buscar": "Southampton docks ocean liner",
-    "elegida": "Hook Ocean Liner express geograph-2967269-by-Ben-Brooksbank.jpg",
+    "explicacion": "Los muelles de Southampton, gran puerto inglés: de aquí zarpó el Titanic en 1912.",
+    "buscar": null,
+    "elegida": "Southampton Western Docks - geograph.org.uk - 1191331.jpg",
     "candidatas": [
-      {
-        "file": "Hook Ocean Liner express geograph-2967269-by-Ben-Brooksbank.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 2.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-        "autor": "Ben Brooksbank",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Hook_Ocean_Liner_express_geograph-2967269-by-Ben-Brooksbank.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Hook_Ocean_Liner_express_geograph-2967269-by-Ben-Brooksbank.jpg/960px-Hook_Ocean_Liner_express_geograph-2967269-by-Ben-Brooksbank.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Hook Ocean Liner express geograph-2967269-by-Ben-Brooksbank",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
-      {
-        "file": "Ocean Terminal.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 4.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Murgatroyd49",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Ocean_Terminal.jpg",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Ocean_Terminal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "titulo": "Ocean Terminal",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
-      {
-        "file": "Ocean Terminal with Azura alongside.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 4.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Murgatroyd49",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Ocean_Terminal_with_Azura_alongside.jpg",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Ocean_Terminal_with_Azura_alongside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "titulo": "Ocean Terminal with Azura alongside",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
-      {
-        "file": "Queen Elizabeth 2 at Drydock World Dubai in 2012.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 4.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Jidhin George",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_2_at_Drydock_World_Dubai_in_2012.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Queen_Elizabeth_2_at_Drydock_World_Dubai_in_2012.jpg/960px-Queen_Elizabeth_2_at_Drydock_World_Dubai_in_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Queen Elizabeth 2 at Drydock World Dubai in 2012",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
-      {
-        "file": "Train Chartering - DRS Class 47 locomotive Cruise Saver Travel Express.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 2.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-        "autor": "Luxury Train Club",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Train_Chartering_-_DRS_Class_47_locomotive_Cruise_Saver_Travel_Express.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Train_Chartering_-_DRS_Class_47_locomotive_Cruise_Saver_Travel_Express.jpg/960px-Train_Chartering_-_DRS_Class_47_locomotive_Cruise_Saver_Travel_Express.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Train Chartering - DRS Class 47 locomotive Cruise Saver Travel Express",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
       {
         "file": "Southampton Western Docks - geograph.org.uk - 1191331.jpg",
         "ok": true,
@@ -2756,7 +2591,7 @@
         ]
       }
     ],
-    "obs": ""
+    "obs": "El nombre del archivo menciona al club (solo se ve al final, pero revisa que la imagen no lo muestre)"
   },
   "southampton:3": {
     "equipo": "Southampton",
@@ -2853,21 +2688,8 @@
     "tipo": "cultura",
     "explicacion": "Su estadio, St Mary's, se inauguró en 2001.",
     "buscar": "St Mary's Stadium Southampton",
-    "elegida": "St Mary's Stadium 2022.jpg",
+    "elegida": "St Mary's Stadium interior 2022.jpg",
     "candidatas": [
-      {
-        "file": "St Mary's Stadium 2022.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 4.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Dan Kerins",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:St_Mary%27s_Stadium_2022.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/St_Mary%27s_Stadium_2022.jpg/960px-St_Mary%27s_Stadium_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "St Mary's Stadium 2022",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
       {
         "file": "St Mary's Stadium interior 2022.jpg",
         "ok": true,
@@ -2929,6 +2751,19 @@
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Northam_Stand,_St_Mary%27s_Stadium_-_geograph.org.uk_-_1723745.jpg",
         "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/db/Northam_Stand%2C_St_Mary%27s_Stadium_-_geograph.org.uk_-_1723745.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "titulo": "Northam Stand, St Mary's Stadium - geograph.org.uk - 1723745",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Match-day at St Mary's Stadium - geograph.org.uk - 431368.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Colin Smith",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Match-day_at_St_Mary%27s_Stadium_-_geograph.org.uk_-_431368.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Match-day_at_St_Mary%27s_Stadium_-_geograph.org.uk_-_431368.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Match-day at St Mary's Stadium - geograph.org.uk - 431368",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
@@ -3116,21 +2951,8 @@
     "tipo": "cultura",
     "explicacion": "El estadio Molineux toma su nombre de Benjamin Molineux, comerciante local del siglo XVIII.",
     "buscar": "Molineux Stadium",
-    "elegida": "Molineux Stadium - geograph.org.uk - 5718889.jpg",
+    "elegida": "Molineux Stadium - geograph.org.uk - 5718903.jpg",
     "candidatas": [
-      {
-        "file": "Molineux Stadium - geograph.org.uk - 5718889.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 2.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-        "autor": "Molineux Stadium by Philip Halling",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Molineux_Stadium_-_geograph.org.uk_-_5718889.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Molineux_Stadium_-_geograph.org.uk_-_5718889.jpg/960px-Molineux_Stadium_-_geograph.org.uk_-_5718889.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Molineux Stadium - geograph.org.uk - 5718889",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
       {
         "file": "Molineux Stadium - geograph.org.uk - 5718903.jpg",
         "ok": true,
@@ -3190,6 +3012,19 @@
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Molineux_Stadium_in_1991_-_geograph.org.uk_-_2796723.jpg",
         "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Molineux_Stadium_in_1991_-_geograph.org.uk_-_2796723.jpg/960px-Molineux_Stadium_in_1991_-_geograph.org.uk_-_2796723.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "titulo": "Molineux Stadium in 1991 - geograph.org.uk - 2796723",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Molineux Ground, Wolverhampton.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "John Nickolls",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Molineux_Ground,_Wolverhampton.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/43/Molineux_Ground%2C_Wolverhampton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Molineux Ground, Wolverhampton",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
@@ -4249,42 +4084,108 @@
     "equipo": "Sunderland",
     "foto": 2,
     "tipo": "origen",
-    "explicacion": "La lámpara de minero junto al estadio, construido sobre la antigua mina de carbón de Wearmouth.",
-    "buscar": "Davy lamp monument Sunderland",
-    "elegida": null,
-    "candidatas": [],
-    "obs": "Sin resultados con licencia libre: hay que cambiar la búsqueda"
+    "explicacion": "Una lámpara de minero: el estadio se construyó sobre la antigua mina de carbón de Wearmouth y tiene una lámpara gigante en la entrada.",
+    "buscar": "Davy lamp",
+    "elegida": "Davy-lamp-0462.jpg",
+    "candidatas": [
+      {
+        "file": "Davy-lamp-0462.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "autor": "PereslavlFoto",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Davy-lamp-0462.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Davy-lamp-0462.jpg/960px-Davy-lamp-0462.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Davy-lamp-0462",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Bernhard Boecker Davy lamp.png",
+        "ok": true,
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "autor": "Bernhard Boecker",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Bernhard_Boecker_Davy_lamp.png",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bernhard_Boecker_Davy_lamp.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Bernhard Boecker Davy lamp",
+        "notes": [
+          "Dominio público: verificar que lo sea también en Chile"
+        ]
+      },
+      {
+        "file": "Plate 5 (Davy lamp) Philosophical Transactions, vol 107.jpg",
+        "ok": true,
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "autor": "James (II) Basire / James, III Basire",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Plate_5_(Davy_lamp)_Philosophical_Transactions,_vol_107.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Plate_5_%28Davy_lamp%29_Philosophical_Transactions%2C_vol_107.jpg/960px-Plate_5_%28Davy_lamp%29_Philosophical_Transactions%2C_vol_107.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Plate 5 (Davy lamp) Philosophical Transactions, vol 107",
+        "notes": [
+          "Dominio público: verificar que lo sea también en Chile"
+        ]
+      },
+      {
+        "file": "Davy lamp.png",
+        "ok": true,
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "autor": "Scan made by Kogo",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Davy_lamp.png",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/38/Davy_lamp.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Davy lamp",
+        "notes": [
+          "Dominio público: verificar que lo sea también en Chile"
+        ]
+      },
+      {
+        "file": "Miner in the Davy Lamp - geograph.org.uk - 493333.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Chris Eaton",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Miner_in_the_Davy_Lamp_-_geograph.org.uk_-_493333.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Miner_in_the_Davy_Lamp_-_geograph.org.uk_-_493333.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Miner in the Davy Lamp - geograph.org.uk - 493333",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "The Davy Lamp - geograph.org.uk - 8346013.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "The Davy Lamp by David Lally",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:The_Davy_Lamp_-_geograph.org.uk_-_8346013.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/The_Davy_Lamp_-_geograph.org.uk_-_8346013.jpg/960px-The_Davy_Lamp_-_geograph.org.uk_-_8346013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "The Davy Lamp - geograph.org.uk - 8346013",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      }
+    ],
+    "obs": ""
   },
   "sunderland:3": {
     "equipo": "Sunderland",
     "foto": 3,
     "tipo": "apodo",
     "explicacion": "El gato negro: el apodo «The Black Cats» viene de una antigua batería de cañones junto al río Wear.",
-    "buscar": "black cat",
-    "elegida": "Cat November 2010-1a.jpg",
+    "buscar": "black cat sitting",
+    "elegida": "Black and white cat sitting on lawn.jpg",
     "candidatas": [
       {
-        "file": "Cat November 2010-1a.jpg",
+        "file": "Black and white cat sitting on lawn.jpg",
         "ok": true,
-        "licencia": "CC BY-SA 3.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
-        "autor": "Alvesgaspar",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Cat_November_2010-1a.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/960px-Cat_November_2010-1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Cat November 2010-1a",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
-      {
-        "file": "Felis catus-cat on snow.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 3.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
-        "autor": "Von.grzanka",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Felis_catus-cat_on_snow.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Felis_catus-cat_on_snow.jpg/960px-Felis_catus-cat_on_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Felis catus-cat on snow",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Grendelkhan",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Black_and_white_cat_sitting_on_lawn.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Black_and_white_cat_sitting_on_lawn.jpg/960px-Black_and_white_cat_sitting_on_lawn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Black and white cat sitting on lawn",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
@@ -4303,39 +4204,54 @@
         ]
       },
       {
-        "file": "Sleeping cat on her back.jpg",
+        "file": "Cat Iran.jpg",
         "ok": true,
-        "licencia": "CC BY 2.0",
-        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
-        "autor": "Umberto Salvagnin",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Sleeping_cat_on_her_back.jpg/960px-Sleeping_cat_on_her_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Sleeping cat on her back",
-        "notes": []
-      },
-      {
-        "file": "Tabby cat with blue eyes-3336579.jpg",
-        "ok": true,
-        "licencia": "CC0",
-        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "autor": "AdinaVoicu",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Tabby_cat_with_blue_eyes-3336579.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Tabby_cat_with_blue_eyes-3336579.jpg/960px-Tabby_cat_with_blue_eyes-3336579.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Tabby cat with blue eyes-3336579",
-        "notes": []
-      },
-      {
-        "file": "Calico cat, - Assisi, Italy.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 4.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Terragio67",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Calico_cat,_-_Assisi,_Italy.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Calico_cat%2C_-_Assisi%2C_Italy.jpg/960px-Calico_cat%2C_-_Assisi%2C_Italy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Calico cat, - Assisi, Italy",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "autor": "درفش کاویانی",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Cat_Iran.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Cat_Iran.jpg/960px-Cat_Iran.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Cat Iran",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
+      },
+      {
+        "file": "Siberian black tabby blotched cat 04.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Tadeáš Bednarz",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Siberian_black_tabby_blotched_cat_04.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Siberian_black_tabby_blotched_cat_04.jpg/960px-Siberian_black_tabby_blotched_cat_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Siberian black tabby blotched cat 04",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Siberian black tabby blotched cat 01.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Tadeáš Bednarz",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Siberian_black_tabby_blotched_cat_01.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Siberian_black_tabby_blotched_cat_01.jpg/960px-Siberian_black_tabby_blotched_cat_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Siberian black tabby blotched cat 01",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Black cat sitting on gravel.jpg",
+        "ok": true,
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "autor": "Negative Mortality",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Black_cat_sitting_on_gravel.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Black_cat_sitting_on_gravel.jpg/960px-Black_cat_sitting_on_gravel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Black cat sitting on gravel",
+        "notes": []
       }
     ],
     "obs": ""
@@ -4611,19 +4527,8 @@
     "tipo": "cultura",
     "explicacion": "La tribuna de ladrillo de Craven Cottage, de comienzos del siglo XX, protegida como patrimonio.",
     "buscar": "Johnny Haynes Stand Craven Cottage",
-    "elegida": "Johnny Haynes Stand triangular roof gable (Craven Cottage).jpg",
+    "elegida": "Craven Cottage door to Johnny Haynes Stand 2024-07-20.jpg",
     "candidatas": [
-      {
-        "file": "Johnny Haynes Stand triangular roof gable (Craven Cottage).jpg",
-        "ok": true,
-        "licencia": "CC BY 4.0",
-        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
-        "autor": "Quintin Soloviev",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Johnny_Haynes_Stand_triangular_roof_gable_(Craven_Cottage).jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Johnny_Haynes_Stand_triangular_roof_gable_%28Craven_Cottage%29.jpg/960px-Johnny_Haynes_Stand_triangular_roof_gable_%28Craven_Cottage%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Johnny Haynes Stand triangular roof gable (Craven Cottage)",
-        "notes": []
-      },
       {
         "file": "Craven Cottage door to Johnny Haynes Stand 2024-07-20.jpg",
         "ok": true,
@@ -4686,6 +4591,19 @@
         "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/ce/INTERIOR_MONTAGE_OF_HAYNES_STAND.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "titulo": "INTERIOR MONTAGE OF HAYNES STAND",
         "notes": []
+      },
+      {
+        "file": "Innenansicht Craven Cottage.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "SVWerder2010",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Innenansicht_Craven_Cottage.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Innenansicht_Craven_Cottage.jpg/960px-Innenansicht_Craven_Cottage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Innenansicht Craven Cottage",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
       }
     ],
     "obs": ""
@@ -4872,36 +4790,10 @@
     "equipo": "Brentford",
     "foto": 4,
     "tipo": "cultura",
-    "explicacion": "Su antiguo estadio, Griffin Park, era famoso por tener un pub en cada esquina.",
-    "buscar": "Griffin Park pub",
-    "elegida": "Crossways Pub, Crossways Retail Park, Caerphilly - geograph.org.uk - 372632.jpg",
+    "explicacion": "The Griffin, uno de los pubs de las esquinas de Griffin Park, su antiguo estadio, famoso por tener un pub en cada esquina.",
+    "buscar": null,
+    "elegida": "The Griffin pub, Brentford, October 2018.jpg",
     "candidatas": [
-      {
-        "file": "Crossways Pub, Crossways Retail Park, Caerphilly - geograph.org.uk - 372632.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 2.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-        "autor": "Kev Griffin",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Crossways_Pub,_Crossways_Retail_Park,_Caerphilly_-_geograph.org.uk_-_372632.jpg",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/80/Crossways_Pub%2C_Crossways_Retail_Park%2C_Caerphilly_-_geograph.org.uk_-_372632.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "titulo": "Crossways Pub, Crossways Retail Park, Caerphilly - geograph.org.uk - 372632",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
-      {
-        "file": "Groton pub car park - geograph.org.uk - 4197229.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 2.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-        "autor": "Groton pub car park by Hamish Griffin",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Groton_pub_car_park_-_geograph.org.uk_-_4197229.jpg",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/17/Groton_pub_car_park_-_geograph.org.uk_-_4197229.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "titulo": "Groton pub car park - geograph.org.uk - 4197229",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
       {
         "file": "The Griffin pub, Brentford, October 2018.jpg",
         "ok": true,
@@ -4914,6 +4806,6 @@
         "notes": []
       }
     ],
-    "obs": ""
+    "obs": "El nombre del archivo menciona al club (solo se ve al final, pero revisa que la imagen no lo muestre)"
   }
 }
