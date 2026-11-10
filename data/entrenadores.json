@@ -1,0 +1,1295 @@
+{
+  "categoria": "entrenadores",
+  "jugadores": [
+    {
+      "id": "pep-guardiola",
+      "nombre": "Pep Guardiola",
+      "alias": [
+        "Guardiola",
+        "Pep",
+        "Josep Guardiola"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Entrenador",
+      "equipo": "Manchester City",
+      "pistas": [
+        "Como jugador fue el mediocentro del Dream Team de Cruyff.",
+        "Dirigió al Barcelona, el Bayern Múnich y el Manchester City.",
+        "Ganó dos tripletes: con el Barcelona en 2009 y con el Manchester City en 2023."
+      ],
+      "wikipedia_en": "Pep Guardiola",
+      "nacimiento": 1971,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "carlo-ancelotti",
+      "nombre": "Carlo Ancelotti",
+      "alias": [
+        "Ancelotti",
+        "Carletto"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Italia",
+      "posicion": "Entrenador",
+      "equipo": "Real Madrid",
+      "pistas": [
+        "Ganó la Copa de Europa como jugador con el AC Milan.",
+        "Ganó la liga en Italia, Inglaterra, Francia, Alemania y España.",
+        "Es el entrenador con más Champions ganadas."
+      ],
+      "wikipedia_en": "Carlo Ancelotti",
+      "nacimiento": 1959,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "jurgen-klopp",
+      "nombre": "Jürgen Klopp",
+      "alias": [
+        "Klopp",
+        "Kloppo"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Alemania",
+      "posicion": "Entrenador",
+      "equipo": "Liverpool",
+      "pistas": [
+        "Llevó al Mainz a la Bundesliga.",
+        "Ganó dos Bundesliga con el Borussia Dortmund.",
+        "Ganó la Champions 2019 y la Premier 2020 con el Liverpool."
+      ],
+      "wikipedia_en": "Jürgen Klopp",
+      "nacimiento": 1967,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "mikel-arteta",
+      "nombre": "Mikel Arteta",
+      "alias": [
+        "Arteta"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Entrenador",
+      "equipo": "Arsenal",
+      "pistas": [
+        "Fue asistente de Guardiola en el Manchester City.",
+        "Fue capitán del mismo club que después dirigió.",
+        "Dirige al Arsenal desde 2019."
+      ],
+      "wikipedia_en": "Mikel Arteta",
+      "nacimiento": 1982,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "diego-simeone",
+      "nombre": "Diego Simeone",
+      "alias": [
+        "Simeone",
+        "Cholo",
+        "Cholo Simeone"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Argentina",
+      "posicion": "Entrenador",
+      "equipo": "Atlético de Madrid",
+      "pistas": [
+        "Como jugador pasó por el Inter y la Lazio.",
+        "Como jugador fue campeón de liga con el club que después dirigió.",
+        "Hizo campeón de liga al Atlético de Madrid en 2014 y 2021."
+      ],
+      "wikipedia_en": "Diego Simeone",
+      "nacimiento": 1970,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "lionel-scaloni",
+      "nombre": "Lionel Scaloni",
+      "alias": [
+        "Scaloni",
+        "Scaloneta"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Argentina",
+      "posicion": "Entrenador",
+      "equipo": "Selección argentina",
+      "pistas": [
+        "Jugó muchos años en el Deportivo La Coruña.",
+        "Ganó la Copa América 2021 y 2024.",
+        "Llevó a Argentina a ganar el Mundial 2022."
+      ],
+      "wikipedia_en": "Lionel Scaloni",
+      "nacimiento": 1978,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "marcelo-bielsa",
+      "nombre": "Marcelo Bielsa",
+      "alias": [
+        "Bielsa",
+        "Loco Bielsa",
+        "El Loco"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Argentina",
+      "posicion": "Entrenador",
+      "equipo": "Selección uruguaya",
+      "pistas": [
+        "Llevó al Leeds United de vuelta a la Premier League.",
+        "Dirigió a la selección de Uruguay.",
+        "Dirigió a la selección chilena en el Mundial 2010."
+      ],
+      "wikipedia_en": "Marcelo Bielsa",
+      "nacimiento": 1955,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "zinedine-zidane-dt",
+      "nombre": "Zinedine Zidane (DT)",
+      "alias": [
+        "Zidane",
+        "Zizou",
+        "Zinedine Zidane"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "historico",
+      "pais": "Francia",
+      "posicion": "Entrenador",
+      "equipo": "Real Madrid",
+      "pistas": [
+        "Fue asistente de Ancelotti antes de ser entrenador principal.",
+        "Dirigió al Real Madrid en dos etapas.",
+        "Ganó tres Champions seguidas como entrenador (2016, 2017 y 2018)."
+      ],
+      "wikipedia_en": "Zinedine Zidane",
+      "nacimiento": 1972,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "alex-ferguson",
+      "nombre": "Alex Ferguson",
+      "alias": [
+        "Ferguson",
+        "Sir Alex",
+        "Fergie",
+        "Sir Alex Ferguson"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "historico",
+      "pais": "Escocia",
+      "posicion": "Entrenador",
+      "equipo": "Manchester United",
+      "pistas": [
+        "Ganó la Recopa de Europa con el Aberdeen.",
+        "Ganó 13 Premier League.",
+        "Dirigió al Manchester United durante 26 años."
+      ],
+      "wikipedia_en": "Alex Ferguson",
+      "nacimiento": 1941,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "jose-mourinho",
+      "nombre": "José Mourinho",
+      "alias": [
+        "Mourinho",
+        "Mou"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Portugal",
+      "posicion": "Entrenador",
+      "equipo": "Chelsea",
+      "pistas": [
+        "Fue traductor de Bobby Robson en el Barcelona.",
+        "Ganó la Champions con el Porto y con el Inter.",
+        "Se presentó en el Chelsea como «The Special One»."
+      ],
+      "wikipedia_en": "José Mourinho",
+      "nacimiento": 1963,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "luis-enrique",
+      "nombre": "Luis Enrique",
+      "alias": [
+        "Luis Enrique Martínez",
+        "Lucho"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Entrenador",
+      "equipo": "PSG",
+      "pistas": [
+        "Como jugador pasó del Real Madrid al Barcelona.",
+        "Ganó el triplete con el Barcelona en 2015.",
+        "Ganó la Champions 2025 con el PSG."
+      ],
+      "wikipedia_en": "Luis Enrique (footballer)",
+      "nacimiento": 1970,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "xabi-alonso-dt",
+      "nombre": "Xabi Alonso (DT)",
+      "alias": [
+        "Xabi Alonso",
+        "Xabi"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Entrenador",
+      "equipo": "Bayer Leverkusen",
+      "pistas": [
+        "Empezó entrenando en las inferiores del Real Madrid y en la Real Sociedad B.",
+        "Hizo campeón invicto de la Bundesliga al Bayer Leverkusen en 2024.",
+        "Llegó como entrenador al Real Madrid en 2025."
+      ],
+      "wikipedia_en": "Xabi Alonso",
+      "nacimiento": 1981,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "hansi-flick",
+      "nombre": "Hansi Flick",
+      "alias": [
+        "Flick"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Alemania",
+      "posicion": "Entrenador",
+      "equipo": "Barcelona",
+      "pistas": [
+        "Fue seleccionador de Alemania.",
+        "Ganó el sextete con el Bayern Múnich en 2020.",
+        "Dirige al Barcelona desde 2024."
+      ],
+      "wikipedia_en": "Hansi Flick",
+      "nacimiento": 1965,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "thomas-tuchel",
+      "nombre": "Thomas Tuchel",
+      "alias": [
+        "Tuchel"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Alemania",
+      "posicion": "Entrenador",
+      "equipo": "Selección inglesa",
+      "pistas": [
+        "Dirigió al PSG y al Bayern Múnich.",
+        "Ganó la Champions 2021 con el Chelsea.",
+        "Es el seleccionador de Inglaterra desde 2025."
+      ],
+      "wikipedia_en": "Thomas Tuchel",
+      "nacimiento": 1973,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "arsene-wenger",
+      "nombre": "Arsène Wenger",
+      "alias": [
+        "Wenger"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "historico",
+      "pais": "Francia",
+      "posicion": "Entrenador",
+      "equipo": "Arsenal",
+      "pistas": [
+        "Dirigió en Japón al Nagoya Grampus.",
+        "Dirigió al Arsenal durante 22 años.",
+        "Su Arsenal terminó invicto la Premier 2003-04."
+      ],
+      "wikipedia_en": "Arsène Wenger",
+      "nacimiento": 1949,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "jorge-sampaoli",
+      "nombre": "Jorge Sampaoli",
+      "alias": [
+        "Sampaoli"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Argentina",
+      "posicion": "Entrenador",
+      "equipo": "Selección chilena",
+      "pistas": [
+        "Hizo campeona de la Copa Sudamericana 2011 a la Universidad de Chile.",
+        "Dirigió a Argentina en el Mundial 2018.",
+        "Llevó a Chile a ganar la Copa América 2015."
+      ],
+      "wikipedia_en": "Jorge Sampaoli",
+      "nacimiento": 1960,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "ricardo-gareca",
+      "nombre": "Ricardo Gareca",
+      "alias": [
+        "Gareca",
+        "El Tigre"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Argentina",
+      "posicion": "Entrenador",
+      "equipo": "Selección peruana",
+      "pistas": [
+        "Fue campeón con Vélez Sarsfield como entrenador.",
+        "Dirigió a la selección chilena.",
+        "Llevó a Perú al Mundial 2018 después de 36 años."
+      ],
+      "wikipedia_en": "Ricardo Gareca",
+      "nacimiento": 1958,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "marcelo-gallardo-dt",
+      "nombre": "Marcelo Gallardo (DT)",
+      "alias": [
+        "Gallardo",
+        "Muñeco",
+        "Marcelo Gallardo"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Argentina",
+      "posicion": "Entrenador",
+      "equipo": "River Plate",
+      "pistas": [
+        "Dirigió al Al-Ittihad de Arabia Saudita.",
+        "Volvió a dirigir a River Plate en 2024.",
+        "Ganó la Libertadores 2015 y 2018 con River Plate."
+      ],
+      "wikipedia_en": "Marcelo Gallardo",
+      "nacimiento": 1976,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "tite",
+      "nombre": "Tite",
+      "alias": [
+        "Adenor Leonardo Bacchi"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Entrenador",
+      "equipo": "Selección brasileña",
+      "pistas": [
+        "Ganó la Libertadores y el Mundial de Clubes 2012 con el Corinthians.",
+        "Ganó la Copa América 2019.",
+        "Dirigió a Brasil en los Mundiales 2018 y 2022."
+      ],
+      "wikipedia_en": "Tite (football manager)",
+      "nacimiento": 1961,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "didier-deschamps",
+      "nombre": "Didier Deschamps",
+      "alias": [
+        "Deschamps",
+        "DD"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Francia",
+      "posicion": "Entrenador",
+      "equipo": "Selección francesa",
+      "pistas": [
+        "Dirigió al Mónaco finalista de la Champions 2004.",
+        "Dirige a Francia desde 2012.",
+        "Fue campeón del mundo como jugador (1998) y como entrenador (2018)."
+      ],
+      "wikipedia_en": "Didier Deschamps",
+      "nacimiento": 1968,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "luis-de-la-fuente",
+      "nombre": "Luis de la Fuente",
+      "alias": [
+        "De la Fuente"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Entrenador",
+      "equipo": "Selección española",
+      "pistas": [
+        "Dirigió durante años a las selecciones juveniles de España.",
+        "Ganó la Nations League 2023.",
+        "Llevó a España a ganar la Eurocopa 2024."
+      ],
+      "wikipedia_en": "Luis de la Fuente",
+      "nacimiento": 1961,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "gareth-southgate",
+      "nombre": "Gareth Southgate",
+      "alias": [
+        "Southgate"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Inglaterra",
+      "posicion": "Entrenador",
+      "equipo": "Selección inglesa",
+      "pistas": [
+        "Falló un penal en la semifinal de la Eurocopa 1996.",
+        "Llevó a Inglaterra a dos finales de Eurocopa.",
+        "Fue seleccionador de Inglaterra entre 2016 y 2024."
+      ],
+      "wikipedia_en": "Gareth Southgate",
+      "nacimiento": 1970,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "julian-nagelsmann",
+      "nombre": "Julian Nagelsmann",
+      "alias": [
+        "Nagelsmann"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Alemania",
+      "posicion": "Entrenador",
+      "equipo": "Selección alemana",
+      "pistas": [
+        "Fue el entrenador más joven de la historia de la Bundesliga.",
+        "Dirigió al RB Leipzig y al Bayern Múnich.",
+        "Es el seleccionador de Alemania."
+      ],
+      "wikipedia_en": "Julian Nagelsmann",
+      "nacimiento": 1987,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "antonio-conte",
+      "nombre": "Antonio Conte",
+      "alias": [
+        "Conte"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Italia",
+      "posicion": "Entrenador",
+      "equipo": "Napoli",
+      "pistas": [
+        "Fue mediocampista de la Juventus.",
+        "Hizo campeón de la Premier 2017 al Chelsea.",
+        "Ganó la Serie A con la Juventus, el Inter y el Napoli."
+      ],
+      "wikipedia_en": "Antonio Conte",
+      "nacimiento": 1969,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "massimiliano-allegri",
+      "nombre": "Massimiliano Allegri",
+      "alias": [
+        "Allegri",
+        "Max Allegri"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Italia",
+      "posicion": "Entrenador",
+      "equipo": "Juventus",
+      "pistas": [
+        "Ganó la Serie A 2011 con el AC Milan.",
+        "Llevó a la Juventus a dos finales de Champions.",
+        "Ganó cinco Serie A seguidas con la Juventus."
+      ],
+      "wikipedia_en": "Massimiliano Allegri",
+      "nacimiento": 1967,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "simone-inzaghi",
+      "nombre": "Simone Inzaghi",
+      "alias": [
+        "Inzaghi"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Italia",
+      "posicion": "Entrenador",
+      "equipo": "Inter",
+      "pistas": [
+        "Su hermano también fue delantero y entrenador.",
+        "Dirigió a la Lazio.",
+        "Llevó al Inter a dos finales de Champions (2023 y 2025)."
+      ],
+      "wikipedia_en": "Simone Inzaghi",
+      "nacimiento": 1976,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "ange-postecoglou",
+      "nombre": "Ange Postecoglou",
+      "alias": [
+        "Postecoglou",
+        "Ange"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Australia",
+      "posicion": "Entrenador",
+      "equipo": "Tottenham",
+      "pistas": [
+        "Ganó la Copa de Asia con Australia.",
+        "Fue campeón con el Celtic.",
+        "Ganó la Europa League 2025 con el Tottenham."
+      ],
+      "wikipedia_en": "Ange Postecoglou",
+      "nacimiento": 1965,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "unai-emery",
+      "nombre": "Unai Emery",
+      "alias": [
+        "Emery"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Entrenador",
+      "equipo": "Aston Villa",
+      "pistas": [
+        "Ganó tres Europa League seguidas con el Sevilla.",
+        "Ganó la Europa League 2021 con el Villarreal.",
+        "Llevó al Aston Villa a la Champions."
+      ],
+      "wikipedia_en": "Unai Emery",
+      "nacimiento": 1971,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "roberto-mancini",
+      "nombre": "Roberto Mancini",
+      "alias": [
+        "Mancini",
+        "Mancio"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Italia",
+      "posicion": "Entrenador",
+      "equipo": "Manchester City",
+      "pistas": [
+        "Fue seleccionador de Arabia Saudita.",
+        "Ganó la Premier 2012 con el Manchester City.",
+        "Llevó a Italia a ganar la Eurocopa 2020."
+      ],
+      "wikipedia_en": "Roberto Mancini",
+      "nacimiento": 1964,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "vicente-del-bosque",
+      "nombre": "Vicente del Bosque",
+      "alias": [
+        "Del Bosque"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "historico",
+      "pais": "España",
+      "posicion": "Entrenador",
+      "equipo": "Selección española",
+      "pistas": [
+        "Ganó dos Champions con el Real Madrid.",
+        "Recibió un título de marqués del rey de España.",
+        "Ganó el Mundial 2010 y la Eurocopa 2012 con España."
+      ],
+      "wikipedia_en": "Vicente del Bosque",
+      "nacimiento": 1950,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "johan-cruyff-dt",
+      "nombre": "Johan Cruyff (DT)",
+      "alias": [
+        "Cruyff",
+        "Johan Cruyff",
+        "Cruijff"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "historico",
+      "pais": "Países Bajos",
+      "posicion": "Entrenador",
+      "equipo": "Barcelona",
+      "pistas": [
+        "También fue una leyenda como jugador.",
+        "Ganó la primera Copa de Europa del Barcelona en 1992.",
+        "Creó el famoso Dream Team del Barcelona."
+      ],
+      "wikipedia_en": "Johan Cruyff",
+      "nacimiento": 1947,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "arrigo-sacchi",
+      "nombre": "Arrigo Sacchi",
+      "alias": [
+        "Sacchi"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "historico",
+      "pais": "Italia",
+      "posicion": "Entrenador",
+      "equipo": "AC Milan",
+      "pistas": [
+        "Nunca fue futbolista profesional.",
+        "Fue subcampeón del mundo con Italia en 1994.",
+        "Ganó dos Copas de Europa con el AC Milan."
+      ],
+      "wikipedia_en": "Arrigo Sacchi",
+      "nacimiento": 1946,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "fabio-capello",
+      "nombre": "Fabio Capello",
+      "alias": [
+        "Capello"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "historico",
+      "pais": "Italia",
+      "posicion": "Entrenador",
+      "equipo": "AC Milan",
+      "pistas": [
+        "Dirigió a Inglaterra y a Rusia.",
+        "Ganó la liga con el Real Madrid en dos etapas distintas.",
+        "Ganó la Champions 1994 con el AC Milan."
+      ],
+      "wikipedia_en": "Fabio Capello",
+      "nacimiento": 1946,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "luiz-felipe-scolari",
+      "nombre": "Luiz Felipe Scolari",
+      "alias": [
+        "Scolari",
+        "Felipão"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Entrenador",
+      "equipo": "Selección brasileña",
+      "pistas": [
+        "Ganó la Libertadores con el Grêmio y con el Palmeiras.",
+        "Llevó a Portugal a la final de la Eurocopa 2004.",
+        "Ganó el Mundial 2002 con Brasil."
+      ],
+      "wikipedia_en": "Luiz Felipe Scolari",
+      "nacimiento": 1948,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "oscar-tabarez",
+      "nombre": "Óscar Tabárez",
+      "alias": [
+        "Tabárez",
+        "Washington Tabárez",
+        "Maestro Tabárez"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "historico",
+      "pais": "Uruguay",
+      "posicion": "Entrenador",
+      "equipo": "Selección uruguaya",
+      "pistas": [
+        "Dirigió a Boca Juniors y al AC Milan.",
+        "Dirigió a Uruguay en cuatro Mundiales.",
+        "Llevó a Uruguay al cuarto lugar del Mundial 2010 y a ganar la Copa América 2011."
+      ],
+      "wikipedia_en": "Óscar Tabárez",
+      "nacimiento": 1947,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "carlos-bianchi",
+      "nombre": "Carlos Bianchi",
+      "alias": [
+        "Bianchi",
+        "Virrey"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Entrenador",
+      "equipo": "Boca Juniors",
+      "pistas": [
+        "Fue goleador en Francia con el Reims.",
+        "Ganó tres Copas Intercontinentales.",
+        "Ganó cuatro Copas Libertadores, tres de ellas con Boca Juniors."
+      ],
+      "wikipedia_en": "Carlos Bianchi",
+      "nacimiento": 1949,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "rafael-benitez",
+      "nombre": "Rafael Benítez",
+      "alias": [
+        "Benítez",
+        "Rafa Benítez",
+        "Rafa"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "España",
+      "posicion": "Entrenador",
+      "equipo": "Liverpool",
+      "pistas": [
+        "Ganó dos ligas con el Valencia.",
+        "Dirigió al Real Madrid y al Chelsea.",
+        "Ganó la Champions 2005 en Estambul con el Liverpool."
+      ],
+      "wikipedia_en": "Rafael Benítez",
+      "nacimiento": 1960,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "jupp-heynckes",
+      "nombre": "Jupp Heynckes",
+      "alias": [
+        "Heynckes"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "historico",
+      "pais": "Alemania",
+      "posicion": "Entrenador",
+      "equipo": "Bayern Múnich",
+      "pistas": [
+        "Fue el goleador histórico del Borussia Mönchengladbach.",
+        "Ganó la Champions 1998 con el Real Madrid.",
+        "Ganó el triplete con el Bayern Múnich en 2013."
+      ],
+      "wikipedia_en": "Jupp Heynckes",
+      "nacimiento": 1945,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "joachim-low",
+      "nombre": "Joachim Löw",
+      "alias": [
+        "Löw",
+        "Low",
+        "Jogi Löw"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "historico",
+      "pais": "Alemania",
+      "posicion": "Entrenador",
+      "equipo": "Selección alemana",
+      "pistas": [
+        "Fue asistente de Jürgen Klinsmann.",
+        "Dirigió a Alemania durante 15 años.",
+        "Ganó el Mundial 2014 con Alemania."
+      ],
+      "wikipedia_en": "Joachim Löw",
+      "nacimiento": 1960,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "louis-van-gaal",
+      "nombre": "Louis van Gaal",
+      "alias": [
+        "Van Gaal"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "historico",
+      "pais": "Países Bajos",
+      "posicion": "Entrenador",
+      "equipo": "Ajax",
+      "pistas": [
+        "Dirigió al Barcelona, el Bayern Múnich y el Manchester United.",
+        "Llevó a Países Bajos al tercer lugar del Mundial 2014.",
+        "Ganó la Champions 1995 con el Ajax."
+      ],
+      "wikipedia_en": "Louis van Gaal",
+      "nacimiento": 1951,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "mauricio-pochettino",
+      "nombre": "Mauricio Pochettino",
+      "alias": [
+        "Pochettino",
+        "Poche"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Argentina",
+      "posicion": "Entrenador",
+      "equipo": "Tottenham",
+      "pistas": [
+        "Fue defensa del Espanyol y del PSG.",
+        "Es el seleccionador de Estados Unidos.",
+        "Llevó al Tottenham a la final de la Champions 2019."
+      ],
+      "wikipedia_en": "Mauricio Pochettino",
+      "nacimiento": 1972,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "erik-ten-hag",
+      "nombre": "Erik ten Hag",
+      "alias": [
+        "Ten Hag"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Países Bajos",
+      "posicion": "Entrenador",
+      "equipo": "Ajax",
+      "pistas": [
+        "Dirigió al segundo equipo del Bayern Múnich.",
+        "Ganó la FA Cup 2024 con el Manchester United.",
+        "Dirigió al Ajax semifinalista de la Champions 2019."
+      ],
+      "wikipedia_en": "Erik ten Hag",
+      "nacimiento": 1970,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "ruben-amorim",
+      "nombre": "Rúben Amorim",
+      "alias": [
+        "Amorim",
+        "Ruben Amorim"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Portugal",
+      "posicion": "Entrenador",
+      "equipo": "Manchester United",
+      "pistas": [
+        "Dirigió al Braga.",
+        "Hizo campeón de Portugal al Sporting de Lisboa.",
+        "Llegó al Manchester United en 2024."
+      ],
+      "wikipedia_en": "Rúben Amorim",
+      "nacimiento": 1985,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "vincent-kompany-dt",
+      "nombre": "Vincent Kompany (DT)",
+      "alias": [
+        "Kompany",
+        "Vincent Kompany"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Bélgica",
+      "posicion": "Entrenador",
+      "equipo": "Bayern Múnich",
+      "pistas": [
+        "Dirigió al Anderlecht.",
+        "Ascendió a la Premier League con el Burnley.",
+        "Dirige al Bayern Múnich desde 2024."
+      ],
+      "wikipedia_en": "Vincent Kompany",
+      "nacimiento": 1986,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "manuel-pellegrini",
+      "nombre": "Manuel Pellegrini",
+      "alias": [
+        "Pellegrini",
+        "Ingeniero"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Chile",
+      "posicion": "Entrenador",
+      "equipo": "Real Betis",
+      "pistas": [
+        "Llevó al Villarreal a las semifinales de la Champions.",
+        "Ganó la Copa del Rey 2022 con el Real Betis.",
+        "Ganó la Premier 2014 con el Manchester City."
+      ],
+      "wikipedia_en": "Manuel Pellegrini",
+      "nacimiento": 1953,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "jorge-jesus",
+      "nombre": "Jorge Jesus",
+      "alias": [
+        "Jesus"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Portugal",
+      "posicion": "Entrenador",
+      "equipo": "Benfica",
+      "pistas": [
+        "Dirigió al Al-Hilal de Arabia Saudita.",
+        "Ganó varias ligas portuguesas con el Benfica.",
+        "Ganó la Libertadores 2019 con el Flamengo."
+      ],
+      "wikipedia_en": "Jorge Jesus",
+      "nacimiento": 1954,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "abel-ferreira",
+      "nombre": "Abel Ferreira",
+      "alias": [
+        "Ferreira"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Portugal",
+      "posicion": "Entrenador",
+      "equipo": "Palmeiras",
+      "pistas": [
+        "Es portugués y jugó como lateral.",
+        "Ganó el Brasileirão con el Palmeiras.",
+        "Ganó la Libertadores 2020 y 2021 con el Palmeiras."
+      ],
+      "wikipedia_en": "Abel Ferreira",
+      "nacimiento": 1978,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "fernando-diniz",
+      "nombre": "Fernando Diniz",
+      "alias": [
+        "Diniz"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Brasil",
+      "posicion": "Entrenador",
+      "equipo": "Fluminense",
+      "pistas": [
+        "Fue entrenador interino de la selección brasileña.",
+        "Es conocido por un estilo de posesión muy arriesgado.",
+        "Ganó la Libertadores 2023 con el Fluminense."
+      ],
+      "wikipedia_en": "Fernando Diniz",
+      "nacimiento": 1974,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "gerardo-martino",
+      "nombre": "Gerardo Martino",
+      "alias": [
+        "Tata Martino",
+        "Martino",
+        "Tata"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Argentina",
+      "posicion": "Entrenador",
+      "equipo": "Barcelona",
+      "pistas": [
+        "Llevó a Paraguay a los cuartos de final del Mundial 2010.",
+        "Dirigió a Argentina y a México.",
+        "Dirigió al Barcelona en la temporada 2013-14."
+      ],
+      "wikipedia_en": "Gerardo Martino",
+      "nacimiento": 1962,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "luciano-spalletti",
+      "nombre": "Luciano Spalletti",
+      "alias": [
+        "Spalletti"
+      ],
+      "categorias": [
+        "entrenadores"
+      ],
+      "era": "actual",
+      "pais": "Italia",
+      "posicion": "Entrenador",
+      "equipo": "Napoli",
+      "pistas": [
+        "Dirigió a la Roma y al Zenit de Rusia.",
+        "Fue seleccionador de Italia.",
+        "Hizo campeón de la Serie A 2023 al Napoli."
+      ],
+      "wikipedia_en": "Luciano Spalletti",
+      "nacimiento": 1959,
+      "foto_epoca": false,
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    }
+  ]
+}

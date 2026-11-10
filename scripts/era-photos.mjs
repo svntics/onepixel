@@ -174,7 +174,7 @@ try {
 } catch {}
 const FORCE = process.argv.includes("--force");
 // Retoma donde quedó: salta a los ya revisados (salvo --force o --solo)
-const todo = [...players.values()].filter((p) => (ONLY ? p.id === ONLY : p.era === "historico" && (FORCE || !rows[p.id] || rows[p.id].obs?.some((o) => o.startsWith("Error")))));
+const todo = [...players.values()].filter((p) => (ONLY ? p.id === ONLY : p.era === "historico" && p.foto_epoca !== false && (FORCE || !rows[p.id] || rows[p.id].obs?.some((o) => o.startsWith("Error")))));
 console.log(`Jugadores a revisar: ${todo.length}\n`);
 let n = 0;
 for (const p of todo) {

@@ -36,3 +36,21 @@ test("sugerencias: prefijo de palabra, alias y exclusión de intentos previos", 
   assert.deepEqual(suggest(idx, "kante").map((s) => s.nombre), ["N'Golo Kanté"]);
   assert.deepEqual(suggest(idx, ""), []);
 });
+
+test("entrenadores: autocompletado sin tildes ni mayúsculas", async () => {
+  const { readFileSync } = await import("node:fs");
+  const dt = JSON.parse(readFileSync(new URL("../data/entrenadores.json", import.meta.url), "utf8")).jugadores;
+  const ix = buildIndex(dt);
+  const name = (i) => dt[i].nombre;
+  assert.equal(dt.length, 50);
+  assert.equal(new Set(dt.map((p) => p.id)).size, 50);
+  assert.deepEqual(matchExact(ix, "JOSE MOURINHO").map(name), ["José Mourinho"]);
+  assert.deepEqual(matchExact(ix, "mou").map(name), ["José Mourinho"]);
+  assert.deepEqual(matchExact(ix, "jurgen klopp").map(name), ["Jürgen Klopp"]);
+  assert.deepEqual(matchExact(ix, "Joachim Low").map(name), ["Joachim Löw"]);
+  assert.deepEqual(matchExact(ix, "felipao").map(name), ["Luiz Felipe Scolari"]);
+  assert.deepEqual(matchExact(ix, "zidane").map(name), ["Zinedine Zidane (DT)"]);
+  assert.equal(suggest(ix, "de la fu")[0].nombre, "Luis de la Fuente");
+  assert.equal(suggest(ix, "tabar")[0].nombre, "Óscar Tabárez");
+  assert.equal(suggest(ix, "ARSENE")[0].nombre, "Arsène Wenger");
+});

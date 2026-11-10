@@ -535,7 +535,7 @@ function route(e) {
   document.documentElement.dataset.view = view;
   for (const [k, el] of Object.entries(views)) el.hidden = k !== view;
   clearInterval(countdownTimer);
-  if (cat) setSubject(sportOf(cat).sujeto);
+  if (cat) setSubject(cat.sujeto ?? sportOf(cat).sujeto);
   if (view === "game") showGame(cat, mode);
   else if (view === "mode") showMode(cat);
   else if (view === "sport") showSport(sport);

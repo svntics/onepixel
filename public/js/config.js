@@ -86,5 +86,6 @@ export const CONFIG = {
     { id: "italiana", deporte: "futbol", nombre: "Liga italiana", emoji: "🇮🇹", descripcion: "Figuras del fútbol de Italia", activa: "2026-11-12" },
     { id: "espanola", deporte: "futbol", nombre: "Liga española", emoji: "🇪🇸", descripcion: "Figuras del fútbol de España", activa: false },
     { id: "nba", deporte: "basquetbol", nombre: "NBA", emoji: "🏀", descripcion: "Leyendas y estrellas de la liga de básquetbol de EE. UU.", activa: false },
+    { id: "entrenadores", deporte: "futbol", nombre: "Entrenadores", emoji: "📋", descripcion: "Técnicos de Mundiales y actuales", sujeto: "entrenador", activa: false },
   ],
 };
