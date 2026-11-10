@@ -149,6 +149,20 @@ Todo se ajusta en **`public/js/config.js`**. Puedes editarlo directamente en Git
 3. Si tienes visitas de Europa, Reino Unido o Suiza, usa una plataforma de consentimiento **certificada por Google** (ver página de privacidad).
 4. Actualiza `public/privacidad.html` si cambia algo.
 
+## Ranking diario (Supabase)
+
+Al terminar el reto diario, cada jugador puede guardar su puntaje con un apodo y ver el **top del día** de esa categoría.
+
+- **Sin configurar** (`RANKING.PROVIDER: "local"` en `config.js`): funciona en modo de prueba, y cada navegador solo ve sus propios puntajes.
+- **Compartido entre todos:** necesitas un proyecto gratuito de Supabase (sin tarjeta). Los pasos:
+  1. Crea una cuenta en https://supabase.com y luego un proyecto nuevo (región: São Paulo, la más cercana a Chile).
+  2. En el proyecto, abre **SQL Editor → New query**, pega el contenido de `docs/supabase.sql` y pulsa **Run**.
+  3. En **Project Settings → API Keys** copia la **Project URL** y la clave **publishable** (empieza con `sb_publishable_`). **Nunca** copies la clave *secret*.
+  4. En `public/js/config.js` completa `RANKING`: `PROVIDER: "supabase"`, `SUPABASE_URL` y `SUPABASE_KEY`. Haz commit y push.
+- **Plan gratuito:** según la página de precios de Supabase (noviembre de 2026), el proyecto **se pausa tras 1 semana sin actividad** y tiene 500 MB de base de datos. Con visitas diarias no debería pausarse; si se pausa, se reactiva desde el panel.
+- **Moderación:** los apodos son públicos. Hay un filtro básico de palabras ofensivas, pero conviene revisar la tabla de vez en cuando (**Table Editor → puntajes_diarios**) y borrar lo que no corresponda.
+- **Limitación:** sin cuentas de usuario, alguien con conocimientos técnicos podría enviar un puntaje falso. Para un juego casual suele bastar; si se vuelve un problema, se puede agregar una verificación en el servidor.
+
 ## 8. Agregar o corregir jugadores
 
 Los datos están en `data/` (un archivo por categoría). Cada jugador:

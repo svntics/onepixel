@@ -43,6 +43,17 @@ export const CONFIG = {
   SUPPORT_URL: "https://link.mercadopago.cl/apoyoonepixel",
   SUPPORT_LABEL: "☕ Apoya el proyecto",
 
+  // ---------- Ranking de mejores puntajes del día ----------
+  //   PROVIDER "local"    → modo de prueba: solo se ven los puntajes guardados en este navegador
+  //   PROVIDER "supabase" → ranking compartido entre todos (ver README, sección "Ranking")
+  // La clave "publishable" de Supabase es pública por diseño: la seguridad la dan las reglas RLS.
+  RANKING: {
+    PROVIDER: "local",
+    SUPABASE_URL: "", // ej. "https://abcdefgh.supabase.co"
+    SUPABASE_KEY: "", // clave "publishable" (sb_publishable_...) o la "anon" antigua
+    TOP: 10,
+  },
+
   // Correo de contacto para privacidad y solicitudes de retiro de imágenes. Vacío = "pendiente".
   CONTACT_EMAIL: "santijavier64@gmail.com",
 

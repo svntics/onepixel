@@ -11,6 +11,7 @@ import { load, save, getStats, recordDailyDay, currentStreak } from "./storage.j
 import { shareText, dailyShareText, shareResult } from "./share.js";
 import { pointsForBlur } from "./scoring.js";
 import { initAds, initConsent, initSupport } from "./ads.js";
+import { validateApodo, getApodo, setApodo, submitScore, getTop, RANKING_COMPARTIDO } from "./ranking.js";
 
 const $ = (sel) => document.querySelector(sel);
 const views = { home: $("#view-home"), mode: $("#view-mode"), game: $("#view-game") };
@@ -260,60 +261,161 @@ async function playDaily(cat, data) {
 }
 
 // ---------- Resultados del día ----------
+// Flujo: ver mis puntos → escribir mi apodo → enviar puntaje → ver el ranking del día.
 function showSummary(cat, count) {
   const { n, date } = today();
   const d = loadDaily(cat.id, n);
   const fotos = d.fotos.slice(0, count);
   const total = totalPuntos(d);
   const aciertos = fotos.filter((f) => f.won).length;
+  const intentos = fotos.reduce((a, f) => a + (f.marks?.length ?? 0), 0);
   setGameMode(true);
   const box = $("#daily-summary");
   box.replaceChildren();
 
+  // 1) Mis puntos
   const card = document.createElement("div");
   card.className = "rounded-2xl border border-border bg-surface p-4";
-  const h = document.createElement("h2");
-  h.className = "text-xl font-extrabold";
-  h.textContent = `Resultados del reto #${n}`;
-  const sub = document.createElement("p");
-  sub.className = "text-sm text-muted";
-  sub.textContent = `${cat.nombre} · ${fechaCorta(date)}`;
-
-  const big = document.createElement("p");
-  big.className = "mt-4 text-center";
-  big.innerHTML = `<span class="block text-5xl font-extrabold"></span><span class="text-sm text-muted"></span>`;
-  big.children[0].textContent = total;
-  big.children[1].textContent = `de ${MAX_PUNTOS * count} puntos posibles · ${aciertos} de ${count} aciertos`;
-
-  // Desglose por foto
-  const list = document.createElement("ol");
-  list.className = "mt-4 grid gap-2";
-  const EMO = { miss: "🟥", hint: "🟨", win: "🟩" };
+  card.innerHTML = `
+    <h2 class="text-xl font-extrabold"></h2>
+    <p class="text-sm text-muted"></p>
+    <p class="mt-4 text-center"><span class="block text-5xl font-extrabold"></span><span class="text-sm text-muted">puntos</span></p>
+    <dl class="mt-3 grid grid-cols-2 gap-2 text-center">
+      <div class="flex flex-col-reverse rounded-xl bg-surface-2 p-2"><dt class="text-xs text-muted">Aciertos</dt><dd class="text-xl font-extrabold"></dd></div>
+      <div class="flex flex-col-reverse rounded-xl bg-surface-2 p-2"><dt class="text-xs text-muted">Intentos usados</dt><dd class="text-xl font-extrabold"></dd></div>
+    </dl>
+    <ol class="mt-3 grid gap-1 text-sm"></ol>`;
+  card.querySelector("h2").textContent = `Reto #${n} · ${cat.nombre}`;
+  card.querySelector("p").textContent = fechaCorta(date);
+  card.querySelector("p span").textContent = total;
+  const dds = card.querySelectorAll("dd");
+  dds[0].textContent = `${aciertos}/${count}`;
+  dds[1].textContent = `${intentos}/${count * MAX}`;
+  const list = card.querySelector("ol");
   fotos.forEach((f, k) => {
     const li = document.createElement("li");
-    li.className = "flex items-center gap-3 rounded-xl border border-border bg-surface-2 p-3";
-    li.innerHTML = `<span class="text-lg font-extrabold text-muted"></span><span class="flex flex-1 flex-col"><span class="font-bold"></span><span class="text-sm text-muted"></span></span><span class="text-right font-extrabold"></span>`;
-    const [num, mid, pts] = li.children;
-    num.textContent = k + 1;
-    mid.children[0].textContent = f.name ?? "—";
-    mid.children[1].textContent = `${Array.from({ length: MAX }, (_, j) => EMO[f.marks?.[j]] ?? "⬛").join("")} ${f.won ? `acierto en el intento ${f.stage + 1}` : "no acertada"}`;
-    pts.textContent = `${f.points} pts`;
+    li.className = "flex justify-between gap-2 border-t border-border pt-1";
+    li.innerHTML = `<span></span><span class="font-semibold"></span>`;
+    li.children[0].textContent = `${k + 1}. ${f.won ? "✓" : "✗"} ${f.name ?? "—"}`;
+    li.children[1].textContent = `${f.points} pts`;
     list.append(li);
   });
-
   const text = dailyShareText({ siteName: CONFIG.SITE_NAME, siteUrl: CONFIG.SITE_URL, categoria: cat.nombre, numero: n, fotos, max: MAX, maxPoints: MAX_PUNTOS });
+  const shareStatus = document.createElement("p");
+  shareStatus.className = "mt-2 min-h-5 text-sm text-muted";
+  shareStatus.setAttribute("role", "status");
+  card.append(
+    button("Compartir resultado", "mt-3 bg-accent text-accent-ink", async () => {
+      const r = await shareResult(text);
+      shareStatus.textContent = r === "copied" ? "¡Copiado! Pégalo en WhatsApp, X o Instagram." : r === "failed" ? "No se pudo copiar." : "";
+    }),
+    shareStatus,
+  );
+
+  // 2) y 3) Apodo + enviar
+  const rank = document.createElement("section");
+  rank.className = "mt-4 rounded-2xl border border-border bg-surface p-4";
+  rank.setAttribute("aria-labelledby", "rank-title");
+  rank.innerHTML = `<h2 id="rank-title" class="text-lg font-extrabold">Mejores puntajes de hoy</h2>`;
+  if (!RANKING_COMPARTIDO) {
+    const note = document.createElement("p");
+    note.className = "mt-1 text-xs text-muted";
+    note.textContent = "Modo de prueba: por ahora el ranking solo muestra los puntajes guardados en este navegador.";
+    rank.append(note);
+  }
+  const form = document.createElement("form");
+  form.className = "mt-3 grid gap-2";
+  form.noValidate = true;
+  form.innerHTML = `
+    <label for="apodo-input" class="text-sm font-semibold">Tu apodo</label>
+    <input id="apodo-input" type="text" maxlength="16" autocomplete="nickname" placeholder="Ej. Max10, Pelusa…"
+      class="min-h-12 rounded-xl border border-border bg-surface-2 px-4 text-base placeholder:text-muted" aria-describedby="apodo-msg">
+    <button type="submit" class="min-h-12 rounded-xl bg-accent px-4 font-bold text-accent-ink disabled:opacity-60">Guardar mi puntaje en el ranking</button>
+    <p id="apodo-msg" class="min-h-5 text-sm" role="status" aria-live="polite"></p>`;
+  const input = form.querySelector("input");
+  const msg = form.querySelector("#apodo-msg");
+  input.value = getApodo();
+  const sent = document.createElement("p");
+  sent.className = "mt-3 text-sm font-semibold text-accent";
+
+  // 4) Tabla del día
+  const table = document.createElement("div");
+  table.className = "mt-3";
+
+  async function renderTable() {
+    table.innerHTML = `<p class="text-sm text-muted">Cargando ranking…</p>`;
+    const { ok, rows } = await getTop({ fecha: date, categoria: cat.id });
+    if (!ok) return (table.innerHTML = `<p class="text-sm text-muted">No se pudo cargar el ranking. Inténtalo más tarde.</p>`);
+    if (!rows.length) return (table.innerHTML = `<p class="text-sm text-muted">Todavía no hay puntajes hoy. ¡Sé el primero!</p>`);
+    const mine = loadDaily(cat.id, n).enviado;
+    const t = document.createElement("table");
+    t.className = "w-full text-sm";
+    t.innerHTML = `<caption class="sr-only">Top ${rows.length} de hoy en ${cat.nombre}</caption>
+      <thead><tr class="text-left text-xs text-muted"><th scope="col" class="py-1 pr-2 w-10">#</th><th scope="col" class="py-1">Apodo</th><th scope="col" class="py-1 text-right">Puntos</th></tr></thead><tbody></tbody>`;
+    let marked = false;
+    rows.forEach((r, k) => {
+      const tr = document.createElement("tr");
+      const isMe = !marked && mine && r.apodo === mine.apodo && r.puntaje === mine.puntaje;
+      if (isMe) marked = true;
+      tr.className = `border-t border-border ${isMe ? "bg-surface-2 font-bold" : ""}`;
+      tr.innerHTML = `<td class="py-2 pr-2"></td><td class="py-2"></td><td class="py-2 text-right font-semibold"></td>`;
+      tr.children[0].textContent = `${k + 1}°`;
+      tr.children[1].textContent = isMe ? `${r.apodo} (tú)` : r.apodo; // textContent: el apodo nunca se interpreta como HTML
+      tr.children[2].textContent = r.puntaje;
+      t.tBodies[0].append(tr);
+    });
+    table.replaceChildren(t);
+  }
+
+  function showSent(e) {
+    form.hidden = true;
+    sent.textContent = `✓ Tu puntaje (${e.puntaje} pts) está en el ranking como «${e.apodo}».`;
+  }
+  if (d.enviado) showSent(d.enviado);
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const v = validateApodo(input.value);
+    if (!v.ok) {
+      msg.textContent = v.error;
+      msg.className = "min-h-5 text-sm text-danger";
+      input.focus();
+      return;
+    }
+    const btn = form.querySelector("button");
+    btn.disabled = true;
+    msg.className = "min-h-5 text-sm text-muted";
+    msg.textContent = "Guardando…";
+    const entry = { fecha: date, categoria: cat.id, apodo: v.value, puntaje: total, aciertos, intentos };
+    const r = await submitScore(entry);
+    btn.disabled = false;
+    if (!r.ok) {
+      msg.className = "min-h-5 text-sm text-danger";
+      msg.textContent = r.error;
+      return;
+    }
+    setApodo(v.value);
+    const cur = loadDaily(cat.id, n);
+    cur.enviado = { apodo: v.value, puntaje: total };
+    saveDaily(cat.id, cur);
+    showSent(cur.enviado);
+    await renderTable();
+    table.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  });
+
+  rank.append(form, sent, table);
+  renderTable();
+
   const next = document.createElement("p");
   next.className = "mt-3 text-center text-sm text-muted";
   countdown(next, () => route());
-
   const actions = document.createElement("div");
   actions.className = "mt-3 grid gap-2";
   actions.append(
     linkButton("Jugar en modo práctica", `#/${cat.id}/practica`, "border border-border bg-surface"),
     linkButton("Otras categorías", "#/", "border border-border bg-surface"),
   );
-  card.append(h, sub, big, list, shareBlock(text), next);
-  box.append(card, actions);
+  box.append(card, rank, next, actions);
   box.focus({ preventScroll: true });
   window.scrollTo({ top: 0 });
 }
