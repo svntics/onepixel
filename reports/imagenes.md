@@ -1,6 +1,6 @@
 # Reporte de imágenes
 
-Generado: 2026-11-10T13:53:06.901Z · 173 con imagen libre · 3 excluidos
+Generado: 2026-11-10T13:58:12.105Z · 176 con imagen libre · 3 excluidos
 
 Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se resuelva su caso.
 
@@ -12,6 +12,9 @@ Los jugadores con **¿Imagen libre? = No** quedan fuera del juego hasta que se r
 | Adel Taarabt | premier | Sí | CC BY-SA 3.0 | Anton Zaitsev | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Alan Shearer | premier | Sí | CC BY-SA 2.0 | Originally carltonreid ; retouched by DFS454 | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Alberto Spencer | libertadores | Sí | Public domain | Eduardo Forte | Dominio público: verificar que lo sea también en Chile |
+| Alessandro Bastoni | italiana | Sí | CC BY 4.0 | MichaelEmilio | — |
+| Alessandro Del Piero | italiana | Sí | CC BY-SA 2.0 | Retouched by Blackcat | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
+| Alessandro Nesta | italiana | Sí | CC BY-SA 4.0 | Joerudi | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Alexandre Pato | libertadores | Sí | CC BY-SA 2.0 | @cfcunofficial (Chelsea Debs) London | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia |
 | Alexis Sánchez | premier, mundiales | Sí | CC BY 2.0 | joshjdss | — |
 | Alisson Becker | premier | Sí | CC BY-SA 4.0 | Bryan Berlin / WikiPortraits | CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia; Commons advierte derechos de imagen de la persona (personality rights) |

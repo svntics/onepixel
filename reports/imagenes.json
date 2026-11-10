@@ -2646,5 +2646,48 @@
     ],
     "wikidata_id": "Q39667548",
     "descripcion": "Brazilian association football player"
+  },
+  "alessandro-bastoni": {
+    "id": "alessandro-bastoni",
+    "jugador": "Alessandro Bastoni",
+    "categorias": [
+      "italiana"
+    ],
+    "libre": true,
+    "licencia": "CC BY 4.0",
+    "autor": "MichaelEmilio",
+    "obs": [],
+    "wikidata_id": "Q28561068",
+    "descripcion": "Italian association football player"
+  },
+  "alessandro-del-piero": {
+    "id": "alessandro-del-piero",
+    "jugador": "Alessandro Del Piero",
+    "categorias": [
+      "italiana"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 2.0",
+    "autor": "Retouched by Blackcat",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q624",
+    "descripcion": "Italian association football player"
+  },
+  "alessandro-nesta": {
+    "id": "alessandro-nesta",
+    "jugador": "Alessandro Nesta",
+    "categorias": [
+      "italiana"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Joerudi",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q227892",
+    "descripcion": "Italian association football player and manager (born 1976)"
   }
 }

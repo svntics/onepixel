@@ -452,8 +452,14 @@
       ],
       "wikipedia_en": "Alessandro Bastoni",
       "nacimiento": 1999,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q28561068",
+      "imagen": {
+        "archivo_local": "img/p/73bb263c26aed550.webp",
+        "autor": "MichaelEmilio",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Norway_Italy_-_June_2025_A_36_(cropped).jpg"
+      },
       "aprobado": false
     },
     {
@@ -477,8 +483,14 @@
       ],
       "wikipedia_en": "Alessandro Del Piero",
       "nacimiento": 1974,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q624",
+      "imagen": {
+        "archivo_local": "img/p/97c62380b702b6c6.webp",
+        "autor": "Retouched by Blackcat",
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Alessandro_Del_Piero,_New_York_NY_2015.jpg"
+      },
       "aprobado": false
     },
     {
@@ -500,8 +512,14 @@
       ],
       "wikipedia_en": "Alessandro Nesta",
       "nacimiento": 1976,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q227892",
+      "imagen": {
+        "archivo_local": "img/p/127ceded6cc93c24.webp",
+        "autor": "Joerudi",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Alessandro_Nesta_as_Miami_FC_Manager.jpg"
+      },
       "aprobado": false
     },
     {
