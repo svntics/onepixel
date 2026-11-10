@@ -1193,6 +1193,569 @@
         "url_licencia": "https://creativecommons.org/licenses/by/2.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Campeonato_Carioca_-_Flamengo_-_Guerrero_(cropped).jpg"
       }
+    },
+    {
+      "id": "andre-ayew",
+      "nombre": "André Ayew",
+      "alias": [
+        "Ayew",
+        "Andre Ayew",
+        "Dede Ayew"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Ghana",
+      "posicion": "Extremo",
+      "pistas": [
+        "Jugó en el Olympique de Marsella y el Swansea.",
+        "Su padre fue tres veces elegido mejor futbolista africano.",
+        "Jugó con Ghana los Mundiales de 2010, 2014 y 2022."
+      ],
+      "wikipedia_en": "André Ayew",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "azzedine-ounahi",
+      "nombre": "Azzedine Ounahi",
+      "alias": [
+        "Ounahi"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Marruecos",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Jugó en el Angers de Francia.",
+        "Pasó por el Olympique de Marsella.",
+        "Fue una de las revelaciones del Marruecos semifinalista del Mundial 2022."
+      ],
+      "wikipedia_en": "Azzedine Ounahi",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "benjamin-pavard",
+      "nombre": "Benjamin Pavard",
+      "alias": [
+        "Pavard"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Francia",
+      "posicion": "Defensa",
+      "pistas": [
+        "Se formó en el Lille.",
+        "Jugó en el Bayern Múnich y el Inter.",
+        "Marcó un golazo de volea ante Argentina en el Mundial 2018."
+      ],
+      "wikipedia_en": "Benjamin Pavard",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "carlos-alberto-torres",
+      "nombre": "Carlos Alberto Torres",
+      "alias": [
+        "Carlos Alberto",
+        "Capita"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó en el Santos y en el New York Cosmos.",
+        "Era lateral derecho y capitán de su selección.",
+        "Marcó el cuarto gol de Brasil en la final del Mundial 1970."
+      ],
+      "wikipedia_en": "Carlos Alberto Torres",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "davor-suker",
+      "nombre": "Davor Šuker",
+      "alias": [
+        "Suker"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Croacia",
+      "posicion": "Delantero",
+      "pistas": [
+        "Jugó en el Sevilla y el Real Madrid.",
+        "Después fue presidente de la federación de fútbol de su país.",
+        "Fue el goleador del Mundial 1998 con 6 goles."
+      ],
+      "wikipedia_en": "Davor Šuker",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "deco",
+      "nombre": "Deco",
+      "alias": [
+        "Anderson Luís de Souza"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Portugal",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Nació en Brasil pero jugó para Portugal.",
+        "Ganó la Champions con el Porto y con el Barcelona.",
+        "Jugó con Portugal los Mundiales de 2006 y 2010."
+      ],
+      "wikipedia_en": "Deco",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "dino-zoff",
+      "nombre": "Dino Zoff",
+      "alias": [
+        "Zoff"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Italia",
+      "posicion": "Arquero",
+      "pistas": [
+        "Después fue entrenador de Italia y de la Juventus.",
+        "Jugó más de diez temporadas en la Juventus.",
+        "Fue campeón del mundo en 1982 como capitán, con 40 años."
+      ],
+      "wikipedia_en": "Dino Zoff",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "domagoj-vida",
+      "nombre": "Domagoj Vida",
+      "alias": [
+        "Vida"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Croacia",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó en el Dinamo de Kiev y el Beşiktaş.",
+        "Fue parte de la Croacia finalista del Mundial 2018.",
+        "Marcó de cabeza ante Rusia en los cuartos de final del Mundial 2018."
+      ],
+      "wikipedia_en": "Domagoj Vida",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "dominik-livakovic",
+      "nombre": "Dominik Livaković",
+      "alias": [
+        "Livakovic"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Croacia",
+      "posicion": "Arquero",
+      "pistas": [
+        "Jugó en el Dinamo Zagreb.",
+        "Después jugó en el Fenerbahçe.",
+        "Atajó tres penales a Japón en el Mundial 2022."
+      ],
+      "wikipedia_en": "Dominik Livaković",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "emiliano-martinez",
+      "nombre": "Emiliano Martínez",
+      "alias": [
+        "Dibu",
+        "Dibu Martínez",
+        "Emiliano Martinez"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Argentina",
+      "posicion": "Arquero",
+      "pistas": [
+        "Pasó muchos años a préstamo en clubes ingleses de menor nivel.",
+        "Es el arquero del Aston Villa.",
+        "Atajó un mano a mano en el último minuto de la final del Mundial 2022."
+      ],
+      "wikipedia_en": "Emiliano Martínez",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "ferenc-puskas",
+      "nombre": "Ferenc Puskás",
+      "alias": [
+        "Puskas",
+        "Pancho"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Hungría",
+      "posicion": "Delantero",
+      "pistas": [
+        "También jugó para la selección española.",
+        "El premio de la FIFA al mejor gol del año lleva su nombre.",
+        "Fue figura del Real Madrid y subcampeón del mundo con Hungría en 1954."
+      ],
+      "wikipedia_en": "Ferenc Puskás",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "garrincha",
+      "nombre": "Garrincha",
+      "alias": [
+        "Mané Garrincha",
+        "Manuel Francisco dos Santos"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Extremo",
+      "pistas": [
+        "Tenía las piernas arqueadas de forma muy notoria.",
+        "Fue ídolo del Botafogo.",
+        "Fue la gran figura de Brasil campeón del mundo en 1962."
+      ],
+      "wikipedia_en": "Garrincha",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "ivan-rakitic",
+      "nombre": "Ivan Rakitić",
+      "alias": [
+        "Rakitic",
+        "Rakitik"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Croacia",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Nació en Suiza.",
+        "Jugó en el Sevilla y el Barcelona.",
+        "Fue titular en la Croacia finalista del Mundial 2018."
+      ],
+      "wikipedia_en": "Ivan Rakitić",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "jairzinho",
+      "nombre": "Jairzinho",
+      "alias": [
+        "Jair Ventura Filho"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Brasil",
+      "posicion": "Extremo",
+      "pistas": [
+        "Fue ídolo del Botafogo.",
+        "Lo apodaban «el Huracán».",
+        "Marcó en todos los partidos del Mundial 1970."
+      ],
+      "wikipedia_en": "Jairzinho",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "julian-alvarez",
+      "nombre": "Julián Álvarez",
+      "alias": [
+        "La Araña",
+        "Julian Alvarez"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Argentina",
+      "posicion": "Delantero",
+      "pistas": [
+        "Se formó en River Plate.",
+        "Jugó en el Manchester City y el Atlético de Madrid.",
+        "Marcó cuatro goles en el Mundial 2022 que ganó Argentina."
+      ],
+      "wikipedia_en": "Julián Álvarez",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "keylor-navas",
+      "nombre": "Keylor Navas",
+      "alias": [
+        "Keylor"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Costa Rica",
+      "posicion": "Arquero",
+      "pistas": [
+        "Jugó en el Levante de España.",
+        "Ganó tres Champions con el Real Madrid.",
+        "Fue figura de la Costa Rica que llegó a cuartos de final del Mundial 2014."
+      ],
+      "wikipedia_en": "Keylor Navas",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "luis-figo",
+      "nombre": "Luís Figo",
+      "alias": [
+        "Figo",
+        "Luis Figo"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Portugal",
+      "posicion": "Extremo",
+      "pistas": [
+        "Jugó en el Sporting de Lisboa y el Inter.",
+        "Ganó el Balón de Oro en 2000.",
+        "Su paso del Barcelona al Real Madrid causó una gran polémica."
+      ],
+      "wikipedia_en": "Luís Figo",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "mario-gotze",
+      "nombre": "Mario Götze",
+      "alias": [
+        "Gotze",
+        "Goetze",
+        "Mario Gotze"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Alemania",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Jugó en el Bayern Múnich y el PSV.",
+        "Se formó en el Borussia Dortmund.",
+        "Marcó el gol del título en la final del Mundial 2014."
+      ],
+      "wikipedia_en": "Mario Götze",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "oscar-ruggeri",
+      "nombre": "Oscar Ruggeri",
+      "alias": [
+        "Cabezón",
+        "Ruggeri"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Argentina",
+      "posicion": "Defensa",
+      "pistas": [
+        "Jugó en Boca, River y el Real Madrid.",
+        "Hoy es comentarista de televisión en Argentina.",
+        "Fue campeón del mundo en 1986."
+      ],
+      "wikipedia_en": "Oscar Ruggeri",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "radamel-falcao",
+      "nombre": "Radamel Falcao",
+      "alias": [
+        "Falcao",
+        "El Tigre"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Colombia",
+      "posicion": "Delantero",
+      "pistas": [
+        "Se formó en River Plate.",
+        "Ganó la Europa League con el Porto y con el Atlético de Madrid.",
+        "Es el máximo goleador histórico de la selección colombiana."
+      ],
+      "wikipedia_en": "Radamel Falcao",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "sidny-lopes-cabral",
+      "nombre": "Sidny Lopes Cabral",
+      "alias": [
+        "Sidny Cabral"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Cabo Verde",
+      "posicion": "Defensa",
+      "pistas": [
+        "Es internacional con Cabo Verde.",
+        "Formó parte de la selección que clasificó por primera vez a un Mundial."
+      ],
+      "wikipedia_en": "Sidny Lopes Cabral",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "sofyan-amrabat",
+      "nombre": "Sofyan Amrabat",
+      "alias": [
+        "Amrabat"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Marruecos",
+      "posicion": "Mediocampista",
+      "pistas": [
+        "Nació en los Países Bajos.",
+        "Jugó en la Fiorentina y el Manchester United.",
+        "Fue figura de Marruecos semifinalista del Mundial 2022."
+      ],
+      "wikipedia_en": "Sofyan Amrabat",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "vozinha",
+      "nombre": "Vozinha",
+      "alias": [
+        "Josimar Dias"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Cabo Verde",
+      "posicion": "Arquero",
+      "pistas": [
+        "Es el arquero de Cabo Verde.",
+        "Formó parte de la selección que clasificó por primera vez a un Mundial."
+      ],
+      "wikipedia_en": "Vozinha",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "wesley-sneijder",
+      "nombre": "Wesley Sneijder",
+      "alias": [
+        "Sneijder"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "historico",
+      "pais": "Países Bajos",
+      "posicion": "Mediocampista ofensivo",
+      "pistas": [
+        "Jugó en el Real Madrid y el Galatasaray.",
+        "Ganó el triplete con el Inter en 2010.",
+        "Fue subcampeón del mundo en 2010 y uno de los goleadores del torneo."
+      ],
+      "wikipedia_en": "Wesley Sneijder",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
+    },
+    {
+      "id": "yassine-bounou",
+      "nombre": "Yassine Bounou",
+      "alias": [
+        "Bono",
+        "Bounou"
+      ],
+      "categorias": [
+        "mundiales"
+      ],
+      "era": "actual",
+      "pais": "Marruecos",
+      "posicion": "Arquero",
+      "pistas": [
+        "Nació en Canadá.",
+        "Ganó la Europa League con el Sevilla.",
+        "Fue el arquero de Marruecos semifinalista del Mundial 2022."
+      ],
+      "wikipedia_en": "Yassine Bounou",
+      "wikidata_id": null,
+      "imagen": null,
+      "aprobado": false
     }
   ]
 }
