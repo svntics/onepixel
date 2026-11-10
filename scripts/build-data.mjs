@@ -11,6 +11,7 @@ import { createHash } from "node:crypto";
 import { encode } from "../public/js/codec.js";
 import { normalize } from "../public/js/normalize.js";
 import { CONFIG } from "../public/js/config.js";
+import { blurFileName } from "./lib/blur-names.mjs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -95,13 +96,18 @@ for (const file of files) {
       // k: clave neutra del jugador (igual en todas las categorías) para no repetirlo el mismo día
       k: createHash("sha256").update(`onepixel-k:${p.id}`).digest("hex").slice(0, 10),
       ...(typeof p.aprobado === "string" ? { desde: p.aprobado } : {}),
-      img: p.imagen?.archivo_local ?? PLACEHOLDER,
+      // Foto real: solo las versiones difuminadas van a la vista (b[nivel]); la nítida va codificada en "d".
+      // Sin foto (modo prueba): la silueta provisoria, difuminada con CSS.
+      ...(p.imagen?.archivo_local
+        ? { b: CONFIG.BLUR_LEVELS.map((lvl) => (lvl > 0 ? `img/b/${blurFileName(p.imagen.archivo_local, lvl)}` : null)) }
+        : { img: PLACEHOLDER }),
       d: encode({
         i: ordenados.indexOf(p),
         pistas: p.pistas,
         pais: p.pais,
         posicion: p.posicion,
         era: p.era,
+        img: p.imagen?.archivo_local ?? null,
         cr: p.imagen
           ? { autor: p.imagen.autor, licencia: p.imagen.licencia, url_licencia: p.imagen.url_licencia, url_fuente: p.imagen.url_fuente }
           : null,

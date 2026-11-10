@@ -60,8 +60,11 @@ export function startRound(category, ronda, { onEnd, onChange, restore, startSta
     actions: [], // historial para guardar/restaurar la ronda: { t: "g", i } | { t: "h" }
     restoring: false,
   };
+  state.ronda = ronda;
   el.photo.alt = `Foto del ${subject} misterioso`;
-  el.photo.src = ronda.img;
+  // Precarga las versiones difuminadas de esta ronda (nunca la nítida)
+  ronda.b?.forEach((src) => src && (new Image().src = src));
+  if (!ronda.b) el.photo.src = ronda.img;
   renderCredit(data.cr, false);
   el.log.replaceChildren();
   el.msg.textContent = "";
@@ -129,7 +132,7 @@ function finish(won) {
   state.won = won;
   const points = scoreRound({ won, stage: state.stage, levels: LEVELS });
   const name = state.nombres[state.answer].nombre;
-  blur.set(0);
+  showStageImage(true);
   el.photo.alt = `Foto de ${name}`;
   renderCredit(state.data.cr, true);
   el.input.disabled = true;
@@ -212,8 +215,18 @@ function renderCredit(cr, final) {
 }
 
 // ---------- Pintar ----------
+// Foto según el intento: versiones ya difuminadas (b[nivel]); la nítida solo con nivel 0 o al terminar.
+// Sin versiones difuminadas (silueta de prueba): se difumina con CSS.
+function showStageImage(final) {
+  const { ronda, data } = state;
+  if (!ronda.b) return blur.set(final ? 0 : LEVELS[state.stage]);
+  blur.set(0);
+  const src = final || LEVELS[state.stage] === 0 || !ronda.b[state.stage] ? data.img : ronda.b[state.stage];
+  if (src && el.photo.getAttribute("src") !== src) el.photo.src = src;
+}
+
 function render() {
-  blur.set(LEVELS[state.stage]);
+  showStageImage(false);
   renderBoxes();
   el.status.textContent = state.singleAttempt ? "Foto extra · 1 solo intento" : `Intento ${state.stage + 1} de ${MAX}`;
   const left = state.data.pistas.length - state.hintsUsed;
