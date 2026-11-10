@@ -2909,5 +2909,469 @@
     "obs": [],
     "wikidata_id": "Q10520",
     "descripcion": "English footballer (born 1975)"
+  },
+  "diego-tristan": {
+    "id": "diego-tristan",
+    "jugador": "Diego Tristán",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "DiegoPico&Pala",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q12278088",
+    "descripcion": "Spanish footballer"
+  },
+  "djalminha": {
+    "id": "djalminha",
+    "jugador": "Djalminha",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Romean2",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q47489",
+    "descripcion": "Brazilian association football player"
+  },
+  "emilio-butragueno": {
+    "id": "emilio-butragueno",
+    "jugador": "Emilio Butragueño",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Barcex",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q41235",
+    "descripcion": "Spanish footballer"
+  },
+  "fernando-hierro": {
+    "id": "fernando-hierro",
+    "jugador": "Fernando Hierro",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY 4.0",
+    "autor": "Tasnim News Agency",
+    "obs": [],
+    "wikidata_id": "Q205499",
+    "descripcion": "Spanish football player and manager"
+  },
+  "fernando-llorente": {
+    "id": "fernando-llorente",
+    "jugador": "Fernando Llorente",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "Public domain",
+    "autor": "Original: Tatono / Obra derivada: Danyele",
+    "obs": [
+      "Dominio público: verificar que lo sea también en Chile"
+    ],
+    "wikidata_id": "Q187891",
+    "descripcion": "Spanish association football player"
+  },
+  "fernando-morientes": {
+    "id": "fernando-morientes",
+    "jugador": "Fernando Morientes",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Christophe95",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q45567",
+    "descripcion": "Spanish association football player"
+  },
+  "francisco-yeste": {
+    "id": "francisco-yeste",
+    "jugador": "Francisco Yeste",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 2.5 es",
+    "autor": "Will_vm",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q431235",
+    "descripcion": "Spanish footballer"
+  },
+  "frenkie-de-jong": {
+    "id": "frenkie-de-jong",
+    "jugador": "Frenkie de Jong",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "ТОВ \"Динамоманія\"",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q19898898",
+    "descripcion": "Dutch association football player (born 1997)"
+  },
+  "gaizka-mendieta": {
+    "id": "gaizka-mendieta",
+    "jugador": "Gaizka Mendieta",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Антон Зайцев",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q295410",
+    "descripcion": "Spanish footballer"
+  },
+  "gavi": {
+    "id": "gavi",
+    "jugador": "Gavi",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q108111889",
+    "descripcion": "Spanish association football player"
+  },
+  "gerard-pique": {
+    "id": "gerard-pique",
+    "jugador": "Gerard Piqué",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY 2.0",
+    "autor": "Vinod Divakaran",
+    "obs": [],
+    "wikidata_id": "Q17507",
+    "descripcion": "Spanish association football player (born 1987)"
+  },
+  "guti": {
+    "id": "guti",
+    "jugador": "Guti",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 2.0",
+    "autor": "Juan Fernández",
+    "obs": [
+      "Identificado por búsqueda en Wikidata: Q194461 (\"Spanish footballer and football manager\"). Verifica que sea la persona correcta",
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q194461",
+    "descripcion": "Spanish footballer and football manager"
+  },
+  "iago-aspas": {
+    "id": "iago-aspas",
+    "jugador": "Iago Aspas",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": false,
+    "licencia": "",
+    "autor": "",
+    "obs": [
+      "Error: Demasiados reintentos: https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&maxlag=5&props=claims|descriptions&languages=en|es&sites=enwiki&titles=Iago%20Aspas"
+    ]
+  },
+  "isco": {
+    "id": "isco",
+    "jugador": "Isco",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Антон Зайцев",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q80892",
+    "descripcion": "Spanish association football player"
+  },
+  "jan-oblak": {
+    "id": "jan-oblak",
+    "jugador": "Jan Oblak",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Анна Нэсси",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q2058682",
+    "descripcion": "Slovenian association football player (born 1993)"
+  },
+  "javi-fuego": {
+    "id": "javi-fuego",
+    "jugador": "Javi Fuego",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Werner100359",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q862120",
+    "descripcion": "Spanish footballer"
+  },
+  "javier-mascherano": {
+    "id": "javier-mascherano",
+    "jugador": "Javier Mascherano",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q161571",
+    "descripcion": "Argentine association football player and manager"
+  },
+  "jesus-navas": {
+    "id": "jesus-navas",
+    "jugador": "Jesús Navas",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Дмитрий Садовников",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q185093",
+    "descripcion": "Spanish association football player"
+  },
+  "joao-felix": {
+    "id": "joao-felix",
+    "jugador": "João Félix",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q27049064",
+    "descripcion": "Portuguese footballer (born 1999)"
+  },
+  "joaquin-sanchez": {
+    "id": "joaquin-sanchez",
+    "jugador": "Joaquín",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Кирилл Венедиктов",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q294204",
+    "descripcion": "Spanish footballer"
+  },
+  "jordi-alba": {
+    "id": "jordi-alba",
+    "jugador": "Jordi Alba",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Кирилл Венедиктов",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q187159",
+    "descripcion": "Spanish association football player"
+  },
+  "jude-bellingham": {
+    "id": "jude-bellingham",
+    "jugador": "Jude Bellingham",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q66241169",
+    "descripcion": "English footballer (born 2003)"
+  },
+  "juan-carlos-valeron": {
+    "id": "juan-carlos-valeron",
+    "jugador": "Juan Carlos Valerón",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 2.1 es",
+    "autor": "Rebeca González",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q311089",
+    "descripcion": "Spanish footballer"
+  },
+  "koke": {
+    "id": "koke",
+    "jugador": "Koke",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Анна Нэсси",
+    "obs": [
+      "Identificado por búsqueda en Wikidata: Q276091 (\"Spanish association football player\"). Verifica que sea la persona correcta",
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q276091",
+    "descripcion": "Spanish association football player"
+  },
+  "lamine-yamal": {
+    "id": "lamine-yamal",
+    "jugador": "Lamine Yamal",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q113704154",
+    "descripcion": "Spanish association football player (born 2007)"
+  },
+  "marc-andre-ter-stegen": {
+    "id": "marc-andre-ter-stegen",
+    "jugador": "Marc-André ter Stegen",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC0",
+    "autor": "Gobierno de Cataluña",
+    "obs": [],
+    "wikidata_id": "Q160472",
+    "descripcion": "German association football player"
+  },
+  "mauricio-pellegrino": {
+    "id": "mauricio-pellegrino",
+    "jugador": "Mauricio Pellegrino",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Carlos yo",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q313131",
+    "descripcion": "Argentine association football manager"
+  },
+  "michael-laudrup": {
+    "id": "michael-laudrup",
+    "jugador": "Michael Laudrup",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY 3.0",
+    "autor": "Alexe Politov",
+    "obs": [],
+    "wikidata_id": "Q188720",
+    "descripcion": "Danish association football player and coach"
+  },
+  "miroslav-djukic": {
+    "id": "miroslav-djukic",
+    "jugador": "Miroslav Đukić",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 3.0",
+    "autor": "Balcaza",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+    ],
+    "wikidata_id": "Q431287",
+    "descripcion": "Serbian footballer"
+  },
+  "pablo-alfaro": {
+    "id": "pablo-alfaro",
+    "jugador": "Pablo Alfaro",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": false,
+    "licencia": "",
+    "autor": "",
+    "obs": [
+      "Wikidata no tiene imagen (P18)"
+    ],
+    "wikidata_id": "Q667399",
+    "descripcion": "Spanish football player and manager"
+  },
+  "pedri": {
+    "id": "pedri",
+    "jugador": "Pedri",
+    "categorias": [
+      "espanola"
+    ],
+    "libre": true,
+    "licencia": "CC BY-SA 4.0",
+    "autor": "Bryan Berlin / WikiPortraits",
+    "obs": [
+      "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
+      "Commons advierte derechos de imagen de la persona (personality rights)"
+    ],
+    "wikidata_id": "Q66606355",
+    "descripcion": "Spanish association football player"
   }
 }

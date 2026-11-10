@@ -316,8 +316,7 @@
         "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Keylor_Navas_2018_(cropped).jpg"
       },
-      "aprobado": false,
-      "revisado": true
+      "aprobado": "2026-11-11"
     },
     {
       "id": "kylian-mbappe",
@@ -1120,8 +1119,14 @@
       ],
       "wikipedia_en": "Diego Tristán",
       "nacimiento": 1976,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q12278088",
+      "imagen": {
+        "archivo_local": "img/p/214067c123a323ce.webp",
+        "autor": "DiegoPico&Pala",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Diego_tristan.jpg"
+      },
       "aprobado": false
     },
     {
@@ -1143,8 +1148,14 @@
       ],
       "wikipedia_en": "Djalminha",
       "nacimiento": 1970,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q47489",
+      "imagen": {
+        "archivo_local": "img/p/f59efaa3a7bd8f19.webp",
+        "autor": "Romean2",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Djalminha.jpg"
+      },
       "aprobado": false
     },
     {
@@ -1168,8 +1179,14 @@
       ],
       "wikipedia_en": "Emilio Butragueño",
       "nacimiento": 1963,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q41235",
+      "imagen": {
+        "archivo_local": "img/p/d9a863282c8a678a.webp",
+        "autor": "Barcex",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Emilio_Butrague%C3%B1o_-_240422_191751-2_(cropped).jpg"
+      },
       "aprobado": false
     },
     {
@@ -1191,8 +1208,14 @@
       ],
       "wikipedia_en": "Fernando Hierro",
       "nacimiento": 1968,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q205499",
+      "imagen": {
+        "archivo_local": "img/p/d2956e2754fd3668.webp",
+        "autor": "Tasnim News Agency",
+        "licencia": "CC BY 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Fernando_Hierro_in_Spain-Iran_press_conference_2018-06-19.jpg"
+      },
       "aprobado": false
     },
     {
@@ -1214,8 +1237,14 @@
       ],
       "wikipedia_en": "Fernando Llorente",
       "nacimiento": 1985,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q187891",
+      "imagen": {
+        "archivo_local": "img/p/650cdcabf626cc7d.webp",
+        "autor": "Original: Tatono / Obra derivada: Danyele",
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Fernando_Llorente_contra_el_H%C3%A9rcules_en_el_estadio_Jos%C3%A9_Rico_P%C3%A9rez_(american_shot).jpg"
+      },
       "aprobado": false
     },
     {
@@ -1238,8 +1267,14 @@
       ],
       "wikipedia_en": "Fernando Morientes",
       "nacimiento": 1976,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q45567",
+      "imagen": {
+        "archivo_local": "img/p/be9bccf63aba6db9.webp",
+        "autor": "Christophe95",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Fernando_Morientes_2010.jpg"
+      },
       "aprobado": false
     },
     {
@@ -1260,8 +1295,14 @@
       ],
       "wikipedia_en": "Francisco Yeste",
       "nacimiento": 1979,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q431235",
+      "imagen": {
+        "archivo_local": "img/p/9cd58ea3b20115c8.webp",
+        "autor": "Will_vm",
+        "licencia": "CC BY-SA 2.5 es",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.5/es/deed.en",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Fran_Yeste.JPG"
+      },
       "aprobado": false
     },
     {
@@ -1284,8 +1325,14 @@
       ],
       "wikipedia_en": "Frenkie de Jong",
       "nacimiento": 1997,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q19898898",
+      "imagen": {
+        "archivo_local": "img/p/46938370bbcc60ac.webp",
+        "autor": "ТОВ \"Динамоманія\"",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%82%D1%87_%C2%AB%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE%C2%BB_-_%C2%AB%D0%91%D0%B0%D1%80%D1%81%D0%B5%D0%BB%D0%BE%D0%BD%D0%B0%C2%BB_0-1._2_%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F_2021_%D0%B3%D0%BE%D0%B4%D0%B0._II_%E2%80%94_1289671_(cropped).jpg"
+      },
       "aprobado": false
     },
     {
@@ -1307,8 +1354,14 @@
       ],
       "wikipedia_en": "Gaizka Mendieta",
       "nacimiento": 1974,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q295410",
+      "imagen": {
+        "archivo_local": "img/p/4cbd348bd65b7f32.webp",
+        "autor": "Антон Зайцев",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:2018_Gaizka_Mendieta.jpg"
+      },
       "aprobado": false
     },
     {
@@ -1331,8 +1384,14 @@
       ],
       "wikipedia_en": "Gavi (footballer)",
       "nacimiento": 2004,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q108111889",
+      "imagen": {
+        "archivo_local": "img/p/fa466f2f4073bc17.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Gavi_France_v_Spain_7.24.26-275_(cropped).jpg"
+      },
       "aprobado": false
     },
     {
@@ -1355,8 +1414,14 @@
       ],
       "wikipedia_en": "Gerard Piqué",
       "nacimiento": 1987,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q17507",
+      "imagen": {
+        "archivo_local": "img/p/a57f77ea32cec6a3.webp",
+        "autor": "Vinod Divakaran",
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:GerardPique.jpg"
+      },
       "aprobado": false
     },
     {
@@ -1379,8 +1444,14 @@
       ],
       "wikipedia_en": "Guti (footballer, born 1976)",
       "nacimiento": 1976,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q194461",
+      "imagen": {
+        "archivo_local": "img/p/c4dce35506ea144f.webp",
+        "autor": "Juan Fernández",
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:JM_Guti.jpg"
+      },
       "aprobado": false
     },
     {
@@ -1426,8 +1497,14 @@
       ],
       "wikipedia_en": "Isco",
       "nacimiento": 1992,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q80892",
+      "imagen": {
+        "archivo_local": "img/p/d69c10021c7f1848.webp",
+        "autor": "Антон Зайцев",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Liver-RM_(5)_(cropped_2).jpg"
+      },
       "aprobado": false
     },
     {
@@ -1449,8 +1526,14 @@
       ],
       "wikipedia_en": "Jan Oblak",
       "nacimiento": 1993,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q2058682",
+      "imagen": {
+        "archivo_local": "img/p/0b2cc8145099385e.webp",
+        "autor": "Анна Нэсси",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Jan_Oblak_2019.jpg"
+      },
       "aprobado": false
     },
     {
@@ -1472,8 +1555,14 @@
       ],
       "wikipedia_en": "Javi Fuego",
       "nacimiento": 1984,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q862120",
+      "imagen": {
+        "archivo_local": "img/p/f1d515c035f12f72.webp",
+        "autor": "Werner100359",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Audi_quattro-Cup_(11-07-2015)_26.JPG"
+      },
       "aprobado": false
     },
     {
@@ -1496,8 +1585,14 @@
       ],
       "wikipedia_en": "Javier Mascherano",
       "nacimiento": 1984,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q161571",
+      "imagen": {
+        "archivo_local": "img/p/b203d306f605a7a7.webp",
+        "autor": "Bryan Berlin",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Javier_Mascherano_NE_Revolution_Inter_Miami_7.9.25-040_(cropped).jpg"
+      },
       "aprobado": false
     },
     {
@@ -1519,8 +1614,14 @@
       ],
       "wikipedia_en": "Jesús Navas",
       "nacimiento": 1985,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q185093",
+      "imagen": {
+        "archivo_local": "img/p/cd26816d3591d57b.webp",
+        "autor": "Дмитрий Садовников",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Jes%C3%BAs_Navas.jpg"
+      },
       "aprobado": false
     },
     {
@@ -1543,8 +1644,14 @@
       ],
       "wikipedia_en": "João Félix",
       "nacimiento": 1999,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q27049064",
+      "imagen": {
+        "archivo_local": "img/p/9d229f9bda6cf89d.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Joao_Felix_Croatia_v_Portugal_2_July_2026-007.jpg"
+      },
       "aprobado": false
     },
     {
@@ -1567,8 +1674,14 @@
       ],
       "wikipedia_en": "Joaquín (footballer, born 1981)",
       "nacimiento": 1981,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q294204",
+      "imagen": {
+        "archivo_local": "img/p/9d143d2bca540817.webp",
+        "autor": "Кирилл Венедиктов",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Joaqu%C3%ADn_S%C3%A1nchez_2022.jpg"
+      },
       "aprobado": false
     },
     {
@@ -1590,8 +1703,14 @@
       ],
       "wikipedia_en": "Jordi Alba",
       "nacimiento": 1989,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q187159",
+      "imagen": {
+        "archivo_local": "img/p/ea764e0244075d20.webp",
+        "autor": "Кирилл Венедиктов",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Russia-Spain_2017_(11).jpg"
+      },
       "aprobado": false
     },
     {
@@ -1614,8 +1733,14 @@
       ],
       "wikipedia_en": "Jude Bellingham",
       "nacimiento": 2003,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q66241169",
+      "imagen": {
+        "archivo_local": "img/p/eb8d2e098af5a175.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Jude_Bellingham_England_v_Ghana_23_June_2026-061_(cropped).jpg"
+      },
       "aprobado": false
     },
     {
@@ -1638,8 +1763,14 @@
       ],
       "wikipedia_en": "Juan Carlos Valerón",
       "nacimiento": 1975,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q311089",
+      "imagen": {
+        "archivo_local": "img/p/229dbeab7d9a114d.webp",
+        "autor": "Rebeca González",
+        "licencia": "CC BY-SA 2.1 es",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.1/es/deed.en",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Juan_Carlos_Valer%C3%B3n_20minutos.jpg"
+      },
       "aprobado": false
     },
     {
@@ -1662,8 +1793,14 @@
       ],
       "wikipedia_en": "Koke",
       "nacimiento": 1992,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q276091",
+      "imagen": {
+        "archivo_local": "img/p/286ef09eba65c7fb.webp",
+        "autor": "Анна Нэсси",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Koke_2019.jpg"
+      },
       "aprobado": false
     },
     {
@@ -1686,8 +1823,14 @@
       ],
       "wikipedia_en": "Lamine Yamal",
       "nacimiento": 2007,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q113704154",
+      "imagen": {
+        "archivo_local": "img/p/d560dd8ba352a8f4.webp",
+        "autor": "Bryan Berlin",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Lamine_Yamal_Argentina_v_Spain_19_July_2026-214_(new_cropped).jpg"
+      },
       "aprobado": false
     },
     {
@@ -1709,8 +1852,14 @@
       ],
       "wikipedia_en": "Marc-André ter Stegen",
       "nacimiento": 1992,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q160472",
+      "imagen": {
+        "archivo_local": "img/p/d25a0a99ed43fdd4.webp",
+        "autor": "Gobierno de Cataluña",
+        "licencia": "CC0",
+        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Marc-Andre_Ter_Stegen_ACCI_FCBARCELONA_Turisme_Catalunya_gira_pretemporada_CATPRESS.jpg"
+      },
       "aprobado": false
     },
     {
@@ -1732,8 +1881,14 @@
       ],
       "wikipedia_en": "Mauricio Pellegrino",
       "nacimiento": 1971,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q313131",
+      "imagen": {
+        "archivo_local": "img/p/96bf6e95dbeec012.webp",
+        "autor": "Carlos yo",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Mauricio_Pellegrino_Universidad_de_Chile_v_O%27Higgins_20230807_01.jpg"
+      },
       "aprobado": false
     },
     {
@@ -1755,8 +1910,14 @@
       ],
       "wikipedia_en": "Michael Laudrup",
       "nacimiento": 1964,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q188720",
+      "imagen": {
+        "archivo_local": "img/p/f0a60416a956e3b9.webp",
+        "autor": "Alexe Politov",
+        "licencia": "CC BY 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Michael-Laudrup-Nov2008_(cropped).jpg"
+      },
       "aprobado": false
     },
     {
@@ -1779,8 +1940,14 @@
       ],
       "wikipedia_en": "Miroslav Đukić",
       "nacimiento": 1966,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q431287",
+      "imagen": {
+        "archivo_local": "img/p/69bd43296c4fa8c0.webp",
+        "autor": "Balcaza",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Miroslav_Djukic.jpg"
+      },
       "aprobado": false
     },
     {
@@ -1801,7 +1968,7 @@
       ],
       "wikipedia_en": "Pablo Alfaro",
       "nacimiento": 1969,
-      "wikidata_id": null,
+      "wikidata_id": "Q667399",
       "imagen": null,
       "aprobado": false
     },
@@ -1824,8 +1991,14 @@
       ],
       "wikipedia_en": "Pedri",
       "nacimiento": 2002,
-      "wikidata_id": null,
-      "imagen": null,
+      "wikidata_id": "Q66606355",
+      "imagen": {
+        "archivo_local": "img/p/61b95e91fa4e08cb.webp",
+        "autor": "Bryan Berlin / WikiPortraits",
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Pedri_France_v_Spain_7.24.26-245.jpg"
+      },
       "aprobado": false
     },
     {
