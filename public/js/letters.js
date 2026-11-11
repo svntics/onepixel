@@ -96,10 +96,13 @@ export const boardWord = (board) => board.slots.map((s) => (s === null ? "" : bo
 export const isCorrect = (board, answer) => isFull(board) && boardWord(board) === answerLetters(answer);
 
 // ---------- Puntaje ----------
-// 100 base, −15 por cada intento fallido (mínimo 20) + bono por rapidez. Rendirse = 0.
-export function teamScore({ won, errors = 0, seconds = Infinity }) {
+// Según cuántas fotos se necesitaron: 1 → 200, 2 → 150, 3 → 100, 4 → 60.
+// Con las 4 a la vista, cada intento fallido resta 10 (mínimo 20). Bono por rapidez: +30 (≤30 s) o +15 (≤60 s).
+// Rendirse = 0.
+export const PHOTO_POINTS = [200, 150, 100, 60];
+export function teamScore({ won, shown = 1, errors = 0, seconds = Infinity }) {
   if (!won) return 0;
-  const base = Math.max(20, 100 - 15 * errors);
-  const bonus = seconds <= 30 ? 50 : seconds <= 60 ? 25 : seconds <= 120 ? 10 : 0;
+  const base = Math.max(20, PHOTO_POINTS[Math.min(Math.max(shown, 1), 4) - 1] - 10 * errors);
+  const bonus = seconds <= 30 ? 30 : seconds <= 60 ? 15 : 0;
   return base + bonus;
 }

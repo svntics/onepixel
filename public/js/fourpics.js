@@ -144,19 +144,28 @@ async function showGame(id) {
 }
 
 function startRound(team) {
-  round = { team, board: newBoard(team.respuesta, hashString(team.id)), errors: 0, start: Date.now(), over: false };
+  round = { team, board: newBoard(team.respuesta, hashString(team.id)), shown: 1, errors: 0, start: Date.now(), over: false };
   $("#fp-board").hidden = false;
   $("#fp-result").hidden = true;
   $("#fp-msg").textContent = "";
-  renderPhotos(false);
+  renderPhotos();
   renderBoard();
+  updateMore();
 }
 
-// Las fotos: durante la ronda, sin créditos ni textos (anti-spoiler). Tocar una la amplía.
+// Las fotos: se ven solo las desbloqueadas (las demás ni se descargan). Sin créditos ni textos
+// durante la ronda (anti-spoiler). Tocar una la amplía. Al terminar se muestran las 4.
 function renderPhotos() {
   const wrap = $("#fp-photos");
+  const visible = round.over ? 4 : round.shown;
   wrap.replaceChildren(
     ...round.team.fotos.map((f, i) => {
+      if (i >= visible) {
+        const d = el("div", "relative flex aspect-square flex-col items-center justify-center gap-1 rounded-xl border border-dashed border-border bg-surface text-muted");
+        d.append(el("span", "text-3xl", "🔒"), el("span", "text-xs font-semibold", `Foto ${i + 1}`));
+        d.setAttribute("aria-label", `Foto ${i + 1} bloqueada`);
+        return d;
+      }
       const b = el("button", "photo-tile relative aspect-square overflow-hidden rounded-xl border border-border bg-surface-2");
       b.type = "button";
       b.setAttribute("aria-label", `Ampliar foto ${i + 1} de 4`);
@@ -169,6 +178,7 @@ function renderPhotos() {
       img.decoding = "async";
       b.append(img, el("span", "absolute left-1.5 top-1.5 rounded-md bg-black/60 px-1.5 text-xs font-bold text-white", String(i + 1)));
       if (f.pendiente) b.append(el("span", "absolute inset-x-0 bottom-0 bg-black/60 py-0.5 text-center text-xs text-white", "Foto pendiente"));
+      if (!round.over && i === round.shown - 1 && i > 0) b.classList.add("fp-new");
       b.addEventListener("click", () => {
         $("#fp-zoom-img").src = f.img;
         $("#fp-zoom-img").alt = `Pista ${i + 1}`;
@@ -177,6 +187,27 @@ function renderPhotos() {
       return b;
     }),
   );
+}
+
+// Desbloquea la siguiente foto. Devuelve false si ya estaban todas.
+function revealNext() {
+  if (round.shown >= 4) return false;
+  round.shown++;
+  renderPhotos();
+  updateMore();
+  return true;
+}
+
+function updateMore() {
+  const btn = $("#fp-more");
+  btn.disabled = round.over || round.shown >= 4;
+  btn.textContent = round.shown >= 4 ? "🔓 Todas las fotos a la vista" : `🔓 Ver otra foto (${round.shown + 1} de 4)`;
+}
+
+function showMsg(text, danger = true) {
+  const msg = $("#fp-msg");
+  msg.textContent = text;
+  msg.className = `mt-2 min-h-6 text-center text-sm font-semibold ${danger ? "text-danger" : "text-muted"}`;
 }
 
 const tileCls = "flex min-h-11 items-center justify-center rounded-lg border text-lg font-extrabold uppercase";
@@ -230,10 +261,12 @@ function place(tile) {
   renderBoard();
   if (!isFull(round.board)) return;
   if (isCorrect(round.board, round.team.respuesta)) return finish(true);
-  round.errors++;
-  const msg = $("#fp-msg");
-  msg.textContent = "❌ No es ese equipo. Toca una letra puesta para devolverla y corrige.";
-  msg.className = "mt-2 min-h-6 text-center text-sm font-semibold text-danger";
+  // Intento fallido: desbloquea otra foto; con las 4 a la vista, cuenta como error
+  if (revealNext()) showMsg(`❌ No es ese equipo. Se desbloqueó la foto ${round.shown}. Toca una letra puesta para devolverla.`);
+  else {
+    round.errors++;
+    showMsg("❌ No es ese equipo. Toca una letra puesta para devolverla y corrige.");
+  }
   $("#fp-slots").classList.remove("fp-shake");
   void $("#fp-slots").offsetWidth; // reinicia la animación
   $("#fp-slots").classList.add("fp-shake");
@@ -242,7 +275,7 @@ function place(tile) {
 function finish(won) {
   round.over = true;
   const seconds = Math.round((Date.now() - round.start) / 1000);
-  const points = teamScore({ won, errors: round.errors, seconds });
+  const points = teamScore({ won, shown: round.shown, errors: round.errors, seconds });
   recordResult(won, points);
   const key = `4fotos:vistos:${league.id}`;
   save(key, [...new Set([...load(key, []), round.team.id])]);
@@ -257,6 +290,8 @@ function finish(won) {
     round.board = b;
   }
   renderBoard();
+  renderPhotos();
+  updateMore();
   renderStats();
   $("#fp-msg").textContent = "";
   $("#fp-board").querySelectorAll("#fp-clear, #fp-giveup").forEach((x) => (x.disabled = true));
@@ -264,7 +299,7 @@ function finish(won) {
   const t = round.team;
   $("#fp-result-title").textContent = won ? `¡Correcto! ${t.nombre} 🎉` : `Era ${t.nombre}`;
   $("#fp-result-detail").textContent = won
-    ? `+${points} pts · ${seconds} s · ${round.errors === 0 ? "sin errores" : `${round.errors} ${round.errors === 1 ? "error" : "errores"}`}`
+    ? `+${points} pts · con ${round.shown} ${round.shown === 1 ? "foto" : "fotos"} · ${seconds} s${round.errors ? ` · ${round.errors} ${round.errors === 1 ? "error" : "errores"} extra` : ""}`
     : "Te rendiste: 0 pts. La racha vuelve a 0.";
   $("#fp-why summary").textContent = `¿Por qué estas fotos representaban al ${t.nombre}?`;
   $("#fp-why-list").replaceChildren(...t.fotos.map(whyItem));
@@ -304,6 +339,10 @@ $("#fp-clear").addEventListener("click", () => {
   round.board = clearBoard(round.board);
   $("#fp-msg").textContent = "";
   renderBoard();
+});
+$("#fp-more").addEventListener("click", () => {
+  if (!round || round.over) return;
+  if (revealNext()) showMsg(`🔓 Foto ${round.shown} desbloqueada.`, false);
 });
 $("#fp-giveup").addEventListener("click", () => {
   if (!round || round.over) return;

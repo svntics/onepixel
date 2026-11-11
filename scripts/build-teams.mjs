@@ -20,6 +20,7 @@ const OUT = join(ROOT, "public", "data");
 const GEN = join(ROOT, "public", "img", "t");
 const PLACEHOLDERS = process.argv.includes("--placeholders");
 const TIPOS = ["colores", "origen", "apodo", "cultura"];
+const ORDEN_DEFECTO = ["origen", "cultura", "apodo", "colores"];
 const HEX = /^#[0-9a-fA-F]{6}$/;
 
 const errors = [];
@@ -33,6 +34,7 @@ function validate(t, file) {
   if (!/^[A-Z]+( [A-Z]+)*$/.test(t.respuesta ?? "")) errors.push(`${where}: "respuesta" solo admite A-Z y un espacio entre palabras`);
   if (t.respuesta && normalizeAnswer(t.respuesta) !== t.respuesta) errors.push(`${where}: "respuesta" no está normalizada`);
   if (!Array.isArray(t.ligas) || !t.ligas.length || t.ligas.some((l) => !LEAGUES.has(l))) errors.push(`${where}: "ligas" inválidas`);
+  if (t.orden && (t.orden.length !== 4 || TIPOS.some((x) => !t.orden.includes(x)))) errors.push(`${where}: "orden" debe tener los 4 tipos`);
   if (!Array.isArray(t.fotos) || t.fotos.length !== 4) return errors.push(`${where}: debe tener exactamente 4 fotos`);
   t.fotos.forEach((f, i) => {
     const w = `${where} foto ${i + 1}`;
@@ -87,7 +89,11 @@ for (const file of files) {
       pending++;
       continue;
     }
-    for (const l of t.ligas) byLeague.get(l)?.push({ id: t.id, nombre: t.nombre, respuesta: t.respuesta, fotos });
+    // Orden en que se revelan: de la más difícil a la más fácil (la camiseta al final).
+    // Un equipo puede definir su propio "orden" (lista de tipos).
+    const orden = t.orden ?? ORDEN_DEFECTO;
+    const sorted = [...fotos].sort((a, b) => orden.indexOf(a.tipo) - orden.indexOf(b.tipo));
+    for (const l of t.ligas) byLeague.get(l)?.push({ id: t.id, nombre: t.nombre, respuesta: t.respuesta, fotos: sorted });
   }
 }
 

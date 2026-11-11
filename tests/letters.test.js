@@ -56,9 +56,12 @@ test("colocar, quitar y validar letras", () => {
   assert.ok(!isFull(b));
 });
 
-test("puntaje: errores, rapidez y rendirse", () => {
-  assert.equal(teamScore({ won: true, errors: 0, seconds: 20 }), 150);
-  assert.equal(teamScore({ won: true, errors: 2, seconds: 50 }), 95);
-  assert.equal(teamScore({ won: true, errors: 9, seconds: 500 }), 20);
-  assert.equal(teamScore({ won: false, errors: 0, seconds: 5 }), 0);
+test("puntaje: menos fotos = más puntos; errores con las 4 fotos, rapidez y rendirse", () => {
+  assert.equal(teamScore({ won: true, shown: 1, seconds: 20 }), 230);
+  assert.equal(teamScore({ won: true, shown: 2, seconds: 50 }), 165);
+  assert.equal(teamScore({ won: true, shown: 3, seconds: 500 }), 100);
+  assert.equal(teamScore({ won: true, shown: 4, seconds: 500 }), 60);
+  assert.equal(teamScore({ won: true, shown: 4, errors: 3, seconds: 500 }), 30);
+  assert.equal(teamScore({ won: true, shown: 4, errors: 9, seconds: 500 }), 20);
+  assert.equal(teamScore({ won: false, shown: 1, seconds: 5 }), 0);
 });
