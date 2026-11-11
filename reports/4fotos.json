@@ -436,21 +436,8 @@
     "tipo": "cultura",
     "explicacion": "Un rincón de Stamford Bridge, el estadio del club desde su fundación en 1905.",
     "buscar": "Stamford Bridge stadium",
-    "elegida": "Stamford Bridge stadium - geograph.org.uk - 4219997.jpg",
+    "elegida": "Stamford Bridge stadium - geograph.org.uk - 4220001.jpg",
     "candidatas": [
-      {
-        "file": "Stamford Bridge stadium - geograph.org.uk - 4219997.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 2.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-        "autor": "Stamford Bridge stadium by Thomas Nugent",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Stamford_Bridge_stadium_-_geograph.org.uk_-_4219997.jpg",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Stamford_Bridge_stadium_-_geograph.org.uk_-_4219997.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "titulo": "Stamford Bridge stadium - geograph.org.uk - 4219997",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
       {
         "file": "Stamford Bridge stadium - geograph.org.uk - 4220001.jpg",
         "ok": true,
@@ -512,6 +499,19 @@
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Stamford_Bridge_Stadium_-_view_from_The_Shed_End_-_geograph.org.uk_-_3610589.jpg",
         "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Stamford_Bridge_Stadium_-_view_from_The_Shed_End_-_geograph.org.uk_-_3610589.jpg/960px-Stamford_Bridge_Stadium_-_view_from_The_Shed_End_-_geograph.org.uk_-_3610589.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "titulo": "Stamford Bridge Stadium - view from The Shed End - geograph.org.uk - 3610589",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Stamford Bridge stadium from the air - geograph.org.uk - 4418606.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Stamford Bridge stadium from the air by Thomas Nugent",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Stamford_Bridge_stadium_from_the_air_-_geograph.org.uk_-_4418606.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/74/Stamford_Bridge_stadium_from_the_air_-_geograph.org.uk_-_4418606.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Stamford Bridge stadium from the air - geograph.org.uk - 4418606",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
@@ -872,19 +872,86 @@
     "foto": 3,
     "tipo": "apodo",
     "explicacion": "Un tridente, atributo del diablo del escudo: el apodo es «Red Devils».",
-    "buscar": null,
-    "elegida": "Neptu (\"Neptune\") with Trident Sculpture in the Jardin del Turia, Valencia, Spain.jpg",
+    "buscar": "trident",
+    "elegida": "Ivy Guest House, Melbourne Place - geograph.org.uk - 400640.jpg",
     "candidatas": [
       {
-        "file": "Neptu (\"Neptune\") with Trident Sculpture in the Jardin del Turia, Valencia, Spain.jpg",
+        "file": "Ivy Guest House, Melbourne Place - geograph.org.uk - 400640.jpg",
         "ok": true,
-        "licencia": "CC0",
-        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "autor": "MCAE Consulting",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Neptu_(%22Neptune%22)_with_Trident_Sculpture_in_the_Jardin_del_Turia,_Valencia,_Spain.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Neptu_%28%22Neptune%22%29_with_Trident_Sculpture_in_the_Jardin_del_Turia%2C_Valencia%2C_Spain.jpg/960px-Neptu_%28%22Neptune%22%29_with_Trident_Sculpture_in_the_Jardin_del_Turia%2C_Valencia%2C_Spain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Neptu (\"Neptune\") with Trident Sculpture in the Jardin del Turia, Valencia, Spain",
-        "notes": []
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Alan Longbottom",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Ivy_Guest_House,_Melbourne_Place_-_geograph.org.uk_-_400640.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Ivy_Guest_House%2C_Melbourne_Place_-_geograph.org.uk_-_400640.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Ivy Guest House, Melbourne Place - geograph.org.uk - 400640",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Trident Way Bridge - geograph.org.uk - 7417410.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Trident Way Bridge by DS Pugh",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Trident_Way_Bridge_-_geograph.org.uk_-_7417410.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Trident_Way_Bridge_-_geograph.org.uk_-_7417410.jpg/960px-Trident_Way_Bridge_-_geograph.org.uk_-_7417410.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Trident Way Bridge - geograph.org.uk - 7417410",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Bridge ramp from Trident Park - geograph.org.uk - 7417411.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Bridge ramp from Trident Park by DS Pugh",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Bridge_ramp_from_Trident_Park_-_geograph.org.uk_-_7417411.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Bridge_ramp_from_Trident_Park_-_geograph.org.uk_-_7417411.jpg/960px-Bridge_ramp_from_Trident_Park_-_geograph.org.uk_-_7417411.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Bridge ramp from Trident Park - geograph.org.uk - 7417411",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "The mound in Trident Park - geograph.org.uk - 8422102.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "The mound in Trident Park by Stephen Craven",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:The_mound_in_Trident_Park_-_geograph.org.uk_-_8422102.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/The_mound_in_Trident_Park_-_geograph.org.uk_-_8422102.jpg/960px-The_mound_in_Trident_Park_-_geograph.org.uk_-_8422102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "The mound in Trident Park - geograph.org.uk - 8422102",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Trident Way bridge (1) - geograph.org.uk - 8422086.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+        "autor": "Trident Way bridge (1) by Stephen Craven",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Trident_Way_bridge_(1)_-_geograph.org.uk_-_8422086.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Trident_Way_bridge_%281%29_-_geograph.org.uk_-_8422086.jpg/960px-Trident_Way_bridge_%281%29_-_geograph.org.uk_-_8422086.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Trident Way bridge (1) - geograph.org.uk - 8422086",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Trident french destroyer.jpg",
+        "ok": true,
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "autor": "Marius Bar",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Trident_french_destroyer.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Trident_french_destroyer.jpg/960px-Trident_french_destroyer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Trident french destroyer",
+        "notes": [
+          "Dominio público: verificar que lo sea también en Chile"
+        ]
       }
     ],
     "obs": ""
@@ -1798,18 +1865,85 @@
     "foto": 3,
     "tipo": "apodo",
     "explicacion": "Una lata de caramelos toffee: el apodo «The Toffees» se atribuye a tiendas de caramelos del barrio.",
-    "buscar": null,
-    "elegida": "Walters Palm Toffee tin, pic3.JPG",
+    "buscar": "toffee sweets",
+    "elegida": "Verkade's Toffee blik, pic1.JPG",
     "candidatas": [
       {
-        "file": "Walters Palm Toffee tin, pic3.JPG",
+        "file": "Verkade's Toffee blik, pic1.JPG",
         "ok": true,
         "licencia": "CC0",
         "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
         "autor": "Alf van Beem",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Walters_Palm_Toffee_tin,_pic3.JPG",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Walters_Palm_Toffee_tin%2C_pic3.JPG/960px-Walters_Palm_Toffee_tin%2C_pic3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Walters Palm Toffee tin, pic3",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Verkade%27s_Toffee_blik,_pic1.JPG",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Verkade%27s_Toffee_blik%2C_pic1.JPG/960px-Verkade%27s_Toffee_blik%2C_pic1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Verkade's Toffee blik, pic1",
+        "notes": [
+          "Commons advierte marcas registradas en la imagen"
+        ]
+      },
+      {
+        "file": "Verkade's Toffee blik, pic2.JPG",
+        "ok": true,
+        "licencia": "CC0",
+        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "autor": "Alf van Beem",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Verkade%27s_Toffee_blik,_pic2.JPG",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Verkade%27s_Toffee_blik%2C_pic2.JPG/960px-Verkade%27s_Toffee_blik%2C_pic2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Verkade's Toffee blik, pic2",
+        "notes": [
+          "Commons advierte marcas registradas en la imagen"
+        ]
+      },
+      {
+        "file": "Verkade's Oto toffee blik pic2.JPG",
+        "ok": true,
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "autor": "Alf van Beem",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Verkade%27s_Oto_toffee_blik_pic2.JPG",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Verkade%27s_Oto_toffee_blik_pic2.JPG/960px-Verkade%27s_Oto_toffee_blik_pic2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Verkade's Oto toffee blik pic2",
+        "notes": [
+          "Dominio público: verificar que lo sea también en Chile",
+          "Commons advierte marcas registradas en la imagen"
+        ]
+      },
+      {
+        "file": "Verkade's Oto toffee blik pic1.JPG",
+        "ok": true,
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "autor": "Alf van Beem",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Verkade%27s_Oto_toffee_blik_pic1.JPG",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Verkade%27s_Oto_toffee_blik_pic1.JPG/960px-Verkade%27s_Oto_toffee_blik_pic1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Verkade's Oto toffee blik pic1",
+        "notes": [
+          "Dominio público: verificar que lo sea también en Chile",
+          "Commons advierte marcas registradas en la imagen"
+        ]
+      },
+      {
+        "file": "Walters Palm Toffee tin, pic1.JPG",
+        "ok": true,
+        "licencia": "CC0",
+        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "autor": "Alf van Beem",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Walters_Palm_Toffee_tin,_pic1.JPG",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Walters_Palm_Toffee_tin%2C_pic1.JPG/960px-Walters_Palm_Toffee_tin%2C_pic1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Walters Palm Toffee tin, pic1",
+        "notes": [
+          "Commons advierte marcas registradas en la imagen"
+        ]
+      },
+      {
+        "file": "Walters Palm Toffee tin, pic2.JPG",
+        "ok": true,
+        "licencia": "CC0",
+        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "autor": "Alf van Beem",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Walters_Palm_Toffee_tin,_pic2.JPG",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Walters_Palm_Toffee_tin%2C_pic2.JPG/960px-Walters_Palm_Toffee_tin%2C_pic2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Walters Palm Toffee tin, pic2",
         "notes": [
           "Commons advierte marcas registradas en la imagen"
         ]
@@ -2019,21 +2153,8 @@
     "tipo": "cultura",
     "explicacion": "La tribuna Holte End, una de las más grandes del fútbol inglés.",
     "buscar": "Holte End Villa Park",
-    "elegida": "Villa Park, Entrance to the Holte End - geograph.org.uk - 7877293.jpg",
+    "elegida": "Arriving at The Holte End, Villa Park - geograph.org.uk - 787153.jpg",
     "candidatas": [
-      {
-        "file": "Villa Park, Entrance to the Holte End - geograph.org.uk - 7877293.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 2.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-        "autor": "Villa Park: Entrance to the Holte End by Anthony Foster",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Villa_Park,_Entrance_to_the_Holte_End_-_geograph.org.uk_-_7877293.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Villa_Park%2C_Entrance_to_the_Holte_End_-_geograph.org.uk_-_7877293.jpg/960px-Villa_Park%2C_Entrance_to_the_Holte_End_-_geograph.org.uk_-_7877293.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Villa Park, Entrance to the Holte End - geograph.org.uk - 7877293",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
       {
         "file": "Arriving at The Holte End, Villa Park - geograph.org.uk - 787153.jpg",
         "ok": true,
@@ -2096,6 +2217,17 @@
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
+      },
+      {
+        "file": "The Holte End - Villa Park.jpg",
+        "ok": true,
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "autor": "Elliott Brown",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:The_Holte_End_-_Villa_Park.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/The_Holte_End_-_Villa_Park.jpg/960px-The_Holte_End_-_Villa_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "The Holte End - Villa Park",
+        "notes": []
       }
     ],
     "obs": "El nombre del archivo menciona al club (solo se ve al final, pero revisa que la imagen no lo muestre)"
@@ -2951,21 +3083,8 @@
     "tipo": "cultura",
     "explicacion": "El estadio Molineux toma su nombre de Benjamin Molineux, comerciante local del siglo XVIII.",
     "buscar": "Molineux Stadium",
-    "elegida": "Molineux Stadium - geograph.org.uk - 5718903.jpg",
+    "elegida": "Molineux Stadium - geograph.org.uk - 2439244.jpg",
     "candidatas": [
-      {
-        "file": "Molineux Stadium - geograph.org.uk - 5718903.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 2.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-        "autor": "Molineux Stadium by Philip Halling",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Molineux_Stadium_-_geograph.org.uk_-_5718903.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Molineux_Stadium_-_geograph.org.uk_-_5718903.jpg/960px-Molineux_Stadium_-_geograph.org.uk_-_5718903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Molineux Stadium - geograph.org.uk - 5718903",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
       {
         "file": "Molineux Stadium - geograph.org.uk - 2439244.jpg",
         "ok": true,
@@ -3025,6 +3144,19 @@
         "url_fuente": "https://commons.wikimedia.org/wiki/File:Molineux_Ground,_Wolverhampton.jpg",
         "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/43/Molineux_Ground%2C_Wolverhampton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "titulo": "Molineux Ground, Wolverhampton",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Molineux Stadium, Wolverhampton, 2018.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Reidmail",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Molineux_Stadium,_Wolverhampton,_2018.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Molineux_Stadium%2C_Wolverhampton%2C_2018.jpg/960px-Molineux_Stadium%2C_Wolverhampton%2C_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Molineux Stadium, Wolverhampton, 2018",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
@@ -4174,18 +4306,18 @@
     "foto": 3,
     "tipo": "apodo",
     "explicacion": "El gato negro: el apodo «The Black Cats» viene de una antigua batería de cañones junto al río Wear.",
-    "buscar": "black cat sitting",
-    "elegida": "Black and white cat sitting on lawn.jpg",
+    "buscar": "black cat",
+    "elegida": "Felis catus-cat on snow.jpg",
     "candidatas": [
       {
-        "file": "Black and white cat sitting on lawn.jpg",
+        "file": "Felis catus-cat on snow.jpg",
         "ok": true,
-        "licencia": "CC BY-SA 4.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Grendelkhan",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Black_and_white_cat_sitting_on_lawn.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Black_and_white_cat_sitting_on_lawn.jpg/960px-Black_and_white_cat_sitting_on_lawn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Black and white cat sitting on lawn",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "autor": "Von.grzanka",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Felis_catus-cat_on_snow.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Felis_catus-cat_on_snow.jpg/960px-Felis_catus-cat_on_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Felis catus-cat on snow",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
@@ -4204,53 +4336,49 @@
         ]
       },
       {
-        "file": "Cat Iran.jpg",
+        "file": "Sleeping cat on her back.jpg",
         "ok": true,
-        "licencia": "CC BY-SA 3.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
-        "autor": "درفش کاویانی",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Cat_Iran.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Cat_Iran.jpg/960px-Cat_Iran.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Cat Iran",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
+        "licencia": "CC BY 2.0",
+        "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "autor": "Umberto Salvagnin",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Sleeping_cat_on_her_back.jpg/960px-Sleeping_cat_on_her_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Sleeping cat on her back",
+        "notes": []
       },
       {
-        "file": "Siberian black tabby blotched cat 04.jpg",
+        "file": "Tabby cat with blue eyes-3336579.jpg",
         "ok": true,
-        "licencia": "CC BY-SA 4.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Tadeáš Bednarz",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Siberian_black_tabby_blotched_cat_04.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Siberian_black_tabby_blotched_cat_04.jpg/960px-Siberian_black_tabby_blotched_cat_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Siberian black tabby blotched cat 04",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
+        "licencia": "CC0",
+        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "autor": "AdinaVoicu",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Tabby_cat_with_blue_eyes-3336579.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Tabby_cat_with_blue_eyes-3336579.jpg/960px-Tabby_cat_with_blue_eyes-3336579.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Tabby cat with blue eyes-3336579",
+        "notes": []
       },
       {
-        "file": "Siberian black tabby blotched cat 01.jpg",
+        "file": "Calico cat, - Assisi, Italy.jpg",
         "ok": true,
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Tadeáš Bednarz",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Siberian_black_tabby_blotched_cat_01.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Siberian_black_tabby_blotched_cat_01.jpg/960px-Siberian_black_tabby_blotched_cat_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Siberian black tabby blotched cat 01",
+        "autor": "Terragio67",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Calico_cat,_-_Assisi,_Italy.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Calico_cat%2C_-_Assisi%2C_Italy.jpg/960px-Calico_cat%2C_-_Assisi%2C_Italy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Calico cat, - Assisi, Italy",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
       },
       {
-        "file": "Black cat sitting on gravel.jpg",
+        "file": "Cat in Efremov, Russia1.jpg",
         "ok": true,
         "licencia": "CC BY 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by/4.0",
-        "autor": "Negative Mortality",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Black_cat_sitting_on_gravel.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Black_cat_sitting_on_gravel.jpg/960px-Black_cat_sitting_on_gravel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Black cat sitting on gravel",
+        "autor": "Юрий Д.К.",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Cat_in_Efremov,_Russia1.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Cat_in_Efremov%2C_Russia1.jpg/960px-Cat_in_Efremov%2C_Russia1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Cat in Efremov, Russia1",
         "notes": []
       }
     ],

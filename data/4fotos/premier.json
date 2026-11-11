@@ -123,7 +123,15 @@
           "buscar": "Stamford Bridge stadium",
           "commons": null,
           "explicacion": "Un rincón de Stamford Bridge, el estadio del club desde su fundación en 1905.",
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/211ac1b0e45c2678.webp",
+            "archivo_commons": "Stamford Bridge stadium - geograph.org.uk - 4220001.jpg",
+            "titulo": "Stamford Bridge stadium - geograph.org.uk - 4220001",
+            "autor": "Stamford Bridge stadium by Thomas Nugent",
+            "licencia": "CC BY-SA 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Stamford_Bridge_stadium_-_geograph.org.uk_-_4220001.jpg"
+          },
           "excluir": [
             "London Stamford Bridge.jpg",
             "Stamford Bridge stadium - geograph.org.uk - 4219997.jpg"
@@ -243,7 +251,15 @@
           "buscar": "trident",
           "commons": null,
           "explicacion": "Un tridente, atributo del diablo del escudo: el apodo es «Red Devils».",
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/3bd0ea48e44a1bcf.webp",
+            "archivo_commons": "Ivy Guest House, Melbourne Place - geograph.org.uk - 400640.jpg",
+            "titulo": "Ivy Guest House, Melbourne Place - geograph.org.uk - 400640",
+            "autor": "Alan Longbottom",
+            "licencia": "CC BY-SA 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Ivy_Guest_House,_Melbourne_Place_-_geograph.org.uk_-_400640.jpg"
+          },
           "excluir": [
             "11th century Trishul with Shaivism Ardhanarishvara, Cleveland Museum of Art.jpg",
             "Neptu (\"Neptune\") with Trident Sculpture in the Jardin del Turia, Valencia, Spain.jpg"
@@ -514,7 +530,15 @@
           "buscar": "toffee sweets",
           "commons": null,
           "explicacion": "Una lata de caramelos toffee: el apodo «The Toffees» se atribuye a tiendas de caramelos del barrio.",
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/c8ed373bd3c9c1af.webp",
+            "archivo_commons": "Verkade's Toffee blik, pic1.JPG",
+            "titulo": "Verkade's Toffee blik, pic1",
+            "autor": "Alf van Beem",
+            "licencia": "CC0",
+            "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Verkade%27s_Toffee_blik,_pic1.JPG"
+          },
           "excluir": [
             "Confiserie Roodthooft Lange Leemstraat 374 (7164) Antwerpen 29-07-2019.jpg",
             "Walters Palm Toffee tin, pic3.JPG"
@@ -601,7 +625,15 @@
           "buscar": "Holte End Villa Park",
           "commons": null,
           "explicacion": "La tribuna Holte End, una de las más grandes del fútbol inglés.",
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/c91be3d33b3ead13.webp",
+            "archivo_commons": "Arriving at The Holte End, Villa Park - geograph.org.uk - 787153.jpg",
+            "titulo": "Arriving at The Holte End, Villa Park - geograph.org.uk - 787153",
+            "autor": "Row17",
+            "licencia": "CC BY-SA 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Arriving_at_The_Holte_End,_Villa_Park_-_geograph.org.uk_-_787153.jpg"
+          },
           "excluir": [
             "Villa Park-Holte End - geograph.org.uk - 1849209.jpg",
             "Villa Park, Entrance to the Holte End - geograph.org.uk - 7877293.jpg"
@@ -878,7 +910,15 @@
           "buscar": "Molineux Stadium",
           "commons": null,
           "explicacion": "El estadio Molineux toma su nombre de Benjamin Molineux, comerciante local del siglo XVIII.",
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/fe543a6f7aa18e18.webp",
+            "archivo_commons": "Molineux Stadium - geograph.org.uk - 2439244.jpg",
+            "titulo": "Molineux Stadium - geograph.org.uk - 2439244",
+            "autor": "Molineux Stadium by Bill Boaden",
+            "licencia": "CC BY-SA 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Molineux_Stadium_-_geograph.org.uk_-_2439244.jpg"
+          },
           "excluir": [
             "Molineux Stadium - geograph.org.uk - 5718889.jpg",
             "Molineux Stadium - geograph.org.uk - 5718903.jpg"
@@ -1199,7 +1239,15 @@
           "buscar": "black cat",
           "commons": null,
           "explicacion": "El gato negro: el apodo «The Black Cats» viene de una antigua batería de cañones junto al río Wear.",
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/8ad5cb01c8c2dbce.webp",
+            "archivo_commons": "Felis catus-cat on snow.jpg",
+            "titulo": "Felis catus-cat on snow",
+            "autor": "Von.grzanka",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Felis_catus-cat_on_snow.jpg"
+          },
           "excluir": [
             "Cat November 2010-1a.jpg",
             "Black and white cat sitting on lawn.jpg"
