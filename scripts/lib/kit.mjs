@@ -1,9 +1,9 @@
 // Ilustración original de una camiseta genérica con los colores de un club (sin escudo, marcas ni texto).
 // Los colores por sí solos no son una obra protegida; el dibujo es propio del sitio.
-//   patron: "liso" | "rayas" | "aros" | "mangas" | "mitades" | "banda"
+//   patron: "liso" | "rayas" | "aros" | "mangas" | "mitades" | "banda" | "franja" (franja horizontal al medio)
 //   colores: [principal, secundario] en hexadecimal
 
-export const KIT_PATTERNS = ["liso", "rayas", "aros", "mangas", "mitades", "banda"];
+export const KIT_PATTERNS = ["liso", "rayas", "aros", "mangas", "mitades", "banda", "franja"];
 
 const SHIRT = "M70,34 L88,26 Q100,40 112,26 L130,34 L170,62 L152,92 L136,82 L136,176 L64,176 L64,82 L48,92 L30,62 Z";
 
@@ -24,6 +24,9 @@ export function kitSvg({ patron, colores }) {
       break;
     case "mitades":
       fill = `<rect width="100" height="200" fill="${a}"/><rect x="100" width="100" height="200" fill="${b}"/>`;
+      break;
+    case "franja":
+      fill = `<rect width="200" height="200" fill="${a}"/><rect x="0" y="92" width="200" height="30" fill="${b}"/>`;
       break;
     case "banda":
       fill = `<rect width="200" height="200" fill="${a}"/><polygon points="60,20 95,20 160,200 125,200" fill="${b}"/>`;

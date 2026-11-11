@@ -87,6 +87,7 @@ export const CONFIG = {
       { id: "seriea", nombre: "Serie A", emoji: "🇮🇹", activa: false },
       { id: "champions", nombre: "Equipos de Champions League", emoji: "🇪🇺", activa: false },
       { id: "historicos", nombre: "Campeones históricos de Champions y Libertadores", emoji: "🏆", activa: false },
+      { id: "otros", nombre: "Otros equipos", emoji: "🌎", activa: false },
     ],
   },
 

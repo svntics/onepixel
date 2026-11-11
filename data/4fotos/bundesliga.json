@@ -1,0 +1,273 @@
+{
+  "liga": "bundesliga",
+  "equipos": [
+    {
+      "id": "bayern",
+      "nombre": "Bayern",
+      "respuesta": "BAYERN",
+      "pais": "Alemania",
+      "ligas": [
+        "bundesliga"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "La Frauenkirche de Múnich, con sus dos cúpulas.",
+          "buscar": "Frauenkirche Munich",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Los rombos blancos y celestes de la bandera de Baviera: «Bayern» significa Baviera.",
+          "buscar": "Flag of Bavaria lozenges",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "Un pretzel, símbolo de Múnich y su Oktoberfest.",
+          "buscar": "Bavarian pretzel",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#DC052D",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Rojo con blanco."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "borussia-dortmund",
+      "nombre": "Borussia Dortmund",
+      "respuesta": "BORUSSIA DORTMUND",
+      "pais": "Alemania",
+      "ligas": [
+        "bundesliga"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "Una torre de mina del Ruhr, la región minera e industrial de Dortmund.",
+          "buscar": "Zeche Zollern headframe",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "La «Muralla Amarilla», su enorme tribuna de pie llena de hinchas.",
+          "buscar": "Südtribüne Dortmund",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Una cervecería: según la historia del club, el nombre «Borussia» se tomó de la cervecería Borussia de Dortmund, en 1909.",
+          "buscar": "Dortmund brewery beer",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#FDE100",
+              "#000000"
+            ]
+          },
+          "explicacion": "Amarillo con negro."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "bayer-leverkusen",
+      "nombre": "Bayer Leverkusen",
+      "respuesta": "BAYER LEVERKUSEN",
+      "pais": "Alemania",
+      "ligas": [
+        "bundesliga"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "Una planta química: el club lo fundaron en 1904 trabajadores de la empresa Bayer.",
+          "buscar": "Chempark Leverkusen chemical plant",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Pastillas de aspirina, el producto más famoso de Bayer.",
+          "buscar": "aspirin tablets",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Una fábrica: su apodo es «Die Werkself», el once de la fábrica.",
+          "ia_prompt": "Genera una imagen cuadrada y realista: una antigua fábrica de ladrillo con chimeneas y obreros caminando hacia la entrada, estilo fotografía de principios del siglo XX, sin personas reconocibles. Sin texto, sin letras, sin logos, sin escudos."
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#E32221",
+              "#000000"
+            ]
+          },
+          "explicacion": "Rojo con negro."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "wolfsburg",
+      "nombre": "Wolfsburg",
+      "respuesta": "WOLFSBURG",
+      "pais": "Alemania",
+      "ligas": [
+        "bundesliga"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "La gran fábrica de autos de Wolfsburg: la ciudad se creó en 1938 para alojar a sus trabajadores.",
+          "buscar": "Volkswagen factory Wolfsburg chimneys",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "El castillo de Wolfsburg, que da nombre a la ciudad: «Wolfsburg» significa «castillo del lobo».",
+          "buscar": "Schloss Wolfsburg",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Un lobo: «Die Wölfe».",
+          "buscar": "grey wolf Canis lupus",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#65B32E",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Verde con blanco."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "schalke",
+      "nombre": "Schalke 04",
+      "respuesta": "SCHALKE",
+      "pais": "Alemania",
+      "ligas": [
+        "bundesliga"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "Gelsenkirchen, ciudad minera del Ruhr. El «04» del nombre es por 1904, el año de fundación.",
+          "buscar": "Gelsenkirchen colliery",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Un casco y una picota de minero: «Die Knappen», los mineros.",
+          "buscar": "miner helmet pickaxe",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "Trozos de carbón, la base de la historia de la ciudad.",
+          "buscar": "coal lumps",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#004D9D",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Azul con blanco."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "leipzig",
+      "nombre": "Leipzig",
+      "respuesta": "LEIPZIG",
+      "pais": "Alemania",
+      "ligas": [
+        "bundesliga"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "El Monumento a la Batalla de las Naciones, en Leipzig.",
+          "buscar": "Völkerschlachtdenkmal Leipzig",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "La estatua de Johann Sebastian Bach, que vivió y trabajó en Leipzig.",
+          "buscar": "Bach statue Thomaskirche Leipzig",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Un toro: «Die Roten Bullen», los toros rojos.",
+          "buscar": "bull portrait",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#FFFFFF",
+              "#DD0741"
+            ]
+          },
+          "explicacion": "Blanco con rojo."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    }
+  ]
+}

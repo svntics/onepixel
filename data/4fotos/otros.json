@@ -1,0 +1,717 @@
+{
+  "liga": "otros",
+  "equipos": [
+    {
+      "id": "racing",
+      "nombre": "Racing",
+      "respuesta": "RACING",
+      "pais": "Argentina",
+      "ligas": [
+        "otros"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "Avellaneda, junto a Buenos Aires, donde se fundó el club en 1903.",
+          "buscar": "Avellaneda Buenos Aires",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Un auto de carreras: «racing» significa «carreras» en inglés.",
+          "buscar": "race car circuit",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Una biblioteca antigua: el apodo del club es «La Academia».",
+          "buscar": "old library interior",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#6CACE4",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Rayas celestes y blancas."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "celtic",
+      "nombre": "Celtic",
+      "respuesta": "CELTIC",
+      "pais": "Escocia",
+      "ligas": [
+        "otros"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "El East End de Glasgow: el club lo fundó en 1887 el hermano Walfrid para ayudar a inmigrantes irlandeses pobres.",
+          "buscar": "Glasgow East End",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Una cruz celta.",
+          "buscar": "Celtic cross",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "Un trébol, símbolo irlandés que aparece en el escudo.",
+          "buscar": "shamrock clover",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "aros",
+            "colores": [
+              "#018749",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Aros horizontales verdes y blancos."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "colo-colo",
+      "nombre": "Colo-Colo",
+      "respuesta": "COLO COLO",
+      "pais": "Chile",
+      "ligas": [
+        "otros"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "Un kultrún, tambor mapuche: el club lleva el nombre del cacique mapuche Colo Colo.",
+          "buscar": "kultrun Mapuche drum",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Un gato colocolo, felino sudamericano.",
+          "buscar": "Leopardus colocola",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "El Estadio Monumental, en Macul.",
+          "buscar": "Estadio Monumental David Arellano",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#FFFFFF",
+              "#000000"
+            ]
+          },
+          "explicacion": "Blanco con negro."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "universidad-de-chile",
+      "nombre": "Universidad de Chile",
+      "respuesta": "UNIVERSIDAD DE CHILE",
+      "pais": "Chile",
+      "ligas": [
+        "otros"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "La Casa Central de la Universidad de Chile, en la Alameda.",
+          "buscar": "Casa Central Universidad de Chile",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "El Estadio Nacional, donde suele jugar de local.",
+          "buscar": "Estadio Nacional de Chile",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Un chuncho (búho chileno), símbolo del club.",
+          "buscar": "Glaucidium nana austral pygmy owl",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#0033A0",
+              "#E30613"
+            ]
+          },
+          "explicacion": "Azul."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "universidad-catolica",
+      "nombre": "Universidad Católica",
+      "respuesta": "UNIVERSIDAD CATOLICA",
+      "pais": "Chile",
+      "ligas": [
+        "otros"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "La Casa Central de la Pontificia Universidad Católica, en la Alameda.",
+          "buscar": "Casa Central Pontificia Universidad Católica de Chile",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "El estadio San Carlos de Apoquindo, a los pies de la cordillera.",
+          "buscar": "San Carlos de Apoquindo",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Un caballero cruzado: el apodo del club es «Los Cruzados».",
+          "ia_prompt": "Genera una imagen cuadrada y realista: un caballero cruzado medieval con armadura y capa blanca, de espaldas, frente a un castillo, sin rostro visible. Sin texto, sin letras, sin logos, sin escudos."
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "franja",
+            "colores": [
+              "#FFFFFF",
+              "#0033A0"
+            ]
+          },
+          "explicacion": "Blanco con una franja horizontal azul."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "boca-juniors",
+      "nombre": "Boca Juniors",
+      "respuesta": "BOCA JUNIORS",
+      "pais": "Argentina",
+      "ligas": [
+        "otros"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "Caminito, en el barrio de La Boca.",
+          "buscar": "Caminito La Boca",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "El puerto de Génova: el apodo «Xeneizes» (genoveses) viene de los inmigrantes italianos del barrio.",
+          "buscar": "Port of Genoa",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Una caja de bombones: su estadio es «La Bombonera».",
+          "buscar": "box of chocolates bonbons",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "franja",
+            "colores": [
+              "#003C82",
+              "#F3B229"
+            ]
+          },
+          "explicacion": "Azul con una franja horizontal amarilla."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "river-plate",
+      "nombre": "River Plate",
+      "respuesta": "RIVER PLATE",
+      "pais": "Argentina",
+      "ligas": [
+        "otros"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "El Estadio Monumental, en el barrio de Núñez (Buenos Aires).",
+          "buscar": "Estadio Monumental Buenos Aires",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "El Río de la Plata: en inglés se llama «River Plate».",
+          "buscar": "Río de la Plata",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Billetes: el apodo del club es «Los Millonarios».",
+          "ia_prompt": "Genera una imagen cuadrada y realista: un fajo grande de billetes genéricos sin texto ni rostros sobre una mesa. Sin texto, sin letras, sin logos, sin escudos."
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "banda",
+            "colores": [
+              "#FFFFFF",
+              "#E2231A"
+            ]
+          },
+          "explicacion": "Blanco con una banda roja diagonal."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "independiente",
+      "nombre": "Independiente",
+      "respuesta": "INDEPENDIENTE",
+      "pais": "Argentina",
+      "ligas": [
+        "otros"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "Avellaneda, la misma ciudad de Racing, su gran rival.",
+          "buscar": "Avellaneda bridge Riachuelo",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Una corona sobre copas: «Rey de Copas», porque es el club con más Copas Libertadores (7).",
+          "ia_prompt": "Genera una imagen cuadrada y realista: una corona dorada apoyada sobre varias copas de trofeo plateadas genéricas, sobre fondo oscuro. Sin texto, sin letras, sin logos, sin escudos."
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "Su estadio se llama Libertadores de América, en honor a esa copa.",
+          "buscar": "Estadio Libertadores de América",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#E2001A",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Rojo."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "flamengo",
+      "nombre": "Flamengo",
+      "respuesta": "FLAMENGO",
+      "pais": "Brasil",
+      "ligas": [
+        "otros"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "El Pan de Azúcar, en Río de Janeiro.",
+          "buscar": "Sugarloaf Mountain Rio de Janeiro",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Un flamenco (el ave): el club lleva el nombre del barrio de Flamengo.",
+          "buscar": "flamingo Phoenicopterus",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Un urubú (buitre negro), la mascota del club.",
+          "buscar": "black vulture Coragyps atratus",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "aros",
+            "colores": [
+              "#C3281E",
+              "#000000"
+            ]
+          },
+          "explicacion": "Aros horizontales rojos y negros."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "santos",
+      "nombre": "Santos",
+      "respuesta": "SANTOS",
+      "pais": "Brasil",
+      "ligas": [
+        "otros"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "El puerto de Santos, en el estado de São Paulo.",
+          "buscar": "Port of Santos",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Estatuas de santos en una iglesia.",
+          "buscar": "statues of saints church",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Un pez: el apodo del club es «Peixe».",
+          "buscar": "school of fish",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#FFFFFF",
+              "#000000"
+            ]
+          },
+          "explicacion": "Blanco."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "penarol",
+      "nombre": "Peñarol",
+      "respuesta": "PENAROL",
+      "pais": "Uruguay",
+      "ligas": [
+        "otros"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "Una locomotora antigua: el club nació en 1891 como el de los trabajadores del ferrocarril central de Uruguay.",
+          "buscar": "steam locomotive Uruguay",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "El Palacio Salvo, en Montevideo.",
+          "buscar": "Palacio Salvo Montevideo",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Carbón: el apodo «Carboneros» se atribuye a su origen ferroviario, cuando las locomotoras funcionaban a carbón.",
+          "buscar": "coal lumps anthracite",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#000000",
+              "#FDD20E"
+            ]
+          },
+          "explicacion": "Rayas amarillas y negras."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "palmeiras",
+      "nombre": "Palmeiras",
+      "respuesta": "PALMEIRAS",
+      "pais": "Brasil",
+      "ligas": [
+        "otros"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "São Paulo: el club lo fundaron inmigrantes italianos en 1914 como «Palestra Itália».",
+          "buscar": "São Paulo skyline",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Palmeras: «palmeira» significa palmera en portugués.",
+          "buscar": "palm trees",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Un cerdo: era una burla de los rivales, la hinchada la adoptó y es mascota oficial desde 2016.",
+          "buscar": "domestic pig",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#006437",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Verde."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "america",
+      "nombre": "América de México",
+      "respuesta": "AMERICA",
+      "pais": "México",
+      "ligas": [
+        "otros"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "El Estadio Azteca, en Ciudad de México.",
+          "buscar": "Estadio Azteca",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Un mapa del continente americano.",
+          "buscar": "map of the Americas",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Un águila: el apodo del club es «Las Águilas».",
+          "buscar": "eagle in flight",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#FFE600",
+              "#002B5C"
+            ]
+          },
+          "explicacion": "Amarillo con azul."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "olympiakos",
+      "nombre": "Olympiakos",
+      "respuesta": "OLYMPIAKOS",
+      "pais": "Grecia",
+      "ligas": [
+        "otros"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "El puerto del Pireo, junto a Atenas.",
+          "buscar": "Port of Piraeus",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Una corona de laurel: el nombre evoca los Juegos Olímpicos de la antigua Grecia.",
+          "buscar": "laurel wreath",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "El Partenón de Atenas.",
+          "buscar": "Parthenon Athens",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#E2001A",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Rayas rojas y blancas."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "al-nassr",
+      "nombre": "Al Nassr",
+      "respuesta": "AL NASSR",
+      "pais": "Arabia Saudita",
+      "ligas": [
+        "otros"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "Los rascacielos de Riad, en Arabia Saudita.",
+          "buscar": "Riyadh skyline",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "La V de la victoria: «Al Nassr» significa «la victoria» en árabe.",
+          "ia_prompt": "Genera una imagen cuadrada y realista: una mano haciendo el signo de la victoria con dos dedos en V, contra un cielo de desierto al atardecer. Sin texto, sin letras, sin logos, sin escudos."
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "La fortaleza de Masmak, en el centro histórico de Riad.",
+          "buscar": "Masmak fortress Riyadh",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#FFE500",
+              "#004B87"
+            ]
+          },
+          "explicacion": "Amarillo con azul."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "al-hilal",
+      "nombre": "Al Hilal",
+      "respuesta": "AL HILAL",
+      "pais": "Arabia Saudita",
+      "ligas": [
+        "otros"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "El desierto de Arabia Saudita, cerca de Riad.",
+          "buscar": "Arabian desert dunes",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Una luna creciente: «hilal» significa luna creciente en árabe.",
+          "buscar": "crescent moon",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "La torre Kingdom Centre, en Riad.",
+          "buscar": "Kingdom Centre Riyadh",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#005BAC",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Azul."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    }
+  ]
+}

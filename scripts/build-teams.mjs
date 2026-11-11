@@ -19,7 +19,7 @@ const SRC = join(ROOT, "data", "4fotos");
 const OUT = join(ROOT, "public", "data");
 const GEN = join(ROOT, "public", "img", "t");
 const PLACEHOLDERS = process.argv.includes("--placeholders");
-const TIPOS = ["colores", "origen", "apodo", "cultura"];
+const TIPOS = ["colores", "origen", "apodo", "cultura", "palabra"]; // palabra = juego de palabras
 const ORDEN_DEFECTO = ["origen", "cultura", "apodo", "colores"];
 const HEX = /^#[0-9a-fA-F]{6}$/;
 // País del club → código ISO 3166-1 numérico del mapa (public/img/mapa-mundo.svg).
@@ -28,6 +28,7 @@ const PAISES = {
   Inglaterra: "826", Escocia: "826", Gales: "826", "Irlanda del Norte": "826", "España": "724", Alemania: "276",
   Italia: "380", Francia: "250", Portugal: "620", "Países Bajos": "528", "Bélgica": "056", Argentina: "032",
   Brasil: "076", Uruguay: "858", Chile: "152", Paraguay: "600", Colombia: "170", Ecuador: "218", "Perú": "604",
+  "México": "484", Grecia: "300", "Arabia Saudita": "682",
 };
 const MAP_ISOS = new Set([...readFileSync(join(ROOT, "public", "img", "mapa-mundo.svg"), "utf8").matchAll(/data-iso="(\d+)"/g)].map((m) => m[1]));
 
@@ -44,7 +45,11 @@ function validate(t, file) {
   if (!PAISES[t.pais]) errors.push(`${where}: país "${t.pais}" sin código de mapa (agrégalo a PAISES)`);
   else if (!MAP_ISOS.has(PAISES[t.pais])) errors.push(`${where}: el mapa no tiene el país ${t.pais}`);
   if (!Array.isArray(t.ligas) || !t.ligas.length || t.ligas.some((l) => !LEAGUES.has(l))) errors.push(`${where}: "ligas" inválidas`);
-  if (t.orden && (t.orden.length !== 4 || TIPOS.some((x) => !t.orden.includes(x)))) errors.push(`${where}: "orden" debe tener los 4 tipos`);
+  // orden: "datos" = las fotos se revelan en el orden en que están escritas (la camiseta al final);
+  // una lista de 4 tipos = ordena por tipo; sin "orden" = ORDEN_DEFECTO.
+  if (t.orden === "datos") {
+    if (t.fotos?.at(-1)?.tipo !== "colores") errors.push(`${where}: con orden "datos", la última foto debe ser la camiseta`);
+  } else if (t.orden && (t.orden.length !== 4 || ORDEN_DEFECTO.some((x) => !t.orden.includes(x)))) errors.push(`${where}: "orden" debe tener los 4 tipos`);
   if (!Array.isArray(t.fotos) || t.fotos.length !== 4) return errors.push(`${where}: debe tener exactamente 4 fotos`);
   t.fotos.forEach((f, i) => {
     const w = `${where} foto ${i + 1}`;
@@ -55,7 +60,7 @@ function validate(t, file) {
       if (!f.generada.colores?.every((c) => HEX.test(c)) || f.generada.colores.length !== 2) errors.push(`${w}: colores inválidos`);
     } else if (f.ia) {
       if (!f.ia.archivo_local) errors.push(`${w}: falta ia.archivo_local`);
-    } else if (!f.buscar && !f.commons) errors.push(`${w}: necesita "buscar" o "commons"`);
+    } else if (!f.buscar && !f.commons && !f.ia_prompt) errors.push(`${w}: necesita "buscar", "commons" o "ia_prompt"`);
   });
 }
 
@@ -65,20 +70,21 @@ function photo(t, f, i) {
     const name = imageFileName(`4f:${t.id}:${i}`).replace(/\.webp$/, ".svg");
     mkdirSync(GEN, { recursive: true });
     writeFileSync(join(GEN, name), kitSvg(f.generada));
-    return { img: `img/t/${name}`, tipo: f.tipo, exp: f.explicacion, cr: null };
+    return { img: `img/t/${name}`, tipo: f.tipo, juego: !!f.juego, exp: f.explicacion, cr: null };
   }
   // Ilustración generada con IA (objetos o animales genéricos; nunca lugares ni personas reales)
-  if (f.ia) return { img: f.ia.archivo_local, tipo: f.tipo, exp: f.explicacion, cr: null, ia: true };
+  if (f.ia) return { img: f.ia.archivo_local, tipo: f.tipo, juego: !!f.juego, exp: f.explicacion, cr: null, ia: true };
   if (f.imagen) {
     const im = f.imagen;
     return {
       img: im.archivo_local,
       tipo: f.tipo,
+      juego: !!f.juego,
       exp: f.explicacion,
       cr: { autor: im.autor, licencia: im.licencia, url_licencia: im.url_licencia, url_fuente: im.url_fuente, titulo: im.titulo ?? "", mod: im.modificacion ?? "" },
     };
   }
-  return PLACEHOLDERS ? { img: "img/placeholder.svg", tipo: f.tipo, exp: f.explicacion, cr: null, pendiente: true } : null;
+  return PLACEHOLDERS ? { img: "img/placeholder.svg", tipo: f.tipo, juego: !!f.juego, exp: f.explicacion, cr: null, pendiente: true } : null;
 }
 
 mkdirSync(OUT, { recursive: true });
@@ -102,7 +108,7 @@ for (const file of files) {
     // Orden en que se revelan: de la más difícil a la más fácil (la camiseta al final).
     // Un equipo puede definir su propio "orden" (lista de tipos).
     const orden = t.orden ?? ORDEN_DEFECTO;
-    const sorted = [...fotos].sort((a, b) => orden.indexOf(a.tipo) - orden.indexOf(b.tipo));
+    const sorted = orden === "datos" ? fotos : [...fotos].sort((a, b) => orden.indexOf(a.tipo) - orden.indexOf(b.tipo));
     all.push({ id: t.id, nombre: t.nombre, respuesta: t.respuesta, iso: PAISES[t.pais], fotos: sorted });
   }
 }

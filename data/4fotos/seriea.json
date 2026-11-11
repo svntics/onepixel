@@ -1,0 +1,497 @@
+{
+  "liga": "seriea",
+  "equipos": [
+    {
+      "id": "juventus",
+      "nombre": "Juventus",
+      "respuesta": "JUVENTUS",
+      "pais": "Italia",
+      "ligas": [
+        "seriea"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "La Mole Antonelliana de Turín.",
+          "buscar": "Mole Antonelliana Turin",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Jóvenes estudiantes: «Juventus» significa «juventud» en latín; lo fundaron estudiantes de liceo en 1897.",
+          "ia_prompt": "Genera una imagen cuadrada y realista: un grupo de estudiantes adolescentes de fines del siglo XIX con trajes de época sentados en un banco de una plaza, estilo fotografía antigua en blanco y negro, sin personas reconocibles. Sin texto, sin letras, sin logos, sin escudos."
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Una cebra: «Le Zebre», por sus rayas blancas y negras.",
+          "buscar": "zebra Equus quagga",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#000000",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Rayas negras y blancas."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "milan",
+      "nombre": "Milan",
+      "respuesta": "MILAN",
+      "pais": "Italia",
+      "ligas": [
+        "seriea"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "La catedral (Duomo) de Milán.",
+          "buscar": "Milan Cathedral Duomo",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "Las torres en espiral del estadio de San Siro.",
+          "buscar": "San Siro stadium towers",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Una máscara de diablo: el apodo del club es «Il Diavolo».",
+          "ia_prompt": "Genera una imagen cuadrada y realista: una máscara de carnaval de diablo rojo con cuernos sobre una mesa de madera oscura. Sin texto, sin letras, sin logos, sin escudos."
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#FB090B",
+              "#000000"
+            ]
+          },
+          "explicacion": "Rayas rojas y negras."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "inter",
+      "nombre": "Inter",
+      "respuesta": "INTER",
+      "pais": "Italia",
+      "ligas": [
+        "seriea"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "La Galería Vittorio Emanuele II de Milán.",
+          "buscar": "Galleria Vittorio Emanuele II",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Un globo terráqueo: se llama «Internazionale» porque nació en 1908 para aceptar jugadores extranjeros.",
+          "buscar": "terrestrial globe",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Una serpiente: «Il Biscione», la gran culebra, símbolo histórico de Milán.",
+          "buscar": "grass snake Natrix",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#0068A8",
+              "#000000"
+            ]
+          },
+          "explicacion": "Rayas negras y azules."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "napoli",
+      "nombre": "Napoli",
+      "respuesta": "NAPOLI",
+      "pais": "Italia",
+      "ligas": [
+        "seriea"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "El Vesubio sobre la bahía de Nápoles.",
+          "buscar": "Vesuvius Bay of Naples",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "La pizza napolitana.",
+          "buscar": "Neapolitan pizza",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Un burro: «'o Ciuccio» (el burrito) es un símbolo popular de la hinchada desde los años 20.",
+          "buscar": "donkey Equus asinus",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#12A0D7",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Celeste."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "roma",
+      "nombre": "Roma",
+      "respuesta": "ROMA",
+      "pais": "Italia",
+      "ligas": [
+        "seriea"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "El Coliseo.",
+          "buscar": "Colosseum Rome",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "Una tapa de alcantarilla con «SPQR», el lema de la antigua Roma.",
+          "buscar": "SPQR manhole cover Rome",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "La loba capitolina con Rómulo y Remo, que aparece en el escudo del club.",
+          "buscar": "Capitoline Wolf",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#8E1F2F",
+              "#F0BC42"
+            ]
+          },
+          "explicacion": "Granate con amarillo."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "fiorentina",
+      "nombre": "Fiorentina",
+      "respuesta": "FIORENTINA",
+      "pais": "Italia",
+      "ligas": [
+        "seriea"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "El Ponte Vecchio de Florencia.",
+          "buscar": "Ponte Vecchio Florence",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "El lirio rojo, símbolo de Florencia que aparece en el escudo.",
+          "buscar": "Florence giglio lily red",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Flores violetas: el apodo del club es «La Viola», por su color.",
+          "juego": true,
+          "buscar": "violets flowers Viola odorata",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#482E92",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Morado."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "atalanta",
+      "nombre": "Atalanta",
+      "respuesta": "ATALANTA",
+      "pais": "Italia",
+      "ligas": [
+        "seriea"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "La Città Alta de Bérgamo, con sus murallas.",
+          "buscar": "Città Alta Bergamo walls",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Una estatua de Atalanta, la cazadora de la mitología griega que da nombre al club.",
+          "buscar": "Atalanta statue",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "El funicular que sube a la Città Alta de Bérgamo.",
+          "buscar": "Bergamo funicular",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#1E71B8",
+              "#000000"
+            ]
+          },
+          "explicacion": "Rayas negras y azules."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "lazio",
+      "nombre": "Lazio",
+      "respuesta": "LAZIO",
+      "pais": "Italia",
+      "ligas": [
+        "seriea"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "La Piazza della Libertà, en el barrio romano de Prati: ahí se fundó el club en 1900.",
+          "buscar": "Piazza della Libertà Rome",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "Las ruinas de Olimpia: sus colores celeste y blanco son un homenaje a Grecia, cuna de los Juegos Olímpicos.",
+          "buscar": "Olympia Greece ruins",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Un águila: el club tiene un águila como mascota y símbolo.",
+          "buscar": "golden eagle Aquila chrysaetos",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#87D8F7",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Celeste con blanco."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "como",
+      "nombre": "Como",
+      "respuesta": "COMO",
+      "pais": "Italia",
+      "ligas": [
+        "seriea"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "El lago de Como.",
+          "buscar": "Lake Como",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "Su estadio, el Sinigaglia, está a orillas del lago.",
+          "buscar": "Stadio Giuseppe Sinigaglia",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "La catedral de Como.",
+          "buscar": "Como Cathedral",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#1A3C8C",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Azul."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "udinese",
+      "nombre": "Udinese",
+      "respuesta": "UDINESE",
+      "pais": "Italia",
+      "ligas": [
+        "seriea"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "El castillo de Udine, en la región de Friuli.",
+          "buscar": "Castle of Udine",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "La Loggia del Lionello, en el centro de Udine.",
+          "buscar": "Loggia del Lionello Udine",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Una cría de cebra: el apodo del club es «Zebrette», las cebritas.",
+          "buscar": "zebra foal",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#000000",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Rayas blancas y negras."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "sassuolo",
+      "nombre": "Sassuolo",
+      "respuesta": "SASSUOLO",
+      "pais": "Italia",
+      "ligas": [
+        "seriea"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "Baldosas de cerámica: Sassuolo es la capital italiana de la cerámica, y el club pertenece desde 2003 a la empresa Mapei.",
+          "buscar": "Sassuolo ceramic district tiles",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Piedras: «sasso» significa piedra en italiano.",
+          "buscar": "river stones pebbles",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "El Palacio Ducal de Sassuolo.",
+          "buscar": "Palazzo Ducale Sassuolo",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#00A752",
+              "#000000"
+            ]
+          },
+          "explicacion": "Rayas negras y verdes."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "liga": "laliga",
+  "equipos": [
+    {
+      "id": "barcelona",
+      "nombre": "Barcelona",
+      "respuesta": "BARCELONA",
+      "pais": "España",
+      "ligas": [
+        "laliga"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "La Sagrada Familia, en Barcelona. El club se fundó en 1899 por iniciativa del suizo Joan Gamper.",
+          "buscar": "Sagrada Familia Barcelona",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "Los castells, torres humanas catalanas: el club es símbolo de la identidad catalana («Més que un club»).",
+          "buscar": "castellers human tower",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "«Culés»: así se llamó a los hinchas que se sentaban en el muro del antiguo campo de la calle Industria y se veían de espaldas desde la calle.",
+          "ia_prompt": "Genera una imagen cuadrada y realista: un grupo de personas sentadas sobre un muro de ladrillo antiguo, vistas de espaldas, mirando hacia un campo de fútbol, estilo fotografía antigua, sin personas reconocibles. Sin texto, sin letras, sin logos, sin escudos."
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#A50044",
+              "#004D98"
+            ]
+          },
+          "explicacion": "Rayas azules y granates (blaugrana)."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "real-madrid",
+      "nombre": "Real Madrid",
+      "respuesta": "REAL MADRID",
+      "pais": "España",
+      "ligas": [
+        "laliga"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "Una corona: el rey Alfonso XIII le dio al club el título de «Real» en 1920.",
+          "buscar": "royal crown jewels",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "La fuente de Cibeles, donde el club celebra sus títulos.",
+          "buscar": "Cibeles fountain Madrid",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Un merengue: el apodo «Los Merengues» viene de su camiseta blanca.",
+          "juego": true,
+          "buscar": "meringue dessert",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#FFFFFF",
+              "#FEBE10"
+            ]
+          },
+          "explicacion": "Todo blanco."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "atletico-de-madrid",
+      "nombre": "Atlético de Madrid",
+      "respuesta": "ATLETICO DE MADRID",
+      "pais": "España",
+      "ligas": [
+        "laliga"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "La estatua del Oso y el Madroño, símbolo de Madrid que aparece en el escudo del club.",
+          "buscar": "Oso y el Madroño statue Madrid",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "El río Manzanares: en su orilla estaba el antiguo estadio Vicente Calderón.",
+          "buscar": "Manzanares river Madrid",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Un colchón a rayas: «Los Colchoneros», porque sus rayas rojas y blancas recordaban la tela de los colchones.",
+          "juego": true,
+          "buscar": "striped mattress ticking",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#CB3524",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Rayas rojas y blancas."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "valencia",
+      "nombre": "Valencia",
+      "respuesta": "VALENCIA",
+      "pais": "España",
+      "ligas": [
+        "laliga"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "La Ciudad de las Artes y las Ciencias de Valencia.",
+          "buscar": "City of Arts and Sciences Valencia",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "Naranjas, el fruto típico de la región valenciana.",
+          "buscar": "Valencia oranges orange tree",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Un murciélago: aparece en el escudo del club, tomado del escudo de la ciudad.",
+          "buscar": "flying bat Pipistrellus",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#FFFFFF",
+              "#000000"
+            ]
+          },
+          "explicacion": "Blanco con negro."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "sevilla",
+      "nombre": "Sevilla",
+      "respuesta": "SEVILLA",
+      "pais": "España",
+      "ligas": [
+        "laliga"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "La Giralda, torre de la catedral de Sevilla.",
+          "buscar": "Giralda Seville",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "La Torre del Oro, junto al río Guadalquivir.",
+          "buscar": "Torre del Oro Seville",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "Un detalle del estadio Ramón Sánchez-Pizjuán, en el barrio sevillano de Nervión.",
+          "buscar": "Ramón Sánchez Pizjuán stadium",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#FFFFFF",
+              "#D71A28"
+            ]
+          },
+          "explicacion": "Blanco con detalles rojos."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "real-betis",
+      "nombre": "Real Betis",
+      "respuesta": "REAL BETIS",
+      "pais": "España",
+      "ligas": [
+        "laliga"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "La Plaza de España de Sevilla.",
+          "buscar": "Plaza de España Seville",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "El río Guadalquivir, que los romanos llamaban «Baetis»: de ahí viene el nombre del club.",
+          "buscar": "Guadalquivir river Seville",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "Un detalle del estadio Benito Villamarín, la casa del club.",
+          "buscar": "Benito Villamarín stadium",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#00954C",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Rayas verdes y blancas."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "athletic-bilbao",
+      "nombre": "Athletic Bilbao",
+      "respuesta": "ATHLETIC BILBAO",
+      "pais": "España",
+      "ligas": [
+        "laliga"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "El museo Guggenheim de Bilbao.",
+          "buscar": "Guggenheim Museum Bilbao",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "La ikurriña, bandera vasca: el club solo juega con futbolistas formados en el País Vasco y su entorno.",
+          "buscar": "Ikurriña Basque flag",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Un león: «Los Leones», porque su estadio, San Mamés, lleva el nombre de un santo que según la leyenda fue arrojado a los leones.",
+          "buscar": "lion portrait Panthera leo",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "rayas",
+            "colores": [
+              "#EE2523",
+              "#FFFFFF"
+            ]
+          },
+          "explicacion": "Rayas rojas y blancas."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "villarreal",
+      "nombre": "Villarreal",
+      "respuesta": "VILLARREAL",
+      "pais": "España",
+      "ligas": [
+        "laliga"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "Villarreal, ciudad de la provincia de Castellón conocida por su industria de la cerámica.",
+          "buscar": "Vila-real Castellón",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Baldosas de cerámica: su estadio se llama Estadio de la Cerámica.",
+          "buscar": "ceramic tiles",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "apodo",
+          "explicacion": "Un submarino amarillo: el apodo del club es «El Submarino Amarillo».",
+          "juego": true,
+          "ia_prompt": "Genera una imagen cuadrada y realista: un submarino amarillo navegando en la superficie de un mar azul en un día soleado. Sin texto, sin letras, sin logos, sin escudos."
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "liso",
+            "colores": [
+              "#FFE114",
+              "#005187"
+            ]
+          },
+          "explicacion": "Todo amarillo."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    },
+    {
+      "id": "rayo-vallecano",
+      "nombre": "Rayo Vallecano",
+      "respuesta": "RAYO VALLECANO",
+      "pais": "España",
+      "ligas": [
+        "laliga"
+      ],
+      "orden": "datos",
+      "fotos": [
+        {
+          "tipo": "origen",
+          "explicacion": "El barrio obrero de Vallecas, en Madrid.",
+          "buscar": "Vallecas Madrid",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "palabra",
+          "explicacion": "Un rayo en una tormenta.",
+          "buscar": "lightning storm",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "cultura",
+          "explicacion": "Un detalle del estadio de Vallecas, la casa del club.",
+          "buscar": "Estadio de Vallecas",
+          "commons": null,
+          "imagen": null
+        },
+        {
+          "tipo": "colores",
+          "generada": {
+            "patron": "banda",
+            "colores": [
+              "#FFFFFF",
+              "#E53027"
+            ]
+          },
+          "explicacion": "Blanco con una franja roja diagonal."
+        }
+      ],
+      "aprobado": "2026-11-11"
+    }
+  ]
+}

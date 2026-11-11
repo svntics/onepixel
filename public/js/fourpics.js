@@ -10,7 +10,7 @@ import {
 } from "./letters.js";
 
 const $ = (s) => document.querySelector(s);
-const TIPO_LABEL = { colores: "Colores", origen: "Origen", apodo: "Apodo", cultura: "Cultura del club" };
+const TIPO_LABEL = { colores: "Colores", origen: "Origen", apodo: "Apodo", cultura: "Cultura del club", palabra: "Juego de palabras" };
 const setView = (v) => (document.documentElement.dataset.fp = v);
 
 // ---------- Utilidades ----------
@@ -314,7 +314,8 @@ function whyItem(f, i) {
   img.width = 64;
   img.height = 64;
   const body = el("div", "text-sm");
-  body.append(el("p", "font-bold", `Foto ${i + 1} · ${TIPO_LABEL[f.tipo] ?? ""}`.replace(/ · $/, "")), el("p", "", f.exp));
+  const label = `${TIPO_LABEL[f.tipo] ?? ""}${f.juego && f.tipo !== "palabra" ? " · juego de palabras" : ""}`;
+  body.append(el("p", "font-bold", `Foto ${i + 1}${label ? ` · ${label}` : ""}${f.juego || f.tipo === "palabra" ? " 🎲" : ""}`), el("p", "", f.exp));
   const cr = el("p", "mt-1 text-xs text-muted");
   if (f.cr) {
     if (f.cr.titulo) cr.append(`«${f.cr.titulo}» · `);
