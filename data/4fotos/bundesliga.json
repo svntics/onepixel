@@ -16,21 +16,45 @@
           "explicacion": "La Frauenkirche de Múnich, con sus dos cúpulas.",
           "buscar": "Frauenkirche Munich",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/bc431c73bd173082.webp",
+            "archivo_commons": "Frauenkirche Munich, March 2018.jpg",
+            "titulo": "Frauenkirche Munich, March 2018",
+            "autor": "Martin Falbisoner",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Frauenkirche_Munich,_March_2018.jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "Los rombos blancos y celestes de la bandera de Baviera: «Bayern» significa Baviera.",
           "buscar": "Flag of Bavaria lozenges",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/b18597978c9e0c74.webp",
+            "archivo_commons": "Ehekirchen Coat of Arms.jpg",
+            "titulo": "Ehekirchen Coat of Arms",
+            "autor": "J.-H. Janßen",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Ehekirchen_Coat_of_Arms.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "Un pretzel, símbolo de Múnich y su Oktoberfest.",
           "buscar": "Bavarian pretzel",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/8d7ce2922f67e594.webp",
+            "archivo_commons": "Bavarian pretzels🥨.jpg",
+            "titulo": "Bavarian pretzels🥨",
+            "autor": "Fumikas Sagisavas",
+            "licencia": "CC0",
+            "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Bavarian_pretzels%F0%9F%A5%A8.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -61,21 +85,45 @@
           "explicacion": "Una torre de mina del Ruhr, la región minera e industrial de Dortmund.",
           "buscar": "Zeche Zollern headframe",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/45e5967946d20879.webp",
+            "archivo_commons": "Orchestra Cheat.jpg",
+            "titulo": "Orchestra Cheat",
+            "autor": "André Schäfer from Radevormwald, Deutschland",
+            "licencia": "CC BY-SA 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Orchestra_Cheat.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "La «Muralla Amarilla», su enorme tribuna de pie llena de hinchas.",
           "buscar": "Südtribüne Dortmund",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/0967ca58a6be8f57.webp",
+            "archivo_commons": "Südtribüne.jpg",
+            "titulo": "Südtribüne",
+            "autor": "splattael",
+            "licencia": "CC BY-SA 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:S%C3%BCdtrib%C3%BCne.jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "Una cervecería: según la historia del club, el nombre «Borussia» se tomó de la cervecería Borussia de Dortmund, en 1909.",
           "buscar": "Dortmund brewery beer",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/9ce4dcd84b89abab.webp",
+            "archivo_commons": "U Do (85336483).jpeg",
+            "titulo": "U Do",
+            "autor": "Jürgen Cordt",
+            "licencia": "CC BY 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:U_Do_(85336483).jpeg"
+          }
         },
         {
           "tipo": "colores",
@@ -113,7 +161,15 @@
           "explicacion": "Pastillas de aspirina, el producto más famoso de Bayer.",
           "buscar": "aspirin tablets",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/1bbaf36df64aeafc.webp",
+            "archivo_commons": "Regular strength enteric coated aspirin tablets.jpg",
+            "titulo": "Regular strength enteric coated aspirin tablets",
+            "autor": "Ragesoss",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Regular_strength_enteric_coated_aspirin_tablets.jpg"
+          }
         },
         {
           "tipo": "apodo",
@@ -149,21 +205,45 @@
           "explicacion": "La gran fábrica de autos de Wolfsburg: la ciudad se creó en 1938 para alojar a sus trabajadores.",
           "buscar": "Volkswagen factory Wolfsburg chimneys",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/f0d3291514a39c57.webp",
+            "archivo_commons": "Wolfsburg, Volkswagenwerk -- 2009 -- 0822.jpg",
+            "titulo": "Wolfsburg, Volkswagenwerk -- 2009 -- 0822",
+            "autor": "Dietmar Rabich",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Wolfsburg,_Volkswagenwerk_--_2009_--_0822.jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "El castillo de Wolfsburg, que da nombre a la ciudad: «Wolfsburg» significa «castillo del lobo».",
           "buscar": "Schloss Wolfsburg",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/86fbcdaf86b25806.webp",
+            "archivo_commons": "Aerial image of Wolfsburg Castle (view from the south).jpg",
+            "titulo": "Aerial image of Wolfsburg Castle (view from the south)",
+            "autor": "Carsten Steger",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Wolfsburg_Castle_(view_from_the_south).jpg"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "Un lobo: «Die Wölfe».",
           "buscar": "grey wolf Canis lupus",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/6d20aa4609493ff9.webp",
+            "archivo_commons": "Scandinavian grey wolf Canis lupus.jpg",
+            "titulo": "Scandinavian grey wolf Canis lupus",
+            "autor": "Malene Thyssen",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Scandinavian_grey_wolf_Canis_lupus.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -194,21 +274,45 @@
           "explicacion": "Gelsenkirchen, ciudad minera del Ruhr. El «04» del nombre es por 1904, el año de fundación.",
           "buscar": "Gelsenkirchen colliery",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/5bf1a9e84683256d.webp",
+            "archivo_commons": "Gelsenkirchen Schacht Oberschuir.jpg",
+            "titulo": "Gelsenkirchen Schacht Oberschuir",
+            "autor": "Doris Antony , Berlin",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Gelsenkirchen_Schacht_Oberschuir.jpg"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "Un casco y una picota de minero: «Die Knappen», los mineros.",
           "buscar": "miner helmet pickaxe",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/793fbe824d0565d3.webp",
+            "archivo_commons": "Rudnik Velenje 1958 (2).jpg",
+            "titulo": "Rudnik Velenje 1958 (2)",
+            "autor": "Desconocido Unknown author",
+            "licencia": "Public domain",
+            "url_licencia": "",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Rudnik_Velenje_1958_(2).jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "Trozos de carbón, la base de la historia de la ciudad.",
           "buscar": "coal lumps",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/cd5827750b5a2e3b.webp",
+            "archivo_commons": "Lumps of coal.jpg",
+            "titulo": "Lumps of coal",
+            "autor": "Duncan Harris",
+            "licencia": "CC BY-SA 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Lumps_of_coal.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -239,21 +343,45 @@
           "explicacion": "El Monumento a la Batalla de las Naciones, en Leipzig.",
           "buscar": "Völkerschlachtdenkmal Leipzig",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/6b37988d4910f6d5.webp",
+            "archivo_commons": "Trinkbrunnen - Völkerschlachtdenkmal 02.jpg",
+            "titulo": "Trinkbrunnen - Völkerschlachtdenkmal 02",
+            "autor": "Cookroach",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Trinkbrunnen_-_V%C3%B6lkerschlachtdenkmal_02.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "La estatua de Johann Sebastian Bach, que vivió y trabajó en Leipzig.",
           "buscar": "Bach statue Thomaskirche Leipzig",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/2b3f5fa8fcfd6f4c.webp",
+            "archivo_commons": "Fotothek df roe-neg 0000524 002 Bachdenkmal.jpg",
+            "titulo": "Fotothek df roe-neg 0000524 002 Bachdenkmal",
+            "autor": "Deutsche Fotothek‎",
+            "licencia": "CC BY-SA 3.0 de",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Fotothek_df_roe-neg_0000524_002_Bachdenkmal.jpg"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "Un toro: «Die Roten Bullen», los toros rojos.",
           "buscar": "bull portrait",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/d2d0658ef988f9aa.webp",
+            "archivo_commons": "Knud Bull, portrett av Christopher Malthe.jpg",
+            "titulo": "Portrait label QS:Len,\"Portrait\" label QS:Lnb,\"Portrett av Christopher Malthe\"",
+            "autor": "Knud Bull",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Knud_Bull,_portrett_av_Christopher_Malthe.jpg"
+          }
         },
         {
           "tipo": "colores",

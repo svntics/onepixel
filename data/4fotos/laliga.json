@@ -16,14 +16,30 @@
           "explicacion": "La Sagrada Familia, en Barcelona. El club se fundó en 1899 por iniciativa del suizo Joan Gamper.",
           "buscar": "Sagrada Familia Barcelona",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/7eecdfb6316b4ce6.webp",
+            "archivo_commons": "Sagrada Familia March 2015-19bw.jpg",
+            "titulo": "Sagrada Familia March 2015-19bw",
+            "autor": "Alvesgaspar",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia_March_2015-19bw.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "Los castells, torres humanas catalanas: el club es símbolo de la identidad catalana («Més que un club»).",
           "buscar": "castellers human tower",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/e966349a75dd484a.webp",
+            "archivo_commons": "Human Towers - Castellers (27756507567).jpg",
+            "titulo": "Human Towers - Castellers (27756507567)",
+            "autor": "Mike McBey",
+            "licencia": "CC BY 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Human_Towers_-_Castellers_(27756507567).jpg"
+          }
         },
         {
           "tipo": "apodo",
@@ -59,14 +75,30 @@
           "explicacion": "Una corona: el rey Alfonso XIII le dio al club el título de «Real» en 1920.",
           "buscar": "royal crown jewels",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/d0173ee66207090f.webp",
+            "archivo_commons": "Die britischen Royal Crown Jewels.png",
+            "titulo": "Die britischen Royal Crown Jewels",
+            "autor": "Desconocido Unknown photographer",
+            "licencia": "Public domain",
+            "url_licencia": "",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Die_britischen_Royal_Crown_Jewels.png"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "La fuente de Cibeles, donde el club celebra sus títulos.",
           "buscar": "Cibeles fountain Madrid",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/86cb499d7bb99eda.webp",
+            "archivo_commons": "Fuente de Cibeles - 04.jpg",
+            "titulo": "Fuente de Cibeles - 04",
+            "autor": "Carlos Delgado",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Fuente_de_Cibeles_-_04.jpg"
+          }
         },
         {
           "tipo": "apodo",
@@ -74,7 +106,15 @@
           "juego": true,
           "buscar": "meringue dessert",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/310e31aea26a1290.webp",
+            "archivo_commons": "Merveilleux.jpg",
+            "titulo": "Merveilleux",
+            "autor": "Eeicing",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Merveilleux.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -105,14 +145,30 @@
           "explicacion": "La estatua del Oso y el Madroño, símbolo de Madrid que aparece en el escudo del club.",
           "buscar": "Oso y el Madroño statue Madrid",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/86b4167c89aab8cc.webp",
+            "archivo_commons": "El oso y el madroño - 02.jpg",
+            "titulo": "El oso y el madroño - 02",
+            "autor": "Carlos Delgado",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:El_oso_y_el_madro%C3%B1o_-_02.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "El río Manzanares: en su orilla estaba el antiguo estadio Vicente Calderón.",
           "buscar": "Manzanares river Madrid",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/46b4057ec5f12ddd.webp",
+            "archivo_commons": "El río Manzanares (32972459575).jpg",
+            "titulo": "El río Manzanares (32972459575)",
+            "autor": "Jorge Tomé Hernando from Manzanares El Real, Spain",
+            "licencia": "CC BY-SA 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:El_r%C3%ADo_Manzanares_(32972459575).jpg"
+          }
         },
         {
           "tipo": "apodo",
@@ -120,7 +176,15 @@
           "juego": true,
           "buscar": "striped mattress ticking",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/50a56f8be892a919.webp",
+            "archivo_commons": "Settee ticking fabric upholstery.jpg",
+            "titulo": "Settee ticking fabric upholstery",
+            "autor": "frenchfinds.co.uk",
+            "licencia": "CC BY 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Settee_ticking_fabric_upholstery.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -151,21 +215,45 @@
           "explicacion": "La Ciudad de las Artes y las Ciencias de Valencia.",
           "buscar": "City of Arts and Sciences Valencia",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/ddb6f9bff3491d37.webp",
+            "archivo_commons": "L'Umbracle, Valencia, Spain - Jan 2007.jpg",
+            "titulo": "L'Umbracle, Valencia, Spain - Jan 2007",
+            "autor": "Diliff",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:L%27Umbracle,_Valencia,_Spain_-_Jan_2007.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "Naranjas, el fruto típico de la región valenciana.",
           "buscar": "Valencia oranges orange tree",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/5c9bed3f87899d5c.webp",
+            "archivo_commons": "Florida orange grove.JPG",
+            "titulo": "Florida orange grove",
+            "autor": "Mmacbeth",
+            "licencia": "CC0",
+            "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Florida_orange_grove.JPG"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "Un murciélago: aparece en el escudo del club, tomado del escudo de la ciudad.",
           "buscar": "flying bat Pipistrellus",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/21e5da6c3179ef83.webp",
+            "archivo_commons": "Haeckel Chiroptera.jpg",
+            "titulo": "Haeckel Chiroptera",
+            "autor": "Ernst Haeckel",
+            "licencia": "Public domain",
+            "url_licencia": "",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Haeckel_Chiroptera.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -196,21 +284,45 @@
           "explicacion": "La Giralda, torre de la catedral de Sevilla.",
           "buscar": "Giralda Seville",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/4b43aa2791bde772.webp",
+            "archivo_commons": "La Giralda, Seville, Spain - Sep 2009.jpg",
+            "titulo": "La Giralda, Seville, Spain - Sep 2009",
+            "autor": "Diliff",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:La_Giralda,_Seville,_Spain_-_Sep_2009.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "La Torre del Oro, junto al río Guadalquivir.",
           "buscar": "Torre del Oro Seville",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/19deda12d4070418.webp",
+            "archivo_commons": "Torre del Oro flag Seville Spain.jpg",
+            "titulo": "Torre del Oro flag Seville Spain",
+            "autor": "Jebulon",
+            "licencia": "CC0",
+            "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Torre_del_Oro_flag_Seville_Spain.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "Un detalle del estadio Ramón Sánchez-Pizjuán, en el barrio sevillano de Nervión.",
           "buscar": "Ramón Sánchez Pizjuán stadium",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/78157ac9e12636ab.webp",
+            "archivo_commons": "Seville Ramón Sánchez Pizjuán Stadium 4.jpg",
+            "titulo": "Seville Ramón Sánchez Pizjuán Stadium 4",
+            "autor": "Валерий Дед",
+            "licencia": "CC BY 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Seville_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_Stadium_4.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -241,21 +353,45 @@
           "explicacion": "La Plaza de España de Sevilla.",
           "buscar": "Plaza de España Seville",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/44bf3f09e4ffc5d1.webp",
+            "archivo_commons": "Seville, Plaza de España (38625005691) (edited).jpg",
+            "titulo": "Seville, Plaza de España (38625005691) (edited)",
+            "autor": "Dmitry Dzhus from London",
+            "licencia": "CC BY 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Seville,_Plaza_de_Espa%C3%B1a_(38625005691)_(edited).jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "El río Guadalquivir, que los romanos llamaban «Baetis»: de ahí viene el nombre del club.",
           "buscar": "Guadalquivir river Seville",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/2f8573e7115c998a.webp",
+            "archivo_commons": "Puente del Alamillo Guadalquivir Seville Spain.jpg",
+            "titulo": "Puente del Alamillo Guadalquivir Seville Spain",
+            "autor": "Jebulon",
+            "licencia": "CC0",
+            "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Puente_del_Alamillo_Guadalquivir_Seville_Spain.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "Un detalle del estadio Benito Villamarín, la casa del club.",
           "buscar": "Benito Villamarín stadium",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/daead0762b8fa496.webp",
+            "archivo_commons": "Estadio Benito Villamarín - Sevilla - 01.jpg",
+            "titulo": "Estadio Benito Villamarín - Sevilla - 01",
+            "autor": "Maesi64",
+            "licencia": "CC0",
+            "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Estadio_Benito_Villamar%C3%ADn_-_Sevilla_-_01.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -286,21 +422,45 @@
           "explicacion": "El museo Guggenheim de Bilbao.",
           "buscar": "Guggenheim Museum Bilbao",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/9595fc09f50d574c.webp",
+            "archivo_commons": "Museo Guggenheim -- 2021 -- Bilbao, Euskadi, España.jpg",
+            "titulo": "Museo Guggenheim -- 2021 -- Bilbao, Euskadi, España",
+            "autor": "José Ligero Loarte",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Museo_Guggenheim_--_2021_--_Bilbao,_Euskadi,_Espa%C3%B1a.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "La ikurriña, bandera vasca: el club solo juega con futbolistas formados en el País Vasco y su entorno.",
           "buscar": "Ikurriña Basque flag",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/7df4ad5b914c7491.webp",
+            "archivo_commons": "Zumaia ikurrina 2015 001.JPG",
+            "titulo": "Zumaia ikurrina 2015 001",
+            "autor": "Joxemai",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Zumaia_ikurrina_2015_001.JPG"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "Un león: «Los Leones», porque su estadio, San Mamés, lleva el nombre de un santo que según la leyenda fue arrojado a los leones.",
           "buscar": "lion portrait Panthera leo",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/8d9885d62d9af8df.webp",
+            "archivo_commons": "Panthera leo yawn (Kgalagadi, 2012).jpg",
+            "titulo": "Panthera leo yawn (Kgalagadi, 2012)",
+            "autor": "Yathin S Krishnappa",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Panthera_leo_yawn_(Kgalagadi,_2012).jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -331,14 +491,30 @@
           "explicacion": "Villarreal, ciudad de la provincia de Castellón conocida por su industria de la cerámica.",
           "buscar": "Vila-real Castellón",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/48e4213d95feee80.webp",
+            "archivo_commons": "Unidad 447-305M C-6.jpg",
+            "titulo": "Unidad 447-305M C-6",
+            "autor": "Tranvía Blanco",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Unidad_447-305M_C-6.jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "Baldosas de cerámica: su estadio se llama Estadio de la Cerámica.",
           "buscar": "ceramic tiles",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/9c3c09cd7e5d86a0.webp",
+            "archivo_commons": "Railing shadows on ceramic wall tiles, Alameda Afonso Henriques, Lisbon, Portugal julesvernex2.jpg",
+            "titulo": "Railing shadows on ceramic wall tiles, Alameda Afonso Henriques, Lisbon, Portugal julesvernex2",
+            "autor": "Jules Verne Times Two",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Railing_shadows_on_ceramic_wall_tiles,_Alameda_Afonso_Henriques,_Lisbon,_Portugal_julesvernex2.jpg"
+          }
         },
         {
           "tipo": "apodo",
@@ -375,21 +551,45 @@
           "explicacion": "El barrio obrero de Vallecas, en Madrid.",
           "buscar": "Vallecas Madrid",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/0aba858def96bd1c.webp",
+            "archivo_commons": "Mercado de Puente de Vallecas 5.JPG",
+            "titulo": "Mercado de Puente de Vallecas 5",
+            "autor": "Asqueladd",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Mercado_de_Puente_de_Vallecas_5.JPG"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "Un rayo en una tormenta.",
           "buscar": "lightning storm",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/0e3d6b02a146eb57.webp",
+            "archivo_commons": "Port and lighthouse overnight storm with lightning in Port-la-Nouvelle.jpg",
+            "titulo": "Port and lighthouse overnight storm with lightning in Port-la-Nouvelle",
+            "autor": "Maxime Raynal from France",
+            "licencia": "CC BY 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "Un detalle del estadio de Vallecas, la casa del club.",
           "buscar": "Estadio de Vallecas",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/6bb296590ea1c179.webp",
+            "archivo_commons": "Estadio de Vallecas.jpg",
+            "titulo": "Estadio de Vallecas",
+            "autor": "K3T0",
+            "licencia": "CC BY 2.5 es",
+            "url_licencia": "https://creativecommons.org/licenses/by/2.5/es/deed.en",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Estadio_de_Vallecas.jpg"
+          }
         },
         {
           "tipo": "colores",

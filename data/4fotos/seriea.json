@@ -16,7 +16,15 @@
           "explicacion": "La Mole Antonelliana de Turín.",
           "buscar": "Mole Antonelliana Turin",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/0d845b2280b00d21.webp",
+            "archivo_commons": "Mole Antonelliana di sera.jpg",
+            "titulo": "Mole Antonelliana di sera",
+            "autor": "Abbrey82",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Mole_Antonelliana_di_sera.jpg"
+          }
         },
         {
           "tipo": "palabra",
@@ -28,7 +36,15 @@
           "explicacion": "Una cebra: «Le Zebre», por sus rayas blancas y negras.",
           "buscar": "zebra Equus quagga",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/49f2074fdf833d5c.webp",
+            "archivo_commons": "Plains zebras (Equus quagga) Maputo.jpg",
+            "titulo": "Plains zebras (Equus quagga) Maputo",
+            "autor": "Charles J. Sharp",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Plains_zebras_(Equus_quagga)_Maputo.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -59,14 +75,30 @@
           "explicacion": "La catedral (Duomo) de Milán.",
           "buscar": "Milan Cathedral Duomo",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/7068d6572ea8ca1d.webp",
+            "archivo_commons": "Mailand duomo roof 1290802.jpg",
+            "titulo": "Mailand duomo roof 1290802",
+            "autor": "Ermell",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Mailand_duomo_roof_1290802.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "Las torres en espiral del estadio de San Siro.",
           "buscar": "San Siro stadium towers",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/c2d99c00971047e4.webp",
+            "archivo_commons": "San Siro Torre Branca.jpg",
+            "titulo": "San Siro Torre Branca",
+            "autor": "Saggittarius A",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:San_Siro_Torre_Branca.jpg"
+          }
         },
         {
           "tipo": "apodo",
@@ -102,21 +134,45 @@
           "explicacion": "La Galería Vittorio Emanuele II de Milán.",
           "buscar": "Galleria Vittorio Emanuele II",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/682d6efdf2bb58ed.webp",
+            "archivo_commons": "Galleria Vittorio Emanuele II 2382.jpg",
+            "titulo": "Galleria Vittorio Emanuele II 2382",
+            "autor": "C messier",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Galleria_Vittorio_Emanuele_II_2382.jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "Un globo terráqueo: se llama «Internazionale» porque nació en 1908 para aceptar jugadores extranjeros.",
           "buscar": "terrestrial globe",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/285bf44009a7bbff.webp",
+            "archivo_commons": "(Venice) French goldsmith, mechanical celestial and terrestrial globe, post 1565 - Correr Museum.jpg",
+            "titulo": "(Venice) French goldsmith, mechanical celestial and terrestrial globe, post 1565 - Correr Museum",
+            "autor": "Didier Descouens",
+            "licencia": "Public domain",
+            "url_licencia": "",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:(Venice)_French_goldsmith,_mechanical_celestial_and_terrestrial_globe,_post_1565_-_Correr_Museum.jpg"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "Una serpiente: «Il Biscione», la gran culebra, símbolo histórico de Milán.",
           "buscar": "grass snake Natrix",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/d5a2a699cb4574b9.webp",
+            "archivo_commons": "The Grass Snake - Natrix natrix.jpg",
+            "titulo": "The Grass Snake - Natrix natrix",
+            "autor": "Darius Bauzys",
+            "licencia": "CC BY 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:The_Grass_Snake_-_Natrix_natrix.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -147,21 +203,45 @@
           "explicacion": "El Vesubio sobre la bahía de Nápoles.",
           "buscar": "Vesuvius Bay of Naples",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/db95f0af76cf6862.webp",
+            "archivo_commons": "Johan Christian Dahl - The Bay of Naples with Vesuvius - Google Art Project.jpg",
+            "titulo": "The Bay of Naples with Vesuvius",
+            "autor": "Johan Christian Dahl",
+            "licencia": "Public domain",
+            "url_licencia": "",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Johan_Christian_Dahl_-_The_Bay_of_Naples_with_Vesuvius_-_Google_Art_Project.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "La pizza napolitana.",
           "buscar": "Neapolitan pizza",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/d6f34cfea3c100e3.webp",
+            "archivo_commons": "Punch Neapolitan Pizza Margherita.jpg",
+            "titulo": "Punch Neapolitan Pizza Margherita",
+            "autor": "Punch Pizza",
+            "licencia": "CC BY 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Punch_Neapolitan_Pizza_Margherita.jpg"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "Un burro: «'o Ciuccio» (el burrito) es un símbolo popular de la hinchada desde los años 20.",
           "buscar": "donkey Equus asinus",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/e86e95d273c94631.webp",
+            "archivo_commons": "Equus asinus Kadzidłowo 001.jpg",
+            "titulo": "Equus asinus Kadzidłowo 001",
+            "autor": "Lilly M",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Equus_asinus_Kadzid%C5%82owo_001.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -192,21 +272,45 @@
           "explicacion": "El Coliseo.",
           "buscar": "Colosseum Rome",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/a1ba785cc3f4053f.webp",
+            "archivo_commons": "Colosseum in Rome-April 2007-1- copie 2B.jpg",
+            "titulo": "Colosseum in Rome-April 2007-1- copie 2B",
+            "autor": "Diliff",
+            "licencia": "CC BY-SA 2.5",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.5",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Colosseum_in_Rome-April_2007-1-_copie_2B.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "Una tapa de alcantarilla con «SPQR», el lema de la antigua Roma.",
           "buscar": "SPQR manhole cover Rome",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/c5c42625b5500434.webp",
+            "archivo_commons": "SPQR manhole cover, Rome.jpg",
+            "titulo": "SPQR manhole cover, Rome",
+            "autor": "Quentin Lowagie / Klow",
+            "licencia": "CC BY 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:SPQR_manhole_cover,_Rome.jpg"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "La loba capitolina con Rómulo y Remo, que aparece en el escudo del club.",
           "buscar": "Capitoline Wolf",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/bf7f4f5db6550d50.webp",
+            "archivo_commons": "Lupa Capitolina, Rome.jpg",
+            "titulo": "Lupa Capitolina, Rome",
+            "autor": "(sin dato)",
+            "licencia": "CC0",
+            "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Lupa_Capitolina,_Rome.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -237,14 +341,30 @@
           "explicacion": "El Ponte Vecchio de Florencia.",
           "buscar": "Ponte Vecchio Florence",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/27017b26de2c11b9.webp",
+            "archivo_commons": "Ponte Vecchio at dusk 1.JPG",
+            "titulo": "Ponte Vecchio at dusk 1",
+            "autor": "Martin Falbisoner",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_at_dusk_1.JPG"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "El lirio rojo, símbolo de Florencia que aparece en el escudo.",
           "buscar": "Florence giglio lily red",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/7a1f57f40cc41109.webp",
+            "archivo_commons": "Drinking fountain, Florence.jpg",
+            "titulo": "Drinking fountain, Florence",
+            "autor": "Martinvl",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Drinking_fountain,_Florence.jpg"
+          }
         },
         {
           "tipo": "apodo",
@@ -252,7 +372,15 @@
           "juego": true,
           "buscar": "violets flowers Viola odorata",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/0ccf428720384042.webp",
+            "archivo_commons": "Viola odorata 20210226.jpg",
+            "titulo": "Viola odorata 20210226",
+            "autor": "Uoaei1",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Viola_odorata_20210226.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -283,21 +411,45 @@
           "explicacion": "La Città Alta de Bérgamo, con sus murallas.",
           "buscar": "Città Alta Bergamo walls",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/1f07f6f68c9f787e.webp",
+            "archivo_commons": "Cloister of the University of Bergamo. Italy.jpg",
+            "titulo": "Cloister of the University of Bergamo. Italy",
+            "autor": "Ввласенко",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Cloister_of_the_University_of_Bergamo._Italy.jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "Una estatua de Atalanta, la cazadora de la mitología griega que da nombre al club.",
           "buscar": "Atalanta statue",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/8684fa87adb7b6ac.webp",
+            "archivo_commons": "Atalanta by Luigi Antonio Acquisti-Pinacoteca di Brera (Milan).jpg",
+            "titulo": "Atalanta by Luigi Antonio Acquisti-Pinacoteca di Brera (Milan)",
+            "autor": "Yair Haklai",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Atalanta_by_Luigi_Antonio_Acquisti-Pinacoteca_di_Brera_(Milan).jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "El funicular que sube a la Città Alta de Bérgamo.",
           "buscar": "Bergamo funicular",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/427467ca8dc56aa8.webp",
+            "archivo_commons": "Funicolare di Bergamo.jpg",
+            "titulo": "Funicolare di Bergamo",
+            "autor": "Bovero gerino de Wikipedia en italiano",
+            "licencia": "Public domain",
+            "url_licencia": "",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Funicolare_di_Bergamo.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -328,21 +480,45 @@
           "explicacion": "La Piazza della Libertà, en el barrio romano de Prati: ahí se fundó el club en 1900.",
           "buscar": "Piazza della Libertà Rome",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/fc559ba053502462.webp",
+            "archivo_commons": "Roma - Piazza delle Libertà 2.jpg",
+            "titulo": "Roma - Piazza delle Libertà 2",
+            "autor": "Desconocido Unknown author",
+            "licencia": "Public domain",
+            "url_licencia": "",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Roma_-_Piazza_delle_Libert%C3%A0_2.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "Las ruinas de Olimpia: sus colores celeste y blanco son un homenaje a Grecia, cuna de los Juegos Olímpicos.",
           "buscar": "Olympia Greece ruins",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/cd021d6786207a77.webp",
+            "archivo_commons": "Nymphaeum of Herodes Atticus (Olympia).jpg",
+            "titulo": "Nymphaeum of Herodes Atticus (Olympia)",
+            "autor": "Davide Mauro",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Nymphaeum_of_Herodes_Atticus_(Olympia).jpg"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "Un águila: el club tiene un águila como mascota y símbolo.",
           "buscar": "golden eagle Aquila chrysaetos",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/edba0077fc9685fa.webp",
+            "archivo_commons": "001 Wild Golden Eagle and Majinghorn Pfyn-Finges Photo by Giles Laurent.jpg",
+            "titulo": "001 Wild Golden Eagle and Majinghorn Pfyn-Finges Photo by Giles Laurent",
+            "autor": "© Giles Laurent , gileslaurent.com , License CC BY-SA",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:001_Wild_Golden_Eagle_and_Majinghorn_Pfyn-Finges_Photo_by_Giles_Laurent.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -373,21 +549,45 @@
           "explicacion": "El lago de Como.",
           "buscar": "Lake Como",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/5bec134ec6f5bfa1.webp",
+            "archivo_commons": "Lago de Como, Italia, 2016-06-25, DD 02-06 PAN.jpg",
+            "titulo": "Lago de Como, Italia, 2016-06-25, DD 02-06 PAN",
+            "autor": "Diego Delso",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Lago_de_Como,_Italia,_2016-06-25,_DD_02-06_PAN.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "Su estadio, el Sinigaglia, está a orillas del lago.",
           "buscar": "Stadio Giuseppe Sinigaglia",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/82e36e07e7b591ff.webp",
+            "archivo_commons": "Stadio Giuseppe Sinigaglia - panoramio.jpg",
+            "titulo": "Stadio Giuseppe Sinigaglia - panoramio",
+            "autor": "Mister No",
+            "licencia": "CC BY 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Stadio_Giuseppe_Sinigaglia_-_panoramio.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "La catedral de Como.",
           "buscar": "Como Cathedral",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/6bcd1b6348c17892.webp",
+            "archivo_commons": "Cathedral of Como (38).jpg",
+            "titulo": "Cathedral of Como (38)",
+            "autor": "Krzysztof Golik",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Como_(38).jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -418,21 +618,45 @@
           "explicacion": "El castillo de Udine, en la región de Friuli.",
           "buscar": "Castle of Udine",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/51b81ac3842b4019.webp",
+            "archivo_commons": "UdineCastelloparteanteriore.jpg",
+            "titulo": "UdineCastelloparteanteriore",
+            "autor": "Sebi1",
+            "licencia": "Public domain",
+            "url_licencia": "",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:UdineCastelloparteanteriore.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "La Loggia del Lionello, en el centro de Udine.",
           "buscar": "Loggia del Lionello Udine",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/8359a14058934702.webp",
+            "archivo_commons": "Loggia del Lionello (Udine).jpg",
+            "titulo": "Loggia del Lionello (Udine)",
+            "autor": "Udine2812",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Loggia_del_Lionello_(Udine).jpg"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "Una cría de cebra: el apodo del club es «Zebrette», las cebritas.",
           "buscar": "zebra foal",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/32c3284ae0fe5da2.webp",
+            "archivo_commons": "Plains zebra (Equus quagga) foal suckling Maputo.jpg",
+            "titulo": "Plains zebra (Equus quagga) foal suckling Maputo",
+            "autor": "Charles J. Sharp",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Plains_zebra_(Equus_quagga)_foal_suckling_Maputo.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -470,14 +694,30 @@
           "explicacion": "Piedras: «sasso» significa piedra en italiano.",
           "buscar": "river stones pebbles",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/9d5a2c1d1bc9b8c2.webp",
+            "archivo_commons": "Tiverton , The River Exe and Pebbles - geograph.org.uk - 1233303.jpg",
+            "titulo": "Tiverton , The River Exe and Pebbles - geograph.org.uk - 1233303",
+            "autor": "Lewis Clarke",
+            "licencia": "CC BY-SA 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Tiverton_,_The_River_Exe_and_Pebbles_-_geograph.org.uk_-_1233303.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "El Palacio Ducal de Sassuolo.",
           "buscar": "Palazzo Ducale Sassuolo",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/82a2c930a990fec5.webp",
+            "archivo_commons": "Palazzo Ducale (Sassuolo) 13.jpg",
+            "titulo": "Palazzo Ducale (Sassuolo) 13",
+            "autor": "Mongolo1984",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Palazzo_Ducale_(Sassuolo)_13.jpg"
+          }
         },
         {
           "tipo": "colores",

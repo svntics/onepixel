@@ -16,21 +16,45 @@
           "explicacion": "Avellaneda, junto a Buenos Aires, donde se fundó el club en 1903.",
           "buscar": "Avellaneda Buenos Aires",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/dc33c89949abc9d2.webp",
+            "archivo_commons": "Avellaneda centro.jpg",
+            "titulo": "Avellaneda centro",
+            "autor": "Lucas",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Avellaneda_centro.jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "Un auto de carreras: «racing» significa «carreras» en inglés.",
           "buscar": "race car circuit",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/6238795b31bca2ed.webp",
+            "archivo_commons": "Porsche race car Verschuur amk.jpg",
+            "titulo": "Porsche race car Verschuur amk",
+            "autor": "user:AngMoKio",
+            "licencia": "CC BY-SA 2.5",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.5",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Porsche_race_car_Verschuur_amk.jpg"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "Una biblioteca antigua: el apodo del club es «La Academia».",
           "buscar": "old library interior",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/a898d9edb922bf82.webp",
+            "archivo_commons": "Long Room Interior, Trinity College Dublin, Ireland - Diliff.jpg",
+            "titulo": "Long Room Interior, Trinity College Dublin, Ireland - Diliff",
+            "autor": "Diliff",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Long_Room_Interior,_Trinity_College_Dublin,_Ireland_-_Diliff.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -61,21 +85,45 @@
           "explicacion": "El East End de Glasgow: el club lo fundó en 1887 el hermano Walfrid para ayudar a inmigrantes irlandeses pobres.",
           "buscar": "Glasgow East End",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/34d5ad20a6f48f16.webp",
+            "archivo_commons": "Glasgow rooftops - the East End (geograph 3629384).jpg",
+            "titulo": "Glasgow rooftops - the East End (geograph 3629384)",
+            "autor": "Thomas Nugent",
+            "licencia": "CC BY-SA 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Glasgow_rooftops_-_the_East_End_(geograph_3629384).jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "Una cruz celta.",
           "buscar": "Celtic cross",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/3b9e57e4fc165050.webp",
+            "archivo_commons": "Nevern High Cross from the East.jpg",
+            "titulo": "Nevern High Cross from the East",
+            "autor": "Martinvl",
+            "licencia": "CC BY 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Nevern_High_Cross_from_the_East.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "Un trébol, símbolo irlandés que aparece en el escudo.",
           "buscar": "shamrock clover",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/c0e86537dece9182.webp",
+            "archivo_commons": "Trifolium pratense - Keila.jpg",
+            "titulo": "Trifolium pratense - Keila",
+            "autor": "Ivar Leidus",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Trifolium_pratense_-_Keila.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -106,21 +154,45 @@
           "explicacion": "Un kultrún, tambor mapuche: el club lleva el nombre del cacique mapuche Colo Colo.",
           "buscar": "kultrun Mapuche drum",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/fe4dfba7cf317b19.webp",
+            "archivo_commons": "Kultrun.jpg",
+            "titulo": "Kultrun",
+            "autor": "Cosmosanchez",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Kultrun.jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "Un gato colocolo, felino sudamericano.",
           "buscar": "Leopardus colocola",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/f292b34d9873f024.webp",
+            "archivo_commons": "PampasCat distribution.jpg",
+            "titulo": "PampasCat distribution",
+            "autor": "BhagyaMani",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:PampasCat_distribution.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "El Estadio Monumental, en Macul.",
           "buscar": "Estadio Monumental David Arellano",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/d708eb742fe53885.webp",
+            "archivo_commons": "Homenaje a David Arellano, Estadio Monumental, 2016-12-21.jpg",
+            "titulo": "Homenaje a David Arellano, Estadio Monumental, 2016-12-21",
+            "autor": "Carlos Figueroa",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Homenaje_a_David_Arellano,_Estadio_Monumental,_2016-12-21.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -151,21 +223,45 @@
           "explicacion": "La Casa Central de la Universidad de Chile, en la Alameda.",
           "buscar": "Casa Central Universidad de Chile",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/f363f41d83500d5d.webp",
+            "archivo_commons": "Casa Central de la Universidad de Chile I.jpg",
+            "titulo": "Casa Central de la Universidad de Chile I",
+            "autor": "Rjcastillo",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Casa_Central_de_la_Universidad_de_Chile_I.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "El Estadio Nacional, donde suele jugar de local.",
           "buscar": "Estadio Nacional de Chile",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/9cfcb2e9a080be53.webp",
+            "archivo_commons": "Estadio Nacional - A741105.jpg",
+            "titulo": "Estadio Nacional - A741105",
+            "autor": "Rjcastillo",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Estadio_Nacional_-_A741105.jpg"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "Un chuncho (búho chileno), símbolo del club.",
           "buscar": "Glaucidium nana austral pygmy owl",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/3f6fb59396b57f64.webp",
+            "archivo_commons": "Austral Pygmy-owl (Glaucidium nanum).jpg",
+            "titulo": "Austral Pygmy-owl (Glaucidium nanum)",
+            "autor": "John Spooner",
+            "licencia": "CC BY 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Austral_Pygmy-owl_(Glaucidium_nanum).jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -196,14 +292,30 @@
           "explicacion": "La Casa Central de la Pontificia Universidad Católica, en la Alameda.",
           "buscar": "Casa Central Pontificia Universidad Católica de Chile",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/61266193e07adf42.webp",
+            "archivo_commons": "Casa Central PUCV, Valparaíso 20230903 03.jpg",
+            "titulo": "Casa Central PUCV, Valparaíso 20230903 03",
+            "autor": "Carlos Figueroa Rojas",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Casa_Central_PUCV,_Valpara%C3%ADso_20230903_03.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "El estadio San Carlos de Apoquindo, a los pies de la cordillera.",
           "buscar": "San Carlos de Apoquindo",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/dfd8d2c22d7da4f0.webp",
+            "archivo_commons": "San Carlos de Apoquindo 2011 (2).JPG",
+            "titulo": "San Carlos de Apoquindo 2011 (2)",
+            "autor": "Manxuc",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:San_Carlos_de_Apoquindo_2011_(2).JPG"
+          }
         },
         {
           "tipo": "apodo",
@@ -239,21 +351,45 @@
           "explicacion": "Caminito, en el barrio de La Boca.",
           "buscar": "Caminito La Boca",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/f5d595598aa63772.webp",
+            "archivo_commons": "La Perla de Caminito - entrada.jpg",
+            "titulo": "La Perla de Caminito - entrada",
+            "autor": "Desconocido Unknown author",
+            "licencia": "CC BY-SA 2.5",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.5",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:La_Perla_de_Caminito_-_entrada.jpg"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "El puerto de Génova: el apodo «Xeneizes» (genoveses) viene de los inmigrantes italianos del barrio.",
           "buscar": "Port of Genoa",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/df847a6204097a39.webp",
+            "archivo_commons": "Ferry GNV-BLU 8416308 Genoa Sep23 A7C 06644.jpg",
+            "titulo": "Ferry GNV-BLU 8416308 Genoa Sep23 A7C 06644",
+            "autor": "This Photo was taken by Timothy A. Gonsalves . Feel free to use my photos, but please mention me as the author. I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page , for my information. Please contact me before commercial use. Please do not upload an edited image here without consulting me. I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved. Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract .",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Ferry_GNV-BLU_8416308_Genoa_Sep23_A7C_06644.jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "Una caja de bombones: su estadio es «La Bombonera».",
           "buscar": "box of chocolates bonbons",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/9c655f080cc0a528.webp",
+            "archivo_commons": "Victoria Bonbons Assortis box, pic3.JPG",
+            "titulo": "Victoria Bonbons Assortis box, pic3",
+            "autor": "Alf van Beem",
+            "licencia": "CC0",
+            "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Victoria_Bonbons_Assortis_box,_pic3.JPG"
+          }
         },
         {
           "tipo": "colores",
@@ -284,14 +420,30 @@
           "explicacion": "El Estadio Monumental, en el barrio de Núñez (Buenos Aires).",
           "buscar": "Estadio Monumental Buenos Aires",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/d3e517e3d5d765c1.webp",
+            "archivo_commons": "Estadio Monumental, Buenos Aires ARG.jpg",
+            "titulo": "Estadio Monumental, Buenos Aires ARG",
+            "autor": "Stefano Vigorelli",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Estadio_Monumental,_Buenos_Aires_ARG.jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "El Río de la Plata: en inglés se llama «River Plate».",
           "buscar": "Río de la Plata",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/c4719939faf78700.webp",
+            "archivo_commons": "Rio de la Plata BA 2.JPG",
+            "titulo": "Rio de la Plata BA 2",
+            "autor": "Earth Sciences and Image Analysis Laboratory, NASA Johnson Space Center",
+            "licencia": "Public domain",
+            "url_licencia": "",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Rio_de_la_Plata_BA_2.JPG"
+          }
         },
         {
           "tipo": "apodo",
@@ -327,7 +479,15 @@
           "explicacion": "Avellaneda, la misma ciudad de Racing, su gran rival.",
           "buscar": "Avellaneda bridge Riachuelo",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/36804316754bcd37.webp",
+            "archivo_commons": "Riachuelo, Nuevo Puente Nicolás Avellaneda, puente autopista Buenos Aires La Plata.jpg",
+            "titulo": "Riachuelo, Nuevo Puente Nicolás Avellaneda, puente autopista Buenos Aires La Plata",
+            "autor": "Roberto Fiadone",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Riachuelo,_Nuevo_Puente_Nicol%C3%A1s_Avellaneda,_puente_autopista_Buenos_Aires_La_Plata.jpg"
+          }
         },
         {
           "tipo": "apodo",
@@ -339,7 +499,15 @@
           "explicacion": "Su estadio se llama Libertadores de América, en honor a esa copa.",
           "buscar": "Estadio Libertadores de América",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/a37a120e624d5f98.webp",
+            "archivo_commons": "Libertadores de America Campo y Norte desde palco.JPG",
+            "titulo": "Libertadores de America Campo y Norte desde palco",
+            "autor": "Jmmuguerza",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Libertadores_de_America_Campo_y_Norte_desde_palco.JPG"
+          }
         },
         {
           "tipo": "colores",
@@ -370,21 +538,45 @@
           "explicacion": "El Pan de Azúcar, en Río de Janeiro.",
           "buscar": "Sugarloaf Mountain Rio de Janeiro",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/e4fb9c44cba125b6.webp",
+            "archivo_commons": "Sugarloaf Cable Car viewed from Rio de Janeiro, Brazil.jpg",
+            "titulo": "Sugarloaf Cable Car viewed from Rio de Janeiro, Brazil",
+            "autor": "Wilfredor",
+            "licencia": "CC0",
+            "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Sugarloaf_Cable_Car_viewed_from_Rio_de_Janeiro,_Brazil.jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "Un flamenco (el ave): el club lleva el nombre del barrio de Flamengo.",
           "buscar": "flamingo Phoenicopterus",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/efe24bbd18bda348.webp",
+            "archivo_commons": "Phoenicopterus ruber in São Paulo Zoo.jpg",
+            "titulo": "Phoenicopterus ruber in São Paulo Zoo",
+            "autor": "Wilfredor",
+            "licencia": "CC0",
+            "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Phoenicopterus_ruber_in_S%C3%A3o_Paulo_Zoo.jpg"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "Un urubú (buitre negro), la mascota del club.",
           "buscar": "black vulture Coragyps atratus",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/39699ea1ff703857.webp",
+            "archivo_commons": "Coragyps-atratus-001.jpg",
+            "titulo": "Coragyps-atratus-001",
+            "autor": "Mdf",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Coragyps-atratus-001.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -415,21 +607,45 @@
           "explicacion": "El puerto de Santos, en el estado de São Paulo.",
           "buscar": "Port of Santos",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/838d1d74f94eec01.webp",
+            "archivo_commons": "Port Santos.jpg",
+            "titulo": "Port Santos",
+            "autor": "Claus Bunks aka Afrobrasil on flickr",
+            "licencia": "CC BY 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Port_Santos.jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "Estatuas de santos en una iglesia.",
           "buscar": "statues of saints church",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/af63883e68f86c9d.webp",
+            "archivo_commons": "Statue of Saints Cyril and Methodius on Radhošť.jpg",
+            "titulo": "Statue of Saints Cyril and Methodius on Radhošť",
+            "autor": "Pudelek",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Statue_of_Saints_Cyril_and_Methodius_on_Radho%C5%A1%C5%A5.jpg"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "Un pez: el apodo del club es «Peixe».",
           "buscar": "school of fish",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/7865a94081e9ce9c.webp",
+            "archivo_commons": "School of sardines at the Monterey Bay Aquarium (12056).jpg",
+            "titulo": "School of sardines at the Monterey Bay Aquarium (12056)",
+            "autor": "Rhododendrites",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:School_of_sardines_at_the_Monterey_Bay_Aquarium_(12056).jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -460,21 +676,45 @@
           "explicacion": "Una locomotora antigua: el club nació en 1891 como el de los trabajadores del ferrocarril central de Uruguay.",
           "buscar": "steam locomotive Uruguay",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/fc1817c693bffd46.webp",
+            "archivo_commons": "Hudswell Clarke Steam Locomotive for Midland Uruguay Railway 1906.jpg",
+            "titulo": "Hudswell Clarke Steam Locomotive for Midland Uruguay Railway 1906",
+            "autor": "Hudswell Clarke - Werksfoto",
+            "licencia": "Public domain",
+            "url_licencia": "",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Hudswell_Clarke_Steam_Locomotive_for_Midland_Uruguay_Railway_1906.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "El Palacio Salvo, en Montevideo.",
           "buscar": "Palacio Salvo Montevideo",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/4a42171f1f0136d6.webp",
+            "archivo_commons": "Montevideo Palacio Salvo-20110506-RM-114438.jpg",
+            "titulo": "Montevideo Palacio Salvo-20110506-RM-114438",
+            "autor": "Reinhold Möller",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Montevideo_Palacio_Salvo-20110506-RM-114438.jpg"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "Carbón: el apodo «Carboneros» se atribuye a su origen ferroviario, cuando las locomotoras funcionaban a carbón.",
           "buscar": "coal lumps anthracite",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/b3513f96e5b32e55.webp",
+            "archivo_commons": "A Lump of Coal - geograph.org.uk - 1585817.jpg",
+            "titulo": "A Lump of Coal - geograph.org.uk - 1585817",
+            "autor": "Colin Smith",
+            "licencia": "CC BY-SA 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:A_Lump_of_Coal_-_geograph.org.uk_-_1585817.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -505,21 +745,45 @@
           "explicacion": "São Paulo: el club lo fundaron inmigrantes italianos en 1914 como «Palestra Itália».",
           "buscar": "São Paulo skyline",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/1a370d9b4584c8db.webp",
+            "archivo_commons": "Panorama of Sao Paulo from Avenida Santa Catarina.jpg",
+            "titulo": "Panorama of Sao Paulo from Avenida Santa Catarina",
+            "autor": "Wilfredor",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Panorama_of_Sao_Paulo_from_Avenida_Santa_Catarina.jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "Palmeras: «palmeira» significa palmera en portugués.",
           "buscar": "palm trees",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/a308bc6101e29e42.webp",
+            "archivo_commons": "Three palm trees during the sunset, Ayia Marina Chrysochous, Paphos District, Cyprus 02.jpg",
+            "titulo": "Three palm trees during the sunset, Ayia Marina Chrysochous, Paphos District, Cyprus 02",
+            "autor": "Michal Klajban",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Three_palm_trees_during_the_sunset,_Ayia_Marina_Chrysochous,_Paphos_District,_Cyprus_02.jpg"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "Un cerdo: era una burla de los rivales, la hinchada la adoptó y es mascota oficial desde 2016.",
           "buscar": "domestic pig",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/a233e686a091c156.webp",
+            "archivo_commons": "Pot-bellied pigs in Lisbon Zoo 2008.jpg",
+            "titulo": "Pot-bellied pigs in Lisbon Zoo 2008",
+            "autor": "Alvesgaspar",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Pot-bellied_pigs_in_Lisbon_Zoo_2008.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -550,21 +814,45 @@
           "explicacion": "El Estadio Azteca, en Ciudad de México.",
           "buscar": "Estadio Azteca",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/aa07f382b8921ea4.webp",
+            "archivo_commons": "Estadio Azteca1706p2.jpg",
+            "titulo": "Estadio Azteca1706p2",
+            "autor": "Carlos Valenzuela Montuy",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Estadio_Azteca1706p2.jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "Un mapa del continente americano.",
           "buscar": "map of the Americas",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/e0bf2adb03c16380.webp",
+            "archivo_commons": "1794 Samuel Dunn Wall Map of the World in Hemispheres - Geographicus - World2-dunn-1794.jpg",
+            "titulo": "A General Map of the World, or Terraqueous Globe with all the New Discoveries and Marginal Delineations, Containing the Most Interesting Particulars in the Solar, Starry and Mundane System .",
+            "autor": "Thomas Kitchin",
+            "licencia": "Public domain",
+            "url_licencia": "",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:1794_Samuel_Dunn_Wall_Map_of_the_World_in_Hemispheres_-_Geographicus_-_World2-dunn-1794.jpg"
+          }
         },
         {
           "tipo": "apodo",
           "explicacion": "Un águila: el apodo del club es «Las Águilas».",
           "buscar": "eagle in flight",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/4e1c765b7d403502.webp",
+            "archivo_commons": "015 Wild Golden Eagle in flight at Pfyn-Finges (Switzerland) Photo by Giles Laurent.jpg",
+            "titulo": "015 Wild Golden Eagle in flight at Pfyn-Finges (Switzerland) Photo by Giles Laurent",
+            "autor": "© Giles Laurent , gileslaurent.com , License CC BY-SA",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:015_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_(Switzerland)_Photo_by_Giles_Laurent.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -595,21 +883,45 @@
           "explicacion": "El puerto del Pireo, junto a Atenas.",
           "buscar": "Port of Piraeus",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/a057c0d0d028317e.webp",
+            "archivo_commons": "Attica 06-13 Piraeus 01 Port.jpg",
+            "titulo": "Attica 06-13 Piraeus 01 Port",
+            "autor": "A.Savin",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Attica_06-13_Piraeus_01_Port.jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "Una corona de laurel: el nombre evoca los Juegos Olímpicos de la antigua Grecia.",
           "buscar": "laurel wreath",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/24dce90dbc1bd760.webp",
+            "archivo_commons": "Golden laurel wreath T HL 04 Kerameikos Athens.png",
+            "titulo": "Golden laurel wreath T HL 04 Kerameikos Athens",
+            "autor": "Jebulon",
+            "licencia": "CC0",
+            "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Golden_laurel_wreath_T_HL_04_Kerameikos_Athens.png"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "El Partenón de Atenas.",
           "buscar": "Parthenon Athens",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/c3559f3b94ae4f00.webp",
+            "archivo_commons": "Parthenon from south.jpg",
+            "titulo": "Parthenon from south",
+            "autor": "Thermos",
+            "licencia": "CC BY-SA 2.5",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.5",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Parthenon_from_south.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -640,7 +952,15 @@
           "explicacion": "Los rascacielos de Riad, en Arabia Saudita.",
           "buscar": "Riyadh skyline",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/cf544e6c3833c119.webp",
+            "archivo_commons": "Riyadh Skyline.jpg",
+            "titulo": "Riyadh Skyline",
+            "autor": "B.alotaby",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Riyadh_Skyline.jpg"
+          }
         },
         {
           "tipo": "palabra",
@@ -652,7 +972,15 @@
           "explicacion": "La fortaleza de Masmak, en el centro histórico de Riad.",
           "buscar": "Masmak fortress Riyadh",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/e5212b9c9e048ef5.webp",
+            "archivo_commons": "Masmak castle.jpg",
+            "titulo": "Masmak castle",
+            "autor": "Baptiste Marcel",
+            "licencia": "Public domain",
+            "url_licencia": "",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Masmak_castle.jpg"
+          }
         },
         {
           "tipo": "colores",
@@ -683,21 +1011,45 @@
           "explicacion": "El desierto de Arabia Saudita, cerca de Riad.",
           "buscar": "Arabian desert dunes",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/390debf91108d5f2.webp",
+            "archivo_commons": "Uruq Bani Ma'arid Reserve, Saudi Arabia (2025).jpg",
+            "titulo": "Uruq Bani Ma'arid Reserve, Saudi Arabia (2025)",
+            "autor": "Saudi Press Agency (SPA)",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Uruq_Bani_Ma%27arid_Reserve,_Saudi_Arabia_(2025).jpg"
+          }
         },
         {
           "tipo": "palabra",
           "explicacion": "Una luna creciente: «hilal» significa luna creciente en árabe.",
           "buscar": "crescent moon",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/ae0bfa88d590c84d.webp",
+            "archivo_commons": "Waxing Crescent Moon in Kurseong September 2026 by Paramanu Sarkar.jpg",
+            "titulo": "Waxing Crescent Moon in Kurseong September 2026 by Paramanu Sarkar",
+            "autor": "Paramanu Sarkar",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Waxing_Crescent_Moon_in_Kurseong_September_2026_by_Paramanu_Sarkar.jpg"
+          }
         },
         {
           "tipo": "cultura",
           "explicacion": "La torre Kingdom Centre, en Riad.",
           "buscar": "Kingdom Centre Riyadh",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/7a2eb5aa1a92b9e8.webp",
+            "archivo_commons": "Kingdom Tower at night.JPG",
+            "titulo": "Kingdom Tower at night",
+            "autor": "BroadArrow at the English Wikipedia",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Kingdom_Tower_at_night.JPG"
+          }
         },
         {
           "tipo": "colores",
