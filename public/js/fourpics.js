@@ -285,7 +285,11 @@ function whyItem(f, i) {
     cr.append(`Foto: ${f.cr.autor} · `);
     cr.append(f.cr.url_licencia ? link(f.cr.url_licencia, f.cr.licencia) : f.cr.licencia);
     cr.append(" · ", link(f.cr.url_fuente, "Wikimedia Commons"));
-  } else cr.textContent = f.pendiente ? "Foto pendiente (vista de prueba)" : "Ilustración original de onepixel";
+    if (f.cr.mod) cr.append(` · Foto ${f.cr.mod} por onepixel`);
+  } else
+    cr.textContent = f.pendiente
+      ? "Foto pendiente (vista de prueba)"
+      : f.ia ? "Ilustración generada con IA" : "Ilustración original de onepixel";
   body.append(cr);
   li.append(img, body);
   return li;

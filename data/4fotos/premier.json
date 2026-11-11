@@ -624,15 +624,16 @@
           "tipo": "cultura",
           "buscar": "Holte End Villa Park",
           "commons": null,
-          "explicacion": "La tribuna Holte End, una de las más grandes del fútbol inglés.",
+          "explicacion": "Hinchas subiendo a la tribuna Holte End, una de las más grandes del fútbol inglés.",
           "imagen": {
-            "archivo_local": "img/t/c91be3d33b3ead13.webp",
+            "archivo_local": "img/t/a699d87898ca0b70.webp",
             "archivo_commons": "Arriving at The Holte End, Villa Park - geograph.org.uk - 787153.jpg",
             "titulo": "Arriving at The Holte End, Villa Park - geograph.org.uk - 787153",
             "autor": "Row17",
             "licencia": "CC BY-SA 2.0",
             "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Arriving_at_The_Holte_End,_Villa_Park_-_geograph.org.uk_-_787153.jpg"
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Arriving_at_The_Holte_End,_Villa_Park_-_geograph.org.uk_-_787153.jpg",
+            "modificacion": "recortada"
           },
           "excluir": [
             "Villa Park-Holte End - geograph.org.uk - 1849209.jpg",
@@ -909,15 +910,16 @@
           "tipo": "cultura",
           "buscar": "Molineux Stadium",
           "commons": null,
-          "explicacion": "El estadio Molineux toma su nombre de Benjamin Molineux, comerciante local del siglo XVIII.",
+          "explicacion": "La estructura amarilla de una tribuna del estadio Molineux, que toma su nombre de Benjamin Molineux, comerciante local del siglo XVIII.",
           "imagen": {
-            "archivo_local": "img/t/fe543a6f7aa18e18.webp",
+            "archivo_local": "img/t/a3700e7c16ad4ea6.webp",
             "archivo_commons": "Molineux Stadium - geograph.org.uk - 2439244.jpg",
             "titulo": "Molineux Stadium - geograph.org.uk - 2439244",
             "autor": "Molineux Stadium by Bill Boaden",
             "licencia": "CC BY-SA 2.0",
             "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Molineux_Stadium_-_geograph.org.uk_-_2439244.jpg"
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Molineux_Stadium_-_geograph.org.uk_-_2439244.jpg",
+            "modificacion": "recortada"
           },
           "excluir": [
             "Molineux Stadium - geograph.org.uk - 5718889.jpg",

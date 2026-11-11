@@ -41,6 +41,8 @@ function validate(t, file) {
     if (f.generada) {
       if (!KIT_PATTERNS.includes(f.generada.patron)) errors.push(`${w}: patrón desconocido`);
       if (!f.generada.colores?.every((c) => HEX.test(c)) || f.generada.colores.length !== 2) errors.push(`${w}: colores inválidos`);
+    } else if (f.ia) {
+      if (!f.ia.archivo_local) errors.push(`${w}: falta ia.archivo_local`);
     } else if (!f.buscar && !f.commons) errors.push(`${w}: necesita "buscar" o "commons"`);
   });
 }
@@ -53,13 +55,15 @@ function photo(t, f, i) {
     writeFileSync(join(GEN, name), kitSvg(f.generada));
     return { img: `img/t/${name}`, tipo: f.tipo, exp: f.explicacion, cr: null };
   }
+  // Ilustración generada con IA (objetos o animales genéricos; nunca lugares ni personas reales)
+  if (f.ia) return { img: f.ia.archivo_local, tipo: f.tipo, exp: f.explicacion, cr: null, ia: true };
   if (f.imagen) {
     const im = f.imagen;
     return {
       img: im.archivo_local,
       tipo: f.tipo,
       exp: f.explicacion,
-      cr: { autor: im.autor, licencia: im.licencia, url_licencia: im.url_licencia, url_fuente: im.url_fuente, titulo: im.titulo ?? "" },
+      cr: { autor: im.autor, licencia: im.licencia, url_licencia: im.url_licencia, url_fuente: im.url_fuente, titulo: im.titulo ?? "", mod: im.modificacion ?? "" },
     };
   }
   return PLACEHOLDERS ? { img: "img/placeholder.svg", tipo: f.tipo, exp: f.explicacion, cr: null, pendiente: true } : null;

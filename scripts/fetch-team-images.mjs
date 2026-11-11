@@ -130,7 +130,7 @@ async function main() {
     for (const t of JSON.parse(readFileSync(join(SRC, file), "utf8")).equipos) {
       t.fotos.forEach((f, i) => {
         if (f.imagen?.archivo_commons) used.add(f.imagen.archivo_commons);
-        if (f.generada) return;
+        if (f.generada || f.ia) return;
         if (ONLY ? t.id === ONLY : FORCE || !f.imagen) todo.push({ file, t, f, i });
       });
     }
