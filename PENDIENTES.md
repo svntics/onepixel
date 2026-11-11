@@ -11,10 +11,10 @@ Lista de cosas por hacer. Se actualiza cada vez que algo se completa o se agrega
   - `npm run images`
 - [x] 4 Fotos 1 Equipo · Premier aprobada el 2026-11-11.
 - [x] 4 Fotos 1 Equipo: fotos de la Premier completas (57 de Commons, 2 recortadas, 3 ilustraciones con IA hechas en Gemini).
-- [ ] **4 Fotos 1 Equipo: responder** si los equipos nuevos son clubes clásicos fijos (lo que hice en la Premier) o los de la temporada actual. (Ya no hay ligas separadas: todos los equipos juntos; hay Práctica y 1v1.)
+- [x] 4 Fotos 1 Equipo: los equipos los elige Ignacio en el documento «4 Fotos 1 Equipo — Lista de equipos».
 - [x] 4 Fotos 1 Equipo: pistas de 42 clubes nuevos aprobadas (2026-11-11).
-- [ ] **4 Fotos 1 Equipo: volver a correr `npm run team-images`** (Fetch + Pull antes; Commit + Push después): faltan 16 fotos que Claude descartó o que no tenían resultado. Ya hay 44 equipos jugables.
-- [ ] **4 Fotos 1 Equipo: generar 10 ilustraciones en Gemini** con los prompts que Claude dio en el chat (Barcelona, Atlético, Villarreal, Leverkusen, Juventus, Milan, Católica, River, Independiente, Al Nassr) y mandarlas por el chat.
+- [ ] **4 Fotos 1 Equipo: volver a correr `npm run team-images`** (Fetch + Pull ANTES; Commit + Push después). Debe decir «Fotos a buscar: 15». Después Claude revisa las fotos. Hoy hay 46 equipos jugables de 62.
+- [ ] **4 Fotos 1 Equipo: generar 5 ilustraciones en Gemini** (Juventus 2, Milan 3, River 3, Independiente 2, Al Nassr 2). Los prompts están en `data/4fotos/*.json` (campo `ia_prompt`): pídeselos a Claude. Descargarlas con el botón ⬇ y mandarlas en `.webp` (las `.png` llegan achicadas a 160×160). Ya están: Barcelona, Atlético, Villarreal, Leverkusen y Católica.
 - [ ] **Liga española (79):** revisar y escribir «apruebo la Liga española».
 - [ ] **NBA (32):** revisar y escribir «apruebo la NBA».
 - [ ] **Fotos de jugadores faltantes** (unos 96 sin imagen): el mismo `npm run images` de arriba las descarga todas de una vez.
@@ -27,7 +27,7 @@ Lista de cosas por hacer. Se actualiza cada vez que algo se completa o se agrega
 - [ ] Fotos de época: 24 jugadores históricos tienen una foto que no es de su época; hay candidatas en `reports/fotos-epoca.html` por elegir (ej. Baggio en Italia '90).
 
 - [x] 4 Fotos 1 Equipo: Premier y tarjeta de la portada activadas y probadas con fotos reales (2026-11-11).
-- [ ] 4 Fotos 1 Equipo: agregar equipos de La Liga, Bundesliga, Serie A, Champions y Campeones históricos (Champions y Libertadores) al mismo grupo, de a una liga.
+- [ ] 4 Fotos 1 Equipo (opcional): las secciones «Equipos de Champions» y «Campeones históricos» del documento siguen vacías.
 
 ## Dudas abiertas
 
