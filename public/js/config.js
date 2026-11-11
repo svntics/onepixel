@@ -74,7 +74,7 @@ export const CONFIG = {
     { id: "ufc", nombre: "UFC / Artes marciales mixtas", emoji: "🥊", descripcion: "Peleadores de MMA", estado: "pronto", sujeto: "peleador" },
     { id: "series", nombre: "Series y actores", emoji: "🎬", descripcion: "Personajes y actores de series", estado: "pronto", sujeto: "actor" },
     // Modo distinto (4 fotos + casillas de letras): vive en su propia página
-    { id: "cuatrofotos", nombre: "4 Fotos 1 Equipo", emoji: "🧩", descripcion: "Adivina el club con 4 pistas visuales", estado: "pronto", enlace: "4fotos.html" },
+    { id: "cuatrofotos", nombre: "4 Fotos 1 Equipo", emoji: "🧩", descripcion: "Adivina el club con 4 pistas visuales", estado: "activo", enlace: "4fotos.html" },
   ],
 
   // ---------- Modo "4 Fotos 1 Equipo" ----------
@@ -82,7 +82,7 @@ export const CONFIG = {
   //   Los equipos están en data/4fotos/<id>.json
   FOUR_PICS: {
     LEAGUES: [
-      { id: "premier", nombre: "Premier League", emoji: "🏴\u{E0067}\u{E0062}\u{E0065}\u{E006E}\u{E0067}\u{E007F}", activa: false },
+      { id: "premier", nombre: "Premier League", emoji: "🏴\u{E0067}\u{E0062}\u{E0065}\u{E006E}\u{E0067}\u{E007F}", activa: true },
       { id: "laliga", nombre: "La Liga", emoji: "🇪🇸", activa: false },
       { id: "bundesliga", nombre: "Bundesliga", emoji: "🇩🇪", activa: false },
       { id: "seriea", nombre: "Serie A", emoji: "🇮🇹", activa: false },

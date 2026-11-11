@@ -9,7 +9,7 @@ Lista de cosas por hacer. Se actualiza cada vez que algo se completa o se agrega
 - [ ] **Entrenadores: descargar fotos** desde tu computador (GitHub Desktop: Fetch + Pull antes; Commit + Push después):
   - `set "CONTACTO=https://github.com/svntics/onepixel"`
   - `npm run images`
-- [ ] **4 Fotos 1 Equipo · Premier (20 equipos):** revisar en el documento editable las explicaciones de cada foto y escribir «apruebo 4 fotos premier». Ojo con Everton (se mudó de estadio en 2025).
+- [x] 4 Fotos 1 Equipo · Premier aprobada el 2026-11-11.
 - [x] 4 Fotos 1 Equipo: fotos de la Premier completas (57 de Commons, 2 recortadas, 3 ilustraciones con IA hechas en Gemini).
 - [ ] **4 Fotos 1 Equipo: responder** si las ligas usan clubes clásicos fijos (lo que hice) o los de la temporada actual, y si quieres además Reto diario o 1v1 (hoy solo hay modo práctica).
 - [ ] **Liga española (79):** revisar y escribir «apruebo la Liga española».
@@ -23,7 +23,7 @@ Lista de cosas por hacer. Se actualiza cada vez que algo se completa o se agrega
 - [ ] Liga italiana: está programada para el 2026-11-12 pero solo 20 de 57 tienen foto; decidir si se posterga.
 - [ ] Fotos de época: 24 jugadores históricos tienen una foto que no es de su época; hay candidatas en `reports/fotos-epoca.html` por elegir (ej. Baggio en Italia '90).
 
-- [ ] 4 Fotos 1 Equipo: cuando estén las fotos y tu aprobación, activar la Premier y la tarjeta de la portada (hoy dice «Próximamente») y probar con fotos reales.
+- [x] 4 Fotos 1 Equipo: Premier y tarjeta de la portada activadas y probadas con fotos reales (2026-11-11).
 - [ ] 4 Fotos 1 Equipo: preparar La Liga, Bundesliga, Serie A, Champions y Campeones históricos (Champions y Libertadores), liga por liga.
 
 ## Dudas abiertas

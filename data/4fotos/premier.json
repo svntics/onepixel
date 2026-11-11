@@ -67,7 +67,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "chelsea",
@@ -136,7 +136,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "liverpool",
@@ -207,7 +207,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "manchester-united",
@@ -276,7 +276,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "manchester-city",
@@ -344,7 +344,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "tottenham",
@@ -412,7 +412,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "newcastle",
@@ -480,7 +480,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "everton",
@@ -560,7 +560,7 @@
       "revisar": [
         "Everton se mudó a un estadio nuevo en 2025: confirmar que la explicación de Goodison siga correcta."
       ],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "aston-villa",
@@ -636,7 +636,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "west-ham",
@@ -707,7 +707,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "leeds",
@@ -775,7 +775,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "southampton",
@@ -849,7 +849,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "wolverhampton",
@@ -922,7 +922,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "crystal-palace",
@@ -990,7 +990,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "brighton",
@@ -1058,7 +1058,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "nottingham-forest",
@@ -1126,7 +1126,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "leicester",
@@ -1194,7 +1194,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "sunderland",
@@ -1263,7 +1263,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "fulham",
@@ -1334,7 +1334,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     },
     {
       "id": "brentford",
@@ -1405,7 +1405,7 @@
         }
       ],
       "revisar": [],
-      "aprobado": false
+      "aprobado": "2026-11-11"
     }
   ]
 }

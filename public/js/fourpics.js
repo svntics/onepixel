@@ -187,13 +187,16 @@ function renderBoard() {
   const slots = $("#fp-slots");
   slots.replaceChildren();
   let k = 0;
+  // Casillas más angostas en palabras largas, para que cada palabra quepa en una línea del celular
+  const longest = Math.max(...answerWords(team.respuesta).map((w) => w.length));
+  const size = longest <= 8 ? "w-9 sm:w-10" : longest <= 10 ? "w-7 sm:w-9" : "w-6 text-base sm:w-8";
   for (const word of answerWords(team.respuesta)) {
-    const group = el("div", "flex flex-wrap justify-center gap-1");
+    const group = el("div", `flex justify-center ${longest > 10 ? "gap-0.5" : "gap-1"}`);
     for (let j = 0; j < word.length; j++, k++) {
       const idx = k;
       const tile = board.slots[idx];
       const filled = tile !== null;
-      const b = el("button", `${tileCls} w-9 sm:w-10 ${filled ? "border-accent bg-surface-2" : "border-border bg-surface"}`, filled ? board.bank[tile] : "");
+      const b = el("button", `${tileCls} ${size} ${filled ? "border-accent bg-surface-2" : "border-border bg-surface"}`, filled ? board.bank[tile] : "");
       b.type = "button";
       b.setAttribute("aria-label", filled ? `Casilla ${idx + 1}: ${board.bank[tile]}. Tocar para devolver` : `Casilla ${idx + 1} vacía`);
       b.disabled = round.over || !filled;
