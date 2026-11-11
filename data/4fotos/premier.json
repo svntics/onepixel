@@ -122,20 +122,17 @@
           "tipo": "cultura",
           "buscar": "Stamford Bridge stadium",
           "commons": null,
-          "explicacion": "Un rincón de Stamford Bridge, el estadio del club desde su fundación en 1905.",
-          "imagen": {
-            "archivo_local": "img/t/211ac1b0e45c2678.webp",
-            "archivo_commons": "Stamford Bridge stadium - geograph.org.uk - 4220001.jpg",
-            "titulo": "Stamford Bridge stadium - geograph.org.uk - 4220001",
-            "autor": "Stamford Bridge stadium by Thomas Nugent",
-            "licencia": "CC BY-SA 2.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Stamford_Bridge_stadium_-_geograph.org.uk_-_4220001.jpg"
-          },
+          "explicacion": "Un león rampante: el león del escudo del club, adoptado en 1953, viene del escudo de armas del vizconde Chelsea, entonces presidente del club.",
+          "imagen": null,
           "excluir": [
             "London Stamford Bridge.jpg",
             "Stamford Bridge stadium - geograph.org.uk - 4219997.jpg"
-          ]
+          ],
+          "ia": {
+            "archivo_local": "img/t/3be056a729cd8a37.webp",
+            "herramienta": "Gemini (Google)",
+            "fecha": "2026-11-11"
+          }
         }
       ],
       "revisar": [],
@@ -250,20 +247,17 @@
           "tipo": "apodo",
           "buscar": "trident",
           "commons": null,
-          "explicacion": "Un tridente, atributo del diablo del escudo: el apodo es «Red Devils».",
-          "imagen": {
-            "archivo_local": "img/t/3bd0ea48e44a1bcf.webp",
-            "archivo_commons": "Ivy Guest House, Melbourne Place - geograph.org.uk - 400640.jpg",
-            "titulo": "Ivy Guest House, Melbourne Place - geograph.org.uk - 400640",
-            "autor": "Alan Longbottom",
-            "licencia": "CC BY-SA 2.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Ivy_Guest_House,_Melbourne_Place_-_geograph.org.uk_-_400640.jpg"
-          },
+          "explicacion": "Un tridente: el diablo del escudo del club lleva uno; de ahí el apodo «Red Devils».",
+          "imagen": null,
           "excluir": [
             "11th century Trishul with Shaivism Ardhanarishvara, Cleveland Museum of Art.jpg",
             "Neptu (\"Neptune\") with Trident Sculpture in the Jardin del Turia, Valencia, Spain.jpg"
-          ]
+          ],
+          "ia": {
+            "archivo_local": "img/t/1f44fa3908bddea5.webp",
+            "herramienta": "Gemini (Google)",
+            "fecha": "2026-11-11"
+          }
         },
         {
           "tipo": "cultura",
@@ -1241,19 +1235,16 @@
           "buscar": "black cat",
           "commons": null,
           "explicacion": "El gato negro: el apodo «The Black Cats» viene de una antigua batería de cañones junto al río Wear.",
-          "imagen": {
-            "archivo_local": "img/t/8ad5cb01c8c2dbce.webp",
-            "archivo_commons": "Felis catus-cat on snow.jpg",
-            "titulo": "Felis catus-cat on snow",
-            "autor": "Von.grzanka",
-            "licencia": "CC BY-SA 3.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Felis_catus-cat_on_snow.jpg"
-          },
+          "imagen": null,
           "excluir": [
             "Cat November 2010-1a.jpg",
             "Black and white cat sitting on lawn.jpg"
-          ]
+          ],
+          "ia": {
+            "archivo_local": "img/t/77d044b63f5ecc78.webp",
+            "herramienta": "Gemini (Google)",
+            "fecha": "2026-11-11"
+          }
         },
         {
           "tipo": "cultura",
