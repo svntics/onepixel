@@ -39,7 +39,12 @@
         {
           "tipo": "apodo",
           "explicacion": "«Culés»: así se llamó a los hinchas que se sentaban en el muro del antiguo campo de la calle Industria y se veían de espaldas desde la calle.",
-          "ia_prompt": "Genera una imagen cuadrada y realista: un grupo de personas sentadas sobre un muro de ladrillo antiguo, vistas de espaldas, mirando hacia un campo de fútbol, estilo fotografía antigua, sin personas reconocibles. Sin texto, sin letras, sin logos, sin escudos."
+          "ia_prompt": "Genera una imagen cuadrada y realista: un grupo de personas sentadas sobre un muro de ladrillo antiguo, vistas de espaldas, mirando hacia un campo de fútbol, estilo fotografía antigua, sin personas reconocibles. Sin texto, sin letras, sin logos, sin escudos.",
+          "ia": {
+            "archivo_local": "img/t/5f746047e1b2049f.webp",
+            "herramienta": "Gemini (Google)",
+            "fecha": "2026-11-11"
+          }
         },
         {
           "tipo": "colores",
