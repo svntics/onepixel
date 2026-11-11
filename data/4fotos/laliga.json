@@ -164,7 +164,12 @@
           "tipo": "apodo",
           "explicacion": "Un colchón a rayas: «Los Colchoneros», porque sus rayas rojas y blancas recordaban la tela de los colchones.",
           "juego": true,
-          "ia_prompt": "Genera una imagen cuadrada y realista: un colchón antiguo con tela a rayas verticales rojas y blancas, apoyado contra una pared. Sin texto, sin letras, sin logos, sin escudos."
+          "ia_prompt": "Genera una imagen cuadrada y realista: un colchón antiguo con tela a rayas verticales rojas y blancas, apoyado contra una pared. Sin texto, sin letras, sin logos, sin escudos.",
+          "ia": {
+            "archivo_local": "img/t/e01039fbd5799fe0.webp",
+            "herramienta": "Gemini (Google)",
+            "fecha": "2026-11-11"
+          }
         },
         {
           "tipo": "colores",

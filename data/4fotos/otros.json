@@ -305,7 +305,12 @@
         {
           "tipo": "apodo",
           "explicacion": "Un caballero cruzado: el apodo del club es «Los Cruzados».",
-          "ia_prompt": "Genera una imagen cuadrada y realista: un caballero cruzado medieval con armadura y capa blanca, de espaldas, frente a un castillo, sin rostro visible. Sin texto, sin letras, sin logos, sin escudos."
+          "ia_prompt": "Genera una imagen cuadrada y realista: un caballero cruzado medieval con armadura y capa blanca, de espaldas, frente a un castillo, sin rostro visible. Sin texto, sin letras, sin logos, sin escudos.",
+          "ia": {
+            "archivo_local": "img/t/4337615393361b90.webp",
+            "herramienta": "Gemini (Google)",
+            "fecha": "2026-11-11"
+          }
         },
         {
           "tipo": "colores",
