@@ -160,7 +160,12 @@
         {
           "tipo": "apodo",
           "explicacion": "Una fábrica: su apodo es «Die Werkself», el once de la fábrica.",
-          "ia_prompt": "Genera una imagen cuadrada y realista: una antigua fábrica de ladrillo con chimeneas y obreros caminando hacia la entrada, estilo fotografía de principios del siglo XX, sin personas reconocibles. Sin texto, sin letras, sin logos, sin escudos."
+          "ia_prompt": "Genera una imagen cuadrada y realista: una antigua fábrica de ladrillo con chimeneas y obreros caminando hacia la entrada, estilo fotografía de principios del siglo XX, sin personas reconocibles. Sin texto, sin letras, sin logos, sin escudos.",
+          "ia": {
+            "archivo_local": "img/t/3fbf6ac0ff70b8a3.webp",
+            "herramienta": "Gemini (Google)",
+            "fecha": "2026-11-11"
+          }
         },
         {
           "tipo": "colores",

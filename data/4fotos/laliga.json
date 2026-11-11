@@ -506,7 +506,12 @@
           "tipo": "apodo",
           "explicacion": "Un submarino amarillo: el apodo del club es «El Submarino Amarillo».",
           "juego": true,
-          "ia_prompt": "Genera una imagen cuadrada y realista: un submarino amarillo navegando en la superficie de un mar azul en un día soleado. Sin texto, sin letras, sin logos, sin escudos."
+          "ia_prompt": "Genera una imagen cuadrada y realista: un submarino amarillo navegando en la superficie de un mar azul en un día soleado. Sin texto, sin letras, sin logos, sin escudos.",
+          "ia": {
+            "archivo_local": "img/t/4969306c9362ec8a.webp",
+            "herramienta": "Gemini (Google)",
+            "fecha": "2026-11-11"
+          }
         },
         {
           "tipo": "colores",
