@@ -12,6 +12,7 @@ Lista de cosas por hacer. Se actualiza cada vez que algo se completa o se agrega
 - [x] 4 Fotos 1 Equipo · Premier aprobada el 2026-11-11.
 - [x] 4 Fotos 1 Equipo: fotos de la Premier completas (57 de Commons, 2 recortadas, 3 ilustraciones con IA hechas en Gemini).
 - [ ] **4 Fotos 1 Equipo: responder** si los equipos nuevos son clubes clásicos fijos (lo que hice en la Premier) o los de la temporada actual. (Ya no hay ligas separadas: todos los equipos juntos; hay Práctica y 1v1.)
+- [ ] **4 Fotos 1 Equipo: agregar clubes** al documento editable «4 Fotos 1 Equipo — Lista de equipos» (https://claude.ai/artifact/EtBbjAPjrpF9Va3awYawzZ) y avisar «agregué equipos». Claude propone las 4 pistas de cada uno.
 - [ ] **Liga española (79):** revisar y escribir «apruebo la Liga española».
 - [ ] **NBA (32):** revisar y escribir «apruebo la NBA».
 - [ ] **Fotos de jugadores faltantes** (unos 96 sin imagen): el mismo `npm run images` de arriba las descarga todas de una vez.
