@@ -113,17 +113,12 @@
         {
           "tipo": "cultura",
           "explicacion": "Un trébol, símbolo irlandés que aparece en el escudo.",
-          "buscar": "shamrock clover",
+          "buscar": "shamrock leaves Trifolium",
           "commons": null,
-          "imagen": {
-            "archivo_local": "img/t/c0e86537dece9182.webp",
-            "archivo_commons": "Trifolium pratense - Keila.jpg",
-            "titulo": "Trifolium pratense - Keila",
-            "autor": "Ivar Leidus",
-            "licencia": "CC BY-SA 4.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Trifolium_pratense_-_Keila.jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "Trifolium pratense - Keila.jpg"
+          ]
         },
         {
           "tipo": "colores",
@@ -167,32 +162,22 @@
         {
           "tipo": "palabra",
           "explicacion": "Un gato colocolo, felino sudamericano.",
-          "buscar": "Leopardus colocola",
+          "buscar": "Leopardus colocola pampas cat",
           "commons": null,
-          "imagen": {
-            "archivo_local": "img/t/f292b34d9873f024.webp",
-            "archivo_commons": "PampasCat distribution.jpg",
-            "titulo": "PampasCat distribution",
-            "autor": "BhagyaMani",
-            "licencia": "CC BY-SA 4.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:PampasCat_distribution.jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "PampasCat distribution.jpg"
+          ]
         },
         {
           "tipo": "cultura",
           "explicacion": "El Estadio Monumental, en Macul.",
-          "buscar": "Estadio Monumental David Arellano",
+          "buscar": "Estadio Monumental Macul",
           "commons": null,
-          "imagen": {
-            "archivo_local": "img/t/d708eb742fe53885.webp",
-            "archivo_commons": "Homenaje a David Arellano, Estadio Monumental, 2016-12-21.jpg",
-            "titulo": "Homenaje a David Arellano, Estadio Monumental, 2016-12-21",
-            "autor": "Carlos Figueroa",
-            "licencia": "CC BY-SA 4.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Homenaje_a_David_Arellano,_Estadio_Monumental,_2016-12-21.jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "Homenaje a David Arellano, Estadio Monumental, 2016-12-21.jpg"
+          ]
         },
         {
           "tipo": "colores",

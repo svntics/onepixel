@@ -14,17 +14,12 @@
         {
           "tipo": "origen",
           "explicacion": "La Sagrada Familia, en Barcelona. El club se fundó en 1899 por iniciativa del suizo Joan Gamper.",
-          "buscar": "Sagrada Familia Barcelona",
+          "buscar": "Sagrada Família facade",
           "commons": null,
-          "imagen": {
-            "archivo_local": "img/t/7eecdfb6316b4ce6.webp",
-            "archivo_commons": "Sagrada Familia March 2015-19bw.jpg",
-            "titulo": "Sagrada Familia March 2015-19bw",
-            "autor": "Alvesgaspar",
-            "licencia": "CC BY-SA 4.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia_March_2015-19bw.jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "Sagrada Familia March 2015-19bw.jpg"
+          ]
         },
         {
           "tipo": "cultura",
@@ -104,17 +99,12 @@
           "tipo": "apodo",
           "explicacion": "Un merengue: el apodo «Los Merengues» viene de su camiseta blanca.",
           "juego": true,
-          "buscar": "meringue dessert",
+          "buscar": "meringues",
           "commons": null,
-          "imagen": {
-            "archivo_local": "img/t/310e31aea26a1290.webp",
-            "archivo_commons": "Merveilleux.jpg",
-            "titulo": "Merveilleux",
-            "autor": "Eeicing",
-            "licencia": "CC BY-SA 4.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Merveilleux.jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "Merveilleux.jpg"
+          ]
         },
         {
           "tipo": "colores",
@@ -174,17 +164,7 @@
           "tipo": "apodo",
           "explicacion": "Un colchón a rayas: «Los Colchoneros», porque sus rayas rojas y blancas recordaban la tela de los colchones.",
           "juego": true,
-          "buscar": "striped mattress ticking",
-          "commons": null,
-          "imagen": {
-            "archivo_local": "img/t/50a56f8be892a919.webp",
-            "archivo_commons": "Settee ticking fabric upholstery.jpg",
-            "titulo": "Settee ticking fabric upholstery",
-            "autor": "frenchfinds.co.uk",
-            "licencia": "CC BY 2.0",
-            "url_licencia": "https://creativecommons.org/licenses/by/2.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Settee_ticking_fabric_upholstery.jpg"
-          }
+          "ia_prompt": "Genera una imagen cuadrada y realista: un colchón antiguo con tela a rayas verticales rojas y blancas, apoyado contra una pared. Sin texto, sin letras, sin logos, sin escudos."
         },
         {
           "tipo": "colores",
@@ -384,13 +364,14 @@
           "buscar": "Benito Villamarín stadium",
           "commons": null,
           "imagen": {
-            "archivo_local": "img/t/daead0762b8fa496.webp",
+            "archivo_local": "img/t/89c3828b6ed778f0.webp",
             "archivo_commons": "Estadio Benito Villamarín - Sevilla - 01.jpg",
             "titulo": "Estadio Benito Villamarín - Sevilla - 01",
             "autor": "Maesi64",
             "licencia": "CC0",
             "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Estadio_Benito_Villamar%C3%ADn_-_Sevilla_-_01.jpg"
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Estadio_Benito_Villamar%C3%ADn_-_Sevilla_-_01.jpg",
+            "modificacion": "recortada"
           }
         },
         {
@@ -489,17 +470,12 @@
         {
           "tipo": "origen",
           "explicacion": "Villarreal, ciudad de la provincia de Castellón conocida por su industria de la cerámica.",
-          "buscar": "Vila-real Castellón",
+          "buscar": "Vila-real town Plana Baixa",
           "commons": null,
-          "imagen": {
-            "archivo_local": "img/t/48e4213d95feee80.webp",
-            "archivo_commons": "Unidad 447-305M C-6.jpg",
-            "titulo": "Unidad 447-305M C-6",
-            "autor": "Tranvía Blanco",
-            "licencia": "CC BY-SA 4.0",
-            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Unidad_447-305M_C-6.jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "Unidad 447-305M C-6.jpg"
+          ]
         },
         {
           "tipo": "palabra",

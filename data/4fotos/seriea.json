@@ -201,17 +201,12 @@
         {
           "tipo": "origen",
           "explicacion": "El Vesubio sobre la bahía de Nápoles.",
-          "buscar": "Vesuvius Bay of Naples",
+          "buscar": "Mount Vesuvius from Naples",
           "commons": null,
-          "imagen": {
-            "archivo_local": "img/t/db95f0af76cf6862.webp",
-            "archivo_commons": "Johan Christian Dahl - The Bay of Naples with Vesuvius - Google Art Project.jpg",
-            "titulo": "The Bay of Naples with Vesuvius",
-            "autor": "Johan Christian Dahl",
-            "licencia": "Public domain",
-            "url_licencia": "",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Johan_Christian_Dahl_-_The_Bay_of_Naples_with_Vesuvius_-_Google_Art_Project.jpg"
-          }
+          "imagen": null,
+          "excluir": [
+            "Johan Christian Dahl - The Bay of Naples with Vesuvius - Google Art Project.jpg"
+          ]
         },
         {
           "tipo": "cultura",
@@ -685,7 +680,7 @@
         {
           "tipo": "origen",
           "explicacion": "Baldosas de cerámica: Sassuolo es la capital italiana de la cerámica, y el club pertenece desde 2003 a la empresa Mapei.",
-          "buscar": "Sassuolo ceramic district tiles",
+          "buscar": "ceramic tiles kiln factory Italy",
           "commons": null,
           "imagen": null
         },
