@@ -11,7 +11,7 @@ Lista de cosas por hacer. Se actualiza cada vez que algo se completa o se agrega
   - `npm run images`
 - [x] 4 Fotos 1 Equipo · Premier aprobada el 2026-11-11.
 - [x] 4 Fotos 1 Equipo: fotos de la Premier completas (57 de Commons, 2 recortadas, 3 ilustraciones con IA hechas en Gemini).
-- [ ] **4 Fotos 1 Equipo: responder** si las ligas usan clubes clásicos fijos (lo que hice) o los de la temporada actual, y si quieres además Reto diario o 1v1 (hoy solo hay modo práctica).
+- [ ] **4 Fotos 1 Equipo: responder** si los equipos nuevos son clubes clásicos fijos (lo que hice en la Premier) o los de la temporada actual. (Ya no hay ligas separadas: todos los equipos juntos; hay Práctica y 1v1.)
 - [ ] **Liga española (79):** revisar y escribir «apruebo la Liga española».
 - [ ] **NBA (32):** revisar y escribir «apruebo la NBA».
 - [ ] **Fotos de jugadores faltantes** (unos 96 sin imagen): el mismo `npm run images` de arriba las descarga todas de una vez.
@@ -24,7 +24,7 @@ Lista de cosas por hacer. Se actualiza cada vez que algo se completa o se agrega
 - [ ] Fotos de época: 24 jugadores históricos tienen una foto que no es de su época; hay candidatas en `reports/fotos-epoca.html` por elegir (ej. Baggio en Italia '90).
 
 - [x] 4 Fotos 1 Equipo: Premier y tarjeta de la portada activadas y probadas con fotos reales (2026-11-11).
-- [ ] 4 Fotos 1 Equipo: preparar La Liga, Bundesliga, Serie A, Champions y Campeones históricos (Champions y Libertadores), liga por liga.
+- [ ] 4 Fotos 1 Equipo: agregar equipos de La Liga, Bundesliga, Serie A, Champions y Campeones históricos (Champions y Libertadores) al mismo grupo, de a una liga.
 
 ## Dudas abiertas
 

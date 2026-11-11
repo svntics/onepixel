@@ -65,7 +65,14 @@ const listsHtml = SPORTS.filter((d) => d.estado === "activo")
   .map((d) => {
     const cats = ACTIVE.filter((c) => c.deporte === d.id);
     const prep = CONFIG.CATEGORIES.filter((c) => c.deporte === d.id && c.activa === false);
-    const items = cats.map(catItem).join("\n");
+    let items = cats.map(catItem).join("\n");
+    // Modo "4 Fotos 1 Equipo" (página propia) dentro de su categoría general
+    if (CONFIG.FOUR_PICS?.DEPORTE === d.id)
+      items += `${items ? "\n" : ""}          <li><a href="4fotos.html" data-modo="4fotos"
+            class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:bg-surface-2">
+            <span class="text-3xl" aria-hidden="true">🧩</span>
+            <span class="flex flex-1 flex-col"><span class="pix text-lg font-bold">4 Fotos 1 Equipo</span><span class="text-sm text-muted">Adivina el club con 4 pistas visuales</span></span>
+          </a></li>`;
     const empty = !cats.length
       ? `          <li class="rounded-2xl border border-dashed border-border p-4 text-center text-muted">⏳ En preparación: ${esc(prep.map((c) => c.nombre).join(", ") || "pronto")}. ¡Vuelve pronto!</li>`
       : "";

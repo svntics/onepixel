@@ -220,9 +220,19 @@ body {
 
 /* Modo "4 Fotos 1 Equipo": vista inicial decidida en <head> (ver 4fotos.html) */
 @layer base {
-  html[data-fp="game"] #fp-leagues,
-  html[data-fp="leagues"] #fp-game {
+  html[data-fp] #fp-menu,
+  html[data-fp] #fp-duel-setup,
+  html[data-fp] #fp-duel-turn,
+  html[data-fp] #fp-duel-final,
+  html[data-fp] #fp-game {
     display: none !important;
+  }
+  html[data-fp="menu"] #fp-menu,
+  html[data-fp="duel-setup"] #fp-duel-setup,
+  html[data-fp="duel-turn"] #fp-duel-turn,
+  html[data-fp="duel-final"] #fp-duel-final,
+  html[data-fp="game"] #fp-game {
+    display: block !important;
   }
 }
 #fp-photos img {

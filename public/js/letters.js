@@ -18,81 +18,41 @@ export const answerWords = (answer) => normalizeAnswer(answer).split(" ").filter
 // Letras de la respuesta sin espacios.
 export const answerLetters = (answer) => answerWords(answer).join("");
 
-// Generador pseudoaleatorio con semilla (mulberry32): el mismo equipo produce siempre el mismo banco.
-export function rng(seed) {
-  let a = seed >>> 0;
-  return () => {
-    a = (a + 0x6d2b79f5) >>> 0;
-    let t = a;
-    t = Math.imul(t ^ (t >>> 15), t | 1);
-    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-  };
-}
-
-export function hashString(s) {
-  let h = 2166136261;
-  for (const c of String(s)) h = Math.imul(h ^ c.charCodeAt(0), 16777619);
-  return h >>> 0;
-}
-
-// Letras trampa: las más comunes en nombres de clubes, para que no sean fáciles de descartar.
-const DECOYS = "AEIORNLSTCDMUBGPHFVKYWZJX";
-
-// Tamaño del banco: al menos 12 fichas, al menos 4 trampas, y múltiplo de 6 (filas parejas).
-export function bankSize(n) {
-  return Math.ceil(Math.max(12, n + 4) / 6) * 6;
-}
-
-// Banco de letras: las de la respuesta + trampas, mezcladas de forma determinista.
-export function buildBank(answer, seed = hashString(answer)) {
-  const letters = answerLetters(answer).split("");
-  const rand = rng(seed);
-  const total = bankSize(letters.length);
-  const bank = [...letters];
-  while (bank.length < total) {
-    // Sesgo hacia las primeras letras de DECOYS (más comunes)
-    const i = Math.floor(rand() ** 1.6 * DECOYS.length);
-    bank.push(DECOYS[i]);
-  }
-  for (let i = bank.length - 1; i > 0; i--) {
-    const j = Math.floor(rand() * (i + 1));
-    [bank[i], bank[j]] = [bank[j], bank[i]];
-  }
-  return bank;
-}
+// Teclado completo en orden QWERTY (todas las letras; cada una se puede usar las veces que haga falta).
+export const KEYBOARD_ROWS = ["QWERTYUIOP", "ASDFGHJKL", "ZXCVBNM"];
 
 // ---------- Estado del tablero ----------
-// slots[i] = índice de la ficha del banco colocada en la casilla i, o null.
-export function newBoard(answer, seed) {
-  const bank = buildBank(answer, seed);
-  return { bank, slots: Array(answerLetters(answer).length).fill(null) };
-}
+// slots[i] = letra puesta en la casilla i, o null.
+export const newBoard = (answer) => ({ slots: Array(answerLetters(answer).length).fill(null) });
 
-const usedTiles = (board) => new Set(board.slots.filter((s) => s !== null));
-
-// Coloca la ficha en la primera casilla vacía. Devuelve un tablero nuevo (o el mismo si no se puede).
-export function placeTile(board, tile) {
-  if (usedTiles(board).has(tile) || tile < 0 || tile >= board.bank.length) return board;
+// Pone la letra en la primera casilla vacía. Devuelve un tablero nuevo (o el mismo si no se puede).
+export function placeLetter(board, letter) {
+  const c = String(letter).toUpperCase();
   const free = board.slots.indexOf(null);
-  if (free < 0) return board;
+  if (free < 0 || !/^[A-Z]$/.test(c)) return board;
   const slots = [...board.slots];
-  slots[free] = tile;
-  return { ...board, slots };
+  slots[free] = c;
+  return { slots };
 }
 
-// Devuelve al banco la letra de la casilla indicada.
+// Borra la letra de la casilla indicada.
 export function removeAt(board, slot) {
   if (board.slots[slot] == null) return board;
   const slots = [...board.slots];
   slots[slot] = null;
-  return { ...board, slots };
+  return { slots };
 }
 
-export const clearBoard = (board) => ({ ...board, slots: board.slots.map(() => null) });
+// Borra la última letra puesta (tecla ⌫).
+export function removeLast(board) {
+  const last = board.slots.findLastIndex((s) => s !== null);
+  return last < 0 ? board : removeAt(board, last);
+}
+
+export const clearBoard = (board) => ({ slots: board.slots.map(() => null) });
+export const fillAnswer = (answer) => ({ slots: answerLetters(answer).split("") });
 export const isFull = (board) => board.slots.every((s) => s !== null);
-export const tileIsUsed = (board, tile) => usedTiles(board).has(tile);
-export const boardWord = (board) => board.slots.map((s) => (s === null ? "" : board.bank[s])).join("");
+export const boardWord = (board) => board.slots.map((s) => s ?? "").join("");
 export const isCorrect = (board, answer) => isFull(board) && boardWord(board) === answerLetters(answer);
 
 // ---------- Puntaje ----------

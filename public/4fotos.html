@@ -9,7 +9,7 @@
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <script>
     try { if (localStorage.getItem("op-theme") === "light") document.documentElement.dataset.theme = "light"; } catch (e) {}
-    document.documentElement.dataset.fp = /^#\/[a-z]+$/.test(location.hash) ? "game" : "leagues";
+    document.documentElement.dataset.fp = location.hash === "#/practica" ? "game" : location.hash === "#/1v1" ? "duel-setup" : "menu";
   </script>
   <link rel="preload" href="/fonts/pixelify-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/styles.css">
@@ -26,28 +26,86 @@
 
   <main id="contenido" class="mx-auto max-w-xl px-4 pb-10 outline-none" tabindex="-1">
 
-    <!-- ===== Elegir liga ===== -->
-    <section id="fp-leagues" aria-labelledby="fp-title">
-      <h1 id="fp-title" class="mt-6 text-2xl font-extrabold leading-tight sm:text-3xl">🧩 4 Fotos 1 Equipo</h1>
-      <p class="mt-2 text-muted">Cuatro fotos esconden a un club: su origen, su cultura, su apodo y sus colores. Empiezas con la foto más difícil y cada intento fallido desbloquea otra: mientras menos fotos necesites, más puntos. Elige una liga:</p>
+    <!-- ===== Menú: elegir modo ===== -->
+    <section id="fp-menu" aria-labelledby="fp-title">
+      <a href="./#/futbol" class="mt-4 min-h-11 inline-flex items-center text-sm font-semibold text-muted hover:text-text">← Fútbol</a>
+      <h1 id="fp-title" class="text-2xl font-extrabold leading-tight sm:text-3xl">🧩 4 Fotos 1 Equipo</h1>
+      <p class="mt-2 text-muted">Cuatro fotos esconden a un club: su origen, su cultura, su apodo y sus colores. Empiezas con la foto más difícil y cada intento fallido desbloquea otra: mientras menos fotos necesites, más puntos.</p>
       <p class="fp-stats mt-3 text-sm text-muted" aria-live="polite"></p>
-      <ul id="fp-league-list" class="mt-6 grid gap-3 sm:grid-cols-2" role="list"></ul>
+      <ul class="mt-6 grid gap-3" role="list">
+        <li><a href="#/practica" class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:border-accent hover:bg-surface-2">
+          <span class="text-3xl" aria-hidden="true">🎯</span>
+          <span class="flex flex-1 flex-col"><span class="pix text-lg font-bold">Práctica</span><span class="text-sm text-muted">Equipos al azar, sin límite</span></span>
+        </a></li>
+        <li><a href="#/1v1" class="flex min-h-20 items-center gap-4 rounded-2xl border border-border bg-surface p-4 hover:border-accent hover:bg-surface-2">
+          <span class="text-3xl" aria-hidden="true">⚔️</span>
+          <span class="flex flex-1 flex-col"><span class="pix text-lg font-bold">1v1</span><span class="text-sm text-muted">Dos jugadores por turnos en el mismo dispositivo</span></span>
+        </a></li>
+      </ul>
     </section>
 
-    <!-- ===== Juego ===== -->
-    <section id="fp-game" aria-labelledby="fp-league-name">
-      <div class="mt-4 flex items-center justify-between gap-2">
-        <a href="#/" class="min-h-11 inline-flex items-center text-sm font-semibold text-muted hover:text-text">← Ligas</a>
-        <p class="fp-stats text-sm text-muted" aria-live="polite"></p>
+    <!-- ===== 1v1: configuración ===== -->
+    <section id="fp-duel-setup" aria-labelledby="fp-duel-title">
+      <a href="#/" class="mt-4 min-h-11 inline-flex items-center text-sm font-semibold text-muted hover:text-text">← Volver</a>
+      <h1 id="fp-duel-title" class="text-2xl font-extrabold">⚔️ 1v1</h1>
+      <p class="mt-2 text-muted">Cada jugador adivina sus propios equipos por turnos. Gana quien sume más puntos.</p>
+      <form id="fp-duel-form" class="mt-4 grid gap-4">
+        <label class="grid gap-1 text-sm font-semibold">Jugador 1
+          <input name="p1" maxlength="16" autocomplete="off" placeholder="Jugador 1" class="min-h-11 rounded-xl border border-border bg-surface px-3 text-base font-normal">
+        </label>
+        <label class="grid gap-1 text-sm font-semibold">Jugador 2
+          <input name="p2" maxlength="16" autocomplete="off" placeholder="Jugador 2" class="min-h-11 rounded-xl border border-border bg-surface px-3 text-base font-normal">
+        </label>
+        <fieldset class="grid gap-2">
+          <legend class="text-sm font-semibold">Equipos por jugador</legend>
+          <div class="flex gap-2">
+            <label class="flex min-h-11 flex-1 cursor-pointer items-center justify-center gap-2 rounded-xl border border-border bg-surface has-[:checked]:border-accent"><input type="radio" name="rounds" value="3" checked> 3</label>
+            <label class="flex min-h-11 flex-1 cursor-pointer items-center justify-center gap-2 rounded-xl border border-border bg-surface has-[:checked]:border-accent"><input type="radio" name="rounds" value="5"> 5</label>
+          </div>
+        </fieldset>
+        <button type="submit" class="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-ink">¡A jugar!</button>
+      </form>
+    </section>
+
+    <!-- ===== 1v1: pantalla de turno (anti-spoiler) ===== -->
+    <section id="fp-duel-turn" class="py-10 text-center" aria-live="polite">
+      <p class="text-5xl" aria-hidden="true">📱</p>
+      <h1 id="fp-turn-title" class="pix mt-4 text-2xl font-extrabold"></h1>
+      <p id="fp-turn-detail" class="mt-2 text-muted"></p>
+      <p id="fp-turn-score" class="mt-4 text-sm font-semibold"></p>
+      <button id="fp-turn-go" type="button" class="mt-6 min-h-11 rounded-xl bg-accent px-6 font-bold text-accent-ink">Estoy listo</button>
+    </section>
+
+    <!-- ===== 1v1: final ===== -->
+    <section id="fp-duel-final" class="duel-final mt-4 rounded-2xl py-8 text-center">
+      <p class="duel-trophy text-6xl" aria-hidden="true">🏆</p>
+      <h1 id="fp-final-title" class="duel-title pix mt-3 text-3xl font-extrabold"></h1>
+      <p id="fp-final-detail" class="mt-2 text-muted"></p>
+      <table class="mx-auto mt-6 w-full max-w-sm text-sm">
+        <thead><tr class="text-muted"><th class="py-1 text-left">Ronda</th><th id="fp-th-p1" class="py-1"></th><th id="fp-th-p2" class="py-1"></th></tr></thead>
+        <tbody id="fp-final-rows"></tbody>
+        <tfoot><tr class="font-extrabold"><td class="py-2 text-left">Total</td><td id="fp-tot-p1"></td><td id="fp-tot-p2"></td></tr></tfoot>
+      </table>
+      <div class="mt-6 flex flex-wrap justify-center gap-2">
+        <button id="fp-rematch" type="button" class="min-h-11 rounded-xl bg-accent px-5 font-bold text-accent-ink">🔁 Revancha</button>
+        <a href="#/" class="min-h-11 inline-flex items-center rounded-xl border border-border bg-surface px-5 font-semibold hover:bg-surface-2">Volver</a>
       </div>
-      <h1 id="fp-league-name" class="text-xl font-extrabold"></h1>
+    </section>
+
+    <!-- ===== Juego (práctica y turnos del 1v1) ===== -->
+    <section id="fp-game" aria-labelledby="fp-game-title">
+      <div class="mt-4 flex items-center justify-between gap-2">
+        <a href="#/" id="fp-back" class="min-h-11 inline-flex items-center text-sm font-semibold text-muted hover:text-text">← Salir</a>
+        <p id="fp-game-info" class="text-right text-sm text-muted" aria-live="polite"></p>
+      </div>
+      <h1 id="fp-game-title" class="text-xl font-extrabold"></h1>
 
       <div id="fp-photos" class="mt-3 grid grid-cols-2 gap-2"></div>
 
       <div id="fp-board" class="mt-4">
         <div id="fp-slots" class="flex flex-wrap justify-center gap-x-4 gap-y-2" aria-label="Respuesta"></div>
         <p id="fp-msg" class="mt-2 min-h-6 text-center text-sm font-semibold" role="status" aria-live="polite"></p>
-        <div id="fp-bank" class="mx-auto mt-2 grid max-w-sm grid-cols-6 gap-1.5" aria-label="Letras disponibles"></div>
+        <div id="fp-keyboard" class="mt-2 grid gap-1.5" aria-label="Teclado"></div>
         <div class="mt-4 flex flex-wrap justify-center gap-2">
           <button id="fp-more" type="button" class="min-h-11 rounded-xl border border-accent bg-surface px-4 text-sm font-semibold hover:bg-surface-2">🔓 Ver otra foto</button>
           <button id="fp-clear" type="button" class="min-h-11 rounded-xl border border-border bg-surface px-4 text-sm font-semibold hover:bg-surface-2">Borrar todo</button>

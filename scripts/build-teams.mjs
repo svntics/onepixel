@@ -1,4 +1,4 @@
-// Modo "4 Fotos 1 Equipo": valida data/4fotos/<liga>.json y genera public/data/4fotos-<liga>.json.
+// Modo "4 Fotos 1 Equipo": valida data/4fotos/<liga>.json y genera public/data/4fotos.json (todos los equipos juntos).
 // Uso: npm run build:teams   (incluido en npm run build)
 //      node scripts/build-teams.mjs --placeholders   → incluye equipos sin aprobar o sin fotos (solo pruebas locales)
 //
@@ -72,7 +72,7 @@ function photo(t, f, i) {
 }
 
 mkdirSync(OUT, { recursive: true });
-const byLeague = new Map([...LEAGUES.keys()].map((id) => [id, []]));
+const all = []; // todos los equipos juntos (las ligas solo ordenan los datos)
 const files = existsSync(SRC) ? readdirSync(SRC).filter((f) => f.endsWith(".json")) : [];
 const ids = new Set();
 let pending = 0;
@@ -93,7 +93,7 @@ for (const file of files) {
     // Un equipo puede definir su propio "orden" (lista de tipos).
     const orden = t.orden ?? ORDEN_DEFECTO;
     const sorted = [...fotos].sort((a, b) => orden.indexOf(a.tipo) - orden.indexOf(b.tipo));
-    for (const l of t.ligas) byLeague.get(l)?.push({ id: t.id, nombre: t.nombre, respuesta: t.respuesta, fotos: sorted });
+    all.push({ id: t.id, nombre: t.nombre, respuesta: t.respuesta, fotos: sorted });
   }
 }
 
@@ -102,9 +102,7 @@ if (errors.length) {
   process.exit(1);
 }
 
-for (const [id, teams] of byLeague) {
-  writeFileSync(join(OUT, `4fotos-${id}.json`), JSON.stringify({ liga: id, rondas: teams.map((t) => encode(t)) }));
-  if (LEAGUES.get(id).activa && teams.length < 10) warnings.push(`4fotos ${id}: solo ${teams.length} equipos jugables`);
-}
-console.log(`✔ 4 Fotos 1 Equipo: ${[...byLeague].map(([id, t]) => `${id} ${t.length}`).join(" · ")} · ${pending} equipos pendientes (sin aprobar o sin fotos)`);
+writeFileSync(join(OUT, "4fotos.json"), JSON.stringify({ rondas: all.map((t) => encode(t)) }));
+if (all.length < 10) warnings.push(`4fotos: solo ${all.length} equipos jugables`);
+console.log(`✔ 4 Fotos 1 Equipo: ${all.length} equipos jugables · ${pending} pendientes (sin aprobar o sin fotos)`);
 if (warnings.length) console.warn("⚠ " + warnings.join("\n⚠ "));

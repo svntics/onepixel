@@ -1,8 +1,8 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import {
-  normalizeAnswer, answerWords, answerLetters, buildBank, bankSize, newBoard, placeTile, removeAt,
-  clearBoard, isFull, isCorrect, boardWord, tileIsUsed, teamScore,
+  normalizeAnswer, answerWords, answerLetters, newBoard, placeLetter, removeAt, removeLast,
+  clearBoard, fillAnswer, isFull, isCorrect, boardWord, teamScore, KEYBOARD_ROWS,
 } from "../public/js/letters.js";
 
 test("normaliza la respuesta: sin tildes, mayúsculas y un espacio entre palabras", () => {
@@ -14,46 +14,32 @@ test("normaliza la respuesta: sin tildes, mayúsculas y un espacio entre palabra
   assert.equal(answerLetters("West Ham"), "WESTHAM");
 });
 
-test("el banco contiene todas las letras de la respuesta más trampas", () => {
-  for (const name of ["Arsenal", "Nottingham Forest", "Brighton", "Atlético de Madrid"]) {
-    const bank = buildBank(name);
-    const letters = answerLetters(name);
-    assert.equal(bank.length, bankSize(letters.length));
-    assert.ok(bank.length - letters.length >= 4, "al menos 4 trampas");
-    assert.equal(bank.length % 6, 0);
-    const pool = [...bank];
-    for (const c of letters) {
-      const i = pool.indexOf(c);
-      assert.ok(i >= 0, `falta la letra ${c} en el banco de ${name}`);
-      pool.splice(i, 1);
-    }
-  }
-  assert.deepEqual(buildBank("Arsenal"), buildBank("Arsenal"), "determinista");
+test("el teclado tiene las 26 letras, sin repetir", () => {
+  const all = KEYBOARD_ROWS.join("");
+  assert.equal(all.length, 26);
+  assert.equal(new Set(all).size, 26);
+  assert.deepEqual([...all].sort().join(""), "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
 });
 
-test("colocar, quitar y validar letras", () => {
+test("poner, borrar y validar letras (se pueden repetir)", () => {
   let b = newBoard("Arsenal");
-  const order = [];
-  const used = new Set();
-  for (const c of "ARSENAL") {
-    const t = b.bank.findIndex((x, i) => x === c && !used.has(i));
-    used.add(t);
-    order.push(t);
-  }
-  for (const t of order.slice(0, 3)) b = placeTile(b, t);
+  for (const c of "ars") b = placeLetter(b, c);
   assert.equal(boardWord(b), "ARS");
-  assert.equal(placeTile(b, order[0]), b, "una ficha usada no se coloca dos veces");
-  assert.ok(tileIsUsed(b, order[1]));
   b = removeAt(b, 1);
   assert.equal(boardWord(b), "AS");
-  b = placeTile(b, order[1]); // vuelve a la primera casilla libre (la 1)
+  b = placeLetter(b, "R"); // vuelve a la primera casilla libre (la 1)
   assert.equal(boardWord(b), "ARS");
-  for (const t of order.slice(3)) b = placeTile(b, t);
+  for (const c of "ENAL") b = placeLetter(b, c);
   assert.ok(isFull(b));
   assert.ok(isCorrect(b, "Arsenal"));
+  assert.equal(placeLetter(b, "X"), b, "con todo lleno no se agrega nada");
+  b = removeLast(b);
+  assert.equal(boardWord(b), "ARSENA");
+  assert.ok(!isCorrect(b, "Arsenal"));
   b = clearBoard(b);
   assert.equal(boardWord(b), "");
-  assert.ok(!isFull(b));
+  assert.equal(placeLetter(newBoard("Leeds"), "ñ").slots[0], null, "solo A-Z");
+  assert.ok(isCorrect(fillAnswer("West Ham"), "West Ham"));
 });
 
 test("puntaje: menos fotos = más puntos; errores con las 4 fotos, rapidez y rendirse", () => {
