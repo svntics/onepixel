@@ -261,3 +261,33 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .fp-new { animation: none; }
 }
+
+/* Pista del mapa (4 Fotos 1 Equipo) */
+.fp-map svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.fp-map path {
+  fill: var(--color-border);
+  stroke: var(--color-surface-2);
+  stroke-width: 0.4;
+}
+.fp-map path.fp-country {
+  fill: #ef4444;
+}
+.fp-map .fp-marker {
+  fill: none;
+  stroke: #ef4444;
+  stroke-width: 2;
+  animation: fp-pulse 1.4s ease-out infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+@keyframes fp-pulse {
+  from { transform: scale(0.4); opacity: 1; }
+  to { transform: scale(1.6); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .fp-map .fp-marker { animation: none; }
+}

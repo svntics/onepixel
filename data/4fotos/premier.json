@@ -5,6 +5,7 @@
       "id": "arsenal",
       "nombre": "Arsenal",
       "respuesta": "ARSENAL",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -73,6 +74,7 @@
       "id": "chelsea",
       "nombre": "Chelsea",
       "respuesta": "CHELSEA",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -142,6 +144,7 @@
       "id": "liverpool",
       "nombre": "Liverpool",
       "respuesta": "LIVERPOOL",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -213,6 +216,7 @@
       "id": "manchester-united",
       "nombre": "Manchester United",
       "respuesta": "MANCHESTER UNITED",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -282,6 +286,7 @@
       "id": "manchester-city",
       "nombre": "Manchester City",
       "respuesta": "MANCHESTER CITY",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -350,6 +355,7 @@
       "id": "tottenham",
       "nombre": "Tottenham",
       "respuesta": "TOTTENHAM",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -418,6 +424,7 @@
       "id": "newcastle",
       "nombre": "Newcastle",
       "respuesta": "NEWCASTLE",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -486,6 +493,7 @@
       "id": "everton",
       "nombre": "Everton",
       "respuesta": "EVERTON",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -566,6 +574,7 @@
       "id": "aston-villa",
       "nombre": "Aston Villa",
       "respuesta": "ASTON VILLA",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -642,6 +651,7 @@
       "id": "west-ham",
       "nombre": "West Ham",
       "respuesta": "WEST HAM",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -713,6 +723,7 @@
       "id": "leeds",
       "nombre": "Leeds",
       "respuesta": "LEEDS",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -781,6 +792,7 @@
       "id": "southampton",
       "nombre": "Southampton",
       "respuesta": "SOUTHAMPTON",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -855,6 +867,7 @@
       "id": "wolverhampton",
       "nombre": "Wolverhampton",
       "respuesta": "WOLVERHAMPTON",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -928,6 +941,7 @@
       "id": "crystal-palace",
       "nombre": "Crystal Palace",
       "respuesta": "CRYSTAL PALACE",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -996,6 +1010,7 @@
       "id": "brighton",
       "nombre": "Brighton",
       "respuesta": "BRIGHTON",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -1064,6 +1079,7 @@
       "id": "nottingham-forest",
       "nombre": "Nottingham Forest",
       "respuesta": "NOTTINGHAM FOREST",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -1132,6 +1148,7 @@
       "id": "leicester",
       "nombre": "Leicester",
       "respuesta": "LEICESTER",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -1200,6 +1217,7 @@
       "id": "sunderland",
       "nombre": "Sunderland",
       "respuesta": "SUNDERLAND",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -1269,6 +1287,7 @@
       "id": "fulham",
       "nombre": "Fulham",
       "respuesta": "FULHAM",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],
@@ -1340,6 +1359,7 @@
       "id": "brentford",
       "nombre": "Brentford",
       "respuesta": "BRENTFORD",
+      "pais": "Inglaterra",
       "ligas": [
         "premier"
       ],

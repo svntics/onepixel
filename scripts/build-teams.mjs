@@ -22,6 +22,14 @@ const PLACEHOLDERS = process.argv.includes("--placeholders");
 const TIPOS = ["colores", "origen", "apodo", "cultura"];
 const ORDEN_DEFECTO = ["origen", "cultura", "apodo", "colores"];
 const HEX = /^#[0-9a-fA-F]{6}$/;
+// País del club → código ISO 3166-1 numérico del mapa (public/img/mapa-mundo.svg).
+// Inglaterra, Escocia y Gales se marcan como Reino Unido (el mapa mundial no los separa).
+const PAISES = {
+  Inglaterra: "826", Escocia: "826", Gales: "826", "Irlanda del Norte": "826", "España": "724", Alemania: "276",
+  Italia: "380", Francia: "250", Portugal: "620", "Países Bajos": "528", "Bélgica": "056", Argentina: "032",
+  Brasil: "076", Uruguay: "858", Chile: "152", Paraguay: "600", Colombia: "170", Ecuador: "218", "Perú": "604",
+};
+const MAP_ISOS = new Set([...readFileSync(join(ROOT, "public", "img", "mapa-mundo.svg"), "utf8").matchAll(/data-iso="(\d+)"/g)].map((m) => m[1]));
 
 const errors = [];
 const warnings = [];
@@ -33,6 +41,8 @@ function validate(t, file) {
   if (!t.nombre) errors.push(`${where}: falta "nombre"`);
   if (!/^[A-Z]+( [A-Z]+)*$/.test(t.respuesta ?? "")) errors.push(`${where}: "respuesta" solo admite A-Z y un espacio entre palabras`);
   if (t.respuesta && normalizeAnswer(t.respuesta) !== t.respuesta) errors.push(`${where}: "respuesta" no está normalizada`);
+  if (!PAISES[t.pais]) errors.push(`${where}: país "${t.pais}" sin código de mapa (agrégalo a PAISES)`);
+  else if (!MAP_ISOS.has(PAISES[t.pais])) errors.push(`${where}: el mapa no tiene el país ${t.pais}`);
   if (!Array.isArray(t.ligas) || !t.ligas.length || t.ligas.some((l) => !LEAGUES.has(l))) errors.push(`${where}: "ligas" inválidas`);
   if (t.orden && (t.orden.length !== 4 || TIPOS.some((x) => !t.orden.includes(x)))) errors.push(`${where}: "orden" debe tener los 4 tipos`);
   if (!Array.isArray(t.fotos) || t.fotos.length !== 4) return errors.push(`${where}: debe tener exactamente 4 fotos`);
@@ -93,7 +103,7 @@ for (const file of files) {
     // Un equipo puede definir su propio "orden" (lista de tipos).
     const orden = t.orden ?? ORDEN_DEFECTO;
     const sorted = [...fotos].sort((a, b) => orden.indexOf(a.tipo) - orden.indexOf(b.tipo));
-    all.push({ id: t.id, nombre: t.nombre, respuesta: t.respuesta, fotos: sorted });
+    all.push({ id: t.id, nombre: t.nombre, respuesta: t.respuesta, iso: PAISES[t.pais], fotos: sorted });
   }
 }
 

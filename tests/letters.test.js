@@ -50,4 +50,6 @@ test("puntaje: menos fotos = más puntos; errores con las 4 fotos, rapidez y ren
   assert.equal(teamScore({ won: true, shown: 4, errors: 3, seconds: 500 }), 30);
   assert.equal(teamScore({ won: true, shown: 4, errors: 9, seconds: 500 }), 20);
   assert.equal(teamScore({ won: false, shown: 1, seconds: 5 }), 0);
+  assert.equal(teamScore({ won: true, shown: 1, seconds: 500, mapHint: true }), 180);
+  assert.equal(teamScore({ won: true, shown: 4, errors: 9, seconds: 500, mapHint: true }), 20);
 });

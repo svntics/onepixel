@@ -58,11 +58,12 @@ export const isCorrect = (board, answer) => isFull(board) && boardWord(board) ==
 // ---------- Puntaje ----------
 // Según cuántas fotos se necesitaron: 1 → 200, 2 → 150, 3 → 100, 4 → 60.
 // Con las 4 a la vista, cada intento fallido resta 10 (mínimo 20). Bono por rapidez: +30 (≤30 s) o +15 (≤60 s).
-// Rendirse = 0.
+// La pista del mapa (país) resta 20. Rendirse = 0.
 export const PHOTO_POINTS = [200, 150, 100, 60];
-export function teamScore({ won, shown = 1, errors = 0, seconds = Infinity }) {
+export const MAP_HINT_COST = 20;
+export function teamScore({ won, shown = 1, errors = 0, seconds = Infinity, mapHint = false }) {
   if (!won) return 0;
-  const base = Math.max(20, PHOTO_POINTS[Math.min(Math.max(shown, 1), 4) - 1] - 10 * errors);
+  const base = Math.max(20, PHOTO_POINTS[Math.min(Math.max(shown, 1), 4) - 1] - 10 * errors - (mapHint ? MAP_HINT_COST : 0));
   const bonus = seconds <= 30 ? 30 : seconds <= 60 ? 15 : 0;
   return base + bonus;
 }

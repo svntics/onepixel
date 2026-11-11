@@ -99,7 +99,7 @@ function pickPracticeTeam() {
 let round = null;
 
 function startRound(team, { title, info, nextLabel, onEnd }) {
-  round = { team, board: newBoard(team.respuesta), shown: 1, errors: 0, start: Date.now(), over: false, onEnd };
+  round = { team, board: newBoard(team.respuesta), shown: 1, errors: 0, mapHint: false, start: Date.now(), over: false, onEnd };
   setView("game");
   $("#fp-game-title").textContent = title;
   $("#fp-game-info").textContent = info;
@@ -107,7 +107,8 @@ function startRound(team, { title, info, nextLabel, onEnd }) {
   $("#fp-board").hidden = false;
   $("#fp-result").hidden = true;
   $("#fp-msg").textContent = "";
-  ["#fp-clear", "#fp-giveup"].forEach((s) => ($(s).disabled = false));
+  ["#fp-clear", "#fp-giveup", "#fp-hint-map"].forEach((s) => ($(s).disabled = false));
+  $("#fp-map").hidden = true;
   renderPhotos();
   renderBoard();
   updateMore();
@@ -251,24 +252,57 @@ function type(letter) {
 function finish(won) {
   round.over = true;
   const seconds = Math.round((Date.now() - round.start) / 1000);
-  const points = teamScore({ won, shown: round.shown, errors: round.errors, seconds });
+  const points = teamScore({ won, shown: round.shown, errors: round.errors, seconds, mapHint: round.mapHint });
   if (!won) round.board = fillAnswer(round.team.respuesta); // muestra la respuesta
   renderBoard();
   renderPhotos();
   updateMore();
   $("#fp-msg").textContent = "";
-  ["#fp-clear", "#fp-giveup"].forEach((s) => ($(s).disabled = true));
+  ["#fp-clear", "#fp-giveup", "#fp-hint-map"].forEach((s) => ($(s).disabled = true));
 
   const t = round.team;
   $("#fp-result-title").textContent = won ? `¡Correcto! ${t.nombre} 🎉` : `Era ${t.nombre}`;
   $("#fp-result-detail").textContent = won
-    ? `+${points} pts · con ${round.shown} ${round.shown === 1 ? "foto" : "fotos"} · ${seconds} s${round.errors ? ` · ${round.errors} ${round.errors === 1 ? "error" : "errores"} extra` : ""}`
+    ? `+${points} pts · con ${round.shown} ${round.shown === 1 ? "foto" : "fotos"} · ${seconds} s${round.mapHint ? " · con mapa" : ""}${round.errors ? ` · ${round.errors} ${round.errors === 1 ? "error" : "errores"} extra` : ""}`
     : "Te rendiste: 0 pts.";
   $("#fp-why summary").textContent = `¿Por qué estas fotos representaban al ${t.nombre}?`;
   $("#fp-why-list").replaceChildren(...t.fotos.map(whyItem));
   $("#fp-result").hidden = false;
   $("#fp-result").focus();
   round.onEnd?.({ won, points, shown: round.shown, team: t });
+}
+
+// ---------- Pista del mapa: país del club en rojo ----------
+// El mapa (≈120 KB) se descarga solo la primera vez que alguien pide la pista.
+let mapSvg = null;
+async function showMapHint() {
+  if (!round || round.over || round.mapHint) return;
+  round.mapHint = true;
+  $("#fp-hint-map").disabled = true;
+  const box = $("#fp-map-svg");
+  $("#fp-map").hidden = false;
+  try {
+    if (!mapSvg) {
+      box.textContent = "Cargando mapa…";
+      const res = await fetch("img/mapa-mundo.svg");
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      mapSvg = await res.text();
+    }
+    box.innerHTML = mapSvg;
+    const svg = box.querySelector("svg");
+    const path = svg.querySelector(`path[data-iso="${round.team.iso}"]`);
+    if (!path) throw new Error("país no encontrado");
+    path.classList.add("fp-country");
+    svg.append(path); // encima de los vecinos
+    const [cx, cy] = path.dataset.c.split(",").map(Number);
+    const ns = "http://www.w3.org/2000/svg";
+    const ring = document.createElementNS(ns, "circle");
+    Object.entries({ cx, cy, r: 14, class: "fp-marker" }).forEach(([k, v]) => ring.setAttribute(k, v));
+    svg.append(ring);
+    svg.setAttribute("aria-label", "Mapa mundial con el país del club marcado en rojo");
+  } catch {
+    box.textContent = "No se pudo cargar el mapa.";
+  }
 }
 
 // Explicación + crédito completo de cada foto (solo al terminar la ronda)
@@ -417,6 +451,7 @@ $("#fp-more").addEventListener("click", () => {
   if (!round || round.over) return;
   if (revealNext()) showMsg(`🔓 Foto ${round.shown} desbloqueada.`, false);
 });
+$("#fp-hint-map").addEventListener("click", showMapHint);
 $("#fp-giveup").addEventListener("click", () => {
   if (!round || round.over) return;
   if (confirm("¿Rendirte? Verás la respuesta y sumarás 0 puntos.")) finish(false);

@@ -15,14 +15,17 @@
     "era-photos": "node scripts/era-photos.mjs",
     "build:blur": "node scripts/build-blur.mjs",
     "build:teams": "node scripts/build-teams.mjs",
-    "team-images": "node scripts/fetch-team-images.mjs"
+    "team-images": "node scripts/fetch-team-images.mjs",
+    "build:map": "node scripts/build-map.mjs"
   },
   "engines": {
     "node": ">=20"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.3.5",
-    "tailwindcss": "^4.3.5"
+    "tailwindcss": "^4.3.5",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
   },
   "dependencies": {
     "sharp": "^0.35.5"
