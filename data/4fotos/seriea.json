@@ -203,7 +203,15 @@
           "explicacion": "El Vesubio sobre la bahía de Nápoles.",
           "buscar": "Mount Vesuvius from Naples",
           "commons": null,
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/4328483f3d304933.webp",
+            "archivo_commons": "The harbor of Naples and Vesuvius at dawn. Italy.jpg",
+            "titulo": "The harbor of Naples and Vesuvius at dawn. Italy",
+            "autor": "Ввласенко",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:The_harbor_of_Naples_and_Vesuvius_at_dawn._Italy.jpg"
+          },
           "excluir": [
             "Johan Christian Dahl - The Bay of Naples with Vesuvius - Google Art Project.jpg"
           ]
@@ -682,7 +690,15 @@
           "explicacion": "Baldosas de cerámica: Sassuolo es la capital italiana de la cerámica, y el club pertenece desde 2003 a la empresa Mapei.",
           "buscar": "ceramic tiles",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/ab7ca0380773409f.webp",
+            "archivo_commons": "Black ceramic wall tile.jpg",
+            "titulo": "Black ceramic wall tile",
+            "autor": "Epolk",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Black_ceramic_wall_tile.jpg"
+          }
         },
         {
           "tipo": "palabra",

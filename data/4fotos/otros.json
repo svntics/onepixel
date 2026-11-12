@@ -164,7 +164,15 @@
           "explicacion": "Un gato colocolo, felino sudamericano.",
           "buscar": "Leopardus colocola pampas cat",
           "commons": null,
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/dd6a04832fc20695.webp",
+            "archivo_commons": "Lydekker - Colocolo.JPG",
+            "titulo": "Lydekker - Colocolo",
+            "autor": "Wyman & Sons Limited",
+            "licencia": "Public domain",
+            "url_licencia": "",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Lydekker_-_Colocolo.JPG"
+          },
           "excluir": [
             "PampasCat distribution.jpg"
           ]
@@ -174,7 +182,15 @@
           "explicacion": "El Estadio Monumental, en Macul.",
           "buscar": "Estadio Monumental Macul",
           "commons": null,
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/6b73df7f6411aa1b.webp",
+            "archivo_commons": "Estadio Monumental 2009.jpg",
+            "titulo": "Estadio Monumental 2009",
+            "autor": "Carlos yo",
+            "licencia": "CC BY-SA 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Estadio_Monumental_2009.jpg"
+          },
           "excluir": [
             "Homenaje a David Arellano, Estadio Monumental, 2016-12-21.jpg"
           ]

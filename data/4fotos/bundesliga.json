@@ -16,7 +16,15 @@
           "explicacion": "La Frauenkirche de Múnich, con sus dos cúpulas.",
           "buscar": "Frauenkirche München towers",
           "commons": null,
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/986b08447b0fd133.webp",
+            "archivo_commons": "Frauenkirche Munich March 2013.JPG",
+            "titulo": "Frauenkirche Munich March 2013",
+            "autor": "Martin Falbisoner",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Frauenkirche_Munich_March_2013.JPG"
+          },
           "excluir": [
             "Frauenkirche Munich, March 2018.jpg"
           ]
@@ -26,7 +34,15 @@
           "explicacion": "Los rombos blancos y celestes de la bandera de Baviera: «Bayern» significa Baviera.",
           "buscar": "Bavarian flag waving",
           "commons": null,
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/05cfe5fcb7ac882a.webp",
+            "archivo_commons": "Julius Caesar Ibbetson - George Biggins' Ascent in Lunardi' Balloon - WGA11831.jpg",
+            "titulo": "George Biggins' Ascent in Lunardi' Balloon",
+            "autor": "Julius Caesar Ibbetson",
+            "licencia": "Public domain",
+            "url_licencia": "",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Julius_Caesar_Ibbetson_-_George_Biggins%27_Ascent_in_Lunardi%27_Balloon_-_WGA11831.jpg"
+          },
           "excluir": [
             "Ehekirchen Coat of Arms.jpg"
           ]
@@ -106,7 +122,15 @@
           "explicacion": "Una cervecería: según la historia del club, el nombre «Borussia» se tomó de la cervecería Borussia de Dortmund, en 1909.",
           "buscar": "brewery copper kettles",
           "commons": null,
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/cfd1de3bcd2c6410.webp",
+            "archivo_commons": "Copper Kettle, New Glarus Brewery (2844738562).jpg",
+            "titulo": "Copper Kettle, New Glarus Brewery (2844738562)",
+            "autor": "David B. Gleason from Chicago, IL",
+            "licencia": "CC BY-SA 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Copper_Kettle,_New_Glarus_Brewery_(2844738562).jpg"
+          },
           "excluir": [
             "U Do (85336483).jpeg"
           ]
@@ -140,7 +164,15 @@
           "explicacion": "Una planta química: el club lo fundaron en 1904 trabajadores de la empresa Bayer.",
           "buscar": "chemical plant Germany",
           "commons": null,
-          "imagen": null
+          "imagen": {
+            "archivo_local": "img/t/9eb6e00d94c695bf.webp",
+            "archivo_commons": "Cologne Germany Windsock-in-a-petrochemical-plant-01.jpg",
+            "titulo": "Cologne Germany Windsock-in-a-petrochemical-plant-01",
+            "autor": "Photo by CEphoto, Uwe Aranas or alternatively © CEphoto, Uwe Aranas",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Cologne_Germany_Windsock-in-a-petrochemical-plant-01.jpg"
+          }
         },
         {
           "tipo": "palabra",
@@ -334,7 +366,15 @@
           "explicacion": "El Monumento a la Batalla de las Naciones, en Leipzig.",
           "buscar": "Monument to the Battle of the Nations Leipzig",
           "commons": null,
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/6a4b6e10a9f69ba2.webp",
+            "archivo_commons": "Germany Medal 1913 Monument to the Battle of the Nations originated by Clemens Thieme, box.jpg",
+            "titulo": "Germany Medal 1913 Monument to the Battle of the Nations originated by Clemens Thieme, box",
+            "autor": "Berlin-George",
+            "licencia": "Public domain",
+            "url_licencia": "",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Germany_Medal_1913_Monument_to_the_Battle_of_the_Nations_originated_by_Clemens_Thieme,_box.jpg"
+          },
           "excluir": [
             "Trinkbrunnen - Völkerschlachtdenkmal 02.jpg"
           ]
@@ -344,7 +384,15 @@
           "explicacion": "La estatua de Johann Sebastian Bach, que vivió y trabajó en Leipzig.",
           "buscar": "Bach monument Leipzig Thomaskirche",
           "commons": null,
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/50b0a18c87305ba4.webp",
+            "archivo_commons": "20200912 Thomaskirche Leipzig 01.jpg",
+            "titulo": "20200912 Thomaskirche Leipzig 01",
+            "autor": "Flocci Nivis",
+            "licencia": "CC BY 4.0",
+            "url_licencia": "https://creativecommons.org/licenses/by/4.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:20200912_Thomaskirche_Leipzig_01.jpg"
+          },
           "excluir": [
             "Fotothek df roe-neg 0000524 002 Bachdenkmal.jpg"
           ]
@@ -354,7 +402,15 @@
           "explicacion": "Un toro: «Die Roten Bullen», los toros rojos.",
           "buscar": "bull cattle Bos taurus",
           "commons": null,
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/936c2c0e361e39ee.webp",
+            "archivo_commons": "Cow (Fleckvieh breed) Oeschinensee Slaunger 2009-07-07.jpg",
+            "titulo": "Cow (Fleckvieh breed) Oeschinensee Slaunger 2009-07-07",
+            "autor": "Kim Hansen",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Cow_(Fleckvieh_breed)_Oeschinensee_Slaunger_2009-07-07.jpg"
+          },
           "excluir": [
             "Knud Bull, portrett av Christopher Malthe.jpg"
           ]

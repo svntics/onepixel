@@ -16,7 +16,15 @@
           "explicacion": "La Sagrada Familia, en Barcelona. El club se fundó en 1899 por iniciativa del suizo Joan Gamper.",
           "buscar": "Sagrada Família facade",
           "commons": null,
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/3d8699b642ce34ad.webp",
+            "archivo_commons": "Sagrada Família 2010.JPG",
+            "titulo": "Sagrada Família 2010",
+            "autor": "Jopparn",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Sagrada_Fam%C3%ADlia_2010.JPG"
+          },
           "excluir": [
             "Sagrada Familia March 2015-19bw.jpg"
           ]
@@ -106,7 +114,15 @@
           "juego": true,
           "buscar": "meringues",
           "commons": null,
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/7e322c1e7b4aad37.webp",
+            "archivo_commons": "Homemade meringues (16961016019).jpg",
+            "titulo": "Homemade meringues (16961016019)",
+            "autor": "Ruth Hartnup from Vancouver, Canada",
+            "licencia": "CC BY 2.0",
+            "url_licencia": "https://creativecommons.org/licenses/by/2.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Homemade_meringues_(16961016019).jpg"
+          },
           "excluir": [
             "Merveilleux.jpg"
           ]
