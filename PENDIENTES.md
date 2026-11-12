@@ -13,7 +13,7 @@ Lista de cosas por hacer. Se actualiza cada vez que algo se completa o se agrega
 - [x] 4 Fotos 1 Equipo: fotos de la Premier completas (57 de Commons, 2 recortadas, 3 ilustraciones con IA hechas en Gemini).
 - [x] 4 Fotos 1 Equipo: los equipos los elige Ignacio en el documento «4 Fotos 1 Equipo — Lista de equipos».
 - [x] 4 Fotos 1 Equipo: pistas de 42 clubes nuevos aprobadas (2026-11-11).
-- [ ] **4 Fotos 1 Equipo: volver a correr `npm run team-images`** (Fetch + Pull ANTES; Commit + Push después). Debe decir «Fotos a buscar: 15». Después Claude revisa las fotos. Hoy hay 46 equipos jugables de 62.
+- [x] 4 Fotos 1 Equipo: fotos de Commons completas (2026-11-12). 57 de 62 equipos jugables; solo faltan las 5 ilustraciones de abajo.
 - [ ] **4 Fotos 1 Equipo: generar 5 ilustraciones en Gemini** (Juventus 2, Milan 3, River 3, Independiente 2, Al Nassr 2). Los prompts están en `data/4fotos/*.json` (campo `ia_prompt`): pídeselos a Claude. Descargarlas con el botón ⬇ y mandarlas en `.webp` (las `.png` llegan achicadas a 160×160). Ya están: Barcelona, Atlético, Villarreal, Leverkusen y Católica.
 - [ ] **Liga española (79):** revisar y escribir «apruebo la Liga española».
 - [ ] **NBA (32):** revisar y escribir «apruebo la NBA».

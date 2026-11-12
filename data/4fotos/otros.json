@@ -113,12 +113,7 @@
         {
           "tipo": "cultura",
           "explicacion": "Un trébol, símbolo irlandés que aparece en el escudo.",
-          "buscar": "shamrock leaves Trifolium",
-          "commons": null,
-          "imagen": null,
-          "excluir": [
-            "Trifolium pratense - Keila.jpg"
-          ]
+          "dibujo": "img/t/4e2a9c71d8f03b56.svg"
         },
         {
           "tipo": "colores",

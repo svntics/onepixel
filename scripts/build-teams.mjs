@@ -58,6 +58,8 @@ function validate(t, file) {
     if (f.generada) {
       if (!KIT_PATTERNS.includes(f.generada.patron)) errors.push(`${w}: patrón desconocido`);
       if (!f.generada.colores?.every((c) => HEX.test(c)) || f.generada.colores.length !== 2) errors.push(`${w}: colores inválidos`);
+    } else if (f.dibujo) {
+      if (!existsSync(join(ROOT, "public", f.dibujo))) errors.push(`${w}: no existe el dibujo ${f.dibujo}`);
     } else if (f.ia) {
       if (!f.ia.archivo_local) errors.push(`${w}: falta ia.archivo_local`);
     } else if (!f.buscar && !f.commons && !f.ia_prompt) errors.push(`${w}: necesita "buscar", "commons" o "ia_prompt"`);
@@ -74,6 +76,8 @@ function photo(t, f, i) {
   }
   // Ilustración generada con IA (objetos o animales genéricos; nunca lugares ni personas reales)
   if (f.ia) return { img: f.ia.archivo_local, tipo: f.tipo, juego: !!f.juego, exp: f.explicacion, cr: null, ia: true };
+  // Dibujo propio (SVG hecho para el sitio, sin marcas): se acredita como ilustración original
+  if (f.dibujo) return { img: f.dibujo, tipo: f.tipo, juego: !!f.juego, exp: f.explicacion, cr: null };
   if (f.imagen) {
     const im = f.imagen;
     return {

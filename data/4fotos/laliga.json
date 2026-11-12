@@ -495,10 +495,18 @@
       "fotos": [
         {
           "tipo": "origen",
-          "explicacion": "Villarreal, ciudad de la provincia de Castellón conocida por su industria de la cerámica.",
-          "buscar": "Vila-real town Plana Baixa",
+          "explicacion": "Un mural de azulejos de San Pascual, patrono de Villarreal, ciudad de Castellón conocida por su industria de la cerámica.",
+          "buscar": "Vila-real Sant Pasqual",
           "commons": null,
-          "imagen": null,
+          "imagen": {
+            "archivo_local": "img/t/dc8a15b79c9e1344.webp",
+            "archivo_commons": "Sant Pasqual Vila-real 03.JPG",
+            "titulo": "Sant Pasqual Vila-real 03",
+            "autor": "B25es",
+            "licencia": "CC BY-SA 3.0",
+            "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Sant_Pasqual_Vila-real_03.JPG"
+          },
           "excluir": [
             "Unidad 447-305M C-6.jpg"
           ]

@@ -688,17 +688,21 @@
         {
           "tipo": "origen",
           "explicacion": "Baldosas de cerámica: Sassuolo es la capital italiana de la cerámica, y el club pertenece desde 2003 a la empresa Mapei.",
-          "buscar": "ceramic tiles",
+          "buscar": "glazed floor tiles",
           "commons": null,
           "imagen": {
-            "archivo_local": "img/t/ab7ca0380773409f.webp",
-            "archivo_commons": "Black ceramic wall tile.jpg",
-            "titulo": "Black ceramic wall tile",
-            "autor": "Epolk",
+            "archivo_local": "img/t/d93fe36e9a988bd8.webp",
+            "archivo_commons": "Glazed floor tiles at St Canice's Cathedral.jpg",
+            "titulo": "Glazed floor tiles at St Canice's Cathedral",
+            "autor": "A.-K. D.",
             "licencia": "CC BY-SA 4.0",
             "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-            "url_fuente": "https://commons.wikimedia.org/wiki/File:Black_ceramic_wall_tile.jpg"
-          }
+            "url_fuente": "https://commons.wikimedia.org/wiki/File:Glazed_floor_tiles_at_St_Canice%27s_Cathedral.jpg"
+          },
+          "excluir": [
+            "Black ceramic wall tile.jpg",
+            "Majolica Ceramic Tile from the Castello Sforzesco, Milan, Italy, by Ferdinando Maria Campani, 1737.png"
+          ]
         },
         {
           "tipo": "palabra",

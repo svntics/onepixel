@@ -5026,33 +5026,75 @@
     "foto": 2,
     "tipo": "palabra",
     "explicacion": "Los rombos blancos y celestes de la bandera de Baviera: «Bayern» significa Baviera.",
-    "buscar": "Bavarian flag waving",
-    "elegida": "Julius Caesar Ibbetson - George Biggins' Ascent in Lunardi' Balloon - WGA11831.jpg",
+    "buscar": "Flag of Bavaria",
+    "elegida": "A flag map of the Electorate of Bavaria.png",
     "candidatas": [
       {
-        "file": "Julius Caesar Ibbetson - George Biggins' Ascent in Lunardi' Balloon - WGA11831.jpg",
+        "file": "A flag map of the Electorate of Bavaria.png",
         "ok": true,
-        "licencia": "Public domain",
-        "url_licencia": "",
-        "autor": "Julius Caesar Ibbetson",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Julius_Caesar_Ibbetson_-_George_Biggins%27_Ascent_in_Lunardi%27_Balloon_-_WGA11831.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Julius_Caesar_Ibbetson_-_George_Biggins%27_Ascent_in_Lunardi%27_Balloon_-_WGA11831.jpg/960px-Julius_Caesar_Ibbetson_-_George_Biggins%27_Ascent_in_Lunardi%27_Balloon_-_WGA11831.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "George Biggins' Ascent in Lunardi' Balloon",
-        "notes": [
-          "Dominio público: verificar que lo sea también en Chile"
-        ]
+        "licencia": "CC0",
+        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "autor": "The skyscraper that loves crux",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:A_flag_map_of_the_Electorate_of_Bavaria.png",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/A_flag_map_of_the_Electorate_of_Bavaria.png/960px-A_flag_map_of_the_Electorate_of_Bavaria.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "A flag map of the Electorate of Bavaria",
+        "notes": []
       },
       {
-        "file": "Bad Kissingen, Regentenbau - Östliches Türmchen.JPG",
+        "file": "Dorfstrasse 20, Oberammergau, Bavaria, Germany.jpg",
         "ok": true,
-        "licencia": "Public domain",
-        "url_licencia": "",
-        "autor": "User:Mattes",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Bad_Kissingen,_Regentenbau_-_%C3%96stliches_T%C3%BCrmchen.JPG",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Bad_Kissingen%2C_Regentenbau_-_%C3%96stliches_T%C3%BCrmchen.JPG/960px-Bad_Kissingen%2C_Regentenbau_-_%C3%96stliches_T%C3%BCrmchen.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Bad Kissingen, Regentenbau - Östliches Türmchen",
+        "licencia": "CC0",
+        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "autor": "Jebulon",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Dorfstrasse_20,_Oberammergau,_Bavaria,_Germany.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Dorfstrasse_20%2C_Oberammergau%2C_Bavaria%2C_Germany.jpg/960px-Dorfstrasse_20%2C_Oberammergau%2C_Bavaria%2C_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Dorfstrasse 20, Oberammergau, Bavaria, Germany",
+        "notes": []
+      },
+      {
+        "file": "Luitpold, Regent of Bavaria, from the Rulers, Flags, and Coats of Arms series (N126-2) issued by W. Duke, Sons & Co. MET DPB873868.jpg",
+        "ok": true,
+        "licencia": "CC0",
+        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "autor": "W. Duke, Sons & Co.",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Luitpold,_Regent_of_Bavaria,_from_the_Rulers,_Flags,_and_Coats_of_Arms_series_(N126-2)_issued_by_W._Duke,_Sons_%26_Co._MET_DPB873868.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Luitpold%2C_Regent_of_Bavaria%2C_from_the_Rulers%2C_Flags%2C_and_Coats_of_Arms_series_%28N126-2%29_issued_by_W._Duke%2C_Sons_%26_Co._MET_DPB873868.jpg/960px-Luitpold%2C_Regent_of_Bavaria%2C_from_the_Rulers%2C_Flags%2C_and_Coats_of_Arms_series_%28N126-2%29_issued_by_W._Duke%2C_Sons_%26_Co._MET_DPB873868.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Luitpold, Regent of Bavaria, from the Rulers, Flags, and Coats of Arms series (N126-2) issued by W. Duke, Sons & Co.",
+        "notes": []
+      },
+      {
+        "file": "Luitpold, Regent I of Bavaria, from the Rulers, Flags, and Coats of Arms series (N126-1) issued by W. Duke, Sons & Co. MET DPB873766.jpg",
+        "ok": true,
+        "licencia": "CC0",
+        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "autor": "W. Duke, Sons & Co.",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Luitpold,_Regent_I_of_Bavaria,_from_the_Rulers,_Flags,_and_Coats_of_Arms_series_(N126-1)_issued_by_W._Duke,_Sons_%26_Co._MET_DPB873766.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Luitpold%2C_Regent_I_of_Bavaria%2C_from_the_Rulers%2C_Flags%2C_and_Coats_of_Arms_series_%28N126-1%29_issued_by_W._Duke%2C_Sons_%26_Co._MET_DPB873766.jpg/960px-Luitpold%2C_Regent_I_of_Bavaria%2C_from_the_Rulers%2C_Flags%2C_and_Coats_of_Arms_series_%28N126-1%29_issued_by_W._Duke%2C_Sons_%26_Co._MET_DPB873766.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Luitpold, Regent I of Bavaria, from the Rulers, Flags, and Coats of Arms series (N126-1) issued by W. Duke, Sons & Co.",
+        "notes": []
+      },
+      {
+        "file": "Flag map of Bavaria-Munich.png",
+        "ok": true,
+        "licencia": "CC0",
+        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "autor": "The skyscraper that loves crux",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Flag_map_of_Bavaria-Munich.png",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/29/Flag_map_of_Bavaria-Munich.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Flag map of Bavaria-Munich",
+        "notes": []
+      },
+      {
+        "file": "Bamberg Schlenkerla 20160825-RM-102225.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Reinhold Möller",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Bamberg_Schlenkerla_20160825-RM-102225.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Bamberg_Schlenkerla_20160825-RM-102225.jpg/960px-Bamberg_Schlenkerla_20160825-RM-102225.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Bamberg Schlenkerla 20160825-RM-102225",
         "notes": [
-          "Dominio público: verificar que lo sea también en Chile"
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
       }
     ],
@@ -5929,85 +5971,83 @@
     "foto": 1,
     "tipo": "origen",
     "explicacion": "El Monumento a la Batalla de las Naciones, en Leipzig.",
-    "buscar": "Monument to the Battle of the Nations Leipzig",
-    "elegida": "Germany Medal 1913 Monument to the Battle of the Nations originated by Clemens Thieme, box.jpg",
+    "buscar": "Völkerschlachtdenkmal",
+    "elegida": "StadtAL 0563 BA 1988 26692.jpg",
     "candidatas": [
       {
-        "file": "Germany Medal 1913 Monument to the Battle of the Nations originated by Clemens Thieme, box.jpg",
-        "ok": true,
-        "licencia": "Public domain",
-        "url_licencia": "",
-        "autor": "Berlin-George",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Germany_Medal_1913_Monument_to_the_Battle_of_the_Nations_originated_by_Clemens_Thieme,_box.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Germany_Medal_1913_Monument_to_the_Battle_of_the_Nations_originated_by_Clemens_Thieme%2C_box.jpg/960px-Germany_Medal_1913_Monument_to_the_Battle_of_the_Nations_originated_by_Clemens_Thieme%2C_box.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Germany Medal 1913 Monument to the Battle of the Nations originated by Clemens Thieme, box",
-        "notes": [
-          "Dominio público: verificar que lo sea también en Chile"
-        ]
-      },
-      {
-        "file": "Battle of the Nations Monument in Leipzig; View to Leipzig ; Recording in May 2024;.jpg",
+        "file": "StadtAL 0563 BA 1988 26692.jpg",
         "ok": true,
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Lupus in Saxonia",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Battle_of_the_Nations_Monument_in_Leipzig;_View_to_Leipzig_;_Recording_in_May_2024;.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Battle_of_the_Nations_Monument_in_Leipzig%3B_View_to_Leipzig_%3B_Recording_in_May_2024%3B.jpg/960px-Battle_of_the_Nations_Monument_in_Leipzig%3B_View_to_Leipzig_%3B_Recording_in_May_2024%3B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Battle of the Nations Monument in Leipzig; View to Leipzig ; Recording in May 2024;",
+        "autor": "Alfred Gruber (1913)",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:StadtAL_0563_BA_1988_26692.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/StadtAL_0563_BA_1988_26692.jpg/960px-StadtAL_0563_BA_1988_26692.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "StadtAL 0563 BA 1988 26692",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
       },
       {
-        "file": "Battle of the Nations Monument in Leipzig; Recording in May 2024.jpg",
+        "file": "Völkerschlachtdenkmal Leipzig 2020090838.jpg",
         "ok": true,
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Lupus in Saxonia",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Battle_of_the_Nations_Monument_in_Leipzig;_Recording_in_May_2024.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Battle_of_the_Nations_Monument_in_Leipzig%3B_Recording_in_May_2024.jpg/960px-Battle_of_the_Nations_Monument_in_Leipzig%3B_Recording_in_May_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Battle of the Nations Monument in Leipzig; Recording in May 2024",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
-          "Commons advierte marcas registradas en la imagen",
-          "Commons advierte derechos de imagen de personas"
-        ]
-      },
-      {
-        "file": "Monument to the Battle of Nations in Leipzig, Germany (night).jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 4.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Torge Möller",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Monument_to_the_Battle_of_Nations_in_Leipzig,_Germany_(night).jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Monument_to_the_Battle_of_Nations_in_Leipzig%2C_Germany_%28night%29.jpg/960px-Monument_to_the_Battle_of_Nations_in_Leipzig%2C_Germany_%28night%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Monument to the Battle of Nations in Leipzig, Germany (night)",
+        "autor": "Yschelle",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:V%C3%B6lkerschlachtdenkmal_Leipzig_2020090838.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/V%C3%B6lkerschlachtdenkmal_Leipzig_2020090838.jpg/960px-V%C3%B6lkerschlachtdenkmal_Leipzig_2020090838.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Völkerschlachtdenkmal Leipzig 2020090838",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
       },
       {
-        "file": "Monument to the Battle of Nations in Leipzig, Germany (Night).jpg",
+        "file": "Völkerschlachtdenkmal in Leipzig with snow.jpg",
         "ok": true,
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Torge Möller",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Monument_to_the_Battle_of_Nations_in_Leipzig,_Germany_(Night).jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Monument_to_the_Battle_of_Nations_in_Leipzig%2C_Germany_%28Night%29.jpg/960px-Monument_to_the_Battle_of_Nations_in_Leipzig%2C_Germany_%28Night%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Monument to the Battle of Nations in Leipzig, Germany (Night)",
+        "autor": "Nakonana",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:V%C3%B6lkerschlachtdenkmal_in_Leipzig_with_snow.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/V%C3%B6lkerschlachtdenkmal_in_Leipzig_with_snow.jpg/960px-V%C3%B6lkerschlachtdenkmal_in_Leipzig_with_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Völkerschlachtdenkmal in Leipzig with snow",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
       },
       {
-        "file": "Monument of the battle of nations Leipzig.jpg",
+        "file": "Völkerschlachtdenkmal Leipzig 2020090835.jpg",
         "ok": true,
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "LeipzigFreeTours",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Monument_of_the_battle_of_nations_Leipzig.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Monument_of_the_battle_of_nations_Leipzig.jpg/960px-Monument_of_the_battle_of_nations_Leipzig.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Monument of the battle of nations Leipzig",
+        "autor": "Yschelle",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:V%C3%B6lkerschlachtdenkmal_Leipzig_2020090835.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/V%C3%B6lkerschlachtdenkmal_Leipzig_2020090835.jpg/960px-V%C3%B6lkerschlachtdenkmal_Leipzig_2020090835.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Völkerschlachtdenkmal Leipzig 2020090835",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Völkerschlachtdenkmal Leipzig 2020090834.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Yschelle",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:V%C3%B6lkerschlachtdenkmal_Leipzig_2020090834.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/V%C3%B6lkerschlachtdenkmal_Leipzig_2020090834.jpg/960px-V%C3%B6lkerschlachtdenkmal_Leipzig_2020090834.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Völkerschlachtdenkmal Leipzig 2020090834",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Völkerschlachtdenkmal Leipzig 2020090830.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Yschelle",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:V%C3%B6lkerschlachtdenkmal_Leipzig_2020090830.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/V%C3%B6lkerschlachtdenkmal_Leipzig_2020090830.jpg/960px-V%C3%B6lkerschlachtdenkmal_Leipzig_2020090830.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Völkerschlachtdenkmal Leipzig 2020090830",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
@@ -6081,86 +6121,85 @@
     "foto": 3,
     "tipo": "apodo",
     "explicacion": "Un toro: «Die Roten Bullen», los toros rojos.",
-    "buscar": "bull cattle Bos taurus",
-    "elegida": "Cow (Fleckvieh breed) Oeschinensee Slaunger 2009-07-07.jpg",
+    "buscar": "Spanish fighting bull",
+    "elegida": "Toro De Lidia En Colombia.JPG",
     "candidatas": [
       {
-        "file": "Cow (Fleckvieh breed) Oeschinensee Slaunger 2009-07-07.jpg",
+        "file": "Toro De Lidia En Colombia.JPG",
         "ok": true,
         "licencia": "CC BY-SA 3.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
-        "autor": "Kim Hansen",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Cow_(Fleckvieh_breed)_Oeschinensee_Slaunger_2009-07-07.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/960px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Cow (Fleckvieh breed) Oeschinensee Slaunger 2009-07-07",
+        "autor": "Santiago Molina N.",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Toro_De_Lidia_En_Colombia.JPG",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Toro_De_Lidia_En_Colombia.JPG/960px-Toro_De_Lidia_En_Colombia.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Toro De Lidia En Colombia",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
       },
       {
-        "file": "Anjarle Bridge and Cows-fix.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 3.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
-        "autor": "Photographer: Dey.sandip Additional Credit: User Atention for water spot removal.",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Anjarle_Bridge_and_Cows-fix.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Anjarle_Bridge_and_Cows-fix.jpg/960px-Anjarle_Bridge_and_Cows-fix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Anjarle Bridge and Cows-fix",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
-        ]
-      },
-      {
-        "file": "Water reflection of a boy feeding hay to a cow in a paddy field at golden hour in Laos.jpg",
+        "file": "Toro de lidia cornivuelto.jpg",
         "ok": true,
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Basile Morin",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Water_reflection_of_a_boy_feeding_hay_to_a_cow_in_a_paddy_field_at_golden_hour_in_Laos.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Water_reflection_of_a_boy_feeding_hay_to_a_cow_in_a_paddy_field_at_golden_hour_in_Laos.jpg/960px-Water_reflection_of_a_boy_feeding_hay_to_a_cow_in_a_paddy_field_at_golden_hour_in_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Water reflection of a boy feeding hay to a cow in a paddy field at golden hour in Laos",
-        "notes": [
-          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia",
-          "Commons advierte derechos de imagen de personas"
-        ]
-      },
-      {
-        "file": "Couple of Bos Taurus in Comblain Fairon.jpg",
-        "ok": true,
-        "licencia": "CC BY-SA 4.0",
-        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Pierre-Jacques DESPA",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Couple_of_Bos_Taurus_in_Comblain_Fairon.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Couple_of_Bos_Taurus_in_Comblain_Fairon.jpg/960px-Couple_of_Bos_Taurus_in_Comblain_Fairon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Couple of Bos Taurus in Comblain Fairon",
+        "autor": "C. Quijano Garrido",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Toro_de_lidia_cornivuelto.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Toro_de_lidia_cornivuelto.jpg/960px-Toro_de_lidia_cornivuelto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Toro de lidia cornivuelto",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
       },
       {
-        "file": "Bos taurus indicus (cropped).jpg",
+        "file": "Toro Enmaromado Benavente Zamora.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Diegocastañofreile",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Toro_Enmaromado_Benavente_Zamora.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/57/Toro_Enmaromado_Benavente_Zamora.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Toro Enmaromado Benavente Zamora",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "TORO BRAVO.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "PEPE GADEIRAS",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:TORO_BRAVO.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/TORO_BRAVO.jpg/960px-TORO_BRAVO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "TORO BRAVO",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Spanish Fighting Bull II by Alexander Fiske-Harrison.jpg",
         "ok": true,
         "licencia": "Public domain",
         "url_licencia": "",
-        "autor": "Scott Bauer, USDA ARS",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Bos_taurus_indicus_(cropped).jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Bos_taurus_indicus_%28cropped%29.jpg/960px-Bos_taurus_indicus_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Bos taurus indicus (cropped)",
+        "autor": "Fiskeharrison ( talk )",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Spanish_Fighting_Bull_II_by_Alexander_Fiske-Harrison.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/96/Spanish_Fighting_Bull_II_by_Alexander_Fiske-Harrison.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Spanish Fighting Bull II by Alexander Fiske-Harrison",
         "notes": [
           "Dominio público: verificar que lo sea también en Chile"
         ]
       },
       {
-        "file": "Bos taurus indicus.jpg",
+        "file": "Toro-elPuerto.jpg",
         "ok": true,
-        "licencia": "Public domain",
-        "url_licencia": "",
-        "autor": "Scott Bauer, USDA ARS",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Bos_taurus_indicus.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Bos_taurus_indicus.jpg/960px-Bos_taurus_indicus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Bos taurus indicus",
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "autor": "Panarria",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Toro-elPuerto.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/31/Toro-elPuerto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Toro-elPuerto",
         "notes": [
-          "Dominio público: verificar que lo sea también en Chile"
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
       }
     ],
@@ -7893,10 +7932,89 @@
     "foto": 1,
     "tipo": "origen",
     "explicacion": "Villarreal, ciudad de la provincia de Castellón conocida por su industria de la cerámica.",
-    "buscar": "Vila-real town Plana Baixa",
-    "elegida": null,
-    "candidatas": [],
-    "obs": "Sin resultados con licencia libre: hay que cambiar la búsqueda"
+    "buscar": "Vila-real Sant Pasqual",
+    "elegida": "Sant Pasqual Vila-real 03.JPG",
+    "candidatas": [
+      {
+        "file": "Sant Pasqual Vila-real 03.JPG",
+        "ok": true,
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "autor": "B25es",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Sant_Pasqual_Vila-real_03.JPG",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Sant_Pasqual_Vila-real_03.JPG/960px-Sant_Pasqual_Vila-real_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Sant Pasqual Vila-real 03",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Sant Pasqual Vila-real 04.JPG",
+        "ok": true,
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "autor": "B25es",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Sant_Pasqual_Vila-real_04.JPG",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Sant_Pasqual_Vila-real_04.JPG/960px-Sant_Pasqual_Vila-real_04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Sant Pasqual Vila-real 04",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Sant Pasqual Vila-real 02.JPG",
+        "ok": true,
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "autor": "B25es",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Sant_Pasqual_Vila-real_02.JPG",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Sant_Pasqual_Vila-real_02.JPG/960px-Sant_Pasqual_Vila-real_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Sant Pasqual Vila-real 02",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Sant Pasqual Vila-real 01.JPG",
+        "ok": true,
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "autor": "B25es",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Sant_Pasqual_Vila-real_01.JPG",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Sant_Pasqual_Vila-real_01.JPG/960px-Sant_Pasqual_Vila-real_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Sant Pasqual Vila-real 01",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Sant Pasqual Vila-real 05.JPG",
+        "ok": true,
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "autor": "B25es",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Sant_Pasqual_Vila-real_05.JPG",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Sant_Pasqual_Vila-real_05.JPG/960px-Sant_Pasqual_Vila-real_05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Sant Pasqual Vila-real 05",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Sant Pasqual Vila-real 06.JPG",
+        "ok": true,
+        "licencia": "CC BY-SA 3.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/3.0",
+        "autor": "B25es",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Sant_Pasqual_Vila-real_06.JPG",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Sant_Pasqual_Vila-real_06.JPG/960px-Sant_Pasqual_Vila-real_06.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Sant Pasqual Vila-real 06",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      }
+    ],
+    "obs": ""
   },
   "villarreal:2": {
     "equipo": "Villarreal",
@@ -8680,10 +8798,89 @@
     "foto": 3,
     "tipo": "cultura",
     "explicacion": "Un trébol, símbolo irlandés que aparece en el escudo.",
-    "buscar": "shamrock leaves Trifolium",
-    "elegida": null,
-    "candidatas": [],
-    "obs": "Sin resultados con licencia libre: hay que cambiar la búsqueda"
+    "buscar": "shamrock",
+    "elegida": "Shamrock, OK - Abandoned Gas.jpg",
+    "candidatas": [
+      {
+        "file": "Shamrock, OK - Abandoned Gas.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "TheDoctorWho",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Shamrock,_OK_-_Abandoned_Gas.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Shamrock%2C_OK_-_Abandoned_Gas.jpg/960px-Shamrock%2C_OK_-_Abandoned_Gas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Shamrock, OK - Abandoned Gas",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Shamrock ON.JPG",
+        "ok": true,
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "P199",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Shamrock_ON.JPG",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Shamrock_ON.JPG/960px-Shamrock_ON.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Shamrock ON",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Shamrock, Oklahoma.jpg",
+        "ok": true,
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "autor": "DBinfo de Wikipedia en inglés",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Shamrock,_Oklahoma.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/93/Shamrock%2C_Oklahoma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "titulo": "Shamrock, Oklahoma",
+        "notes": [
+          "Dominio público: verificar que lo sea también en Chile"
+        ]
+      },
+      {
+        "file": "SailingBarge Shamrock, CoteheleQuay.jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Martinvl",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:SailingBarge_Shamrock,_CoteheleQuay.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/SailingBarge_Shamrock%2C_CoteheleQuay.jpg/960px-SailingBarge_Shamrock%2C_CoteheleQuay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "SailingBarge Shamrock, CoteheleQuay",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "Aubrey's sign, Shamrock, Texas LCCN2017709785.tif",
+        "ok": true,
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "autor": "John Margolies",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Aubrey%27s_sign,_Shamrock,_Texas_LCCN2017709785.tif",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Aubrey%27s_sign%2C_Shamrock%2C_Texas_LCCN2017709785.tif/lossy-page1-960px-Aubrey%27s_sign%2C_Shamrock%2C_Texas_LCCN2017709785.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Aubrey's sign, Shamrock, Texas LCCN2017709785",
+        "notes": [
+          "Dominio público: verificar que lo sea también en Chile"
+        ]
+      },
+      {
+        "file": "Jsj-750-Columbia Shamrock 1899.jpg",
+        "ok": true,
+        "licencia": "Public domain",
+        "url_licencia": "",
+        "autor": "John S. Johnston",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Jsj-750-Columbia_Shamrock_1899.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Jsj-750-Columbia_Shamrock_1899.jpg/960px-Jsj-750-Columbia_Shamrock_1899.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Jsj-750-Columbia Shamrock 1899",
+        "notes": [
+          "Dominio público: verificar que lo sea también en Chile"
+        ]
+      }
+    ],
+    "obs": ""
   },
   "colo-colo:1": {
     "equipo": "Colo-Colo",
@@ -14180,79 +14377,83 @@
     "foto": 1,
     "tipo": "origen",
     "explicacion": "Baldosas de cerámica: Sassuolo es la capital italiana de la cerámica, y el club pertenece desde 2003 a la empresa Mapei.",
-    "buscar": "ceramic tiles",
-    "elegida": "Black ceramic wall tile.jpg",
+    "buscar": "glazed floor tiles",
+    "elegida": "Glazed floor tiles at St Canice's Cathedral.jpg",
     "candidatas": [
       {
-        "file": "Black ceramic wall tile.jpg",
+        "file": "Glazed floor tiles at St Canice's Cathedral.jpg",
         "ok": true,
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Epolk",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Black_ceramic_wall_tile.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Black_ceramic_wall_tile.jpg/960px-Black_ceramic_wall_tile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Black ceramic wall tile",
+        "autor": "A.-K. D.",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:Glazed_floor_tiles_at_St_Canice%27s_Cathedral.jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Glazed_floor_tiles_at_St_Canice%27s_Cathedral.jpg/960px-Glazed_floor_tiles_at_St_Canice%27s_Cathedral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "Glazed floor tiles at St Canice's Cathedral",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
       },
       {
-        "file": "Ceramic wall tile cream.jpg",
+        "file": "13th century glazed tiles, Fontenay Abbey, France (3).jpg",
         "ok": true,
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Epolk",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Ceramic_wall_tile_cream.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Ceramic_wall_tile_cream.jpg/960px-Ceramic_wall_tile_cream.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Ceramic wall tile cream",
+        "autor": "Ibex73",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:13th_century_glazed_tiles,_Fontenay_Abbey,_France_(3).jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/13th_century_glazed_tiles%2C_Fontenay_Abbey%2C_France_%283%29.jpg/960px-13th_century_glazed_tiles%2C_Fontenay_Abbey%2C_France_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "13th century glazed tiles, Fontenay Abbey, France (3)",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
       },
       {
-        "file": "Ceramic tiles 02.jpg",
-        "ok": true,
-        "licencia": "CC0",
-        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "autor": "Houss 2020",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Ceramic_tiles_02.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Ceramic_tiles_02.jpg/960px-Ceramic_tiles_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Ceramic tiles 02",
-        "notes": []
-      },
-      {
-        "file": "Ceramic tiles 01.jpg",
-        "ok": true,
-        "licencia": "CC0",
-        "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "autor": "Houss 2020",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Ceramic_tiles_01.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Ceramic_tiles_01.jpg/960px-Ceramic_tiles_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Ceramic tiles 01",
-        "notes": []
-      },
-      {
-        "file": "Ceramic tile rectangle white fabric pattern.jpg",
+        "file": "13th century glazed tiles, Fontenay Abbey, France (6).jpg",
         "ok": true,
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Eric Polk",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Ceramic_tile_rectangle_white_fabric_pattern.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Ceramic_tile_rectangle_white_fabric_pattern.jpg/960px-Ceramic_tile_rectangle_white_fabric_pattern.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Ceramic tile rectangle white fabric pattern",
+        "autor": "Ibex73",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:13th_century_glazed_tiles,_Fontenay_Abbey,_France_(6).jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/13th_century_glazed_tiles%2C_Fontenay_Abbey%2C_France_%286%29.jpg/960px-13th_century_glazed_tiles%2C_Fontenay_Abbey%2C_France_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "13th century glazed tiles, Fontenay Abbey, France (6)",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
       },
       {
-        "file": "Ceramic tile rectangle cream color mottled.jpg",
+        "file": "13th century glazed tiles, Fontenay Abbey, France (4).jpg",
         "ok": true,
         "licencia": "CC BY-SA 4.0",
         "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
-        "autor": "Eric Polk",
-        "url_fuente": "https://commons.wikimedia.org/wiki/File:Ceramic_tile_rectangle_cream_color_mottled.jpg",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Ceramic_tile_rectangle_cream_color_mottled.jpg/960px-Ceramic_tile_rectangle_cream_color_mottled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "titulo": "Ceramic tile rectangle cream color mottled",
+        "autor": "Ibex73",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:13th_century_glazed_tiles,_Fontenay_Abbey,_France_(4).jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/13th_century_glazed_tiles%2C_Fontenay_Abbey%2C_France_%284%29.jpg/960px-13th_century_glazed_tiles%2C_Fontenay_Abbey%2C_France_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "13th century glazed tiles, Fontenay Abbey, France (4)",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "13th century glazed tiles, Fontenay Abbey, France (5).jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Ibex73",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:13th_century_glazed_tiles,_Fontenay_Abbey,_France_(5).jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/13th_century_glazed_tiles%2C_Fontenay_Abbey%2C_France_%285%29.jpg/960px-13th_century_glazed_tiles%2C_Fontenay_Abbey%2C_France_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "13th century glazed tiles, Fontenay Abbey, France (5)",
+        "notes": [
+          "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
+        ]
+      },
+      {
+        "file": "13th century glazed tiles, Fontenay Abbey, France (2).jpg",
+        "ok": true,
+        "licencia": "CC BY-SA 4.0",
+        "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "autor": "Ibex73",
+        "url_fuente": "https://commons.wikimedia.org/wiki/File:13th_century_glazed_tiles,_Fontenay_Abbey,_France_(2).jpg",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/13th_century_glazed_tiles%2C_Fontenay_Abbey%2C_France_%282%29.jpg/960px-13th_century_glazed_tiles%2C_Fontenay_Abbey%2C_France_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "titulo": "13th century glazed tiles, Fontenay Abbey, France (2)",
         "notes": [
           "CC BY-SA: si se considera obra derivada, debe compartirse con la misma licencia"
         ]
